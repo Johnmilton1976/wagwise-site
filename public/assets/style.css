@@ -118,3 +118,15 @@ h1{font-size:32px;font-weight:700;line-height:1.3;letter-spacing:-.01em;margin-b
   .hero-home h1{font-size:28px}
   .hh-img{aspect-ratio:16/10;order:-1}
 }
+
+/* ---------- homepage: all guides by topic (哥飞 E3/E4 — link every inner page) ---------- */
+.guides-index{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 40px;margin-top:20px}
+.gi-group h3{font-size:16px;margin:0 0 10px;font-weight:700}
+.gi-group h3 a{color:#1E2125;text-decoration:none}
+.gi-group h3 a:hover{color:#2E8B6A}
+.gi-group ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.gi-group li{font-size:14.5px;line-height:1.45;padding-left:14px;position:relative;color:#3A3E44}
+.gi-group li:before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:#C9D6CE}
+.gi-group li a{color:#3A3E44}
+.gi-group li a:hover{color:#2E8B6A;text-decoration:underline}
+@media(max-width:760px){.guides-index{grid-template-columns:1fr;gap:22px}}

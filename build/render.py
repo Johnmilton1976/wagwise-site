@@ -257,7 +257,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=4">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=5">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -512,6 +512,28 @@ def render_home():
     latest_cards = ""
     for a in latest:
         latest_cards += hub_card(a["url"], "ARTICLE", a["title"], a["lede"], a["slug"])
+    # All guides by topic — 哥飞 E3/E4: the homepage must link to EVERY inner
+    # page (title links, not body copy) so crawlers reach the whole site in one
+    # hop and homepage link equity flows to each article.
+    covered = set()
+    gi_groups = ""
+    for s, p in PILLARS.items():
+        slugs = [sl for sl in p.get("links", []) if sl in LOOKUP]
+        if not slugs:
+            continue
+        lis = ""
+        for slug in slugs:
+            url, title = LOOKUP[slug]
+            covered.add(slug)
+            lis += '<li><a href="%s">%s</a></li>' % (url, _html.escape(title))
+        gi_groups += ('<div class="gi-group"><h3><a href="%s">%s</a></h3><ul>%s</ul></div>'
+                      % (p["url"], _html.escape(p["nav"]), lis))
+    # Safety net: anything not listed under a pillar still gets a link.
+    orphan = [a for a in ARTICLES if a["slug"] not in covered]
+    if orphan:
+        lis = "".join('<li><a href="%s">%s</a></li>' % (a["url"], _html.escape(a["title"]))
+                      for a in orphan)
+        gi_groups += ('<div class="gi-group"><h3>More guides</h3><ul>%s</ul></div>' % lis)
     body = (
         '<div class="wrap">\n'
         "  %s\n"
@@ -521,8 +543,12 @@ def render_home():
         '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Latest guides</h2>\n'
         '  <div class="hub">%s</div>\n'
+        '  <h2 style="margin-top:40px">All guides by topic</h2>\n'
+        '  <p class="lede" style="margin-bottom:6px">Every guide on WagWise Pet, '
+        "grouped by section.</p>\n"
+        '  <div class="guides-index">%s</div>\n'
         "</div>"
-    ) % (hero, pillar_cards, feat_cards, latest_cards)
+    ) % (hero, pillar_cards, feat_cards, latest_cards, gi_groups)
     return shell(h, "/", body)
 
 
