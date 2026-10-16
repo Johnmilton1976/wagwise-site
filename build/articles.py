@@ -16,7 +16,7 @@ PILLARS = {
         "nav": "Dog Training",
         "title": "Dog Training Guides — Calm, Positive Methods",
         "url": "/dog-training/",
-        "description": "Step-by-step dog and puppy training guides: crate training, leash manners, and stopping biting and pulling with positive reinforcement.",
+        "description": "Step-by-step dog and puppy training guides: crate training, leash manners, and stopping biting and pulling — all built on reward-based positive reinforcement.",
         "eyebrow": "DOG TRAINING",
         "intro": "Training is less about commands and more about teaching your dog what pays off. These guides use positive reinforcement, so your dog works with you instead of against you.",
         "links": ["how-to-crate-train-a-puppy", "how-to-stop-puppy-biting", "how-to-leash-train-a-dog"],
@@ -40,7 +40,7 @@ PILLARS = {
         "nav": "Nutrition",
         "title": "Dog Nutrition — Feeding, Treats & Toxic Foods",
         "url": "/dog-nutrition/",
-        "description": "What to feed your dog, how much, and which human foods are safe or dangerous. Covers toxic foods, bananas, and daily feeding amounts.",
+        "description": "What to feed your dog, how much, and which human foods are safe or dangerous. Covers toxic foods, safe treats, and daily feeding amounts by body weight.",
         "eyebrow": "DOG NUTRITION",
         "intro": "Good nutrition is the cheapest health insurance you can buy for a dog. Start with how much to feed, then learn which table scraps are safe and which can land you in the ER.",
         "links": [
@@ -56,7 +56,7 @@ PILLARS = {
         "nav": "Care & Grooming",
         "title": "Dog Care & Grooming at Home",
         "url": "/dog-care/",
-        "description": "Everyday dog care you can do at home: brushing teeth, trimming nails safely, bathing, and ear cleaning — without a fight.",
+        "description": "Everyday dog care you can do at home: brushing teeth, trimming nails safely, bathing, and cleaning ears — all without turning it into a fight or a fuss.",
         "eyebrow": "DOG CARE",
         "intro": "A little regular handling prevents the big, expensive problems. These guides turn nail trims and tooth brushing into routines your dog tolerates.",
         "links": ["how-to-trim-dog-nails", "how-to-brush-dog-teeth"],
@@ -66,7 +66,7 @@ PILLARS = {
         "nav": "Cats",
         "title": "Cat Care Guides — Litter, Scratching & Spraying",
         "url": "/cat/",
-        "description": "Practical cat care guides: litter training, stopping furniture scratching, and how to stop a cat spraying indoors.",
+        "description": "Straightforward cat care guides for real household problems: litter box training, stopping furniture scratching, and how to stop a cat spraying indoors.",
         "eyebrow": "CAT CARE",
         "intro": "Cats are not small dogs. Their behavior usually has a reason — stress, territory, or a medical issue — and the fix starts with understanding it.",
         "links": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop"],
@@ -76,7 +76,7 @@ PILLARS = {
         "nav": "Reviews",
         "title": "Best Dog Products — Honest, Practical Picks",
         "url": "/best/",
-        "description": "Our practical picks for dog crates and no-pull harnesses, chosen for safety and ease of use rather than marketing hype.",
+        "description": "Practical, honest picks for dog crates and no-pull harnesses — chosen for safety, fit, and ease of daily use, not marketing hype or affiliate payouts.",
         "eyebrow": "REVIEWS",
         "intro": "We do not test every product on the market. These are the crates and harnesses we would buy for our own dogs, with the trade-offs spelled out.",
         "links": ["best-dog-crate", "best-dog-harness-for-pulling"],
@@ -99,7 +99,7 @@ ARTICLES = [
         "pillar": "dog-training",
         "title": "How to Crate Train a Puppy — First Night Included",
         "url": "/dog-training/how-to-crate-train-a-puppy/",
-        "description": "A calm, no-tears method to crate train a puppy: how long it takes, how to make the crate inviting, and exactly what to do on the first night.",
+        "description": "A calm, no-tears method to crate train a puppy: how long it really takes, how to make the crate inviting, and exactly what to do on the very first night.",
         "lede": "Crate training works best when the crate feels like a den, not a cage. Feed meals inside, reward calm time, and build up to a full night over one to two weeks.",
         "eyebrow": "DOG TRAINING",
         "body": """
@@ -148,7 +148,7 @@ ARTICLES = [
         "pillar": "dog-training",
         "title": "How to Stop Puppy Biting — Without Yelling",
         "url": "/dog-training/how-to-stop-puppy-biting/",
-        "description": "Puppy biting and nipping is normal teething behavior. Here is how to redirect it, teach bite inhibition, and when it should stop.",
+        "description": "Puppy biting and nipping is normal teething behavior, not aggression. How to redirect it, teach bite inhibition, and when the phase should finally end.",
         "lede": "Puppy biting is not aggression — it is teething and play. The fix is to redirect to a toy, reward gentle mouths, and make a brief withdrawal when teeth touch skin.",
         "eyebrow": "DOG TRAINING",
         "body": """
@@ -190,7 +190,7 @@ ARTICLES = [
         "pillar": "dog-training",
         "title": "How to Leash Train a Dog That Pulls",
         "url": "/dog-training/how-to-leash-train-a-dog/",
-        "description": "Stop leash pulling with the stop-and-go method and a front-clip harness. Calm walks in a week, not a struggle.",
+        "description": "Stop leash pulling with the stop-and-go method and a front-clip harness. A step-by-step plan for calm walks in a week, not a daily walk-time struggle.",
         "lede": "Dogs pull because pulling works — it gets them where they want to go. The fix is simple: the walk only continues when the leash is slack.",
         "eyebrow": "DOG TRAINING",
         "body": """
@@ -234,7 +234,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Dog Vomiting Causes — What's Normal and What's Urgent",
         "url": "/dog-health/dog-vomiting-causes/",
-        "description": "Why dogs throw up, when a single vomit is no big deal, and the red-flag symptoms that mean a vet visit now.",
+        "description": "Why dogs throw up, when a single vomit is no big deal, the red-flag symptoms that mean a vet visit right now, and how to tell upset from something serious.",
         "lede": "A dog that vomits once, then acts normal, is usually fine. Vomiting paired with lethargy, repeated episodes, or a swollen belly is a different story.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -277,7 +277,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Dog Ear Infection Symptoms and Home Care",
         "url": "/dog-health/dog-ear-infection-symptoms/",
-        "description": "How to spot a dog ear infection — head shaking, odor, redness — and what safe cleaning and vet treatment look like.",
+        "description": "How to spot a dog ear infection — head shaking, odor, redness, discharge — plus what safe home cleaning looks like and when a vet really needs to see it.",
         "lede": "The classic signs are head shaking, scratching at the ear, a sour smell, and red or waxy canals. Most infections need prescription drops, not just cleaning.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -320,7 +320,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Dog Not Eating but Drinking Water — Should You Worry?",
         "url": "/dog-health/dog-not-eating-but-drinking-water/",
-        "description": "Why a dog may skip food but still drink, from mild causes to serious ones, and when not eating becomes an emergency.",
+        "description": "Why a dog may stop eating but keep drinking water — from mild causes like stress to serious illness — and when not eating becomes a true medical emergency.",
         "lede": "A dog that drinks but refuses food for a day is often just under the weather. Skipping food for more than two days, or any lethargy with it, needs a vet.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -362,7 +362,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Why Is My Dog Shaking? 8 Common Reasons",
         "url": "/dog-health/why-is-my-dog-shaking/",
-        "description": "Dogs shake for many reasons — cold, stress, excitement, pain, or illness. Here is how to tell the harmless from the urgent.",
+        "description": "Dogs shake for many reasons — cold, stress, excitement, pain, nausea, or illness. How to tell harmless shivers from symptoms that need a vet's attention.",
         "lede": "Shaking can be as simple as being cold or as serious as pain or poisoning. The context — other symptoms, body temperature, behavior — tells you which.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -408,7 +408,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Why Do Dogs Eat Grass? (And When to Stop Them)",
         "url": "/dog-health/why-do-dogs-eat-grass/",
-        "description": "Dogs eat grass for boredom, an upset stomach, or just because it tastes good. Usually harmless, but frequent vomiting after grass needs a look.",
+        "description": "Dogs eat grass out of boredom, an upset stomach, or simply because it tastes good. Usually harmless — but frequent vomiting after eating grass needs a vet.",
         "lede": "Most dogs eat grass now and then and are perfectly fine. It is often boredom or instinct — not a sign your dog is sick.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -450,7 +450,7 @@ ARTICLES = [
         "pillar": "dog-health",
         "title": "Why Do Dogs Eat Poop (Coprophagia) and How to Stop It",
         "url": "/dog-health/why-do-dogs-eat-poop/",
-        "description": "Coprophagia is common and usually behavioral. Learn the causes — boredom, mimicry, diet — and practical ways to stop it.",
+        "description": "Coprophagia is common and usually behavioral rather than a sign of illness. The real causes — boredom, mimicry, diet — and practical ways to stop it for good.",
         "lede": "Eating poop is gross but common, especially in puppies. It is usually behavioral — boredom, exploration, or copying the mother — and rarely a medical emergency.",
         "eyebrow": "DOG HEALTH",
         "body": """
@@ -497,7 +497,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Foods Toxic to Dogs — The List Every Owner Needs",
         "url": "/dog-nutrition/foods-toxic-to-dogs/",
-        "description": "The human foods that can poison a dog: chocolate, grapes, onions, xylitol, and more — plus what to do if they eat one.",
+        "description": "The human foods that can poison a dog — chocolate, grapes, onions, garlic, xylitol, alcohol — and the emergency steps to take if your dog eats any of them.",
         "lede": "The most dangerous are chocolate, grapes and raisins, onions and garlic, xylitol (in sugar-free gum), and alcohol. Even small amounts can be serious for a small dog.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -542,7 +542,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Bananas? Yes — in Moderation",
         "url": "/dog-nutrition/can-dogs-eat-bananas/",
-        "description": "Bananas are safe for dogs as an occasional treat. How much, the peels, and why moderation matters for sugar and calories.",
+        "description": "Bananas are safe for dogs as an occasional treat. How much to give, why the peel should always go in the bin, and why sugar and calories add up quickly.",
         "lede": "Yes, bananas are safe for dogs in small amounts. They are a healthy treat, but their sugar and fiber mean they should stay an occasional snack, not a daily staple.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -584,7 +584,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "How Much Should I Feed My Dog? (By Weight and Age)",
         "url": "/dog-nutrition/how-much-to-feed-my-dog/",
-        "description": "A practical feeding guide: daily amounts by body weight, how often to feed puppies vs adults, and the signs you have the portion right.",
+        "description": "A practical feeding guide: daily amounts by body weight, how often to feed puppies versus adults, and the body condition signs that show the portion is right.",
         "lede": "Start from your dog's target weight and the food's calorie label, then adjust by body condition — you should feel ribs but not see them.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -631,7 +631,7 @@ ARTICLES = [
         "pillar": "dog-care",
         "title": "How to Trim Dog Nails Without the Struggle",
         "url": "/dog-care/how-to-trim-dog-nails/",
-        "description": "A calm method to trim dog nails at home, how short is safe, and what to do if you cut the quick.",
+        "description": "A calm, step-by-step method to trim your dog's nails at home, how short is actually safe, what to do if you cut the quick, and how often to trim each nail.",
         "lede": "Trim small amounts frequently and you avoid the quick — the sensitive vein inside the nail. A scratchboard or grinder also works if clippers scare your dog.",
         "eyebrow": "DOG CARE",
         "body": """
@@ -673,7 +673,7 @@ ARTICLES = [
         "pillar": "dog-care",
         "title": "How to Brush Your Dog's Teeth (And Why It Matters)",
         "url": "/dog-care/how-to-brush-dog-teeth/",
-        "description": "Brushing a dog's teeth prevents gum disease — the most common adult dog problem. A simple daily routine and dog-safe paste.",
+        "description": "Brushing a dog's teeth prevents gum disease, the most common problem in adult dogs. A simple routine, how often to do it, and which toothpaste is safe.",
         "lede": "Most adult dogs have some gum disease by age three. Two minutes of brushing most days prevents the pain, tooth loss, and cost that follow.",
         "eyebrow": "DOG CARE",
         "body": """
@@ -717,7 +717,7 @@ ARTICLES = [
         "pillar": "cat",
         "title": "Cat Litter Training — Faster Than You Think",
         "url": "/cat/cat-litter-training/",
-        "description": "Most cats litter train themselves. Set up the box right, place it well, and fix the few things that cause accidents.",
+        "description": "Most cats litter train themselves. How to set up the box right, where to place it, and how to fix the few things that cause accidents outside the box.",
         "lede": "Cats are naturally clean and most use a litter box with almost no teaching. The work is in the setup: the right box, the right litter, and a good location.",
         "eyebrow": "CAT CARE",
         "body": """
@@ -760,7 +760,7 @@ ARTICLES = [
         "pillar": "cat",
         "title": "How to Stop a Cat Scratching Furniture",
         "url": "/cat/cat-scratching-furniture/",
-        "description": "Cats scratch to mark territory and shed claw sheaths — not to ruin your sofa. Redirect to posts and make furniture less appealing.",
+        "description": "Cats scratch to mark territory and shed old claw sheaths — not to ruin your sofa. How to redirect them to posts and make your furniture less appealing.",
         "lede": "Scratching is normal cat behavior you cannot train away — but you can redirect it. Give appealing posts and make the furniture boring.",
         "eyebrow": "CAT CARE",
         "body": """
@@ -799,7 +799,7 @@ ARTICLES = [
         "pillar": "cat",
         "title": "How to Stop a Cat Spraying Indoors",
         "url": "/cat/cat-spraying-how-to-stop/",
-        "description": "Spraying is scent-marking, not a litter problem. Reduce stress, clean with enzymes, and use pheromones and neutering to stop it.",
+        "description": "Spraying is scent-marking, not a litter box problem. How to reduce stress, clean with enzymes, and use pheromones and consider neutering to stop it for good.",
         "lede": "Spraying is your cat marking territory with urine on vertical surfaces — different from litter accidents. The fix is reducing stress and conflict, not punishment.",
         "eyebrow": "CAT CARE",
         "body": """
@@ -845,7 +845,7 @@ ARTICLES = [
         "pillar": "best",
         "title": "Best Dog Crate 2026 — Practical Picks, Not Hype",
         "url": "/best/dog-crate/",
-        "description": "Our straightforward dog crate picks for puppies, anxious dogs, and travel — focused on safety, durability, and ease of cleaning.",
+        "description": "Straightforward dog crate picks for puppies, anxious dogs, and travel — chosen for safety, durability, and easy cleaning, plus clear, practical sizing guidance.",
         "lede": "The best crate is the one your dog accepts and you can clean easily. We prefer sturdy wire crates with a divider for puppies and a secure plastic crate for travel.",
         "eyebrow": "REVIEWS",
         "body": """
@@ -887,7 +887,7 @@ ARTICLES = [
         "pillar": "best",
         "title": "Best Dog Harness for Pulling — Front-Clip Picks",
         "url": "/best/dog-harness-for-pulling/",
-        "description": "The harness that actually reduces pulling is a front-clip design. Our practical picks balance control, comfort, and durability.",
+        "description": "The harness that actually reduces pulling is a front-clip design. Practical picks that balance control, comfort, and durability — plus how to fit one.",
         "lede": "A front-clip harness turns a pulling dog back toward you, which gently discourages leaning in. We favor padded, adjustable, easy-on designs over trendy ones.",
         "eyebrow": "REVIEWS",
         "body": """
@@ -930,7 +930,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Apples? Yes — Seeds and Core Out",
         "url": "/dog-nutrition/can-dogs-eat-apples/",
-        "description": "Apples are a safe, low-calorie dog treat. Why you should remove the seeds and core, and how much to offer.",
+        "description": "Yes — apples are a safe, low-calorie dog treat rich in fiber and vitamin C. Why you should always remove the seeds and core, and exactly how much to offer.",
         "lede": "Yes, apples are safe and healthy for dogs in moderation. The flesh is fine; the seeds and core are the parts to skip.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -969,7 +969,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Watermelon? Yes — Rind and Seeds Off",
         "url": "/dog-nutrition/can-dogs-eat-watermelon/",
-        "description": "Seedless watermelon flesh is a hydrating, low-calorie summer treat for dogs. Why to skip the rind and seeds.",
+        "description": "Seedless watermelon flesh is a hydrating, low-calorie summer treat most dogs love. Why to skip the rind and seeds, and exactly how much is actually safe.",
         "lede": "Yes, watermelon is safe for dogs — the red flesh only. Leave out the rind and the seeds, which can upset the stomach or cause a blockage.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1008,7 +1008,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Cheese? In Small Amounts, Sometimes",
         "url": "/dog-nutrition/can-dogs-eat-cheese/",
-        "description": "Most dogs can have a little cheese, but lactose intolerance and fat make moderation the rule. Which cheeses are safer.",
+        "description": "Most dogs can eat a little cheese, but lactose intolerance and fat make moderation the rule. Which cheeses are safer, and what a safe portion looks like.",
         "lede": "Most dogs can eat a small amount of cheese, but many are lactose intolerant and all should keep it occasional because of the fat and salt.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1047,7 +1047,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Peanut Butter? Yes — Read the Label First",
         "url": "/dog-nutrition/can-dogs-eat-peanut-butter/",
-        "description": "Peanut butter is a favorite dog treat, but xylitol is deadly. How to choose a safe jar and how much to give.",
+        "description": "Peanut butter is a favorite dog treat, but xylitol in some brands is deadly. How to read the label, choose a safe jar, and how much of it is safe to give.",
         "lede": "Yes, plain peanut butter is a great dog treat — but only if it contains no xylitol, which is extremely toxic to dogs. Always read the label.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1085,7 +1085,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Carrots? Yes — A Near-Perfect Treat",
         "url": "/dog-nutrition/can-dogs-eat-carrots/",
-        "description": "Carrots are one of the healthiest dog snacks — raw or cooked, low calorie, and good for teeth. How to serve them.",
+        "description": "Carrots are one of the healthiest dog snacks around — raw or cooked, low in calories, and good for teeth. How to serve them and just how much is too much.",
         "lede": "Yes, carrots are one of the best treats you can give a dog: low in calories, high in fiber and vitamin A, and a crunchy chew many dogs enjoy.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1124,7 +1124,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Eggs? Cooked, Plain, and Moderate",
         "url": "/dog-nutrition/can-dogs-eat-eggs/",
-        "description": "Cooked eggs are a nutritious dog food boost. Why raw eggs are a poor choice, and how to serve them safely.",
+        "description": "Cooked eggs are a nutritious, protein-rich food topper for dogs. Why raw eggs are a poor choice, how many a dog can eat per week, and how to serve them.",
         "lede": "Yes, cooked eggs are a healthy, protein-rich addition to a dog's diet. Raw eggs are best avoided because of salmonella risk and a biotin concern.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1163,7 +1163,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Chicken? Cooked, Plain, Boneless",
         "url": "/dog-nutrition/can-dogs-eat-chicken/",
-        "description": "Plain cooked chicken is a staple dog food protein. Why bones and seasoning are the danger, and how to serve it.",
+        "description": "Plain cooked chicken is a staple protein in dog food and a go-to for upset stomachs. Why bones and seasoning are the danger, and how to serve it safely.",
         "lede": "Yes, plain cooked chicken is one of the safest, most common proteins for dogs. The risks are cooked bones and rich seasoning, not the meat itself.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1202,7 +1202,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Drink Milk? Usually Not Worth It",
         "url": "/dog-nutrition/can-dogs-eat-milk/",
-        "description": "Most adult dogs are lactose intolerant, so milk tends to cause diarrhea. Small amounts of plain yogurt are a safer dairy option.",
+        "description": "Most adult dogs are lactose intolerant, so milk usually causes diarrhea and gas. Why plain yogurt and small amounts of cheese are safer dairy options.",
         "lede": "Most dogs should skip milk. Adult dogs are commonly lactose intolerant, and a bowl of milk more often leads to gas and diarrhea than any benefit.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1241,7 +1241,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Strawberries? Yes — Wash and Limit",
         "url": "/dog-nutrition/can-dogs-eat-strawberries/",
-        "description": "Strawberries are a safe, vitamin-rich dog treat. Why to keep them occasional and avoid the sugary toppings.",
+        "description": "Strawberries are a safe, vitamin-rich dog treat most dogs love. Why to keep them occasional, how many to offer, and why you should skip sugary toppings.",
         "lede": "Yes, strawberries are safe for dogs in moderation. They are low in calories and full of vitamin C, but their natural sugar means they should stay an occasional treat.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1280,7 +1280,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Grapes? NO — They Are Toxic",
         "url": "/dog-nutrition/can-dogs-eat-grapes/",
-        "description": "Grapes and raisins can cause sudden kidney failure in dogs, even in small amounts. What to do if your dog eats one.",
+        "description": "Grapes and raisins can cause sudden kidney failure in dogs, even in tiny amounts. Why there is no safe dose, and exactly what to do if yours eats one.",
         "lede": "No — grapes and raisins are toxic to dogs and can cause sudden, severe kidney failure. There is no safe amount, so treat any ingestion as an emergency.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1319,7 +1319,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Chocolate? NO — It Is Toxic",
         "url": "/dog-nutrition/can-dogs-eat-chocolate/",
-        "description": "Chocolate's theobromine is poisonous to dogs. Why dark chocolate is worst, and what to do if your dog eats any.",
+        "description": "Chocolate contains theobromine, which is poisonous to dogs. Why dark and baking chocolate are worst, the symptoms to watch for, and exactly what to do next.",
         "lede": "No — chocolate is toxic to dogs because it contains theobromine, which they cannot metabolize well. Dark and baking chocolate are the most dangerous.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1357,7 +1357,7 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Avocado? Risky — Best Avoided",
         "url": "/dog-nutrition/can-dogs-eat-avocado/",
-        "description": "Avocado flesh is less risky than the skin, pit, and leaves, but the choking and fat risks make it a treat to skip for most dogs.",
+        "description": "Avocado flesh is less risky than the skin, pit, and leaves, but the choking hazard and high fat content make it a treat that most dogs are better off skipping.",
         "lede": "Avocado is best avoided. The flesh is the safest part but still high in fat; the pit is a choking hazard and the skin and leaves carry persin, which upsets the gut.",
         "eyebrow": "DOG NUTRITION",
         "body": """
@@ -1399,7 +1399,7 @@ ARTICLES = [
 HOME = {
     "title": "WagWise Pet — Calm, Practical Dog & Cat Care Guides",
     "url": "/",
-    "description": "Straightforward dog and cat care answers: training, health symptoms, nutrition, grooming, and honest product picks — written to be useful, not scary.",
+    "description": "Straightforward dog and cat care answers: training, health symptoms, nutrition, grooming, and honest product picks — written to be useful and calm, not scary.",
     "eyebrow": "DOG & CAT CARE",
     "pillars": ["dog-training", "dog-health", "dog-nutrition", "dog-care", "cat", "best"],
     "featured": [
@@ -1418,7 +1418,7 @@ HOME = {
 ABOUT = {
     "url": "/about/",
     "title": "About WagWise Pet",
-    "description": "Why WagWise Pet exists: clear, calm pet care information for everyday dog and cat owners, with sources and no fear-mongering.",
+    "description": "Why WagWise Pet exists: clear, calm pet care information for everyday dog and cat owners, with cited sources, no fear-mongering, and no false promises.",
     "body": """
     <h1>About WagWise Pet</h1>
     <p>WagWise Pet is an independent pet care resource for everyday dog and cat owners. We write practical guides — training, symptoms, feeding, grooming, and product picks — in plain language, without the fear-mongering you find elsewhere.</p>
@@ -1434,7 +1434,7 @@ ABOUT = {
 PRIVACY = {
     "url": "/privacy/",
     "title": "Privacy Policy — WagWise Pet",
-    "description": "How WagWise Pet handles cookies, analytics, and affiliate links, and the veterinary disclaimer that applies to all content.",
+    "description": "How WagWise Pet handles cookies, analytics, and affiliate links, plus the full veterinary disclaimer that applies to every guide published on this site.",
     "body": """
     <h1>Privacy Policy</h1>
     <h2>Cookies and consent</h2>
@@ -1454,6 +1454,6 @@ PRIVACY = {
 TOOL = {
     "url": "/tools/dog-age-calculator/",
     "title": "Dog Age Calculator — Dog Years to Human Years",
-    "description": "Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the old 7x rule.",
+    "description": "Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the outdated 7x rule.",
     "eyebrow": "TOOLS",
 }
