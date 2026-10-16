@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dog Age Calculator — Dog Years to Human Years</title>
+<meta name="description" content="Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the old 7x rule.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://wagwise.org/tools/dog-age-calculator/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WagWise Pet">
+<meta property="og:title" content="Dog Age Calculator — Dog Years to Human Years">
+<meta property="og:description" content="Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the old 7x rule.">
+<meta property="og:url" content="https://wagwise.org/tools/dog-age-calculator/">
+<meta property="og:image" content="https://wagwise.org/assets/og-image.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dog Age Calculator — Dog Years to Human Years">
+<meta name="twitter:description" content="Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the old 7x rule.">
+<meta name="twitter:image" content="https://wagwise.org/assets/og-image.svg">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/assets/style.css?v=2">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "WagWise Pet",
+  "url": "https://wagwise.org/",
+  "description": "Straightforward dog and cat care answers: training, health symptoms, nutrition, grooming, and honest product picks — written to be useful, not scary."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "WagWise Pet",
+  "url": "https://wagwise.org/",
+  "logo": "https://wagwise.org/assets/og-image.svg",
+  "description": "An independent pet care editorial resource."
+}
+</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="brand" href="/">WagWise Pet</a><nav class="nav">
+      <a href="/">Home</a>
+      <a href="/dog-training/">Dog Training</a>
+      <a href="/dog-health/">Dog Health</a>
+      <a href="/dog-nutrition/">Nutrition</a>
+      <a href="/dog-care/">Care & Grooming</a>
+      <a href="/cat/">Cats</a>
+      <a href="/best/">Reviews</a>
+      <a class="on" href="/tools/dog-age-calculator/">Tools</a>
+      <a href="/about/">About</a>
+    </nav></div></header>
+<main>
+<style>
+.calc-card{max-width:540px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
+.calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027}
+.calc-row{display:flex;gap:10px;align-items:center}
+.calc-card button{margin-top:18px;width:100%;padding:13px;background:#3FA97E;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer}
+.calc-card button:hover{background:#348c69}
+.calc-result{margin-top:18px;padding:16px;border-radius:10px;background:#EAF5EF;color:#1f5c43;font-size:20px;font-weight:700;text-align:center}
+.calc-note{font-size:14px;color:#6b6f66;margin-top:10px}
+</style>
+<div class="wrap narrow">
+  <div class="eyebrow">TOOLS</div>
+  <h1>Dog Age Calculator</h1>
+  <p class="lede">Turn your dog's age into human years. Pick a size, enter the age, and we use the standard veterinary approximation, not the old multiply-by-seven rule.</p>
+  <div class="calc-card">
+    <label for="dog-size">Dog size</label>
+    <select id="dog-size">
+      <option value="small">Small (under 20 lb / 9 kg)</option>
+      <option value="medium" selected>Medium (20-50 lb / 9-23 kg)</option>
+      <option value="large">Large (50+ lb / 23+ kg)</option>
+    </select>
+    <label for="dog-age">Age</label>
+    <div class="calc-row">
+      <input id="dog-age" type="number" min="0" step="0.1" value="2">
+      <select id="dog-unit">
+        <option value="y" selected>Years</option>
+        <option value="m">Months</option>
+      </select>
+    </div>
+    <button id="dog-go" type="button">Calculate</button>
+    <div id="dog-out" class="calc-result">About 24 human years old (estimate).</div>
+    <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones.</p>
+  </div>
+  <div class="doc">
+    <h2>How the estimate works</h2>
+    <p>Dogs do not age at a flat 7x rate. The widely used approximation treats the first year as about 15 human years and the second as roughly 9 more, then adds 4 to 6 per year afterward depending on size: smaller dogs age slower, larger dogs faster.</p>
+    <h2>Why not just multiply by 7?</h2>
+    <p>A one-year-old dog is already sexually mature and well past its infancy, so 7x badly understates the first years and overstates the later ones. The size-adjusted curve is closer to how dogs actually age.</p>
+    <h2>A rough guide, not a rule</h2>
+    <p>This tool gives a quick sense of your dog's life stage. It is not a medical fact and cannot tell you how healthy your dog is. For health questions, see our dog health guides or ask your veterinarian.</p>
+  </div>
+</div>
+<script>
+(function(){
+  function calc(){
+    var size=document.getElementById('dog-size').value;
+    var age=parseFloat(document.getElementById('dog-age').value)||0;
+    var unit=document.getElementById('dog-unit').value;
+    if(unit==='m'){ age=age/12; }
+    var hy;
+    if(age<=1){ hy=Math.round(age*15); }
+    else if(age<=2){ hy=Math.round(15+(age-1)*9); }
+    else { var f={'small':4,'medium':5,'large':6}[size]; hy=Math.round(24+(age-2)*f); }
+    document.getElementById('dog-out').textContent='About '+hy+' human years old (estimate).';
+  }
+  document.getElementById('dog-go').addEventListener('click',calc);
+  calc();
+})();
+</script>
+</main>
+<footer class="site-foot"><div class="wrap"><div class="fb">
+      <a href="/">Home</a>
+      <a href="/dog-training/">Dog Training</a>
+      <a href="/dog-health/">Dog Health</a>
+      <a href="/dog-nutrition/">Nutrition</a>
+      <a href="/dog-care/">Care & Grooming</a>
+      <a href="/cat/">Cats</a>
+      <a href="/best/">Reviews</a>
+      <a href="/tools/dog-age-calculator/">Tools</a>
+      <a href="/about/">About</a>
+      <a href="/privacy/">Privacy</a>
+    </div><p>WagWise Pet is an independent pet care resource. It is not a substitute for professional veterinary advice — for anything urgent, contact a licensed veterinarian. Read our affiliate note in the privacy policy.</p></div></footer>
+<script src="/assets/cookie-consent.js" defer></script>
+</body>
+</html>

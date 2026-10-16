@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Foods Toxic to Dogs — The List Every Owner Needs">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF6EF"/>
+      <stop offset="1" stop-color="#FBFAF7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <g transform="rotate(-12 980.0 175.0)"><ellipse cx="947.0" cy="142.0" rx="19.2" ry="24.0" fill="#CFE9DC" opacity="0.90"/><ellipse cx="1013.0" cy="142.0" rx="19.2" ry="24.0" fill="#CFE9DC" opacity="0.90"/><ellipse cx="923.0" cy="172.0" rx="18.0" ry="22.5" fill="#CFE9DC" opacity="0.90"/><ellipse cx="1037.0" cy="172.0" rx="18.0" ry="22.5" fill="#CFE9DC" opacity="0.90"/><ellipse cx="980.0" cy="208.0" rx="33.0" ry="41.2" fill="#CFE9DC" opacity="0.90"/></g>
+  <g transform="rotate(-12 1050.0 300.0)"><ellipse cx="1026.9" cy="276.9" rx="13.4" ry="16.8" fill="#CFE9DC" opacity="0.70"/><ellipse cx="1073.1" cy="276.9" rx="13.4" ry="16.8" fill="#CFE9DC" opacity="0.70"/><ellipse cx="1010.1" cy="297.9" rx="12.6" ry="15.8" fill="#CFE9DC" opacity="0.70"/><ellipse cx="1089.9" cy="297.9" rx="12.6" ry="15.8" fill="#CFE9DC" opacity="0.70"/><ellipse cx="1050.0" cy="323.1" rx="23.1" ry="28.9" fill="#CFE9DC" opacity="0.70"/></g>
+  <rect x="40" y="40" width="1120" height="595" rx="18" fill="none" stroke="#3FA97E" stroke-width="3" stroke-dasharray="10 8" opacity="0.8"/>
+  <text x="90" y="58" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#2E7E5E" letter-spacing="1">PLACEHOLDER &#9656; replace with real photo</text>
+  <text x="90" y="605" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#2E7E5E">WagWise Pet</text>
+  <text x="90" y="276" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#234039">Foods Toxic to Dogs —</text>
+    <text x="90" y="332" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#234039">The List Every Owner</text>
+    <text x="90" y="388" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#234039">Needs</text>
+</svg>

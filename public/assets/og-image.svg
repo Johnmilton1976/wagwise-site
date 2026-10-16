@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F5F0"/>
+  <g fill="#3FA97E" transform="translate(560,150) scale(3)">
+    <ellipse cx="16" cy="21" rx="7.2" ry="6"/>
+    <circle cx="7.5" cy="12.5" r="3.1"/>
+    <circle cx="13.5" cy="7.5" r="3.1"/>
+    <circle cx="20.5" cy="7.5" r="3.1"/>
+    <circle cx="24.5" cy="12.5" r="3.1"/>
+  </g>
+  <text x="600" y="400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="76" font-weight="700" fill="#23262B" text-anchor="middle">WagWise Pet</text>
+  <text x="600" y="460" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" fill="#3FA97E" text-anchor="middle">Smart, calm dog &amp; cat care guides</text>
+  <text x="600" y="560" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" fill="#9A958C" text-anchor="middle">PLACEHOLDER — replace with a 1200×630 brand image before launch</text>
+</svg>
