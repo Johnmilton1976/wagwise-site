@@ -133,6 +133,14 @@ ARTICLES = [
             ("Is it cruel to crate a dog?", "No — when introduced positively and not overused. A crate should be a voluntary safe space, not a place a dog is locked for eight hours a day."),
         ],
         "related": ["how-to-stop-puppy-biting", "how-to-leash-train-a-dog", "why-do-dogs-eat-poop"],
+        "sources": [
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
+            ("American Veterinary Society of Animal Behavior — Position Statements",
+             "https://avsab.org/resources/position-statements/"),
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+        ],
         "disclaimer": "Training advice only. If crate avoidance comes with fear, drooling, or panic, consult a positive-reinforcement trainer or veterinary behaviorist.",
     },
     {
@@ -167,6 +175,14 @@ ARTICLES = [
             ("Should I use a bitter spray?", "It can help as a backup, but the core fix is redirection and withdrawal of attention. Sprays alone rarely solve the habit."),
         ],
         "related": ["how-to-crate-train-a-puppy", "how-to-leash-train-a-dog", "dog-not-eating-but-drinking-water"],
+        "sources": [
+            ("American Veterinary Society of Animal Behavior — Position Statements",
+             "https://avsab.org/resources/position-statements/"),
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+        ],
         "disclaimer": "Behavior guidance only. A puppy that breaks skin, growls, or snaps from a calm state should be assessed by a qualified trainer.",
     },
     {
@@ -201,6 +217,14 @@ ARTICLES = [
             ("Should I use a choke chain?", "No. Choke and prong collars can damage the trachea and neck and increase fear. A front-clip harness is safer and effective."),
         ],
         "related": ["best-dog-harness-for-pulling", "how-to-stop-puppy-biting", "dog-vomiting-causes"],
+        "sources": [
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
+            ("American Veterinary Society of Animal Behavior — Position Statements",
+             "https://avsab.org/resources/position-statements/"),
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+        ],
         "disclaimer": "Training guidance only. A sudden pulling change with coughing or gagging should be checked by a vet.",
     },
 
@@ -238,6 +262,14 @@ ARTICLES = [
             ("Why does my dog eat grass then throw up?", "Many dogs eat grass out of boredom or an upset stomach. Occasional grass vomiting is common and usually harmless, but frequent episodes deserve a check."),
         ],
         "related": ["dog-not-eating-but-drinking-water", "why-do-dogs-eat-grass", "foods-toxic-to-dogs"],
+        "sources": [
+            ("Merck Veterinary Manual — Vomiting in Dogs",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -273,6 +305,14 @@ ARTICLES = [
             ("How do I clean my dog's ears safely?", "Use a vet-approved cleaner, fill and massage the canal, let them shake, wipe the outside. Never insert swabs deep into the ear."),
         ],
         "related": ["how-to-trim-dog-nails", "dog-not-eating-but-drinking-water", "foods-toxic-to-dogs"],
+        "sources": [
+            ("Merck Veterinary Manual — Ear Disorders of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/ear-disorders-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -307,6 +347,14 @@ ARTICLES = [
             ("Should I force-feed my dog?", "No. Forcing food stresses a sick dog. Offer bland food; if they refuse for two days, let a vet diagnose the cause."),
         ],
         "related": ["dog-vomiting-causes", "how-much-to-feed-my-dog", "dog-not-eating-but-drinking-water"],
+        "sources": [
+            ("Merck Veterinary Manual — Digestive Disorders of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -345,6 +393,14 @@ ARTICLES = [
             ("Why does my small dog shake so much?", "Tiny breeds lose body heat fast and are prone to low blood sugar shakes. A sweater and regular meals often help."),
         ],
         "related": ["dog-not-eating-but-drinking-water", "why-do-dogs-eat-poop", "dog-vomiting-causes"],
+        "sources": [
+            ("AKC — Why Is My Dog Shaking?",
+             "https://www.akc.org/expert-advice/health/why-is-my-dog-shaking/"),
+            ("Merck Veterinary Manual — Dog Owners",
+             "https://www.merckvetmanual.com/dog-owners"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -379,6 +435,14 @@ ARTICLES = [
             ("How do I stop my dog eating grass?", "Rule out illness first, then add exercise, toys, and mental games. Supervise and redirect during yard time."),
         ],
         "related": ["dog-vomiting-causes", "why-do-dogs-eat-poop", "foods-toxic-to-dogs"],
+        "sources": [
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -416,6 +480,14 @@ ARTICLES = [
             ("What supplement stops dogs eating poop?", "Taste-aversion products exist; ask your vet first. The reliable fix is cleanup plus training, not a pill alone."),
         ],
         "related": ["why-do-dogs-eat-grass", "how-to-stop-puppy-biting", "foods-toxic-to-dogs"],
+        "sources": [
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
 
@@ -542,6 +614,14 @@ ARTICLES = [
             ("How do I know if I feed too much?", "Loss of a visible waist and difficulty feeling ribs means too much. Reduce portions about 10% and recheck in two weeks."),
         ],
         "related": ["foods-toxic-to-dogs", "can-dogs-eat-bananas", "dog-not-eating-but-drinking-water"],
+        "sources": [
+            ("Merck Veterinary Manual — Routine Health Care of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/routine-health-care-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": "General feeding guidance. Dogs with medical conditions need a vet-tailored plan.",
     },
 
@@ -578,6 +658,14 @@ ARTICLES = [
             ("My dog hates nail clippers — what then?", "Try a grinder or a scratchboard so the dog files its own nails. Pair any method with treats until it is routine."),
         ],
         "related": ["how-to-brush-dog-teeth", "dog-ear-infection-symptoms", "how-to-leash-train-a-dog"],
+        "sources": [
+            ("AKC — The Dos and Don'ts of Home Dog Grooming and Hygiene",
+             "https://www.akc.org/expert-advice/health/dog-grooming-at-home"),
+            ("Merck Veterinary Manual — Routine Care of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+        ],
         "disclaimer": "Grooming guidance only. Heavy bleeding or lameness after a trim should be checked by a vet.",
     },
     {
@@ -612,6 +700,14 @@ ARTICLES = [
             ("What if my dog won't let me brush?", "Ease in over a week with a finger and dog paste, then a soft brush. Dental chews are a partial backup."),
         ],
         "related": ["how-to-trim-dog-nails", "dog-ear-infection-symptoms", "dog-not-eating-but-drinking-water"],
+        "sources": [
+            ("AKC — The Dos and Don'ts of Home Dog Grooming and Hygiene",
+             "https://www.akc.org/expert-advice/health/dog-grooming-at-home"),
+            ("Merck Veterinary Manual — Routine Health Care of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/routine-health-care-of-dogs"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
+        ],
         "disclaimer": "Dental care guidance only. Bad breath with red gums may indicate disease needing a professional cleaning.",
     },
 
@@ -649,6 +745,14 @@ ARTICLES = [
             ("How many litter boxes do I need?", "One per cat plus one extra. So two cats do best with three boxes in different spots."),
         ],
         "related": ["cat-spraying-how-to-stop", "cat-scratching-furniture", "dog-not-eating-but-drinking-water"],
+        "sources": [
+            ("Cornell Feline Health Center",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
+            ("ASPCA — Cat Care",
+             "https://www.aspca.org/pet-care/cat-care"),
+            ("International Cat Care — Advice",
+             "https://icatcare.org/advice/"),
+        ],
         "disclaimer": "Cat care guidance only. Sudden litter box avoidance warrants a vet check for urinary issues.",
     },
     {
@@ -680,6 +784,14 @@ ARTICLES = [
             ("Do claw caps work?", "Soft caps reduce furniture damage and are safe, but they do not replace the cat's need to scratch — keep the posts."),
         ],
         "related": ["cat-litter-training", "cat-spraying-how-to-stop", "why-do-dogs-eat-poop"],
+        "sources": [
+            ("ASPCA — Common Cat Behavior Issues",
+             "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
+            ("Cornell Feline Health Center — Feline Health Topics",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics"),
+            ("International Cat Care — Advice",
+             "https://icatcare.org/advice/"),
+        ],
         "disclaimer": "Cat behavior guidance only. Sudden changes in scratching with over-grooming can signal stress or skin issues — ask a vet.",
     },
     {
@@ -716,6 +828,14 @@ ARTICLES = [
             ("How do I clean cat spray?", "Use an enzyme cleaner, not regular cleaner, so the scent that triggers re-marking is fully removed."),
         ],
         "related": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop"],
+        "sources": [
+            ("ASPCA — Common Cat Behavior Issues",
+             "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
+            ("Merck Veterinary Manual — Behavior of Cats",
+             "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
+            ("Cornell Feline Health Center",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
 
@@ -752,6 +872,14 @@ ARTICLES = [
             ("Do I need a crate for my dog?", "Not required, but it speeds house training and gives a safe space. Many dogs come to love theirs."),
         ],
         "related": ["how-to-crate-train-a-puppy", "best-dog-harness-for-pulling", "dog-care"],
+        "sources": [
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
+            ("American Veterinary Society of Animal Behavior — Position Statements",
+             "https://avsab.org/resources/position-statements/"),
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+        ],
         "disclaimer": "Product guidance is opinion based on general use; we may earn a commission from linked retailers at no cost to you. Always check current safety ratings.",
     },
     {
@@ -786,6 +914,14 @@ ARTICLES = [
             ("Should I use a collar or harness?", "For pullers, a front-clip harness protects the neck. Keep ID tags on a flat collar underneath."),
         ],
         "related": ["how-to-leash-train-a-dog", "best-dog-crate", "why-is-my-dog-shaking"],
+        "sources": [
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
+            ("American Veterinary Society of Animal Behavior — Position Statements",
+             "https://avsab.org/resources/position-statements/"),
+            ("Merck Veterinary Manual — Behavior of Dogs",
+             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+        ],
         "disclaimer": "Product guidance is opinion based on general use; we may earn a commission from linked retailers at no cost to you. Check fit and safety for your dog.",
     },
     # ---------------- Dog nutrition: "can dogs eat X" cluster ----------------

@@ -310,6 +310,13 @@ def article_jsonld(a):
         "datePublished": SITE_LAUNCH,
         "dateModified": SITE_LAUNCH,
     }
+    # Machine-readable citations — lets search engines see the provenance of
+    # every health claim without parsing the page.
+    if a.get("sources"):
+        d["citation"] = [
+            {"@type": "CreativeWork", "name": label, "url": url}
+            for label, url in a["sources"]
+        ]
     return json.dumps(d, ensure_ascii=False, indent=2)
 
 
