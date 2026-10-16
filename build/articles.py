@@ -97,7 +97,7 @@ ARTICLES = [
     {
         "slug": "how-to-crate-train-a-puppy",
         "pillar": "dog-training",
-        "title": "How to Crate Train a Puppy — Step-by-Step (First Night Included)",
+        "title": "How to Crate Train a Puppy — First Night Included",
         "url": "/dog-training/how-to-crate-train-a-puppy/",
         "description": "A calm, no-tears method to crate train a puppy: how long it takes, how to make the crate inviting, and exactly what to do on the first night.",
         "lede": "Crate training works best when the crate feels like a den, not a cage. Feed meals inside, reward calm time, and build up to a full night over one to two weeks.",
