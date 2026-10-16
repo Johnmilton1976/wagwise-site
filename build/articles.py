@@ -455,6 +455,14 @@ ARTICLES = [
             ("Is xylitol in peanut butter? ", "Some brands use xylitol. Always read the label; choose a plain peanut butter with no xylitol for dog treats."),
         ],
         "related": ["can-dogs-eat-bananas", "how-much-to-feed-my-dog", "why-do-dogs-eat-poop"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -489,6 +497,14 @@ ARTICLES = [
             ("Are bananas bad for dogs with diarrhea?", "Bananas' fiber can either help or loosen stools. For an upset belly, plain boiled chicken and rice is the safer first choice."),
         ],
         "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "dog-vomiting-causes"],
+        "sources": [
+            ("AKC — Can Dogs Eat Bananas?",
+             "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/"),
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -802,6 +818,14 @@ ARTICLES = [
             ("Why remove apple seeds for dogs?", "Seeds contain amygdalin, which can release cyanide; the core is also a choking risk."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("AKC — Can Dogs Eat Apples?",
+             "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-apples/"),
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -833,6 +857,14 @@ ARTICLES = [
             ("Is watermelon good for overweight dogs?", "Yes — it is very low in calories, so it is a good treat for dogs on a diet, in small amounts."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -864,6 +896,14 @@ ARTICLES = [
             ("Can I use cheese to hide my dog's pill?", "A tiny amount is a common, safe trick, as long as your dog tolerates dairy."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -894,6 +934,14 @@ ARTICLES = [
             ("Can puppies eat peanut butter?", "A tiny amount of plain, xylitol-free peanut butter is fine, but keep portions very small for puppies."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("Pet Poison Helpline — Xylitol",
+             "https://www.petpoisonhelpline.com/poison/xylitol/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -925,6 +973,14 @@ ARTICLES = [
             ("Can diabetic dogs eat carrots?", "Yes, in moderation — carrots are low in sugar and a good low-calorie treat for diabetic dogs."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -956,6 +1012,14 @@ ARTICLES = [
             ("How many eggs can a dog eat?", "About one egg a few times per week for most dogs, adjusted for their size and diet."),
         ],
         "related": ["can-dogs-eat-chicken", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -987,6 +1051,14 @@ ARTICLES = [
             ("Is chicken good for a sick dog?", "Plain boiled chicken with rice is the standard bland meal for mild tummy upset; see a vet if it persists."),
         ],
         "related": ["can-dogs-eat-eggs", "dog-vomiting-causes", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -1018,6 +1090,14 @@ ARTICLES = [
             ("Can puppies drink cow's milk?", "No — use a proper puppy milk replacer; cow's milk is unbalanced for puppies."),
         ],
         "related": ["can-dogs-eat-cheese", "can-dogs-eat-bananas", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -1049,6 +1129,14 @@ ARTICLES = [
             ("Are strawberry tops safe for dogs?", "The green tops are not toxic, but most dogs prefer the fruit; remove them if your dog is a picky eater."),
         ],
         "related": ["can-dogs-eat-bananas", "can-dogs-eat-watermelon", "foods-toxic-to-dogs"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -1080,6 +1168,14 @@ ARTICLES = [
             ("What should I do if my dog ate a grape?", "Call your vet or animal poison control now. Do not wait for symptoms to appear."),
         ],
         "related": ["foods-toxic-to-dogs", "dog-vomiting-causes", "can-dogs-eat-bananas"],
+        "sources": [
+            ("Pet Poison Helpline — Grapes",
+             "https://www.petpoisonhelpline.com/poison/grapes/"),
+            ("Pet Poison Helpline — Raisins",
+             "https://www.petpoisonhelpline.com/poison/raisins/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
         "disclaimer": "This article is general information, not veterinary advice. If your dog may have eaten grapes or raisins, contact a veterinarian or emergency clinic right away.",
     },
     {
@@ -1110,6 +1206,14 @@ ARTICLES = [
             ("What should I do if my dog ate chocolate?", "Call your vet or animal poison control with the type, amount, and your dog's weight as soon as possible."),
         ],
         "related": ["foods-toxic-to-dogs", "dog-vomiting-causes", "can-dogs-eat-grapes"],
+        "sources": [
+            ("Pet Poison Helpline — Chocolate",
+             "https://www.petpoisonhelpline.com/poison/chocolate/"),
+            ("Merck Veterinary Manual — Chocolate Toxicosis in Animals",
+             "https://www.merckvetmanual.com/toxicology/food-hazards/chocolate-toxicosis-in-animals"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
         "disclaimer": "This article is general information, not veterinary advice. If your dog may have eaten chocolate, contact a veterinarian or emergency clinic right away.",
     },
     {
@@ -1141,6 +1245,14 @@ ARTICLES = [
             ("Why avoid avocado for dogs?", "Safer, lower-fat treats exist, and the fat content can trigger pancreatitis in sensitive dogs."),
         ],
         "related": ["foods-toxic-to-dogs", "can-dogs-eat-bananas", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("Pet Poison Helpline — Avocado",
+             "https://www.petpoisonhelpline.com/poison/avocado/"),
+            ("Merck Veterinary Manual — Avocado Toxicosis in Animals",
+             "https://www.merckvetmanual.com/toxicology/food-hazards/avocado-toxicosis-in-animals"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
 ]

@@ -232,7 +232,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s/assets/og-image-wagwise.png">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=3">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=4">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -349,6 +349,21 @@ def render_article(a):
     if a.get("disclaimer"):
         disc_html = '<div class="disclaimer">%s</div>' % a["disclaimer"]
 
+    # Sources — real, verifiable citations. YMYL health content needs traceable
+    # provenance, so every factual claim traces back to a named public source.
+    src_html = ""
+    if a.get("sources"):
+        lis = "".join(
+            '<li><a href="%s" target="_blank" rel="noopener">%s</a></li>' % (u, label)
+            for label, u in a["sources"]
+        )
+        src_html = (
+            '<div class="sources"><h2>Sources</h2><ul>%s</ul>'
+            '<p class="srcnote">Facts in this article were checked against the public '
+            "references above. These organisations are independent and are not "
+            "affiliated with WagWise Pet.</p></div>" % lis
+        )
+
     byline_html = BYLINE_HTML
 
     crumb = (
@@ -373,6 +388,7 @@ def render_article(a):
         "  %s\n"
         "  %s\n"
         "  %s\n"
+        "  %s\n"
         "</div>"
     ) % (
         crumb,
@@ -383,6 +399,7 @@ def render_article(a):
         a["body"],
         faq_html,
         rel_html,
+        src_html,
         disc_html,
         byline_html,
     )
