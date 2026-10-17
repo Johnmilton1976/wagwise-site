@@ -1,4 +1,8 @@
 {
+ "best-dog-crate-og": [
+  1200,
+  630
+ ],
  "best-dog-crate-thumb": [
   480,
   300
@@ -6,6 +10,10 @@
  "best-dog-crate": [
   1600,
   1067
+ ],
+ "best-dog-harness-for-pulling-og": [
+  1200,
+  630
  ],
  "best-dog-harness-for-pulling-thumb": [
   480,
@@ -15,6 +23,10 @@
   1600,
   1067
  ],
+ "best-og": [
+  1200,
+  630
+ ],
  "best-thumb": [
   480,
   300
@@ -22,6 +34,10 @@
  "best": [
   1600,
   1067
+ ],
+ "can-dogs-eat-apples-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-apples-thumb": [
   480,
@@ -31,6 +47,10 @@
   1600,
   1067
  ],
+ "can-dogs-eat-avocado-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-avocado-thumb": [
   480,
   300
@@ -38,6 +58,10 @@
  "can-dogs-eat-avocado": [
   1600,
   1200
+ ],
+ "can-dogs-eat-bananas-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-bananas-thumb": [
   480,
@@ -47,6 +71,10 @@
   1600,
   1067
  ],
+ "can-dogs-eat-carrots-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-carrots-thumb": [
   480,
   300
@@ -54,6 +82,10 @@
  "can-dogs-eat-carrots": [
   1600,
   1200
+ ],
+ "can-dogs-eat-cheese-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-cheese-thumb": [
   480,
@@ -63,6 +95,10 @@
   1600,
   1200
  ],
+ "can-dogs-eat-chicken-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-chicken-thumb": [
   480,
   300
@@ -70,6 +106,10 @@
  "can-dogs-eat-chicken": [
   1600,
   1200
+ ],
+ "can-dogs-eat-chocolate-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-chocolate-thumb": [
   480,
@@ -79,6 +119,10 @@
   1600,
   1143
  ],
+ "can-dogs-eat-eggs-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-eggs-thumb": [
   480,
   300
@@ -86,6 +130,10 @@
  "can-dogs-eat-eggs": [
   1600,
   1067
+ ],
+ "can-dogs-eat-grapes-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-grapes-thumb": [
   480,
@@ -95,6 +143,10 @@
   1600,
   1067
  ],
+ "can-dogs-eat-milk-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-milk-thumb": [
   480,
   300
@@ -102,6 +154,10 @@
  "can-dogs-eat-milk": [
   1600,
   2844
+ ],
+ "can-dogs-eat-peanut-butter-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-peanut-butter-thumb": [
   480,
@@ -111,6 +167,10 @@
   1600,
   1067
  ],
+ "can-dogs-eat-strawberries-og": [
+  1200,
+  630
+ ],
  "can-dogs-eat-strawberries-thumb": [
   480,
   300
@@ -118,6 +178,10 @@
  "can-dogs-eat-strawberries": [
   1600,
   1067
+ ],
+ "can-dogs-eat-watermelon-og": [
+  1200,
+  630
  ],
  "can-dogs-eat-watermelon-thumb": [
   480,
@@ -127,6 +191,22 @@
   1600,
   1067
  ],
+ "cat-hairballs-og": [
+  1200,
+  630
+ ],
+ "cat-hairballs-thumb": [
+  480,
+  300
+ ],
+ "cat-hairballs": [
+  6016,
+  4000
+ ],
+ "cat-litter-training-og": [
+  1200,
+  630
+ ],
  "cat-litter-training-thumb": [
   480,
   300
@@ -135,6 +215,14 @@
   1600,
   1067
  ],
+ "cat-og": [
+  1200,
+  630
+ ],
+ "cat-scratching-furniture-og": [
+  1200,
+  630
+ ],
  "cat-scratching-furniture-thumb": [
   480,
   300
@@ -142,6 +230,10 @@
  "cat-scratching-furniture": [
   1600,
   1082
+ ],
+ "cat-spraying-how-to-stop-og": [
+  1200,
+  630
  ],
  "cat-spraying-how-to-stop-thumb": [
   480,
@@ -159,6 +251,10 @@
   1600,
   1067
  ],
+ "dog-care-og": [
+  1200,
+  630
+ ],
  "dog-care-thumb": [
   480,
   300
@@ -166,6 +262,10 @@
  "dog-care": [
   1600,
   986
+ ],
+ "dog-ear-infection-symptoms-og": [
+  1200,
+  630
  ],
  "dog-ear-infection-symptoms-thumb": [
   480,
@@ -175,6 +275,10 @@
   1600,
   1067
  ],
+ "dog-health-og": [
+  1200,
+  630
+ ],
  "dog-health-thumb": [
   480,
   300
@@ -182,6 +286,10 @@
  "dog-health": [
   1600,
   1067
+ ],
+ "dog-not-eating-but-drinking-water-og": [
+  1200,
+  630
  ],
  "dog-not-eating-but-drinking-water-thumb": [
   480,
@@ -191,6 +299,10 @@
   1600,
   1067
  ],
+ "dog-nutrition-og": [
+  1200,
+  630
+ ],
  "dog-nutrition-thumb": [
   480,
   300
@@ -198,6 +310,10 @@
  "dog-nutrition": [
   1600,
   1280
+ ],
+ "dog-training-og": [
+  1200,
+  630
  ],
  "dog-training-thumb": [
   480,
@@ -207,6 +323,10 @@
   1600,
   1067
  ],
+ "dog-vomiting-causes-og": [
+  1200,
+  630
+ ],
  "dog-vomiting-causes-thumb": [
   480,
   300
@@ -214,6 +334,10 @@
  "dog-vomiting-causes": [
   1600,
   1067
+ ],
+ "foods-toxic-to-dogs-og": [
+  1200,
+  630
  ],
  "foods-toxic-to-dogs-thumb": [
   480,
@@ -227,6 +351,10 @@
   1600,
   1200
  ],
+ "how-much-to-feed-my-dog-og": [
+  1200,
+  630
+ ],
  "how-much-to-feed-my-dog-thumb": [
   480,
   300
@@ -234,6 +362,10 @@
  "how-much-to-feed-my-dog": [
   1600,
   1071
+ ],
+ "how-to-brush-dog-teeth-og": [
+  1200,
+  630
  ],
  "how-to-brush-dog-teeth-thumb": [
   480,
@@ -243,6 +375,10 @@
   1600,
   1143
  ],
+ "how-to-crate-train-a-puppy-og": [
+  1200,
+  630
+ ],
  "how-to-crate-train-a-puppy-thumb": [
   480,
   300
@@ -250,6 +386,10 @@
  "how-to-crate-train-a-puppy": [
   1600,
   1200
+ ],
+ "how-to-leash-train-a-dog-og": [
+  1200,
+  630
  ],
  "how-to-leash-train-a-dog-thumb": [
   480,
@@ -259,6 +399,10 @@
   1600,
   1067
  ],
+ "how-to-stop-puppy-biting-og": [
+  1200,
+  630
+ ],
  "how-to-stop-puppy-biting-thumb": [
   480,
   300
@@ -266,6 +410,10 @@
  "how-to-stop-puppy-biting": [
   1600,
   1067
+ ],
+ "how-to-trim-dog-nails-og": [
+  1200,
+  630
  ],
  "how-to-trim-dog-nails-thumb": [
   480,
@@ -275,6 +423,10 @@
   1600,
   1205
  ],
+ "why-do-dogs-eat-grass-og": [
+  1200,
+  630
+ ],
  "why-do-dogs-eat-grass-thumb": [
   480,
   300
@@ -283,6 +435,10 @@
   1600,
   1067
  ],
+ "why-do-dogs-eat-poop-og": [
+  1200,
+  630
+ ],
  "why-do-dogs-eat-poop-thumb": [
   480,
   300
@@ -290,6 +446,22 @@
  "why-do-dogs-eat-poop": [
   1600,
   900
+ ],
+ "why-does-my-cat-meow-at-night-og": [
+  1200,
+  630
+ ],
+ "why-does-my-cat-meow-at-night-thumb": [
+  480,
+  300
+ ],
+ "why-does-my-cat-meow-at-night": [
+  5632,
+  3755
+ ],
+ "why-is-my-dog-shaking-og": [
+  1200,
+  630
  ],
  "why-is-my-dog-shaking-thumb": [
   480,

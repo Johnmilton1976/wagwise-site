@@ -31,6 +31,8 @@ const MAP = {
   "cat-litter-training":               "pexels-wonderofhisworld-40199459.jpg",         // 灰猫趴着
   "cat-scratching-furniture":          "pexels-nam-quan-nguy-n-459228913-16164485.jpg",// 两只猫趴在沙发上（家具场景）
   "cat-spraying-how-to-stop":          "pexels-lexa-shep-1842481100-29328554.jpg",     // 黑白猫侧卧
+  "cat-hairballs":                     "pexels-ezz7-979503.jpg",                       // 三只猫躺卧（多猫/理毛场景，2026-10-17 补）
+  "why-does-my-cat-meow-at-night":     "pexels-brunoabdiel-10241192.jpg",              // 两只小猫躺床上（深夜清醒场景，2026-10-17 补）
   // ── Best / Reviews ──
   "best-dog-crate":                    "pexels-yunustug-8192221.jpg",                  // 车里的小白狗（箱内感）
   "best-dog-harness-for-pulling":      "pexels-matreding-31173351.jpg",                // 戴项圈的狗

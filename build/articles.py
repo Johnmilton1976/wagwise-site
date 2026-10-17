@@ -64,12 +64,12 @@ PILLARS = {
     "cat": {
         "slug": "cat",
         "nav": "Cats",
-        "title": "Cat Care Guides — Litter, Scratching & Spraying",
+        "title": "Cat Care Guides — Behaviour, Health & Everyday Problems",
         "url": "/cat/",
-        "description": "Straightforward cat care guides for real household problems: litter box training, stopping furniture scratching, and how to stop a cat spraying indoors.",
+        "description": "Practical cat care guides: litter box training, furniture scratching, spraying, hairballs, and night-time meowing — with the medical causes to rule out first.",
         "eyebrow": "CAT CARE",
         "intro": "Cats are not small dogs. Their behavior usually has a reason — stress, territory, or a medical issue — and the fix starts with understanding it.",
-        "links": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop"],
+        "links": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop", "cat-hairballs", "why-does-my-cat-meow-at-night"],
     },
     "best": {
         "slug": "best",
@@ -827,7 +827,7 @@ ARTICLES = [
             ("Will neutering stop my cat spraying?", "Often yes, especially in males — neutering removes most hormone-driven marking. Established habits may need extra steps."),
             ("How do I clean cat spray?", "Use an enzyme cleaner, not regular cleaner, so the scent that triggers re-marking is fully removed."),
         ],
-        "related": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop"],
+        "related": ["cat-litter-training", "cat-scratching-furniture", "cat-hairballs"],
         "sources": [
             ("ASPCA — Common Cat Behavior Issues",
              "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
@@ -1390,6 +1390,111 @@ ARTICLES = [
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
+    {
+        "slug": "cat-hairballs",
+        "pillar": "cat",
+        "title": "Cat Hairballs — What's Normal and When to Worry",
+        "url": "/cat/cat-hairballs/",
+        "description": "Fur coming back up is part of how cats work. How often a hairball is normal, what makes them worse, and the signs that turn a hairball into a vet visit.",
+        "lede": "A hairball now and then is normal grooming housekeeping. The pattern is what matters — how often, how easily, and whether your cat is otherwise fine.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Why hairballs happen</h2>
+        <p>Cats groom themselves with barbed tongues that pull loose fur out of the coat — and the fur gets swallowed. Most passes through the gut without trouble; some collects into a compact wet tube that comes back up. Long-haired cats and heavy shedders produce more, simply because they swallow more fur.</p>
+
+        <h2>How often is normal</h2>
+        <ul>
+          <li>Up to about one hairball every week or two is common, especially in long-haired breeds during a shed.</li>
+          <li>Several a week, or a sudden increase, is not normal — it usually means the gut is moving fur through too slowly.</li>
+          <li>Effortless vomiting of a formed tube right after eating grass or grooming is typical; straining without producing anything is not.</li>
+        </ul>
+        <div class="callout warn">Retching with no hairball coming up, refusing food, constipation or no stool, a swollen belly, or low energy are blockage warning signs. A trichobezoar (fur mass) can lodge in the intestine and needs a vet the same day.</div>
+
+        <h2>What actually reduces hairballs</h2>
+        <ul>
+          <li>Brush regularly — daily for long-haired cats, a few times a week otherwise. Fur you remove is fur they cannot swallow.</li>
+          <li>Wipe the coat with a damp cloth or grooming wipe after brushing to catch loose undercoat.</li>
+          <li>Add fiber and water: some cats do better on a higher-fiber hairball-control diet, and fountains or wet food keep gut contents moving.</li>
+          <li>Malt-based hairball pastes or gels a few times a week can help fur slide through the gut.</li>
+          <li>More play, less bored over-grooming — some cats lick themselves for something to do.</li>
+        </ul>
+
+        <h2>Watch the other end of the pattern</h2>
+        <p>A senior cat that grooms less may develop matted fur — that is worth a check too, since stiff joints make stretching to groom painful. And sudden over-grooming that leads to bald patches is usually stress or skin trouble, not a hairball problem. Hairballs are a plumbing symptom; the coat and the gut tell the story together.</p>
+        """,
+        "faq": [
+            ("How often is it normal for a cat to bring up hairballs?", "Roughly once every one to two weeks is common, more in long-haired cats during shedding season. Several a week or a sudden increase warrants a vet check."),
+            ("Can a hairball actually cause a blockage?", "Yes — a compacted fur mass can lodge in the intestine. Repeated retching with nothing produced, appetite loss, constipation, or a tender belly are same-day vet signs."),
+            ("Do hairball-control diets and pastes work?", "They can help — added fiber and lubricant pastes move swallowed fur through the gut. Grooming is still the biggest lever, because it stops fur at the source."),
+        ],
+        "related": ["why-does-my-cat-meow-at-night", "cat-scratching-furniture", "dog-vomiting-causes"],
+        "sources": [
+            ("International Cat Care — Hairballs in Cats",
+             "https://icatcare.org/advice/hairballs-in-cats/"),
+            ("International Cat Care — Grooming Your Cat",
+             "https://icatcare.org/articles/grooming-your-cat"),
+            ("Cornell Feline Health Center",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
+        ],
+        "disclaimer": "Cat health guidance only. Frequent vomiting, retching without a hairball, or a bloated, painful belly need a veterinarian the same day.",
+    },
+    {
+        "slug": "why-does-my-cat-meow-at-night",
+        "pillar": "cat",
+        "title": "Why Does My Cat Meow at Night — and How to Make It Stop",
+        "url": "/cat/why-does-my-cat-meow-at-night/",
+        "description": "Cats are wired for dawn and dusk, not for your sleep schedule. The real causes of night-time meowing, the evening routine that works, and when it means illness.",
+        "lede": "A cat yelling at your bedroom door at 3 a.m. is not being difficult. The cause is usually energy, hunger, or a habit you accidentally trained — and the fix is a routine, not a punishment.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Cats are crepuscular, not nocturnal</h2>
+        <p>Cats are most active at dawn and dusk — the hunting hours of their wild ancestors. An indoor cat that slept all day and got no exercise while you were at work is wide awake exactly when you are falling asleep. Some night noise is therefore normal; the goal is to move it, not to erase it.</p>
+
+        <h2>The usual suspects</h2>
+        <ul>
+          <li>Leftover energy with nowhere to go — especially in kittens and young adults.</li>
+          <li>Hunger — a cat fed dinner at 6 p.m. is genuinely starving by morning, and learns that calling works.</li>
+          <li>Trained behavior — if meowing has ever gotten food, a door opened, or even a scolding, it was rewarded. Attention of any kind counts.</li>
+          <li>Unneutered cats yowl to find mates; outdoor cats visible through the window can trigger territory calling.</li>
+        </ul>
+
+        <h2>The evening routine that works</h2>
+        <p>Cats run on a natural cycle: hunt, catch, kill, eat, groom, sleep. You can borrow it:</p>
+        <ul>
+          <li><strong>Play hard before bed</strong> — 10 to 15 minutes with a wand toy, enough to actually tire them, ideally twice in the evening.</li>
+          <li><strong>Feed the main meal after play</strong> — a full belly after a "hunt" is the natural signal to sleep.</li>
+          <li><strong>Leave quiet enrichment</strong> — a puzzle feeder, a scratching post, a box. Not string or feather toys unsupervised.</li>
+          <li><strong>Then hold the line</strong> — if they call at 3 a.m. and you feed them, you have taught them to call louder and longer. Check they are safe, then ignore it. Expect a few worse nights first.</li>
+        </ul>
+        <div class="callout">An automatic feeder that opens at 5 a.m. breaks the link between <em>you</em> and breakfast — the single most effective fix for food-driven dawn calling.</div>
+
+        <h2>When night meowing means illness</h2>
+        <p>A sudden change — a cat that never called at night now yowling loudly — deserves a vet visit before any behavior plan. In cats over about seven, increased night-time vocalizing is a classic sign of an overactive thyroid, high blood pressure, kidney disease, joint pain, or age-related cognitive decline (confusion and changed sleep-wake cycles). These are common in older cats and most are treatable, so do not write it off as "just getting old".</p>
+
+        <h2>What not to do</h2>
+        <ul>
+          <li>Do not punish — yelling or spraying frightens the cat and still counts as attention, so it reinforces the noise.</li>
+          <li>Do not give in "just once" — intermittent rewards are the strongest kind for building a habit.</li>
+          <li>Do not assume all meowing is misbehavior — a new, distressed-sounding call in an older cat is information, not nuisance.</li>
+        </ul>
+        """,
+        "faq": [
+            ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check needs are met, then stop responding, and keep a hard play session and late meal before your bedtime."),
+            ("Should I just ignore a cat meowing at night?", "If the behavior is a learned request and the cat is safe, yes — responding rewards it. But a sudden change in a cat that never called before, especially over age seven, needs a vet check first."),
+            ("Why is my old cat yowling loudly at night?", "In senior cats, night yowling often signals an overactive thyroid, high blood pressure, kidney disease, or cognitive decline. Most causes are treatable — see the vet, do not dismiss it as old age."),
+        ],
+        "related": ["cat-hairballs", "cat-litter-training", "cat-spraying-how-to-stop"],
+        "sources": [
+            ("Cats Protection — Cats at Night",
+             "https://www.cats.org.uk/help-and-advice/home-and-environment/cats-at-night"),
+            ("ASPCA — Common Cat Behavior Issues",
+             "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
+            ("Merck Veterinary Manual — Behavior of Cats",
+             "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
+        ],
+        "disclaimer": HEALTH_DISCLAIMER,
     },
 ]
 
