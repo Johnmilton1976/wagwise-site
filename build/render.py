@@ -55,6 +55,20 @@ BYLINE_HTML = (
     "anything urgent, please consult a licensed veterinarian.</div>"
 ) % (ORG_NAME, ORG_NAME)
 
+DEFAULT_CHECKED = "2026-10-16"
+
+
+def _checked_label(iso):
+    """'2026-10-16' -> '16 October 2026'. Keeps the citation date human and unambiguous."""
+    iso = iso or DEFAULT_CHECKED
+    try:
+        y, m, d = [int(x) for x in iso.split("-")]
+        months = ("January", "February", "March", "April", "May", "June", "July",
+                  "August", "September", "October", "November", "December")
+        return "%d %s %d" % (d, months[m - 1], y)
+    except Exception:
+        return iso
+
 
 def img_src(slug):
     """Use a real raster photo if 朱朱 dropped one in, else the SVG placeholder.
@@ -394,8 +408,10 @@ def render_article(a):
         src_html = (
             '<div class="sources"><h2>Sources</h2><ul>%s</ul>'
             '<p class="srcnote">Facts in this article were checked against the public '
-            "references above. These organisations are independent and are not "
-            "affiliated with WagWise Pet.</p></div>" % lis
+            "references above on %s. These organisations are independent and are not "
+            "affiliated with WagWise Pet. See our <a href=\"/about/\">editorial "
+            "standards</a> for how we research and correct guides.</p></div>"
+            % (lis, _checked_label(a.get("checked")))
         )
 
     byline_html = BYLINE_HTML
@@ -483,7 +499,7 @@ def render_home():
         '<div class="hero-home">\n'
         '  <div class="hh-txt">\n'
         '    <div class="eyebrow">%s</div>\n'
-        "    <h1>Calm, practical dog &amp; cat care guides</h1>\n"
+        "    <h1>Dog and cat care guides — written to be useful, not scary</h1>\n"
         '    <p class="lede">%s</p>\n'
         '    <div class="hh-btns">\n'
         '      <a class="btn" href="/dog-training/">Explore the guides</a>\n'

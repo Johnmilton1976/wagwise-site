@@ -1438,6 +1438,7 @@ ARTICLES = [
             ("Cornell Feline Health Center",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
         ],
+        "checked": "2026-10-17",
         "disclaimer": "Cat health guidance only. Frequent vomiting, retching without a hairball, or a bloated, painful belly need a veterinarian the same day.",
     },
     {
@@ -1494,6 +1495,7 @@ ARTICLES = [
             ("Merck Veterinary Manual — Behavior of Cats",
              "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
         ],
+        "checked": "2026-10-17",
         "disclaimer": HEALTH_DISCLAIMER,
     },
 ]
@@ -1531,6 +1533,17 @@ ABOUT = {
     <p>Every article is built around a real question a pet owner actually types into search. We lead with the answer, back it with reputable sources, and flag what is urgent versus what can wait. Where a topic touches health, we point you to a veterinarian rather than pretending to be one.</p>
     <h2>Who writes this</h2>
     <p>Content is researched and edited against established veterinary and training references. We are not a clinic; for diagnosis and treatment, your local vet is the authority.</p>
+    <h2>How we research a guide</h2>
+    <p>Every health or behaviour claim is checked against named public references — the ASPCA, the Merck Veterinary Manual, Cornell Feline Health Center, International Cat Care, the AKC, the AVMA and the American Veterinary Society of Animal Behavior — rather than against other blog posts. You can see the exact list at the bottom of each article, with links out, so you can check us rather than trust us.</p>
+    <h2>Editorial standards</h2>
+    <ul>
+      <li><strong>We do not invent expertise.</strong> No article claims to be written or reviewed by a veterinarian unless it was. We are an editorial team that reads veterinary sources closely and cites them.</li>
+      <li><strong>Every guide carries a check date.</strong> The date under the Sources block is the last time the facts were checked against those references — not the day the page was published or reformatted.</li>
+      <li><strong>We separate urgent from optional.</strong> Where a symptom needs same-day veterinary care, the guide says so at the point where it matters, not in a vague warning at the end.</li>
+      <li><strong>No fear-mongering, no guarantees.</strong> We do not promise outcomes, and we do not stretch a study's finding further than the source does.</li>
+    </ul>
+    <h2>Corrections</h2>
+    <p>If something here is wrong, out of date, or contradicts the source we cited, tell us and we will fix it and say so. Email <a href="mailto:contact@wagwise.org">contact@wagwise.org</a> with the page address and the source that disagrees. Substantive corrections are reflected in the check date on that guide.</p>
     <h2>How we make money</h2>
     <p>Some product pages contain affiliate links. If you buy through them, we may earn a small commission at no extra cost to you. Our picks are based on usefulness, never on commission.</p>
     """,
