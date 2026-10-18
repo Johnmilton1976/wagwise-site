@@ -431,7 +431,9 @@ def render_article(a):
         '  <div class="eyebrow">%s</div>\n'
         "  <h1>%s</h1>\n"
         '  <p class="lede">%s</p>\n'
-        '  <div class="adzone">ADVERTISEMENT</div>\n'
+        # 2026-10-18: removed the empty ADVERTISEMENT placeholder div here —
+        # Google was scraping the word "ADVERTISEMENT" into SERP snippets.
+        # Re-add properly (ad code + placement) when AdSense goes live.
         "  %s\n"
         '  <div class="doc">%s</div>\n'
         "  %s\n"
