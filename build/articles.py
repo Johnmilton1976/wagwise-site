@@ -1549,6 +1549,26 @@ ABOUT = {
     """,
 }
 
+CONTACT = {
+    "url": "/contact/",
+    "title": "Contact WagWise Pet",
+    "description": "Reach the WagWise Pet team at contact@wagwise.org for corrections, feedback, or guide suggestions about dog and cat care. We reply within two business days.",
+    "body": """
+    <h1>Contact WagWise Pet</h1>
+    <p>The fastest way to reach us is email: <a href="mailto:contact@wagwise.org">contact@wagwise.org</a>. We read everything and reply within two business days, usually sooner.</p>
+    <h2>What to write to us about</h2>
+    <ul>
+      <li><strong>Corrections.</strong> If a guide contradicts the source it cites, or a rate has changed, tell us. Substantive corrections are reflected in the check date on that guide.</li>
+      <li><strong>Guide requests.</strong> Tell us the question you could not find an answer to. Most of our topics started as reader questions.</li>
+      <li><strong>Feedback.</strong> If a guide was unclear, too long, or missed the point, that is exactly what we want to hear.</li>
+    </ul>
+    <h2>What we cannot do</h2>
+    <p>We are writers, not veterinarians. We cannot diagnose your pet, review X-rays, or advise on medication — for anything urgent or medical, please contact a licensed vet. Everything on this site is general information, not veterinary advice.</p>
+    <h2>For product and partnership enquiries</h2>
+    <p>Use the same address. We test what we recommend and say so when a link is an affiliate link; we do not publish paid placements disguised as guides.</p>
+    """,
+}
+
 PRIVACY = {
     "url": "/privacy/",
     "title": "Privacy Policy — WagWise Pet",

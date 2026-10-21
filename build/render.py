@@ -20,7 +20,7 @@ import datetime
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, PRIVACY, TOOL  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, TOOL  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -183,7 +183,7 @@ NAV_ITEMS = [
     ("/tools/dog-age-calculator/", "Tools"),
     ("/about/", "About"),
 ]
-FOOTER_ITEMS = NAV_ITEMS + [("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
+FOOTER_ITEMS = NAV_ITEMS + [("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
 
 CONSENT_DEFAULT = (
     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
@@ -688,6 +688,7 @@ def build_sitemap():
         urls.append((a["url"], 0.8, "monthly",
                      "public/%s/index.html" % a["url"].strip("/")))
     urls.append((ABOUT["url"], 0.3, "yearly", "public/about/index.html"))
+    urls.append((CONTACT["url"], 0.3, "yearly", "public/contact/index.html"))
     urls.append((PRIVACY["url"], 0.2, "yearly", "public/privacy/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
@@ -734,6 +735,8 @@ def render_sitemap():
               TOOL["title"] + '</h3><p>' + TOOL["description"] + '</p></a>')
     cards += ('<a href="/about/"><div class="k">ABOUT</div><h3>About WagWise Pet</h3><p>' +
               ABOUT["description"] + '</p></a>')
+    cards += ('<a href="/contact/"><div class="k">CONTACT</div><h3>Contact WagWise Pet</h3><p>' +
+              CONTACT["description"] + '</p></a>')
     cards += ('<a href="/privacy/"><div class="k">LEGAL</div><h3>Privacy Policy</h3><p>' +
               PRIVACY["description"] + '</p></a>')
     body = (
@@ -763,6 +766,11 @@ def main():
         os.path.join(PUBLIC, "about", "index.html"),
         render_static(ABOUT["url"], "/about/", ABOUT["title"], ABOUT["description"],
                       ABOUT["body"], crumb_label="About"),
+    )
+    write_page(
+        os.path.join(PUBLIC, "contact", "index.html"),
+        render_static(CONTACT["url"], "/contact/", CONTACT["title"], CONTACT["description"],
+                      CONTACT["body"], crumb_label="Contact"),
     )
     write_page(
         os.path.join(PUBLIC, "privacy", "index.html"),
