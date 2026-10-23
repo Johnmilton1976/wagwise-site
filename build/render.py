@@ -692,7 +692,6 @@ def build_sitemap():
     urls.append((PRIVACY["url"], 0.2, "yearly", "public/privacy/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
-    urls.append(("/sitemap/", 0.9, "monthly", "public/sitemap/index.html"))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
     for u, pri, freq, rel in urls:
@@ -722,7 +721,7 @@ def render_sitemap():
     jsonld = site_jsonld()
     h = head("WagWise Pet — All Guides & Tools (Sitemap)",
              "A complete index of every dog and cat care guide, review, and tool on WagWise Pet, so nothing on the whole site is ever more than one click away from this page.",
-             "/sitemap/", jsonld, "website")
+             "/sitemap/", jsonld, "website", robots="noindex,follow")
     cards = ('<a href="/"><div class="k">HOME</div><h3>' + HOME["title"] +
              '</h3><p>' + HOME["description"] + '</p></a>')
     for s, p in PILLARS.items():

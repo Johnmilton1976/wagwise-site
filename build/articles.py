@@ -148,14 +148,14 @@ ARTICLES = [
         "pillar": "dog-training",
         "title": "How to Stop Puppy Biting — Without Yelling",
         "url": "/dog-training/how-to-stop-puppy-biting/",
-        "description": "Puppy biting and nipping is normal teething behavior, not aggression. How to redirect it, teach bite inhibition, and when the phase should finally end.",
+        "description": "Puppy biting is normal teething, not aggression. How to stop puppy biting by redirecting it, teaching bite inhibition, and when the phase should finally end.",
         "lede": "Puppy biting is not aggression — it is teething and play. The fix is to redirect to a toy, reward gentle mouths, and make a brief withdrawal when teeth touch skin.",
         "eyebrow": "DOG TRAINING",
         "body": """
-        <h2>Why puppies bite</h2>
-        <p>Puppies explore with their mouths and bite harder than they mean to because they have not learned bite inhibition yet. Littermates teach this by yelping; you can teach it too.</p>
+        <h2>Why is my puppy biting?</h2>
+        <p>Puppy biting is not aggression — it is teething and play. Puppies explore with their mouths and bite harder than they mean to because they have not yet learned bite inhibition. Littermates teach this by yelping; you can teach it too. Understanding this is the first step to learning how to stop puppy biting without ever raising your voice.</p>
 
-        <h2>The redirect-and-reward method</h2>
+        <h2>How to stop puppy biting — the redirect method</h2>
         <ul>
           <li>When teeth touch skin, say a calm \"ouch\" or just go silent, and offer a toy instead.</li>
           <li>If the puppy takes the toy, praise. If it keeps biting, stand up and turn away for 20-30 seconds — attention is the reward it wants.</li>
@@ -163,16 +163,34 @@ ARTICLES = [
         </ul>
         <div class="callout warn">Do not hit, hold the muzzle, or shout. Those can make a fearless puppy bite harder or a soft one become hand-shy.</div>
 
-        <h2>Extra help for teething</h2>
-        <p>Cold chew toys from the freezer soothe sore gums. Rotate toys so they stay interesting. A tired puppy bites less — short training games burn energy.</p>
+        <h2>The reverse timeout</h2>
+        <p>The most reliable tool is withdrawal of attention. The instant teeth touch skin, end the interaction: stand up, step away, and stay still for 20-30 seconds. Puppies quickly learn that biting ends the fun. Consistency matters more than any single technique — everyone in the household has to do it the same way.</p>
 
-        <h2>When should it stop?</h2>
-        <p>Biting should fade by 5-6 months as adult teeth come in and bite inhibition sets. Persistent hard biting past that, or any skin break with a growl, is worth a trainer's eyes.</p>
+        <h2>Extra help for teething</h2>
+        <p>Cold chew toys from the freezer soothe sore gums. Rotate toys so they stay interesting. A tired puppy bites less — short training games burn energy. Offer appropriate things to chew so the puppy learns what is fair game and what is not.</p>
+
+        <h2>What not to do</h2>
+        <ul>
+          <li>Do not punish with your hands — it teaches fear, not control.</li>
+          <li>Do not let the puppy "win" by getting more play when it bites; that rewards the behavior.</li>
+          <li>Do not use physical corrections like muzzle holds or taps.</li>
+        </ul>
+
+        <h2>When should puppy biting stop?</h2>
+        <p>Biting should fade by 5-6 months as adult teeth come in and bite inhibition sets in. Soft play-mouthing may linger longer, which is normal. Persistent hard biting past that point, or any skin break with a growl, is worth a trainer's eyes.</p>
+
+        <h2>When to get help</h2>
+        <p>Most puppy biting resolves with consistency. But reach out to a qualified positive-reinforcement trainer if the biting gets harder or more frequent over time, your puppy growls or snaps from a calm state (not during play), or a bite breaks skin. Early help prevents habits from setting in. For related skills, see our guides to <a href="/dog-training/how-to-leash-train-a-dog/">leash training</a> and <a href="/dog-training/how-to-crate-train-a-puppy/">crate training</a>.</p>
         """,
         "faq": [
             ("At what age do puppies stop biting?", "Most puppies stop hard mouthing by 5 to 6 months, once adult teeth are in and bite inhibition is learned. Soft play-mouthing may linger longer."),
+            ("How do I stop my puppy from biting me?", "The reliable fix is redirection plus a reverse timeout: the instant teeth touch skin, say a calm ouch, offer a toy, and if it keeps biting, stand up and step away for 20-30 seconds. Consistency from everyone in the home is what makes it work."),
             ("Why does my puppy bite my ankles when I walk?", "It is herding and chase instinct plus boredom. Stop moving, redirect to a toy, and give more exercise and mental games."),
+            ("Is puppy biting a sign of aggression?", "Usually no. In young puppies it is teething and play, not real aggression. The exception is a puppy that growls or snaps from a calm state, which deserves a trainer's assessment."),
             ("Should I use a bitter spray?", "It can help as a backup, but the core fix is redirection and withdrawal of attention. Sprays alone rarely solve the habit."),
+            ("How long does the puppy biting phase last?", "Hard mouthing should fade by 5-6 months as adult teeth come in. Gentle play-mouthing may continue but should not hurt."),
+            ("What if my puppy breaks skin when biting?", "Clean the wound and watch it. A single playful nip that breaks skin is common, but if bites get harder, more frequent, or come with a growl from a calm state, see a qualified trainer."),
+            ("Do puppies grow out of biting?", "Most do, with consistent guidance. Without redirection they can learn that biting is how to get attention, so teaching bite inhibition early matters."),
         ],
         "related": ["how-to-crate-train-a-puppy", "how-to-leash-train-a-dog", "dog-not-eating-but-drinking-water"],
         "sources": [
@@ -1202,28 +1220,53 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Drink Milk? Usually Not Worth It",
         "url": "/dog-nutrition/can-dogs-eat-milk/",
-        "description": "Most adult dogs are lactose intolerant, so milk usually causes diarrhea and gas. Why plain yogurt and small amounts of cheese are safer dairy options.",
+        "description": "Is milk good for dogs? Usually not — most adult dogs are lactose intolerant, so milk often causes diarrhea and gas. Why plain yogurt and cheese are safer.",
         "lede": "Most dogs should skip milk. Adult dogs are commonly lactose intolerant, and a bowl of milk more often leads to gas and diarrhea than any benefit.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Is milk safe for dogs?</h2>
-        <p>A few laps of milk will not harm most dogs, but it is not a good regular drink. As puppies wean, they lose much of the lactase enzyme that digests lactose, so milk sugar ferments in the gut and causes loose stools.</p>
+        <h2>Is milk good for dogs?</h2>
+        <p>Usually not. Most adult dogs are lactose intolerant, so a bowl of milk more often leads to gas and diarrhea than any real benefit. A few laps will not harm most dogs, but it is not a healthy regular drink — which is why "is milk good for dogs" gets a qualified no rather than a yes.</p>
 
-        <h2>How much, if any</h2>
+        <h2>Why does milk upset dogs?</h2>
+        <p>As puppies wean, they lose much of the lactase enzyme that digests lactose, the sugar in milk. Without enough lactase, that sugar ferments in the gut and causes loose stools, gas, and sometimes cramping. Some dogs keep enough lactase to tolerate small amounts; many do not.</p>
+
+        <h2>How much milk can a dog have?</h2>
         <ul>
-          <li>A small sip now and then is fine for dogs that tolerate it.</li>
+          <li>A small sip now and then is fine for dogs that clearly tolerate it.</li>
           <li>Skip it entirely if your dog gets gas or diarrhea from dairy.</li>
-          <li>Plain, unsweetened yogurt or a bit of cheese is often better tolerated than milk.</li>
+          <li>Plain, unsweetened yogurt or a small piece of cheese is often better tolerated than milk, because these have less lactose and yogurt's live cultures can help.</li>
         </ul>
-        <div class="callout">Puppies need their mother's milk or a proper puppy formula — never cow's milk as a substitute, which lacks the right balance and can upset their stomach.</div>
 
-        <h2>When to skip</h2>
-        <p>Lactose-intolerant and sensitive dogs should avoid milk. Water remains the best drink for every dog.</p>
+        <h2>Is milk safe for puppies?</h2>
+        <p>No — not cow's milk. Orphaned or supplementary-fed puppies should get a proper puppy milk replacer, not dairy milk from the carton. Cow's milk has the wrong balance of fat, protein, and lactose for a puppy and can cause diarrhea and poor growth. Once weaned, the same lactose intolerance that affects adult dogs applies.</p>
+        <div class="callout">Puppies need their mother's milk or a proper puppy formula — never use cow's milk as a substitute, which lacks the right balance and can upset their stomach.</div>
+
+        <h2>Better dairy options: yogurt and cheese</h2>
+        <p>If you want to share a dairy treat, these are the safer choices:</p>
+        <ul>
+          <li><b>Plain, unsweetened yogurt</b> — lower in lactose and adds probiotics. A spoonful is plenty.</li>
+          <li><b>Small amounts of cheese</b> — most dogs love it and tolerate it, but it is calorie-dense, so keep it occasional.</li>
+          <li><b>Avoid</b> flavored, sweetened, or chocolate dairy products — chocolate is toxic and added sugars are unnecessary.</li>
+        </ul>
+
+        <h2>Signs your dog doesn't tolerate milk</h2>
+        <p>Watch for loose stools, excess gas, stomach gurgling, or mild cramping within a few hours of drinking milk. If these appear, drop dairy and offer water instead. Persistent diarrhea deserves a vet check.</p>
+
+        <h2>What about almond, oat, or soy milk?</h2>
+        <p>These plant milks are not toxic, but they are not a good idea either. Almond milk is low in protein and often sweetened; oat and soy milks can contain added sugars or even xylitol, which is toxic to dogs, so always read the label. None of them offer nutrition a dog actually needs, and plain water remains the better choice. A tiny taste of an unsweetened, xylitol-free milk alternative is unlikely to harm, but there is no reason to make it a habit.</p>
+
+        <h2>Milk vs other treats and drinks</h2>
+        <p>Water is the best drink for every dog — no exceptions. For a safe fruit treat in moderation, <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> is a better choice than milk. And for the full picture of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>. If your dog is already vomiting, our <a href="/dog-health/dog-vomiting-causes/">dog vomiting guide</a> explains what is urgent.</p>
         """,
         "faq": [
-            ("Why does milk give dogs diarrhea?", "Most adult dogs are lactose intolerant, so the milk sugar ferments and loosens stools."),
-            ("Can dogs have yogurt instead?", "Plain, unsweetened yogurt is often better tolerated than milk and adds probiotics."),
-            ("Can puppies drink cow's milk?", "No — use a proper puppy milk replacer; cow's milk is unbalanced for puppies."),
+            ("Is milk good for dogs?", "Usually not. Most adult dogs are lactose intolerant, so milk tends to cause gas and diarrhea rather than provide benefit. Water is the best drink."),
+            ("Why does milk give dogs diarrhea?", "Most adult dogs are lactose intolerant — they lose lactase after weaning, so milk sugar ferments in the gut and loosens stools."),
+            ("Can dogs have yogurt instead of milk?", "Plain, unsweetened yogurt is often better tolerated than milk and adds probiotics. Keep it to a spoonful."),
+            ("Can puppies drink cow's milk?", "No — use a proper puppy milk replacer. Cow's milk is unbalanced for puppies and can cause diarrhea and poor growth."),
+            ("How much milk can a dog drink?", "Only a small sip now and then, and only if your dog clearly tolerates dairy. Skip it entirely if it causes gas or diarrhea."),
+            ("Is cheese okay for dogs?", "Small amounts of plain cheese are usually fine and many dogs tolerate it, but it is calorie-dense, so keep it occasional."),
+            ("What should dogs drink instead of milk?", "Water. Every dog should drink water; milk is not a necessary or healthy regular drink."),
+            ("My dog drank milk and seems fine — is it okay to keep giving it?", "Some dogs tolerate small amounts. If there are no digestive signs, an occasional sip is fine, but it should never replace water."),
         ],
         "related": ["can-dogs-eat-cheese", "can-dogs-eat-bananas", "how-much-to-feed-my-dog"],
         "sources": [
@@ -1280,28 +1323,73 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Grapes? NO — They Are Toxic",
         "url": "/dog-nutrition/can-dogs-eat-grapes/",
-        "description": "Grapes and raisins can cause sudden kidney failure in dogs, even in tiny amounts. Why there is no safe dose, and exactly what to do if yours eats one.",
+        "description": "Can dogs have grapes or raisins? No — they can cause sudden kidney failure in dogs, even in tiny amounts. Why there is no safe dose, and what to do next.",
         "lede": "No — grapes and raisins are toxic to dogs and can cause sudden, severe kidney failure. There is no safe amount, so treat any ingestion as an emergency.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Why grapes are dangerous</h2>
-        <p>Grapes and raisins can trigger acute kidney failure in dogs, and the toxic dose varies so wildly that no one can say how many is safe. Some dogs are fine after a few; others collapse after one. Because you cannot predict which dog will react, every exposure is treated as potentially serious.</p>
+        <h2>Can dogs eat grapes or raisins?</h2>
+        <p>No. Grapes and raisins are toxic to dogs and can cause sudden, sometimes fatal kidney failure — and there is no known safe amount. Some dogs have collapsed after a single grape; others have eaten a handful with no immediate effect. Because no one can predict which dog will react, every ingestion is treated as a potential emergency. This is why the question "can dogs have grapes" gets such a flat no: the risk is real even when the dose looks tiny.</p>
 
-        <h2>What to do if your dog ate grapes</h2>
-        <div class="callout warn">Call your veterinarian or an animal poison control line immediately. Do not wait for symptoms. Faster treatment — inducing vomiting and IV fluids — greatly improves the outcome.</div>
+        <h2>How many grapes are toxic to a dog?</h2>
+        <p>There is no safe dose, and that is the honest answer rather than a scare tactic. The toxic compound in grapes has never been identified, so veterinarians cannot give you a safe threshold the way they can for chocolate. What is well documented is that toxicity varies enormously between individual dogs, and that raisins are simply dried, concentrated grapes.</p>
+        <p>As a practical guide, the smaller the dog, the fewer grapes it takes to cause trouble. A 5 kg (11 lb) dog that eats three or four grapes is in the same danger zone as a 30 kg (66 lb) dog that eats a whole bunch. Treat any amount as worth a phone call to your vet:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Grapes that raise concern</th><th style="text-align:left">What to do</th></tr>
+          <tr><td>Up to 5 kg (small/toy breeds)</td><td>1–3 grapes</td><td>Call vet / poison control now</td></tr>
+          <tr><td>5–10 kg</td><td>3–5 grapes</td><td>Call vet / poison control now</td></tr>
+          <tr><td>10–25 kg</td><td>5–10 grapes</td><td>Call vet; expect monitoring</td></tr>
+          <tr><td>25 kg and up</td><td>A small handful or more</td><td>Call vet; large dogs are still at risk</td></tr>
+        </table>
+        <div class="callout warn"><b>Raisins count for more.</b> Because they are dried, the same weight holds roughly four times the grape material. A small box of raisins (about 40 g) can be as dangerous as a large bunch of fresh grapes.</div>
+
+        <h2>What happens after a dog eats grapes — the timeline</h2>
+        <p>Symptoms do not always appear right away, which is exactly why waiting is dangerous. The typical progression looks like this:</p>
         <ul>
-          <li>Note how many and roughly when they were eaten.</li>
-          <li>Keep grapes, raisins, and foods made with them (bakery items, trail mix) out of reach.</li>
-          <li>Watch for vomiting, lethargy, reduced appetite, and reduced urination in the following days.</li>
+          <li><b>0–12 hours:</b> Vomiting and diarrhea are often the first signs, sometimes with reduced appetite and restlessness.</li>
+          <li><b>12–24 hours:</b> Lethargy, abdominal pain, and unusual thirst may appear as the kidneys come under stress.</li>
+          <li><b>24–72 hours:</b> This is the danger window for kidney failure. Urine output can drop (oliguria) and then stop (anuria). At this stage the damage is severe and much harder to reverse.</li>
+        </ul>
+        <p>Because the worst harm shows up a day or two later, the time to act is <em>before</em> symptoms — the moment you realise your dog ate grapes.</p>
+
+        <h2>What to do right now if your dog ate grapes</h2>
+        <div class="callout warn"><b>Call your veterinarian or an animal poison control line immediately.</b> Do not wait for symptoms. Early treatment — inducing vomiting and starting intravenous fluids — dramatically improves the outcome.</div>
+        <ul>
+          <li>Note <b>how many</b> grapes or raisins and <b>roughly when</b> they were eaten. This tells the vet how aggressive to be.</li>
+          <li>Keep grapes, raisins, and anything made with them (bakery items, trail mix, raisin bread) out of reach going forward.</li>
+          <li>Do <b>not</b> try to induce vomiting at home with salt or other remedies — that can cause its own emergencies. Let a professional decide.</li>
+          <li>Watch over the next days for vomiting, lethargy, reduced appetite, and especially reduced urination.</li>
         </ul>
 
-        <h2>Watch for these signs</h2>
-        <p>Early signs are vomiting and lethargy; later signs of kidney failure include reduced or no urination and weakness. By then the damage is advanced, so act early.</p>
+        <h2>What will the emergency vet do?</h2>
+        <p>Knowing the steps lowers panic, and it is worth understanding why speed matters:</p>
+        <ul>
+          <li><b>Decontamination:</b> If the ingestion was recent (usually within 1–2 hours) and your dog is stable, the vet may induce vomiting and give activated charcoal to limit absorption.</li>
+          <li><b>IV fluids:</b> Aggressive fluid therapy for 48–72 hours is the single most important step. It supports the kidneys and helps flush the toxin.</li>
+          <li><b>Monitoring:</b> Blood and urine tests track kidney values (BUN, creatinine) so failure is caught early.</li>
+        </ul>
+        <p>Most dogs treated early and aggressively recover fully. Delay is what turns a manageable scare into real tragedy.</p>
+
+        <h2>Are grape products also unsafe?</h2>
+        <p>Yes — toxicity is not limited to the whole fruit. Watch for:</p>
+        <ul>
+          <li><b>Raisins and sultanas</b> — more concentrated, and easy for a dog to eat in quantity.</li>
+          <li><b>Grape juice and wine</b> — the toxic principle survives processing.</li>
+          <li><b>Raisin bread, cookies, and trail mix</b> — common culprits because they sit on counters within reach.</li>
+          <li><b>Food a child dropped</b> — grape halves and raisins on the floor are a frequent source of "I didn't know he ate one."</li>
+        </ul>
+
+        <h2>Grapes vs raisins vs safer fruit</h2>
+        <p>If you want a genuinely safe treat, skip grapes and raisins and reach for options that are safe in moderation — <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> or <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a> are good choices. For the complete rundown of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>. And if your dog is already vomiting, our guide to <a href="/dog-health/dog-vomiting-causes/">dog vomiting causes</a> explains what is urgent versus what can wait.</p>
         """,
         "faq": [
-            ("How many grapes are toxic to a dog?", "There is no known safe dose. Even one grape has caused kidney failure in some dogs, so any amount is an emergency."),
-            ("Are raisins as dangerous as grapes?", "Yes — raisins are dried grapes and just as toxic, and dogs may eat more of them."),
-            ("What should I do if my dog ate a grape?", "Call your vet or animal poison control now. Do not wait for symptoms to appear."),
+            ("How many grapes are toxic to a dog?", "There is no known safe dose. Even one grape has caused kidney failure in some dogs, so any amount is treated as an emergency."),
+            ("Can dogs have grapes in any amount?", "No. Because the toxic compound is unidentified and tolerance varies between dogs, there is no amount considered safe. Treat any ingestion as potentially serious."),
+            ("Are raisins as dangerous as grapes?", "Yes — raisins are dried grapes and just as toxic, and because they are concentrated, a small box can be as dangerous as a large bunch of fresh grapes."),
+            ("What should I do if my dog ate a grape?", "Call your vet or animal poison control now. Do not wait for symptoms; early inducing of vomiting and IV fluids greatly improve the outcome."),
+            ("How long after eating grapes do symptoms appear?", "Vomiting and diarrhea often start within 12 hours, but the most dangerous kidney damage typically develops 24–72 hours later, which is why you must act before symptoms show."),
+            ("My dog ate one grape and seems fine — should I still worry?", "Yes. Effects can be delayed by a day or two, and some dogs show no early signs at all. A single grape has caused failure in small dogs, so a vet call is the safe move."),
+            ("Can grape juice or wine hurt dogs?", "Yes. The toxic principle survives processing, so grape juice and wine are also unsafe for dogs."),
+            ("Will my dog be okay after eating grapes?", "Most dogs treated early and aggressively — with decontamination and 48–72 hours of IV fluids — recover fully. The outcome depends heavily on how quickly treatment begins."),
         ],
         "related": ["foods-toxic-to-dogs", "dog-vomiting-causes", "can-dogs-eat-bananas"],
         "sources": [
@@ -1319,27 +1407,66 @@ ARTICLES = [
         "pillar": "dog-nutrition",
         "title": "Can Dogs Eat Chocolate? NO — It Is Toxic",
         "url": "/dog-nutrition/can-dogs-eat-chocolate/",
-        "description": "Chocolate contains theobromine, which is poisonous to dogs. Why dark and baking chocolate are worst, the symptoms to watch for, and exactly what to do next.",
+        "description": "Is chocolate bad for dogs? Yes — it contains theobromine, which is poisonous to dogs. Learn why dark and baking chocolate are worst, and what to do next.",
         "lede": "No — chocolate is toxic to dogs because it contains theobromine, which they cannot metabolize well. Dark and baking chocolate are the most dangerous.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Why chocolate is dangerous</h2>
-        <p>Chocolate contains theobromine and caffeine. Dogs break these down slowly, so they build up and overstimulate the heart and nervous system. The darker and more pure the chocolate, the more theobromine it carries — baking and dark chocolate are far worse than milk chocolate.</p>
+        <h2>Is chocolate bad for dogs?</h2>
+        <p>Yes. Chocolate is toxic to dogs because it contains theobromine (and caffeine), stimulants their bodies break down far more slowly than ours. The theobromine builds up and over-excites the heart and nervous system. This is why "is chocolate bad for dogs" gets an unqualified yes — and why the type and amount matter so much.</p>
 
-        <h2>What to do if your dog eats chocolate</h2>
-        <div class="callout warn">Call your veterinarian or an animal poison control line right away. Note the type of chocolate, roughly how much, and your dog's weight — these decide how serious it is.</div>
+        <h2>Why is chocolate toxic to dogs?</h2>
+        <p>Humans metabolise theobromine quickly; dogs do not — it can linger in their system for 17–24 hours or more, so even a moderate amount keeps stimulating them the whole time. The darker and purer the chocolate, the more theobromine it carries, which is why baking and dark chocolate are far more dangerous than milk chocolate.</p>
+
+        <h2>How much chocolate is dangerous?</h2>
+        <p>The danger depends on two things: the type of chocolate and your dog's weight. Theobromine content varies roughly like this:</p>
+        <table>
+          <tr><th style="text-align:left">Type of chocolate</th><th style="text-align:left">Theobromine per ounce (approx.)</th><th style="text-align:left">Risk level</th></tr>
+          <tr><td>White chocolate</td><td>~1 mg</td><td>Negligible theobromine (but still fat and sugar)</td></tr>
+          <tr><td>Milk chocolate</td><td>~45–60 mg</td><td>Mild risk in small dogs</td></tr>
+          <tr><td>Dark chocolate</td><td>~130–160 mg</td><td>Dangerous in small amounts</td></tr>
+          <tr><td>Semisweet</td><td>~260 mg</td><td>Dangerous</td></tr>
+          <tr><td>Baking / unsweetened</td><td>~390–450 mg</td><td>Very dangerous in tiny amounts</td></tr>
+          <tr><td>Cocoa powder (dry)</td><td>~800 mg</td><td>Extremely dangerous</td></tr>
+        </table>
+        <p>As a rough guide, mild signs begin around <b>20 mg of theobromine per kg of body weight</b>, and severe or life-threatening signs around <b>40–50 mg/kg</b>. For a 10 kg (22 lb) dog, that is mild effects from roughly 3–4 oz of milk chocolate but under half an ounce of baking chocolate; for a 25 kg dog, about 9 oz of milk chocolate or just over 1 oz of baking chocolate.</p>
+        <div class="callout warn">When in doubt, assume it is serious. Small dogs, dark chocolate, and any baking chocolate or cocoa powder all move quickly into dangerous territory.</div>
+
+        <h2>What are the symptoms of chocolate poisoning?</h2>
+        <p>Signs usually appear within a few hours and can escalate. Watch for:</p>
         <ul>
-          <li>Small amounts of milk chocolate may cause only mild upset in a large dog, but any dark or baking chocolate is urgent.</li>
-          <li>Keep all chocolate, cocoa powder, and baked goods well out of reach.</li>
+          <li>Restlessness, panting, and a racing heart.</li>
+          <li>Vomiting and diarrhea.</li>
+          <li>Tremors, muscle twitching, and in severe cases seizures.</li>
+          <li>High body temperature and, without treatment, collapse.</li>
         </ul>
 
-        <h2>Watch for these signs</h2>
-        <p>Restlessness, panting, a racing heart, vomiting, tremors, and in severe cases seizures. Symptoms can appear within a few hours and escalate, so do not wait.</p>
+        <h2>What to do if your dog eats chocolate</h2>
+        <div class="callout warn"><b>Call your veterinarian or an animal poison control line right away.</b> Note the type of chocolate, roughly how much, and your dog's weight — those three facts decide how serious it is.</div>
+        <ul>
+          <li>Small amounts of milk chocolate may cause only mild upset in a large dog, but any dark, semisweet, or baking chocolate is urgent.</li>
+          <li>Keep all chocolate, cocoa powder, and baked goods well out of reach.</li>
+          <li>Do not try to make your dog vomit at home — let a professional assess and act.</li>
+        </ul>
+
+        <h2>What will the emergency vet do?</h2>
+        <ul>
+          <li><b>Decontamination:</b> If the chocolate was eaten recently and your dog is stable, the vet may induce vomiting and give activated charcoal.</li>
+          <li><b>Supportive care:</b> IV fluids and medications to control heart rate, tremors, and seizures as needed.</li>
+          <li><b>Monitoring:</b> Because theobromine lingers, the vet may keep your dog under observation for many hours.</li>
+        </ul>
+
+        <h2>Chocolate vs other toxic foods</h2>
+        <p>Chocolate is one of several foods that do not belong near dogs. Grapes and raisins are a different but equally serious risk — see our guides to <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a> and our full <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>. If your dog is already vomiting, our <a href="/dog-health/dog-vomiting-causes/">dog vomiting guide</a> explains what is urgent.</p>
         """,
         "faq": [
-            ("How much chocolate is toxic to a dog?", "It depends on the type and the dog's weight; dark and baking chocolate are dangerous in small amounts. Any ingestion should prompt a vet call."),
-            ("Is dark chocolate worse for dogs?", "Yes — darker chocolate has far more theobromine than milk chocolate and is the most toxic."),
-            ("What should I do if my dog ate chocolate?", "Call your vet or animal poison control with the type, amount, and your dog's weight as soon as possible."),
+            ("Is chocolate bad for dogs?", "Yes. Chocolate contains theobromine, which dogs metabolise slowly, so it builds up and over-stimulates the heart and nervous system."),
+            ("How much chocolate is toxic to a dog?", "It depends on the type and your dog's weight. Mild signs start around 20 mg of theobromine per kg of body weight; severe signs around 40–50 mg/kg. Dark, semisweet, baking, and cocoa powder are dangerous in small amounts."),
+            ("Is dark chocolate worse for dogs than milk chocolate?", "Yes — dark and baking chocolate carry far more theobromine per ounce than milk chocolate and are the most toxic."),
+            ("What are the symptoms of chocolate poisoning in dogs?", "Restlessness, panting, a racing heart, vomiting, diarrhea, tremors, and in severe cases seizures. Signs can appear within a few hours."),
+            ("What should I do if my dog ate chocolate?", "Call your vet or animal poison control with the type, amount, and your dog's weight as soon as possible. Do not try to induce vomiting at home."),
+            ("How long do chocolate poisoning symptoms last in dogs?", "Theobromine lingers in a dog's system for 17–24 hours or more, so the vet may monitor your dog for many hours even after early treatment."),
+            ("Can a little milk chocolate hurt a large dog?", "Often it causes only mild upset, but any amount of dark, semisweet, or baking chocolate is urgent, and small dogs are at risk even from milk chocolate."),
+            ("Is white chocolate safe for dogs?", "It has almost no theobromine, but it is still high in fat and sugar and is not a treat we recommend giving dogs."),
         ],
         "related": ["foods-toxic-to-dogs", "dog-vomiting-causes", "can-dogs-eat-grapes"],
         "sources": [
@@ -1510,12 +1637,12 @@ HOME = {
     "eyebrow": "DOG & CAT CARE",
     "pillars": ["dog-training", "dog-health", "dog-nutrition", "dog-care", "cat", "best"],
     "featured": [
-        "how-to-crate-train-a-puppy",
-        "dog-vomiting-causes",
+        "can-dogs-eat-grapes",
+        "can-dogs-eat-chocolate",
+        "can-dogs-eat-milk",
         "foods-toxic-to-dogs",
-        "cat-spraying-how-to-stop",
-        "best-dog-harness-for-pulling",
-        "how-to-trim-dog-nails",
+        "how-to-stop-puppy-biting",
+        "dog-vomiting-causes",
     ],
 }
 
