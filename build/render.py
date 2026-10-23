@@ -20,7 +20,7 @@ import datetime
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, TOOL  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, TOOL  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -48,12 +48,13 @@ ORG_JSONLD = json.dumps(
 BYLINE_HTML = (
     '<div class="byline" style="margin:28px 0;padding:16px 18px;border-left:3px solid #3FA97E;'
     'background:#F4FAF7;border-radius:8px;font-size:14px;color:#4a554c;line-height:1.65">'
-    "<strong>About this article.</strong> Compiled by the %s editorial team from authoritative, "
-    "publicly available sources including the American Kennel Club (AKC), the American Veterinary "
-    "Medical Association (AVMA), the ASPCA, and the Merck Veterinary Manual. %s is an independent "
-    "editorial resource and <em>not</em> a veterinary practice. For diagnosis, treatment, or "
-    "anything urgent, please consult a licensed veterinarian.</div>"
-) % (ORG_NAME, ORG_NAME)
+    "<strong>About this article.</strong> Compiled by the <a href=\"/about/editorial-standards/\">%s "
+    "editorial team</a> from authoritative, publicly available sources including the American Kennel "
+    "Club (AKC), the American Veterinary Medical Association (AVMA), the ASPCA, and the Merck "
+    "Veterinary Manual. %s is an independent editorial resource and <em>not</em> a veterinary "
+    "practice. For diagnosis, treatment, or anything urgent, please consult a licensed "
+    "veterinarian.</div>"
+    ) % (ORG_NAME, ORG_NAME)
 
 DEFAULT_CHECKED = "2026-10-16"
 
@@ -183,7 +184,7 @@ NAV_ITEMS = [
     ("/tools/dog-age-calculator/", "Tools"),
     ("/about/", "About"),
 ]
-FOOTER_ITEMS = NAV_ITEMS + [("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
+FOOTER_ITEMS = NAV_ITEMS + [("/about/editorial-standards/", "Editorial standards"), ("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
 
 CONSENT_DEFAULT = (
     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
@@ -409,8 +410,8 @@ def render_article(a):
             '<div class="sources"><h2>Sources</h2><ul>%s</ul>'
             '<p class="srcnote">Facts in this article were checked against the public '
             "references above on %s. These organisations are independent and are not "
-            "affiliated with WagWise Pet. See our <a href=\"/about/\">editorial "
-            "standards</a> for how we research and correct guides.</p></div>"
+            "affiliated with WagWise Pet. See our <a href=\"/about/editorial-standards/\">"
+            "editorial standards</a> for how we research and correct guides.</p></div>"
             % (lis, _checked_label(a.get("checked")))
         )
 
@@ -690,6 +691,7 @@ def build_sitemap():
     urls.append((ABOUT["url"], 0.3, "yearly", "public/about/index.html"))
     urls.append((CONTACT["url"], 0.3, "yearly", "public/contact/index.html"))
     urls.append((PRIVACY["url"], 0.2, "yearly", "public/privacy/index.html"))
+    urls.append((EDITORIAL["url"], 0.3, "yearly", "public/about/editorial-standards/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -775,6 +777,12 @@ def main():
         os.path.join(PUBLIC, "privacy", "index.html"),
         render_static(PRIVACY["url"], "/privacy/", PRIVACY["title"], PRIVACY["description"],
                       PRIVACY["body"], crumb_label="Privacy"),
+    )
+    write_page(
+        os.path.join(PUBLIC, "about", "editorial-standards", "index.html"),
+        render_static(EDITORIAL["url"], "/about/editorial-standards/",
+                      EDITORIAL["title"], EDITORIAL["description"],
+                      EDITORIAL["body"], crumb_label="About"),
     )
     # 404
     write_page(

@@ -1663,6 +1663,7 @@ ABOUT = {
     <h2>How we research a guide</h2>
     <p>Every health or behaviour claim is checked against named public references — the ASPCA, the Merck Veterinary Manual, Cornell Feline Health Center, International Cat Care, the AKC, the AVMA and the American Veterinary Society of Animal Behavior — rather than against other blog posts. You can see the exact list at the bottom of each article, with links out, so you can check us rather than trust us.</p>
     <h2>Editorial standards</h2>
+    <p>We have written out our full research, review, and correction process on the <a href="/about/editorial-standards/">Editorial &amp; Medical Review Standards</a> page — including our no-fabricated-credentials rule and the exact sources we cite.</p>
     <ul>
       <li><strong>We do not invent expertise.</strong> No article claims to be written or reviewed by a veterinarian unless it was. We are an editorial team that reads veterinary sources closely and cites them.</li>
       <li><strong>Every guide carries a check date.</strong> The date under the Sources block is the last time the facts were checked against those references — not the day the page was published or reformatted.</li>
@@ -1710,6 +1711,50 @@ PRIVACY = {
     <p>Some pages link to retailers. If you purchase, we may receive a commission. This does not affect the price you pay or our recommendations.</p>
     <h2>Medical disclaimer</h2>
     <p>All content is general information, not veterinary advice. For diagnosis, treatment, or anything urgent, contact a licensed veterinarian. In an emergency, call your nearest animal clinic.</p>
+    """,
+}
+
+EDITORIAL = {
+    "url": "/about/editorial-standards/",
+    "title": "Editorial & Medical Review Standards — WagWise Pet",
+    "description": "How WagWise Pet researches, reviews, and corrects every dog and cat care guide — including our no-fabricated-credentials rule and the veterinary sources we cite.",
+    "body": """
+    <h1>Editorial &amp; Medical Review Standards</h1>
+    <p>WagWise Pet is an independent pet care resource written for everyday dog and cat owners. Because most of what we publish touches health or behaviour, we hold it to a clear standard. This page explains exactly how a guide is built, who stands behind it, and what we will not do.</p>
+
+    <h2>Who writes and reviews WagWise</h2>
+    <p>Guides are researched and written by the WagWise editorial team — a group of writers who specialise in reading and summarising veterinary and training literature in plain language. <strong>We do not invent individual authors or reviewers.</strong> No article on this site claims to be written or reviewed by a named veterinarian unless a real, verifiable veterinarian did so. Where a topic is medical, we point you to a licensed vet rather than pretending to be one. Our authority comes from the sources we cite, not from a borrowed white coat.</p>
+
+    <h2>How we research a guide</h2>
+    <p>Every health or behaviour claim is checked against named, public reference organisations rather than against other blogs. The core sources we draw on include:</p>
+    <ul>
+      <li>The American Kennel Club (AKC) — expert advice library</li>
+      <li>The American Veterinary Medical Association (AVMA)</li>
+      <li>The ASPCA — animal poison control and behaviour guidance</li>
+      <li>The Merck Veterinary Manual</li>
+      <li>Cornell Feline Health Center</li>
+      <li>International Cat Care</li>
+      <li>The American Veterinary Society of Animal Behavior (AVSAB)</li>
+    </ul>
+    <p>You can see the exact sources for any guide at the bottom of that article, with links out, so you can check us rather than trust us.</p>
+
+    <h2>The check-date system</h2>
+    <p>Every guide carries a "checked" date under its Sources block. That date is the last time the facts were compared against those references — not the day the page was first published or reformatted. When a source updates (a fee change, a revised guideline, new research), we revisit the guide and move the check date forward. Substantive corrections are reflected in that date too.</p>
+
+    <h2>We separate urgent from optional</h2>
+    <p>Where a symptom needs same-day veterinary care, the guide says so at the point where it matters — not in a vague warning at the end. We would rather tell you to call a vet than risk you waiting on a blog post.</p>
+
+    <h2>No fear-mongering, no guarantees</h2>
+    <p>We do not promise outcomes, and we do not stretch a study's finding further than the source does. Pet health content earns trust by being calm and accurate, not by being alarming.</p>
+
+    <h2>Corrections policy</h2>
+    <p>If something here is wrong, out of date, or contradicts the source we cited, tell us at <a href="mailto:contact@wagwise.org">contact@wagwise.org</a> with the page address and the source that disagrees. We fix it, move the check date, and note the change. We would rather be correct than defensive.</p>
+
+    <h2>How we make money</h2>
+    <p>Some product pages contain affiliate links. If you buy through them, we may earn a small commission at no extra cost to you. Our picks are based on usefulness, never on commission, and we label affiliate links as such.</p>
+
+    <h2>WagWise is not a veterinary practice</h2>
+    <p>This site is general information, not veterinary advice, diagnosis, or treatment. For anything urgent, medical, or about your specific pet, contact a licensed veterinarian or your nearest animal clinic. In an emergency, do not wait for a website.</p>
     """,
 }
 
