@@ -57,6 +57,7 @@ PILLARS = {
             "can-dogs-eat-spinach", "can-dogs-eat-tomato",
             "can-dogs-eat-bread", "can-dogs-eat-popcorn",
             "can-dogs-eat-honey", "can-dogs-eat-yogurt",
+            "can-dogs-eat-salmon", "can-dogs-eat-shrimp",
         ],
     },
     "dog-care": {
@@ -2894,6 +2895,169 @@ ARTICLES = [
             ("Is yogurt a probiotic cure for dogs?", "No — it is a fun occasional topper, not a treatment; ongoing gut issues need a vet, not a yogurt tub."),
         ],
         "related": ["can-dogs-eat-milk", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-salmon",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Salmon? Yes — Cooked, Never Raw",
+        "url": "/dog-nutrition/can-dogs-eat-salmon/",
+        "description": "Cooked salmon is a safe, omega-3-rich dog food, but raw salmon can carry a deadly parasite. Why to cook it plainly, debone it, and skip salt and seasoning.",
+        "lede": "Yes — cooked salmon is one of the best fish you can offer a dog, packed with omega-3s and lean protein. The one hard rule: never feed it raw, because raw salmon can carry a parasite that is fatal to dogs.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is salmon good for dogs?</h2>
+        <p>Fully cooked salmon is excellent for dogs. It is a rich source of omega-3 fatty acids, which support skin, coat, and joint health, plus high-quality lean protein. Many premium dog foods use salmon as the headline ingredient for good reason. The benefits are real — as long as it is cooked and plainly prepared.</p>
+
+        <h2>The danger: raw salmon</h2>
+        <div class="callout warn">Never feed a dog raw salmon (or raw trout). In parts of the Pacific Northwest, wild salmon can carry a parasite, <i>Nanophyetus salmincola</i>, that harbors a bacterium causing salmon poisoning disease — fatal to dogs if untreated, though it does not affect people. Cooking kills both the parasite and the bacterium. Raw fish elsewhere also risks ordinary parasites and bacteria, so cook it every time.</div>
+
+        <h2>Salmon nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in 100 g of cooked salmon (about one small fillet piece):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per 100 g cooked</th></tr>
+          <tr><td>Calories</td><td>~208 kcal</td></tr>
+          <tr><td>Protein</td><td>~20 g</td></tr>
+          <tr><td>Fat</td><td>~13 g</td></tr>
+          <tr><td>Omega-3</td><td>~1.5–2.5 g</td></tr>
+        </table>
+        <p>High protein and omega-3 with moderate fat are why cooked salmon is a standout topper, not just a treat.</p>
+
+        <h2>How much salmon is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 small flakes (1 tablespoon)</td></tr>
+          <tr><td>5–15 kg</td><td>2–3 tablespoons</td></tr>
+          <tr><td>15–30 kg</td><td>1/4 cup flaked</td></tr>
+          <tr><td>30 kg and up</td><td>1/4–1/2 cup, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve salmon</h2>
+        <ul>
+          <li>Always cook it through — baked, steamed, or poached. No raw.</li>
+          <li>Remove every bone; even small pin bones can choke or splinter.</li>
+          <li>No salt, oil, garlic, onion, or seasoning — plain is the rule.</li>
+          <li>Skip smoked salmon: it is far too salty for a dog.</li>
+        </ul>
+
+        <h2>Can puppies eat salmon?</h2>
+        <p>Yes — cooked, deboned, plain salmon is a healthy protein for puppies in small amounts. It is gentler than many meats and supports growing coats and brains.</p>
+
+        <h2>Are there risks?</h2>
+        <p>Beyond raw salmon, the catches are bones and rich skin (high fat can trigger pancreatitis in sensitive dogs), plus any salmon prepared with garlic, onion, salt, or oil. Canned salmon is acceptable if it is in water with no salt added and bones removed. For more safe proteins, see our <a href="/dog-nutrition/can-dogs-eat-chicken/">chicken guide</a> and <a href="/dog-nutrition/can-dogs-eat-shrimp/">shrimp guide</a>.</p>
+
+        <h2>When salmon isn't the answer</h2>
+        <p>Salmon is a healthy occasional protein, not an everyday staple, and it does not replace balanced dog food. Dogs with pancreatitis or fish allergies should skip it. If your dog shows vomiting, diarrhea, or lethargy after eating fish, our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and a vet visit beats another fillet.</p>
+        """,
+        "faq": [
+            ("Can dogs eat salmon?", "Yes — cooked, deboned, plain salmon is a healthy, omega-3-rich protein for dogs; it is a common premium dog-food ingredient."),
+            ("Why can't dogs eat raw salmon?", "Raw salmon can carry a parasite that causes salmon poisoning disease, fatal to dogs if untreated; cooking kills it. Raw fish also risks other parasites and bacteria."),
+            ("Is salmon good for a dog's coat and skin?", "Yes — the omega-3s in cooked salmon support skin, coat, and joint health, which is why salmon leads many quality dog foods."),
+            ("How much salmon can a dog eat?", "Keep it occasional, under about 10% of daily calories: a tablespoon for toy dogs, up to 1/2 cup for large dogs."),
+            ("Can dogs eat smoked or canned salmon?", "Smoked salmon is too salty; canned is OK only if packed in water with no salt and bones removed."),
+            ("Can puppies eat salmon?", "Yes — cooked, deboned, plain salmon is a healthy protein for puppies in small amounts."),
+            ("Can dogs eat salmon skin?", "It is fatty and can trigger pancreatitis in sensitive dogs, so it is best removed; plain cooked flesh is the safer choice."),
+            ("What if my dog ate raw salmon?", "Contact a veterinarian promptly — raw salmon can cause salmon poisoning disease, which is serious but treatable if caught early."),
+        ],
+        "related": ["can-dogs-eat-chicken", "can-dogs-eat-shrimp", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Salmon Poisoning Disease",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-shrimp",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Shrimp? Yes — Cooked and Peeled",
+        "url": "/dog-nutrition/can-dogs-eat-shrimp/",
+        "description": "Cooked, peeled shrimp is a safe, low-fat, high-protein dog treat, but raw shrimp and shells are the real risks. How to serve it plain and how much is safe.",
+        "lede": "Yes — cooked, peeled shrimp is a lean, protein-rich treat many dogs love. The rules are simple: cook it, peel it, and skip the garlic butter and frying that make shrimp dangerous.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is shrimp safe for dogs?</h2>
+        <p>Plain cooked shrimp is safe for dogs and is a genuinely lean protein — high in protein, very low in fat, and a useful source of vitamin B12 and selenium. For a dog watching its weight, shrimp is a better treat than most cheese or meat scraps. The problems come from how people usually eat it: raw, shell-on, or drowned in garlic butter.</p>
+
+        <h2>The risks in a plate of shrimp</h2>
+        <ul>
+          <li><b>Raw shrimp:</b> can carry bacteria and is harder to digest; cook it through.</li>
+          <li><b>Shells and tails:</b> sharp and a choking or gut-blocking hazard — always peel and remove the tail.</li>
+          <li><b>Devein:</b> the dark intestinal tract is best removed for cleanliness.</li>
+          <li><b>Garlic butter and frying:</b> butter adds fat a dog does not need and garlic is toxic; fried, breaded shrimp is off the menu.</li>
+        </ul>
+        <div class="callout warn">Never feed a dog raw shrimp, shells, tails, or anything cooked with garlic, onion, butter, or heavy oil. Plain boiled or steamed shrimp, peeled, is the only safe way.</div>
+
+        <h2>Shrimp nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in 100 g of cooked shrimp (about 4–5 medium shrimp):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per 100 g cooked</th></tr>
+          <tr><td>Calories</td><td>~99 kcal</td></tr>
+          <tr><td>Protein</td><td>~24 g</td></tr>
+          <tr><td>Fat</td><td>~0.3 g</td></tr>
+          <tr><td>Cholesterol</td><td>~189 mg</td></tr>
+        </table>
+        <p>Very high protein, very low fat — that is why shrimp is a great lean treat, in moderation.</p>
+
+        <h2>How much shrimp is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1 small shrimp, chopped</td></tr>
+          <tr><td>5–15 kg</td><td>2–3 small shrimp</td></tr>
+          <tr><td>15–30 kg</td><td>4–5 medium shrimp</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 6–7 medium shrimp, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve shrimp</h2>
+        <ul>
+          <li>Boil or steam plain, with no salt, butter, or seasoning.</li>
+          <li>Peel completely and remove the tail and vein.</li>
+          <li>Chop for small dogs so nothing is a choking lump.</li>
+        </ul>
+
+        <h2>Can puppies eat shrimp?</h2>
+        <p>Cooked, peeled shrimp is not toxic to puppies, but the choking risk from shells is higher for small mouths, so keep portions tiny and always chop and peel thoroughly.</p>
+
+        <h2>Are there risks?</h2>
+        <p>The main risks are shells, raw shrimp, and garlic-butter or fried preparation. Shrimp is also a shellfish, so a small number of dogs are allergic — introduce one piece and watch for itching, swelling, or digestive upset. For another lean protein, see our <a href="/dog-nutrition/can-dogs-eat-salmon/">salmon guide</a>; for a full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>When shrimp isn't the answer</h2>
+        <p>Shrimp is a fun, lean occasional treat, not a nutrition source or a meal. Dogs with shellfish allergy or pancreatitis should skip it. If your dog shows signs of an allergic reaction — face swelling, hives, trouble breathing — that is an emergency; call your vet. Otherwise, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers everyday portions.</p>
+        """,
+        "faq": [
+            ("Can dogs eat shrimp?", "Yes — cooked, peeled shrimp is a safe, lean, high-protein treat for most dogs; it is low in fat and a good source of vitamin B12."),
+            ("Why must shrimp be cooked and peeled?", "Raw shrimp can carry bacteria, and shells or tails are a choking and gut-blocking hazard, so always cook and peel it completely."),
+            ("Can dogs eat shrimp with garlic butter?", "No — garlic is toxic to dogs and butter adds unneeded fat; only plain boiled or steamed shrimp is safe."),
+            ("How much shrimp can a dog have?", "Keep it occasional, under about 10% of daily calories: one small shrimp for toy dogs, up to 6–7 for large dogs."),
+            ("Can puppies eat shrimp?", "Cooked, peeled shrimp is not toxic, but the shell choking risk is higher for small puppies, so keep portions tiny and chop finely."),
+            ("Can dogs be allergic to shrimp?", "Yes — shellfish allergy is possible; introduce one piece and watch for itching, swelling, or digestive upset."),
+            ("Is fried or breaded shrimp safe?", "No — the frying, breading, and seasonings add fat and often garlic or onion, so skip it entirely."),
+            ("What if my dog ate raw shrimp?", "Watch for vomiting or diarrhea; if symptoms appear or your dog seems unwell, contact your vet. Cooked shrimp only going forward."),
+        ],
+        "related": ["can-dogs-eat-salmon", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
