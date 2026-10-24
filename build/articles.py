@@ -59,6 +59,7 @@ PILLARS = {
             "can-dogs-eat-honey", "can-dogs-eat-yogurt",
             "can-dogs-eat-salmon", "can-dogs-eat-shrimp",
             "can-dogs-eat-peas", "can-dogs-eat-corn",
+            "can-dogs-eat-onion", "can-dogs-eat-garlic",
         ],
     },
     "dog-care": {
@@ -3235,6 +3236,224 @@ ARTICLES = [
         ],
         "checked": "2026-10-24",
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-onion",
+        "url": "/dog-nutrition/can-dogs-eat-onion/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Onion? No — Even a Little Is Toxic",
+        "description": "Onion is toxic to dogs in any form — raw, cooked, powdered, or in broth. It damages red blood cells and can cause fatal anemia. Learn the risks and next steps.",
+        "lede": "No — onion is toxic to dogs in every form, with no safe dose. Its sulfur compounds destroy red blood cells and cause hemolytic anemia, often days after eating. Onion powder hiding in sauces and broths is the most common source.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no</strong>. Onion is one of the most dangerous everyday
+        foods for dogs. Unlike many "people foods" that are safe in moderation, onion has
+        <strong>no safe dose</strong> — and the toxic compound survives cooking, frying, and
+        even dehydration into powder.</p>
+
+        <h2>Why onion is toxic to dogs</h2>
+        <p>Onions belong to the <em>Allium</em> family (along with garlic, leeks, chives, and
+        shallots). They contain sulfur compounds called <strong>organosulfides</strong> that,
+        once absorbed, damage a dog's red blood cells. The cells become fragile and burst
+        (a process called <em>hemolysis</em>), leading to <strong>hemolytic anemia</strong> —
+        too few healthy red blood cells to carry oxygen.</p>
+        <p>The damage is not instant. Symptoms can appear within a day, but often take
+        <strong>2–4 days</strong> to show up, which is why owners frequently don't connect the
+        illness to the food their dog ate days earlier.</p>
+
+        <h2>Every form is dangerous</h2>
+        <ul>
+          <li><strong>Raw onion</strong> — whole, chopped, or in salads.</li>
+          <li><strong>Cooked onion</strong> — sautéed, roasted, in soups or stews.</li>
+          <li><strong>Onion powder</strong> — the sneakiest form; it is concentrated and hides in
+            spice blends, gravy mixes, bouillon, and many packaged sauces.</li>
+          <li><strong>Caramelized or fried onion</strong> — still toxic, just tastier to dogs.</li>
+          <li><strong>Leftover scraps and table scraps</strong> — a single discarded slice can
+            sicken a small dog.</li>
+        </ul>
+        <p>Cats are even more sensitive than dogs, but this page focuses on dogs.</p>
+
+        <h2>How much onion is too much?</h2>
+        <p>Veterinary toxicology references place the concerning dose around
+        <strong>15–30 g of onion per kg of body weight</strong> (roughly 0.5–1 oz per 2.2 lb).
+        That sounds like a lot — but onion powder is far more concentrated, and small dogs
+        reach the danger zone with just a teaspoon of powder or a few bites of a sauced dish.</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Rough toxic amount (fresh)</th><th>Safe amount</th></tr></thead>
+          <tbody>
+            <tr><td>5 kg (11 lb)</td><td>~75–150 g (half a small onion)</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>10 kg (22 lb)</td><td>~150–300 g</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>20 kg (44 lb)</td><td>~300–600 g</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>30 kg (66 lb)</td><td>~450 g–900 g</td><td><strong>0 — none</strong></td></tr>
+          </tbody>
+        </table>
+        <p class="note">Because powdered and cooked forms are concentrated and easy to
+        over-serve, treat the safe amount as <strong>zero</strong> for every dog, of every size.</p>
+
+        <h2>Signs of onion poisoning</h2>
+        <p>Watch for these over the 2–4 days after exposure:</p>
+        <ul>
+          <li>Lethargy, weakness, or reluctance to move</li>
+          <li>Pale or yellowish gums (signs of anemia)</li>
+          <li>Rapid breathing or elevated heart rate</li>
+          <li>Red or brown urine (broken red cells are being cleared)</li>
+          <li>Vomiting, diarrhea, loss of appetite</li>
+          <li>Collapse in severe cases</li>
+        </ul>
+
+        <h2>What to do if your dog ate onion</h2>
+        <ol>
+          <li><strong>Note what and how much</strong> — fresh, cooked, or powder, and roughly
+            how many grams.</li>
+          <li><strong>Call your veterinarian or an animal poison hotline immediately.</strong>
+            Do not wait for symptoms; early treatment (induced vomiting, activated charcoal,
+            IV fluids, and blood monitoring) works far better than waiting.</li>
+          <li><strong>Bring the packaging</strong> if it was a packaged or powdered product so
+            the clinic can assess concentration.</li>
+          <li><strong>Do not induce vomiting at home</strong> unless a professional tells you to —
+            it is unsafe in some situations.</li>
+        </ol>
+
+        <h2>Onion vs. garlic: the Allium family</h2>
+        <p>Garlic is onion's close relative and causes the <a href="/dog-nutrition/can-dogs-eat-garlic/">
+        same type of poisoning</a>, though its toxic threshold is higher. Both are unsafe,
+        and "a little bit" is never a safe bet. See our pages on
+        <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a> and
+        <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a> for other common
+        kitchen dangers.</p>
+        """,
+        "faq": [
+            ("Can dogs eat cooked onion?", "No. Cooking does not destroy the organosulfides; cooked, fried, or caramelized onion is just as toxic as raw."),
+            ("Is onion powder dangerous too?", "Yes — and it is the most common culprit. Powder is concentrated and hides in seasonings, gravy, and sauces; a small amount can equal a large amount of fresh onion."),
+            ("My dog ate a tiny bit of onion. Will it be okay?", "Maybe, but don't gamble. Small dogs and powdered forms are highest risk. Call your vet with the estimated amount and follow their advice."),
+            ("How long until symptoms appear?", "Typically 2–4 days, sometimes within 24 hours. The delay is why prompt veterinary contact matters even when your dog seems fine."),
+            ("Can onion kill a dog?", "Yes — severe hemolytic anemia can be fatal without treatment. The risk is highest in small dogs and with concentrated powdered forms."),
+            ("Are onion-flavored chips or snacks safe?", "No. They contain onion powder or extract plus salt and fat, making them doubly unsuitable."),
+            ("What about leeks, chives, and shallots?", "All Allium family members are toxic to dogs and should be avoided entirely."),
+            ("Can I give my dog bone broth with onion?", "No. Many broths and bouillon cubes contain onion. Use only plain, onion-free broth, or check the label carefully."),
+        ],
+        "related": ["can-dogs-eat-garlic", "can-dogs-eat-grapes", "can-dogs-eat-chocolate", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten onion, contact your veterinarian or a pet poison hotline right away.",
+    },
+    {
+        "slug": "can-dogs-eat-garlic",
+        "url": "/dog-nutrition/can-dogs-eat-garlic/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Garlic? No — It's Still Allium Toxicity",
+        "description": "Garlic, like onion, destroys a dog's red blood cells — the safe dose is effectively zero, especially for small breeds. Skip the folk remedies and flea myths.",
+        "lede": "No — garlic is in the same Allium family as onion and causes the same red-blood-cell damage. The 'garlic for fleas' folk remedy is unsafe and unsupported, and even powdered garlic in spice rubs can harm a small dog.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no</strong>. Garlic sits in the same <em>Allium</em> family as
+        onion, leeks, and chives, and it causes the <strong>same red-blood-cell damage</strong>
+        (hemolytic anemia). A popular myth claims garlic is a safe natural flea remedy or a
+        healthy dog supplement — <strong>neither is supported by veterinary evidence</strong>, and
+        feeding it is a real poisoning risk.</p>
+
+        <h2>Why garlic is dangerous for dogs</h2>
+        <p>Like onion, garlic contains organosulfides that rupture red blood cells after they
+        are absorbed. The result is hemolytic anemia: the body can no longer carry enough
+        oxygen, and in serious cases the damage is life-threatening.</p>
+        <p>Garlic's toxic threshold is <strong>higher than onion's</strong> — roughly 5 times less
+        potent gram-for-gram — but that does <em>not</em> make it safe. Powdered garlic is
+        concentrated, and a small dog can cross the danger line with a fraction of a clove or a
+        pinch of garlic powder.</p>
+
+        <h2>Garlic powder is the hidden hazard</h2>
+        <ul>
+          <li><strong>Garlic powder and granules</strong> — common in spice rubs, bread,
+            dressing mixes, and pet "treats" marketed with garlic.</li>
+          <li><strong>Garlic bread, knots, and naan</strong> — butter, salt, and garlic together.</li>
+          <li><strong>Chinese, Korean, and Thai dishes</strong> — garlic is a base aromatic in
+            many takeout meals dogs are tempted by.</li>
+          <li><strong>Homemade "flea" pastes</strong> — a folk remedy with no proven benefit and
+            real toxicity.</li>
+        </ul>
+
+        <h2>How much garlic is too much?</h2>
+        <p>Because garlic is about one-fifth as concentrated as onion, the commonly cited
+        dangerous range is around <strong>5 times higher by weight</strong> — but for practical
+        safety, the answer is the same as onion: <strong>don't feed it</strong>.</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Rough toxic amount (fresh clove)</th><th>Safe amount</th></tr></thead>
+          <tbody>
+            <tr><td>5 kg (11 lb)</td><td>a few grams (part of one clove)</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>10 kg (22 lb)</td><td>~5–10 g</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>20 kg (44 lb)</td><td>~10–20 g</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>30 kg (66 lb)</td><td>~15–30 g</td><td><strong>0 — none</strong></td></tr>
+          </tbody>
+        </table>
+        <p class="note">Small breeds reach toxicity fastest. With powdered garlic, the margin
+        for error is tiny — treat the safe amount as <strong>zero</strong>.</p>
+
+        <h2>Signs of garlic poisoning</h2>
+        <ul>
+          <li>Lethargy and weakness</li>
+          <li>Pale or yellowish gums</li>
+          <li>Rapid breathing, elevated heart rate</li>
+          <li>Red or brown urine</li>
+          <li>Vomiting, diarrhea, drooling</li>
+          <li>Loss of coordination in severe cases</li>
+        </ul>
+        <p>Symptoms typically develop over <strong>2–4 days</strong>, so contact a vet promptly
+        even if your dog looks normal right after eating it.</p>
+
+        <h2>What to do if your dog ate garlic</h2>
+        <ol>
+          <li><strong>Estimate the amount and form</strong> (fresh clove, powder, or cooked in
+            food) and note the time.</li>
+          <li><strong>Call your veterinarian or an animal poison hotline</strong> right away.
+            Early decontamination and supportive care prevent the worst damage.</li>
+          <li><strong>Bring the food label</strong> if garlic came from a packaged product.</li>
+          <li><strong>Do not induce vomiting at home</strong> unless directed by a professional.</li>
+        </ol>
+
+        <h2>Garlic vs. onion</h2>
+        <p>Both are Allium-family toxins with the same mechanism. Onion is the more potent of
+        the two, but garlic is more frequently fed by well-meaning owners who believe the
+        flea-remedy myth. For the broader picture, see our
+        <a href="/dog-nutrition/can-dogs-eat-onion/">onion</a> page, plus other kitchen dangers
+        like <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a> and
+        <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a>.</p>
+        """,
+        "faq": [
+            ("Is a little garlic good for dogs?", "No. Despite persistent folklore, there is no safe or beneficial dose supported by veterinary science, and the anemia risk is well documented."),
+            ("Can garlic kill fleas on dogs?", "Not reliably — and feeding garlic to achieve it poisons the dog instead. Use veterinarian-approved flea prevention."),
+            ("My dog ate garlic bread. Is that dangerous?", "Yes — garlic plus butter and salt. Contact your vet with the amount; small dogs are most at risk."),
+            ("How much garlic powder is toxic?", "Powder is concentrated; even a small pinch can matter for a toy or small breed. Assume any intentional garlic feeding is unsafe."),
+            ("How long until symptoms show?", "Usually 2–4 days. The delay is exactly why early veterinary advice matters."),
+            ("Is cooked or roasted garlic safer?", "No. Cooking does not remove the organosulfides."),
+            ("What about garlic oil or supplements?", "Avoid them. Oils and concentrates can deliver a large dose in a small volume."),
+            ("Can cats eat garlic?", "Cats are even more sensitive to Allium toxins than dogs. Keep all forms away from them."),
+        ],
+        "related": ["can-dogs-eat-onion", "can-dogs-eat-grapes", "can-dogs-eat-chocolate", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten garlic, contact your veterinarian or a pet poison hotline right away.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
