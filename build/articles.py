@@ -65,6 +65,7 @@ PILLARS = {
             "can-dogs-eat-xylitol", "can-dogs-eat-alcohol",
             "can-dogs-eat-caffeine", "can-dogs-eat-raw-dough",
             "can-dogs-eat-almonds", "can-dogs-eat-walnuts",
+            "can-dogs-eat-ham", "can-dogs-eat-ice-cream",
         ],
     },
     "dog-care": {
@@ -4405,6 +4406,184 @@ ARTICLES = [
             ("Which nuts can dogs eat safely?", "None are truly 'safe' treats — peanuts are the least risky and plain, unsalted peanut butter (xylitol-free) is common in dog treats. But for crunch, choose carrots or apple slices instead."),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten black walnuts, moldy nuts, or shows tremors, contact your veterinarian or a pet poison hotline immediately.",
+    },
+    {
+        "slug": "can-dogs-eat-ham",
+        "url": "/dog-nutrition/can-dogs-eat-ham/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Ham? Small Nibbles Only — Here's Why",
+        "description": "Ham is not toxic to dogs, but it is salty, fatty, and often processed with garlic or onion. Occasional small nibbles are okay; regular feeding is not.",
+        "lede": "Ham is not poisonous, but it is one of the worst everyday meats for dogs: very salty, high in fat, and often cured with garlic or onion powder. A small plain nibble on a holiday is fine — a ham habit is not.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>only tiny, plain, occasional nibbles — and never as a
+        regular treat.</strong> Ham is not toxic, but it concentrates three problems dogs
+        do not handle well: <strong>sodium, fat, and seasonings</strong>. This page explains
+        where the real risks are and how much ham, if any, fits into a dog's diet.</p>
+
+        <h2>Why ham is a poor fit for dogs</h2>
+        <ul>
+          <li><strong>Sodium load.</strong> Cured ham can carry 1,000+ mg of sodium per 100 g.
+          A dog's daily sodium requirement is a fraction of that; excess causes thirst,
+          and in large amounts, sodium ion poisoning.</li>
+          <li><strong>Fat and pancreatitis.</strong> Ham is fatty, and fat triggers
+          pancreatitis — a painful emergency with vomiting and a hunched belly.</li>
+          <li><strong>Curing ingredients.</strong> Many hams are rubbed or injected with
+          garlic and onion powder — both toxic to dogs (see <a
+          href="/dog-nutrition/can-dogs-eat-onion/">onion</a> and <a
+          href="/dog-nutrition/can-dogs-eat-garlic/">garlic</a>).</li>
+          <li><strong>Bone danger.</strong> Ham bones — cooked or smoked — splinter into
+          fragments that can obstruct or puncture the gut.</li>
+        </ul>
+
+        <h2>Ham by form: what's on the plate</h2>
+        <table class="dose">
+          <thead><tr><th>Form</th><th>Verdict</th></tr></thead>
+          <tbody>
+            <tr><td>Plain cooked ham, 1–2 small cubes (large dog)</td><td>Okay as a rare treat</td></tr>
+            <tr><td>Plain cooked ham, small dog</td><td>Half a cube, rarely</td></tr>
+            <tr><td>Honey-glazed / maple ham</td><td>Skip — sugar and glaze</td></tr>
+            <tr><td>Ham with glaze containing garlic/onion</td><td>No — toxic seasonings</td></tr>
+            <tr><td>Deli / sliced ham (lunchmeat)</td><td>Avoid — highest sodium</td></tr>
+            <tr><td>Prosciutto, bacon, salami</td><td>Avoid — salt plus fat plus spice</td></tr>
+            <tr><td>Ham bone</td><td>Never — splinter and obstruction risk</td></tr>
+            <tr><td>Ham fat trimmings</td><td>No — pancreatitis trigger</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Portion guide: keep any cured meat under roughly 10% of daily
+        calories — and for most dogs, a holiday-sized taste is already at that limit.</p>
+
+        <h2>Dogs who should never have ham</h2>
+        <ul>
+          <li>Dogs with <strong>heart disease or hypertension</strong> (sodium)</li>
+          <li>Dogs with a history of <strong>pancreatitis</strong> (fat)</li>
+          <li>Dogs on <strong>weight management</strong> plans</li>
+          <li>Dogs with <strong>kidney disease</strong> (sodium and protein load)</li>
+          <li>Any dog on a prescribed therapeutic diet</li>
+        </ul>
+
+        <h2>Signs your dog had too much ham</h2>
+        <ul>
+          <li>Excessive thirst and urination (sodium)</li>
+          <li>Vomiting or diarrhea within hours (fat and salt)</li>
+          <li>Hunched posture, praying position, belly pain (pancreatitis — vet now)</li>
+          <li>Lethargy and loss of appetite lasting into the next day</li>
+        </ul>
+
+        <p>If you want a meat treat that is actually designed for dogs, plain cooked
+        <a href="/dog-nutrition/can-dogs-eat-chicken/">chicken</a> or <a
+        href="/dog-nutrition/can-dogs-eat-salmon/">salmon</a> gives the flavor without the
+        salt and fat load.</p>
+        """,
+        "sources": [
+            ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Salt Toxicity", "https://www.merckvetmanual.com/toxicology/salt-toxicity-in-animals"),
+            ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "related": ["can-dogs-eat-chicken", "can-dogs-eat-salmon", "can-dogs-eat-garlic", "foods-toxic-to-dogs"],
+        "faq": [
+            ("Can dogs eat ham at all?", "A small plain nibble occasionally is not harmful for a healthy dog. But ham is high in sodium and fat and often cured with garlic or onion powder, so it should never be a regular treat."),
+            ("What happens if my dog eats a lot of ham?", "Expect thirst and possibly vomiting or diarrhea from the salt and fat. A large amount can trigger pancreatitis — watch for belly pain, hunched posture, and repeated vomiting, and call your vet."),
+            ("Can dogs eat ham bones?", "No. Cooked or smoked ham bones splinter into sharp fragments that can obstruct or puncture the digestive tract. That risk applies to the bone itself, regardless of the meat."),
+            ("Is deli ham okay for dogs?", "It is the worst form — lunchmeat carries the highest sodium plus preservatives. If you must share, use plain home-cooked ham instead and keep it to a tiny piece."),
+            ("Can puppies eat ham?", "Better not. Puppies have smaller tolerances for salt and fat, and their developing digestive systems are more easily upset. Stick to puppy-formulated food and treats."),
+            ("Is ham toxic like onion or chocolate?", "No — ham itself is not poisonous. The danger comes from sodium, fat, and the garlic or onion seasonings often used in curing and glazes."),
+            ("My dog ate ham with the bone — what do I do?", "Watch for choking, gagging, vomiting, constipation, or belly pain over the next few days. Do not induce vomiting (bone fragments can cause damage coming back up). Call your vet for guidance, especially for a small dog."),
+            ("What meat can dogs eat instead of ham?", "Plain, cooked, unseasoned chicken, turkey, or salmon. These give the same meaty flavor with a fraction of the salt and fat — and no curing ingredients."),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten a large amount of ham, a ham bone, or shows distress, contact your veterinarian.",
+    },
+    {
+        "slug": "can-dogs-eat-ice-cream",
+        "url": "/dog-nutrition/can-dogs-eat-ice-cream/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Ice Cream? Mostly No — Safer Options Inside",
+        "description": "Most dogs should skip ice cream: lactose, sugar, and dangerous flavorings like xylitol or chocolate. A tiny vanilla lick is low risk. Dog-friendly swaps.",
+        "lede": "Ice cream is not toxic in itself, but between lactose upset, sugar, and flavorings like chocolate or xylitol, it is a treat to skip. A small lick of plain vanilla is low risk — a bowl is not, and some flavors are emergencies.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>a tiny lick of plain vanilla is low risk — a bowl is not,
+        and some flavors are outright dangerous.</strong> Ice cream stacks four problems:
+        most adult dogs are lactose intolerant, it is sugar-dense, it is fatty, and its
+        flavorings can include genuinely toxic ingredients.</p>
+
+        <h2>The four problems with ice cream</h2>
+        <ul>
+          <li><strong>Lactose.</strong> After puppyhood, many dogs produce little lactase.
+          Milk-based ice cream commonly causes gas, bloating, and diarrhea within hours.</li>
+          <li><strong>Sugar.</strong> Regular sugar contributes to obesity and dental disease,
+          and is off-limits for diabetic dogs.</li>
+          <li><strong>Fat.</strong> Cream is rich enough to contribute to pancreatitis risk
+          in susceptible dogs.</li>
+          <li><strong>Toxic flavorings.</strong> Chocolate, coffee, macadamia, raisin, and
+          xylitol-sweetened "sugar-free" varieties are all hazardous (see <a
+          href="/dog-nutrition/can-dogs-eat-xylitol/">xylitol</a> and <a
+          href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a>).</li>
+        </ul>
+
+        <h2>Flavors ranked: from okay-ish to emergency</h2>
+        <table class="dose">
+          <thead><tr><th>Flavor</th><th>Risk</th></tr></thead>
+          <tbody>
+            <tr><td>Plain vanilla (one small lick)</td><td>Low — monitor for GI upset</td></tr>
+            <tr><td>Strawberry or plain fruit swirl</td><td>Low–moderate (sugar, lactose)</td></tr>
+            <tr><td>Cookies and cream / caramel</td><td>Moderate — sugar plus sometimes chocolate bits</td></tr>
+            <tr><td>Chocolate any form</td><td>Hazard — call vet for amounts eaten</td></tr>
+            <tr><td>Coffee or mocha</td><td>Hazard — caffeine toxicity</td></tr>
+            <tr><td>Rocky road / rum raisin</td><td>Hazard — raisins and alcohol</td></tr>
+            <tr><td>Sugar-free (xylitol)</td><td>Emergency — even small amounts</td></tr>
+            <tr><td>Vanilla with macadamia mix-in</td><td>Emergency — macadamia toxicity</td></tr>
+          </tbody>
+        </table>
+
+        <h2>What about dog ice cream and frozen dog treats?</h2>
+        <p>Pet-store "dog ice cream" and frozen yogurts made for dogs are lactose-reduced
+        or dairy-free and sweetened appropriately — those are fine in moderation. Even
+        simpler, DIY frozen treats work great: freeze plain <a
+        href="/dog-nutrition/can-dogs-eat-yogurt/">xylitol-free yogurt</a> with mashed
+        <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a> in an ice cube
+        tray, or freeze small cubes of <a
+        href="/dog-nutrition/can-dogs-eat-watermelon/">seedless watermelon</a>.</p>
+
+        <h2>My dog ate ice cream — what now?</h2>
+        <ol>
+          <li>Identify the flavor and estimated amount — especially chocolate, coffee,
+          raisin, macadamia, or any sugar-free product.</li>
+          <li>Toxic flavor: call your vet or a pet poison hotline immediately with details.</li>
+          <li>Plain vanilla or fruit: expect possible loose stools; keep water available and
+          monitor for 24 hours.</li>
+          <li>Diabetic dogs: check glucose per your vet's protocol after any sugary treat.</li>
+        </ol>
+        <p class="note">Puppies and small dogs feel lactose and sugar effects fastest —
+        the same lick that does nothing to a Labrador can scramble a Chihuahua's stomach.</p>
+        """,
+        "sources": [
+            ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Allergy and Intolerance", "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/food-allergy-and-intolerance-in-dogs"),
+            ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "related": ["can-dogs-eat-yogurt", "can-dogs-eat-milk", "can-dogs-eat-chocolate", "can-dogs-eat-xylitol"],
+        "faq": [
+            ("Can dogs eat a little bit of ice cream?", "One small lick of plain vanilla is low risk for a healthy adult dog. Expect possible gas or loose stools from lactose. Anything more than a lick invites stomach upset and unneeded sugar."),
+            ("Is ice cream toxic to dogs?", "Plain ice cream is not toxic, but flavors containing chocolate, coffee, macadamia nuts, raisins, or xylitol absolutely are. Sugar-free ice cream is the most dangerous — xylitol can be fatal in small amounts."),
+            ("What happens if my dog eats chocolate ice cream?", "Call your vet or a pet poison hotline with the amount eaten and your dog's weight. Chocolate toxicity depends on cocoa concentration and body size — dark chocolate ice cream is far more serious than a tiny taste of milk-chocolate swirl."),
+            ("Can puppies have ice cream?", "No. Puppies are more sensitive to lactose and sugar, and their calorie budget is tiny. If you want to celebrate, use a puppy-safe frozen treat made for dogs."),
+            ("Why does ice cream give my dog diarrhea?", "Most adult dogs are lactose intolerant — they lack the enzyme to digest milk sugar. The lactose ferments in the gut, producing gas, cramping, and loose stools within hours."),
+            ("Can dogs eat dog ice cream from the pet store?", "Yes, in moderation. These products are formulated lactose-reduced or dairy-free without toxic sweeteners. Check the label for xylitol anyway, and treat it as an occasional reward."),
+            ("What can I give my dog instead of ice cream?", "Freeze xylitol-free plain yogurt with mashed blueberries, or freeze seedless watermelon cubes. Frozen carrot coins also work as a crunchy summer treat."),
+            ("My dog ate sugar-free ice cream — is that an emergency?", "Yes, if it contains xylitol (also called birch sugar). Go to a vet immediately and bring the packaging. Xylitol can cause life-threatening low blood sugar and liver failure in dogs."),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten ice cream containing chocolate, xylitol, or other hazardous ingredients, contact your veterinarian or a pet poison hotline immediately.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
