@@ -58,6 +58,7 @@ PILLARS = {
             "can-dogs-eat-bread", "can-dogs-eat-popcorn",
             "can-dogs-eat-honey", "can-dogs-eat-yogurt",
             "can-dogs-eat-salmon", "can-dogs-eat-shrimp",
+            "can-dogs-eat-peas", "can-dogs-eat-corn",
         ],
     },
     "dog-care": {
@@ -3058,6 +3059,168 @@ ARTICLES = [
             ("What if my dog ate raw shrimp?", "Watch for vomiting or diarrhea; if symptoms appear or your dog seems unwell, contact your vet. Cooked shrimp only going forward."),
         ],
         "related": ["can-dogs-eat-salmon", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-peas",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Peas? Yes — a Healthy, Low-Fat Veggie",
+        "url": "/dog-nutrition/can-dogs-eat-peas/",
+        "description": "Plain peas are a safe, low-fat, fiber-rich veggie for dogs, but canned peas are too salty and the pods can choke. How to serve them and how much is safe.",
+        "lede": "Yes — plain peas are a safe, low-calorie, fiber-rich vegetable that many dogs enjoy, and they show up in plenty of quality dog foods. The catches are canned peas (too much salt) and whole pods, which can choke a small dog.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Are peas good for dogs?</h2>
+        <p>Green peas are a healthy, low-fat treat for dogs. They bring fiber, a surprising amount of plant protein, and vitamins like K and C plus thiamin. Because they are low in calories, they are a good crunchy option for dogs watching their weight — and they are a common, well-tolerated ingredient in premium dog foods.</p>
+
+        <h2>The catches: canned peas and pods</h2>
+        <ul>
+          <li><b>Canned peas:</b> almost always packed in salt, so the sodium is too high for a dog. Use fresh or frozen instead.</li>
+          <li><b>Pods and strings:</b> snow or sugar-snap pea pods can be a choking or gut hazard for small dogs — shell them or cut into tiny pieces.</li>
+          <li><b>Raw garden peas:</b> fine in small amounts, though cooking or thawing makes them easier to digest.</li>
+        </ul>
+        <div class="callout">Frozen peas straight from the bag, thawed, are one of the easiest safe veggies — no salt, no prep beyond a rinse.</div>
+
+        <h2>Peas nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in 100 g of cooked green peas (about half a cup):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per 100 g cooked</th></tr>
+          <tr><td>Calories</td><td>~81 kcal</td></tr>
+          <tr><td>Protein</td><td>~5 g</td></tr>
+          <tr><td>Carbohydrate</td><td>~14 g</td></tr>
+          <tr><td>Fiber</td><td>~5 g</td></tr>
+          <tr><td>Vitamin C</td><td>small amount</td></tr>
+        </table>
+        <p>Low calorie, decent fiber and protein are why peas are a smart light treat, not a nutrition gap-filler.</p>
+
+        <h2>How much peas is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1 tablespoon, mashed or whole</td></tr>
+          <tr><td>5–15 kg</td><td>2–3 tablespoons</td></tr>
+          <tr><td>15–30 kg</td><td>1/4 cup</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/3 cup, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve peas</h2>
+        <ul>
+          <li>Fresh cooked or thawed frozen, plain — no salt, butter, or oil.</li>
+          <li>Shell snow/sugar-snap peas and cut pods small for toy breeds.</li>
+          <li>Mash for very small dogs so nothing is a choking lump.</li>
+        </ul>
+
+        <h2>Can puppies eat peas?</h2>
+        <p>Yes — plain peas are not toxic to puppies and make a low-calorie training treat, but keep portions tiny and mash them for small breeds.</p>
+
+        <h2>Are there risks?</h2>
+        <p>Peas are low-risk, but they can cause gas in some dogs, and canned peas are too salty. A small number of dogs with kidney issues are sometimes advised to limit certain legumes, so check with your vet if that applies. For another gentle veggie, see our <a href="/dog-nutrition/can-dogs-eat-green-beans/">green beans guide</a>; for the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>When peas aren't the answer</h2>
+        <p>Peas are a fun, healthy occasional veggie, not a meal. If your dog has persistent gas, bloating, or kidney concerns, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> and a vet visit beat a bag of frozen peas. Persistent vomiting or a painful belly needs a professional, not more vegetables.</p>
+        """,
+        "faq": [
+            ("Can dogs eat peas?", "Yes — plain green peas are a safe, low-fat, fiber-rich treat for most dogs and are a common ingredient in quality dog foods."),
+            ("Can dogs eat canned peas?", "Avoid them — canned peas are packed in too much salt for a dog; use fresh or frozen peas instead."),
+            ("Can dogs eat pea pods?", "Snow or sugar-snap pods can choke small dogs, so shell them or cut tiny; the peas inside are the safe part."),
+            ("Are frozen peas safe for dogs?", "Yes — thawed frozen peas are one of the easiest safe veggies, with no salt and minimal prep."),
+            ("How much peas can a dog have?", "Keep it occasional, under about 10% of daily calories: a tablespoon for toy dogs, up to 1/3 cup for large dogs."),
+            ("Can puppies eat peas?", "Yes — plain peas are not toxic and make a low-calorie training treat, but keep portions tiny and mash for small breeds."),
+            ("Do peas cause gas in dogs?", "Some dogs get gassy from peas; start small and watch, and limit them if your dog is prone to flatulence."),
+            ("Are peas bad for dogs with kidney issues?", "A vet may advise limiting certain legumes for some kidney conditions, so check with your vet if that applies."),
+        ],
+        "related": ["can-dogs-eat-green-beans", "can-dogs-eat-cucumber", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-corn",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Corn? Yes — the Kernels, Not the Cob",
+        "url": "/dog-nutrition/can-dogs-eat-corn/",
+        "description": "Plain cooked corn kernels are safe for dogs, but the cob is a dangerous choking and blockage risk. Why to skip butter and never let a dog chew the cob.",
+        "lede": "Yes — plain cooked corn kernels are safe and show up in many dog foods, but the corn cob is a serious hazard: it does not digest and can block a dog's intestine, often needing surgery. Kernels yes, cob never.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Are corn kernels safe for dogs?</h2>
+        <p>Plain cooked corn kernels are safe for dogs and are a common, well-tolerated carbohydrate in dog food. They offer some fiber and a little protein. The grain itself is not the problem — the cob is.</p>
+
+        <h2>The cob is the real danger</h2>
+        <div class="callout warn">Never let a dog chew or eat a corn cob. A cob does not break down in a dog's digestive tract and can cause a life-threatening intestinal blockage that often requires surgery. Dogs love to gulp them whole, so keep cobs in the trash, not the bowl.</div>
+
+        <h2>Corn nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in 100 g of cooked corn kernels (about half a cup):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per 100 g cooked</th></tr>
+          <tr><td>Calories</td><td>~96 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~21 g</td></tr>
+          <tr><td>Fiber</td><td>~2.4 g</td></tr>
+          <tr><td>Protein</td><td>~3.4 g</td></tr>
+        </table>
+        <p>Mostly carbohydrate with a little fiber — corn is an energy treat, not a nutrition powerhouse, so keep it small.</p>
+
+        <h2>How much corn is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 tablespoons kernels</td></tr>
+          <tr><td>5–15 kg</td><td>2–3 tablespoons</td></tr>
+          <tr><td>15–30 kg</td><td>1/4 cup kernels</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/3 cup, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve corn</h2>
+        <ul>
+          <li>Cut the kernels off the cob first — never hand over the cob.</li>
+          <li>Plain, cooked, with no butter, salt, or oil.</li>
+          <li>Canned corn is fine only if it is no-salt-added; rinse it to cut sodium further.</li>
+        </ul>
+
+        <h2>Can puppies eat corn?</h2>
+        <p>Plain cooked kernels (off the cob) are not toxic to puppies, but keep portions tiny and always remove every bit of cob.</p>
+
+        <h2>Are there risks?</h2>
+        <p>The cob is the headline risk; beyond that, buttered or salted corn adds fat and sodium a dog does not need, and raw corn is harder to digest. Corn is also a common allergen, though true corn allergy in dogs is uncommon. For another plain-carb treat, see our <a href="/dog-nutrition/can-dogs-eat-rice/">rice guide</a>; for the full list of dangerous items, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>When corn isn't the answer</h2>
+        <p>Corn kernels are a small occasional treat, and the cob is never food. If your dog has vomiting, abdominal pain, or straining to poop after getting near a cob, that is an emergency — call your vet. Otherwise, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers everyday portions.</p>
+        """,
+        "faq": [
+            ("Can dogs eat corn?", "Yes — plain cooked corn kernels are safe and common in dog food; the problem is the cob, not the kernels."),
+            ("Why is the corn cob dangerous?", "A cob does not digest and can block a dog's intestine, often requiring surgery — never let a dog chew or eat a cob."),
+            ("Can dogs eat corn with butter or salt?", "Plain is best; butter adds fat and salt is harmful, so serve kernels with nothing added."),
+            ("Can dogs eat canned corn?", "Yes only if it is no-salt-added; rinse it to cut sodium further, and never the cob."),
+            ("How much corn can a dog have?", "Keep it occasional, under about 10% of daily calories: a tablespoon or two for small dogs, up to 1/3 cup for large dogs."),
+            ("Can puppies eat corn?", "Plain cooked kernels off the cob are not toxic, but keep portions tiny and remove all cob completely."),
+            ("Can dogs be allergic to corn?", "Corn allergy is uncommon but possible; if you see itching or digestive upset, stop and ask your vet."),
+            ("What if my dog ate a corn cob?", "Call a veterinarian promptly — a swallowed cob can block the intestine and often needs surgery; do not wait for symptoms."),
+        ],
+        "related": ["can-dogs-eat-rice", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
