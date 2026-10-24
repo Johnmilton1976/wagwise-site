@@ -54,6 +54,7 @@ PILLARS = {
             "can-dogs-eat-cucumber", "can-dogs-eat-broccoli",
             "can-dogs-eat-green-beans", "can-dogs-eat-pineapple",
             "can-dogs-eat-mango", "can-dogs-eat-potato",
+            "can-dogs-eat-spinach", "can-dogs-eat-tomato",
         ],
     },
     "dog-care": {
@@ -2400,6 +2401,169 @@ ARTICLES = [
             ("What if my dog ate raw or green potato?", "Call a vet or poison helpline, especially for vomiting, diarrhea, confusion, or weakness — solanine poisoning needs prompt care."),
         ],
         "related": ["can-dogs-eat-sweet-potato", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-spinach",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Spinach? Yes — in Small Amounts",
+        "url": "/dog-nutrition/can-dogs-eat-spinach/",
+        "description": "Plain spinach is safe for dogs in small amounts — nutrient-rich but high in oxalates, so keep it occasional. Why cooked is easier, and how much to feed by weight.",
+        "lede": "Yes — plain spinach is safe for dogs in small amounts. It is nutrient-rich, but the natural oxalates mean it should stay an occasional treat, not a daily heap.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is spinach safe for dogs?</h2>
+        <p>Plain spinach is non-toxic and genuinely nutritious — vitamin K, vitamin A, vitamin C, folate, iron, and fiber. The catch is oxalic acid (oxalates), which in large amounts can bind calcium and, over time, stress the kidneys, especially in dogs with existing kidney issues. The widely cited rule is the same as for any treat: keep spinach to a small, occasional amount and it is fine for healthy dogs.</p>
+
+        <h2>Spinach nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of cooked spinach (about 180 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~41 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~6.8 g</td></tr>
+          <tr><td>Fiber</td><td>~4.3 g</td></tr>
+          <tr><td>Vitamin K</td><td>excellent source</td></tr>
+          <tr><td>Vitamin A</td><td>good source</td></tr>
+          <tr><td>Iron</td><td>some</td></tr>
+        </table>
+        <p>Nutrient-dense, which is exactly why the oxalate caution applies — more is not better here.</p>
+
+        <h2>The oxalate caveat</h2>
+        <div class="callout">Spinach is high in oxalates. For a healthy dog, small occasional servings are fine, but dogs with kidney disease or a history of calcium oxalate stones should avoid it or get a vet's OK first. Keep portions small.</div>
+
+        <h2>How much spinach is safe?</h2>
+        <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>A few small leaves or 1 tbsp cooked</td></tr>
+          <tr><td>5–15 kg</td><td>1–2 tbsp cooked, chopped</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup cooked</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/3 cup cooked, occasionally</td></tr>
+        </table>
+
+        <h2>Raw vs cooked</h2>
+        <p>Lightly cooked (steamed or boiled, no seasoning) is easier to digest and softer on the gut than a wad of raw leaves. Either way, chop fine so it is not a choking clump.</p>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Plain, with no butter, oil, salt, garlic, or onion.</li>
+          <li>Steam or boil briefly, then chop small.</li>
+          <li>Let it cool before serving.</li>
+        </ul>
+
+        <h2>Can puppies eat spinach?</h2>
+        <p>Yes, in tiny amounts once weaned and on solid food. Puppies have small kidneys too, so keep it a leaf or two and watch for any tummy upset.</p>
+
+        <h2>What to avoid</h2>
+        <div class="callout warn">Never serve spinach with butter, cream, garlic, or onion — garlic and onion are toxic to dogs, and the fats add needless calories. Only plain spinach is safe. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>When spinach isn't the answer</h2>
+        <p>Spinach is a small, healthy extra — not a meal and not a fix for a sick dog. Persistent vomiting or diarrhea, lethargy, or a painful belly need a veterinarian. Our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat spinach?", "Yes — plain spinach is safe in small, occasional amounts for healthy dogs. It is nutrient-rich but high in oxalates."),
+            ("Why is too much spinach bad for dogs?", "Spinach is high in oxalates, which can bind calcium and stress the kidneys in large amounts, especially in dogs with kidney issues."),
+            ("Can dogs with kidney disease eat spinach?", "It is best avoided or cleared with a vet first, because the oxalates can worsen kidney and stone problems."),
+            ("Is cooked or raw spinach better for dogs?", "Lightly cooked (steamed or boiled, plain) is easier to digest; chop either fine to avoid a choking clump."),
+            ("How much spinach can a dog eat?", "Keep it occasional: a tablespoon or two for a small dog, up to a third of a cup cooked for a large one."),
+            ("Can puppies eat spinach?", "Yes, a leaf or two once weaned and on solid food — watch for any tummy upset."),
+            ("Can dogs eat spinach with butter or garlic?", "No — butter adds fat a dog does not need, and garlic is toxic. Only plain spinach is safe."),
+            ("What if my dog ate a lot of spinach?", "A healthy dog may just get an upset stomach; call a vet if there is vomiting, lethargy, or if the dog has kidney disease."),
+        ],
+        "related": ["can-dogs-eat-broccoli", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-tomato",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Tomatoes? Ripe Flesh, No Leaves",
+        "url": "/dog-nutrition/can-dogs-eat-tomato/",
+        "description": "Ripe tomato flesh is safe for dogs in small amounts, but green tomatoes and the stems and leaves are toxic. Why to skip sauces, and how much to feed by weight.",
+        "lede": "Yes — ripe red tomato flesh is safe in small amounts, but the green parts, stems, and leaves contain solanine and are toxic. Skip sauces and seasoned tomato.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is tomato safe for dogs?</h2>
+        <p>The ripe, red flesh of a tomato is non-toxic and can be a low-calorie treat — it brings vitamin C, potassium, and lycopene, an antioxidant. The problem is everything else on the plant: unripe (green) tomatoes and the stems, leaves, and vines contain solanine, the same toxin found in green potatoes, and that is genuinely dangerous to dogs.</p>
+
+        <h2>Tomato nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in half a cup of chopped ripe tomato (about 90 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~16 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~3.5 g</td></tr>
+          <tr><td>Fiber</td><td>~1 g</td></tr>
+          <tr><td>Vitamin C</td><td>good source</td></tr>
+          <tr><td>Potassium</td><td>some</td></tr>
+          <tr><td>Lycopene</td><td>present</td></tr>
+        </table>
+        <p>Low calorie and antioxidant-rich — a light, safe bite when ripe and plain.</p>
+
+        <h2>The danger: green tomatoes and the plant</h2>
+        <div class="callout warn">Green (unripe) tomatoes and every green part of the plant — stems, leaves, and vines — contain solanine and are toxic to dogs. Keep dogs out of the garden and the compost of tomato plants, and never let them chew a leafy tomato stem.</div>
+
+        <h2>How much tomato is safe?</h2>
+        <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 small cubes (about 1 tbsp)</td></tr>
+          <tr><td>5–15 kg</td><td>A few cubes (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup chopped</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup chopped, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Use only ripe, red tomatoes — no green ones.</li>
+          <li>Wash, remove the stem and leaves completely, and cube small.</li>
+          <li>Offer plain, fresh or a little cooked — no salt, oil, or seasoning.</li>
+        </ul>
+
+        <h2>Can puppies eat tomato?</h2>
+        <p>Yes, ripe flesh in tiny amounts once weaned and on solid food. Puppies are smaller and more sensitive, so keep it to a cube or two and watch for loose stools.</p>
+
+        <h2>The danger: sauce, ketchup, and seasonings</h2>
+        <div class="callout warn">Tomato sauce, ketchup, and soup are off the menu — they are loaded with salt, sugar, and often garlic or onion, which are toxic to dogs. Only plain ripe tomato flesh is safe. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>What if my dog ate a tomato leaf or green tomato?</h2>
+        <p>Call a vet or poison helpline promptly if the dog ate stems, leaves, vines, or a green tomato — solanine poisoning can cause drooling, vomiting, diarrhea, confusion, and weakness. A few bites of ripe red flesh is usually just a mild tummy upset that passes. Our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat ripe tomatoes?", "Yes — ripe red tomato flesh is safe in small amounts, plain and without stems or leaves."),
+            ("Can dogs eat tomato leaves or stems?", "No — the green parts of the plant contain solanine and are toxic. Keep dogs away from tomato plants and their trimmings."),
+            ("Can dogs eat green (unripe) tomatoes?", "No — unripe tomatoes also contain solanine and can poison a dog. Only fully ripe red flesh is safe."),
+            ("Can dogs eat tomato sauce or ketchup?", "No — sauces and ketchup are high in salt and sugar and often contain garlic or onion, which are toxic. Only plain ripe tomato is safe."),
+            ("How much tomato can a dog eat?", "Keep treats under about 10% of daily calories: a couple of cubes for a small dog, up to half a cup for a large one."),
+            ("Can puppies eat tomato?", "Yes, a cube or two of ripe flesh once weaned and on solid food — watch for loose stools."),
+            ("Is tomato good for dogs?", "In small amounts, ripe tomato adds vitamin C, potassium, and lycopene, but it should stay an occasional low-cal treat."),
+            ("What if my dog ate a tomato leaf or green tomato?", "Call a vet or poison helpline promptly — solanine poisoning needs quick care. Watch for vomiting, drooling, or weakness."),
+        ],
+        "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "can-dogs-eat-potato"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
