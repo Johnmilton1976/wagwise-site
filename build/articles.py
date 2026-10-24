@@ -51,6 +51,7 @@ PILLARS = {
             "can-dogs-eat-grapes", "can-dogs-eat-chocolate", "can-dogs-eat-avocado",
             "can-dogs-eat-blueberries", "can-dogs-eat-pumpkin",
             "can-dogs-eat-sweet-potato", "can-dogs-eat-rice",
+            "can-dogs-eat-cucumber", "can-dogs-eat-broccoli",
         ],
     },
     "dog-care": {
@@ -1898,6 +1899,178 @@ ARTICLES = [
             ("Can dogs eat plain rice cakes?", "A plain, unsalted rice cake is not toxic and can be an occasional low-fat chew, but it adds little nutrition — keep it rare and unseasoned."),
         ],
         "related": ["can-dogs-eat-chicken", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-cucumber",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Cucumber? Yes — a Low-Calorie Crunch",
+        "url": "/dog-nutrition/can-dogs-eat-cucumber/",
+        "description": "Cucumber is a safe, low-calorie, hydrating crunch that most dogs love. Peel it first, skip the pickles, and learn exactly how much to feed by body weight.",
+        "lede": "Yes — cucumber is a safe, crunchy, near-zero-calorie treat that is mostly water, so it is a great low-fat option for dogs, including those watching their weight. Peel it, and skip the pickles.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is cucumber good for dogs?</h2>
+        <p>Cucumber is about 96% water and very low in calories — roughly 8 calories in a half-cup of slices. That makes it one of the lightest treats you can offer, especially useful for overweight dogs or as a cooling snack on a warm day. It brings a little vitamin K, vitamin C, and potassium, but the real selling point is hydration and crunch with almost no fat or sugar.</p>
+
+        <h2>Which part of the cucumber can a dog eat?</h2>
+        <p>The flesh is the safe part. A few cautions on the rest:</p>
+        <ul>
+          <li><b>Peel:</b> the skin is where pesticide residue concentrates, and it can be a choking or gut irritant for small dogs. Peel it, especially if the cucumber is not organic.</li>
+          <li><b>Seeds:</b> a few seeds are harmless, but they add bulk and can upset a sensitive stomach, so scoop them out for toy breeds.</li>
+          <li><b>Flesh:</b> the safe, hydrating part — slice thin or into small cubes.</li>
+        </ul>
+        <div class="callout">Wash the whole cucumber before cutting, even though you peel it — dogs lick the cut surface, so surface dirt and wax matter.</div>
+
+        <h2>Cucumber nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in half a cup of sliced cucumber (about 52 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~8 kcal</td></tr>
+          <tr><td>Water</td><td>~96%</td></tr>
+          <tr><td>Carbohydrate</td><td>~1.9 g</td></tr>
+          <tr><td>Fiber</td><td>~0.3 g</td></tr>
+          <tr><td>Vitamin K</td><td>small amount</td></tr>
+          <tr><td>Vitamin C</td><td>small amount</td></tr>
+        </table>
+        <p>Low calorie and high water are the features that make it a diet-friendly crunch, not a nutrition supplement.</p>
+
+        <h2>How much cucumber is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>2–3 thin slices (about 1 tbsp diced)</td></tr>
+          <tr><td>5–15 kg</td><td>A small handful of slices (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup sliced</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup sliced, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Peel, then slice thin or cut into small cubes.</li>
+          <li>Remove seeds for very small dogs.</li>
+          <li>For a cooling chew, freeze thin slices — a safe summer ice treat.</li>
+          <li>Offer plain. No salt, oil, dressing, or dip.</li>
+        </ul>
+
+        <h2>Can puppies eat cucumber?</h2>
+        <p>Yes, in small amounts once they are weaned and eating solid food. Puppies have smaller tummies, so keep it to a slice or two and watch for loose stools.</p>
+
+        <h2>The real danger: pickles and seasonings</h2>
+        <div class="callout warn">Never feed a dog pickles, cucumber salad, or seasoned cucumber. Pickles are loaded with salt and often contain garlic or onion — both toxic to dogs — plus vinegar and spices a dog does not need. Only plain, unseasoned cucumber is safe.</div>
+
+        <h2>What if my dog ate a pickle?</h2>
+        <p>A small bite of a plain dill pickle is unlikely to be dangerous beyond extra salt, but if it contained garlic or onion, or the dog ate a lot, call your vet or a poison helpline. Watch for vomiting, diarrhea, lethargy, or excessive thirst. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>Cucumber vs other crunchy treats</h2>
+        <p>Cucumber is a lighter choice than many fruits. <a href="/dog-nutrition/can-dogs-eat-watermelon/">Watermelon</a> is another safe, hydrating option (flesh only), while <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes and raisins</a> must never be given because they are toxic. Keep treats small and see our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> for portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat cucumber skin?", "It is safest to peel it — the skin holds pesticide residue and can irritate a small dog's gut. Peel, especially if not organic."),
+            ("Is cucumber good for overweight dogs?", "Yes — at about 8 calories per half-cup, it is one of the lightest treats you can give a dog watching its weight."),
+            ("Can dogs eat pickles?", "No — pickles are high in salt and often contain garlic or onion, both toxic to dogs. Only plain cucumber is safe."),
+            ("Can puppies eat cucumber?", "Yes, a slice or two once weaned and on solid food — peeled, seeded for tiny breeds, and watch for loose stools."),
+            ("How much cucumber can a dog eat?", "Keep treats under about 10% of daily calories: a few slices for a small dog, up to half a cup for a large one, and only occasionally."),
+            ("Can dogs eat frozen cucumber?", "Yes — plain frozen thin slices are a safe cooling summer snack. Never add salt, sugar, or syrup."),
+            ("Can dogs eat cucumber seeds?", "A few seeds are harmless, but scoop them out for toy breeds to avoid an upset stomach."),
+            ("What if my dog ate a pickle?", "A small plain dill bite is usually just extra salt; if it had garlic or onion, or the dog ate a lot, call your vet and watch for vomiting or lethargy."),
+        ],
+        "related": ["can-dogs-eat-watermelon", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-broccoli",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Broccoli? Yes — in Small Amounts",
+        "url": "/dog-nutrition/can-dogs-eat-broccoli/",
+        "description": "Broccoli is a safe, nutrient-rich vegetable for dogs, but only in small amounts. Why too much can upset the gut, and how to serve it plain and cooked.",
+        "lede": "Yes — broccoli is safe and genuinely healthy for dogs in small amounts. The catch is that too much can irritate the stomach and, in large doses, affect the thyroid, so portion control is the whole game.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is broccoli safe for dogs?</h2>
+        <p>Both the florets and the stalk are non-toxic and packed with good things — vitamin C, vitamin K, fiber, and antioxidants. The issue is quantity. Broccoli contains isothiocyanates, compounds that in large amounts can cause mild to severe gastric irritation in dogs. The widely cited rule of thumb is that broccoli (and any treat) should make up no more than about 10% of daily calories, and some sources note the isothiocyanate risk rises sharply above that.</p>
+
+        <h2>Broccoli nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in half a cup of chopped broccoli (about 45 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~15 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~3 g</td></tr>
+          <tr><td>Fiber</td><td>~1.5 g</td></tr>
+          <tr><td>Vitamin C</td><td>good source</td></tr>
+          <tr><td>Vitamin K</td><td>good source</td></tr>
+          <tr><td>Protein</td><td>~1.5 g</td></tr>
+        </table>
+        <p>Low calorie and high in vitamins — a genuinely healthy bite when the portion is small.</p>
+
+        <h2>How much broccoli is safe?</h2>
+        <p>Keep broccoli to about 10% of daily calories or less. A practical portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe broccoli amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 small florets (about 1 tbsp chopped)</td></tr>
+          <tr><td>5–15 kg</td><td>A few small florets (1–2 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup chopped</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup chopped, occasionally</td></tr>
+        </table>
+        <div class="callout">The 10% rule is the line. Push much beyond it and the isothiocyanates can cause drooling, gas, and an upset stomach — and very large amounts are a real concern for the thyroid.</div>
+
+        <h2>Raw vs cooked</h2>
+        <p>Both work. Lightly steamed broccoli is easier to digest and softer on the gut; raw florets give a satisfying crunch but are tougher to break down. Either way, cut into small pieces so a dog cannot choke, especially on the stalk.</p>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Plain, with no butter, oil, salt, cheese sauce, or seasoning.</li>
+          <li>Steam or boil briefly, or offer raw florets in small pieces.</li>
+          <li>Chop the stalk fine — it is the most common choking hazard.</li>
+          <li>Let it cool before serving.</li>
+        </ul>
+
+        <h2>Can puppies eat broccoli?</h2>
+        <p>Yes, in tiny amounts once weaned and on solid food. Puppies have sensitive tummies, so a floret or two and watch for gas or loose stools.</p>
+
+        <h2>What to avoid</h2>
+        <div class="callout warn">Never serve broccoli with garlic, onion, butter, or cheese sauce — garlic and onion are toxic to dogs, and the fats add needless calories and gut risk. Only plain broccoli is safe. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>When broccoli isn't enough</h2>
+        <p>Broccoli is a small, healthy extra — not a meal and not a fix for a sick dog. Persistent vomiting or diarrhea, lethargy, or a painful belly need a veterinarian, not more vegetables. Our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat broccoli raw or cooked?", "Both are safe. Lightly steamed is easier to digest; raw florets are a safe crunch. Cut small to avoid choking."),
+            ("Why is too much broccoli bad for dogs?", "Large amounts of isothiocyanates in broccoli can irritate the gut and, in big doses, affect the thyroid, so keep it under about 10% of daily calories."),
+            ("Can dogs eat broccoli stalks?", "Yes, but chop them finely — the stalk is the main choking hazard. The florets are the easiest part to serve."),
+            ("Can puppies eat broccoli?", "Yes, a floret or two once weaned and on solid food — watch for gas or loose stools."),
+            ("How much broccoli can a dog eat?", "Keep it to about 10% of daily calories: a couple of small florets for a small dog, up to half a cup chopped for a large one."),
+            ("Can dogs eat broccoli with cheese or butter?", "No — cheese sauce and butter add fat a dog does not need, and never add garlic or onion, which are toxic. Only plain broccoli is safe."),
+            ("Is broccoli good for overweight dogs?", "Yes — at about 15 calories per half-cup and high in fiber, it is a filling, low-calorie treat in small amounts."),
+            ("What if my dog ate a lot of broccoli?", "Mild cases cause gas and an upset stomach that pass. Call a vet for repeated vomiting, lethargy, or if a large amount was eaten, since very high doses concern the thyroid."),
+        ],
+        "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "can-dogs-eat-carrots"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
