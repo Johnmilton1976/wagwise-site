@@ -53,6 +53,7 @@ PILLARS = {
             "can-dogs-eat-sweet-potato", "can-dogs-eat-rice",
             "can-dogs-eat-cucumber", "can-dogs-eat-broccoli",
             "can-dogs-eat-green-beans", "can-dogs-eat-pineapple",
+            "can-dogs-eat-mango", "can-dogs-eat-potato",
         ],
     },
     "dog-care": {
@@ -2238,6 +2239,167 @@ ARTICLES = [
             ("What if my dog ate too much pineapple?", "Usually just a loose-stool belly that passes; call a vet for vomiting, lethargy, or if the core or skin was eaten."),
         ],
         "related": ["can-dogs-eat-watermelon", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-mango",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Mango? Yes — Peeled, Pitted, Small",
+        "url": "/dog-nutrition/can-dogs-eat-mango/",
+        "description": "Fresh mango flesh is a safe, vitamin-rich dog treat in small pieces. Why to peel it, remove the pit, and skip canned syrup, plus how much to feed by weight.",
+        "lede": "Yes — fresh mango flesh is a safe, vitamin-rich treat in small pieces. Peel it, remove the pit, and skip the skin; the pit is a choking hazard and the skin is hard to digest.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is mango safe for dogs?</h2>
+        <p>The fresh flesh is non-toxic and a genuine nutrient win in small amounts — vitamin C, vitamin A, and fiber, plus water for hydration. The watch-items are the natural sugar (keep it occasional) and the inedible parts: the skin and the large central pit. Dogs should get only soft flesh, cut small.</p>
+
+        <h2>Mango nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in half a cup of fresh mango cubes (about 83 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~50 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~12 g</td></tr>
+          <tr><td>Sugar (natural)</td><td>~11 g</td></tr>
+          <tr><td>Fiber</td><td>~1.4 g</td></tr>
+          <tr><td>Vitamin C</td><td>good source</td></tr>
+          <tr><td>Vitamin A</td><td>good source</td></tr>
+        </table>
+        <p>Nutrient-dense, but the sugar is why portion size matters.</p>
+
+        <h2>How much mango is safe?</h2>
+        <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 small cubes (about 1 tbsp)</td></tr>
+          <tr><td>5–15 kg</td><td>A few small cubes (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup cubes</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup cubes, occasionally</td></tr>
+        </table>
+
+        <h2>The pit and the skin</h2>
+        <div class="callout warn">The pit is a serious choking and blockage hazard — never let a dog gnaw a mango half. The skin is tough, waxy, and hard to digest, and may carry pesticide residue, so peel it completely. Feed only peeled flesh, pit removed.</div>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Peel, cut the flesh off the pit, and cube small.</li>
+          <li>Offer plain, fresh or frozen (a cooling bite).</li>
+          <li>No sugar, syrup, or whipped topping ever.</li>
+        </ul>
+
+        <h2>Can puppies eat mango?</h2>
+        <p>Yes, in tiny amounts once weaned and on solid food. The sugar and fiber mean keep it to a cube or two and watch for loose stools.</p>
+
+        <h2>The danger: sugar and canned mango</h2>
+        <div class="callout warn">Avoid canned mango in syrup and dried mango with added sugar — both pile on sugar a dog does not need. Diabetic dogs should skip mango or get a vet's OK first. For the full list of risky foods, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>What if my dog ate the pit or too much?</h2>
+        <p>A lot of flesh mostly causes a loose-stool belly that passes. But if the dog swallowed the pit, call a vet right away — pits are a real blockage risk, especially in small dogs. Also call for vomiting, lethargy, or straining. Our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat mango flesh?", "Yes — peeled, pitted, and cut small, fresh mango flesh is a safe vitamin-rich treat in moderation."),
+            ("Can dogs eat mango skin?", "No — the skin is tough, waxy, and hard to digest, and may hold pesticide residue. Peel it completely."),
+            ("Can dogs eat mango pit?", "No — the pit is a choking and blockage hazard. Never give a dog a mango half; remove the pit first."),
+            ("Can puppies eat mango?", "Yes, a cube or two once weaned and on solid food — watch for loose stools from the sugar."),
+            ("How much mango can a dog eat?", "Keep treats under about 10% of daily calories: a couple of cubes for a small dog, up to half a cup for a large one."),
+            ("Can dogs eat canned or dried mango?", "Avoid syrup-packed canned and sugar-added dried mango; the added sugar is too much. Fresh is best."),
+            ("Can diabetic dogs eat mango?", "It is best avoided because of the natural sugar, or cleared with your vet first."),
+            ("What if my dog ate a mango pit?", "Call a vet promptly — pits are a real blockage risk, especially in small dogs. Watch for vomiting or straining."),
+        ],
+        "related": ["can-dogs-eat-pineapple", "can-dogs-eat-watermelon", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-potato",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Potato? Cooked Only, Never Raw",
+        "url": "/dog-nutrition/can-dogs-eat-potato/",
+        "description": "Plain cooked potato is safe for dogs, but raw potato is toxic and fried or buttered versions are off the menu. Why, and how much to feed by body weight.",
+        "lede": "Yes — fully cooked potato is safe for dogs, but raw potato is toxic and fried or buttered potato is off the menu. Plain, boiled or baked, and never green or sprouted.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is potato safe for dogs?</h2>
+        <p>A plain, fully cooked potato is safe and easy to digest — it is mostly starch, with some vitamin C, vitamin B6, and potassium. The danger is in the preparation and the state of the potato: raw potatoes and green or sprouted potatoes contain solanine, a compound that is toxic to dogs, and fried or loaded potatoes add fat and salt a dog does not need.</p>
+
+        <h2>Raw vs cooked — the solanine risk</h2>
+        <div class="callout warn">Raw potatoes, and any potato that is green or sprouting, contain solanine, which can cause vomiting, diarrhea, confusion, and in large amounts serious poisoning. Cook thoroughly, and never feed raw potato or green/sprouted parts. The same goes for raw potato skins in quantity.</div>
+
+        <h2>Potato nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of plain boiled potato (about 150 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~135 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~31 g</td></tr>
+          <tr><td>Fiber</td><td>~2.4 g</td></tr>
+          <tr><td>Vitamin C</td><td>some</td></tr>
+          <tr><td>Vitamin B6</td><td>some</td></tr>
+          <tr><td>Potassium</td><td>good source</td></tr>
+        </table>
+        <p>A filling carb, not a nutrient powerhouse — keep portions modest.</p>
+
+        <h2>How much potato is safe?</h2>
+        <p>As an occasional plain side, a sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Plain cooked potato</th></tr>
+          <tr><td>Under 5 kg</td><td>1–2 tablespoons mashed</td></tr>
+          <tr><td>5–15 kg</td><td>1/4–1/3 cup</td></tr>
+          <tr><td>15–30 kg</td><td>1/2 cup</td></tr>
+          <tr><td>30 kg and up</td><td>1/2–1 cup, occasionally</td></tr>
+        </table>
+        <div class="callout">Potato is calorie-dense. For a dog watching its weight, <a href="/dog-nutrition/can-dogs-eat-sweet-potato/">sweet potato</a> or a low-cal veggie is often a better swap.</div>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Boil or bake plain, with no salt, butter, oil, or seasoning.</li>
+          <li>Mash or cube small so a dog cannot choke.</li>
+          <li>Skip the skin if it is thick or you are unsure it is fully cooked.</li>
+        </ul>
+
+        <h2>Can puppies eat potato?</h2>
+        <p>Yes, plain cooked potato in small amounts once weaned and on solid food. Never raw, green, or sprouted.</p>
+
+        <h2>The danger: fries, butter, and green potatoes</h2>
+        <div class="callout warn">French fries, chips, and buttered or seasoned potato are off the menu — the fat, salt, and often garlic or onion are bad for dogs, and onion and garlic are toxic. And never feed raw or green/sprouted potato (solanine). For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>When potato isn't enough</h2>
+        <p>Plain potato is a small occasional carb, not a meal and not a remedy for a sick dog. Persistent vomiting or diarrhea, lethargy, or a painful belly need a veterinarian, not more food. Our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat cooked potato?", "Yes — plain boiled or baked potato, with no salt, butter, or seasoning, is safe in moderation."),
+            ("Can dogs eat raw potato?", "No — raw potato contains solanine, which is toxic to dogs. Cook it thoroughly."),
+            ("Why are green or sprouted potatoes dangerous?", "They contain higher solanine levels and can poison a dog; never feed green, sprouting, or raw potato."),
+            ("Can dogs eat fries or chips?", "No — fries and chips are loaded with fat and salt, and often garlic or onion, which are toxic. Only plain cooked potato is safe."),
+            ("How much potato can a dog eat?", "Keep it occasional: a tablespoon or two for a small dog, up to a cup for a large one, plain and cooked."),
+            ("Can puppies eat potato?", "Yes, plain cooked potato in small amounts once weaned — never raw, green, or sprouted."),
+            ("Is potato or sweet potato better for dogs?", "Both are safe cooked; sweet potato is a bit more nutrient-rich, while potato is more calorie-dense. See our sweet potato guide."),
+            ("What if my dog ate raw or green potato?", "Call a vet or poison helpline, especially for vomiting, diarrhea, confusion, or weakness — solanine poisoning needs prompt care."),
+        ],
+        "related": ["can-dogs-eat-sweet-potato", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
