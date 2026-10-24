@@ -62,6 +62,7 @@ PILLARS = {
             "can-dogs-eat-onion", "can-dogs-eat-garlic",
             "can-dogs-eat-macadamia-nuts", "can-dogs-eat-cherries",
             "can-dogs-eat-peaches", "can-dogs-eat-plums",
+            "can-dogs-eat-xylitol", "can-dogs-eat-alcohol",
         ],
     },
     "dog-care": {
@@ -3846,6 +3847,196 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has swallowed a plum pit or shows breathing changes, contact your veterinarian right away.",
+    },
+    {
+        "slug": "can-dogs-eat-xylitol",
+        "url": "/dog-nutrition/can-dogs-eat-xylitol/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Xylitol? No — It Can Be Deadly Fast",
+        "description": "Xylitol, found in sugar-free gum and some peanut butters, triggers a fatal insulin surge in dogs. Check every label — and what to do if your dog ate it.",
+        "lede": "No — xylitol (birch sugar) is one of the deadliest common ingredients for dogs. A tiny amount triggers a rapid insulin surge, crash blood sugar, and possible liver failure within hours. Check every label.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>absolutely not.</strong> Xylitol — also labeled "birch
+        sugar" or "birch sap" — is an artificial sweetener that is harmless to humans but
+        one of the most dangerous substances a dog can swallow. It does not take much: a
+        few pieces of sugar-free gum can put a small dog in crisis within an hour.</p>
+
+        <h2>Why xylitol is so dangerous</h2>
+        <p>In humans, xylitol is absorbed slowly and barely affects insulin. In dogs, the
+        body mistakes it for real sugar and releases a <strong>massive insulin surge</strong>.
+        The result happens in two stages:</p>
+        <ul>
+          <li><strong>Stage 1 — hypoglycemia (low blood sugar)</strong>, within 30–60
+            minutes: vomiting, weakness, wobbling, collapse, tremors, seizures. This stage
+            can be fatal on its own.</li>
+          <li><strong>Stage 2 — liver failure</strong>, which can develop 12–72 hours after
+            larger doses, and can be fatal even with intensive care.</li>
+        </ul>
+        <p>A concerning dose can be around <strong>50 mg of xylitol per kg of body
+        weight</strong> for blood-sugar crash, and roughly 10 times that for liver injury.
+        One piece of many sugar-free gums contains 300–1,000 mg — so <strong>one or two
+        pieces can seriously harm a small dog</strong>.</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Rough concerning amount</th><th>Safe amount</th></tr></thead>
+          <tbody>
+            <tr><td>5 kg (11 lb)</td><td>~250 mg (part of one gum piece)</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>10 kg (22 lb)</td><td>~500 mg (about one gum piece)</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>20 kg (44 lb)</td><td>~1,000 mg (1–2 gum pieces)</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>30 kg (66 lb)</td><td>~1,500 mg (2–3 gum pieces)</td><td><strong>0 — none</strong></td></tr>
+          </tbody>
+        </table>
+
+        <h2>Where xylitol hides — check these labels</h2>
+        <div class="callout warn">Xylitol appears in more products every year. Scan
+        ingredient lists on: sugar-free gum and mints, candy, breath strips, sugar-free
+        peanut and other nut butters, sugar-free desserts and protein bars, chewable and
+        gummy vitamins, mouthwash and toothpaste, some liquid medications, and products
+        labeled "birch sugar."</div>
+        <p><strong>Peanut butter deserves special attention</strong>: some brands add
+        xylitol. Always check before sharing — plain, xylitol-free peanut butter is the
+        only kind dogs may have, in small amounts.</p>
+
+        <h2>What to do if your dog ate xylitol</h2>
+        <ol>
+          <li><strong>Treat it as an emergency</strong> — this is not a wait-and-see
+            situation. Contact a veterinarian or pet poison hotline immediately, day or
+            night.</li>
+          <li><strong>Bring the product label</strong> — the exact product (gum, butter,
+            candy) and the xylitol grams per serving let the vet calculate the risk.</li>
+          <li><strong>Do not wait for symptoms</strong> — treatment before the blood sugar
+            crashes is dramatically more effective.</li>
+          <li><strong>Do not induce vomiting</strong> at home unless a professional
+            directs you to; a collapsing dog should go straight to the clinic.</li>
+          <li><strong>Watch for 72 hours</strong> if the vet advises home monitoring:
+            lethargy, vomiting, or yellow gums in the following days can signal liver
+            injury.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("What is xylitol and why is it deadly for dogs?", "It is a sugar alcohol sweetener, sometimes labeled birch sugar. In dogs it triggers a massive insulin release, crashing blood sugar within 30–60 minutes, and larger doses can cause fatal liver failure."),
+            ("How much xylitol is toxic to dogs?", "Blood-sugar crash can occur around 50 mg per kg of body weight; liver injury at roughly ten times that. One or two pieces of sugar-free gum can seriously harm a small dog."),
+            ("Is xylitol in peanut butter?", "Some brands add it — always check the ingredient list before sharing peanut butter. Look for xylitol, birch sugar, or birch sap on the label."),
+            ("What are the first signs of xylitol poisoning?", "Vomiting, sudden weakness, wobbling, collapse, tremors, and seizures — usually within an hour of eating it. Liver injury can follow days later."),
+            ("My dog ate sugar-free gum — what should I do?", "Treat it as an emergency. Call a vet or pet poison hotline immediately with the brand and how many pieces — do not wait for symptoms."),
+            ("Can dogs recover from xylitol poisoning?", "Yes, if treated early. Dogs treated before or during the blood-sugar crash often recover with glucose support; liver failure cases have a much worse outlook, which is why speed matters."),
+            ("Is xylitol bad for cats too?", "Cats appear far less sensitive and rarely eat it, but keep all sweetened products away from every pet anyway."),
+            ("Is erythritol or stevia safe for dogs?", "Erythritol and stevia are not known to cause xylitol-type poisoning, but sugar alcohols can cause diarrhea. The safest policy: no sweetened products for dogs at all."),
+        ],
+        "related": ["can-dogs-eat-peanut-butter", "foods-toxic-to-dogs", "can-dogs-eat-chocolate", "can-dogs-eat-yogurt"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. Xylitol ingestion is an emergency — contact your veterinarian or a pet poison hotline immediately.",
+    },
+    {
+        "slug": "can-dogs-eat-alcohol",
+        "url": "/dog-nutrition/can-dogs-eat-alcohol/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Drink Alcohol? No — Even Sips Are Risky",
+        "description": "Alcohol hits dogs far harder than humans — even sips can crash blood sugar and body temperature. Hidden sources like raw dough and desserts count too.",
+        "lede": "No — dogs cannot tolerate alcohol at all. Their small body size means even a sip of a strong drink can cause vomiting, disorientation, low blood sugar, and seizures. Rises dough and fermented foods count too.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no — never.</strong> Dogs are far more sensitive to alcohol
+        than people because of their small body size and faster absorption. There is no
+        "just a sip" safe amount: what feels trivial to a human can measurably intoxicate
+        a small dog, and severe cases progress to seizures and coma.</p>
+
+        <h2>What alcohol does to a dog</h2>
+        <p>Ethanol depresses the central nervous system. In dogs the effect arrives faster
+        and hits harder than in humans:</p>
+        <ul>
+          <li>Vomiting and drooling</li>
+          <li>Wobbling, disorientation, glassy eyes</li>
+          <li><strong>Low blood sugar</strong> and <strong>low body temperature</strong> —
+            two of the most dangerous effects and easy to miss</li>
+          <li>Slow breathing, depressed heart rate</li>
+          <li>Seizures, and in severe cases, coma or death</li>
+        </ul>
+        <p>Signs usually appear within <strong>30–60 minutes</strong>, but the full picture
+        can take hours — a dog that "slept it off" can still be in trouble.</p>
+
+        <h2>Alcohol hides in places owners don't expect</h2>
+        <ul>
+          <li><strong>Raw bread dough with yeast</strong> — the most overlooked source: the
+            dough keeps rising inside the warm stomach, producing alcohol (and dangerous
+            stomach expansion at the same time). See our
+            <a href="/dog-nutrition/can-dogs-eat-bread/">bread</a> page for the details.</li>
+          <li><strong>Rotten or fermenting fruit</strong> — fallen apples or windfall plums
+            fermenting under trees can intoxicate a scavenging dog.</li>
+          <li><strong>Desserts</strong> — rum cake, tiramisu, liqueur chocolates
+            (chocolate adds its own <a href="/dog-nutrition/can-dogs-eat-chocolate/">
+            toxicity</a>).</li>
+          <li><strong>Mouthwash and some medications</strong> — many contain significant
+            ethanol.</li>
+          <li><strong>Spilled drinks at parties</strong> — the classic exposure: guests,
+            dropped cups, unattended glasses.</li>
+        </ul>
+
+        <h2>How much is dangerous?</h2>
+        <p>Because toxicity starts at doses far below what a human would notice, the safe
+        amount is <strong>zero</strong>. Rough scale: serious signs can develop in a 10 kg
+        dog from the ethanol in a fraction of a standard beer or a few sips of spirits —
+        and mixed drinks, dessert alcohols, and raw dough concentrate it further.</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Safe amount</th></tr></thead>
+          <tbody>
+            <tr><td>Any weight</td><td><strong>0 — no alcohol in any form, ever</strong></td></tr>
+          </tbody>
+        </table>
+
+        <h2>What to do if your dog drank alcohol</h2>
+        <ol>
+          <li><strong>Call a veterinarian or pet poison hotline immediately</strong>, even
+            for a small amount — early support (warmth, fluids, blood-sugar management)
+            prevents the worst outcomes.</li>
+          <li><strong>Keep the dog warm</strong> — alcohol drops body temperature.</li>
+          <li><strong>Note what was drunk</strong> — the type of drink, how much, and when.</li>
+          <li><strong>Do not induce vomiting</strong> at home unless directed; a wobbly or
+            drowsy dog can aspirate.</li>
+          <li><strong>Stay watchful overnight</strong> — effects can deepen for hours.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("Can a dog have a tiny sip of beer?", "No. Even small amounts can lower a dog's blood sugar and body temperature, and small dogs reach toxic levels with very little. There is no safe sip."),
+            ("What happens if a dog licks spilled wine or beer?", "A single lick of a low-alcohol drink may cause little more than drool in a large dog, but call your vet for guidance, watch closely for an hour, and keep the dog warm."),
+            ("Is raw bread dough really an alcohol risk?", "Yes — yeast ferments inside the warm stomach, producing ethanol while the dough expands. It is a double emergency: alcohol poisoning plus dangerous bloating."),
+            ("Can dogs get drunk?", "They can be intoxicated, but it is far more dangerous than in humans — dogs develop hypoglycemia and hypothermia and can seize or slip into a coma."),
+            ("My dog ate fermented fruit off the ground — what now?", "Call your vet, keep the dog warm, and watch for wobbling or vomiting. Larger amounts or small dogs need same-day care."),
+            ("Is beer safe as a 'cool' summer treat for dogs?", "No. There are special non-alcoholic 'dog beers' on the market with no ethanol; real beer must stay out of reach."),
+            ("How long does alcohol stay in a dog's system?", "Signs typically peak within the first hours but can last much longer depending on the dose. Overnight monitoring is standard advice."),
+            ("Can dogs drink non-alcoholic beer?", "True non-alcoholic versions without ethanol and without xylitol or hops are generally low risk, but plain water is always the right drink for a dog."),
+        ],
+        "related": ["can-dogs-eat-bread", "can-dogs-eat-chocolate", "foods-toxic-to-dogs", "can-dogs-eat-cherries"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has consumed alcohol or raw yeast dough, contact your veterinarian or a pet poison hotline immediately.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
