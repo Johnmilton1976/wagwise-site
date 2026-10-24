@@ -201,6 +201,10 @@ ARTICLES = [
             ("Merck Veterinary Manual — Behavior of Dogs",
              "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
         ],
+        "experts": [
+            "The board-certified behaviourists of the American Veterinary Society of Animal Behavior (AVSAB)",
+            "The animal behaviour specialists at the ASPCA",
+        ],
         "disclaimer": "Behavior guidance only. A puppy that breaks skin, growls, or snaps from a calm state should be assessed by a qualified trainer.",
     },
     {
@@ -992,23 +996,55 @@ ARTICLES = [
         "eyebrow": "DOG NUTRITION",
         "body": """
         <h2>Is watermelon good for dogs?</h2>
-        <p>The flesh is about 90% water, so it is a great way to add hydration on hot days. It also brings vitamin A, vitamin C, and a touch of potassium, with very few calories.</p>
+        <p>The flesh is about 92% water, so it is one of the best ways to add hydration on a hot day. A cup of diced watermelon (about 150 g) has roughly 45 calories, a good hit of vitamin A and vitamin C, a little potassium, and almost no fat or sodium. For a dog that turns its nose up at plain water, a few chilled cubes can nudge fluid intake up — useful when you are watching for dehydration during summer walks.</p>
+
+        <h2>Which part of the watermelon can a dog eat?</h2>
+        <p>Only the red flesh. The rest of the fruit is where the risk lives:</p>
+        <ul>
+          <li><b>Rind:</b> tough, fibrous, and hard to digest. It is a known cause of intestinal blockage, especially in smaller dogs that swallow a chunk of it.</li>
+          <li><b>Seeds:</b> a few swallowed seeds may only cause mild stomach upset, but in larger amounts they can lodge and obstruct. Seedless watermelon removes the worry entirely.</li>
+          <li><b>Flesh:</b> the safe, hydrating part — cut into small cubes.</li>
+        </ul>
+        <div class="callout">The rind is a bigger hazard than people expect. Even a small piece can cause a blockage, so trim it completely rather than leaving a green rim "for crunch."</div>
+
+        <h2>How much watermelon is safe?</h2>
+        <p>Watermelon is a treat, not a meal. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>2–3 small cubes (about 1 tbsp diced)</td></tr>
+          <tr><td>5–15 kg</td><td>A small handful of cubes (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>A handful (up to 1/4 cup diced)</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup diced, occasionally</td></tr>
+        </table>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. The rest should come from a complete dog food.</p>
 
         <h2>How to serve it</h2>
         <ul>
           <li>Use seedless watermelon, or pick out the seeds by hand.</li>
-          <li>Cut the red flesh into small cubes. Remove the green rind entirely.</li>
-          <li>A handful of cubes is plenty for a large dog; a few for a small one.</li>
+          <li>Cut the flesh into small cubes and remove the green rind entirely.</li>
+          <li>For a cooling chew, freeze cubes, or blend flesh with a little water and freeze in an ice tray.</li>
+          <li>Wash the outside first — dogs lick the cut surface, so rind dirt matters even though they do not eat it.</li>
         </ul>
-        <div class="callout">The rind is hard to digest and a known cause of intestinal blockage in dogs. The seeds can cause mild stomach upset or, in quantity, a blockage.</div>
 
-        <h2>When to skip</h2>
-        <p>Diabetic dogs should avoid the natural sugar. Stop if your dog gets loose stools after eating it.</p>
+        <h2>Can puppies eat watermelon?</h2>
+        <p>Yes, in tiny amounts once they are weaned and eating solid food. Puppies have smaller digestive systems, so keep it to a cube or two and watch for loose stools. The same rules apply: flesh only, no rind, no seeds.</p>
+
+        <h2>What if my dog ate too much?</h2>
+        <p>A dog that raids a whole watermelon mostly risks a belly ache — bloating, gas, and diarrhea from the sugar and water load. Mild cases pass on their own with water and a bland next meal. Call a vet if there is repeated vomiting, lethargy, a swollen painful belly, or if the dog got into the rind or seeds and may have a blockage. Diabetic dogs should avoid the natural sugar altogether.</p>
+        <div class="callout warn">If the dog ate the <b>rind</b> or a lot of <b>seeds</b>, watch closely for blockage signs (straining, repeated vomiting, no stool) and call a vet — that is more urgent than a simple sugar overload.</div>
+
+        <h2>Watermelon vs other fruit treats</h2>
+        <p>Watermelon is a strong low-calorie choice, but it is not the only safe one. <a href="/dog-nutrition/can-dogs-eat-bananas/">Banana</a> and <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a> are also safe in moderation, while <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes and raisins</a> must never be given because they are toxic. For the full rundown of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>.</p>
         """,
         "faq": [
             ("Can dogs eat watermelon rind?", "No — the rind is tough to digest and can cause a blockage. Feed only the red flesh."),
             ("Can dogs eat watermelon seeds?", "Seedless is best. Swallowed seeds can cause stomach upset or, in large amounts, an obstruction."),
             ("Is watermelon good for overweight dogs?", "Yes — it is very low in calories, so it is a good treat for dogs on a diet, in small amounts."),
+            ("Can puppies eat watermelon?", "Yes, a cube or two once weaned and on solid food — flesh only, no rind or seeds, and watch for loose stools."),
+            ("How much watermelon can a dog eat?", "Treats should stay under about 10% of daily calories: a few cubes for a small dog, up to half a cup diced for a large one, and only occasionally."),
+            ("Can dogs eat frozen watermelon?", "Yes — plain frozen flesh cubes, or a blended ice treat, are a safe cooling summer snack. Never add sugar or syrup."),
+            ("Is watermelon safe for diabetic dogs?", "It is best avoided because of the natural sugar; check with your vet before offering any sweet fruit."),
+            ("What happens if my dog eats too much watermelon?", "Usually just a sugar-and-water belly ache — bloating, gas, diarrhea — that passes. Call a vet for vomiting, lethargy, a swollen belly, or if the dog ate rind or seeds and may have a blockage."),
         ],
         "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
@@ -1019,6 +1055,11 @@ ARTICLES = [
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
+        "experts": [
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+        ],
+        "checked": "2026-10-24",
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -1277,6 +1318,10 @@ ARTICLES = [
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
         ],
+        "experts": [
+            "The veterinary nutritionists and clinicians of the Cornell Riney Canine Health Center",
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {
@@ -1400,6 +1445,10 @@ ARTICLES = [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
         ],
+        "experts": [
+            "The Veterinary Toxicology team at Pet Poison Helpline",
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+        ],
         "disclaimer": "This article is general information, not veterinary advice. If your dog may have eaten grapes or raisins, contact a veterinarian or emergency clinic right away.",
     },
     {
@@ -1476,6 +1525,10 @@ ARTICLES = [
              "https://www.merckvetmanual.com/toxicology/food-hazards/chocolate-toxicosis-in-animals"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+        ],
+        "experts": [
+            "The Veterinary Toxicology team at Pet Poison Helpline",
+            "The veterinarians of the ASPCA Animal Poison Control Center",
         ],
         "disclaimer": "This article is general information, not veterinary advice. If your dog may have eaten chocolate, contact a veterinarian or emergency clinic right away.",
     },
@@ -1724,6 +1777,14 @@ EDITORIAL = {
 
     <h2>Who writes and reviews WagWise</h2>
     <p>Guides are researched and written by the WagWise editorial team — a group of writers who specialise in reading and summarising veterinary and training literature in plain language. <strong>We do not invent individual authors or reviewers.</strong> No article on this site claims to be written or reviewed by a named veterinarian unless a real, verifiable veterinarian did so. Where a topic is medical, we point you to a licensed vet rather than pretending to be one. Our authority comes from the sources we cite, not from a borrowed white coat.</p>
+
+    <h2>Expert citations, not borrowed authority</h2>
+    <p>Because our topics are medical, we cite the <em>named</em> veterinary experts and specialist teams behind the guidance we summarise — for example the Veterinary Toxicology team at Pet Poison Helpline, or the veterinarians at the ASPCA Animal Poison Control Center. These appear in two places on every relevant article:</p>
+    <ul>
+      <li>The <strong>Sources</strong> block lists the public references, each linked so you can read them yourself.</li>
+      <li>The <strong>Expert sources</strong> block names the veterinary experts and teams whose published work underpins the article.</li>
+    </ul>
+    <p>This is honest attribution: we are summarising experts' published guidance, and we say so by name. It is <strong>not</strong> the same as claiming those experts reviewed or approved this specific article — we never do that unless they actually did. The distinction matters: a fabricated "reviewed by Dr. X" line would be deceptive and would be penalised by search engines, whereas transparent citation of real experts strengthens trust without lying.</p>
 
     <h2>How we research a guide</h2>
     <p>Every health or behaviour claim is checked against named, public reference organisations rather than against other blogs. The core sources we draw on include:</p>

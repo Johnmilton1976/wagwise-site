@@ -51,9 +51,11 @@ BYLINE_HTML = (
     "<strong>About this article.</strong> Compiled by the <a href=\"/about/editorial-standards/\">%s "
     "editorial team</a> from authoritative, publicly available sources including the American Kennel "
     "Club (AKC), the American Veterinary Medical Association (AVMA), the ASPCA, and the Merck "
-    "Veterinary Manual. %s is an independent editorial resource and <em>not</em> a veterinary "
-    "practice. For diagnosis, treatment, or anything urgent, please consult a licensed "
-    "veterinarian.</div>"
+    "Veterinary Manual. Where a guide draws on named veterinary experts at organisations such as "
+    "Pet Poison Helpline or the ASPCA Animal Poison Control Center, those experts are cited by name "
+    "in the Expert sources block below — we never claim a veterinarian reviewed an article they did "
+    "not. %s is an independent editorial resource and <em>not</em> a veterinary practice. For "
+    "diagnosis, treatment, or anything urgent, please consult a licensed veterinarian.</div>"
     ) % (ORG_NAME, ORG_NAME)
 
 DEFAULT_CHECKED = "2026-10-16"
@@ -352,11 +354,13 @@ def article_jsonld(a):
     }
     # Machine-readable citations — lets search engines see the provenance of
     # every health claim without parsing the page.
-    if a.get("sources"):
-        d["citation"] = [
-            {"@type": "CreativeWork", "name": label, "url": url}
-            for label, url in a["sources"]
-        ]
+    cites = []
+    for label, url in a.get("sources", []):
+        cites.append({"@type": "CreativeWork", "name": label, "url": url})
+    for e in a.get("experts", []):
+        cites.append({"@type": "MedicalOrganization", "name": e})
+    if cites:
+        d["citation"] = cites
     return json.dumps(d, ensure_ascii=False, indent=2)
 
 
@@ -415,6 +419,22 @@ def render_article(a):
             % (lis, _checked_label(a.get("checked")))
         )
 
+    # Expert sources — named veterinary experts / specialist teams at the
+    # authoritative orgs we cite. This is honest attribution (we cite their
+    # published guidance), NOT a fabricated "reviewed by Dr. X" claim. It closes
+    # the YMYL E-E-A-T gap 哥飞 flagged without inventing individual authors.
+    exp_html = ""
+    if a.get("experts"):
+        lis = "".join("<li>%s</li>" % e for e in a["experts"])
+        exp_html = (
+            '<div class="experts"><h2>Expert sources</h2><ul>%s</ul>'
+            '<p class="srcnote">The named veterinary experts and specialist teams above are '
+            "the authors of the published guidance we summarise. WagWise Pet is an "
+            "independent editorial resource and is not affiliated with them; we have not "
+            "represented that any individual reviewed this specific article.</p></div>"
+            % lis
+        )
+
     byline_html = BYLINE_HTML
 
     crumb = (
@@ -442,6 +462,7 @@ def render_article(a):
         "  %s\n"
         "  %s\n"
         "  %s\n"
+        "  %s\n"
         "</div>"
     ) % (
         crumb,
@@ -453,6 +474,7 @@ def render_article(a):
         faq_html,
         rel_html,
         src_html,
+        exp_html,
         disc_html,
         byline_html,
     )
@@ -619,11 +641,32 @@ CALC_BODY = """
   </div>
   <div class="doc">
     <h2>How the estimate works</h2>
-    <p>Dogs do not age at a flat 7x rate. The widely used approximation treats the first year as about 15 human years and the second as roughly 9 more, then adds 4 to 6 per year afterward depending on size: smaller dogs age slower, larger dogs faster.</p>
+    <p>Dogs do not age at a flat 7&times; rate. The size-adjusted approximation we use treats the first year as about 15 human years and the second as roughly 9 more, then adds 4 to 6 per year afterward depending on size: smaller dogs age slower, larger dogs faster. That is why a 2-year-old small dog and a 2-year-old giant breed land in very different human-age ranges.</p>
     <h2>Why not just multiply by 7?</h2>
-    <p>A one-year-old dog is already sexually mature and well past its infancy, so 7x badly understates the first years and overstates the later ones. The size-adjusted curve is closer to how dogs actually age.</p>
-    <h2>A rough guide, not a rule</h2>
-    <p>This tool gives a quick sense of your dog's life stage. It is not a medical fact and cannot tell you how healthy your dog is. For health questions, see our dog health guides or ask your veterinarian.</p>
+    <p>The 7&times; rule is a rough myth. A one-year-old dog is already sexually mature and past infancy, so 7&times; badly understates the early years and overstates the later ones. The size-adjusted curve — the one behind this calculator — bends by body size, because large and giant breeds age noticeably faster once they are adults. The shape of it is consistent with guidance from the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center.</p>
+    <h2>Life stage by size</h2>
+    <p>The human-age output is really a stand-in for <em>life stage</em>, which is what should change how you care for the dog:</p>
+    <table>
+      <tr><th style="text-align:left">Life stage</th><th style="text-align:left">Small dog</th><th style="text-align:left">Medium dog</th><th style="text-align:left">Large / giant dog</th></tr>
+      <tr><td>Puppy</td><td>0&ndash;1 yr</td><td>0&ndash;1 yr</td><td>0&ndash;1 yr</td></tr>
+      <tr><td>Young adult</td><td>1&ndash;6 yr</td><td>1&ndash;5 yr</td><td>1&ndash;4 yr</td></tr>
+      <tr><td>Mature adult</td><td>6&ndash;9 yr</td><td>5&ndash;8 yr</td><td>4&ndash;7 yr</td></tr>
+      <tr><td>Senior</td><td>9+ yr</td><td>8+ yr</td><td>7+ yr</td></tr>
+    </table>
+    <p>A "senior" reading is a useful prompt to book more frequent vet checks, watch for <a href="/dog-health/">symptoms like vomiting or shaking</a>, and adjust diet and exercise.</p>
+    <h2>Breed-size reference</h2>
+    <p>The size you pick maps roughly to these common breeds:</p>
+    <ul>
+      <li><b>Small (under 9 kg / 20 lb):</b> Chihuahua, Yorkshire Terrier, Dachshund, Shih Tzu, Jack Russell Terrier.</li>
+      <li><b>Medium (9&ndash;23 kg / 20&ndash;50 lb):</b> Beagle, Border Collie, Cocker Spaniel, English Bulldog, Australian Shepherd.</li>
+      <li><b>Large (23 kg+ / 50 lb+):</b> Labrador Retriever, German Shepherd, Golden Retriever, Rottweiler, Great Dane (at the giant end).</li>
+    </ul>
+    <h2>What the number can and cannot tell you</h2>
+    <p>This tool gives a quick sense of your dog's life stage. It is an estimate, not a medical fact, and cannot tell you how healthy your dog is. Two dogs with the same human-age reading can be in very different shape. Use the number to time life-stage care — more frequent check-ups in the senior range, and earlier attention to joint support for large breeds — rather than to predict a lifespan.</p>
+    <h2>When age matters most</h2>
+    <p>As dogs move into the mature and senior ranges, a few things become worth watching: slower recovery after exercise, changes in appetite or water intake, and the onset of arthritis or dental disease. Our <a href="/dog-health/">dog health guides</a> explain what is urgent versus what can wait, and our <a href="/dog-care/">care and grooming guides</a> cover the at-home habits that keep older dogs comfortable.</p>
+    <h2>Sources and review</h2>
+    <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
   </div>
 </div>
 <script>
