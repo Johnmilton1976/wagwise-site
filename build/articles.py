@@ -56,6 +56,7 @@ PILLARS = {
             "can-dogs-eat-mango", "can-dogs-eat-potato",
             "can-dogs-eat-spinach", "can-dogs-eat-tomato",
             "can-dogs-eat-bread", "can-dogs-eat-popcorn",
+            "can-dogs-eat-honey", "can-dogs-eat-yogurt",
         ],
     },
     "dog-care": {
@@ -2730,6 +2731,169 @@ ARTICLES = [
             ("What if my dog ate buttered popcorn?", "A small amount will likely be fine, but large amounts of fat and salt can upset the stomach; watch for vomiting and call your vet if it persists."),
         ],
         "related": ["can-dogs-eat-rice", "can-dogs-eat-cucumber", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-honey",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Honey? Yes — in Tiny Amounts",
+        "url": "/dog-nutrition/can-dogs-eat-honey/",
+        "description": "Plain honey is safe for dogs in tiny amounts, but it is sugar with few real benefits. Why puppies and diabetic dogs should skip it, and exactly how much is safe.",
+        "lede": "Yes — a lick of plain honey is not toxic to dogs, but it is essentially sugar, so it belongs in the 'tiny treat' category. The two dogs who should skip it entirely are puppies under a year and diabetic dogs.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is honey safe for dogs?</h2>
+        <p>Plain honey is not toxic to dogs, and a small dab now and then will not hurt a healthy adult dog. But honey is mostly sugar — about 17 g in a single tablespoon — so it is a treat, not a health food. Any 'immune boost' or 'allergy cure' claims you see online are not backed by veterinary evidence; think of honey as a sweet occasional nibble, nothing more.</p>
+
+        <h2>The two dogs who should skip honey</h2>
+        <div class="callout warn">Two groups should not eat honey. Puppies under about 12 months: their gut is not mature enough to handle the <i>Clostridium botulinum</i> spores honey can contain, which can cause infant botulism. And diabetic dogs: honey spikes blood sugar fast. For both, honey is off the menu.</div>
+
+        <h2>Honey nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one tablespoon of honey (about 21 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per tablespoon</th></tr>
+          <tr><td>Calories</td><td>~64 kcal</td></tr>
+          <tr><td>Sugar</td><td>~17 g</td></tr>
+          <tr><td>Protein</td><td>~0.1 g</td></tr>
+          <tr><td>Fat</td><td>~0 g</td></tr>
+        </table>
+        <p>Almost pure sugar is why honey is a rare treat, not a daily drizzle — the calories add up fast for a small dog.</p>
+
+        <h2>How much honey is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>A dab (1/4 teaspoon or less)</td></tr>
+          <tr><td>5–15 kg</td><td>Up to 1/2 teaspoon</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1 teaspoon</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1–2 teaspoons, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve honey</h2>
+        <ul>
+          <li>Plain, with nothing added — no sweeteners, no mix-ins.</li>
+          <li>A tiny dab can help a pill go down if your dog is a fussy taker (check with your vet first).</li>
+          <li>Raw honey carries the same puppy caution, so keep it away from young dogs.</li>
+        </ul>
+
+        <h2>Are there risks?</h2>
+        <p>Beyond sugar weight gain and tooth decay from regular use, the only real danger is the puppy botulism risk above and any honey blended with artificial sweeteners — which can include xylitol, highly toxic to dogs. Plain honey only, and never for puppies or diabetic dogs. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>Can puppies eat honey?</h2>
+        <p>No — not under about 12 months. Their immature digestive system cannot be trusted with <i>C. botulinum</i> spores. Wait until adulthood, and even then keep it to a rare dab.</p>
+
+        <h2>When honey isn't the answer</h2>
+        <p>Honey will not cure allergies or coat conditions, and it is not a substitute for balanced food. If your dog has persistent skin, weight, or gut issues, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> and a chat with your vet beat a honey jar every time. Plain <a href="/dog-nutrition/can-dogs-eat-pumpkin/">pumpkin</a> is a far better everyday topper for most dogs.</p>
+        """,
+        "faq": [
+            ("Can dogs eat honey?", "Yes — plain honey is not toxic and a tiny amount is fine for a healthy adult dog, but it is mostly sugar, so keep it a rare treat."),
+            ("Why can't puppies eat honey?", "Puppies under about 12 months have immature guts that cannot handle Clostridium botulinum spores honey can contain, risking infant botulism."),
+            ("Can diabetic dogs eat honey?", "No — honey spikes blood sugar quickly, so diabetic dogs should avoid it entirely."),
+            ("Is honey good for dogs' allergies?", "No proven veterinary benefit — honey is sugar, not a cure; any allergy claims are unsubstantiated."),
+            ("How much honey can a dog have?", "Keep it tiny: a dab for toy dogs, up to a teaspoon or two for large dogs, only occasionally, under 10% of daily calories."),
+            ("Can honey help my dog take a pill?", "A tiny dab can help a fussy dog swallow a pill, but check with your vet first and use plain honey only."),
+            ("Is raw honey safe for dogs?", "For adult dogs yes, but it carries the same puppy botulism caution, so keep raw honey away from young dogs."),
+            ("What if honey has sweeteners added?", "Avoid any honey with added sweeteners, which can include xylitol — highly toxic to dogs. Plain honey only."),
+        ],
+        "related": ["can-dogs-eat-pumpkin", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-yogurt",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Yogurt? Yes — Plain and Unsweetened",
+        "url": "/dog-nutrition/can-dogs-eat-yogurt/",
+        "description": "Plain unsweetened yogurt is a safe probiotic treat for many dogs, but lactose intolerance and xylitol are the catches. How to choose it and how much to feed.",
+        "lede": "Yes — plain, unsweetened yogurt is a safe, gut-friendly treat for many dogs, thanks to lower lactose than milk and live cultures. The catches are lactose intolerance and, above all, any yogurt sweetened with xylitol.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is yogurt safe for dogs?</h2>
+        <p>Plain, unsweetened yogurt is not toxic to dogs and is a reasonable occasional treat. Because the live cultures break down much of the lactose, yogurt is easier on the gut than plain milk, and it brings a little protein and calcium plus probiotics. But many dogs are still at least mildly lactose intolerant, so start with a small amount and watch the results.</p>
+
+        <h2>How to choose the right yogurt</h2>
+        <ul>
+          <li><b>Plain:</b> no added sugar, no fruit, no flavoring.</li>
+          <li><b>Unsweetened:</b> never any product with xylitol or other artificial sweeteners — xylitol is highly toxic to dogs.</li>
+          <li><b>Greek is best:</b> strained yogurt is thicker and even lower in lactose, so it suits more dogs.</li>
+          <li><b>Avoid:</b> flavored, 'light', or diet yogurts — they are the ones most likely to hide xylitol or sugar alcohols.</li>
+        </ul>
+        <div class="callout warn">The single most important rule: the yogurt must contain no xylitol. Check the label every time, because a 'sugar-free' yogurt can be deadly for a dog.</div>
+
+        <h2>Yogurt nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in 100 g of plain low-fat yogurt:</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per 100 g</th></tr>
+          <tr><td>Calories</td><td>~59 kcal</td></tr>
+          <tr><td>Protein</td><td>~10 g</td></tr>
+          <tr><td>Fat</td><td>~1.5 g</td></tr>
+          <tr><td>Sugar (natural)</td><td>~3–4 g</td></tr>
+          <tr><td>Calcium</td><td>~110 mg</td></tr>
+        </table>
+        <p>Modest protein and calcium with low natural sugar make plain yogurt a decent occasional topper — once you rule out sweetener and lactose issues.</p>
+
+        <h2>How much yogurt is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1 teaspoon</td></tr>
+          <tr><td>5–15 kg</td><td>1–2 tablespoons</td></tr>
+          <tr><td>15–30 kg</td><td>2–4 tablespoons</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/4 cup, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve yogurt</h2>
+        <ul>
+          <li>Offer a plain spoonful, or freeze dollops for a cool treat.</li>
+          <li>Use it to hide a pill for a fussy taker (vet approval first).</li>
+          <li>Stick to plain — no granola, no honey drizzle, no fruit mix-ins.</li>
+        </ul>
+
+        <h2>Are there risks?</h2>
+        <p>The two real catches: xylitol-sweetened yogurt is an emergency, and lactose-intolerant dogs may get gas or diarrhea. If your dog reacts badly, stop and switch to a non-dairy option. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>. Note that <a href="/dog-nutrition/can-dogs-eat-milk/">milk</a> is higher in lactose, so yogurt is usually the gentler dairy choice.</p>
+
+        <h2>Can puppies eat yogurt?</h2>
+        <p>A small amount of plain yogurt is not toxic to puppies, but their guts are sensitive, so keep portions tiny and watch for loose stools. Plain pumpkin or a vet-recommended puppy food is a safer everyday choice.</p>
+
+        <h2>When yogurt isn't the answer</h2>
+        <p>Yogurt is a fun occasional topper, not a probiotic cure. If your dog has ongoing digestive trouble, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> and a vet visit beat a yogurt tub. Persistent diarrhea, vomiting, or bloating needs a professional, not dairy.</p>
+        """,
+        "faq": [
+            ("Can dogs eat plain yogurt?", "Yes — plain, unsweetened yogurt is a safe occasional treat for many dogs and is easier to digest than milk thanks to lower lactose and live cultures."),
+            ("Is Greek yogurt better for dogs?", "Greek yogurt is strained and even lower in lactose, so it suits more dogs; just keep it plain and unsweetened."),
+            ("Why must yogurt have no xylitol?", "Xylitol is highly toxic to dogs and can cause a fatal blood-sugar crash; always check the label and avoid any 'sugar-free' yogurt."),
+            ("Can lactose-intolerant dogs eat yogurt?", "Many can tolerate small amounts because cultures lower the lactose, but some still get gas or diarrhea — start tiny and watch."),
+            ("How much yogurt can a dog have?", "Keep it under 10% of daily calories: a teaspoon for toy dogs, up to 1/4 cup for large dogs, only occasionally."),
+            ("Can dogs eat flavored or fruit yogurt?", "No — flavored and 'light' yogurts often hide sugar or xylitol; stick to plain, unsweetened yogurt only."),
+            ("Can puppies eat yogurt?", "A small amount of plain yogurt is not toxic, but puppy guts are sensitive, so keep portions tiny and watch for loose stools."),
+            ("Is yogurt a probiotic cure for dogs?", "No — it is a fun occasional topper, not a treatment; ongoing gut issues need a vet, not a yogurt tub."),
+        ],
+        "related": ["can-dogs-eat-milk", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
