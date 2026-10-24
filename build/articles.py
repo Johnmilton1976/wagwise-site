@@ -60,6 +60,7 @@ PILLARS = {
             "can-dogs-eat-salmon", "can-dogs-eat-shrimp",
             "can-dogs-eat-peas", "can-dogs-eat-corn",
             "can-dogs-eat-onion", "can-dogs-eat-garlic",
+            "can-dogs-eat-macadamia-nuts", "can-dogs-eat-cherries",
         ],
     },
     "dog-care": {
@@ -3454,6 +3455,212 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten garlic, contact your veterinarian or a pet poison hotline right away.",
+    },
+    {
+        "slug": "can-dogs-eat-macadamia-nuts",
+        "url": "/dog-nutrition/can-dogs-eat-macadamia-nuts/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Macadamia Nuts? No — They Are Toxic",
+        "description": "Macadamia nuts are toxic to dogs, causing weakness, tremors, vomiting, and fever within 12 hours. Even a small amount is dangerous. Learn the signs and what to do.",
+        "lede": "No — macadamia nuts are one of the most toxic nuts for dogs. Within 12 hours of eating even a small number, dogs can develop back-leg weakness, tremors, vomiting, and fever. There is no safe amount.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no</strong>. Macadamia nuts are among the most toxic nuts
+        for dogs, and unlike many kitchen hazards, the danger is not limited to a particular
+        part of the nut — the whole kernel is poisonous. The exact toxin has never been
+        identified, but the clinical picture is well documented: dogs who eat macadamias
+        develop a distinctive combination of weakness, tremors, and fever.</p>
+
+        <h2>What macadamia nuts do to dogs</h2>
+        <p>Symptoms usually start <strong>within 3–12 hours</strong> of eating the nuts and
+        typically include:</p>
+        <ul>
+          <li><strong>Hind-leg weakness</strong> — the classic sign; dogs wobble, stumble, or
+            struggle to stand</li>
+          <li>Muscle tremors and shaking</li>
+          <li>Vomiting and abdominal pain</li>
+          <li>Elevated body temperature (fever)</li>
+          <li>Stiffness, lameness, or reluctance to move</li>
+          <li>In severe cases: inability to walk, collapse</li>
+        </ul>
+        <p>Most dogs recover within 24–48 hours with supportive veterinary care, but severe
+        cases — especially large ingestions or nut-and-chocolate combinations — can be
+        life-threatening without treatment.</p>
+
+        <h2>How many macadamia nuts are dangerous?</h2>
+        <p>Very few. Toxicity has been reported at doses as low as roughly
+        <strong>1 gram of nut per kg of body weight</strong> — for a 10 kg dog that is only
+        a couple of kernels. Chocolate-covered macadamias are doubly dangerous because
+        chocolate brings its own, separate <a href="/dog-nutrition/can-dogs-eat-chocolate/">
+        toxicity</a>.</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Rough concerning amount</th><th>Safe amount</th></tr></thead>
+          <tbody>
+            <tr><td>5 kg (11 lb)</td><td>as few as 1 kernel</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>10 kg (22 lb)</td><td>~1–2 kernels</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>20 kg (44 lb)</td><td>~2–4 kernels</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>30 kg (66 lb)</td><td>~4–6 kernels</td><td><strong>0 — none</strong></td></tr>
+          </tbody>
+        </table>
+        <p class="note">Because one dropped cookie or a stolen handful can cross the line,
+        treat the safe amount as <strong>zero</strong> for dogs of every size.</p>
+
+        <h2>Hidden sources to watch for</h2>
+        <ul>
+          <li><strong>Cookies, biscotti, and white-chocolate macadamia treats</strong> — a
+            common bakery item dogs steal off counters</li>
+          <li><strong>Trail mix and nut mixes</strong> — macadamias often travel with raisins
+            and chocolate, both also toxic</li>
+          <li><strong>Macadamia nut butter and oils</strong> — concentrated and easy to
+            over-serve</li>
+          <li><strong>Guest snacking and holiday baking</strong> — most exposures happen when
+            visitors drop food</li>
+        </ul>
+
+        <h2>What to do if your dog ate macadamia nuts</h2>
+        <ol>
+          <li><strong>Estimate the amount</strong> — how many kernels, and whether they were
+            chocolate-covered or mixed with raisins.</li>
+          <li><strong>Call your veterinarian or a pet poison hotline immediately</strong>,
+            even if your dog seems fine — symptoms can take hours to appear and early
+            decontamination works best.</li>
+          <li><strong>Keep the packaging</strong> so the clinic can confirm the product.</li>
+          <li><strong>Do not induce vomiting at home</strong> unless a professional directs
+            you to.</li>
+        </ol>
+
+        <h2>Are other nuts safe?</h2>
+        <p>Macadamias are uniquely toxic, but most nuts are still poor choices for dogs:
+        they are high in fat (pancreatitis risk), often salted, and can cause choking.
+        Moldy walnuts and pecans carry additional toxins. Safer crunchy treats are plain
+        <a href="/dog-nutrition/can-dogs-eat-carrots/">carrots</a> or
+        <a href="/dog-nutrition/can-dogs-eat-green-beans/">green beans</a>.</p>
+        """,
+        "faq": [
+            ("Can dogs eat macadamia nuts in any amount?", "No. Toxicity has been reported at doses as low as about 1 g per kg of body weight — a couple of kernels can sicken a small dog. Treat the safe amount as zero."),
+            ("How quickly do symptoms appear?", "Usually within 3–12 hours. Hind-leg weakness and tremors are the classic signs, often with vomiting and fever."),
+            ("Are macadamia cookies dangerous too?", "Yes — and white-chocolate macadamia cookies add chocolate and sugar on top. Contact your vet with how much was eaten."),
+            ("Can a dog recover from macadamia poisoning?", "Most dogs recover within 24–48 hours with supportive care, but severe cases need hospitalization — so do not wait it out at home."),
+            ("What makes macadamias toxic to dogs?", "The exact toxin is still unidentified, but the weakness-tremor-fever syndrome it causes is well documented by veterinary toxicologists."),
+            ("Are other nuts safe for dogs?", "Macadamias are uniquely toxic, but most nuts are high-fat, often salted, and a choking risk. Moldy walnuts and pecans add further toxins. Use carrots or green beans instead."),
+            ("My dog ate one macadamia nut — should I worry?", "Yes, call your vet. One kernel can matter for a small dog, and professional advice is free compared with late treatment."),
+            ("Is macadamia nut butter or oil safe?", "No. It is the same nut in concentrated form, and easy to over-serve. Keep all macadamia products away from dogs."),
+        ],
+        "related": ["can-dogs-eat-chocolate", "can-dogs-eat-grapes", "foods-toxic-to-dogs", "can-dogs-eat-carrots"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten macadamia nuts, contact your veterinarian or a pet poison hotline right away.",
+    },
+    {
+        "slug": "can-dogs-eat-cherries",
+        "url": "/dog-nutrition/can-dogs-eat-cherries/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Cherries? Flesh Yes — Pits Never",
+        "description": "Cherry flesh is not toxic to dogs, but the pits, stems, and leaves contain cyanide compounds and pose choking risks. Here is how the risk actually works.",
+        "lede": "Cherry flesh itself is not toxic, but the pits, stems, and leaves contain cyanide compounds — and pits can also choke a dog or block the intestine. The practical answer: no cherries with pits, ever.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>the flesh, maybe — the rest, never.</strong> Cherry fruit
+        itself is not poisonous to dogs, but every other part of the fruit — the
+        <strong>pit, stem, and leaves</strong> — contains cyanogenic compounds that release
+        cyanide when chewed and broken down. Pits also create a serious physical hazard:
+        they are the right size to lodge in a dog's throat or intestine.</p>
+
+        <h2>The cyanide issue, explained simply</h2>
+        <p>Cherry pits and leaves contain <strong>cyanogenic glycosides</strong> — natural
+        plant chemicals that convert to cyanide when the plant tissue is crushed or chewed.
+        A single pit is unlikely to poison a large dog because the pit usually passes
+        intact, but the risk is real when pits are chewed, when a small dog eats several,
+        or when a dog gets into stems and leaves.</p>
+        <p>Signs of cyanide poisoning are rapid and severe: bright-red gums, dilated pupils,
+        difficulty breathing, and collapse. This is an <strong>emergency</strong> — go to a
+        vet immediately.</p>
+
+        <h2>The pit is also a physical hazard</h2>
+        <div class="callout warn">Even without toxicity, a swallowed cherry pit can obstruct
+        a dog's intestine — the same life-threatening blockage caused by a corn cob. Small
+        dogs are at the highest risk, and a blocked gut often needs surgery.</div>
+
+        <h2>What about processed cherries?</h2>
+        <ul>
+          <li><strong>Fresh cherries with pits</strong> — the biggest hazard; never hand a
+            dog a whole cherry.</li>
+          <li><strong>Pitted fresh cherry flesh</strong> — the only technically safe form,
+            and even then, only in small amounts because of the sugar.</li>
+          <li><strong>Maraschino and glacé cherries</strong> — sugar-loaded and sometimes
+            alcohol-tinged; skip them.</li>
+          <li><strong>Cherry pie filling and cherry yogurt</strong> — sugar plus flavorings;
+            some products may contain xylitol, so check labels carefully.</li>
+          <li><strong>Cherries in trail mix</strong> — usually dried, sweetened, and mixed
+            with raisins or nuts, both worse hazards.</li>
+        </ul>
+
+        <h2>How much cherry flesh is okay?</h2>
+        <p>If you do share pitted cherry flesh, keep it to a couple of cherries for a medium
+        dog — fruit sugar adds up. Safer fruit treats with more reward and less hassle
+        include <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a>,
+        <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a>, and
+        <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> (seedless).</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Occasional pitted-flesh amount</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg (toy / small)</td><td>½ cherry, pitted</td></tr>
+            <tr><td>5–10 kg (11–22 lb)</td><td>1 cherry, pitted</td></tr>
+            <tr><td>10–25 kg (22–55 lb)</td><td>2–3 cherries, pitted</td></tr>
+            <tr><td>Over 25 kg (55 lb)</td><td>3–4 cherries, pitted</td></tr>
+          </tbody>
+        </table>
+        <p class="note">In practice, most vets suggest skipping cherries entirely — other
+        fruits give the same joy with none of the pit risk.</p>
+
+        <h2>What to do if your dog ate cherries</h2>
+        <ol>
+          <li><strong>Figure out what was eaten</strong> — flesh only, or pits, stems, or
+            leaves too, and roughly how many.</li>
+          <li><strong>Pits swallowed whole</strong>: call your vet to discuss monitoring for
+            obstruction and whether decontamination makes sense.</li>
+          <li><strong>Pits chewed, or leaves/stems eaten</strong>: treat as an emergency —
+            cyanide signs move fast.</li>
+          <li><strong>Watch for 24–48 hours</strong>: vomiting, loss of appetite, constipation,
+            or straining can signal an intestinal blockage and need same-day care.</li>
+        </ol>
+        """,
+        "faq": [
+            ("Can dogs eat cherries without the pit?", "The flesh itself is not toxic, so a pitted cherry in small amounts is technically safe — but the sugar adds up and other fruits are better choices."),
+            ("What happens if a dog eats a cherry pit?", "A whole pit usually passes, but it can obstruct the intestine — especially in small dogs. Chewed pits can release cyanide. Call your vet with how many and whether they were chewed."),
+            ("Are cherry stems and leaves dangerous?", "Yes. They contain the same cyanogenic compounds as pits. Treat ingestion as urgent, especially if a dog chewed them."),
+            ("Can dogs eat maraschino cherries?", "No. They are sugar-loaded, sometimes alcohol-tinged, and add nothing nutritionally. Skip them."),
+            ("Is cherry pie filling safe for dogs?", "No. It is heavy in sugar and flavorings, and some cherry products may contain xylitol, which is highly toxic. Check labels and keep all pie filling away."),
+            ("How many cherries are toxic?", "Toxicity depends on whether pits are chewed and the dog's size. There is no established safe pit count — prevention is keeping cherries out of reach."),
+            ("What are the signs of cyanide poisoning in dogs?", "Bright-red gums, dilated pupils, rapid or labored breathing, and collapse. This is an immediate veterinary emergency."),
+            ("My dog ate one cherry off the floor — what now?", "Most likely fine, but watch for vomiting or behavior change over 24–48 hours and call your vet if anything seems off, especially for a small dog."),
+        ],
+        "related": ["can-dogs-eat-grapes", "can-dogs-eat-blueberries", "can-dogs-eat-strawberries", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten cherry pits, stems, or leaves, or shows breathing changes, contact your veterinarian immediately.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
