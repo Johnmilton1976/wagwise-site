@@ -61,6 +61,7 @@ PILLARS = {
             "can-dogs-eat-peas", "can-dogs-eat-corn",
             "can-dogs-eat-onion", "can-dogs-eat-garlic",
             "can-dogs-eat-macadamia-nuts", "can-dogs-eat-cherries",
+            "can-dogs-eat-peaches", "can-dogs-eat-plums",
         ],
     },
     "dog-care": {
@@ -3661,6 +3662,190 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten cherry pits, stems, or leaves, or shows breathing changes, contact your veterinarian immediately.",
+    },
+    {
+        "slug": "can-dogs-eat-peaches",
+        "url": "/dog-nutrition/can-dogs-eat-peaches/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Peaches? Flesh Yes — Pit Is a Hazard",
+        "description": "Fresh peach flesh is fine for dogs in small amounts, but the pit holds cyanide compounds and can block the gut. Skip the canned syrup. Portion guide inside.",
+        "lede": "Fresh peach flesh is safe for dogs in small amounts, but the pit is a double hazard: it contains cyanide compounds and can choke a dog or block the intestine. Canned peaches in syrup are out entirely.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>the flesh, yes in moderation — the pit, never.</strong>
+        Peaches are stone fruits like <a href="/dog-nutrition/can-dogs-eat-cherries/">cherries</a>
+        and <a href="/dog-nutrition/can-dogs-eat-plums/">plums</a>: the juicy flesh is
+        harmless, but the hard pit in the middle carries the same two risks — cyanogenic
+        compounds and a shape that can physically block a dog's digestive tract.</p>
+
+        <h2>What's actually in a peach that helps or harms</h2>
+        <p>Fresh peach flesh is mostly water and natural sugar with some fiber and vitamins
+        A and C. In small amounts it is a perfectly fine treat. The problems are everything
+        around the flesh:</p>
+        <ul>
+          <li><strong>The pit (stone)</strong> — contains cyanogenic glycosides, the same
+            compounds as cherry and plum pits, and its rough, large shape is ideal for
+            lodging in a throat or intestine.</li>
+          <li><strong>The skin</strong> — not toxic, but it is where pesticide residue sits;
+            wash well or peel if you share.</li>
+          <li><strong>The sugar</strong> — one peach carries a lot of fruit sugar for a
+            small dog; portion by weight, below.</li>
+        </ul>
+
+        <h2>Canned peaches are a firm no</h2>
+        <div class="callout warn">Canned peaches sit in heavy syrup: concentrated sugar that
+        upsets the stomach and adds empty calories, plus preservatives. Frozen-thawed fresh
+        peach (pitted) is the only acceptable alternative when fresh is out of season.</div>
+
+        <h2>How much peach is safe?</h2>
+        <p>Keep treats under 10% of daily calories. A practical portion guide:</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Safe occasional amount (pitted flesh)</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg (toy / small)</td><td>1–2 small slices</td></tr>
+            <tr><td>5–10 kg (11–22 lb)</td><td>2–3 slices</td></tr>
+            <tr><td>10–25 kg (22–55 lb)</td><td>up to ¼ peach</td></tr>
+            <tr><td>Over 25 kg (55 lb)</td><td>up to ½ peach</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Always remove the pit first, and cut the flesh into bite-size
+        pieces so nothing gets gulped down whole.</p>
+
+        <h2>What to do if your dog ate a peach pit</h2>
+        <ol>
+          <li><strong>Don't panic — assess.</strong> Was the pit swallowed whole or chewed?
+            How big is your dog?</li>
+          <li><strong>Pit swallowed whole</strong>: call your vet for guidance; watch for
+            24–48 hours for vomiting, appetite loss, constipation, or straining — signs of
+            obstruction that need same-day care.</li>
+          <li><strong>Pit chewed</strong>: contact a vet promptly — cyanide release is the
+            concern, and signs (bright-red gums, labored breathing, dilated pupils) move
+            fast.</li>
+          <li><strong>Do not induce vomiting</strong> at home unless a professional tells
+            you to.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("Can dogs eat peach flesh?", "Yes — fresh, pitted flesh in small amounts is safe for most dogs. Portion by weight and cut into pieces."),
+            ("Is the peach pit dangerous?", "Yes, twice over: it contains cyanogenic compounds like cherry and plum pits, and its size makes it a choking and intestinal-obstruction hazard."),
+            ("Can dogs eat canned peaches?", "No. The syrup is concentrated sugar with preservatives — a stomach upset and obesity risk. Offer fresh (or frozen-thawed) pitted flesh only."),
+            ("Are peaches with skin okay?", "The skin is not toxic, but it holds pesticide residue. Wash thoroughly, or peel it if you want to be extra careful."),
+            ("What if my dog swallowed a whole peach pit?", "Call your vet with your dog's size and when it happened, then watch for 24–48 hours for obstruction signs such as vomiting or straining. Small dogs are at the highest risk."),
+            ("Can puppies eat peach flesh?", "A tiny piece is fine, but puppies have sensitive stomachs and less predictable swallowing — cut very small or skip fruit and use their regular treats."),
+            ("Are dried peaches safe?", "Technically the flesh is not toxic, but dried fruit is sugar-dense and easy to over-serve. Fresh flesh is the better form."),
+            ("Is peach yogurt or ice cream okay?", "No. Dairy plus added sugar, and some products contain xylitol, which is highly toxic to dogs. Keep flavored human desserts away."),
+        ],
+        "related": ["can-dogs-eat-cherries", "can-dogs-eat-plums", "can-dogs-eat-apples", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has swallowed a peach pit or shows breathing changes, contact your veterinarian right away.",
+    },
+    {
+        "slug": "can-dogs-eat-plums",
+        "url": "/dog-nutrition/can-dogs-eat-plums/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Plums? Flesh Yes — Pit Is a Hazard",
+        "description": "Plum flesh is not toxic, but the pit contains cyanide compounds and can obstruct the intestine. Prunes are a concentrated sugar trap. Portion guide inside.",
+        "lede": "Plum flesh is not toxic, but the pit carries the same cyanide and obstruction risks as peach and cherry pits — and plums are small enough that a dog often swallows the fruit whole. Prunes are a sugar trap.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>pitted flesh, occasionally — never the pit.</strong> Plums
+        are stone fruits, in the same family of risk as
+        <a href="/dog-nutrition/can-dogs-eat-peaches/">peaches</a> and
+        <a href="/dog-nutrition/can-dogs-eat-cherries/">cherries</a>: sweet, safe flesh
+        wrapped around a hard pit that contains cyanogenic compounds and is small enough to
+        be swallowed whole — which makes it, in some ways, more dangerous than a peach pit
+        for small dogs.</p>
+
+        <h2>Why plums trip up dog owners</h2>
+        <p>Plums are the perfect size for a dog to gulp in one bite — pit and all. That is
+        exactly the wrong way for a dog to eat one. The two failure modes:</p>
+        <ul>
+          <li><strong>Obstruction</strong> — a swallowed pit can lodge in the throat or
+            intestine. Small dogs are at the highest risk, and a blocked gut often needs
+            surgery.</li>
+          <li><strong>Cyanide compounds</strong> — if the pit is chewed, the cyanogenic
+            glycosides inside release cyanide. Signs come on fast: bright-red gums, dilated
+            pupils, difficulty breathing, collapse. That is an emergency.</li>
+        </ul>
+        <p>Fallen fruit under a plum tree is the classic exposure — sweep it up if you have
+        a tree in the yard.</p>
+
+        <h2>Prunes and dried plums: a sugar trap</h2>
+        <div class="callout warn">Prunes are plum flesh with the water removed — which
+        concentrates the sugar. A couple of prunes can be a serious calorie load for a small
+        dog, and dried fruit in general upsets stomachs. They also sometimes appear in baked
+        goods alongside raisins, which are outright toxic. Skip prunes; use fresh pitted
+        flesh if you share plums at all.</div>
+
+        <h2>How much plum is okay?</h2>
+        <p>If you share, remove the pit, cut the flesh up, and keep it small:</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Safe occasional amount (pitted flesh)</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg (toy / small)</td><td>1 small slice</td></tr>
+            <tr><td>5–10 kg (11–22 lb)</td><td>1–2 slices</td></tr>
+            <tr><td>10–25 kg (22–55 lb)</td><td>up to ½ plum, pitted</td></tr>
+            <tr><td>Over 25 kg (55 lb)</td><td>up to 1 plum, pitted and cut</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Honestly, most dogs don't need plums —
+        <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a> or
+        <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> are easier and
+        safer fruit treats.</p>
+
+        <h2>What to do if your dog ate a plum pit</h2>
+        <ol>
+          <li><strong>Establish the facts</strong> — how many pits, swallowed whole or
+            chewed, and your dog's size.</li>
+          <li><strong>Whole pit swallowed</strong>: call your vet; then monitor for 24–48
+            hours for vomiting, appetite loss, constipation, or straining.</li>
+          <li><strong>Pit chewed or several eaten</strong>: treat as urgent — cyanide signs
+            escalate quickly.</li>
+          <li><strong>Keep the scene safe</strong>: clear any fallen fruit so it doesn't
+            happen twice.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("Can dogs eat plum flesh?", "Yes — pitted, cut into pieces, in small amounts. The flesh itself is not toxic."),
+            ("Is the plum pit toxic to dogs?", "Yes. Like peach and cherry pits, it contains cyanogenic compounds, and its size makes it a serious choking and obstruction hazard for small dogs."),
+            ("Can dogs eat prunes (dried plums)?", "It's best not to. Prunes are sugar-concentrated, easy to over-serve, and commonly cause stomach upset. Fresh pitted flesh is the better form."),
+            ("My dog ate a whole plum off the ground — what should I do?", "Call your vet with your dog's size and timing, then watch for 24–48 hours for obstruction signs. If the pit was chewed, treat it as urgent."),
+            ("What are the signs of cyanide poisoning from fruit pits?", "Bright-red gums, dilated pupils, rapid or labored breathing, and collapse. Go to a vet immediately — this is an emergency."),
+            ("Is plum skin safe for dogs?", "The skin is not toxic, but like peaches it holds pesticide residue. Wash thoroughly before sharing."),
+            ("Can dogs eat plum jam or yogurt?", "No. Added sugar, and jams often contain other fruits or sweeteners — check for xylitol, which is highly toxic. Keep all sweetened products away."),
+            ("How do I stop my dog eating fallen plums in the yard?", "Pick up fallen fruit daily during the season, fence off the tree if needed, and train a solid 'leave it' — prevention beats emergency vet visits."),
+        ],
+        "related": ["can-dogs-eat-peaches", "can-dogs-eat-cherries", "can-dogs-eat-grapes", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has swallowed a plum pit or shows breathing changes, contact your veterinarian right away.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
