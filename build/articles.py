@@ -49,6 +49,7 @@ PILLARS = {
             "can-dogs-eat-peanut-butter", "can-dogs-eat-carrots", "can-dogs-eat-eggs",
             "can-dogs-eat-chicken", "can-dogs-eat-milk", "can-dogs-eat-strawberries",
             "can-dogs-eat-grapes", "can-dogs-eat-chocolate", "can-dogs-eat-avocado",
+            "can-dogs-eat-blueberries", "can-dogs-eat-pumpkin",
         ],
     },
     "dog-care": {
@@ -1569,6 +1570,178 @@ ARTICLES = [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
         ],
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    # ---------------- Dog nutrition: can dogs eat X (batch 1, 2026-10-24) ----------------
+    {
+        "slug": "can-dogs-eat-blueberries",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Blueberries? Yes — A Tiny Antioxidant Boost",
+        "url": "/dog-nutrition/can-dogs-eat-blueberries/",
+        "description": "Blueberries are a safe, low-calorie dog treat rich in antioxidants and vitamin C. How many to offer, why they may help aging dogs, and how to serve them safely.",
+        "lede": "Yes — blueberries are one of the safest, healthiest treats you can give a dog. They are low in calories and packed with antioxidants, and most dogs love the burst of sweetness.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Are blueberries good for dogs?</h2>
+        <p>Blueberries are one of the safest sweet treats you can hand a dog. A cup has about 84 calories and almost no fat, but it carries vitamin C, vitamin K, fiber, and a heavy load of antioxidants — the pigments that give the berry its deep blue color. Those antioxidants are why blueberries show up in senior-dog diets: research in aging dogs has studied antioxidant-rich foods for supporting memory and learning as dogs get older, though the effect in your own dog is modest, not a cure.</p>
+
+        <h2>Blueberry nutrition at a glance</h2>
+        <p>For scale, here is what is in roughly one cup (about 148 g) of blueberries:</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount per cup</th></tr>
+          <tr><td>Calories</td><td>~84 kcal</td></tr>
+          <tr><td>Fiber</td><td>3.6 g</td></tr>
+          <tr><td>Vitamin C</td><td>14 mg (about 16% of a person's daily value)</td></tr>
+          <tr><td>Vitamin K</td><td>29 mcg (about 24% of a person's daily value)</td></tr>
+          <tr><td>Sugar (natural)</td><td>~15 g</td></tr>
+        </table>
+        <p>These are human nutrition figures, but they show why a few berries are a light, low-fat reward rather than a calorie bomb.</p>
+
+        <h2>How many blueberries can a dog eat?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe amount</th></tr>
+          <tr><td>Under 5 kg</td><td>2–3 berries, mashed</td></tr>
+          <tr><td>5–15 kg</td><td>A small handful (5–8 berries)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 10–15 berries</td></tr>
+          <tr><td>30 kg and up</td><td>A generous handful, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve them</h2>
+        <ul>
+          <li>Wash well to remove pesticide residue, then serve fresh or frozen.</li>
+          <li>Mash or cut berries for small dogs and puppies — a whole berry can be a choking hazard for a dog that bolts food.</li>
+          <li>Mix a few into meals, use them as training rewards, or freeze them for a cooling chew.</li>
+          <li>Keep it to plain berries. Skip blueberry muffins, yogurt coatings, and anything sweetened — and never anything with xylitol.</li>
+        </ul>
+        <div class="callout">Frozen blueberries make a great summer treat, but count them toward the daily treat budget. A dog that gets a lot of treats still needs most calories from a complete dog food.</div>
+
+        <h2>Can puppies eat blueberries?</h2>
+        <p>Yes — a mashed berry or two is fine once a puppy is weaned and eating solid food. Their tiny tummies mean keep it to a bite, and watch for any loose stools.</p>
+
+        <h2>Are there any risks?</h2>
+        <p>Blueberries are not toxic, and serious reactions are rare. The real watch-items are choking in small dogs (solve by mashing) and the natural sugar, which means diabetic dogs should keep portions tiny and check with a vet. The bigger danger is the vehicle: baked goods, flavored snacks, and "sugar-free" products can carry fat, sugar, or xylitol, none of which belong in a dog's bowl.</p>
+
+        <h2>What if my dog ate a whole pint?</h2>
+        <p>A dog that raids a container of blueberries mostly risks a sugary belly ache — gas, loose stools, maybe a briefly upset stomach. That usually passes. Call a vet if there is repeated vomiting, lethargy, or if the berries came with something else (chocolate, xylitol sweetener). Unlike <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes and raisins</a>, blueberries are not a poisoning emergency.</p>
+
+        <h2>Blueberries vs other fruit treats</h2>
+        <p>Blueberries sit alongside <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> and <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a> as safe, low-calorie options, while <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes and raisins</a> must never be given because they are toxic. For the full list of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>. To keep treats in check, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> explains the 10% rule.</p>
+        """,
+        "faq": [
+            ("Can dogs eat blueberry skin?", "Yes — the skin is where most of the antioxidants are, and it is safe. Just wash the berries first."),
+            ("Can puppies have blueberries?", "Yes, a mashed berry or two once weaned and on solid food; keep portions tiny and watch for loose stools."),
+            ("How many blueberries can a dog eat?", "A few for small dogs, up to a generous handful for large dogs, and only as a treat below 10% of daily calories."),
+            ("Are frozen blueberries OK for dogs?", "Yes — plain frozen berries are a safe cooling treat. Avoid anything sweetened or with xylitol."),
+            ("Are blueberries good for senior dogs?", "They are rich in antioxidants that studies have linked to supporting aging dog cognition, though the effect is modest, not a treatment."),
+            ("Can diabetic dogs eat blueberries?", "Small amounts may be fine, but the natural sugar adds up — check with your vet before making them a regular treat."),
+            ("Can dogs eat blueberry muffins?", "No — muffins bring sugar, fat, and sometimes xylitol or grape products. Stick to plain berries."),
+            ("What if my dog ate too many blueberries?", "Usually just a sugary stomach upset that passes. Call a vet for repeated vomiting or lethargy, or if other ingredients were involved."),
+        ],
+        "related": ["can-dogs-eat-strawberries", "can-dogs-eat-bananas", "foods-toxic-to-dogs"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-pumpkin",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Pumpkin? Yes — Plain, Cooked, and Helpful",
+        "url": "/dog-nutrition/can-dogs-eat-pumpkin/",
+        "description": "Plain pumpkin is a fiber-rich dog superfood vets recommend for diarrhea and constipation. Why pie filling is dangerous, and exactly how much to add to meals.",
+        "lede": "Yes — plain cooked pumpkin (never the sugary pie filling) is one of the most useful foods to add to a dog's bowl. Its fiber helps firm up loose stool and ease mild constipation.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is pumpkin good for dogs?</h2>
+        <p>Plain pumpkin is one of the few "people foods" vets routinely suggest for dogs. It is low in calories and rich in soluble fiber, which soaks up excess water in the gut (helping firm up loose stool) and adds gentle bulk (helping mild constipation). That two-way effect is why a spoonful of plain pumpkin is a common first step for a dog with a slightly off tummy — though it is a helper, not a cure for anything serious.</p>
+
+        <h2>Pumpkin nutrition at a glance</h2>
+        <p>For scale, here is what is in about one cup of cooked pumpkin (245 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount per cup</th></tr>
+          <tr><td>Calories</td><td>~49 kcal</td></tr>
+          <tr><td>Protein</td><td>1.8 g</td></tr>
+          <tr><td>Fiber</td><td>2.7 g</td></tr>
+          <tr><td>Vitamin A</td><td>About 245% of a person's daily value</td></tr>
+          <tr><td>Potassium</td><td>Notable amount</td></tr>
+        </table>
+        <p>Vitamin A is the headline here — pumpkins are among the richest natural sources — but a balanced dog food already covers a dog's needs, so pumpkin is a topper, not a vitamin fix.</p>
+
+        <h2>How much pumpkin for a dog?</h2>
+        <p>Start small and build up. A useful daily amount mixed into meals:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Plain pumpkin per day</th></tr>
+          <tr><td>Under 5 kg</td><td>1/2–1 teaspoon</td></tr>
+          <tr><td>5–15 kg</td><td>1–2 teaspoons</td></tr>
+          <tr><td>15–30 kg</td><td>1–2 tablespoons</td></tr>
+          <tr><td>30 kg and up</td><td>2–3 tablespoons</td></tr>
+        </table>
+        <div class="callout">Too much fiber backfires — pile on the pumpkin and you can trade loose stool for gas, bloating, or the other extreme. A little goes a long way.</div>
+
+        <h2>Plain pumpkin vs pumpkin pie filling</h2>
+        <div class="callout warn">Never use pumpkin pie filling. It is sweetened and spiced, and the spice mix often includes nutmeg, which contains myristicin and is toxic to dogs. Only ever use 100% plain pumpkin with nothing added.</div>
+        <ul>
+          <li>Buy canned "100% pumpkin" (not "pumpkin pie mix") and read the label — the only ingredient should be pumpkin.</li>
+          <li>Or cook fresh pumpkin plain: peel, remove seeds and stringy bits, steam or bake with no salt, sugar, or butter.</li>
+        </ul>
+
+        <h2>Canned or fresh?</h2>
+        <p>Both are fine as long as they are plain. Canned 100% pumpkin is convenient and consistent; fresh cooked pumpkin works too. The deciding factor is the label — if it lists sugar, spices, or "pie," it stays in the human pantry.</p>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Stir the measured amount into your dog's regular food.</li>
+          <li>Introduce gradually over a few days so the gut adjusts.</li>
+          <li>For a constipated dog, the same small amount helps add bulk — but if there is no stool for more than a day or two, or any vomiting, see a vet.</li>
+        </ul>
+
+        <h2>What about pumpkin seeds?</h2>
+        <p>Plain, roasted, unsalted pumpkin seeds are not toxic and some owners feed a few ground-up seeds. They contain compounds studied for gently loosening some intestinal parasites, but that is not a substitute for proper veterinary deworming. Keep seeds plain — no salt, no oil, no spice — and only a small sprinkle.</p>
+
+        <h2>Can puppies eat pumpkin?</h2>
+        <p>Yes, a tiny amount of plain pumpkin once a puppy is weaned and eating solid food can help with mild tummy upset. Keep portions very small and watch the stool.</p>
+
+        <h2>What if my dog ate pumpkin pie filling?</h2>
+        <p>A small lick is unlikely to cause more than a stomach upset, but pie filling's nutmeg is the concern. A large amount, or any signs like disorientation, rapid heartbeat, tremors, or vomiting, means call a vet or poison control. Plain pumpkin itself is the safe choice; the spiced version is the risk.</p>
+
+        <h2>When pumpkin isn't enough</h2>
+        <p>Pumpkin is for mild, short-lived gut wobbles. Persistent diarrhea, blood in stool, repeated vomiting, lethargy, or a painful belly are not "add pumpkin" situations — they need a veterinarian. If your dog is already vomiting, our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent. For the broader picture of safe and unsafe foods, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>.</p>
+        """,
+        "faq": [
+            ("Can dogs eat canned pumpkin?", "Yes — as long as it is 100% plain pumpkin with no added sugar or spices. Avoid pumpkin pie filling."),
+            ("Is pumpkin pie filling safe for dogs?", "No — it is sweetened and spiced, and the nutmeg it often contains is toxic to dogs."),
+            ("How much pumpkin for dog diarrhea?", "A small daily amount (1/2 tsp for tiny dogs up to 2–3 tbsp for large) can help firm stool, but see a vet if diarrhea persists beyond a day or two."),
+            ("Can pumpkin help a constipated dog?", "Yes — its fiber adds bulk, but introduce it gradually and consult a vet if there is no stool for more than a day or two."),
+            ("Can puppies eat pumpkin?", "Yes, a tiny amount of plain pumpkin once weaned; keep portions very small and watch the stool."),
+            ("Are pumpkin seeds OK for dogs?", "Plain, roasted, unsalted seeds are not toxic in small amounts, but they are not a replacement for veterinary deworming."),
+            ("How often can I give my dog pumpkin?", "Small amounts can be added daily as a topper, but keep total treats under about 10% of daily calories."),
+            ("Can diabetic dogs eat pumpkin?", "In moderation it can fit a diabetic plan because it is low in calories, but confirm portions with your vet."),
+        ],
+        "related": ["foods-toxic-to-dogs", "can-dogs-eat-chicken", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
