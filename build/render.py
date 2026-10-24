@@ -40,6 +40,12 @@ ORG_JSONLD = json.dumps(
         "url": DOMAIN + "/",
         "logo": DOMAIN + "/assets/og-image-wagwise.png",
         "description": "An independent pet care editorial resource.",
+        "sameAs": [
+            "https://medium.com/@steven.jones.19760904",
+            "https://stevenjones205255.substack.com",
+            "https://www.quora.com/profile/Steven-Jones-2549",
+            "https://stevenjones19760904.blogspot.com",
+        ],
     },
     ensure_ascii=False,
     indent=2,
