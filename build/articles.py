@@ -52,6 +52,7 @@ PILLARS = {
             "can-dogs-eat-blueberries", "can-dogs-eat-pumpkin",
             "can-dogs-eat-sweet-potato", "can-dogs-eat-rice",
             "can-dogs-eat-cucumber", "can-dogs-eat-broccoli",
+            "can-dogs-eat-green-beans", "can-dogs-eat-pineapple",
         ],
     },
     "dog-care": {
@@ -2071,6 +2072,172 @@ ARTICLES = [
             ("What if my dog ate a lot of broccoli?", "Mild cases cause gas and an upset stomach that pass. Call a vet for repeated vomiting, lethargy, or if a large amount was eaten, since very high doses concern the thyroid."),
         ],
         "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "can-dogs-eat-carrots"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-green-beans",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Green Beans? Yes — a Low-Cal Diet Staple",
+        "url": "/dog-nutrition/can-dogs-eat-green-beans/",
+        "description": "Green beans are a safe, low-calorie, high-fiber snack dogs can eat raw or cooked. Why to skip the butter and canned versions, and how much to feed by weight.",
+        "lede": "Yes — plain green beans are a safe, low-calorie, high-fiber snack dogs can eat raw or cooked. They are a common diet food for overweight dogs, as long as they stay plain.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Are green beans good for dogs?</h2>
+        <p>Plain green beans are about as healthy a treat as it gets: roughly 31 calories per cooked cup, with fiber, vitamin C, vitamin K, and manganese, and almost no fat. That makes them a go-to snack for dogs on a weight-management plan — many vets suggest them as a low-calorie swap for biscuits. The beans themselves are non-toxic; the problems come only from how they are prepared.</p>
+
+        <h2>Raw vs cooked</h2>
+        <p>Both raw and cooked are safe, but a whole raw green bean is a choking hazard, especially for small dogs that gulp food. Snap or cut them into bite-size pieces, and light steaming makes them easier to digest. Avoid frozen-for-cooking beans with added sauce.</p>
+        <div class="callout">Cut beans to match your dog's mouth. A full-length raw bean is the classic "went down the wrong way" item in the ER — short pieces only.</div>
+
+        <h2>Green bean nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of cooked green beans (about 125 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~31 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~7 g</td></tr>
+          <tr><td>Fiber</td><td>~3.6 g</td></tr>
+          <tr><td>Vitamin C</td><td>good source</td></tr>
+          <tr><td>Vitamin K</td><td>good source</td></tr>
+          <tr><td>Protein</td><td>~1.8 g</td></tr>
+        </table>
+        <p>Low calorie and high fiber are what make them a filling, diet-friendly bite.</p>
+
+        <h2>How much green beans is safe?</h2>
+        <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>2–3 cut pieces (about 1 tbsp)</td></tr>
+          <tr><td>5–15 kg</td><td>A small handful of pieces (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup cut pieces</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup cut pieces, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Plain, with no salt, butter, oil, or seasoning.</li>
+          <li>Raw (cut small) or lightly steamed — both are fine.</li>
+          <li>Let cooked beans cool before serving.</li>
+        </ul>
+
+        <h2>Can puppies eat green beans?</h2>
+        <p>Yes, in small cut pieces once weaned and on solid food. Puppies have small airways, so keep the pieces tiny and watch them chew.</p>
+
+        <h2>The real danger: butter, salt, and canned beans</h2>
+        <div class="callout warn">Never feed green beans with butter, garlic, or onion, and skip canned green beans packed in salt. Garlic and onion are toxic to dogs, and the extra sodium and fat add real risk. Only plain beans are safe. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>What if my dog ate too many?</h2>
+        <p>A dog that raids a bag of plain beans mostly risks gas and a mild tummy ache that passes. Call a vet if there was butter, garlic, or onion involved, or if the dog is vomiting, lethargic, or shows signs of a blockage from swallowing whole beans. Our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat raw green beans?", "Yes, but cut them into small pieces first — a whole raw bean is a choking hazard, especially for small dogs."),
+            ("Are green beans good for overweight dogs?", "Yes — at about 31 calories per cooked cup and high in fiber, they are a classic low-calorie treat for dogs on a diet."),
+            ("Can dogs eat canned green beans?", "Only plain, no-salt canned beans, and even then rinse them. Regular canned beans are too high in sodium; avoid any with added sauce."),
+            ("Can dogs eat green beans with butter or garlic?", "No — butter adds fat a dog does not need, and garlic is toxic to dogs. Only plain beans are safe."),
+            ("How much green beans can a dog eat?", "Keep treats under about 10% of daily calories: a few cut pieces for a small dog, up to half a cup for a large one."),
+            ("Can puppies eat green beans?", "Yes, in tiny cut pieces once weaned and on solid food — keep them small to avoid choking."),
+            ("Can dogs eat frozen green beans?", "Yes — plain frozen (no sauce) beans, thawed or lightly cooked, are fine. Cut them small."),
+            ("What if my dog ate too many green beans?", "Plain beans usually cause just gas and a mild stomach ache. Call a vet if butter, garlic, or onion was involved, or for vomiting or lethargy."),
+        ],
+        "related": ["can-dogs-eat-broccoli", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-pineapple",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Pineapple? Yes — in Small Pieces",
+        "url": "/dog-nutrition/can-dogs-eat-pineapple/",
+        "description": "Fresh pineapple is a safe, vitamin-C-rich dog treat served in small pieces. Why to skip canned syrup and the skin, and exactly how much to feed by body weight.",
+        "lede": "Yes — fresh pineapple is a safe, vitamin-C-rich treat in small amounts. The flesh only, cut into small pieces; skip the tough core, skin, and the sugary canned version.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is pineapple safe for dogs?</h2>
+        <p>The fresh flesh is non-toxic and genuinely good for dogs in small amounts — it brings vitamin C, manganese, and a little fiber, plus water for hydration. The catch is the natural sugar: a few small pieces is a nice treat, but a lot can loosen stools or spike blood sugar. Pineapple also contains bromelain, an enzyme that can mildly irritate the mouth or gut if a dog eats a large amount.</p>
+
+        <h2>Pineapple nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in half a cup of fresh pineapple chunks (about 80 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~42 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~11 g</td></tr>
+          <tr><td>Sugar (natural)</td><td>~8 g</td></tr>
+          <tr><td>Fiber</td><td>~1.4 g</td></tr>
+          <tr><td>Vitamin C</td><td>good source</td></tr>
+          <tr><td>Manganese</td><td>good source</td></tr>
+        </table>
+        <p>Nutrient-dense, but the natural sugar is why portion size matters.</p>
+
+        <h2>How much pineapple is safe?</h2>
+        <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe treat amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>1–2 small cubes (about 1 tbsp)</td></tr>
+          <tr><td>5–15 kg</td><td>A few small cubes (2–3 tbsp)</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/4 cup chunks</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2 cup chunks, occasionally</td></tr>
+        </table>
+
+        <h2>Fresh vs canned vs the core and skin</h2>
+        <ul>
+          <li><b>Fresh flesh:</b> the safe part — cut into small cubes.</li>
+          <li><b>Canned pineapple:</b> usually packed in heavy syrup. Skip it; the added sugar is far too much for a dog. If you must, use fruit-only canned in its own juice and rinse it.</li>
+          <li><b>Core and skin:</b> the tough core is a choking and blockage risk, and the spiky skin is indigestible. Cut both away.</li>
+        </ul>
+        <div class="callout">The core is the part people forget — it is woody and can lodge. Trim it completely and serve only soft flesh cubes.</div>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Peel, remove the core, and cut flesh into small cubes.</li>
+          <li>Offer plain, fresh or frozen (a cooling bite).</li>
+          <li>For a fun chew, freeze cubes — no sugar or syrup ever.</li>
+        </ul>
+
+        <h2>Can puppies eat pineapple?</h2>
+        <p>Yes, in tiny amounts once weaned and on solid food. The sugar and acidity mean keep it to a cube or two and watch for loose stools.</p>
+
+        <h2>The danger: sugar and canned syrup</h2>
+        <div class="callout warn">Avoid canned pineapple in syrup and any dried pineapple with added sugar — both pile on sugar a dog does not need and can prompt diarrhea or weight gain. Diabetic dogs should skip pineapple or get a vet's OK first. For the full list of risky foods, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
+
+        <h2>What if my dog ate too much?</h2>
+        <p>A dog that eats a lot of fresh pineapple mostly risks an upset, loose-stool belly from the sugar and bromelain. It usually passes with water and a bland next meal. Call a vet for repeated vomiting, lethargy, or if the dog got into the core or skin and may have a blockage. Our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat fresh pineapple?", "Yes — the fresh flesh is safe and vitamin-C-rich in small amounts. Cut into small cubes and skip the core and skin."),
+            ("Can dogs eat canned pineapple?", "Avoid the syrup-packed kind; the added sugar is too much. If canned, use fruit in its own juice, rinse it, and keep it tiny."),
+            ("Is pineapple good for dogs?", "In small amounts it adds vitamin C, manganese, and fiber, but the natural sugar means it should stay an occasional treat."),
+            ("Can puppies eat pineapple?", "Yes, a cube or two once weaned and on solid food — watch for loose stools from the sugar and acidity."),
+            ("How much pineapple can a dog eat?", "Keep treats under about 10% of daily calories: a couple of cubes for a small dog, up to half a cup for a large one."),
+            ("Can dogs eat pineapple core or skin?", "No — the core is a choking and blockage risk and the skin is indigestible. Serve only soft flesh."),
+            ("Can diabetic dogs eat pineapple?", "It is best avoided because of the natural sugar, or cleared with your vet first."),
+            ("What if my dog ate too much pineapple?", "Usually just a loose-stool belly that passes; call a vet for vomiting, lethargy, or if the core or skin was eaten."),
+        ],
+        "related": ["can-dogs-eat-watermelon", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
