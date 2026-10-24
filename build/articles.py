@@ -64,6 +64,7 @@ PILLARS = {
             "can-dogs-eat-peaches", "can-dogs-eat-plums",
             "can-dogs-eat-xylitol", "can-dogs-eat-alcohol",
             "can-dogs-eat-caffeine", "can-dogs-eat-raw-dough",
+            "can-dogs-eat-almonds", "can-dogs-eat-walnuts",
         ],
     },
     "dog-care": {
@@ -4222,6 +4223,188 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. Raw yeast dough ingestion is an emergency — contact your veterinarian immediately.",
+    },
+    {
+        "slug": "can-dogs-eat-almonds",
+        "url": "/dog-nutrition/can-dogs-eat-almonds/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Almonds? Not Recommended — Here's Why",
+        "description": "Almonds are not toxic to dogs like macadamia nuts, but they are still a bad treat: choking risk, pancreatitis from fat, and salted flavorings. What to know.",
+        "lede": "Almonds are not poisonous to dogs the way macadamia nuts are, but vets still say no: they are a choking hazard, hard to digest, and loaded with fat that can trigger pancreatitis. Salted or flavored almonds are worse.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>not recommended — and one nut is one too many for small
+        dogs.</strong> Almonds are not truly toxic the way <a
+        href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">macadamia nuts</a> are, which is
+        why you will see conflicting answers online. But veterinarians still advise against
+        them for three solid reasons: obstruction risk, digestive upset, and the fatty,
+        salty ways we usually eat them.</p>
+
+        <h2>Why vets say no to almonds</h2>
+        <ul>
+          <li><strong>Choking and obstruction.</strong> Almonds are the right size and shape
+          to lodge in a small dog's throat or intestine, especially whole and unchewed.</li>
+          <li><strong>GI upset.</strong> Dogs digest nuts poorly. A handful can cause vomiting,
+          diarrhea, and gas within hours.</li>
+          <li><strong>Pancreatitis.</strong> Almonds are high in fat. A large or repeated dose
+          can inflame the pancreas — a painful, sometimes life-threatening condition.</li>
+          <li><strong>Seasonings.</strong> Salted, wasabi, cocoa-dusted, or honey-roasted
+          almonds add sodium and sometimes <a
+          href="/dog-nutrition/can-dogs-eat-xylitol/">xylitol-sweetened</a> coatings.</li>
+        </ul>
+
+        <h2>Almonds by type: what your dog grabbed</h2>
+        <table class="dose">
+          <thead><tr><th>Type</th><th>Risk level</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Plain raw almond (1–2, large dog)</td><td>Low</td><td>Watch for GI upset</td></tr>
+            <tr><td>Plain almond (small dog or puppy)</td><td>Moderate</td><td>Choking risk; call vet if several eaten</td></tr>
+            <tr><td>Salted almonds</td><td>Moderate</td><td>Sodium risk; provide water, monitor</td></tr>
+            <tr><td>Flavored / cocoa-dusted</td><td>High</td><td>Call vet — may contain toxic flavorings</td></tr>
+            <tr><td>Almond butter (xylitol-free, small lick)</td><td>Low–moderate</td><td>Check label first; high fat</td></tr>
+            <tr><td>Almond milk (small sip)</td><td>Low</td><td>Usually just GI upset risk</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Signs to watch after almond ingestion</h2>
+        <p>Most healthy dogs that steal one or two plain almonds will be fine, but monitor
+        for 24 hours. Call your vet if you see:</p>
+        <ul>
+          <li>Repeated vomiting or diarrhea</li>
+          <li>Gagging, pawing at the mouth, or drooling (possible obstruction)</li>
+          <li>Loss of appetite or a painful, hunched belly</li>
+          <li>Lethargy lasting more than a few hours</li>
+        </ul>
+        <p class="note">Toy breeds and puppies are at the highest risk of obstruction. If a
+        small dog eats a large quantity, treat it as a same-day veterinary visit.</p>
+
+        <h2>Better nut-free and nut-adjacent treats</h2>
+        <p>If you want crunch, skip the nut bowl entirely and reach for safe options:
+        carrot coins, apple slices (no seeds), <a
+        href="/dog-nutrition/can-dogs-eat-cucumber/">cucumber rounds</a>, or plain air-popped
+        popcorn. For a protein-rich bite, small pieces of cooked chicken or <a
+        href="/dog-nutrition/can-dogs-eat-salmon/">cooked salmon</a> beat any nut.</p>
+
+        <h2>My dog ate almonds — next steps</h2>
+        <ol>
+          <li>Estimate the amount and type (salted? flavored? chocolate-covered?).</li>
+          <li>Remove access and check for choking or immediate distress.</li>
+          <li>For a few plain nuts in a large dog: monitor for 24 hours.</li>
+          <li>For small dogs, large amounts, flavored nuts, or any concerning sign: call your
+          vet or a pet poison hotline the same day.</li>
+        </ol>
+        """,
+        "sources": [
+            ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "related": ["can-dogs-eat-macadamia-nuts", "can-dogs-eat-walnuts", "can-dogs-eat-peanut-butter", "can-dogs-eat-xylitol"],
+        "faq": [
+            ("Are almonds toxic to dogs?", "Not in the poisonous sense — almonds lack the unknown toxin found in macadamia nuts. But they still cause choking, GI upset, and pancreatitis risk, so vets recommend against feeding them."),
+            ("What happens if my dog eats a few almonds?", "For a large dog, one to three plain almonds usually cause no more than mild stomach upset. Watch for vomiting or diarrhea over the next 24 hours and keep water available."),
+            ("Are almonds dangerous for small dogs?", "Yes, more so. Their airway and intestine are narrow enough that whole almonds can cause choking or obstruction. If a toy breed eats a handful, call your vet."),
+            ("Can dogs drink almond milk?", "A small lick of unsweetened almond milk is not toxic, but it offers no benefit and can cause loose stools. Never give sweetened versions, which may contain xylitol or excess sugar."),
+            ("Is almond butter safe for dogs?", "Only xylitol-free almond butter, and only in tiny amounts — it is very high in fat. Always read the ingredient label; some nut butters contain xylitol, which is extremely toxic to dogs."),
+            ("What about chocolate-covered almonds?", "Call your vet. This combines two problems: chocolate toxicity and almond fat. The darker the chocolate and smaller the dog, the more urgent it is."),
+            ("Can almonds cause pancreatitis in dogs?", "Yes. High-fat foods — including a large almond haul from the trash — can trigger pancreatitis, with vomiting, abdominal pain, and lethargy. This needs veterinary treatment."),
+            ("Which nuts are the worst for dogs?", "Macadamia nuts are the most toxic, followed by black walnuts (mold risk). Almonds, cashews, and peanuts are lower toxicity but still discouraged. Moldy nuts of any kind are dangerous."),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten a large quantity of almonds or shows distress, contact your veterinarian or a pet poison hotline.",
+    },
+    {
+        "slug": "can-dogs-eat-walnuts",
+        "url": "/dog-nutrition/can-dogs-eat-walnuts/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Walnuts? No — Especially Black Walnuts",
+        "description": "Walnuts are a poor treat for dogs: high fat, choking risk, and black walnuts carry a toxic mold. English walnuts are less dangerous but still a firm no.",
+        "lede": "Walnuts are not recommended for dogs at all. English walnuts mainly pose choking and pancreatitis risk, but black walnuts can carry a mold toxin that causes tremors and seizures. Moldy walnuts of any kind are an emergency.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no — and black walnuts are a genuine emergency.</strong>
+        Walnuts combine the usual nut problems (fat, choking, poor digestion) with a risk
+        many owners never think about: <strong>tremorgenic mold</strong>, which grows on
+        walnuts — especially black walnuts — as they sit on the ground or in a damp garage
+        bag. That mold produces toxins that cause tremors and seizures in dogs.</p>
+
+        <h2>Two different problems: English vs black walnuts</h2>
+        <table class="dose">
+          <thead><tr><th>Type</th><th>Main risk</th><th>Urgency</th></tr></thead>
+          <tbody>
+            <tr><td>English walnut (store-bought, fresh)</td><td>High fat, choking, GI upset</td><td>Monitor</td></tr>
+            <tr><td>Black walnut (yard, fallen)</td><td>Tremorgenic mycotoxins</td><td>Same-day vet</td></tr>
+            <tr><td>Moldy walnut (any kind)</td><td>Mycotoxins — tremors, seizures</td><td>Emergency</td></tr>
+            <tr><td>Walnut shell</td><td>Obstruction, dental damage</td><td>Watch closely</td></tr>
+            <tr><td>Candied / spiced walnuts</td><td>Sugar, salt, possibly xylitol</td><td>Call vet</td></tr>
+          </tbody>
+        </table>
+
+        <h2>What tremorgenic mycotoxins do</h2>
+        <p>Molds that grow on decaying nuts produce compounds that overstimulate the nervous
+        system. Signs usually appear within 30 minutes to a few hours:</p>
+        <ul>
+          <li>Muscle tremors that progress to full-body shaking</li>
+          <li>Panting, hyperthermia (dangerously high temperature)</li>
+          <li>Ataxia (wobbly, drunken gait)</li>
+          <li>Seizures in severe cases</li>
+        </ul>
+        <p class="note">A dog that eats moldy nuts — often stolen from a compost pile, yard,
+        or garbage bin — needs veterinary care immediately. With prompt treatment, most
+        dogs recover fully.</p>
+
+        <h2>The everyday walnut problems</h2>
+        <p>Even a fresh English walnut is a poor choice. Like <a
+        href="/dog-nutrition/can-dogs-eat-almonds/">almonds</a> and <a
+        href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">macadamia nuts</a>, walnuts are
+        calorie-dense and fatty: a steady walnut habit contributes to weight gain and can
+        trigger pancreatitis, and a whole nut can obstruct a small dog's intestine. Shells
+        add dental fractures and blockage risk.</p>
+
+        <h2>Walnut season hazards</h2>
+        <p>If you have a walnut tree — or a neighbor does — autumn is the risky season. Fallen
+        walnuts sit on wet ground and mold quickly, and dogs find them fascinating. Rake and
+        remove fallen nuts before your dog is let out, and teach a solid <em>leave it</em>
+        cue.</p>
+
+        <h2>My dog ate a walnut — what now?</h2>
+        <ol>
+          <li>Identify the type and condition: fresh store-bought, black, or visibly moldy?</li>
+          <li>Estimate the quantity and whether shells were eaten.</li>
+          <li>Fresh English walnut, one or two, large dog: monitor for 24 hours.</li>
+          <li>Black walnut, moldy nut, many nuts, a small dog, or any tremor: call your vet
+          or a pet poison hotline immediately.</li>
+        </ol>
+
+        <p>For a safe crunchy snack, stick with carrots, apple slices, or plain <a
+        href="/dog-nutrition/can-dogs-eat-popcorn/">air-popped popcorn</a> — and keep the
+        nut bowl for the humans.</p>
+        """,
+        "sources": [
+            ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Tremorgenic Mycotoxins", "https://www.merckvetmanual.com/toxicology/mycotoxicoses/tremorgenic-mycotoxins"),
+            ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "related": ["can-dogs-eat-almonds", "can-dogs-eat-macadamia-nuts", "can-dogs-eat-chocolate", "can-dogs-eat-xylitol"],
+        "faq": [
+            ("Are walnuts toxic to dogs?", "Black walnuts and moldy walnuts can be genuinely toxic due to tremorgenic mycotoxins. Fresh English walnuts are not poisonous, but they are still unhealthy — high fat, choking risk, and possible pancreatitis."),
+            ("What if my dog ate one walnut off the floor?", "If it was a fresh, store-bought English walnut and your dog is large, watch for vomiting or diarrhea over 24 hours. If it came from a yard or tree and may have molded, call your vet."),
+            ("Why are black walnuts worse for dogs?", "Black walnuts are strongly associated with tremorgenic mycotoxins — poisons from mold that cause tremors, high fever, and seizures. They also drop from trees and mold quickly on the ground."),
+            ("Can dogs eat walnut shells?", "No. Shells can crack teeth, splinter, and cause intestinal obstruction. If your dog swallowed shell pieces, monitor for vomiting, constipation, or belly pain and call your vet if anything changes."),
+            ("Is walnut oil or walnut butter safe?", "Neither is recommended. The oil is pure fat (pancreatitis risk), and nut butters may contain xylitol or added salt. Stick to dog-safe treats."),
+            ("What are the signs of moldy walnut poisoning?", "Tremors that start within minutes to hours, wobbliness, panting, high body temperature, and possibly seizures. This is an emergency — go to a vet immediately."),
+            ("Can puppies eat walnuts?", "No. Puppies are smaller, so doses hit harder, and their digestive systems are more sensitive. The obstruction risk is also higher."),
+            ("Which nuts can dogs eat safely?", "None are truly 'safe' treats — peanuts are the least risky and plain, unsalted peanut butter (xylitol-free) is common in dog treats. But for crunch, choose carrots or apple slices instead."),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has eaten black walnuts, moldy nuts, or shows tremors, contact your veterinarian or a pet poison hotline immediately.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
