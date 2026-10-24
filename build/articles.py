@@ -50,6 +50,7 @@ PILLARS = {
             "can-dogs-eat-chicken", "can-dogs-eat-milk", "can-dogs-eat-strawberries",
             "can-dogs-eat-grapes", "can-dogs-eat-chocolate", "can-dogs-eat-avocado",
             "can-dogs-eat-blueberries", "can-dogs-eat-pumpkin",
+            "can-dogs-eat-sweet-potato", "can-dogs-eat-rice",
         ],
     },
     "dog-care": {
@@ -1736,6 +1737,174 @@ ARTICLES = [
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    # ---------------- Dog nutrition: can dogs eat X (batch 2, 2026-10-24) ----------------
+    {
+        "slug": "can-dogs-eat-sweet-potato",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Sweet Potato? Yes — Cooked, Plain",
+        "url": "/dog-nutrition/can-dogs-eat-sweet-potato/",
+        "description": "Can dogs eat sweet potato? Yes — cooked, plain, and packed with fiber and vitamin A. Why you should skip the skin and spices, and how much to feed by weight.",
+        "lede": "Yes — plain cooked sweet potato is one of the better carbohydrate treats you can share. It is packed with fiber and vitamin A, but only once it is cooked and freed of skin, salt, and spices.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is sweet potato good for dogs?</h2>
+        <p>Plain cooked sweet potato is a genuinely useful carb to share. A serving brings beta-carotene (the plant form of vitamin A), fiber, vitamin C, vitamin B6, and potassium, with almost no fat. That nutrient mix is why sweet potato shows up as the carbohydrate in many sensitive-stomach and limited-ingredient dog foods. It is a step up from plain white potato in nutritional density — though, like any carb, it belongs in the treat budget, not as a free-for-all.</p>
+
+        <h2>Sweet potato nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of cooked, mashed sweet potato (about 200 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount per cup</th></tr>
+          <tr><td>Calories</td><td>~180 kcal</td></tr>
+          <tr><td>Fiber</td><td>6.6 g</td></tr>
+          <tr><td>Vitamin A</td><td>About 214% of a person's daily value</td></tr>
+          <tr><td>Vitamin C</td><td>~24% of a person's daily value</td></tr>
+          <tr><td>Potassium</td><td>Notable amount</td></tr>
+        </table>
+        <p>Vitamin A is the headline — sweet potato is one of the richest natural sources — but a balanced dog food already covers a dog's needs, so think of sweet potato as a topper, not a vitamin fix.</p>
+
+        <h2>How much sweet potato for a dog?</h2>
+        <p>Sweet potato is more calorie-dense than people expect, so keep it occasional. A sensible portion by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe amount (cooked)</th></tr>
+          <tr><td>Under 5 kg</td><td>1–2 teaspoons mashed</td></tr>
+          <tr><td>5–15 kg</td><td>1–2 tablespoons</td></tr>
+          <tr><td>15–30 kg</td><td>2–3 tablespoons</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/4 cup, occasionally</td></tr>
+        </table>
+        <div class="callout">Sweet potato is not a low-calorie treat despite the "vegetable" label — a cup is around 180 calories. Count it toward the daily treat budget so it does not crowd out balanced food.</div>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Steam or bake plain, with no salt, butter, oil, or spices.</li>
+          <li>Mash it or cut it into small soft cubes for easy eating.</li>
+          <li>If keeping the skin on, scrub it very well; many owners simply peel it to be safe.</li>
+          <li>Skip sweet potato fries, sweet potato pie, and candied yams — the oil, sugar, and spices are the problem, not the vegetable.</li>
+        </ul>
+
+        <h2>Never give raw sweet potato</h2>
+        <p>Raw sweet potato is hard to digest and a choking and blockage hazard, especially for a dog that gulps food. It must be fully cooked before it reaches the bowl.</p>
+
+        <h2>Can puppies eat sweet potato?</h2>
+        <p>Yes — a small amount of plain cooked sweet potato is fine once a puppy is weaned and eating solid food. Their smaller digestive systems mean keep it to a spoonful and watch the stool.</p>
+
+        <h2>Sweet potato vs white potato</h2>
+        <p>Both are safe once cooked, but they are not equal. Sweet potato wins on fiber and vitamin A. White potato must be cooked too — raw or green potatoes contain solanine, a compound that is toxic to dogs, so never offer those. For the full rundown of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>. If you want a gentle gut soother instead, <a href="/dog-nutrition/can-dogs-eat-pumpkin/">plain pumpkin</a> does a similar job with even less risk.</p>
+
+        <h2>Are there risks?</h2>
+        <p>Sweet potato is healthy for most dogs, but three watch-items apply: the natural sugar means diabetic dogs should keep portions tiny and check with a vet; the carb load means overweight or pancreatitis-prone dogs should limit it; and the high fiber means a large serving in one sitting can cause gas or diarrhea. The leafy tops and vines should not be fed.</p>
+
+        <h2>What if my dog ate too much?</h2>
+        <p>A dog that overloads on sweet potato mostly risks gas, bloating, and loose stools from the fiber and starch — usually mild and self-limiting with water and a bland next meal. Call a vet if there is repeated vomiting, a painful swollen belly, no stool, or signs of pancreatitis (hunched posture, appetite loss). To keep treats in check, our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> explains the 10% rule.</p>
+        """,
+        "faq": [
+            ("Can dogs eat sweet potato skin?", "Scrubbed and fully cooked skin is not toxic, but it is harder to digest — many owners peel it. The key is that the sweet potato is cooked, never raw."),
+            ("Can dogs eat raw sweet potato?", "No — raw sweet potato is hard to digest and a choking or blockage risk. Always cook it first."),
+            ("How much sweet potato can a dog eat?", "A teaspoon or two for small dogs up to about 1/4 cup for large dogs, only as an occasional treat below 10% of daily calories."),
+            ("Is sweet potato good for diabetic dogs?", "It is naturally high in sugar, so portions should be tiny and cleared with your vet before it becomes a regular treat."),
+            ("Can puppies eat sweet potato?", "Yes, a small amount of plain cooked sweet potato once weaned; keep portions tiny and watch for loose stools."),
+            ("Is sweet potato or white potato better for dogs?", "Sweet potato is more nutritious (more fiber and vitamin A). White potato must be cooked too, because raw or green potato contains solanine, which is toxic."),
+            ("Can dogs eat sweet potato fries?", "No — frying adds fat and the salt and spices are unnecessary. Only plain cooked sweet potato belongs in the bowl."),
+            ("What if my dog ate too much sweet potato?", "Usually just gas and diarrhea that pass. Call a vet for repeated vomiting, a painful belly, no stool, or signs of pancreatitis."),
+        ],
+        "related": ["can-dogs-eat-pumpkin", "can-dogs-eat-chicken", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
+             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-rice",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Rice? Yes — Plain White Rice for Upset Tummies",
+        "url": "/dog-nutrition/can-dogs-eat-rice/",
+        "description": "Plain white rice is the classic bland meal for a dog with an upset tummy. Why unseasoned matters, how it pairs with chicken, and how much is safe. Stick to plain.",
+        "lede": "Yes — plain cooked white rice is one of the safest, most digestible foods for dogs, and it is the backbone of the standard bland diet vets recommend for mild tummy upset.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is rice good for dogs?</h2>
+        <p>Plain white rice is about as gentle as food gets. It is low in fiber and fat and easy to digest, which is exactly why vets point to boiled white rice with plain boiled chicken as the standard bland diet for a dog with mild diarrhea or a sensitive stomach. It is not a nutrient powerhouse, but it gives a recovering gut an easy source of energy while things settle.</p>
+
+        <h2>White rice vs brown rice</h2>
+        <p>White rice is lower in fiber and the easier choice during active tummy trouble. Brown rice keeps more fiber and nutrients, so it can suit a healthy dog as an everyday carb — but that extra fiber can be too much for a gut that is already upset. Rule of thumb: white rice for an upset stomach, brown rice for a healthy dog's regular meals.</p>
+
+        <h2>Rice nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of cooked white rice (about 158 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Amount per cup</th></tr>
+          <tr><td>Calories</td><td>~205 kcal</td></tr>
+          <tr><td>Fat</td><td>0.4 g</td></tr>
+          <tr><td>Carbohydrate</td><td>~45 g</td></tr>
+          <tr><td>Fiber</td><td>0.6 g</td></tr>
+          <tr><td>Protein</td><td>~4 g</td></tr>
+        </table>
+        <p>Low fat and low fiber are the features that make it a gut soother — not a nutrition supplement.</p>
+
+        <h2>How much rice for a dog?</h2>
+        <p>As a bland meal, a useful amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Plain cooked rice</th></tr>
+          <tr><td>Under 5 kg</td><td>1–2 tablespoons</td></tr>
+          <tr><td>5–15 kg</td><td>1/4–1/3 cup</td></tr>
+          <tr><td>15–30 kg</td><td>1/2 cup</td></tr>
+          <tr><td>30 kg and up</td><td>1/2–1 cup, per vet guidance</td></tr>
+        </table>
+        <div class="callout">Rice alone is not a complete diet. It is a short-term soother or a small part of balanced meals — a dog cannot live on plain rice long term.</div>
+
+        <h2>How to serve it</h2>
+        <ul>
+          <li>Boil plain with no salt, oil, butter, or seasoning.</li>
+          <li>For an upset stomach, mix with <a href="/dog-nutrition/can-dogs-eat-chicken/">plain boiled chicken</a> (no skin, no bones, no seasoning) — the classic bland combo.</li>
+          <li>Let it cool before serving.</li>
+        </ul>
+
+        <h2>The real danger: table scraps and seasonings</h2>
+        <div class="callout warn">Never feed a dog seasoned or leftover rice. Human rice often contains onion or garlic — both are toxic to dogs and can damage red blood cells — plus salt and oil a dog does not need. Only plain, unseasoned rice is safe.</div>
+
+        <h2>Can puppies eat rice?</h2>
+        <p>Yes — plain white rice is a common, easily digested bland meal for puppies with mild tummy upset. Keep portions small for their size.</p>
+
+        <h2>Are there risks?</h2>
+        <p>Plain rice is low-risk, but a few points matter: white rice spikes blood sugar quickly, so diabetic dogs need smaller portions (a vet may prefer brown rice or a different carb); long-term rice-only feeding is nutritionally incomplete; and any rice with onion, garlic, salt, or oil is off the menu. For the full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+
+        <h2>When rice isn't enough</h2>
+        <p>Rice is for short-lived, mild gut wobbles. Persistent vomiting or diarrhea, blood in stool, lethargy, or a painful belly are not "feed more rice" situations — they need a veterinarian. If your dog is already vomiting, our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> explains what is urgent, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat white rice every day?", "Short-term, as a bland diet, yes. Long term, rice alone is not complete — most calories should come from balanced dog food."),
+            ("Is brown rice better than white rice for dogs?", "Brown rice has more fiber and nutrients but is harder to digest; white rice is the better choice for an upset stomach, brown for a healthy dog's regular meals."),
+            ("Can dogs eat rice with chicken?", "Yes — plain boiled chicken with plain white rice is the standard bland meal vets recommend for mild tummy upset."),
+            ("Can dogs eat fried rice or leftovers?", "No — leftover rice often contains onion, garlic, salt, or oil, and onion and garlic are toxic to dogs. Only plain unseasoned rice is safe."),
+            ("How much rice for a dog with diarrhea?", "Small amounts of plain white rice with boiled chicken can help, but see a vet if diarrhea lasts more than a day or two."),
+            ("Can puppies eat rice?", "Yes — plain white rice is a gentle, easily digested bland meal for puppies with mild stomach upset."),
+            ("Can diabetic dogs eat rice?", "White rice raises blood sugar quickly, so portions should be small and cleared with your vet, who may suggest brown rice or another carb."),
+            ("Can dogs eat plain rice cakes?", "A plain, unsalted rice cake is not toxic and can be an occasional low-fat chew, but it adds little nutrition — keep it rare and unseasoned."),
+        ],
+        "related": ["can-dogs-eat-chicken", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "experts": [
             "The veterinarians of the ASPCA Animal Poison Control Center",
