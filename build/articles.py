@@ -55,6 +55,7 @@ PILLARS = {
             "can-dogs-eat-green-beans", "can-dogs-eat-pineapple",
             "can-dogs-eat-mango", "can-dogs-eat-potato",
             "can-dogs-eat-spinach", "can-dogs-eat-tomato",
+            "can-dogs-eat-bread", "can-dogs-eat-popcorn",
         ],
     },
     "dog-care": {
@@ -2564,6 +2565,171 @@ ARTICLES = [
             ("What if my dog ate a tomato leaf or green tomato?", "Call a vet or poison helpline promptly — solanine poisoning needs quick care. Watch for vomiting, drooling, or weakness."),
         ],
         "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "can-dogs-eat-potato"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-bread",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Bread? Yes — Plain, but Empty Calories",
+        "url": "/dog-nutrition/can-dogs-eat-bread/",
+        "description": "Plain bread is safe for dogs in tiny amounts, but it adds little nutrition and raw dough is dangerous. Why plain wins, how much, and the yeast risk to avoid.",
+        "lede": "Yes — a small piece of plain, fully baked bread is not toxic to dogs, but it is mostly empty calories. The one real emergency is raw dough, which can bloat the stomach and ferment into alcohol.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is bread safe for dogs?</h2>
+        <p>A small bite of plain bread — white or brown, fully baked — is not toxic to dogs and will not hurt them. But bread is mostly starch with very little real nutrition for a carnivore, so it is empty calories: nice as a rare nibble, never a meal. Most dogs like it, but it earns its place only as an occasional treat, not a food group.</p>
+
+        <h2>The real danger: raw dough</h2>
+        <div class="callout warn">Raw bread or pizza dough is a genuine emergency. Live yeast keeps fermenting in a dog's warm stomach, so the dough expands and can bloat the stomach — a life-threatening condition. On top of that, the yeast produces alcohol, causing alcohol poisoning. A dog that ate raw dough needs a veterinarian immediately; do not wait for symptoms.</div>
+
+        <h2>Bread nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one slice of plain white bread (about 25 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per slice</th></tr>
+          <tr><td>Calories</td><td>~70 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~13 g</td></tr>
+          <tr><td>Protein</td><td>~2.3 g</td></tr>
+          <tr><td>Fat</td><td>~0.8 g</td></tr>
+          <tr><td>Fiber</td><td>~0.6 g</td></tr>
+        </table>
+        <p>Low in protein and fat, high in starch — that is why bread is an occasional treat, not a nutrition source for dogs.</p>
+
+        <h2>How much bread is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional piece</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>A thumbnail-sized crumb (1–2 small bites)</td></tr>
+          <tr><td>5–15 kg</td><td>Up to 1/4 slice</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/2 slice</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2–1 slice, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve bread safely</h2>
+        <ul>
+          <li>Plain, fully baked, with nothing added — no butter, no salt, no garlic, no raisins.</li>
+          <li>Tear into small pieces to avoid gulping a big dry chunk.</li>
+          <li>Keep it rare; it is filler, not food.</li>
+        </ul>
+
+        <h2>Breads to never feed a dog</h2>
+        <ul>
+          <li><b>Raisin bread:</b> raisins (and grapes) are toxic to dogs and can cause kidney failure.</li>
+          <li><b>Garlic or onion bread:</b> both damage a dog's red blood cells and are toxic.</li>
+          <li><b>Anything with xylitol:</b> the artificial sweetener is highly toxic to dogs.</li>
+          <li><b>Moldy bread:</b> some molds produce tremorgenic mycotoxins that can cause seizures.</li>
+        </ul>
+
+        <h2>Can puppies eat bread?</h2>
+        <p>A tiny piece of plain bread is not toxic to puppies, but their calories are better spent on complete puppy food. Skip it unless you are using a crumb to hide a pill — and ask your vet first.</p>
+
+        <h2>When bread isn't the answer</h2>
+        <p>Bread does not settle a dog's stomach the way plain <a href="/dog-nutrition/can-dogs-eat-rice/">white rice</a> can, and it adds nothing a balanced diet lacks. If your dog has vomiting or diarrhea, see our <a href="/dog-health/dog-vomiting-causes/">vomiting guide</a> and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a>, and call your vet rather than reaching for the loaf. For a full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+        """,
+        "faq": [
+            ("Can dogs eat plain bread?", "Yes — a small piece of plain, fully baked white or brown bread is not toxic, but it is mostly empty calories and should stay an occasional treat."),
+            ("Why is raw bread dough dangerous?", "Live yeast keeps fermenting in the stomach, expanding and risking bloat, while also producing alcohol and causing alcohol poisoning — a veterinary emergency."),
+            ("Can dogs eat bread with butter or salt?", "Plain is best; butter adds fat a dog does not need and too much salt is harmful. A tiny buttered scrape will not hurt, but skip it when you can."),
+            ("Is raisin bread safe for dogs?", "No — raisins and grapes are toxic to dogs and can cause kidney failure, so raisin bread must stay out of reach."),
+            ("Can dogs eat garlic or onion bread?", "No — garlic and onion damage a dog's red blood cells and are toxic, so any savory or seasoned bread is off the menu."),
+            ("Can puppies eat bread?", "A tiny piece of plain bread is not toxic to puppies, but their calories are better spent on complete puppy food; skip it unless hiding a pill with vet approval."),
+            ("Does bread help a dog's upset stomach?", "Not really — plain white rice is the better bland soother. Bread is filler and adds nothing a balanced diet lacks."),
+            ("What if my dog ate raw dough?", "Call a veterinarian immediately. Raw dough can bloat the stomach and ferment into alcohol; do not wait for symptoms to appear."),
+        ],
+        "related": ["can-dogs-eat-rice", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-popcorn",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Popcorn? Yes — Air-Popped and Plain",
+        "url": "/dog-nutrition/can-dogs-eat-popcorn/",
+        "description": "Plain air-popped popcorn is a safe, low-calorie dog treat, but buttered, salted, or unpopped kernels are not. How to serve it plain and how much to offer safely.",
+        "lede": "Yes — plain air-popped popcorn is a light, low-calorie treat many dogs love, but buttered and salted popcorn is not, and unpopped kernels are a choking and teeth risk. Plain and fully popped is the rule.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Is popcorn safe for dogs?</h2>
+        <p>Plain, air-popped popcorn with nothing added is safe for dogs and is a genuinely light snack — it is low in calories and brings a little fiber and a few minerals like magnesium and phosphorus. The problems come from how people usually eat it: drenched in butter and salt, or with unpopped hard kernels mixed in.</p>
+
+        <h2>The real risks in a bowl of popcorn</h2>
+        <ul>
+          <li><b>Unpopped kernels:</b> hard, round, and a choking hazard, plus they can crack or break teeth. Pick them out before sharing.</li>
+          <li><b>Butter and salt:</b> too much salt is harmful to dogs and butter adds fat they do not need; heavily buttered popcorn is best avoided.</li>
+          <li><b>Coatings:</b> caramel, chocolate, or anything sugar-free may contain xylitol, which is highly toxic to dogs.</li>
+        </ul>
+        <div class="callout warn">Never give a dog popcorn with butter, salt, caramel, chocolate, or any sugar-free topping — and always remove the unpopped kernels first.</div>
+
+        <h2>Popcorn nutrition at a glance</h2>
+        <p>For scale, here is roughly what is in one cup of air-popped popcorn (about 8 g):</p>
+        <table>
+          <tr><th style="text-align:left">Nutrient</th><th style="text-align:left">Per cup</th></tr>
+          <tr><td>Calories</td><td>~31 kcal</td></tr>
+          <tr><td>Carbohydrate</td><td>~6 g</td></tr>
+          <tr><td>Fiber</td><td>~1.2 g</td></tr>
+          <tr><td>Protein</td><td>~1 g</td></tr>
+          <tr><td>Fat</td><td>~0.4 g</td></tr>
+        </table>
+        <p>Low calorie, light fiber — that is why plain popcorn is a reasonable occasional treat, not a daily snack.</p>
+
+        <h2>How much popcorn is safe?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Safe occasional amount</th></tr>
+          <tr><td>Under 5 kg (toy / small)</td><td>A few plain pieces (1–2 tbsp)</td></tr>
+          <tr><td>5–15 kg</td><td>Up to 1/4 cup</td></tr>
+          <tr><td>15–30 kg</td><td>Up to 1/2 cup</td></tr>
+          <tr><td>30 kg and up</td><td>Up to 1/2–1 cup, occasionally</td></tr>
+        </table>
+
+        <h2>How to serve popcorn safely</h2>
+        <ul>
+          <li>Air-pop it with no oil, butter, salt, or sugar.</li>
+          <li>Remove every unpopped kernel by hand.</li>
+          <li>Let it cool — fresh popcorn can be hot enough to burn a dog's mouth.</li>
+        </ul>
+
+        <h2>Can puppies eat popcorn?</h2>
+        <p>Plain air-popped popcorn is not toxic to puppies, but the choking risk from kernels is higher for small dogs, so it is safer to skip it for puppies and stick to their complete food.</p>
+
+        <h2>When popcorn isn't worth it</h2>
+        <p>Popcorn is a fun, low-calorie nibble, not a nutrition source. If your dog has a sensitive stomach, plain <a href="/dog-nutrition/can-dogs-eat-rice/">white rice</a> or <a href="/dog-nutrition/can-dogs-eat-cucumber/">cucumber</a> are gentler choices, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> covers portion basics. For a full list of dangerous additions, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
+        """,
+        "faq": [
+            ("Can dogs eat plain popcorn?", "Yes — plain air-popped popcorn with no butter, salt, or sugar is a safe, low-calorie treat for most dogs."),
+            ("Why are unpopped kernels dangerous?", "They are a choking hazard and can crack or break teeth, so pick them all out before sharing popcorn with a dog."),
+            ("Can dogs eat buttered or salted popcorn?", "Butter adds fat a dog does not need and too much salt is harmful, so plain air-popped popcorn is the only safe choice."),
+            ("Is caramel or chocolate popcorn safe?", "No — caramel and chocolate coatings add sugar and, if sugar-free, may contain xylitol, which is highly toxic to dogs."),
+            ("How much popcorn can a dog have?", "Keep it under about 10% of daily calories: a few pieces for toy dogs, up to a cup for large dogs, only occasionally."),
+            ("Can puppies eat popcorn?", "Plain air-popped popcorn is not toxic, but the kernel choking risk is higher for small puppies, so it is safer to skip."),
+            ("Is popcorn good for dogs?", "It is a light, low-calorie nibble with a little fiber, but it is a treat, not a nutrition source — keep it occasional."),
+            ("What if my dog ate buttered popcorn?", "A small amount will likely be fine, but large amounts of fat and salt can upset the stomach; watch for vomiting and call your vet if it persists."),
+        ],
+        "related": ["can-dogs-eat-rice", "can-dogs-eat-cucumber", "foods-toxic-to-dogs"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
