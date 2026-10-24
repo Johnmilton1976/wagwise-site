@@ -63,6 +63,7 @@ PILLARS = {
             "can-dogs-eat-macadamia-nuts", "can-dogs-eat-cherries",
             "can-dogs-eat-peaches", "can-dogs-eat-plums",
             "can-dogs-eat-xylitol", "can-dogs-eat-alcohol",
+            "can-dogs-eat-caffeine", "can-dogs-eat-raw-dough",
         ],
     },
     "dog-care": {
@@ -4037,6 +4038,190 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has consumed alcohol or raw yeast dough, contact your veterinarian or a pet poison hotline immediately.",
+    },
+    {
+        "slug": "can-dogs-eat-caffeine",
+        "url": "/dog-nutrition/can-dogs-eat-caffeine/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Have Caffeine? No — Coffee, Tea, Pills Are Toxic",
+        "description": "Caffeine is toxic to dogs — coffee, tea, energy drinks, pills, even used grounds. Small dogs reach toxic levels fast. Signs, dose table, and next steps.",
+        "lede": "No — caffeine in every form (coffee, tea, energy drinks, pills, grounds) is toxic to dogs. It speeds the heart and nervous system, and small dogs reach dangerous levels with just a lap or two of coffee.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no — never, in any form.</strong> Caffeine is a stimulant
+        that dogs metabolize far more slowly than humans, so it hits their heart and nervous
+        system much harder. There is no safe sip of coffee, tea, energy drink, or soda — and
+        some of the most dangerous exposures come from things dogs find on the floor:
+        <strong>used coffee grounds, tea bags, and dropped pills</strong>.</p>
+
+        <h2>What caffeine does to a dog</h2>
+        <p>Caffeine overstimulates the heart and nervous system. Signs typically start
+        within <strong>30–60 minutes</strong> and can last many hours:</p>
+        <ul>
+          <li>Restlessness, pacing, hyperactivity</li>
+          <li>Rapid breathing and racing heart rate</li>
+          <li>Muscle tremors and twitching</li>
+          <li>Vomiting and diarrhea</li>
+          <li>Elevated body temperature</li>
+          <li>Seizures and collapse in severe cases</li>
+        </ul>
+
+        <h2>How much caffeine is dangerous?</h2>
+        <p>Mild signs can start around <strong>20 mg of caffeine per kg of body weight</strong>,
+        with serious toxicity near 40–60 mg/kg. To put that in scale:</p>
+        <table class="dose">
+          <thead><tr><th>Source</th><th>Rough caffeine content</th></tr></thead>
+          <tbody>
+            <tr><td>Brewed coffee (per 250 ml cup)</td><td>~100 mg</td></tr>
+            <tr><td>Espresso shot</td><td>~60–80 mg</td></tr>
+            <tr><td>Black tea (per cup)</td><td>~45 mg</td></tr>
+            <tr><td>Energy drink (per can)</td><td>~80–160 mg</td></tr>
+            <tr><td>Cola (per 330 ml can)</td><td>~30–35 mg</td></tr>
+            <tr><td>Used coffee grounds (per tablespoon)</td><td>~25–50 mg</td></tr>
+            <tr><td>Caffeine pill</td><td>100–200 mg</td></tr>
+          </tbody>
+        </table>
+        <p class="note">A 5 kg (11 lb) dog can show mild signs from roughly 100 mg —
+        <strong>a single cup of coffee or half an energy drink</strong>. That is why spilled
+        mugs and trash-bin grounds are the most common real-world exposures.</p>
+
+        <h2>Hidden caffeine sources to watch for</h2>
+        <ul>
+          <li>Coffee, espresso, tea, and energy drinks — including half-finished mugs</li>
+          <li><strong>Used grounds and tea bags</strong> in the trash or compost</li>
+          <li>Caffeine and pre-workout pills — potent single doses</li>
+          <li>Cola and other caffeinated sodas</li>
+          <li>Chocolate-caffeine combinations — mocha desserts and coffee chocolate bars
+            stack both toxicities (see our
+            <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a> page)</li>
+        </ul>
+
+        <h2>What to do if your dog had caffeine</h2>
+        <ol>
+          <li><strong>Call your veterinarian or a pet poison hotline immediately</strong> —
+            even if the amount seems small and your dog seems fine.</li>
+          <li><strong>Identify the source and amount</strong> — coffee vs. grounds vs.
+            pills matters a lot for dosing.</li>
+          <li><strong>Note the time</strong> — early decontamination (within the first
+            hour) is the most effective.</li>
+          <li><strong>Do not induce vomiting</strong> at home unless a professional tells
+            you to.</li>
+          <li><strong>Expect monitoring</strong> — because caffeine acts over many hours,
+            serious cases are watched at the clinic for tremors and heart rhythm.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("Can dogs drink a little bit of coffee?", "No. Even one cup can cause tremors and a racing heart in a small dog, and caffeine acts for many hours. There is no safe sip."),
+            ("Is decaf coffee safe for dogs?", "It is much lower in caffeine but not zero, and coffee compounds can still upset the stomach. Decaf is not a treat — stick to water."),
+            ("Can dogs drink tea?", "No. Black and green tea contain real caffeine, and herbal teas can contain plants that are also unsafe. Skip all tea."),
+            ("What about energy drinks or cola?", "Both contain caffeine plus large amounts of sugar — energy drinks can hold 80–160 mg per can, more than a cup of coffee. Never give either."),
+            ("My dog ate used coffee grounds from the trash — is that bad?", "Yes — grounds are concentrated caffeine and a common emergency. Call your vet or a poison hotline right away with how much and when."),
+            ("How much caffeine is toxic to dogs?", "Mild signs can start around 20 mg per kg of body weight; serious toxicity near 40–60 mg/kg. For a 5 kg dog, roughly one cup of coffee."),
+            ("What are the signs of caffeine poisoning in dogs?", "Restlessness, rapid breathing, racing heart, tremors, vomiting, and seizures — usually starting within 30–60 minutes."),
+            ("Is caffeine bad for cats too?", "Yes — cats are also sensitive and slower to metabolize it. Keep coffee, tea, and energy drinks away from every pet."),
+        ],
+        "related": ["can-dogs-eat-chocolate", "can-dogs-eat-alcohol", "foods-toxic-to-dogs", "can-dogs-eat-milk"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. If your dog has consumed caffeine, contact your veterinarian or a pet poison hotline right away.",
+    },
+    {
+        "slug": "can-dogs-eat-raw-dough",
+        "url": "/dog-nutrition/can-dogs-eat-raw-dough/",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Raw Dough? No — It's a Double Emergency",
+        "description": "Raw yeast dough keeps rising in a dog's warm stomach — painful bloat and alcohol poisoning at once. A drop-everything emergency. Baked bread is different.",
+        "lede": "No — raw yeast dough keeps rising inside a dog's warm stomach, causing painful bloat and alcohol poisoning at the same time. It is one of the few kitchen hazards that is a true drop-everything emergency.",
+        "eyebrow": "DOG NUTRITION",
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The toxicology specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-10-24",
+        "body": """
+        <p>Short answer: <strong>no — and this one is urgent.</strong> Raw dough made with
+        yeast is a rare double hazard: the yeast keeps fermenting <em>inside</em> the dog's
+        warm stomach, producing <strong>ethanol (alcohol)</strong> and
+        <strong>expanding gas</strong> at the same time. The result is alcohol poisoning and
+        a bloated, twisted stomach — two emergencies in one.</p>
+
+        <h2>The double emergency, explained</h2>
+        <ul>
+          <li><strong>Alcohol poisoning</strong> — fermentation produces ethanol right in
+            the stomach; dogs absorb it fast. Signs: wobbling, disorientation, drooling,
+            low blood sugar and low body temperature (see our
+            <a href="/dog-nutrition/can-dogs-eat-alcohol/">alcohol</a> page).</li>
+          <li><strong>Stomach bloat</strong> — the dough can expand to several times its
+            size. A severely distended stomach is painful, can press on the diaphragm and
+            make breathing hard, and in the worst case contributes to gastric torsion —
+            a life-threatening twist that needs surgery.</li>
+        </ul>
+
+        <h2>Which doughs are the problem?</h2>
+        <div class="callout warn">The danger is yeast dough — bread, pizza, rolls, cinnamon
+        buns, pretzel dough, and anything left to rise. Baked bread is a different story:
+        see our <a href="/dog-nutrition/can-dogs-eat-bread/">bread</a> page for what baked
+        bread is safe.</div>
+        <ul>
+          <li><strong>Bread and roll dough</strong> — the classic holiday-baking exposure.</li>
+          <li><strong>Pizza dough</strong> — often sits out to rise at dog height.</li>
+          <li><strong>Cinnamon bun and sweet dough</strong> — yeast plus sugar plus raisins
+            in some recipes (raisins are <a href="/dog-nutrition/can-dogs-eat-grapes/">
+            toxic</a> on their own).</li>
+          <li><strong>Non-yeast doughs</strong> — cookie dough is not a bloat/alcohol risk,
+            but raw eggs carry salmonella and raw flour has its own (rare) bacterial risk;
+            keep all raw dough away.</li>
+        </ul>
+
+        <h2>What to do if your dog ate raw yeast dough</h2>
+        <ol>
+          <li><strong>Call an emergency veterinarian immediately</strong> — do not wait for
+            symptoms. This is a same-hour problem, not a watch-it-overnight problem.</li>
+          <li><strong>Do not induce vomiting</strong> unless a professional directs you —
+            with a distending stomach, vomiting is risky and timing matters.</li>
+          <li><strong>Do not give water or food</strong> until the vet advises — fluid can
+            feed the rise.</li>
+          <li><strong>Note the amount and timing</strong> — how much dough, what kind, and
+            when.</li>
+          <li><strong>Watch for the red flags</strong> while arranging transport: swollen,
+            drum-tight belly; unproductive retching; drooling; weakness; wobbling.</li>
+        </ol>
+
+        <h2>Frequently asked questions</h2>
+        """,
+        "faq": [
+            ("Why is raw dough dangerous for dogs?", "Yeast keeps fermenting in the warm stomach, producing alcohol (poisoning) and expanding gas (painful bloat) at the same time — two emergencies in one."),
+            ("Is baked bread safe if raw dough is not?", "Plain, fully baked bread in small amounts is generally fine. The hazard is the raw yeast state — see our bread page for the full picture."),
+            ("Can pizza dough hurt a dog?", "Yes — it is a yeast dough and a very common exposure because it often rises at counter height. Treat ingestion as an immediate emergency."),
+            ("What are the signs of dough bloat in dogs?", "A swollen, drum-tight belly, unproductive retching, drooling, restlessness, weakness, and wobbling. These need an emergency vet now."),
+            ("How quickly does raw dough cause problems?", "Rising and fermentation start within minutes and signs can appear within the first hour. Early veterinary treatment — before the dough has risen fully — works best."),
+            ("Is cookie dough as dangerous as bread dough?", "Different risk: no yeast means no bloat or alcohol, but raw eggs carry salmonella and raw flour has rare bacterial risk. Still keep it away."),
+            ("Can dogs eat dough that has already been baked into bread?", "Yes, in small amounts if plain — no garlic, onion, raisins, or heavy butter and salt. Large amounts of any bread still cause bloating."),
+            ("How do I keep my dog safe while baking?", "Keep rising dough covered and out of reach, never leave dough unattended on the counter, and take out the trash promptly — rising-dough smells are irresistible to dogs."),
+        ],
+        "related": ["can-dogs-eat-bread", "can-dogs-eat-alcohol", "can-dogs-eat-grapes", "foods-toxic-to-dogs"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "disclaimer": "This page is general safety information, not a substitute for veterinary care. Raw yeast dough ingestion is an emergency — contact your veterinarian immediately.",
     },
     # ---------------- Cat health & behaviour (batch 2, 2026-10-17) ----------------
     {
