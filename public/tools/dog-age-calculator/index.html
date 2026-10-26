@@ -112,8 +112,9 @@
       </select>
     </div>
     <button id="dog-go" type="button">Calculate</button>
-    <div id="dog-out" class="calc-result">About 24 human years old (estimate).</div>
-    <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones.</p>
+    <div id="dog-out" class="calc-result">About 24 human years old — young adult (estimate).</div>
+    <button id="dog-share" type="button" style="margin-top:10px;background:#fff;color:#2f7a5d;border:1px solid #3FA97E">Copy shareable result</button>
+    <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones. The link updates as you type, so you can bookmark or share this exact reading.</p>
   </div>
   <div class="doc">
     <h2>How the estimate works</h2>
@@ -141,24 +142,61 @@
     <p>This tool gives a quick sense of your dog's life stage. It is an estimate, not a medical fact, and cannot tell you how healthy your dog is. Two dogs with the same human-age reading can be in very different shape. Use the number to time life-stage care — more frequent check-ups in the senior range, and earlier attention to joint support for large breeds — rather than to predict a lifespan.</p>
     <h2>When age matters most</h2>
     <p>As dogs move into the mature and senior ranges, a few things become worth watching: slower recovery after exercise, changes in appetite or water intake, and the onset of arthritis or dental disease. Our <a href="/dog-health/">dog health guides</a> explain what is urgent versus what can wait, and our <a href="/dog-care/">care and grooming guides</a> cover the at-home habits that keep older dogs comfortable.</p>
+    <h2>Food questions owners ask next</h2>
+    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>.</p>
     <h2>Sources and review</h2>
     <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
   </div>
 </div>
 <script>
 (function(){
-  function calc(){
-    var size=document.getElementById('dog-size').value;
-    var age=parseFloat(document.getElementById('dog-age').value)||0;
-    var unit=document.getElementById('dog-unit').value;
-    if(unit==='m'){ age=age/12; }
-    var hy;
-    if(age<=1){ hy=Math.round(age*15); }
-    else if(age<=2){ hy=Math.round(15+(age-1)*9); }
-    else { var f={'small':4,'medium':5,'large':6}[size]; hy=Math.round(24+(age-2)*f); }
-    document.getElementById('dog-out').textContent='About '+hy+' human years old (estimate).';
+  var sizeEl=document.getElementById('dog-size'), ageEl=document.getElementById('dog-age'),
+      unitEl=document.getElementById('dog-unit'), out=document.getElementById('dog-out'),
+      shareBtn=document.getElementById('dog-share');
+  function stageOf(size,yrs){
+    var mature={'small':6,'medium':5,'large':4}[size];
+    var senior={'small':9,'medium':8,'large':7}[size];
+    if(yrs<1){ return 'puppy'; }
+    if(yrs<mature){ return 'young adult'; }
+    if(yrs<senior){ return 'mature adult'; }
+    return 'senior';
   }
+  function calc(){
+    var size=sizeEl.value, age=parseFloat(ageEl.value)||0, unit=unitEl.value;
+    var yrs = unit==='m' ? age/12 : age;
+    var hy;
+    if(yrs<=1){ hy=Math.round(yrs*15); }
+    else if(yrs<=2){ hy=Math.round(15+(yrs-1)*9); }
+    else { var f={'small':4,'medium':5,'large':6}[size]; hy=Math.round(24+(yrs-2)*f); }
+    var st=stageOf(size,yrs);
+    out.innerHTML='About <b>'+hy+'</b> human years — <b>'+st+'</b> (estimate).';
+    var yrsParam=(unit==='m' ? (age/12).toFixed(2) : age);
+    try{
+      var u=new URL(window.location.href);
+      u.searchParams.set('size',size); u.searchParams.set('age',yrsParam);
+      window.history.replaceState(null,'',u.toString());
+    }catch(e){}
+    if(shareBtn){
+      shareBtn.dataset.text='My '+size+' dog is about '+hy+' human years old ('+st+'). Estimate yours: '+window.location.origin+'/tools/dog-age-calculator/?size='+size+'&age='+encodeURIComponent(yrsParam);
+    }
+  }
+  try{
+    var p=new URLSearchParams(window.location.search);
+    if(['small','medium','large'].indexOf(p.get('size'))>-1){ sizeEl.value=p.get('size'); }
+    if(p.get('age')!==null && p.get('age')!==''){ ageEl.value=p.get('age'); unitEl.value='y'; }
+  }catch(e){}
   document.getElementById('dog-go').addEventListener('click',calc);
+  ageEl.addEventListener('input',calc);
+  sizeEl.addEventListener('change',calc);
+  unitEl.addEventListener('change',calc);
+  if(shareBtn){
+    shareBtn.addEventListener('click',function(){
+      var t=shareBtn.dataset.text||out.textContent;
+      try{ if(navigator.clipboard){ navigator.clipboard.writeText(t); } }catch(e){}
+      shareBtn.textContent='Copied ✓';
+      setTimeout(function(){ shareBtn.textContent='Copy shareable result'; },1600);
+    });
+  }
   calc();
 })();
 </script>

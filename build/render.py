@@ -13,10 +13,12 @@ The set-domain.py scaffold is kept only as a reusable template for future sites.
 """
 
 import os
+import re
 import json
 import subprocess
 import sys
 import datetime
+import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -370,6 +372,26 @@ def article_jsonld(a):
     return json.dumps(d, ensure_ascii=False, indent=2)
 
 
+# 哥飞 #5 (2026-10-26): turn the dog-age tool into a link magnet. These four
+# nutrition pages carry the most demand, so they get a contextual entry point
+# into the tool; the tool in turn links back to them. Internal link cycle =
+# stickier visits + a page third parties have a reason to cite.
+TOOL_LINK_SLUGS = {
+    "can-dogs-eat-milk",
+    "can-dogs-eat-chocolate",
+    "can-dogs-eat-grapes",
+    "how-much-to-feed-my-dog",
+}
+TOOL_CALLOUT = (
+    '<div class="tool-cta" style="margin:26px 0;padding:16px 18px;border:1px solid #cfe8db;'
+    'background:#F4FAF7;border-radius:10px;font-size:15px;line-height:1.65;color:#2c3a32">'
+    "<b>Quick check:</b> age changes what a dog can safely eat and how much. "
+    '<a href="/tools/dog-age-calculator/">See your dog\u2019s life stage</a> with the dog age '
+    "calculator \u2014 enter size and age to get puppy / young adult / mature / senior in one "
+    "line, and copy the result to share.</div>"
+)
+
+
 def render_article(a):
     slug = a["slug"]
     pillar = PILLARS[a["pillar"]]
@@ -442,6 +464,7 @@ def render_article(a):
         )
 
     byline_html = BYLINE_HTML
+    tool_cta = TOOL_CALLOUT if slug in TOOL_LINK_SLUGS else ""
 
     crumb = (
         '<div class="crumbs"><a href="/">Home</a> › '
@@ -476,7 +499,7 @@ def render_article(a):
         a["title"],
         a["lede"],
         img,
-        a["body"],
+        a["body"] + tool_cta,
         faq_html,
         rel_html,
         src_html,
@@ -642,8 +665,9 @@ CALC_BODY = """
       </select>
     </div>
     <button id="dog-go" type="button">Calculate</button>
-    <div id="dog-out" class="calc-result">About 24 human years old (estimate).</div>
-    <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones.</p>
+    <div id="dog-out" class="calc-result">About 24 human years old — young adult (estimate).</div>
+    <button id="dog-share" type="button" style="margin-top:10px;background:#fff;color:#2f7a5d;border:1px solid #3FA97E">Copy shareable result</button>
+    <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones. The link updates as you type, so you can bookmark or share this exact reading.</p>
   </div>
   <div class="doc">
     <h2>How the estimate works</h2>
@@ -671,24 +695,61 @@ CALC_BODY = """
     <p>This tool gives a quick sense of your dog's life stage. It is an estimate, not a medical fact, and cannot tell you how healthy your dog is. Two dogs with the same human-age reading can be in very different shape. Use the number to time life-stage care — more frequent check-ups in the senior range, and earlier attention to joint support for large breeds — rather than to predict a lifespan.</p>
     <h2>When age matters most</h2>
     <p>As dogs move into the mature and senior ranges, a few things become worth watching: slower recovery after exercise, changes in appetite or water intake, and the onset of arthritis or dental disease. Our <a href="/dog-health/">dog health guides</a> explain what is urgent versus what can wait, and our <a href="/dog-care/">care and grooming guides</a> cover the at-home habits that keep older dogs comfortable.</p>
+    <h2>Food questions owners ask next</h2>
+    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>.</p>
     <h2>Sources and review</h2>
     <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
   </div>
 </div>
 <script>
 (function(){
-  function calc(){
-    var size=document.getElementById('dog-size').value;
-    var age=parseFloat(document.getElementById('dog-age').value)||0;
-    var unit=document.getElementById('dog-unit').value;
-    if(unit==='m'){ age=age/12; }
-    var hy;
-    if(age<=1){ hy=Math.round(age*15); }
-    else if(age<=2){ hy=Math.round(15+(age-1)*9); }
-    else { var f={'small':4,'medium':5,'large':6}[size]; hy=Math.round(24+(age-2)*f); }
-    document.getElementById('dog-out').textContent='About '+hy+' human years old (estimate).';
+  var sizeEl=document.getElementById('dog-size'), ageEl=document.getElementById('dog-age'),
+      unitEl=document.getElementById('dog-unit'), out=document.getElementById('dog-out'),
+      shareBtn=document.getElementById('dog-share');
+  function stageOf(size,yrs){
+    var mature={'small':6,'medium':5,'large':4}[size];
+    var senior={'small':9,'medium':8,'large':7}[size];
+    if(yrs<1){ return 'puppy'; }
+    if(yrs<mature){ return 'young adult'; }
+    if(yrs<senior){ return 'mature adult'; }
+    return 'senior';
   }
+  function calc(){
+    var size=sizeEl.value, age=parseFloat(ageEl.value)||0, unit=unitEl.value;
+    var yrs = unit==='m' ? age/12 : age;
+    var hy;
+    if(yrs<=1){ hy=Math.round(yrs*15); }
+    else if(yrs<=2){ hy=Math.round(15+(yrs-1)*9); }
+    else { var f={'small':4,'medium':5,'large':6}[size]; hy=Math.round(24+(yrs-2)*f); }
+    var st=stageOf(size,yrs);
+    out.innerHTML='About <b>'+hy+'</b> human years \u2014 <b>'+st+'</b> (estimate).';
+    var yrsParam=(unit==='m' ? (age/12).toFixed(2) : age);
+    try{
+      var u=new URL(window.location.href);
+      u.searchParams.set('size',size); u.searchParams.set('age',yrsParam);
+      window.history.replaceState(null,'',u.toString());
+    }catch(e){}
+    if(shareBtn){
+      shareBtn.dataset.text='My '+size+' dog is about '+hy+' human years old ('+st+'). Estimate yours: '+window.location.origin+'/tools/dog-age-calculator/?size='+size+'&age='+encodeURIComponent(yrsParam);
+    }
+  }
+  try{
+    var p=new URLSearchParams(window.location.search);
+    if(['small','medium','large'].indexOf(p.get('size'))>-1){ sizeEl.value=p.get('size'); }
+    if(p.get('age')!==null && p.get('age')!==''){ ageEl.value=p.get('age'); unitEl.value='y'; }
+  }catch(e){}
   document.getElementById('dog-go').addEventListener('click',calc);
+  ageEl.addEventListener('input',calc);
+  sizeEl.addEventListener('change',calc);
+  unitEl.addEventListener('change',calc);
+  if(shareBtn){
+    shareBtn.addEventListener('click',function(){
+      var t=shareBtn.dataset.text||out.textContent;
+      try{ if(navigator.clipboard){ navigator.clipboard.writeText(t); } }catch(e){}
+      shareBtn.textContent='Copied \u2713';
+      setTimeout(function(){ shareBtn.textContent='Copy shareable result'; },1600);
+    });
+  }
   calc();
 })();
 </script>
@@ -706,28 +767,67 @@ def render_tool(t):
     return shell(h, t["url"], body)
 
 
-def _page_lastmod(rel_path, fallback):
-    """Last-modified date (YYYY-MM-DD) for a repo path via git, else fallback.
+# ---------------------------------------------------------------------------
+# lastmod strategy (哥飞 2026-10-26): a sitemap where every URL shares the same
+# <lastmod> date is a trust signal failure — Google quietly stops believing the
+# field. git-commit dates were wrong here because render.py rewrites every page
+# on every build, so one commit stamped all 79 URLs the same day.
+#
+# Fix: keep a content fingerprint per page (.lastmod.json). Only pages whose
+# rendered HTML actually changed get today's date; every other page keeps the
+# date it had. First run seeds itself from the currently published sitemap +
+# the files on disk, so nothing gets falsely stamped.
+# ---------------------------------------------------------------------------
+MANIFEST_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".lastmod.json")
 
-    Using the real commit date means only genuinely-changed pages get a fresh
-    <lastmod>, which is what search engines actually reward. Cloudflare's build
-    does a shallow clone, so there it degrades to the newest commit date —
-    still truthful, just coarser.
-    """
+
+def _sha(html):
+    return hashlib.sha1(html.encode("utf-8")).hexdigest()
+
+
+def _sha_file(path):
     try:
-        r = subprocess.run(
-            ["git", "log", "-1", "--format=%cs", "--", rel_path],
-            cwd=ROOT, capture_output=True, text=True, timeout=8,
-        )
-        d = r.stdout.strip()
-        if d:
-            return d
+        # Normalise CRLF -> LF: write_page() runs in text mode, so on Windows the
+        # file on disk uses \r\n while the freshly-rendered string uses \n.
+        b = open(path, "rb").read().replace(b"\r\n", b"\n")
+        return hashlib.sha1(b).hexdigest()
     except Exception:
-        pass
-    return fallback
+        return ""
 
 
-def build_sitemap():
+def _load_manifest():
+    try:
+        with open(MANIFEST_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_manifest(m):
+    try:
+        with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+            json.dump(m, f, indent=1, sort_keys=True)
+    except Exception as e:
+        print("  ! could not write manifest: %s" % e)
+
+
+def _bootstrap_manifest():
+    """Seed hashes from disk + dates from the published sitemap (first run only)."""
+    m = {}
+    try:
+        txt = open(os.path.join(PUBLIC, "sitemap.xml"), encoding="utf-8").read()
+    except Exception:
+        return m
+    for loc, lm in re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", txt):
+        path = loc.replace(DOMAIN, "").strip("/")
+        rel = "public/%s/index.html" % path if path else "public/index.html"
+        fp = os.path.join(ROOT, rel)
+        if os.path.exists(fp):
+            m[rel] = {"h": _sha_file(fp), "d": lm[:10]}
+    return m
+
+
+def build_sitemap(manifest):
     today = datetime.date.today().isoformat()
     # (url, priority, changefreq, repo path of the generated file)
     urls = [(HOME["url"], 1.0, "daily", "public/index.html")]
@@ -748,7 +848,7 @@ def build_sitemap():
     for u, pri, freq, rel in urls:
         lines.append("  <url>")
         lines.append("    <loc>%s%s</loc>" % (DOMAIN, u))
-        lines.append("    <lastmod>%s</lastmod>" % _page_lastmod(rel, today))
+        lines.append("    <lastmod>%s</lastmod>" % ((manifest.get(rel) or {}).get("d") or today))
         lines.append("    <changefreq>%s</changefreq>" % freq)
         lines.append("    <priority>%s</priority>" % pri)
         lines.append("  </url>")
@@ -801,55 +901,60 @@ def render_sitemap():
 
 
 def main():
-    # Home
-    write_page(os.path.join(PUBLIC, "index.html"), render_home())
-    # Pillars
+    today = datetime.date.today().isoformat()
+    manifest = _load_manifest()
+    if not manifest:
+        manifest = _bootstrap_manifest()
+        if manifest:
+            print("Seeded lastmod manifest from published sitemap (%d pages)" % len(manifest))
+
+    # Collect every page as (path relative to public/, html) so we can fingerprint
+    # before writing — only genuinely-changed pages get a fresh <lastmod>.
+    pages = [("index.html", render_home())]
     for s, p in PILLARS.items():
-        write_page(os.path.join(PUBLIC, s.lstrip("/"), "index.html"), render_pillar(p))
-    # Articles
+        pages.append(("%s/index.html" % s.lstrip("/"), render_pillar(p)))
     for a in ARTICLES:
-        # url like /dog-training/how-to-.../  -> strip leading/trailing slashes
         rel = a["url"].strip("/")
-        write_page(os.path.join(PUBLIC, rel, "index.html"), render_article(a))
-    # About / Privacy
-    write_page(
-        os.path.join(PUBLIC, "about", "index.html"),
-        render_static(ABOUT["url"], "/about/", ABOUT["title"], ABOUT["description"],
-                      ABOUT["body"], crumb_label="About"),
-    )
-    write_page(
-        os.path.join(PUBLIC, "contact", "index.html"),
-        render_static(CONTACT["url"], "/contact/", CONTACT["title"], CONTACT["description"],
-                      CONTACT["body"], crumb_label="Contact"),
-    )
-    write_page(
-        os.path.join(PUBLIC, "privacy", "index.html"),
-        render_static(PRIVACY["url"], "/privacy/", PRIVACY["title"], PRIVACY["description"],
-                      PRIVACY["body"], crumb_label="Privacy"),
-    )
-    write_page(
-        os.path.join(PUBLIC, "about", "editorial-standards", "index.html"),
-        render_static(EDITORIAL["url"], "/about/editorial-standards/",
-                      EDITORIAL["title"], EDITORIAL["description"],
-                      EDITORIAL["body"], crumb_label="About"),
-    )
-    # 404
-    write_page(
-        os.path.join(PUBLIC, "404.html"),
-        render_static("/404.html", None, "Page not found", "The page you looked for is not here.",
-                      "<h1>404</h1><p>The page you were looking for doesn't exist. "
-                      "<a href=\"/\">Return home</a>.</p>", robots="noindex,follow"),
-    )
+        pages.append(("%s/index.html" % rel, render_article(a)))
+    pages.append(("about/index.html", render_static(
+        ABOUT["url"], "/about/", ABOUT["title"], ABOUT["description"],
+        ABOUT["body"], crumb_label="About")))
+    pages.append(("contact/index.html", render_static(
+        CONTACT["url"], "/contact/", CONTACT["title"], CONTACT["description"],
+        CONTACT["body"], crumb_label="Contact")))
+    pages.append(("privacy/index.html", render_static(
+        PRIVACY["url"], "/privacy/", PRIVACY["title"], PRIVACY["description"],
+        PRIVACY["body"], crumb_label="Privacy")))
+    pages.append(("about/editorial-standards/index.html", render_static(
+        EDITORIAL["url"], "/about/editorial-standards/",
+        EDITORIAL["title"], EDITORIAL["description"],
+        EDITORIAL["body"], crumb_label="About")))
+    pages.append(("404.html", render_static(
+        "/404.html", None, "Page not found", "The page you looked for is not here.",
+        "<h1>404</h1><p>The page you were looking for doesn't exist. "
+        "<a href=\"/\">Return home</a>.</p>", robots="noindex,follow")))
+    pages.append(("%s/index.html" % TOOL["url"].strip("/"), render_tool(TOOL)))
+
+    changed = 0
+    for rel_public, html in pages:
+        rel = "public/" + rel_public
+        h = _sha(html)
+        prev = manifest.get(rel)
+        if prev and prev.get("h") == h:
+            d = prev.get("d", today)
+        else:
+            d = today
+            changed += 1
+        manifest[rel] = {"h": h, "d": d}
+        write_page(os.path.join(PUBLIC, rel_public), html)
+
+    _save_manifest(manifest)
+
     # Sitemap (XML for engines + HTML page for crawlers/UX, 哥飞: link-following beats sitemap.xml)
-    write_page(os.path.join(PUBLIC, "sitemap.xml"), build_sitemap())
+    write_page(os.path.join(PUBLIC, "sitemap.xml"), build_sitemap(manifest))
     write_page(os.path.join(PUBLIC, "sitemap", "index.html"), render_sitemap())
 
-    # Tool page
-    rel = TOOL["url"].strip("/")
-    write_page(os.path.join(PUBLIC, rel, "index.html"), render_tool(TOOL))
-
-    n = 1 + len(PILLARS) + len(ARTICLES) + 2 + 1 + 1 + 1
-    print("Generated %d files into %s" % (n, PUBLIC))
+    print("Generated %d files into %s (%d content-changed today)" % (len(pages), PUBLIC, changed))
 
 
 if __name__ == "__main__":

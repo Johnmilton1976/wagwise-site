@@ -4707,9 +4707,6 @@ HOME = {
         "can-dogs-eat-grapes",
         "can-dogs-eat-chocolate",
         "can-dogs-eat-milk",
-        "foods-toxic-to-dogs",
-        "how-to-stop-puppy-biting",
-        "dog-vomiting-causes",
     ],
 }
 
