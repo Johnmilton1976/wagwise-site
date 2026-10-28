@@ -31,23 +31,63 @@
       "name": "Should I feed my dog after vomiting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withhold food for 4-6 hours, then offer a small bland meal like boiled chicken and rice. If vomiting returns, call your vet."
+        "text": "Withhold food for 4–6 hours, keep offering small amounts of water, then give a small bland meal such as boiled chicken and rice. If it stays down, continue small meals over 24 hours."
       }
     },
     {
       "@type": "Question",
-      "name": "When is dog vomiting an emergency?",
+      "name": "When should I worry about my dog vomiting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Repeated vomiting, blood, a swollen hard belly, collapse, or known toxin ingestion needs urgent veterinary care."
+        "text": "Three or more episodes in a day, vomiting with lethargy, a swollen or painful belly, unproductive retching, blood, or any suspected toxin exposure. Those need a vet now."
       }
     },
     {
       "@type": "Question",
-      "name": "Why does my dog eat grass then throw up?",
+      "name": "What does yellow vomit mean in dogs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Many dogs eat grass out of boredom or an upset stomach. Occasional grass vomiting is common and usually harmless, but frequent episodes deserve a check."
+        "text": "Usually bile from an empty stomach, common in dogs fed once a day. Splitting meals often fixes it. Recurrent bile vomiting should still be checked."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does brown grainy vomit mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It looks like coffee grounds and indicates partially digested blood from stomach bleeding. That is an emergency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between vomiting and regurgitation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vomiting is active, with retching and drooling. Regurgitation is passive — undigested food appears soon after eating with no effort, often from eating too fast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is vomiting a sign of parovirus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can be, especially with bloody diarrhoea and lethargy in a puppy or an unvaccinated dog. That combination is an emergency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my dog vomit every morning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bilious vomiting syndrome — an empty stomach producing bile — is the most common cause. Splitting meals and a late-night snack usually help. Persistent cases need a work-up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I give my dog human anti-nausea medicine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, not without veterinary instruction. Several human medications are toxic to dogs, and anti-nausea drugs are contraindicated in obstruction, which you cannot rule out at home."
       }
     }
   ]
@@ -95,18 +135,18 @@
   "citation": [
     {
       "@type": "CreativeWork",
-      "name": "Merck Veterinary Manual — Vomiting in Dogs",
-      "url": "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs"
-    },
-    {
-      "@type": "CreativeWork",
-      "name": "ASPCA — Dog Care",
-      "url": "https://www.aspca.org/pet-care/dog-care"
+      "name": "Merck Veterinary Manual — Digestive Disorders in Dogs",
+      "url": "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"
     },
     {
       "@type": "CreativeWork",
       "name": "Cornell Riney Canine Health Center — Canine Health Information",
       "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
     }
   ]
 }
@@ -158,29 +198,80 @@
   <p class="lede">A dog that vomits once, then acts normal, is usually fine. Vomiting paired with lethargy, repeated episodes, or a swollen belly is a different story.</p>
   <img class="article-img" src="/assets/img/dog-vomiting-causes.jpg" width="1600" height="1067" decoding="async" loading="lazy" alt="Dog Vomiting Causes — What's Normal and What's Urgent">
   <div class="doc">
-        <h2>Common, usually mild causes</h2>
+        <h2>First, decide: is this vomiting or regurgitation?</h2>
+        <p>These are different events and they point at different problems. Getting the label right changes what you should do tonight.</p>
+        <table>
+          <thead><tr><th></th><th>Vomiting</th><th>Regurgitation</th></tr></thead>
+          <tbody>
+            <tr><td>Effort</td><td>Active — retching, abdominal heaving, drooling first</td><td>Passive — food simply appears, often with no warning</td></tr>
+            <tr><td>Timing</td><td>Variable</td><td>Usually within 30 minutes of eating</td></tr>
+            <tr><td>Content</td><td>Digested or partly digested, bile-stained, may be liquid</td><td>Undigested food, still recognisable, often tube-shaped</td></tr>
+            <tr><td>Usual cause</td><td>Stomach or intestinal disease, toxin, systemic illness</td><td>Eating too fast, oesophageal problem, megaoesophagus</td></tr>
+          </tbody>
+        </table>
+        <p>Regurgitation after a fast meal is usually managed with a slow feeder and smaller, more frequent meals. Regurgitation that happens repeatedly, or with weight loss, is an oesophageal problem and needs a vet.</p>
+
+        <h2>Read the vomit before you clean it up</h2>
+        <p>It is unpleasant advice, but the content is diagnostic information your vet will ask about — and photographing it on a phone is the fastest way to answer those questions later.</p>
+        <table>
+          <thead><tr><th>What you see</th><th>Usually means</th><th>How urgent</th></tr></thead>
+          <tbody>
+            <tr><td>Yellow or greenish bile, often in the morning</td><td>Empty stomach — bilious vomiting syndrome, common in dogs fed once a day</td><td>Not urgent; try splitting meals</td></tr>
+            <tr><td>White foam or froth</td><td>Stomach acid and swallowed air; often early in an episode</td><td>Watch</td></tr>
+            <tr><td>Undigested food, once</td><td>Overeating or eating too fast</td><td>Not urgent</td></tr>
+            <tr><td>Grass</td><td>Often incidental — dogs eat grass and then vomit; not a sign of illness on its own</td><td>Watch</td></tr>
+            <tr><td>Fresh red blood</td><td>Irritation or ulceration in the upper gut, or a foreign body</td><td><strong>Vet today</strong></td></tr>
+            <tr><td>Brown, grainy, like coffee grounds</td><td>Partially digested blood — bleeding in the stomach</td><td><strong>Emergency</strong></td></tr>
+            <tr><td>Worms, or long white strands</td><td>Roundworm or tapeworm burden</td><td>Vet, not emergency — bring a sample</td></tr>
+            <tr><td>Foreign material — plastic, string, fabric</td><td>Foreign body; string is especially dangerous</td><td><strong>Emergency</strong></td></tr>
+          </tbody>
+        </table>
+        <div class="callout warn">A swallowed linear object — string, tinsel, a sock, a length of rope — is not a "wait and see". It can saw through the intestine as it moves. Never pull it if you see it at the mouth.</div>
+
+        <h2>The frequency rule</h2>
+        <p>The single most useful triage question is not what came up, but how many times and how the dog looks between episodes.</p>
         <ul>
-          <li>Eating too fast or too much.</li>
-          <li>Grass, a new treat, or table scraps that disagreed.</li>
-          <li>Car sickness or anxiety.</li>
+          <li><strong>One vomit, then normal energy, normal appetite, normal drinking</strong> — usually nothing. Watch for 12 hours.</li>
+          <li><strong>Two or three vomits in a day, dog still bright</strong> — withhold food for 4–6 hours, then small bland meals. Vet if it continues past 24 hours.</li>
+          <li><strong>Vomiting more than 3–4 times in a day, or any vomiting with lethargy</strong> — vet visit today.</li>
+          <li><strong>Vomiting with a distended, hard, painful belly, or unproductive retching</strong> — emergency, now. See the GDV section.</li>
         </ul>
-        <p>One vomit followed by a normal appetite and energy rarely needs a clinic.</p>
 
-        <h2>When to watch at home</h2>
-        <p>Withhold food for a few hours, offer small sips of water, then a bland meal (boiled chicken and rice). If it stays down, resume normal food over a day or two.</p>
-        <div class="callout warn">Red flags: vomiting many times in a day, blood, a tight swollen belly, weakness, or suspected poisoning (chocolate, grapes, xylitol). These can be emergencies — call a vet.</div>
+        <h2>The emergencies that hide inside "just vomiting"</h2>
+        <p>Four conditions present as vomiting and kill dogs that wait.</p>
+        <p><strong>GDV — gastric dilatation-volvulus.</strong> The stomach fills with gas and twists. Signs: a hard, swollen belly that sounds like a drum, unproductive retching (trying to vomit and bringing up nothing or only foam), restlessness, drooling, rapid deterioration. This is a surgical emergency with a mortality rate that climbs steeply by the hour — a dog with these signs should be in a car, not on a forum.</p>
+        <p><strong>Foreign body obstruction.</strong> Vomiting that persists, often after eating or drinking, with a dog that wants to eat but cannot keep anything down. Small dogs and puppies swallow stones, corn cobs, toys and bones.</p>
+        <p><strong>Toxin ingestion.</strong> Chocolate, grapes and raisins, xylitol, onions, antifreeze, rodenticide, and human medication. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a>. Do not wait for vomiting to start — call a vet or a poison service with the amount and the dog's weight.</p>
+        <p><strong>Pancreatitis.</strong> Vomiting plus a hunched posture, abdominal pain, and often a history of a fatty meal. A dog with a pancreatitis history is at risk every time someone leaves a plate within reach.</p>
 
-        <h2>Vomiting vs regurgitation</h2>
-        <p>Regurgitation is passive, undigested food right after eating, often from eating too fast. True vomiting is forceful and comes from the stomach. The difference helps your vet.</p>
+        <h2>What to do at home (the 12-hour protocol)</h2>
+        <p>This applies only to an adult dog that vomited once or twice, is bright, and has no red-flag signs.</p>
+        <p><strong>Hour 0–4:</strong> withhold food. Do not withhold water — offer small amounts frequently rather than a full bowl, so a dog that is going to vomit again does not take in a large volume first.</p>
+        <p><strong>Hour 4–6:</strong> offer a small bland meal — plain boiled chicken with white rice, or plain boiled rice with a little cottage cheese. A couple of tablespoons, not a bowl.</p>
+        <p><strong>Hour 6–24:</strong> if it stays down, two or three more small meals. If it comes back up, stop and call the vet — continuing to feed a dog that cannot keep food down only adds to the risk of aspiration.</p>
+        <p><strong>Never</strong> give human anti-nausea medication or painkillers without veterinary instruction. Ibuprofen and paracetamol are toxic to dogs, and metoclopramide dosing is weight-dependent and contraindicated in obstruction — the very case you cannot rule out at home.</p>
 
-        <h2>Prevention</h2>
-        <p>Slow feeders curb fast eating. Keep trash and toxic foods out of reach. Routine vet checks catch chronic causes like allergies or reflux.</p>
+        <h2>Checking for dehydration</h2>
+        <p>Vomiting dehydrates dogs faster than most owners expect, and puppies and small breeds worse than large ones. Two checks you can do at home:</p>
+        <p><strong>Skin tent.</strong> Gently lift the skin over the shoulders and release. It should snap back immediately. If it stays up or returns slowly, the dog is dehydrated.</p>
+        <p><strong>Gums.</strong> They should be pink and wet. Pale, dry or tacky gums are a warning sign. Press a finger on the gum until it blanches white and count how long it takes to turn pink again — over two seconds is slow.</p>
+
+        <h2>Causes worth knowing beyond "ate something odd"</h2>
+        <p><strong>Chronic low-grade vomiting</strong> — a dog that vomits bile every few mornings, or intermittently for weeks — often has bilious vomiting syndrome, inflammatory bowel disease, or a food intolerance. This is not an emergency but it is not normal either, and it deserves a proper work-up rather than repeated bland diets.</p>
+        <p><strong>Vomiting in an unvaccinated or incompletely vaccinated dog</strong> — parovirus is a real possibility and is a fast-moving emergency, particularly in puppies. Bloody diarrhoea plus vomiting plus lethargy is the classic picture.</p>
+        <p><strong>Vomiting with increased drinking and urination</strong> — points toward kidney disease, diabetes, or an endocrine problem like Addison's disease. Addisonian crisis can present as vomiting, weakness and collapse and is easy to miss.</p>
+
+        <h2>Prevention that actually works</h2>
+        <p><strong>Slow feeders</strong> for dogs that inhale meals — a large part of daily vomiting in healthy dogs is simply eating too fast and drinking immediately afterwards.</p>
+        <p><strong>Split the meals.</strong> Two or three smaller meals instead of one large one reduces bilious vomiting and bloat risk.</p>
+        <p><strong>Bin discipline.</strong> Most vomiting episodes that reach a clinic start with a bin, a compost heap, or a plate left on a coffee table.</p>
+        <p><strong>No sudden food changes.</strong> Transition over 7–10 days, mixing increasing proportions of the new food.</p>
         </div>
-  <div class="faq"><h2>Frequently asked questions</h2><div class="faq-item"><div class="faq-q">Should I feed my dog after vomiting?</div><div class="faq-a">Withhold food for 4-6 hours, then offer a small bland meal like boiled chicken and rice. If vomiting returns, call your vet.</div></div><div class="faq-item"><div class="faq-q">When is dog vomiting an emergency?</div><div class="faq-a">Repeated vomiting, blood, a swollen hard belly, collapse, or known toxin ingestion needs urgent veterinary care.</div></div><div class="faq-item"><div class="faq-q">Why does my dog eat grass then throw up?</div><div class="faq-a">Many dogs eat grass out of boredom or an upset stomach. Occasional grass vomiting is common and usually harmless, but frequent episodes deserve a check.</div></div></div>
-  <div class="related"><h2>Related reading</h2><ul><li><a href="/dog-health/dog-not-eating-but-drinking-water/">Dog Not Eating but Drinking Water — Should You Worry?</a></li><li><a href="/dog-health/why-do-dogs-eat-grass/">Why Do Dogs Eat Grass? (And When to Stop Them)</a></li><li><a href="/dog-nutrition/foods-toxic-to-dogs/">Foods Toxic to Dogs — The List Every Owner Needs</a></li></ul></div>
-  <div class="sources"><h2>Sources</h2><ul><li><a href="https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs" target="_blank" rel="noopener">Merck Veterinary Manual — Vomiting in Dogs</a></li><li><a href="https://www.aspca.org/pet-care/dog-care" target="_blank" rel="noopener">ASPCA — Dog Care</a></li><li><a href="https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information" target="_blank" rel="noopener">Cornell Riney Canine Health Center — Canine Health Information</a></li></ul><p class="srcnote">Facts in this article were checked against the public references above on 16 October 2026. These organisations are independent and are not affiliated with WagWise Pet. See our <a href="/about/editorial-standards/">editorial standards</a> for how we research and correct guides.</p></div>
+  <div class="faq"><h2>Frequently asked questions</h2><div class="faq-item"><div class="faq-q">Should I feed my dog after vomiting?</div><div class="faq-a">Withhold food for 4–6 hours, keep offering small amounts of water, then give a small bland meal such as boiled chicken and rice. If it stays down, continue small meals over 24 hours.</div></div><div class="faq-item"><div class="faq-q">When should I worry about my dog vomiting?</div><div class="faq-a">Three or more episodes in a day, vomiting with lethargy, a swollen or painful belly, unproductive retching, blood, or any suspected toxin exposure. Those need a vet now.</div></div><div class="faq-item"><div class="faq-q">What does yellow vomit mean in dogs?</div><div class="faq-a">Usually bile from an empty stomach, common in dogs fed once a day. Splitting meals often fixes it. Recurrent bile vomiting should still be checked.</div></div><div class="faq-item"><div class="faq-q">What does brown grainy vomit mean?</div><div class="faq-a">It looks like coffee grounds and indicates partially digested blood from stomach bleeding. That is an emergency.</div></div><div class="faq-item"><div class="faq-q">What is the difference between vomiting and regurgitation?</div><div class="faq-a">Vomiting is active, with retching and drooling. Regurgitation is passive — undigested food appears soon after eating with no effort, often from eating too fast.</div></div><div class="faq-item"><div class="faq-q">Is vomiting a sign of parovirus?</div><div class="faq-a">It can be, especially with bloody diarrhoea and lethargy in a puppy or an unvaccinated dog. That combination is an emergency.</div></div><div class="faq-item"><div class="faq-q">Why does my dog vomit every morning?</div><div class="faq-a">Bilious vomiting syndrome — an empty stomach producing bile — is the most common cause. Splitting meals and a late-night snack usually help. Persistent cases need a work-up.</div></div><div class="faq-item"><div class="faq-q">Can I give my dog human anti-nausea medicine?</div><div class="faq-a">No, not without veterinary instruction. Several human medications are toxic to dogs, and anti-nausea drugs are contraindicated in obstruction, which you cannot rule out at home.</div></div></div>
+  <div class="related"><h2>Related reading</h2><ul><li><a href="/dog-health/dog-not-eating-but-drinking-water/">Dog Not Eating but Drinking Water — Should You Worry?</a></li><li><a href="/dog-health/why-is-my-dog-shaking/">Why Is My Dog Shaking? 8 Common Reasons</a></li><li><a href="/dog-nutrition/foods-toxic-to-dogs/">Foods Toxic to Dogs — The List Every Owner Needs</a></li></ul></div>
+  <div class="sources"><h2>Sources</h2><ul><li><a href="https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs" target="_blank" rel="noopener">Merck Veterinary Manual — Digestive Disorders in Dogs</a></li><li><a href="https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information" target="_blank" rel="noopener">Cornell Riney Canine Health Center — Canine Health Information</a></li><li><a href="https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets" target="_blank" rel="noopener">ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets</a></li></ul><p class="srcnote">Facts in this article were checked against the public references above on 16 October 2026. These organisations are independent and are not affiliated with WagWise Pet. See our <a href="/about/editorial-standards/">editorial standards</a> for how we research and correct guides.</p></div>
   
-  <div class="disclaimer">This article is general information, not veterinary advice. If your dog is in severe distress — labored breathing, a swollen belly, collapse, or suspected poisoning — contact a veterinarian or emergency clinic right away.</div>
+  <div class="disclaimer">Health information only, not veterinary advice. Vomiting with lethargy, a distended belly, blood, or unproductive retching is an emergency — contact a vet immediately.</div>
   <div class="byline" style="margin:28px 0;padding:16px 18px;border-left:3px solid #3FA97E;background:#F4FAF7;border-radius:8px;font-size:14px;color:#4a554c;line-height:1.65"><strong>About this article.</strong> Compiled by the <a href="/about/editorial-standards/">WagWise Pet editorial team</a> from authoritative, publicly available sources including the American Kennel Club (AKC), the American Veterinary Medical Association (AVMA), the ASPCA, and the Merck Veterinary Manual. Where a guide draws on named veterinary experts at organisations such as Pet Poison Helpline or the ASPCA Animal Poison Control Center, those experts are cited by name in the Expert sources block below — we never claim a veterinarian reviewed an article they did not. WagWise Pet is an independent editorial resource and <em>not</em> a veterinary practice. For diagnosis, treatment, or anything urgent, please consult a licensed veterinarian.</div>
 </div></main>
 <footer class="site-foot"><div class="wrap"><div class="fb">

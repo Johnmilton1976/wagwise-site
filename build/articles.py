@@ -227,45 +227,100 @@ ARTICLES = [
     {
         "slug": "how-to-leash-train-a-dog",
         "pillar": "dog-training",
-        "title": "How to Leash Train a Dog That Pulls",
+        "title": "How to Leash Train a Dog — Loose Lead in Six Weeks",
         "url": "/dog-training/how-to-leash-train-a-dog/",
-        "description": "Stop leash pulling with the stop-and-go method and a front-clip harness. A step-by-step plan for calm walks in a week, not a daily walk-time struggle.",
-        "lede": "Dogs pull because pulling works — it gets them where they want to go. The fix is simple: the walk only continues when the leash is slack.",
+        "description": "Loose-leash walking is a taught skill, not obedience. The stop-and-turn method, why tightening the lead teaches pulling, and a six-week plan that works.",
+        "lede": "A dog pulls because pulling works. The fix is not a firmer correction — it is making a loose lead the only way forward.",
         "eyebrow": "DOG TRAINING",
         "body": """
-        <h2>Why dogs pull</h2>
-        <p>To a dog, forward motion is the reward. The instant it leans into the leash and moves ahead, pulling paid off. We have to make slack, not tension, the thing that earns progress.</p>
+        <h2>Why dogs pull, in one sentence</h2>
+        <p>A dog pulls because pulling gets it closer to what it wants. Every time a taut lead is rewarded with forward movement, the behaviour is reinforced — and most dogs are reinforced hundreds of times per walk.</p>
+        <p>This is the whole mechanism, and it explains why a firmer lead, a louder correction, or a different collar does not fix it. Those add discomfort, but the dog still moves forward while pulling, so the lesson is unchanged.</p>
 
-        <h2>The stop-and-go method</h2>
-        <ul>
-          <li>The moment the leash goes tight, stop walking. Plant your feet.</li>
-          <li>Wait until your dog looks back or the leash loosens, then praise and move on.</li>
-          <li>Repeat. A 10-minute walk may take 30 at first — that is normal and it improves fast.</li>
-        </ul>
-        <div class="callout">Use a front-clip harness, not a choke or prong collar. Front-clip harnesses turn the dog toward you when it pulls, which is kinder and works.</div>
+        <h2>Before you train anything: spend the energy</h2>
+        <p>A dog that has been in the house for ten hours has a full tank. Expecting a trained walk from an untrained, over-aroused dog is setting both of you up to fail.</p>
+        <p>Fifteen minutes of fetch, a sniff-heavy decompression walk on a long line, or a food-scatter in the garden before the training walk changes the whole session. This is not a trick — a dog below its arousal threshold can learn; one above it cannot.</p>
 
-        <h2>Avoid the common trap</h2>
-        <p>Do not keep walking while correcting — if you move forward as you pull the dog back, you have rewarded the pull. Stillness is the teacher.</p>
+        <h2>Equipment: what to use and what to avoid</h2>
+        <table>
+          <thead><tr><th>Equipment</th><th>Verdict</th><th>Reason</th></tr></thead>
+          <tbody>
+            <tr><td>Fixed-length lead, 1.5–2 m</td><td>Best for training</td><td>Consistent length, no hand-burning, clear signal</td></tr>
+            <tr><td>Y-shaped harness</td><td>Good</td><td>Does not press on the throat; comfortable for a dog that still pulls sometimes</td></tr>
+            <tr><td>Flat collar</td><td>Fine for a dog that already walks well</td><td>Not for a determined puller — it presses on the trachea</td></tr>
+            <tr><td>Retractable lead</td><td>Avoid during training</td><td>Constant tension teaches pulling, and the thin cord causes serious injuries</td></tr>
+            <tr><td>Choke, prong or shock collar</td><td><strong>Avoid</strong></td><td>Associated with increased stress, fear and aggression, and they suppress rather than teach</td></tr>
+          </tbody>
+        </table>
+        <p>The evidence on aversive collars is worth knowing: studies find higher rates of stress signals and increased aggression in dogs trained with them, and the behavioural suppression they produce often reappears as reactivity later. A harness and a bag of high-value treats will get further.</p>
 
-        <h2>Practice in low-distraction spots</h2>
-        <p>Start in the living room, then the yard, then quiet streets, before busy parks. Adding distractions before the skill is solid sets everyone up to fail.</p>
+        <h2>The core method: stop and turn</h2>
+        <p>This is the technique that works on almost every dog, and it is almost aggressively simple.</p>
+        <p><strong>1. Start walking.</strong> Lead loose, treat in hand at your side.</p>
+        <p><strong>2. The moment the lead goes taut, stop.</strong> Not when the dog has been pulling for ten metres — the instant tension appears. Stand still and wait.</p>
+        <p><strong>3. Wait for the dog to look back or step toward you.</strong> Any release of tension is the signal. Do not reel the dog in.</p>
+        <p><strong>4. Mark and reward.</strong> Say "yes" the moment the lead slackens, then treat at your leg — the position you want the dog to occupy.</p>
+        <p><strong>5. Walk on.</strong> Forward movement is the reward too, and it is the one the dog actually wants.</p>
+        <p><strong>6. If the dog pulls again in three steps, stop again.</strong> In the first sessions you may cover twenty metres in ten minutes. That is normal, and it is the fastest route to a dog that walks properly.</p>
+
+        <h2>Add the turn</h2>
+        <p>For a dog that leans into the lead and will not stop pulling, add a direction change: the moment the lead tightens, say "this way" in a bright voice, turn 180 degrees and walk off in the other direction. The dog learns that tension means the walk changes direction, and that paying attention to you is what keeps things moving.</p>
+        <p>Do not yank. The turn is the consequence; the lead should never jerk the dog's neck.</p>
+
+        <h2>Reward the position, not just the behaviour</h2>
+        <p>The most common mistake in loose-lead training is rewarding at the wrong place. If you call the dog to you and treat in front of your body, the dog learns to walk in front and look back. If you treat at your left leg, the dog learns that the left leg is where good things happen.</p>
+        <p>Keep a handful of treats in the hand nearest the dog's reward position, and deliver low, at leg height, while you are still moving. Standing still to deliver every treat teaches the dog to stop.</p>
+
+        <h2>Six-week plan</h2>
+        <table>
+          <thead><tr><th>Week</th><th>Where</th><th>Goal</th><th>Session length</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Living room, no distractions</td><td>Dog can take five steps at your side with a loose lead</td><td>3 × 3 minutes daily</td></tr>
+            <tr><td>2</td><td>Garden or hallway</td><td>Ten steps, one turn, no tension</td><td>3 × 5 minutes daily</td></tr>
+            <tr><td>3</td><td>Quiet street, low traffic</td><td>Twenty metres with no more than two stops</td><td>2 × 10 minutes daily</td></tr>
+            <tr><td>4</td><td>Normal street, some people</td><td>Pass a person at a distance without lunging</td><td>1 × 15 minutes daily</td></tr>
+            <tr><td>5</td><td>Street with dogs visible at a distance</td><td>Remain under threshold — able to take a treat and respond</td><td>1 × 20 minutes daily</td></tr>
+            <tr><td>6</td><td>Normal walks</td><td>90% of the walk with a loose lead</td><td>Full walks</td></tr>
+          </tbody>
+        </table>
+        <p>Move to the next week only when the current one is reliable. A dog that fails week 3 three times in a row is not ready for week 4 — go back a step and shorten the sessions.</p>
+
+        <h2>The distraction ladder</h2>
+        <p>Dogs do not generalise. A dog that walks perfectly in the kitchen has learned "kitchen", not "loose lead". Work up this ladder one rung at a time, and expect to repeat the process at each level:</p>
+        <p>Kitchen → hallway → garden → quiet street → street with parked cars → street with people → street with dogs → park → park with squirrels. If the dog fails, you are one rung too high — drop back and build again.</p>
+
+        <h2>Handling the determined puller</h2>
+        <p><strong>Use a front-clip harness</strong> as a temporary aid. It redirects forward momentum sideways and reduces the leverage a dog can generate, which makes the training physically possible for a small owner with a large dog. It is a tool for the training period, not a permanent solution.</p>
+        <p><strong>Teach a "find it" cue.</strong> Scatter a few treats on the ground when the dog is about to lunge. It breaks the fixed stare that precedes most pulling, and it gives you a second to reposition.</p>
+        <p><strong>Avoid the trigger, do not confront it.</strong> A dog that pulls toward other dogs needs distance, not a shorter lead. Standing at the edge of its threshold and feeding while it watches is the standard desensitisation approach — but at a distance where the dog can still eat.</p>
+
+        <h2>What does not work</h2>
+        <p><strong>"He'll stop if I just keep walking."</strong> Dragging a dog on a taut lead reinforces pulling, because the dog is still moving forward.</p>
+        <p><strong>Correcting with the lead.</strong> A pop on the lead suppresses the behaviour in that moment and teaches the dog that other dogs and people predict discomfort — one of the more reliable routes to reactivity.</p>
+        <p><strong>Practising only on real walks.</strong> Real walks are the exam, not the lesson. The lesson happens in three-minute sessions in low-distraction places.</p>
         """,
         "faq": [
-            ("What is the best leash for a dog that pulls?", "A front-clip harness paired with a standard 4-6 foot leash. Retractable leashes teach pulling and are best avoided for training."),
-            ("How long until pulling stops?", "With consistent stop-and-go, most dogs walk loosely within one to two weeks. Excitable dogs take longer and need more reps."),
-            ("Should I use a choke chain?", "No. Choke and prong collars can damage the trachea and neck and increase fear. A front-clip harness is safer and effective."),
+            ("How long does it take to leash train a dog?", "With daily short sessions, most dogs walk reasonably on a loose lead in four to six weeks. A dog with a long history of pulling, or a highly distractible breed, takes longer."),
+            ("Why does my dog pull on the lead?", "Because pulling works — it moves the dog closer to what it wants. Every step taken while the lead is tight reinforces the behaviour."),
+            ("Should I use a choke or prong collar?", "No. Studies link aversive collars to increased stress and aggression, and they suppress behaviour rather than teach a loose lead. A harness and reward-based training works better."),
+            ("What is the best harness for a dog that pulls?", "A Y-shaped harness for comfort, or a front-clip harness as a temporary training aid that redirects forward momentum sideways."),
+            ("How do I stop my dog pulling towards other dogs?", "Increase distance until the dog can still take a treat and respond, then reward calm behaviour while other dogs are visible. Never shorten the lead and push forward."),
+            ("Should I use a retractable lead for training?", "No. A retractable lead keeps constant tension on the dog, which teaches pulling, and the thin cord causes serious injuries."),
+            ("My dog walks well at home but pulls outside. Why?", "Dogs do not generalise. A behaviour learned in the kitchen has to be retaught in the garden, on the street, and near other dogs — one level of distraction at a time."),
+            ("How long should training sessions be?", "Three to five minutes, three times a day. Short frequent sessions outperform one long one, and they end before the dog loses focus."),
         ],
-        "related": ["best-dog-harness-for-pulling", "how-to-stop-puppy-biting", "dog-vomiting-causes"],
+        "related": ["how-to-trim-dog-nails", "why-do-dogs-eat-poop", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA — Common Dog Behavior Issues",
              "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
-            ("American Veterinary Society of Animal Behavior — Position Statements",
-             "https://avsab.org/resources/position-statements/"),
-            ("Merck Veterinary Manual — Behavior of Dogs",
+            ("Merck Veterinary Manual — Dog Owners: Behavior of Dogs",
              "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
-        "disclaimer": "Training guidance only. A sudden pulling change with coughing or gagging should be checked by a vet.",
+        "disclaimer": "Training guidance only. A dog showing aggression on the lead needs an assessment by a qualified behaviourist, not a tighter collar.",
     },
+
 
     # ---------------- Dog health ----------------
     {
@@ -277,83 +332,195 @@ ARTICLES = [
         "lede": "A dog that vomits once, then acts normal, is usually fine. Vomiting paired with lethargy, repeated episodes, or a swollen belly is a different story.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>Common, usually mild causes</h2>
+        <h2>First, decide: is this vomiting or regurgitation?</h2>
+        <p>These are different events and they point at different problems. Getting the label right changes what you should do tonight.</p>
+        <table>
+          <thead><tr><th></th><th>Vomiting</th><th>Regurgitation</th></tr></thead>
+          <tbody>
+            <tr><td>Effort</td><td>Active — retching, abdominal heaving, drooling first</td><td>Passive — food simply appears, often with no warning</td></tr>
+            <tr><td>Timing</td><td>Variable</td><td>Usually within 30 minutes of eating</td></tr>
+            <tr><td>Content</td><td>Digested or partly digested, bile-stained, may be liquid</td><td>Undigested food, still recognisable, often tube-shaped</td></tr>
+            <tr><td>Usual cause</td><td>Stomach or intestinal disease, toxin, systemic illness</td><td>Eating too fast, oesophageal problem, megaoesophagus</td></tr>
+          </tbody>
+        </table>
+        <p>Regurgitation after a fast meal is usually managed with a slow feeder and smaller, more frequent meals. Regurgitation that happens repeatedly, or with weight loss, is an oesophageal problem and needs a vet.</p>
+
+        <h2>Read the vomit before you clean it up</h2>
+        <p>It is unpleasant advice, but the content is diagnostic information your vet will ask about — and photographing it on a phone is the fastest way to answer those questions later.</p>
+        <table>
+          <thead><tr><th>What you see</th><th>Usually means</th><th>How urgent</th></tr></thead>
+          <tbody>
+            <tr><td>Yellow or greenish bile, often in the morning</td><td>Empty stomach — bilious vomiting syndrome, common in dogs fed once a day</td><td>Not urgent; try splitting meals</td></tr>
+            <tr><td>White foam or froth</td><td>Stomach acid and swallowed air; often early in an episode</td><td>Watch</td></tr>
+            <tr><td>Undigested food, once</td><td>Overeating or eating too fast</td><td>Not urgent</td></tr>
+            <tr><td>Grass</td><td>Often incidental — dogs eat grass and then vomit; not a sign of illness on its own</td><td>Watch</td></tr>
+            <tr><td>Fresh red blood</td><td>Irritation or ulceration in the upper gut, or a foreign body</td><td><strong>Vet today</strong></td></tr>
+            <tr><td>Brown, grainy, like coffee grounds</td><td>Partially digested blood — bleeding in the stomach</td><td><strong>Emergency</strong></td></tr>
+            <tr><td>Worms, or long white strands</td><td>Roundworm or tapeworm burden</td><td>Vet, not emergency — bring a sample</td></tr>
+            <tr><td>Foreign material — plastic, string, fabric</td><td>Foreign body; string is especially dangerous</td><td><strong>Emergency</strong></td></tr>
+          </tbody>
+        </table>
+        <div class="callout warn">A swallowed linear object — string, tinsel, a sock, a length of rope — is not a "wait and see". It can saw through the intestine as it moves. Never pull it if you see it at the mouth.</div>
+
+        <h2>The frequency rule</h2>
+        <p>The single most useful triage question is not what came up, but how many times and how the dog looks between episodes.</p>
         <ul>
-          <li>Eating too fast or too much.</li>
-          <li>Grass, a new treat, or table scraps that disagreed.</li>
-          <li>Car sickness or anxiety.</li>
+          <li><strong>One vomit, then normal energy, normal appetite, normal drinking</strong> — usually nothing. Watch for 12 hours.</li>
+          <li><strong>Two or three vomits in a day, dog still bright</strong> — withhold food for 4–6 hours, then small bland meals. Vet if it continues past 24 hours.</li>
+          <li><strong>Vomiting more than 3–4 times in a day, or any vomiting with lethargy</strong> — vet visit today.</li>
+          <li><strong>Vomiting with a distended, hard, painful belly, or unproductive retching</strong> — emergency, now. See the GDV section.</li>
         </ul>
-        <p>One vomit followed by a normal appetite and energy rarely needs a clinic.</p>
 
-        <h2>When to watch at home</h2>
-        <p>Withhold food for a few hours, offer small sips of water, then a bland meal (boiled chicken and rice). If it stays down, resume normal food over a day or two.</p>
-        <div class="callout warn">Red flags: vomiting many times in a day, blood, a tight swollen belly, weakness, or suspected poisoning (chocolate, grapes, xylitol). These can be emergencies — call a vet.</div>
+        <h2>The emergencies that hide inside "just vomiting"</h2>
+        <p>Four conditions present as vomiting and kill dogs that wait.</p>
+        <p><strong>GDV — gastric dilatation-volvulus.</strong> The stomach fills with gas and twists. Signs: a hard, swollen belly that sounds like a drum, unproductive retching (trying to vomit and bringing up nothing or only foam), restlessness, drooling, rapid deterioration. This is a surgical emergency with a mortality rate that climbs steeply by the hour — a dog with these signs should be in a car, not on a forum.</p>
+        <p><strong>Foreign body obstruction.</strong> Vomiting that persists, often after eating or drinking, with a dog that wants to eat but cannot keep anything down. Small dogs and puppies swallow stones, corn cobs, toys and bones.</p>
+        <p><strong>Toxin ingestion.</strong> Chocolate, grapes and raisins, xylitol, onions, antifreeze, rodenticide, and human medication. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a>. Do not wait for vomiting to start — call a vet or a poison service with the amount and the dog's weight.</p>
+        <p><strong>Pancreatitis.</strong> Vomiting plus a hunched posture, abdominal pain, and often a history of a fatty meal. A dog with a pancreatitis history is at risk every time someone leaves a plate within reach.</p>
 
-        <h2>Vomiting vs regurgitation</h2>
-        <p>Regurgitation is passive, undigested food right after eating, often from eating too fast. True vomiting is forceful and comes from the stomach. The difference helps your vet.</p>
+        <h2>What to do at home (the 12-hour protocol)</h2>
+        <p>This applies only to an adult dog that vomited once or twice, is bright, and has no red-flag signs.</p>
+        <p><strong>Hour 0–4:</strong> withhold food. Do not withhold water — offer small amounts frequently rather than a full bowl, so a dog that is going to vomit again does not take in a large volume first.</p>
+        <p><strong>Hour 4–6:</strong> offer a small bland meal — plain boiled chicken with white rice, or plain boiled rice with a little cottage cheese. A couple of tablespoons, not a bowl.</p>
+        <p><strong>Hour 6–24:</strong> if it stays down, two or three more small meals. If it comes back up, stop and call the vet — continuing to feed a dog that cannot keep food down only adds to the risk of aspiration.</p>
+        <p><strong>Never</strong> give human anti-nausea medication or painkillers without veterinary instruction. Ibuprofen and paracetamol are toxic to dogs, and metoclopramide dosing is weight-dependent and contraindicated in obstruction — the very case you cannot rule out at home.</p>
 
-        <h2>Prevention</h2>
-        <p>Slow feeders curb fast eating. Keep trash and toxic foods out of reach. Routine vet checks catch chronic causes like allergies or reflux.</p>
+        <h2>Checking for dehydration</h2>
+        <p>Vomiting dehydrates dogs faster than most owners expect, and puppies and small breeds worse than large ones. Two checks you can do at home:</p>
+        <p><strong>Skin tent.</strong> Gently lift the skin over the shoulders and release. It should snap back immediately. If it stays up or returns slowly, the dog is dehydrated.</p>
+        <p><strong>Gums.</strong> They should be pink and wet. Pale, dry or tacky gums are a warning sign. Press a finger on the gum until it blanches white and count how long it takes to turn pink again — over two seconds is slow.</p>
+
+        <h2>Causes worth knowing beyond "ate something odd"</h2>
+        <p><strong>Chronic low-grade vomiting</strong> — a dog that vomits bile every few mornings, or intermittently for weeks — often has bilious vomiting syndrome, inflammatory bowel disease, or a food intolerance. This is not an emergency but it is not normal either, and it deserves a proper work-up rather than repeated bland diets.</p>
+        <p><strong>Vomiting in an unvaccinated or incompletely vaccinated dog</strong> — parovirus is a real possibility and is a fast-moving emergency, particularly in puppies. Bloody diarrhoea plus vomiting plus lethargy is the classic picture.</p>
+        <p><strong>Vomiting with increased drinking and urination</strong> — points toward kidney disease, diabetes, or an endocrine problem like Addison's disease. Addisonian crisis can present as vomiting, weakness and collapse and is easy to miss.</p>
+
+        <h2>Prevention that actually works</h2>
+        <p><strong>Slow feeders</strong> for dogs that inhale meals — a large part of daily vomiting in healthy dogs is simply eating too fast and drinking immediately afterwards.</p>
+        <p><strong>Split the meals.</strong> Two or three smaller meals instead of one large one reduces bilious vomiting and bloat risk.</p>
+        <p><strong>Bin discipline.</strong> Most vomiting episodes that reach a clinic start with a bin, a compost heap, or a plate left on a coffee table.</p>
+        <p><strong>No sudden food changes.</strong> Transition over 7–10 days, mixing increasing proportions of the new food.</p>
         """,
         "faq": [
-            ("Should I feed my dog after vomiting?", "Withhold food for 4-6 hours, then offer a small bland meal like boiled chicken and rice. If vomiting returns, call your vet."),
-            ("When is dog vomiting an emergency?", "Repeated vomiting, blood, a swollen hard belly, collapse, or known toxin ingestion needs urgent veterinary care."),
-            ("Why does my dog eat grass then throw up?", "Many dogs eat grass out of boredom or an upset stomach. Occasional grass vomiting is common and usually harmless, but frequent episodes deserve a check."),
+            ("Should I feed my dog after vomiting?", "Withhold food for 4–6 hours, keep offering small amounts of water, then give a small bland meal such as boiled chicken and rice. If it stays down, continue small meals over 24 hours."),
+            ("When should I worry about my dog vomiting?", "Three or more episodes in a day, vomiting with lethargy, a swollen or painful belly, unproductive retching, blood, or any suspected toxin exposure. Those need a vet now."),
+            ("What does yellow vomit mean in dogs?", "Usually bile from an empty stomach, common in dogs fed once a day. Splitting meals often fixes it. Recurrent bile vomiting should still be checked."),
+            ("What does brown grainy vomit mean?", "It looks like coffee grounds and indicates partially digested blood from stomach bleeding. That is an emergency."),
+            ("What is the difference between vomiting and regurgitation?", "Vomiting is active, with retching and drooling. Regurgitation is passive — undigested food appears soon after eating with no effort, often from eating too fast."),
+            ("Is vomiting a sign of parovirus?", "It can be, especially with bloody diarrhoea and lethargy in a puppy or an unvaccinated dog. That combination is an emergency."),
+            ("Why does my dog vomit every morning?", "Bilious vomiting syndrome — an empty stomach producing bile — is the most common cause. Splitting meals and a late-night snack usually help. Persistent cases need a work-up."),
+            ("Can I give my dog human anti-nausea medicine?", "No, not without veterinary instruction. Several human medications are toxic to dogs, and anti-nausea drugs are contraindicated in obstruction, which you cannot rule out at home."),
         ],
-        "related": ["dog-not-eating-but-drinking-water", "why-do-dogs-eat-grass", "foods-toxic-to-dogs"],
+        "related": ["dog-not-eating-but-drinking-water", "why-is-my-dog-shaking", "foods-toxic-to-dogs"],
         "sources": [
-            ("Merck Veterinary Manual — Vomiting in Dogs",
-             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/vomiting-in-dogs"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
+            ("Merck Veterinary Manual — Digestive Disorders in Dogs",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. Vomiting with lethargy, a distended belly, blood, or unproductive retching is an emergency — contact a vet immediately.",
     },
+
     {
         "slug": "dog-ear-infection-symptoms",
         "pillar": "dog-health",
-        "title": "Dog Ear Infection Symptoms and Home Care",
+        "title": "Dog Ear Infection Symptoms — And What Causes Them",
         "url": "/dog-health/dog-ear-infection-symptoms/",
-        "description": "How to spot a dog ear infection — head shaking, odor, redness, discharge — plus what safe home cleaning looks like and when a vet really needs to see it.",
-        "lede": "The classic signs are head shaking, scratching at the ear, a sour smell, and red or waxy canals. Most infections need prescription drops, not just cleaning.",
+        "description": "Head shaking, smell and discharge are the classic signs, but a head tilt means something deeper. How to tell outer, middle and inner ear disease apart.",
+        "lede": "Ear infections are one of the most common reasons dogs visit a vet. The signs are recognisable — but a head tilt or loss of balance is a different, more serious problem.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>Symptoms to spot</h2>
+        <h2>The signs, ranked by how often they appear</h2>
+        <table>
+          <thead><tr><th>Sign</th><th>What it suggests</th></tr></thead>
+          <tbody>
+            <tr><td>Head shaking, or scratching at one ear</td><td>The most common first sign of outer ear inflammation</td></tr>
+            <tr><td>An unpleasant smell from the ear</td><td>Yeast or bacterial overgrowth</td></tr>
+            <tr><td>Redness and swelling of the ear flap</td><td>Inflammation; the flap itself may be involved</td></tr>
+            <tr><td>Discharge — brown, yellow, or black</td><td>Colour helps narrow the cause (see below)</td></tr>
+            <tr><td>Whining when the ear is touched</td><td>Pain — the ear canal is inflamed</td></tr>
+            <tr><td>Rubbing the side of the head along furniture</td><td>Itching, often allergic</td></tr>
+            <tr><td><strong>Head tilt</strong></td><td><strong>Middle or inner ear, or a vestibular problem — more serious</strong></td></tr>
+            <tr><td><strong>Loss of balance, circling, falling</strong></td><td><strong>Inner ear or vestibular disease — see a vet promptly</strong></td></tr>
+            <tr><td><strong>Drooping eyelid or lip on one side</strong></td><td><strong>Facial nerve involvement — middle ear disease</strong></td></tr>
+          </tbody>
+        </table>
+        <p>The bottom three rows are the ones that change the urgency. A dog with a smelly ear has an outer ear infection. A dog with a head tilt has something deeper, and the difference is not cosmetic.</p>
+
+        <h2>What the discharge colour tells you</h2>
+        <table>
+          <thead><tr><th>Discharge</th><th>Most likely cause</th></tr></thead>
+          <tbody>
+            <tr><td>Dark brown or black, crumbly, like coffee grounds</td><td>Ear mites — especially in a young dog, and intensely itchy</td></tr>
+            <tr><td>Brown, waxy, with a sweet or musty smell</td><td>Yeast (<em>Malassezia</em>) overgrowth — very common</td></tr>
+            <tr><td>Yellow or greenish pus</td><td>Bacterial infection</td></tr>
+            <tr><td>Reddish-brown, wet</td><td>Mixed infection, or chronic change to the canal</td></tr>
+            <tr><td>Clear fluid, or none at all but the ear is painful</td><td>Early inflammation, foreign body, or allergy</td></tr>
+          </tbody>
+        </table>
+        <p>None of this replaces a swab. Yeast and bacteria look nothing alike under a microscope and are treated with completely different drugs — guessing wastes weeks and lets the canal thicken, which makes the next infection harder to treat.</p>
+
+        <h2>Outer, middle and inner: why the distinction matters</h2>
+        <p><strong>Otitis externa</strong> — the outer canal. By far the most common. Itchy, smelly, uncomfortable but not dangerous. Most cases resolve with the right cleaning and the right medication.</p>
+        <p><strong>Otitis media</strong> — the middle ear, behind the eardrum. Usually an extension of an untreated outer infection, sometimes a polyp or a grass seed. Signs include head tilt, pain when the mouth is opened, and sometimes facial nerve weakness on that side. It needs longer treatment and often imaging.</p>
+        <p><strong>Otitis interna</strong> — the inner ear, which contains the balance organ. Signs are head tilt, nystagmus (the eyes flickering side to side), circling, falling, and sometimes vomiting. This is a neurological problem, not a hygiene problem.</p>
+        <div class="callout warn">A head tilt that appears suddenly, with eyes flickering or the dog unable to walk straight, is a vet visit today. It may be an inner ear infection, but it can also be vestibular disease, a stroke-like event, or a toxin — and those look similar from the outside.</div>
+
+        <h2>Why you should not just use leftover ear drops</h2>
+        <p>This is the most important practical warning on this page.</p>
+        <p>Some ear medications contain ingredients that are safe on an intact eardrum and <strong>damaging if the eardrum is ruptured</strong>. You cannot see whether the eardrum is intact without an otoscope, and chronic or severe infections rupture it more often than owners expect. Instilling an ototoxic drug into a middle ear can cause permanent hearing loss and worsen the vestibular signs.</p>
+        <p>There is a second reason: the wrong drug for the organism. An antibacterial given for a yeast infection does nothing except select for resistant bacteria, and by the time the dog reaches the clinic the infection is established and the canal is swollen shut.</p>
+
+        <h2>The underlying cause is the real problem</h2>
+        <p>Most recurrent ear infections in dogs are not primarily ear problems. Something else keeps inflaming the canal, and until that is addressed the infections return every few months.</p>
         <ul>
-          <li>Frequent head shaking or tilting.</li>
-          <li>Pawing or scratching at the ear.</li>
-          <li>Redness, swelling, or brown waxy discharge.</li>
-          <li>A strong, yeasty odor.</li>
+          <li><strong>Allergy</strong> — environmental or food allergy is the single most common underlying cause of recurrent otitis in dogs. If the ears are involved along with paws, face and groin, think allergy first.</li>
+          <li><strong>Anatomy</strong> — floppy ears and hair growing inside the canal trap moisture and reduce airflow. Cocker spaniels, basset hounds, poodles and schnauzers are over-represented.</li>
+          <li><strong>Hypothyroidism</strong> — an underactive thyroid predisposes to ear disease, along with weight gain and lethargy. Worth testing in a dog with recurrent otitis and other compatible signs.</li>
+          <li><strong>Foreign bodies</strong> — grass seeds, especially in summer. A dog that was fine yesterday and is now violently shaking its head may have a seed in the canal.</li>
+          <li><strong>Swimming and bathing</strong> — moisture left in the canal is a culture medium. Drying the ears after water contact helps.</li>
+          <li><strong>Polyps or tumours</strong> — in older dogs with a one-sided, non-responsive infection, the vet will look for a mass.</li>
         </ul>
 
-        <h2>Why ears get infected</h2>
-        <p>Floppy ears, moisture after swimming, and allergies are the big drivers. Yeast and bacteria both cause it, which is why the treatment differs.</p>
-        <div class="callout">Do not pour oil, vinegar, or alcohol into the ear — and never if your dog is in pain or the eardrum may be damaged. A vet confirms the type and gives the right drops.</div>
+        <h2>How to clean an ear properly</h2>
+        <p><strong>Use a dog-specific ear cleaner</strong>, not water, not vinegar, not alcohol, not hydrogen peroxide. Vinegar and alcohol sting inflamed tissue, and peroxide damages the delicate lining.</p>
+        <p><strong>Fill, massage, let the dog shake.</strong> Squeeze cleaner into the canal, massage the base of the ear for a few seconds (you will hear it squelch), then stand back and let the dog shake it out. Wipe the visible part of the flap with cotton wool.</p>
+        <p><strong>Do not push cotton buds down the canal.</strong> You will pack debris against the eardrum. The canal is L-shaped and you cannot see round the bend.</p>
+        <p><strong>Do not clean a painful ear.</strong> If the dog cries when the ear is touched, cleaning at home will hurt and may make it worse. That ear needs a vet and probably pain relief first.</p>
 
-        <h2>Cleaning at home</h2>
-        <p>Use only a vet-approved ear cleaner: fill the canal, massage the base, let the dog shake, then wipe the outer ear. Never push cotton swabs deep.</p>
-
-        <h2>Preventing repeat infections</h2>
-        <p>Dry ears after baths and swimming, manage underlying allergies, and clean on a schedule your vet recommends rather than when it already smells.</p>
+        <h2>When it is urgent</h2>
+        <ul>
+          <li>Sudden head tilt, nystagmus, circling or falling.</li>
+          <li>Facial droop on one side, or inability to close the eye.</li>
+          <li>A soft, fluid-filled swelling on the ear flap — an aural haematoma, which forms when a dog shakes violently and bursts a vessel.</li>
+          <li>Severe pain, or the dog will not let the head be touched at all.</li>
+          <li>Any ear problem in a dog that is also off food and lethargic.</li>
+        </ul>
         """,
         "faq": [
-            ("Can I treat a dog ear infection at home?", "Mild cases need vet-prescribed drops after confirming yeast vs bacteria. Home cleaning alone rarely clears an established infection."),
-            ("What does an infected dog ear smell like?", "A sour, yeasty, or musty odor is the tell-tale sign, usually with wax and redness."),
-            ("How do I clean my dog's ears safely?", "Use a vet-approved cleaner, fill and massage the canal, let them shake, wipe the outside. Never insert swabs deep into the ear."),
+            ("What are the first signs of an ear infection in dogs?", "Head shaking, scratching at one ear, an unpleasant smell, redness of the ear flap and discharge. Pain when the ear is touched is common."),
+            ("When is an ear infection an emergency?", "A sudden head tilt, eyes flickering side to side, loss of balance, circling, or facial droop on one side. Those suggest middle or inner ear involvement and need prompt veterinary attention."),
+            ("Can I use human ear drops on my dog?", "No. Some ingredients are toxic to the inner ear if the eardrum is ruptured, which you cannot see at home. Wrong-drug treatment also lets the infection establish."),
+            ("Why does my dog keep getting ear infections?", "Recurrence usually means an underlying cause: allergy, ear anatomy, hypothyroidism, or moisture from swimming. Until that is treated, the infections return."),
+            ("How do I clean my dog's ears?", "Use a dog-specific ear cleaner: fill the canal, massage the base, let the dog shake, then wipe the flap with cotton wool. Never push cotton buds into the canal."),
+            ("What does brown ear discharge mean in dogs?", "Dark brown crumbly discharge suggests ear mites, especially in a young intensely itchy dog. Brown waxy discharge with a musty smell more often means yeast."),
+            ("Are ear infections contagious to other pets?", "Bacterial and yeast infections are not contagious. Ear mites are — they spread readily between pets in the same household, so all animals need treating."),
+            ("Can ear infections cause a head tilt in dogs?", "Yes. A head tilt indicates middle or inner ear involvement, or a vestibular problem. It is more serious than an outer ear infection and needs a vet."),
         ],
-        "related": ["how-to-trim-dog-nails", "dog-not-eating-but-drinking-water", "foods-toxic-to-dogs"],
+        "related": ["how-to-brush-dog-teeth", "why-is-my-dog-shaking", "how-to-trim-dog-nails"],
         "sources": [
-            ("Merck Veterinary Manual — Ear Disorders of Dogs",
+            ("Merck Veterinary Manual — Dog Owners: Ear Disorders",
              "https://www.merckvetmanual.com/dog-owners/ear-disorders-of-dogs"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("ASPCA — Dog Care",
+             "https://www.aspca.org/pet-care/dog-care"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. A sudden head tilt, loss of balance or facial droop needs prompt veterinary attention.",
     },
+
     {
         "slug": "dog-not-eating-but-drinking-water",
         "pillar": "dog-health",
@@ -363,39 +530,99 @@ ARTICLES = [
         "lede": "A dog that drinks but refuses food for a day is often just under the weather. Skipping food for more than two days, or any lethargy with it, needs a vet.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>Benign reasons</h2>
+        <h2>The pattern matters more than the skipped meal</h2>
+        <p>"Not eating but drinking" is not one condition. It is a pattern with a shortlist of causes, and the combination of <em>normal thirst with no appetite</em> is more informative than either sign alone.</p>
+        <p>The distinction that matters clinically: a dog that refuses food but still drinks is usually not dehydrated yet, which buys time. A dog that refuses both is a faster problem. And a dog that drinks <em>much more than usual</em> while not eating is pointing at a specific set of diseases rather than a mild upset.</p>
+
+        <h2>How long a dog can actually go without food</h2>
+        <p>Dogs cope with short fasts far better than people assume, and far better than cats do. Cats mobilise fat in a way that can destroy the liver within days; dogs are much more resistant to that. This is why a one-day fast in a healthy adult dog is not itself dangerous.</p>
+        <table>
+          <thead><tr><th>Dog</th><th>When refusal becomes a vet visit</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Puppy under 12 weeks</td><td><strong>12–24 hours</strong>, or two skipped meals</td><td>No reserves, dehydrates fast, and parvovirus is a real risk</td></tr>
+            <tr><td>Toy / small breed adult</td><td><strong>24 hours</strong></td><td>Low glycogen reserves; hypoglycaemia risk in the smallest</td></tr>
+            <tr><td>Medium / large adult</td><td><strong>48 hours</strong></td><td>Generally tolerant of a fast, but not of an undiagnosed cause</td></tr>
+            <tr><td>Senior or chronically ill</td><td><strong>24 hours</strong></td><td>Less reserve, and weight loss is harder to recover from</td></tr>
+            <tr><td>Any dog refusing water too</td><td><strong>Immediately</strong></td><td>Dehydration becomes the primary danger, not nutrition</td></tr>
+          </tbody>
+        </table>
+        <p>Those thresholds are about <em>hydration and energy</em>. The reason to see a vet is almost never the fasting itself — it is that the cause behind it might be something that gets worse every day.</p>
+
+        <h2>What "drinking more than usual" points to</h2>
+        <p>A dog that stops eating and starts drinking noticeably more is displaying a recognised pattern — polyuria and polydipsia with anorexia. The differential list is short and worth knowing, because it changes how urgently you act.</p>
+        <table>
+          <thead><tr><th>Condition</th><th>Other signs to look for</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Kidney disease</strong></td><td>Increased urination, dilute urine, bad breath, weight loss, vomiting</td></tr>
+            <tr><td><strong>Diabetes mellitus</strong></td><td>Large volumes of urine, weight loss despite eating previously well, sudden cataracts in older dogs</td></tr>
+            <tr><td><strong>Pancreatitis</strong></td><td>Hunched back, abdominal pain, vomiting, recent fatty meal</td></tr>
+            <tr><td><strong>Pyometra</strong> (unspayed female)</td><td>Drinking a lot, lethargy, discharge, recent season 2–8 weeks ago — surgical emergency</td></tr>
+            <tr><td><strong>Addison's disease</strong></td><td>Waxing and waning lethargy, vomiting, weakness — can present as a crisis</td></tr>
+            <tr><td><strong>Fever / infection</strong></td><td>Warm ears and paws, shivering, low energy</td></tr>
+            <tr><td><strong>Dental or oral pain</strong></td><td>Drooling, dropping food, chewing on one side, bad breath</td></tr>
+            <tr><td><strong>Nausea</strong></td><td>Lip licking, swallowing repeatedly, drooling, eating grass</td></tr>
+          </tbody>
+        </table>
+        <p>Two of those are surgical emergencies that hide behind "off his food": pyometra in an unspayed female, and a foreign body obstruction in any dog that also vomits.</p>
+
+        <h2>Four checks you can do at home</h2>
+        <p><strong>1. The mouth.</strong> Lift the lip and look at the gums — should be pink and wet, not pale, not brick red. Look for tartar build-up, a broken tooth, a swollen gum, or something stuck across the roof of the mouth. Dental pain is one of the most common and most overlooked reasons a dog stops eating while still drinking normally.</p>
+        <p><strong>2. Hydration.</strong> Lift the skin over the shoulders. It should snap back instantly. Slow return means dehydration, which changes the timeline to "today".</p>
+        <p><strong>3. Hydration status of the gums.</strong> Press a finger on the gum until it goes white, then count until the colour returns. Over two seconds is slow.</p>
+        <p><strong>4. Temperature, if you have a rectal thermometer.</strong> Normal is roughly 38.0–39.2 °C. A fever explains the loss of appetite and the thirst in one reading. Do not guess by feel — ears and noses are unreliable indicators.</p>
+        <div class="callout warn">Do not press hard on the abdomen to "check for pain". A dog with an obstruction, an inflamed pancreas or a pyometra can be seriously harmed by a firm hand, and the information you get is not reliable.</div>
+
+        <h2>What actually helps a fussy or nauseous dog eat</h2>
+        <p><strong>Warm the food.</strong> Warming to body temperature releases aroma, and smell is what drives a dog's appetite. A few seconds in the microwave, stirred and tested for hot spots.</p>
+        <p><strong>Add a small amount of something strong-smelling</strong> — a spoon of plain boiled chicken, a little low-sodium chicken broth with no onion or garlic, or a teaspoon of plain yoghurt. Mixed through, not on top, so the dog cannot pick out only the good part.</p>
+        <p><strong>Feed by hand, one piece at a time.</strong> A nauseous dog will often take food from a hand when it will not approach a bowl, because the bowl is now associated with feeling sick.</p>
+        <p><strong>Offer a small amount, frequently.</strong> Four small meals are far better than one large one that gets refused entirely.</p>
+        <p><strong>Change the texture, not the food.</strong> A little warm water mixed into kibble, or the same food mashed, is less disruptive than switching brands.</p>
+
+        <h2>What not to do</h2>
+        <p><strong>Do not cycle through ten different foods.</strong> Offering a new food every few hours teaches a dog to hold out for something better, and it makes a later elimination diet impossible. Pick one option and offer it consistently.</p>
+        <p><strong>Do not force food into the mouth.</strong> A nauseous dog that is force-fed is likely to aspirate, and it damages trust at the moment you need cooperation.</p>
+        <p><strong>Do not use human appetite stimulants or anti-nausea drugs</strong> without veterinary advice. Dosing is weight-dependent, and some are contraindicated in obstruction.</p>
+        <p><strong>Do not assume it will pass because the dog is drinking.</strong> Drinking protects against dehydration; it does nothing about the underlying cause.</p>
+
+        <h2>Keeping a record your vet will thank you for</h2>
+        <p>Before you call, write down: how many days of reduced or zero intake; approximate water consumed per day; whether urination has increased; any vomiting or diarrhoea and how often; whether the dog is drinking more than before this started; weight change if you can weigh the dog; and any medication started in the two weeks before the refusal.</p>
+        <p>That last item is frequently the answer. Many drugs — antibiotics, NSAIDs, chemotherapy agents, some cardiac medications — cause appetite loss, and the timing is the clue.</p>
+
+        <h2>When it is an emergency</h2>
+        <p>Go now, not tomorrow, if any of these are present:</p>
         <ul>
-          <li>Heat, a missed walk, or a change in routine.</li>
-          <li>A new food they dislike.</li>
-          <li>Mild stomach upset that passes.</li>
+          <li>Refusing water as well as food.</li>
+          <li>An unspayed female with a recent season who is drinking a lot and lethargic — possible pyometra.</li>
+          <li>Vomiting plus a distended or painful abdomen.</li>
+          <li>Collapse, weakness, or inability to stand.</li>
+          <li>Pale or white gums.</li>
+          <li>A puppy that has skipped two meals, or any dog with bloody diarrhoea.</li>
+          <li>Known access to a toxin — chocolate, grapes, raisins, xylitol, rodenticide, human medication.</li>
         </ul>
-
-        <h2>When drinking-but-not-eating is concerning</h2>
-        <p>If your dog drinks a lot of water yet eats nothing for over 48 hours, or seems tired, vomits, or loses weight, underlying issues like dental pain, infection, kidney trouble, or diabetes may be involved.</p>
-        <div class="callout warn">A dog that stops eating entirely for more than two days — or a puppy that skips two meals — should see a vet. Puppies dehydrate fast.</div>
-
-        <h2>What you can do</h2>
-        <p>Warm the food, offer a bland meal, and check the mouth for broken teeth or sores. Track water intake; sudden gulping is a symptom worth noting.</p>
-
-        <h2>Bottom line</h2>
-        <p>One quiet day is fine. Persistent refusal, especially with thirst and low energy, is your signal to call the clinic.</p>
         """,
         "faq": [
-            ("How long can a dog go without eating?", "A healthy adult can miss a day or two, but more than 48 hours — or any refusal in a puppy — warrants a vet visit."),
-            ("Why is my dog drinking more but not eating?", "Increased thirst with appetite loss can point to infection, kidney issues, or diabetes. Note the pattern and get it checked if it lasts."),
-            ("Should I force-feed my dog?", "No. Forcing food stresses a sick dog. Offer bland food; if they refuse for two days, let a vet diagnose the cause."),
+            ("How long can a dog go without eating?", "A healthy adult can miss a day or two, but more than 48 hours — or any refusal in a puppy — warrants a vet visit. Refusing water as well is urgent at any age."),
+            ("Why is my dog drinking a lot of water but not eating?", "That specific pattern points to kidney disease, diabetes, pancreatitis, pyometra in an unspayed female, fever or an infection. It needs a vet rather than home monitoring."),
+            ("Is it normal for a dog to skip a meal?", "An occasional skipped meal in an otherwise bright, drinking adult dog is common and usually harmless. Repeated skipping, or skipping plus lethargy, is not."),
+            ("What can I do to get my dog to eat?", "Warm the food, add a small amount of strong-smelling topper mixed through, offer small amounts frequently, and try hand-feeding. Do not cycle through many different foods."),
+            ("Should I worry if my dog only eats grass and drinks water?", "Grass eating alone is not a diagnosis. Combined with not eating normal food, it usually indicates nausea — check for other signs and see a vet if it lasts more than a day."),
+            ("Can stress stop a dog from eating?", "Yes. A move, a new pet, a boarding stay, or a change in routine commonly causes a day or two of reduced appetite. It should resolve once the stressor settles."),
+            ("What if my dog is not eating after surgery or medication?", "Appetite loss for 24 hours after anaesthesia is common. Beyond that, or with any medication started recently, call the vet — many drugs cause nausea and the dose may need adjusting."),
+            ("When is not eating an emergency?", "Refusing water too, pale gums, collapse, vomiting with a distended belly, an unspayed female with a recent season who is lethargic and thirsty, or a puppy that has skipped two meals."),
         ],
-        "related": ["dog-vomiting-causes", "how-much-to-feed-my-dog", "dog-not-eating-but-drinking-water"],
+        "related": ["dog-vomiting-causes", "why-is-my-dog-shaking", "how-much-to-feed-my-dog"],
         "sources": [
-            ("Merck Veterinary Manual — Digestive Disorders of Dogs",
+            ("Merck Veterinary Manual — Digestive Disorders in Dogs",
              "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("ASPCA — Dog Care: Nutrition and Feeding",
+             "https://www.aspca.org/pet-care/dog-care"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. Refusing water, pale gums, collapse, or vomiting with a distended abdomen are emergencies — contact a vet now.",
     },
+
     {
         "slug": "why-is-my-dog-shaking",
         "pillar": "dog-health",
@@ -405,130 +632,266 @@ ARTICLES = [
         "lede": "Shaking can be as simple as being cold or as serious as pain or poisoning. The context — other symptoms, body temperature, behavior — tells you which.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>Harmless causes</h2>
+        <h2>First, name the movement correctly</h2>
+        <p>"Shaking" covers at least four different things, and each points somewhere different. Watch for fifteen seconds before you do anything else.</p>
+        <table>
+          <thead><tr><th>What it looks like</th><th>What it is</th><th>Typical cause</th></tr></thead>
+          <tbody>
+            <tr><td>Fine, fast whole-body vibration; dog is aware and responsive</td><td><strong>Tremor</strong></td><td>Cold, fear, pain, toxin, metabolic problem</td></tr>
+            <tr><td>Rhythmic shivering with hunched posture, ears back</td><td><strong>Shivering</strong></td><td>Cold or anxiety — the two most common and most benign</td></tr>
+            <tr><td>Loss of awareness, paddling legs, jaw chomping, urination</td><td><strong>Seizure</strong></td><td>Epilepsy, toxin, brain lesion, low blood sugar</td></tr>
+            <tr><td>Head bobs rhythmically up and down, body still, dog fully conscious</td><td><strong>Head tremor</strong></td><td>Idiopathic head tremor syndrome — benign in most cases</td></tr>
+          </tbody>
+        </table>
+        <p>That head tremor distinction saves a lot of unnecessary panic. A dog whose head bobs while it stands normally, walks normally and responds normally is usually showing idiopathic head tremor syndrome — it stops on its own, and it is not a seizure. Video it for the vet rather than rushing in.</p>
+
+        <h2>The benign causes, in order of frequency</h2>
+        <p><strong>Cold.</strong> Small breeds, short coats, very old and very young dogs shiver first. Obvious in winter, less obvious after a swim or in an air-conditioned room.</p>
+        <p><strong>Anxiety and fear.</strong> Thunder, fireworks, vet visits, a new person in the house. Look for the rest of the body language: tucked tail, ears back, yawning, lip licking, refusing food.</p>
+        <p><strong>Excitement.</strong> The full-body quiver before a walk or when you come home. It resolves in minutes and the dog looks happy, not distressed.</p>
+
+        <h2>Pain — the cause most often missed</h2>
+        <p>Dogs do not cry out for most pain. They tremble. Chronic pain that shows up as shivering includes:</p>
         <ul>
-          <li>Cold — small and short-haired dogs shiver to warm up.</li>
-          <li>Excitement or anticipation (the zoomie shake before a walk).</li>
-          <li>Stress or anxiety, including thunderstorms.</li>
+          <li><strong>Abdominal pain</strong> — hunched back, reluctance to lie down, looking at the flank. Pancreatitis is the classic.</li>
+          <li><strong>Back or neck pain</strong> — IVDD in dachshunds and other long-backed breeds; a dog that will not turn its head or yelps when picked up.</li>
+          <li><strong>Dental pain</strong> — often missed entirely; a dog that trembles while eating and chews on one side.</li>
+          <li><strong>Arthritis</strong> — a senior dog trembling after a walk, or first thing in the morning.</li>
+          <li><strong>Anal gland impaction or abscess</strong> — scooting plus trembling plus licking at the rear.</li>
         </ul>
+        <p>A useful test: if the trembling started after activity, or it stops when the dog is comfortable and warm on a soft bed, pain is high on the list.</p>
 
-        <h2>Medical causes to know</h2>
-        <p>Pain, fever, nausea, low blood sugar (common in tiny breeds), and toxins like chocolate or xylitol can all cause trembling. So can old-age weakness.</p>
-        <div class="callout warn">Sudden shaking with weakness, collapse, vomiting, or known toxin exposure is an emergency — call a vet now.</div>
+        <h2>Toxins that cause trembling</h2>
+        <p>This is the group where waiting costs the dog. Trembling plus vomiting, drooling, unsteadiness or hyperactivity after possible exposure is an emergency call, not a wait-and-see.</p>
+        <table>
+          <thead><tr><th>Toxin</th><th>Signs beyond trembling</th></tr></thead>
+          <tbody>
+            <tr><td>Chocolate (theobromine)</td><td>Vomiting, hyperactivity, racing heart, seizures</td></tr>
+            <tr><td>Xylitol</td><td>Weakness, collapse, seizures — from hypoglycaemia and liver injury</td></tr>
+            <tr><td>Grapes and raisins</td><td>Vomiting, then kidney failure over days</td></tr>
+            <tr><td><strong>Pyrethrin / permethrin flea products</strong></td><td>Tremors, drooling, twitching, unsteadiness — <strong>especially when a cat product is applied to a dog</strong></td></tr>
+            <tr><td>Metaldehyde (slug pellets)</td><td>Tremors, high temperature, seizures</td></tr>
+            <tr><td>Rodenticide</td><td>Bleeding, weakness — tremors less typical but possible</td></tr>
+            <tr><td>Human medication — ADHD stimulants, antidepressants, nicotine</td><td>Agitation, tremors, racing heart</td></tr>
+          </tbody>
+        </table>
+        <div class="callout warn">The permethrin one catches people out every year. Some dog flea products and cat flea products look identical, and a concentrated permethrin spot-on meant for a dog can cause severe, sometimes fatal, tremors in a cat — and an accidental high dose in a small dog causes the same picture. Never swap products between species.</div>
 
-        <h2>How to assess</h2>
-        <ul>
-          <li>Is your dog warm and calm? Probably benign.</li>
-          <li>Shaking plus lethargy, panting, or hiding? Likely pain or illness.</li>
-          <li>Shaking plus a known toxin? Treat as urgent.</li>
-        </ul>
+        <h2>Metabolic causes</h2>
+        <p><strong>Low blood sugar.</strong> Typical in toy breeds and puppies: trembling, weakness, wobbly walking, sometimes collapse. A small dog that trembles before breakfast is the classic presentation. A drop of honey or glucose syrup on the gums buys minutes while you call the vet.</p>
+        <p><strong>Fever.</strong> A dog with an infection shivers to raise its temperature — the shivering is the mechanism, not the disease. A thermometer is the only way to tell this from cold.</p>
+        <p><strong>Addison's disease.</strong> Underdiagnosed and dangerous. Waxing and waning weakness, vomiting, trembling, and collapse, often triggered by stress. An Addisonian crisis is a genuine emergency that looks like "a dog that keeps going off its legs".</p>
+        <p><strong>Electrolyte disturbance</strong> — low calcium or low potassium, from illness or from some medications — produces tremors and muscle twitching.</p>
 
-        <h2>What to do</h2>
-        <p>Warm a cold dog, soothe an anxious one, and watch. If shaking persists without an obvious cause or comes with other symptoms, a vet visit is the safe call.</p>
+        <h2>Tremor syndromes specific to dogs</h2>
+        <p><strong>Idiopathic head tremor.</strong> Rhythmic vertical or horizontal head bobbing, dog fully conscious and otherwise normal, episodes of minutes. Most common in small breeds and in English bulldogs and Dobermanns. Benign in most cases; video it and show the vet.</p>
+        <p><strong>"White shaker dog" syndrome.</strong> Generalised tremor in small white breeds — Maltese, West Highland whites, Spitz types — typically young adults. It is a steroid-responsive inflammatory condition and generally improves well with treatment. It looks alarming and is one of the more treatable causes.</p>
+        <p><strong>Senile tremor and cognitive change.</strong> Older dogs can develop mild tremor alongside the other signs of cognitive dysfunction — pacing, staring at walls, reversed day and night. Worth a vet visit, and worth asking about cognitive support.</p>
+
+        <h2>The 60-second assessment</h2>
+        <p><strong>Is the dog aware and responsive?</strong> If yes, it is a tremor, not a seizure.</p>
+        <p><strong>Take the temperature.</strong> Around 38.0–39.2 °C is normal. High means fever or a toxin; low means shock or cold. Do not judge by the ears.</p>
+        <p><strong>Check the gums.</strong> Pink and wet is normal. Pale, grey or brick red is a reason to go now.</p>
+        <p><strong>Look at the pupils.</strong> Equal and responsive is reassuring. Pinpoint or widely dilated and unresponsive is not.</p>
+        <p><strong>Watch for a trigger.</strong> Did this start after a walk, a meal, a flea treatment, a thunderstorm, or when you came home? The answer usually names the cause.</p>
+
+        <h2>What to do, by scenario</h2>
+        <p><strong>Cold or anxious, otherwise normal:</strong> warm the dog, reduce the stressor, and observe. If it resolves within minutes and the dog behaves normally, nothing more is needed.</p>
+        <p><strong>Trembling plus pain signs:</strong> vet visit today. Do not give human painkillers — ibuprofen and paracetamol are toxic to dogs, and the wrong painkiller can worsen an abdominal problem.</p>
+        <p><strong>Trembling plus vomiting, drooling or unsteadiness:</strong> emergency. Bring the packaging of anything the dog may have eaten.</p>
+        <p><strong>Full seizure — loss of awareness, paddling:</strong> do not restrain the dog or put anything in its mouth. Clear the area, time the episode, keep it cool, and call the vet. A seizure lasting over five minutes, or more than two in 24 hours, is an emergency.</p>
         """,
         "faq": [
-            ("Why is my dog shaking but acting normal?", "Excitement, mild cold, or stress can cause shivering with normal behavior. If it passes quickly, it is usually nothing."),
-            ("When is dog shaking an emergency?", "Shaking with weakness, collapse, vomiting, or possible toxin ingestion needs immediate veterinary care."),
-            ("Why does my small dog shake so much?", "Tiny breeds lose body heat fast and are prone to low blood sugar shakes. A sweater and regular meals often help."),
+            ("Why is my dog shaking but acting normal?", "Excitement, mild cold, or stress can cause shivering with normal behaviour. If it passes quickly and the dog is otherwise well, it is usually nothing."),
+            ("Why is my dog trembling for no reason?", "There is always a reason — cold, pain, nausea, low blood sugar, fever or a toxin. If the trembling is persistent and you cannot identify a trigger, get the dog examined."),
+            ("Is head bobbing a seizure in dogs?", "Usually not. Idiopathic head tremor looks like rhythmic head bobbing while the dog stays fully conscious and otherwise normal. Video it for the vet."),
+            ("Can flea treatment make a dog shake?", "Yes. Permethrin and pyrethrin products cause tremors, drooling and unsteadiness, especially at high doses or in small dogs. Never use a cat product on a dog."),
+            ("Why does my small dog shake in the morning?", "Possible low blood sugar. Toy breeds and puppies have small glycogen reserves — trembling before breakfast is the classic sign. Feed more frequent small meals and have it checked."),
+            ("When is dog shaking an emergency?", "Trembling with vomiting, drooling or unsteadiness after possible toxin exposure, a seizure lasting over five minutes, collapse, pale gums, or trembling with a distended abdomen."),
+            ("Do dogs shake when they are in pain?", "Yes — trembling is one of the main ways dogs show pain, especially abdominal, back, dental and joint pain. Dogs rarely cry out."),
+            ("Why does my old dog shake?", "Arthritis, dental pain, muscle weakness, cognitive dysfunction, or a metabolic problem. In a senior dog, persistent trembling should always be examined rather than put down to age."),
         ],
-        "related": ["dog-not-eating-but-drinking-water", "why-do-dogs-eat-poop", "dog-vomiting-causes"],
+        "related": ["dog-vomiting-causes", "dog-not-eating-but-drinking-water", "foods-toxic-to-dogs"],
         "sources": [
-            ("AKC — Why Is My Dog Shaking?",
-             "https://www.akc.org/expert-advice/health/why-is-my-dog-shaking/"),
-            ("Merck Veterinary Manual — Dog Owners",
+            ("Merck Veterinary Manual — Dog Owners: Introduction",
              "https://www.merckvetmanual.com/dog-owners"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. Trembling with vomiting, collapse, pale gums or a seizure over five minutes is an emergency — contact a vet now.",
     },
+
     {
         "slug": "why-do-dogs-eat-grass",
         "pillar": "dog-health",
-        "title": "Why Do Dogs Eat Grass? (And When to Stop Them)",
+        "title": "Why Do Dogs Eat Grass? The Evidence, Not the Myth",
         "url": "/dog-health/why-do-dogs-eat-grass/",
-        "description": "Dogs eat grass out of boredom, an upset stomach, or simply because it tastes good. Usually harmless — but frequent vomiting after eating grass needs a vet.",
-        "lede": "Most dogs eat grass now and then and are perfectly fine. It is often boredom or instinct — not a sign your dog is sick.",
+        "description": "The idea that dogs eat grass to settle an upset stomach is mostly wrong. What the research actually shows, and the real risks grass carries in summer.",
+        "lede": "Most dogs that eat grass are perfectly healthy, and most do not vomit afterwards. The stomach-upset theory is the popular one and the weakest one.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>The main reasons</h2>
+        <h2>The popular explanation does not hold up</h2>
+        <p>Almost every owner has been told that dogs eat grass because their stomach is upset. It is a tidy theory, and the evidence does not support it.</p>
+        <p>A survey of more than 1,500 dog owners found that grass eating was reported in a large majority of dogs, that only a small minority showed any sign of illness before eating grass, and that most dogs did not vomit afterwards. If grass eating were a response to nausea, you would expect the opposite pattern: sick dogs, frequently.</p>
+        <p>What the data actually supports is simpler — grass eating is normal canine behaviour, it is common in well dogs, and in most cases it means nothing at all.</p>
+
+        <h2>Why dogs might eat grass</h2>
+        <p>No single explanation has been proven. The candidates, in rough order of how much support each has:</p>
+        <table>
+          <thead><tr><th>Explanation</th><th>How much evidence</th><th>Comment</th></tr></thead>
+          <tbody>
+            <tr><td>Normal foraging behaviour, inherited from wild canids</td><td>Moderate</td><td>Wolves and wild canids eat grass; stomach content analysis shows it regularly</td></tr>
+            <tr><td>Dietary fiber — the dog is seeking roughage</td><td>Moderate</td><td>Plausible, and a fiber-poor diet is worth reviewing if it is constant</td></tr>
+            <tr><td>Taste and texture — young spring grass is sweet</td><td>Reasonable</td><td>Explains why some dogs are picky about which grass</td></tr>
+            <tr><td>Boredom or displacement behaviour</td><td>Reasonable</td><td>Common in dogs left in a yard for long periods</td></tr>
+            <tr><td>Nausea relief</td><td><strong>Weak</strong></td><td>The popular explanation, and the one the surveys argue against</td></tr>
+            <tr><td>Self-medication against intestinal worms</td><td>Very weak</td><td>Repeated online; no meaningful evidence</td></tr>
+          </tbody>
+        </table>
+        <p>The nausea idea is not completely impossible — grass can irritate the stomach lining, and some dogs do vomit after eating a lot of it. But that is grass causing the vomiting, not the dog eating grass because it feels sick.</p>
+
+        <h2>When grass eating is actually a signal</h2>
+        <p>It stops being normal when it comes with other signs. Worth a vet visit:</p>
         <ul>
-          <li>Boredom or habit — grass is just there.</li>
-          <li>An upset stomach; some dogs self-soothe by grazing.</li>
-          <li>A missing nutrient is rarely the cause in well-fed dogs.</li>
+          <li><strong>Eating grass and vomiting repeatedly</strong> — especially if the dog also seems uncomfortable or refuses food.</li>
+          <li><strong>Eating grass plus a swollen or painful abdomen</strong> — possible bloat, which is an emergency.</li>
+          <li><strong>Pica</strong> — eating soil, stones, plastic, fabric or wood alongside grass. This can indicate anaemia, a mineral deficiency, gastrointestinal disease or a behavioural problem, and it needs investigation.</li>
+          <li><strong>Weight loss despite a good appetite</strong> — malabsorption or a parasitic burden.</li>
+          <li><strong>Grass eating that starts suddenly in an adult dog</strong> — a change in established behaviour is always worth noting.</li>
         </ul>
 
-        <h2>Is it safe?</h2>
-        <p>Plain grass is fine. The risk is what is on it — pesticides, fertilizers, and parasites from other animals' waste. Avoid treated lawns.</p>
-        <div class="callout">If grass-eating comes with repeated vomiting, diarrhea, or appetite loss, it is worth a vet check rather than blaming the grass.</div>
+        <h2>The real danger is not the grass — it is what is on it</h2>
+        <p>This is the part that matters practically, and the part that most articles skip.</p>
+        <p><strong>Herbicides and pesticides.</strong> A treated lawn is a low-dose toxin exposure every time the dog grazes. Weedkiller, fertiliser granules and insecticide are all worth keeping a dog off for the interval stated on the label — usually longer than people wait.</p>
+        <p><strong>Slug pellets (metaldehyde).</strong> Extremely attractive to dogs, extremely toxic, and scattered at ground level exactly where a grass-eating dog's nose goes. Tremors, high temperature and seizures follow quickly. This is one of the more common serious poisonings in garden dogs, and it is entirely preventable by not using the product.</p>
+        <p><strong>Foxtail grass.</strong> In summer, the seed heads of foxtail and similar grasses harden into barbed awns that work their way into ears, noses, eyes, paw pads and even the skin between toes — and they only travel inward, because of the barbs. A dog that suddenly shakes its head, sneezes violently, or licks obsessively at a paw after walking in long grass may have a foxtail. Removal often needs sedation. This is a genuine seasonal emergency and the reason to keep dogs out of long dry grass in late summer.</p>
+        <p><strong>Ticks.</strong> Long grass is where they wait. A grass-eating dog puts its face directly into the habitat.</p>
 
-        <h2>How to cut it down</h2>
-        <p>More exercise and chew toys fix the bored grazers. A balanced diet and slow feeding help the tummy-grazers. Supervise yard time if it is a daily habit.</p>
+        <h2>What to do about it</h2>
+        <p><strong>If the dog is healthy and eats a bit of grass:</strong> nothing. Really — nothing. It is not a problem to solve.</p>
+        <p><strong>If it is constant:</strong> review the diet for fiber content, and consider whether the dog is bored. A higher-fiber food or a vegetable addition to the bowl is a cheap trial. Increase exercise and enrichment if the dog spends long stretches alone in a yard.</p>
+        <p><strong>If you want to offer grass safely:</strong> grow a tray of oat grass or wheatgrass indoors, or buy cat grass. It is cheap, it is clean, and it removes the pesticide and foxtail variables entirely. Many dogs that graze outdoors will happily use an indoor tray.</p>
+        <p><strong>If the dog vomits after every grass session:</strong> that is worth a vet visit, because a dog that is repeatedly irritating its stomach is either eating too much of it or has an underlying stomach issue.</p>
 
-        <h2>When to worry</h2>
-        <p>Occasional grazing is normal. Daily, frantic eating with sickness is not — that pattern deserves a vet's eyes.</p>
+        <h2>The short version</h2>
+        <p>Grass eating in a well dog is not a symptom, not a mystery, and not something to treat. The stomach-upset theory is the one everybody repeats and the one the evidence least supports. Keep the dog off treated lawns and out of long dry grass in late summer, offer a clean indoor tray if you want to indulge it, and spend your worry on the things that are actually dangerous.</p>
         """,
         "faq": [
-            ("Do dogs eat grass to make themselves throw up?", "Sometimes, but many grass-eaters never vomit. It is more often boredom or taste than a deliberate attempt to purge."),
-            ("Is eating grass bad for dogs?", "Plain, untreated grass is safe. Avoid lawns with pesticides or fertilizer, which are the real hazard."),
-            ("How do I stop my dog eating grass?", "Rule out illness first, then add exercise, toys, and mental games. Supervise and redirect during yard time."),
+            ("Why does my dog eat grass?", "Most likely normal foraging behaviour, possibly seeking fiber or because young grass tastes sweet. The popular 'upset stomach' explanation is not supported by the survey evidence — most grass-eating dogs are healthy and do not vomit."),
+            ("Does eating grass mean my dog is sick?", "Usually not. Most dogs that eat grass show no other signs of illness. It becomes a concern if it comes with repeated vomiting, a painful abdomen, weight loss, or eating non-food items like stones and plastic."),
+            ("Why does my dog vomit after eating grass?", "Grass irritates the stomach lining, especially in quantity. That means the grass caused the vomiting, not that the dog ate grass because it felt sick."),
+            ("Is it safe for dogs to eat grass?", "The grass itself is harmless. The risks are herbicides, pesticides, slug pellets, ticks and foxtail awns, all of which are on the grass rather than in it."),
+            ("What is a foxtail and why is it dangerous?", "A grass seed head with barbed awns that only travel inward. They lodge in ears, noses, eyes and paws and often need sedation to remove. Keep dogs out of long dry grass in late summer."),
+            ("Can I grow grass for my dog indoors?", "Yes — oat grass or wheatgrass trays are cheap and remove the pesticide and foxtail risks entirely. Many dogs use an indoor tray readily."),
+            ("Should I stop my dog eating grass?", "Not if the dog is healthy. If it is constant, review dietary fiber and check for boredom. Keep the dog off treated lawns and away from slug pellets."),
+            ("Is grass eating a sign of worms?", "There is no meaningful evidence for it, despite the claim being repeated widely. If worms are a concern, a faecal test is the way to find out."),
         ],
-        "related": ["dog-vomiting-causes", "why-do-dogs-eat-poop", "foods-toxic-to-dogs"],
+        "related": ["why-do-dogs-eat-poop", "dog-vomiting-causes", "foods-toxic-to-dogs"],
         "sources": [
-            ("Merck Veterinary Manual — Behavior of Dogs",
-             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
+            ("Merck Veterinary Manual — Dog Owners: Digestive Disorders",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. Grass eating with repeated vomiting, a painful abdomen or weight loss should be examined by a vet.",
     },
+
     {
         "slug": "why-do-dogs-eat-poop",
         "pillar": "dog-health",
-        "title": "Why Do Dogs Eat Poop (Coprophagia) and How to Stop It",
+        "title": "Why Do Dogs Eat Poop? And How to Stop It",
         "url": "/dog-health/why-do-dogs-eat-poop/",
-        "description": "Coprophagia is common and usually behavioral rather than a sign of illness. The real causes — boredom, mimicry, diet — and practical ways to stop it for good.",
-        "lede": "Eating poop is gross but common, especially in puppies. It is usually behavioral — boredom, exploration, or copying the mother — and rarely a medical emergency.",
+        "description": "Coprophagia is common, usually harmless, and almost never fixed by punishment. The medical causes worth ruling out, and the interventions that actually work.",
+        "lede": "Eating poop is normal dog behaviour with a short list of causes. Punishment makes it worse; the fixes are mostly management, diet and ruling out malabsorption.",
         "eyebrow": "DOG HEALTH",
         "body": """
-        <h2>Why dogs do it</h2>
-        <ul>
-          <li>Puppies explore with their mouths and often outgrow it.</li>
-          <li>Boredom or attention-seeking in under-stimulated dogs.</li>
-          <li>Mimicry of a mother dog cleaning the den.</li>
-          <li>Rarely, a diet lacking nutrients or a malabsorption issue.</li>
-        </ul>
+        <h2>What it is called, and how common it is</h2>
+        <p>The medical term is <em>coprophagia</em>. It is not a sign of a disturbed dog, and it is not rare — surveys suggest a substantial minority of dogs do it at some point, with the highest rates in puppies under a year and in dogs kept in kennels or confined spaces.</p>
+        <p>Most cases are behavioural and harmless. A minority point at a digestive problem that is worth finding, and there is one scenario — a dog that eats its own stool and then gets re-infected with worms — where it turns into a cycle that is genuinely hard to break.</p>
 
-        <h2>Health check first</h2>
-        <p>If it starts suddenly in an adult dog, a vet can rule out parasites or digestive problems. Most cases, though, are behavioral.</p>
-        <div class="callout">Clean up promptly — the single most effective step. A yard with no accessible stool removes the opportunity entirely.</div>
+        <h2>The causes, in the order worth checking</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>What it looks like</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Normal maternal behaviour</strong></td><td>A bitch cleaning up after puppies under 3 weeks</td><td>Nothing — it is adaptive and stops</td></tr>
+            <tr><td><strong>Puppy exploration</strong></td><td>Puppies under 9 months tasting everything</td><td>Management and a firm "leave it"; most outgrow it</td></tr>
+            <tr><td><strong>Undigested food in stool</strong></td><td>Visible food pieces in the stool; large stool volume; weight loss despite eating</td><td>Vet — check for malabsorption, pancreatic insufficiency, parasites</td></tr>
+            <tr><td><strong>Pancreatic exocrine insufficiency (EPI)</strong></td><td>Chronic weight loss, ravenous appetite, pale greasy voluminous stool</td><td>Vet — a TLI blood test diagnoses it, and treatment is effective</td></tr>
+            <tr><td><strong>Parasites</strong></td><td>Worms visible, pot belly, poor coat</td><td>Faecal test and a proper worming schedule</td></tr>
+            <tr><td><strong>Boredom or confinement</strong></td><td>Kennelled dogs, dogs left alone for long stretches, dogs on a small territory</td><td>Exercise, enrichment, more frequent toilet breaks</td></tr>
+            <tr><td><strong>Punishment for toileting indoors</strong></td><td>Dog toilets out of sight, then eats it before you find it</td><td><strong>Stop punishing.</strong> This is the one cause that is entirely created by the owner</td></tr>
+            <tr><td><strong>Attention-seeking</strong></td><td>Dog eats stool, owner reacts loudly, dog repeats</td><td>Remove the reaction entirely — no shouting, no chase</td></tr>
+            <tr><td><strong>Hunger or rationing</strong></td><td>Meals too small, or one meal a day</td><td>Appropriate portions, split into two meals</td></tr>
+          </tbody>
+        </table>
 
-        <h2>Practical fixes</h2>
+        <h2>Why punishment is the wrong answer</h2>
+        <p>This is the single most important point on this page, and it is the one most owners get wrong.</p>
+        <p>A dog that is scolded for toileting indoors does not learn "don't toilet indoors". It learns "toileting near humans is dangerous". The predictable result is a dog that toilets in a back room and then eats the evidence before you find it — which reads to the owner as a completely new and worse problem, when it is actually the old one made invisible.</p>
+        <p>The same applies to chasing a dog away from stool. Chasing is attention. For a dog that eats stool partly for the reaction, being chased is a reward. Remove the reaction and you remove the reinforcement.</p>
+        <div class="callout warn">Never use a punishment-based approach to coprophagia. It reliably converts an occasional habit into a secret one, and it is the reason many cases seem to "suddenly get worse".</div>
+
+        <h2>The medical checks worth doing</h2>
+        <p>If a dog is eating stool alongside any of these, book a vet visit rather than trying home remedies:</p>
         <ul>
-          <li>Pick up stool immediately, every time.</li>
-          <li>Teach \"leave it\" and reward for ignoring it.</li>
-          <li>Add exercise and puzzle toys to cut boredom.</li>
-          <li>Some owners use a taste-aversion supplement after a vet's okay.</li>
+          <li>Weight loss or difficulty maintaining weight despite a good appetite.</li>
+          <li>Large volume, pale, greasy or unusually smelly stool.</li>
+          <li>Visible undigested food in the stool.</li>
+          <li>Vomiting, diarrhoea, or a pot-bellied appearance.</li>
+          <li>Flatulence that is markedly worse than normal.</li>
+          <li>Any dog that has never been wormed on a proper schedule.</li>
         </ul>
+        <p>The two tests that pay for themselves are a <strong>faecal flotation</strong> (parasites) and a <strong>TLI test</strong> (pancreatic exocrine insufficiency). EPI is underdiagnosed, is treatable with enzyme supplementation, and produces exactly the picture of a dog that is always hungry and eating anything.</p>
+
+        <h2>What actually works</h2>
+        <p><strong>1. Pick up immediately.</strong> Boring, unglamorous, and more effective than every product on the market. A dog cannot eat what is not there. In a multi-dog household, clear the yard before letting dogs out.</p>
+        <p><strong>2. Teach "leave it" properly.</strong> Practise with low-value items first, reward heavily, and generalise to stool. This is the only intervention that works at a distance and in real time.</p>
+        <p><strong>3. Manage the environment.</strong> Leash walks in areas with heavy stool, muzzle for a determined eater in public parks, and separate the dogs at toilet time if one is a scavenger.</p>
+        <p><strong>4. Review the diet.</strong> A highly digestible diet produces less appealing stool and less undigested residue. If the current food is a low-quality one with a lot of filler, a change is worth trying for six weeks.</p>
+        <p><strong>5. Split the meals.</strong> Two meals instead of one reduces the hunger drive that makes stool look like food.</p>
+        <p><strong>6. Increase enrichment.</strong> For kennelled or under-exercised dogs, the behaviour usually drops when the dog has something else to do. Sniffing games, scatter feeding, chew items.</p>
+
+        <h2>The products, honestly</h2>
+        <p>The market for stool-eating deterrents is large and the evidence is thin. The two approaches that exist:</p>
+        <p><strong>Stool additives</strong> — usually MSG, yucca, or enzymes, given to the dog so the stool tastes unpleasant. Anecdotally helpful for some dogs; controlled evidence is weak. Worth a try if the dog eats stool from other dogs and you can treat all of them.</p>
+        <p><strong>Taste deterrents applied to stool</strong> — such as hot sauce or commercial sprays. Impractical outdoors, and it does not address the motivation.</p>
+        <p>Popular home remedies — pineapple, pumpkin, spinach — have no meaningful evidence behind them. They are harmless, so trying them costs nothing, but do not expect much and do not let them delay the medical checks.</p>
+
+        <h2>Why cat stool is a different problem</h2>
+        <p>A dog that raids the litter tray is a step up in risk. Cat faeces can carry <em>Toxoplasma gondii</em>, and dogs that eat cat stool are exposed to a parasite that dogs do not normally encounter. Cat litter should be physically inaccessible — a covered tray, a baby gate the cat can jump, or a tray positioned where the dog cannot reach.</p>
+        <p>There is also a practical risk: some cat medications and dewormers are excreted in faeces, and a dog eating that stool gets a dose of a drug dosed for a cat.</p>
+
+        <h2>When to see a vet</h2>
+        <p><strong>Urgently</strong> if the dog is eating stool alongside weight loss, vomiting, or diarrhoea — that combination points at malabsorption or EPI rather than habit.</p>
+        <p><strong>Routinely</strong> if the behaviour is persistent beyond 12 months of age, if it started suddenly in an adult dog, or if there has never been a faecal test.</p>
+        <p><strong>Not urgently</strong> for a healthy, well-conditioned dog that occasionally eats stool. Manage it, do not panic about it, and do not punish it.</p>
         """,
         "faq": [
-            ("Is eating poop dangerous for dogs?", "It is usually not toxic, but it can spread parasites and stomach bugs. Prompt cleanup and deworming on schedule reduce the risk."),
-            ("Will my puppy grow out of eating poop?", "Most puppies outgrow coprophagia by a year old once they are better stimulated and the habit is not reinforced."),
-            ("What supplement stops dogs eating poop?", "Taste-aversion products exist; ask your vet first. The reliable fix is cleanup plus training, not a pill alone."),
+            ("Why does my dog eat poop?", "Usually habit or exploration, especially in puppies. Medical causes worth ruling out include parasites, malabsorption and pancreatic exocrine insufficiency, which produce undigested food in the stool."),
+            ("Is eating poop harmful to dogs?", "Usually not directly, but it re-exposes the dog to parasites and can transmit bacteria. It also creates a worm reinfection cycle if the dog is not on a proper worming schedule."),
+            ("How do I stop my dog eating poop?", "Pick it up immediately, teach a solid 'leave it', review the diet, split meals, and increase enrichment. Punishment makes it worse — it teaches the dog to do it out of sight."),
+            ("Do pineapple or pumpkin stop dogs eating poop?", "There is no meaningful evidence behind either. They are harmless to try, but do not rely on them or let them delay a vet check if other signs are present."),
+            ("Why did my dog suddenly start eating poop?", "In an adult dog, a sudden onset warrants a vet visit — parasites, malabsorption and pancreatic problems are possibilities. Also check for a recent change in food, routine or household stress."),
+            ("Should I punish my dog for eating poop?", "No. Punishment teaches the dog to toilet and eat it out of sight, and it damages trust. It is the single most common reason the behaviour appears to get worse."),
+            ("Why does my dog eat cat poop?", "Cat faeces is high in protein and dogs find it appealing. The risk is Toxoplasma exposure and medication excreted in cat stool — keep the litter tray physically inaccessible."),
+            ("Can worms cause a dog to eat poop?", "A heavy worm burden can increase appetite and reduce nutrient absorption, which can drive the behaviour. A faecal test and correct worming is part of the work-up."),
         ],
-        "related": ["why-do-dogs-eat-grass", "how-to-stop-puppy-biting", "foods-toxic-to-dogs"],
+        "related": ["why-do-dogs-eat-grass", "dog-vomiting-causes", "how-much-to-feed-my-dog"],
         "sources": [
-            ("Merck Veterinary Manual — Behavior of Dogs",
-             "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
-            ("ASPCA — Dog Care",
-             "https://www.aspca.org/pet-care/dog-care"),
+            ("Merck Veterinary Manual — Dog Owners: Digestive Disorders",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Health information only, not veterinary advice. Persistent coprophagia with weight loss, vomiting or diarrhoea should be examined by a vet.",
     },
+
 
     # ---------------- Dog nutrition ----------------
     {
@@ -771,87 +1134,186 @@ ARTICLES = [
     {
         "slug": "how-to-trim-dog-nails",
         "pillar": "dog-care",
-        "title": "How to Trim Dog Nails Without the Struggle",
+        "title": "How to Trim a Dog's Nails Without Hitting the Quick",
         "url": "/dog-care/how-to-trim-dog-nails/",
-        "description": "A calm, step-by-step method to trim your dog's nails at home, how short is actually safe, what to do if you cut the quick, and how often to trim each nail.",
-        "lede": "Trim small amounts frequently and you avoid the quick — the sensitive vein inside the nail. A scratchboard or grinder also works if clippers scare your dog.",
+        "description": "Overgrown nails change how a dog walks. Where the quick sits, how to find it on black nails, and a low-stress method that works even on dogs that hate it.",
+        "lede": "Nail trimming is simple once you know where the quick is — and most nails are overgrown because owners are afraid of cutting it.",
         "eyebrow": "DOG CARE",
         "body": """
-        <h2>How short is safe</h2>
-        <p>Cut only the white tip, well clear of the pink quick (or the dark center you can see in light nails). In dark nails, take tiny slivers and stop when you see a dark dot in the center.</p>
+        <h2>Why overgrown nails are not just cosmetic</h2>
+        <p>A dog's nails should clear the ground when it stands. When they touch the floor, every step pushes the toe joint upward and back, which changes the whole posture of the leg. Over months and years that contributes to splayed feet, altered gait, and arthritis in the toes and wrist.</p>
+        <p>Long nails also curl under and press into the paw pads, which is painful in a way that is easy to miss because dogs do not limp until it is severe. And a long nail catches on fabric, carpet and car doors, and can tear off at the base — a genuinely painful injury.</p>
+        <p>Most dogs' nails are overgrown for one reason: the owner tried once, hit the quick, the dog yelped, and neither of them wanted to repeat it.</p>
 
-        <h2>Make it calm</h2>
-        <ul>
-          <li>Touch and hold paws daily so handling is normal, not a surprise.</li>
-          <li>Use sharp clippers or a grinder; dull tools crush and hurt.</li>
-          <li>Reward after every nail, not just at the end.</li>
-        </ul>
-        <div class="callout warn">If you nick the quick, it bleeds and stings. Press styptic powder or cornstarch on it; the dog is fine in a minute. Do not panic — that teaches fear.</div>
+        <h2>Where the quick is</h2>
+        <p>The quick is the blood and nerve supply that runs down the centre of the nail. On a clear or light-coloured nail you can see it as a pink core. Cut past it and the nail bleeds and hurts.</p>
+        <table>
+          <thead><tr><th>Nail type</th><th>How to find the limit</th></tr></thead>
+          <tbody>
+            <tr><td>Clear / light</td><td>The pink core is visible — leave 2 mm of clear nail beyond it</td></tr>
+            <tr><td>Black</td><td>Cut 1–2 mm at a time and look at the cut face. A chalky grey-white centre means keep going slowly; a dark dot or a pinkish tinge in the middle means stop</td></tr>
+            <tr><td>Dewclaw (the thumb-like nail higher up the leg)</td><td>Same rule, but it never touches the ground so it never wears down — it needs trimming most often and is the one people forget</td></tr>
+          </tbody>
+        </table>
+        <div class="callout">On a black nail, cut less than you think you need and come back in two weeks. A nail cut too short takes weeks to recover and sets the training back months; a nail cut slightly too long costs nothing.</div>
 
-        <h2>Alternatives</h2>
-        <p>A scratchboard (let the dog file its own nails on sandpaper) or a grinder avoids the clipper entirely and is gentler for many dogs.</p>
+        <h2>Tools</h2>
+        <p><strong>Scissor-style clippers</strong> are the most controllable for most owners — you can see the blade and the nail at the same time.</p>
+        <p><strong>Guillotine clippers</strong> work but tend to crush thick nails rather than cut cleanly, which is uncomfortable for large dogs with hard nails.</p>
+        <p><strong>A rotary grinder (Dremel type)</strong> is the safest option once a dog accepts it, because it removes material in tiny increments and cannot take off a large slice by accident. It also leaves a rounded tip instead of a sharp edge. The trade-off is noise, which needs its own desensitisation.</p>
+        <p><strong>Styptic powder</strong> — or plain cornflour in an emergency — for a nail that bleeds.</p>
+
+        <h2>The low-stress method</h2>
+        <p>Do not start by picking up a foot and cutting. Build the tolerance first, in short sessions, over a week or two.</p>
+        <p><strong>Step 1: handling.</strong> Touch each paw, hold it for two seconds, release, treat. Repeat until the dog stops pulling the foot away. Two minutes a day.</p>
+        <p><strong>Step 2: the tool.</strong> Show the clippers, touch them to the nail without cutting, treat. The sound matters — several dogs are more bothered by the click than the cut.</p>
+        <p><strong>Step 3: one nail.</strong> Cut a single nail, treat generously, stop for the day. One nail a day for a week is faster overall than a fight that ends the whole project.</p>
+        <p><strong>Step 4: build up.</strong> Two nails, then a paw, then all four. Treat after every paw, not just at the end.</p>
+        <p>Position matters too. For most dogs, the easiest is to have them standing on a non-slip surface with you beside or slightly behind, so you are not leaning over them. A nervous dog is often calmer on a table with a non-slip mat, at your chest height.</p>
+
+        <h2>How to cut</h2>
+        <p>Hold the paw firmly but not tightly. Place the blade across the nail at right angles to its length — not at an angle, which encourages splitting. Cut 1–2 mm at a time.</p>
+        <p>On a dog whose nails have not been trimmed in a long time, the quick will have grown out along the nail. You cannot take it all back in one session. Trim a little every one to two weeks and the quick recedes gradually — this takes two to three months, and it is the correct way to shorten a badly overgrown nail.</p>
+
+        <h2>If you cut the quick</h2>
+        <p>Stay calm — your reaction sets the dog's. Apply styptic powder or cornflour with firm pressure for 30 seconds. If you have neither, press a clean cloth firmly. It usually stops within a couple of minutes.</p>
+        <p>Do not panic and do not scold. Finish the session with a treat and stop for that day. A dog that has one bad experience and is forced through the rest of the nails will be harder next time.</p>
 
         <h2>How often</h2>
-        <p>Every two to three weeks keeps quicks short. Long nails push the quick out, so regular tiny trims are better than infrequent big ones.</p>
+        <p>Every two to four weeks for most dogs. A dog that walks a lot on pavement wears the front nails down and may need the dewclaws and rear nails done more often than the fronts. Dogs that walk mainly on grass or soft ground need all four feet done on schedule.</p>
+        <p>A useful test: stand the dog on a hard floor. If you can hear clicking, the nails are too long.</p>
+
+        <h2>Dogs that genuinely will not tolerate it</h2>
+        <p>Some dogs — often those with a history of a painful trim, or with nail-bed disease — will not accept clipping at home. Options that are better than a weekly fight:</p>
+        <ul>
+          <li><strong>Switch to a grinder.</strong> Many dogs that refuse clippers tolerate a grinder, because there is no sudden pressure.</li>
+          <li><strong>Ask a vet nurse.</strong> Most practices offer nail trims cheaply, and a trained handler can do in two minutes what takes an owner twenty.</li>
+          <li><strong>Ask about anxiety medication</strong> for pre-visit use if the dog is genuinely panicked. This is a legitimate welfare tool, not a last resort to be ashamed of.</li>
+          <li><strong>Scratch board.</strong> A board covered in coarse sandpaper, taught as a trick, files the front nails while the dog digs at it. It does not solve dewclaws, but it genuinely reduces the frequency of clipping.</li>
+        </ul>
         """,
         "faq": [
-            ("How often should I trim my dog's nails?", "Every two to three weeks. Regular short trims keep the quick receded and make each session easier."),
-            ("What if I cut the quick?", "Apply styptic powder or cornstarch to stop bleeding. It looks worse than it is; stay calm so your dog stays calm."),
-            ("My dog hates nail clippers — what then?", "Try a grinder or a scratchboard so the dog files its own nails. Pair any method with treats until it is routine."),
+            ("How often should I trim my dog's nails?", "Every two to four weeks for most dogs. If you can hear the nails clicking on a hard floor, they are too long."),
+            ("How do I find the quick on black nails?", "Cut 1–2 mm at a time and inspect the cut face. A chalky grey-white centre means continue slowly; a dark dot or pink tinge means stop."),
+            ("What happens if I cut the quick?", "It bleeds and hurts. Apply styptic powder or cornflour with firm pressure for 30 seconds, keep calm, and stop the session for that day."),
+            ("Can I use human nail clippers on a dog?", "No. They crush and split a dog's nail instead of cutting cleanly. Use scissor-style dog clippers or a rotary grinder."),
+            ("Are long nails bad for dogs?", "Yes. They push the toe joint upward on every step, altering gait and contributing to arthritis, and they can curl into the paw pad."),
+            ("Should I trim the dewclaws?", "Yes — they never touch the ground so they never wear down, and they are the nails most often forgotten and most likely to curl into the skin."),
+            ("My dog hates having its nails trimmed. What can I do?", "Build tolerance in stages: handle the paws, then touch the tool, then one nail a day with generous treats. Many dogs that refuse clippers accept a grinder."),
+            ("Can I shorten badly overgrown nails in one session?", "No. The quick grows out with the nail, so it has to recede gradually. Trim a little every one to two weeks over two to three months."),
         ],
         "related": ["how-to-brush-dog-teeth", "dog-ear-infection-symptoms", "how-to-leash-train-a-dog"],
         "sources": [
-            ("AKC — The Dos and Don'ts of Home Dog Grooming and Hygiene",
-             "https://www.akc.org/expert-advice/health/dog-grooming-at-home"),
-            ("Merck Veterinary Manual — Routine Care of Dogs",
-             "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("ASPCA — Dog Care",
              "https://www.aspca.org/pet-care/dog-care"),
+            ("Merck Veterinary Manual — Dog Owners",
+             "https://www.merckvetmanual.com/dog-owners"),
         ],
-        "disclaimer": "Grooming guidance only. Heavy bleeding or lameness after a trim should be checked by a vet.",
+        "disclaimer": "Care guidance only, not veterinary advice. Nails that are torn, infected, or growing into the paw pad need a vet.",
     },
+
     {
         "slug": "how-to-brush-dog-teeth",
         "pillar": "dog-care",
-        "title": "How to Brush Your Dog's Teeth (And Why It Matters)",
+        "title": "How to Brush a Dog's Teeth — A Step-by-Step Method",
         "url": "/dog-care/how-to-brush-dog-teeth/",
-        "description": "Brushing a dog's teeth prevents gum disease, the most common problem in adult dogs. A simple routine, how often to do it, and which toothpaste is safe.",
-        "lede": "Most adult dogs have some gum disease by age three. Two minutes of brushing most days prevents the pain, tooth loss, and cost that follow.",
+        "description": "Most dogs over three have dental disease. How to brush a dog's teeth without a fight: the right tools, a three-week training plan, and what actually works.",
+        "lede": "Daily brushing is the only proven way to prevent periodontal disease in dogs. Done in stages, most dogs accept it within three weeks.",
         "eyebrow": "DOG CARE",
         "body": """
-        <h2>Why it matters</h2>
-        <p>Plaque hardens into tartar within days. Under it, gums inflame and teeth loosen. Daily brushing is the only home step that reliably prevents it.</p>
+        <h2>Why this matters more than most owners think</h2>
+        <p>By around three years of age, the majority of dogs have some degree of periodontal disease. It is the most common disease in dogs, and it is almost entirely preventable with one daily habit.</p>
+        <p>The consequences are not cosmetic. Periodontal bacteria enter the bloodstream through inflamed gums and are associated with changes in the heart, kidneys and liver. A dog with painful gums often eats less, loses weight, and becomes withdrawn in ways owners attribute to ageing. Dental pain in dogs is chronically under-recognised because dogs do not stop eating until it is severe.</p>
+        <p>The good news: brushing works, and a dog can be trained to accept it at almost any age.</p>
 
-        <h2>The routine</h2>
+        <h2>The right tools</h2>
+        <table>
+          <thead><tr><th>Item</th><th>What to get</th><th>What to avoid</th></tr></thead>
+          <tbody>
+            <tr><td>Toothpaste</td><td>Dog-specific enzymatic paste — poultry or malt flavour</td><td><strong>Human toothpaste.</strong> Contains fluoride and often xylitol, both toxic to dogs, and the foaming agent makes them gag</td></tr>
+            <tr><td>Brush</td><td>Soft-bristled dog toothbrush, or a finger brush to start</td><td>Human medium or hard brushes — too coarse for a dog's gum line</td></tr>
+            <tr><td>Alternative</td><td>A soft gauze square wrapped round a finger works well for large dogs</td><td>Cotton buds — too small, and they push debris into the gum line</td></tr>
+          </tbody>
+        </table>
+        <p>Do not use bicarbonate of soda as a substitute paste. It is abrasive on enamel, and in quantity it disturbs the dog's acid-base balance. Dog toothpaste is cheap; human toothpaste is a poisoning risk.</p>
+
+        <h2>The three-week training plan</h2>
+        <p>Most brushing failures are not technique problems — they happen because the owner went from zero to a full brush in one session. Build it in stages, and stop each session while the dog is still comfortable.</p>
+        <table>
+          <thead><tr><th>Week</th><th>What you do</th><th>Session length</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Let the dog lick paste off your finger. Nothing else. Praise, finish.</td><td>10–20 seconds</td></tr>
+            <tr><td>2</td><td>Rub paste onto the outer surface of the canine teeth with a finger, then a finger brush</td><td>20–30 seconds</td></tr>
+            <tr><td>3</td><td>Introduce the brush, one or two strokes per side, then build up</td><td>30–60 seconds</td></tr>
+            <tr><td>Week 4+</td><td>Full brush, all outer surfaces</td><td>1–2 minutes</td></tr>
+          </tbody>
+        </table>
+        <p>Do this at a calm time, not when the dog is excited about a walk. Many owners find it easiest after the evening meal, when the dog is settled. Keep sessions short and end on success — a two-second session that goes well is worth more than a two-minute session that ends in a struggle.</p>
+
+        <h2>The technique</h2>
+        <p><strong>Angle.</strong> Hold the brush at about 45 degrees to the tooth, pointing toward the gum line. That is where plaque accumulates and where periodontal disease starts.</p>
+        <p><strong>Motion.</strong> Small circles along the gum line, then a sweep downward toward the tip of the tooth. Work in sections: back molars on one side, then the canines, then the incisors at the front.</p>
+        <p><strong>Focus on the outer surfaces.</strong> That is where plaque forms; the inner surfaces are cleaned largely by the tongue and are hard to reach without a fight. Brushing the outside well beats a stressful attempt at both.</p>
+        <p><strong>Do not force the mouth open.</strong> Lift the lip with one hand while supporting the head with the other. A dog that has its mouth held open will struggle; a dog whose lip is lifted usually will not.</p>
+        <div class="callout">If the gums bleed during brushing, do not stop — mild bleeding in an early-gum-disease dog usually improves within a week or two of daily brushing, because the inflammation is what is bleeding. Bleeding that gets worse, or that comes with a bad smell, needs a vet.</div>
+
+        <h2>How often is enough</h2>
+        <p>Daily is the target: plaque mineralises into tartar within about 24–48 hours, and once it hardens, brushing cannot remove it. Every other day is the realistic minimum for meaningful protection. Once a week is mostly symbolic — better than nothing, but not disease-preventing.</p>
+        <p>If your routine can only support three sessions a week, do three sessions, and add a dental chew on the other days. Partial protection is worth having.</p>
+
+        <h2>What else helps, and how much</h2>
+        <table>
+          <thead><tr><th>Method</th><th>Evidence</th><th>Reality</th></tr></thead>
+          <tbody>
+            <tr><td>Brushing</td><td>Strong</td><td>The reference standard</td></tr>
+            <tr><td>Dental chews with the VOHC seal</td><td>Moderate</td><td>Genuinely helps between brushings; check the calorie count</td></tr>
+            <tr><td>Dental diets</td><td>Moderate</td><td>Kibble designed to scrub; useful for dogs that will not tolerate brushing</td></tr>
+            <tr><td>Water additives</td><td>Weak to moderate</td><td>Some help; a dog that drinks little gets little benefit</td></tr>
+            <tr><td>Raw bones</td><td>Mixed</td><td>Can clean teeth but carry fracture and bacterial risks — not a recommendation</td></tr>
+            <tr><td>Antlers and hard nylon</td><td>None</td><td>High slab-fracture risk on the carnassial teeth. Avoid</td></tr>
+          </tbody>
+        </table>
+        <p>Look for the VOHC (Veterinary Oral Health Council) seal on chews and diets. It means the product has been tested against a standard, which most dental products have not.</p>
+
+        <h2>Professional cleaning, and the anaesthesia question</h2>
+        <p>Brushing prevents disease; it does not remove tartar that has already formed. A dog with visible tartar, inflamed gums or bad breath needs a professional scale and polish, and that requires general anaesthesia — the cleaning has to go under the gum line, which cannot be done on a conscious dog.</p>
+        <p><strong>Avoid "anaesthesia-free dental cleaning".</strong> It is offered widely and it is a bad deal: only the visible crown surface can be scaled, the subgingival deposits that cause disease are untouched, and the process often damages the enamel. Worse, it creates the impression that the mouth has been treated, which delays the procedure that would actually help. The American Veterinary Dental College advises against it.</p>
+
+        <h2>Warning signs that need a vet, not a brush</h2>
         <ul>
-          <li>Use dog toothpaste only — human paste foams and can upset the stomach.</li>
-          <li>Let your dog lick the paste first so the brush is no surprise.</li>
-          <li>Lift the lip and brush the outer surfaces in small circles; most dogs never need the inside.</li>
+          <li>Persistent bad breath that returns quickly after brushing.</li>
+          <li>Gums that are red, swollen, or bleeding spontaneously.</li>
+          <li>Loose teeth, or a tooth that has changed colour.</li>
+          <li>Chewing on one side, dropping food, or refusing hard food.</li>
+          <li>Pawing at the mouth or rubbing the face on furniture.</li>
+          <li>Swelling under the eye — a tooth-root abscess can drain there.</li>
+          <li>Sudden refusal to eat, with drooling.</li>
         </ul>
-        <div class="callout">Start by just touching the teeth with a finger, then a finger brush, then a soft brush. Build over a week so it stays calm, not a wrestle.</div>
-
-        <h2>If brushing is impossible</h2>
-        <p>Dental chews, prescription diets, and water additives help but do not replace brushing. Professional cleanings under anesthesia handle established tartar.</p>
-
-        <h2>How often</h2>
-        <p>Ideally daily; even three times a week cuts disease risk sharply versus never.</p>
         """,
         "faq": [
-            ("Can I use human toothpaste on my dog?", "No — use dog toothpaste. Human paste foams and can upset a dog's stomach if swallowed."),
-            ("How often should I brush my dog's teeth?", "Daily is best; three times a week still helps a lot versus not brushing at all."),
-            ("What if my dog won't let me brush?", "Ease in over a week with a finger and dog paste, then a soft brush. Dental chews are a partial backup."),
+            ("How often should I brush my dog's teeth?", "Daily is ideal — plaque hardens into tartar within 24–48 hours. Every other day is the realistic minimum for disease prevention. Once a week offers little protection."),
+            ("Can I use human toothpaste on my dog?", "No. Human toothpaste contains fluoride and often xylitol, both toxic to dogs, and the foaming agent makes them gag. Use dog-specific enzymatic paste."),
+            ("What if my dog won't let me brush its teeth?", "Build it in stages over three weeks: paste on a finger, then a finger brush, then a soft brush, keeping each session under 30 seconds at first. End on success rather than pushing through resistance."),
+            ("Do dental chews replace brushing?", "No, but VOHC-approved chews help between brushings. They are a supplement to brushing, not a replacement."),
+            ("Why do my dog's gums bleed when I brush?", "Mild bleeding from inflamed gums usually improves within a week or two of daily brushing. Bleeding that worsens, or comes with a bad smell, needs a vet."),
+            ("Is anaesthesia-free teeth cleaning safe?", "It is not recommended. It only cleans the visible crown, leaves the disease-causing deposits under the gum line, and can damage enamel while creating a false sense of security."),
+            ("How do I know if my dog has dental disease?", "Bad breath, red or bleeding gums, tartar on the teeth, chewing on one side, dropping food, or pawing at the mouth. Most dogs over three have some degree of it."),
+            ("Can puppies have their teeth brushed?", "Yes — start early with a finger and paste so the habit forms before the adult teeth arrive. Puppies lose their baby teeth around 4–6 months, so keep sessions gentle during that period."),
         ],
-        "related": ["how-to-trim-dog-nails", "dog-ear-infection-symptoms", "dog-not-eating-but-drinking-water"],
+        "related": ["how-to-trim-dog-nails", "how-much-to-feed-my-dog", "dog-ear-infection-symptoms"],
         "sources": [
-            ("AKC — The Dos and Don'ts of Home Dog Grooming and Hygiene",
-             "https://www.akc.org/expert-advice/health/dog-grooming-at-home"),
-            ("Merck Veterinary Manual — Routine Health Care of Dogs",
-             "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/routine-health-care-of-dogs"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Dog Owners: Digestive Disorders",
+             "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs"),
             ("ASPCA — Dog Care",
              "https://www.aspca.org/pet-care/dog-care"),
         ],
-        "disclaimer": "Dental care guidance only. Bad breath with red gums may indicate disease needing a professional cleaning.",
+        "disclaimer": "Care guidance only, not veterinary advice. Bad breath, bleeding gums, loose teeth or facial swelling need a veterinary dental examination.",
     },
+
 
     # ---------------- Cat care ----------------
     {
