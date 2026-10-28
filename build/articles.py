@@ -1416,23 +1416,59 @@ ARTICLES = [
         "eyebrow": "DOG NUTRITION",
         "body": """
         <h2>Are strawberries good for dogs?</h2>
-        <p>Fresh strawberries bring vitamin C, fiber, and antioxidants with very few calories — a good sweet treat for dogs watching their weight.</p>
+        <p>Fresh strawberries bring vitamin C, fiber, and antioxidants with very few calories — around 32 kcal per 100 g — which makes them one of the better sweet treats for a dog that is watching its weight. A dog that will not touch a carrot will often take a strawberry.</p>
+        <p>They are not, however, a food. Strawberries supply almost no protein, no fat and no calcium, and a dog's diet has to be built on a complete food. Think of them as a treat that happens to be healthier than most, not as something to add to the bowl for nutrition's sake.</p>
 
-        <h2>How to serve them</h2>
-        <ul>
-          <li>Wash well and hull them. Slice for small dogs.</li>
-          <li>A few berries for a small dog; a small handful for a large one.</li>
-          <li>Offer them plain — no syrup, whipped cream, or sugar.</li>
-        </ul>
-        <div class="callout">Skip strawberry-flavored products and desserts; the added sugar and xylitol risk are not worth it. A mashed berry can also be frozen for a cooling chew.</div>
+        <h2>How many strawberries can a dog have?</h2>
+        <p>Because strawberries are so low in calories, the limit is not really about calories — it is about sugar load and about how much fiber a small gut can handle at once. Too many in one sitting produces loose stool, which is the most common complaint owners report.</p>
+        <table>
+          <tr><th style="text-align:left">Dog size</th><th style="text-align:left">Berries per day</th><th style="text-align:left">Preparation</th></tr>
+          <tr><td>Toy breeds (under 5 kg)</td><td>1–2</td><td>Cut into quarters; a whole berry is a choking shape for a small throat</td></tr>
+          <tr><td>Small (5–10 kg)</td><td>2–3</td><td>Halved</td></tr>
+          <tr><td>Medium (10–25 kg)</td><td>3–5</td><td>Halved or whole</td></tr>
+          <tr><td>Large (25 kg and up)</td><td>5–8</td><td>Whole is fine</td></tr>
+        </table>
+        <div class="callout"><b>The 10% rule still applies.</b> Treats should stay under a tenth of a dog's daily calories. Strawberries rarely threaten that ceiling, but the cream, the jam and the peanut butter they are often served with do.</div>
 
-        <h2>When to skip</h2>
-        <p>Diabetic dogs should avoid the extra sugar. Stop if your dog gets an upset stomach after eating them.</p>
+        <h2>Wash them properly — strawberries are a high-residue crop</h2>
+        <p>Strawberries are grown close to the ground, picked by hand and eaten with the skin on, which is why they consistently appear near the top of pesticide-residue monitoring lists. That residue sits on the outside, exactly the part the dog eats.</p>
+        <p>The method that works: rinse under running water for about 15 seconds, rub gently, and <b>do not hull them until after washing</b>. Pulling the green top off first opens a channel into the flesh and the berry takes up water, which dulls flavour and does nothing for cleanliness. Soaking in a bowl of water is less effective than running water, and soap or vinegar soaks are not recommended for anything a dog will eat.</p>
+        <p>Organic berries reduce the concern but still need rinsing — soil and handling are the other reason to wash.</p>
+
+        <h2>What about the green tops and leaves?</h2>
+        <p>The calyx — the green leafy top — is not toxic to dogs. It is also not worth feeding: it is tough, bitter, and it is where residue and grit collect. Hull the berry and throw the top away.</p>
+        <p>One genuine caution belongs here. Wild berries picked on a walk are a different matter from shop-bought ones. Unfamiliar red berries in a hedge or park may be a non-toxic lookalike, or may not be — and the bigger risk is a park hedge that has been sprayed. Keep foraging dogs away from unidentified fruit, and if you think a dog has eaten something unknown, call a vet rather than waiting for symptoms.</p>
+
+        <h2>Fresh, frozen or dried: which is safe?</h2>
+        <p><b>Fresh.</b> The default. Wash, hull, cut to size, serve plain.</p>
+        <p><b>Frozen.</b> Plain frozen berries are fine and keep most of the vitamin C. They make a good cooling chew in summer, but serve them one or two at a time — a dog that swallows a frozen whole berry too fast can gulp air and vomit. Letting them soften for a couple of minutes is the safer version for small dogs.</p>
+        <p><b>Dried.</b> This is where it goes wrong. Drying concentrates the sugar several-fold and the pieces are small enough to be eaten by the handful. Dried fruit also clings to teeth. If you feed dried strawberries at all, treat three dried pieces as equal to one fresh berry.</p>
+        <p><b>Flavoured, jam, yoghurt, ice cream.</b> No. These carry added sugar, and some sugar-free products are sweetened with xylitol, which is severely toxic to dogs even in small amounts. Strawberry-flavoured dog chews are a separate category — read the label rather than assuming the flavour is real fruit.</p>
+
+        <h2>When strawberries are the wrong choice</h2>
+        <p><b>Diabetic dogs.</b> Strawberries are lower in sugar than most fruit — roughly 5 g per 100 g, about half that of an apple — but they are still sugar, and a dog on insulin needs the carbohydrate counted rather than guessed. Ask the vet for an allowance.</p>
+        <p><b>Dogs with a sensitive gut.</b> Fiber and seeds can loosen stool. Introduce one berry, wait a day, then increase.</p>
+        <p><b>Dogs that have just had surgery or anaesthesia.</b> Fruit is not the issue; the point is that any change to the diet during recovery muddies the picture if something goes wrong. Keep it boring for a few days.</p>
+        <p><b>Dogs with a history of pancreatitis.</b> Strawberries themselves are low in fat, so they are not the trigger — but the whipped cream and the peanut butter dip that usually accompany them are.</p>
+
+        <h2>Three ways to serve them that dogs actually use</h2>
+        <p><b>1. Frozen strawberry and yoghurt bites.</b> Mash plain berries into a spoon of plain unsweetened yoghurt, freeze in an ice-cube tray. A cooling chew that lasts minutes instead of seconds.</p>
+        <p><b>2. Mashed over food.</b> For a dog that has gone off its bowl, a mashed berry stirred through the top adds smell without adding much. Do not replace the meal — just scent it.</p>
+        <p><b>3. Training treat for a soft mouth.</b> Halved berries are low-value enough to be repeated ten times in a session without wrecking the calorie budget, which makes them useful for puppies still learning to take treats gently.</p>
+
+        <h2>What to watch for afterwards</h2>
+        <p>The usual reaction to too many berries is loose stool within 12 to 24 hours, sometimes with visible seeds. It settles on its own once the berries stop. Vomiting, abdominal pain, or a dog that goes off its food are not normal responses to a strawberry and point to something else — call the vet.</p>
+        <p>True strawberry allergy in dogs is uncommon. If you see itching, hives, facial swelling, or breathing difficulty within a couple of hours of eating, stop feeding them and have it recorded.</p>
         """,
         "faq": [
-            ("How many strawberries can a dog eat?", "A few for small dogs, a small handful for large dogs, and only as an occasional treat."),
-            ("Can dogs eat frozen strawberries?", "Yes — plain, washed, frozen berries make a cooling summer treat."),
-            ("Are strawberry tops safe for dogs?", "The green tops are not toxic, but most dogs prefer the fruit; remove them if your dog is a picky eater."),
+            ("How many strawberries can a dog eat?", "One to two for a toy breed, two to three for a small dog, three to five for a medium dog, and five to eight for a large dog, per day. Cut them small for small mouths — a whole berry is a choking shape for a toy breed."),
+            ("Can dogs eat frozen strawberries?", "Yes, plain frozen berries are safe and keep most of their vitamin C. Serve one or two at a time and let them soften slightly for small dogs, since a frozen whole berry can be swallowed too fast."),
+            ("Are strawberry tops safe for dogs?", "The green tops are not toxic, but they are tough, bitter and collect grit and residue. Hull the berry and discard the top rather than feeding it."),
+            ("Can dogs eat dried strawberries?", "Only in very small amounts. Drying concentrates the sugar several-fold and makes the pieces easy to eat by the handful. Treat three dried pieces as roughly equal to one fresh berry."),
+            ("Can a diabetic dog eat strawberries?", "Only with a vet's allowance. At about 5 g of sugar per 100 g they are lower than most fruit — roughly half an apple — but a dog on insulin needs carbohydrate counted rather than estimated."),
+            ("Do I need to wash strawberries before giving them to my dog?", "Yes, every time. Rinse under running water for about 15 seconds and rub gently, and do not pull the green top off until after washing — hulling first lets the berry take up water."),
+            ("Can puppies eat strawberries?", "Yes, in very small amounts once they are on solid food. One halved berry is plenty for a puppy, and it should not displace any of their growth diet."),
+            ("Can I put strawberries in my dog's food bowl?", "A mashed berry on top of the usual food is fine as a scent topper for a fussy eater. Do not use fruit to bulk out a meal — the bowl still has to be a complete diet."),
         ],
         "related": ["can-dogs-eat-bananas", "can-dogs-eat-watermelon", "foods-toxic-to-dogs"],
         "sources": [
@@ -1440,11 +1476,20 @@ ARTICLES = [
              "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("USDA FoodData Central — Nutrient values",
+             "https://fdc.nal.usda.gov/"),
+            ("Pet Poison Helpline — Xylitol",
+             "https://www.petpoisonhelpline.com/poison/xylitol/"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The nutrition team at the American Kennel Club",
+        ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-grapes",
         "pillar": "dog-nutrition",
