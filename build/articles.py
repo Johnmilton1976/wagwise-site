@@ -4640,47 +4640,103 @@ ARTICLES = [
         "pillar": "cat",
         "title": "Why Does My Cat Meow at Night — and How to Make It Stop",
         "url": "/cat/why-does-my-cat-meow-at-night/",
-        "description": "Cats are wired for dawn and dusk, not for your sleep schedule. The real causes of night-time meowing, the evening routine that works, and when it means illness.",
+        "description": "Why does my cat meow at night? The causes by age, the four night calls and what each means, the evening routine that works, and the illnesses to rule out first.",
         "lede": "A cat yelling at your bedroom door at 3 a.m. is not being difficult. The cause is usually energy, hunger, or a habit you accidentally trained — and the fix is a routine, not a punishment.",
         "eyebrow": "CAT CARE",
         "body": """
         <h2>Cats are crepuscular, not nocturnal</h2>
-        <p>Cats are most active at dawn and dusk — the hunting hours of their wild ancestors. An indoor cat that slept all day and got no exercise while you were at work is wide awake exactly when you are falling asleep. Some night noise is therefore normal; the goal is to move it, not to erase it.</p>
+        <p>Cats are most active at dawn and dusk — the hunting hours of their wild ancestors. A cat that slept all day and got no exercise while you were at work is wide awake exactly when you are falling asleep. Some night noise is therefore normal; the goal is to move it, not to erase it.</p>
+        <p>This matters for the plan below. You are not trying to switch a nocturnal animal to your schedule. You are trying to shift two peaks of activity — dawn and dusk — so that the dawn peak lands after your alarm rather than at 4 a.m.</p>
+
+        <h2>Start with the sound: four night calls</h2>
+        <p>Owners who say "my cat won't stop meowing at night" are usually describing one of four different sounds. They need different responses, and treating them all the same is why most behaviour plans fail.</p>
+        <table>
+          <tr><th style="text-align:left">What you hear</th><th style="text-align:left">What it usually means</th><th style="text-align:left">First thing to try</th></tr>
+          <tr><td>Short, repeated meow at the bedroom door</td><td>A request — food, company, an open door</td><td>Full evening routine below; then stop responding</td></tr>
+          <tr><td>Long, drawn-out yowl, often while walking around</td><td>Disorientation, pain, or hormonal calling</td><td>Vet check; if unneutered, neutering</td></tr>
+          <tr><td>Loud calling that started in the last few weeks</td><td>Usually medical — thyroid, blood pressure, pain</td><td>Book a vet visit before any behaviour plan</td></tr>
+          <tr><td>Chirping or trilling at a window</td><td>Prey drive — a moth, a bird, another cat outside</td><td>Close the blind. This one is harmless</td></tr>
+        </table>
+        <div class="callout">If the call is new and your cat is over seven, skip straight to the vet section. A cat that never called at night and suddenly does is reporting a change in its body, not asking for attention.</div>
+
+        <h2>Age changes the answer</h2>
+        <p>The same 3 a.m. meow has completely different likely causes in a one-year-old and a fourteen-year-old. Sort your cat into one of these three groups before you pick a plan.</p>
+        <table>
+          <tr><th style="text-align:left">Age</th><th style="text-align:left">Most likely causes, in order</th><th style="text-align:left">What works</th></tr>
+          <tr><td>Under 1 year (kitten)</td><td>Leftover energy; hunger; teething discomfort</td><td>Three or four short play sessions a day, not just one at night. Kittens genuinely need more play than adults</td></tr>
+          <tr><td>1–7 years (adult)</td><td>A habit that has been rewarded; boredom; a long gap between dinner and breakfast</td><td>Evening routine plus a timed feeder. This is the group that improves fastest</td></tr>
+          <tr><td>7 years and over (senior)</td><td>Medical first — thyroid, blood pressure, kidney, joint pain, cognitive change — then hunger or habit</td><td>Vet visit and bloodwork before any training. Behaviour work comes after the medical picture is clear</td></tr>
+        </table>
 
         <h2>The usual suspects</h2>
         <ul>
-          <li>Leftover energy with nowhere to go — especially in kittens and young adults.</li>
-          <li>Hunger — a cat fed dinner at 6 p.m. is genuinely starving by morning, and learns that calling works.</li>
-          <li>Trained behavior — if meowing has ever gotten food, a door opened, or even a scolding, it was rewarded. Attention of any kind counts.</li>
-          <li>Unneutered cats yowl to find mates; outdoor cats visible through the window can trigger territory calling.</li>
+          <li><strong>Leftover energy with nowhere to go</strong> — especially in kittens and young adults. A cat that slept 16 hours has a full tank at midnight.</li>
+          <li><strong>Hunger</strong> — a cat fed dinner at 6 p.m. is genuinely hungry by 4 a.m., and learns very quickly that calling brings a person with a bowl.</li>
+          <li><strong>Trained behaviour</strong> — if meowing has ever produced food, an open door, or even a scolding, it was rewarded. Attention of any kind counts, including negative attention.</li>
+          <li><strong>Boredom in a single-room flat</strong> — nothing to climb, nothing to watch, nothing to hunt. Vertical space and a window with a view do more than most toys.</li>
+          <li><strong>Unneutered cats</strong> yowl to find mates, and an outdoor cat visible through the window can trigger territory calling that has nothing to do with you.</li>
         </ul>
 
         <h2>The evening routine that works</h2>
-        <p>Cats run on a natural cycle: hunt, catch, kill, eat, groom, sleep. You can borrow it:</p>
-        <ul>
-          <li><strong>Play hard before bed</strong> — 10 to 15 minutes with a wand toy, enough to actually tire them, ideally twice in the evening.</li>
-          <li><strong>Feed the main meal after play</strong> — a full belly after a "hunt" is the natural signal to sleep.</li>
-          <li><strong>Leave quiet enrichment</strong> — a puzzle feeder, a scratching post, a box. Not string or feather toys unsupervised.</li>
-          <li><strong>Then hold the line</strong> — if they call at 3 a.m. and you feed them, you have taught them to call louder and longer. Check they are safe, then ignore it. Expect a few worse nights first.</li>
-        </ul>
-        <div class="callout">An automatic feeder that opens at 5 a.m. breaks the link between <em>you</em> and breakfast — the single most effective fix for food-driven dawn calling.</div>
+        <p>Cats run on a natural cycle: hunt, catch, kill, eat, groom, sleep. You can borrow it. The sequence matters more than the exact clock times, but keeping them steady is what builds the habit.</p>
+        <table>
+          <tr><th style="text-align:left">Time</th><th style="text-align:left">What you do</th><th style="text-align:left">Why</th></tr>
+          <tr><td>Early evening</td><td>10–15 minutes with a wand toy, worked hard</td><td>Burns the energy that would otherwise arrive at 3 a.m.</td></tr>
+          <tr><td>Before bed</td><td>A second, shorter play session</td><td>Two peaks in the evening beat one long one</td></tr>
+          <tr><td>Right after play</td><td>The main meal of the day</td><td>Hunt then eat then groom then sleep is the natural order</td></tr>
+          <tr><td>After the meal</td><td>Quiet enrichment — puzzle feeder, box, scratching post</td><td>Gives a second outlet without waking you</td></tr>
+          <tr><td>Lights out</td><td>Nothing. No response to calling</td><td>Every response, including "be quiet", restarts the habit</td></tr>
+        </table>
+        <div class="callout">An automatic feeder that opens at 5 a.m. breaks the link between <em>you</em> and breakfast — the single most effective fix for food-driven dawn calling. It also removes you from the equation entirely, which is the point.</div>
 
         <h2>When night meowing means illness</h2>
-        <p>A sudden change — a cat that never called at night now yowling loudly — deserves a vet visit before any behavior plan. In cats over about seven, increased night-time vocalizing is a classic sign of an overactive thyroid, high blood pressure, kidney disease, joint pain, or age-related cognitive decline (confusion and changed sleep-wake cycles). These are common in older cats and most are treatable, so do not write it off as "just getting old".</p>
+        <p>A sudden change — a cat that never called at night now yowling loudly — deserves a vet visit before any behaviour plan. In cats over about seven, increased night-time vocalising is a recognised sign of several treatable conditions. These are the ones a vet will typically work through:</p>
+        <ul>
+          <li><strong>An overactive thyroid (hyperthyroidism).</strong> One of the most common hormone problems in older cats. Look for a cat that eats well or even more than usual but still loses weight, seems restless or irritable, and calls at night. It is manageable, usually with medication or a special diet.</li>
+          <li><strong>High blood pressure.</strong> Often secondary to thyroid or kidney disease. It can damage the eyes, and a sudden loss of vision may show up first as a cat that cries in the dark or seems disoriented at night.</li>
+          <li><strong>Chronic kidney disease.</strong> Drinking more, urinating more, losing weight, dull coat, bad breath. Cats with kidney disease often feel worse at night and become more vocal.</li>
+          <li><strong>Joint pain and arthritis.</strong> Very common in older cats and easy to miss, because cats hide it. Signs include hesitating before jumping, sleeping in different places, and yowling when getting up.</li>
+          <li><strong>Cognitive dysfunction.</strong> The cat equivalent of age-related dementia: night-time wandering, calling at walls, forgetting the litter tray, and a flipped sleep-wake cycle.</li>
+          <li><strong>Dental or stomach pain.</strong> A cat with a painful mouth may eat reluctantly, chew on one side, drool, or call after eating.</li>
+        </ul>
+        <p>At the appointment, ask specifically about these five checks — it is worth naming them rather than describing the meowing alone:</p>
+        <table>
+          <tr><th style="text-align:left">Check</th><th style="text-align:left">What it rules in or out</th></tr>
+          <tr><td>Full physical exam with weight compared to last visit</td><td>Weight loss, dental pain, joint stiffness, an enlarged thyroid</td></tr>
+          <tr><td>Blood panel including T4 and kidney values</td><td>Hyperthyroidism, kidney disease, diabetes</td></tr>
+          <tr><td>Blood pressure measurement</td><td>Hypertension — easy to miss, treatable, protects the eyes</td></tr>
+          <tr><td>Urine test</td><td>Kidney function, diabetes, urinary infection</td></tr>
+          <tr><td>X-ray or ultrasound if indicated</td><td>Arthritis, abdominal pain, masses</td></tr>
+        </table>
+
+        <h2>What to expect in the first two weeks</h2>
+        <p>Changing the routine usually makes things worse before they get better. This is normal and it is the point where most owners give up.</p>
+        <ul>
+          <li><strong>Nights 1–3:</strong> louder, longer calling. The behaviour that used to work has stopped working, so the cat tries harder. This is often called an extinction burst.</li>
+          <li><strong>Nights 4–7:</strong> the calling gets shorter and less frequent, then starts to shift towards dawn.</li>
+          <li><strong>Week 2:</strong> the new pattern settles, provided everyone in the house holds the same line. One person feeding at 3 a.m. resets the whole thing.</li>
+          <li><strong>No improvement after two weeks:</strong> stop and go back to the medical section. A behaviour plan cannot fix a thyroid.</li>
+        </ul>
 
         <h2>What not to do</h2>
         <ul>
-          <li>Do not punish — yelling or spraying frightens the cat and still counts as attention, so it reinforces the noise.</li>
-          <li>Do not give in "just once" — intermittent rewards are the strongest kind for building a habit.</li>
-          <li>Do not assume all meowing is misbehavior — a new, distressed-sounding call in an older cat is information, not nuisance.</li>
+          <li><strong>Do not punish.</strong> Yelling or spraying frightens the cat and still counts as attention, so it reinforces the noise.</li>
+          <li><strong>Do not give in "just once".</strong> Intermittent rewards are the strongest kind for building a habit — one exception can undo a week.</li>
+          <li><strong>Do not lock the cat in a room or a carrier at night.</strong> It increases distress and often produces louder calling plus scratching at the door.</li>
+          <li><strong>Do not assume all meowing is misbehaviour.</strong> A new, distressed-sounding call in an older cat is information about its health, not a nuisance to be trained away.</li>
         </ul>
         """,
         "faq": [
-            ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check needs are met, then stop responding, and keep a hard play session and late meal before your bedtime."),
-            ("Should I just ignore a cat meowing at night?", "If the behavior is a learned request and the cat is safe, yes — responding rewards it. But a sudden change in a cat that never called before, especially over age seven, needs a vet check first."),
-            ("Why is my old cat yowling loudly at night?", "In senior cats, night yowling often signals an overactive thyroid, high blood pressure, kidney disease, or cognitive decline. Most causes are treatable — see the vet, do not dismiss it as old age."),
+            ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check that needs are met, then stop responding, and keep a hard play session and a late meal before your bedtime."),
+            ("Should I just ignore a cat meowing at night?", "If the behaviour is a learned request and the cat is safe, yes — responding rewards it. But a sudden change in a cat that never called before, especially over age seven, needs a vet check first."),
+            ("Why is my old cat yowling loudly at night?", "In senior cats, night yowling often signals an overactive thyroid, high blood pressure, kidney disease, joint pain, or cognitive decline. Most causes are treatable — see the vet, and do not dismiss it as old age."),
+            ("Why does my cat meow at night but sleep all day?", "Because cats are crepuscular, not nocturnal — their natural peaks are dawn and dusk. A cat left alone all day sleeps through it and then has a full tank of energy at night. The fix is daytime enrichment plus an evening play-and-feed routine."),
+            ("Will neutering stop my cat yowling at night?", "If the calling is hormonal, yes — neutering usually stops mating-related yowling within a few weeks. It will not fix night calling caused by hunger, boredom, or illness, so rule those out separately."),
+            ("Should I let my cat sleep in my bedroom?", "That is a preference, not a rule. If the cat settles quietly, there is no harm. If it wakes you repeatedly, a closed door with a full evening routine is kinder than an inconsistent door that opens sometimes."),
+            ("Will an automatic feeder really help?", "For food-driven early-morning calling, it is the single most effective change, because it removes you from the equation. Set it a few minutes earlier than the current waking time, then shift it later by ten minutes every few days."),
+            ("Is it cruel to ignore a cat crying at night?", "Not if its needs are met and it is healthy. Ignoring a learned request is different from ignoring distress — which is why a sudden change in an older cat should go to the vet rather than be ignored."),
         ],
-        "related": ["cat-hairballs", "cat-litter-training", "cat-spraying-how-to-stop"],
+        "related": ["cat-hairballs", "cat-litter-training", "cat-spraying-how-to-stop", "cat-scratching-furniture"],
         "sources": [
             ("Cats Protection — Cats at Night",
              "https://www.cats.org.uk/help-and-advice/home-and-environment/cats-at-night"),
@@ -4688,10 +4744,19 @@ ARTICLES = [
              "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
             ("Merck Veterinary Manual — Behavior of Cats",
              "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
+            ("Cornell Feline Health Center — Cat Health Topics",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
+            ("International Cat Care — Cat Advice",
+             "https://icatcare.org/cat-advice"),
         ],
-        "checked": "2026-10-17",
+        "experts": [
+            "The feline health team at Cornell University's College of Veterinary Medicine",
+            "The veterinary advisors at International Cat Care",
+        ],
+        "checked": "2026-10-28",
         "disclaimer": HEALTH_DISCLAIMER,
     },
+
 ]
 
 # ---------------------------------------------------------------------------
