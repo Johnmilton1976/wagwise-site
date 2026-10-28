@@ -540,42 +540,92 @@ ARTICLES = [
         "lede": "The most dangerous are chocolate, grapes and raisins, onions and garlic, xylitol (in sugar-free gum), and alcohol. Even small amounts can be serious for a small dog.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>The big ones to never feed</h2>
-        <ul>
-          <li><strong>Chocolate</strong> — the darker it is, the worse. Causes heart rhythm problems.</li>
-          <li><strong>Grapes and raisins</strong> — can trigger sudden kidney failure, even a few.</li>
-          <li><strong>Onions and garlic</strong> — damage red blood cells; toxic in quantity.</li>
-          <li><strong>Xylitol</strong> — sugar-free gum and peanut butter; causes crashing blood sugar and liver injury.</li>
-          <li><strong>Alcohol and raw dough</strong> — even small amounts are dangerous.</li>
-        </ul>
-        <div class="callout warn">If your dog eats chocolate, grapes, xylitol, or anything on this list, call a vet or poison line right away. Do not wait for symptoms.</div>
+        <h2>The four tiers, in one table</h2>
+        <p>Most "toxic food" lists are a flat alphabetical dump, which is not how an owner needs the information at 10pm. What matters is how fast you have to act. These four tiers sort the same foods by the decision they trigger, and every item links to a full write-up with doses and symptoms.</p>
+        <table>
+          <tr><th style="text-align:left">Tier</th><th style="text-align:left">Foods</th><th style="text-align:left">What it means</th></tr>
+          <tr><td><b>1. Never — call the vet</b></td><td>Chocolate, grapes and raisins, onions, garlic, xylitol, alcohol, caffeine, macadamia nuts, raw yeast dough</td><td>Any amount in a small dog is a phone call at minimum. Several are emergencies regardless of dose.</td></tr>
+          <tr><td><b>2. High risk — depends on dose</b></td><td>Avocado, cherry and peach and plum stones, walnuts, potato (raw or green), tomato leaves, salt, cooked bones</td><td>Often survivable, sometimes not. The dose and the size of the dog decide it.</td></tr>
+          <tr><td><b>3. Caution — small amounts only</b></td><td>Milk, cheese, ice cream, ham, honey, bread, popcorn, corn on the cob, almonds, spinach, salmon, shrimp, eggs</td><td>Not poisonous, but fat, salt, lactose or a physical hazard. Measure rather than guess.</td></tr>
+          <tr><td><b>4. Safe in moderation</b></td><td>Apples, bananas, blueberries, strawberries, watermelon, pumpkin, sweet potato, rice, cucumber, broccoli, green beans, pineapple, mango, peas, carrots, plain yoghurt, plain peanut butter, cooked chicken</td><td>Fine as treats, inside the 10% calorie budget, prepared correctly.</td></tr>
+        </table>
 
-        <h2>Usually fine in small amounts</h2>
-        <p>Plain cooked chicken, rice, carrots, and apples (no seeds) are safe treats. The danger list above is the one to memorize.</p>
+        <h2>Tier 1 in detail — the ones that actually kill</h2>
+        <p><b>Chocolate.</b> The toxin is theobromine and the dose is everything. Roughly: white chocolate 0.25 mg per gram, milk chocolate 2.4, dark chocolate 5 to 6, unsweetened baking chocolate 16 to 26, cocoa powder around 26 mg per gram. Signs start at about 20 mg per kg of body weight, heart rhythm problems appear around 40 to 50, and seizures above 60. A 10 kg dog eating 100 g of dark chocolate takes in roughly 550 mg — 55 mg per kg, squarely in the cardiac range. The same weight of milk chocolate lands at 24 mg per kg: upset stomach territory, not emergency territory. That gap is why "how much chocolate" has no single answer, and why the calculator matters more than the rule.</p>
+        <p><b>Grapes and raisins.</b> No known safe dose. The mechanism is still unidentified, and individual dogs vary enormously — some eat a handful with no effect, others go into kidney failure from a few. Because the sensitivity cannot be predicted, any ingestion is treated as serious. Raisins are worse by weight, since drying concentrates whatever the toxin is.</p>
+        <p><b>Xylitol.</b> A sugar alcohol in sugar-free gum, some mints, some peanut butters and an increasing number of "no added sugar" products. About 0.1 g per kg causes dangerous hypoglycaemia within 30 minutes; around 0.5 g per kg brings liver injury into play. For a 10 kg dog, that first threshold is one gram — less than a single stick of gum.</p>
+        <p><b>Onions and garlic.</b> Both damage red blood cells; garlic is the more concentrated of the two. A single large ingestion causes haemolytic anaemia, but repeated small amounts in leftovers do the same thing slowly, which is how it is usually missed. Signs can take days to appear — pale gums, weakness, dark urine.</p>
+        <p><b>Alcohol and raw dough.</b> Ethanol is ethanol whatever the source. Bread dough is a double problem: it rises in the warm stomach and distends it, and it ferments into alcohol while it sits there. A dog that ate dough is both bloated and drunk.</p>
 
-        <h2>What to do in an emergency</h2>
-        <ul>
-          <li>Note what and how much was eaten, and your dog's weight.</li>
-          <li>Call your vet or an animal poison hotline with those details.</li>
-          <li>Do not induce vomiting unless a professional tells you to.</li>
-        </ul>
+        <h2>The dose that matters: a reference table</h2>
+        <table>
+          <tr><th style="text-align:left">Substance</th><th style="text-align:left">Threshold for concern</th><th style="text-align:left">First signs</th></tr>
+          <tr><td>Chocolate (theobromine)</td><td>20 mg/kg mild, 40–50 mg/kg cardiac, 60+ seizures</td><td>Vomiting, restlessness, racing heart</td></tr>
+          <tr><td>Xylitol</td><td>0.1 g/kg hypoglycaemia, 0.5 g/kg liver</td><td>Wobbling, weakness, collapse within 30 min</td></tr>
+          <tr><td>Grapes and raisins</td><td>No known safe dose</td><td>Vomiting, then lethargy 12–24 h later</td></tr>
+          <tr><td>Onion and garlic</td><td>Large single dose, or repeated small amounts</td><td>Pale gums, weakness, dark urine after 2–5 days</td></tr>
+          <tr><td>Alcohol</td><td>Roughly 5.5 g/kg is life-threatening</td><td>Wobbling, vomiting, low body temperature</td></tr>
+          <tr><td>Caffeine</td><td>20 mg/kg signs, 140 mg/kg severe</td><td>Restlessness, panting, tremors</td></tr>
+          <tr><td>Macadamia nuts</td><td>Around 2 g/kg</td><td>Hind-leg weakness, tremors, fever</td></tr>
+        </table>
+
+        <h2>The eight symptoms that mean poisoning</h2>
+        <p>Poisoning does not announce itself with one clean sign. The pattern to watch for is a dog that was normal an hour ago and is now some combination of: vomiting, drooling more than usual, tremors or twitching, wobbling or unable to stand, panting at rest, a racing or irregular heartbeat, gums that are pale or brick-red, and collapse. Seizures and bloody diarrhoea are late signs, not early ones.</p>
+        <p>Two behavioural signals are easy to dismiss and worth taking seriously: a dog that has suddenly gone very quiet and hidden, and a dog that is pressing its head against a wall or the back of the sofa. Both suggest something neurological rather than a stomach upset.</p>
+
+        <h2>The first ten minutes</h2>
+        <p><b>1. Remove access.</b> Move the dog away from the source, then secure the packaging. You will need it.</p>
+        <p><b>2. Work out what and how much.</b> The three numbers every vet or poison line will ask for: what was eaten, how much, and the dog's weight. The wrapper gives you the first two, and the cocoa percentage if it is chocolate.</p>
+        <p><b>3. Call before you act.</b> Your vet, the practice's emergency number, or a pet poison service. Describe the numbers and the time it happened.</p>
+        <p><b>4. Note the time.</b> Everything in toxicology is time-dependent — what can be done at 30 minutes cannot be done at three hours.</p>
+        <div class="callout warn"><b>Do not induce vomiting unless a vet tells you to.</b> It is wrong for caustic substances, wrong for a dog that is already wobbly, and it carries a real risk of aspiration pneumonia. The old advice to force salt water or hydrogen peroxide down a dog's throat causes more harm than the chocolate does.</div>
+
+        <h2>What not to do</h2>
+        <p><b>Do not give milk.</b> It does not dilute a toxin, and it adds a lactose problem to an existing one.</p>
+        <p><b>Do not wait for symptoms.</b> With xylitol and grapes in particular, the window where treatment is simple closes before the dog looks unwell. A dog that seems fine at 20 minutes is the normal presentation, not evidence that nothing happened.</p>
+        <p><b>Do not "dilute" with a big meal.</b> Food in the stomach can delay absorption, but it also makes induced vomiting harder and can complicate anaesthesia if the dog needs it.</p>
+        <p><b>Do not rely on the internet instead of a professional.</b> Use a page like this one to decide how urgent it is, then call.</p>
+
+        <h2>Not food, but in the same category</h2>
+        <p>The most common pet poisonings are not food at all. Human medication — ibuprofen, paracetamol, antidepressants, ADHD medication — is the leading category, and a single tablet can be enough for a small dog. Then antifreeze, which is sweet and lethal in tiny volumes; rodenticide, which causes internal bleeding days later; slug pellets; nicotine and cannabis edibles; and lilies, which cause kidney failure in cats from pollen alone. Grapes and chocolate get the headlines, but the medicine cabinet and the garage do more damage.</p>
+
+        <h2>Safe swaps that keep the begging quiet</h2>
+        <p>A dog that is used to getting something from your plate does not need the plate. Plain cooked chicken, a carrot, a green bean, a slice of cucumber, or a piece of apple with the core removed all satisfy the same ritual. Keep a small box of dog-safe treats where the human snacks live, so the thing you reach for is already the right thing.</p>
+        <p>If you want the detail behind any item above, each food has its own page in this section with the safe amount by body weight and the preparation that matters — see <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a>, <a href="/dog-nutrition/can-dogs-eat-xylitol/">xylitol</a>, <a href="/dog-nutrition/can-dogs-eat-onion/">onion</a> and <a href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">macadamia nuts</a> for the five that send most dogs to the vet.</p>
+
+        <h2>Keeping it from happening again</h2>
+        <p>Most repeat incidents come from the same three places: a bag left within reach, a child sharing food, and a counter surfer. Move chocolate and raisins into a closed cupboard rather than a low shelf, keep gum and mints out of bags on the floor, and teach a reliable "leave it" — it is the one cue that pays for itself in this exact situation. If your dog is a counter surfer, nothing on the worktop is safe; treat the kitchen as a room with a lid.</p>
         """,
         "faq": [
-            ("How much chocolate is toxic to a dog?", "It depends on the dog's size and the chocolate type. Dark chocolate is far more toxic than milk. Any amount in a small dog should prompt a vet call."),
-            ("Are grapes really that dangerous?", "Yes — even a handful of grapes or raisins can cause acute kidney failure in some dogs. Treat any ingestion as serious."),
-            ("Is xylitol in peanut butter? ", "Some brands use xylitol. Always read the label; choose a plain peanut butter with no xylitol for dog treats."),
+            ("How much chocolate is toxic to a dog?", "Around 20 mg of theobromine per kg of body weight brings the first signs, 40 to 50 mg/kg causes heart rhythm problems, and above 60 mg/kg seizures are possible. A 10 kg dog reaches the cardiac range at roughly 100 g of dark chocolate, but would need far more milk chocolate to get there."),
+            ("Are grapes really that dangerous?", "Yes. There is no known safe dose and sensitivity varies between dogs, so a handful of grapes or raisins can cause acute kidney failure in one dog and nothing in another. Any ingestion is treated as serious."),
+            ("Is xylitol in peanut butter?", "In some brands. It appears on labels as xylitol, birch sugar, birch bark sugar or wood sugar, and it is most common in reduced-fat and no-added-sugar products. Read the ingredient list every time, because recipes change."),
+            ("How long after eating poison do symptoms show?", "It depends on the substance. Xylitol can collapse a dog within 30 minutes; chocolate signs usually appear in 4 to 12 hours; onion and garlic damage shows up 2 to 5 days later; kidney failure from grapes can take 24 to 72 hours. A dog that looks fine early on has not necessarily escaped it."),
+            ("Should I make my dog vomit?", "Only if a vet or poison service tells you to. It is dangerous with caustic substances, unsafe in a dog that is already wobbly or unconscious, and carries a risk of aspiration pneumonia. Never use salt water or hydrogen peroxide on your own."),
+            ("My dog ate a small amount of onion — is that an emergency?", "A single small piece in a medium or large dog is unlikely to cause a crisis, but repeated small amounts in leftovers cause the same anaemia slowly. Call your vet with the amount and the dog's weight, and watch for pale gums and weakness over the following days."),
+            ("What foods are safe to share with a dog?", "Plain cooked chicken, carrot, green beans, cucumber, apple without the core, blueberries, watermelon without seeds, plain cooked rice, and plain unsweetened yoghurt in small amounts. All of them count toward the 10% of daily calories that treats are allowed."),
+            ("Is peanut butter safe if it is organic?", "Organic says nothing about xylitol. The risk is the sweetener, not the farming method, so read the ingredient list on organic jars exactly as you would on any other."),
         ],
-        "related": ["can-dogs-eat-bananas", "how-much-to-feed-my-dog", "why-do-dogs-eat-poop"],
+        "related": ["can-dogs-eat-chocolate", "can-dogs-eat-grapes", "can-dogs-eat-xylitol"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Pet Poison Helpline — Xylitol",
+             "https://www.petpoisonhelpline.com/poison/xylitol/"),
+            ("Pet Poison Helpline — Grapes",
+             "https://www.petpoisonhelpline.com/poison/grapes/"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The Veterinary Toxicology team at Pet Poison Helpline",
+        ],
         "disclaimer": HEALTH_DISCLAIMER,
     },
+
     {
         "slug": "can-dogs-eat-bananas",
         "pillar": "dog-nutrition",
@@ -5014,3 +5064,164 @@ TOOL = {
     "description": "Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the outdated 7x rule.",
     "eyebrow": "TOOLS",
 }
+
+
+# --- Section-page bodies -----------------------------------------------------
+# 10-28: section pages were 138-296 words (a card grid plus one sentence), which
+# tells Google the directory is empty. Each pillar now carries a real body above
+# the card grid: a framework, a reference table, and the "when this becomes a
+# vet visit" threshold. Injected after PILLARS so the dict above stays readable.
+PILLAR_BODY = {}
+
+PILLAR_BODY["dog-care"] = """
+<h2>What routine care actually looks like</h2>
+<p>Dogs do not complain about the things that are done to them weekly, which is exactly why routine care slips. The list is short, and almost all of it takes less time than a walk.</p>
+<table>
+  <tr><th style="text-align:left">Task</th><th style="text-align:left">How often</th><th style="text-align:left">Why it matters</th></tr>
+  <tr><td>Brushing teeth</td><td>Daily, or at least every other day</td><td>Plaque hardens into tartar within 48 hours; most dogs over three have some periodontal disease</td></tr>
+  <tr><td>Body check by hand</td><td>Weekly</td><td>Lumps, sore spots and hot ears are found by touch long before they are found by eye</td></tr>
+  <tr><td>Ear check</td><td>Weekly for floppy-eared breeds</td><td>A smell or dark discharge is the first sign of infection, and it is treatable at that stage</td></tr>
+  <tr><td>Brushing coat</td><td>Two to three times a week</td><td>Prevents matting and spreads skin oils; double coats need more in shedding season</td></tr>
+  <tr><td>Nail trim</td><td>Every three to four weeks</td><td>Overlong nails change how the paw lands, which puts strain on the joints</td></tr>
+  <tr><td>Bath</td><td>Every four to eight weeks</td><td>More often strips the coat's oils; less often is usually fine for a healthy dog</td></tr>
+  <tr><td>Weigh-in</td><td>Monthly</td><td>Weight is the cheapest early warning for heart, thyroid and joint disease</td></tr>
+</table>
+
+<h2>The three things owners skip, and what they cost</h2>
+<p><b>Teeth.</b> The single most skipped task and the one with the clearest consequence. By the time bad breath is obvious, there is usually tartar below the gumline, and treating it means an anaesthetic dental. Two minutes a day with a dog toothbrush is the whole intervention. If your dog has never had it done, start with a finger and toothpaste formulated for dogs — human toothpaste is not safe to swallow.</p>
+<p><b>Nails.</b> Dogs that walk on pavement still need trims, because the dewclaw never touches the ground and the side nails wear unevenly. A dog that clicks on hard floors is overdue. The risk of cutting too deep is real, so take small slices and have styptic powder to hand — the full method is in <a href="/dog-care/how-to-trim-dog-nails/">how to trim dog nails without the drama</a>.</p>
+<p><b>Ears.</b> Floppy ears trap warmth and moisture, which is why spaniels, retrievers and poodles top the infection statistics. A weekly sniff and a wipe of the visible folds with a vet-approved cleaner is enough. Do not push cotton buds into the canal, and do not use alcohol or vinegar mixes on a dog that already has sore ears.</p>
+
+<h2>Care by life stage</h2>
+<table>
+  <tr><th style="text-align:left">Stage</th><th style="text-align:left">What moves to the front</th><th style="text-align:left">Vet rhythm</th></tr>
+  <tr><td>Puppy (under 12 months)</td><td>Handling practice, teeth habit, nails while they are still small enough to hold</td><td>Vaccination course, then monthly weigh-ins</td></tr>
+  <tr><td>Adult (1–7 years)</td><td>Weight maintenance, dental care, coat and ear routine</td><td>Annual check, dental check every visit</td></tr>
+  <tr><td>Senior (7 years and up)</td><td>Joint comfort, softer bedding, shorter and more frequent walks</td><td>Every six months, with bloodwork</td></tr>
+</table>
+<p>The reason senior care is listed separately is that the routine changes shape rather than intensity. A senior dog does not need fewer checks — it needs them more often, and it needs the owner to notice slower stairs and reluctance to jump before it becomes a diagnosis.</p>
+
+<h2>When grooming turns into a vet visit</h2>
+<p>Stop and call the vet rather than continuing, if you see: bleeding that does not stop within a few minutes of pressure, a nail that keeps bleeding after styptic, gums that bleed when you brush, a head that is suddenly sensitive to being touched, a bad smell from one ear with head shaking, or a patch of skin that is red, weeping or spreading.</p>
+<p>Two things are not emergencies but should be booked in: a dog that has started resisting having its paws handled (pain, not stubbornness, in most cases), and a dog that has developed a new lump you can feel but not see. Both are cheap to check and expensive to leave.</p>
+"""
+
+PILLAR_BODY["dog-training"] = """
+<h2>Training is timing, not commands</h2>
+<p>A dog does not learn "sit" because the word is repeated. It learns because something good arrived within about three seconds of the behaviour. That window is the whole game: reward inside it and the dog connects the two; reward outside it and you reinforce whatever happened next, which is usually standing up.</p>
+<p>This is why a marker word — "yes" — earns its place. It fires the instant the behaviour happens and buys you the two seconds it takes to get a treat out of a pocket. Mark, then pay. The dog learns the marker predicts food, and the marker becomes usable at a distance and without a hand in your pocket.</p>
+
+<h2>One behaviour at a time</h2>
+<p>Most training goes wrong by trying to fix three things at once. Cut every skill into its smallest version, get that reliable in a quiet room, then add one variable at a time — distance, duration, or distraction, never two together.</p>
+<table>
+  <tr><th style="text-align:left">Skill</th><th style="text-align:left">First version</th><th style="text-align:left">Then add</th></tr>
+  <tr><td>Recall</td><td>Two steps away, indoors, no distraction</td><td>Distance, then a garden, then a park on a long line</td></tr>
+  <tr><td>Settle</td><td>Ten seconds on a mat while you stand still</td><td>Duration, then you moving, then visitors</td></tr>
+  <tr><td>Loose lead</td><td>Five steps in the hallway with no tension</td><td>Front door, then pavement, then other dogs at a distance</td></tr>
+  <tr><td>Leave it</td><td>Treat under a shoe, dog backs off</td><td>Food on the floor, then outdoors, then dropped items</td></tr>
+</table>
+
+<h2>How long a session should be</h2>
+<p>Short and finished beats long and abandoned. A puppy has an attention span measured in minutes; five minutes twice a day teaches more than one twenty-minute session, because the last five minutes of the long session are where the mistakes and the frustration live.</p>
+<p>End every session on a behaviour the dog already knows. That last success is what it remembers, and it is what makes the dog willing to come back out tomorrow. If a session has gone badly, do not push through to a win — stop, put the treats away, and reset later.</p>
+
+<h2>The five mistakes that undo progress</h2>
+<p><b>1. Repeating the cue.</b> "Sit, sit, sit" teaches the dog that the first word is background noise. Say it once, wait two seconds, then make it easier.</p>
+<p><b>2. Paying for the wrong moment.</b> A dog that sits and then breaks before the treat arrives has been paid for breaking. Wait for the behaviour, mark it, then reach.</p>
+<p><b>3. Training when the dog is over threshold.</b> A dog that is already barking at another dog cannot learn. Increase distance until it can eat and think, then work there.</p>
+<p><b>4. Using punishment for a fear response.</b> Corrections suppress the visible behaviour and leave the emotion in place, which is how a dog that was once merely worried becomes a dog that snaps without warning. This is the one mistake with a genuine welfare cost.</p>
+<p><b>5. Practising only in the easy place.</b> A dog that sits perfectly in the kitchen and nowhere else has learned the kitchen. Proof the behaviour in a new location every week, at a lower difficulty than you think you need.</p>
+
+<h2>What "positive" actually means</h2>
+<p>Reward-based training is not permissive training. The dog still has boundaries and still hears "no" — what changes is that the boundary is taught by making the wanted behaviour worth doing, and by managing the environment so the unwanted one is not rehearsed. A puppy that cannot reach the bin does not need to be told off at the bin.</p>
+<p>Start with the two guides most owners need first: <a href="/dog-training/how-to-crate-train-a-puppy/">crate training a puppy</a> and <a href="/dog-training/how-to-stop-puppy-biting/">stopping puppy biting</a>. Both are built on the same three-second rule, applied to the two problems that make the first month hardest.</p>
+"""
+
+PILLAR_BODY["dog-health"] = """
+<h2>Three questions that sort any symptom</h2>
+<p>Owners usually want a diagnosis. What they actually need at 11pm is a triage decision, and that comes from three questions: is the dog breathing normally, is it responsive and steady on its feet, and is there blood or a distended belly. If any answer is wrong, it is a now problem regardless of what else is going on.</p>
+<table>
+  <tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">How fast to act</th></tr>
+  <tr><td>Difficulty breathing, blue or pale gums, collapse, seizure, bloated and unproductive retching</td><td><b>Emergency now</b> — call the vet while you are on the way</td></tr>
+  <tr><td>Repeated vomiting, blood in stool or vomit, straining to urinate, eye injury, suspected poisoning</td><td><b>Today</b> — same-day appointment</td></tr>
+  <tr><td>Soft stool for a day, mild limping, occasional reverse sneeze, one episode of vomiting with normal energy after</td><td><b>Watch 24–48 hours</b>, with a note of what changed</td></tr>
+</table>
+<p>The distinction that matters most is energy. A dog that vomited once and then asked for a walk is in a different category from a dog that vomited once and went to lie in a dark room. Behaviour is the signal; the symptom count is not.</p>
+
+<h2>Normal values worth knowing by heart</h2>
+<table>
+  <tr><th style="text-align:left">Measure</th><th style="text-align:left">Normal range for an adult dog</th></tr>
+  <tr><td>Body temperature</td><td>38.0–39.2 °C (101–102.5 °F)</td></tr>
+  <tr><td>Resting breathing rate</td><td>10–30 breaths per minute</td></tr>
+  <tr><td>Heart rate</td><td>Small breeds 120–160, medium 70–120, large 60–100 bpm</td></tr>
+  <tr><td>Capillary refill (gum press)</td><td>Colour returns within 2 seconds</td></tr>
+</table>
+<p>These numbers are less useful as absolutes than as your dog's own baseline. A breathing rate that has gone from 16 to 34 at rest is worth a call even though both ends sit inside the published range. Take the readings when the dog is calm and write them down — a number you can compare against is the whole point.</p>
+
+<h2>The combinations that are red flags</h2>
+<p>Single symptoms are usually minor. Combinations are what veterinarians react to. Vomiting plus a distended abdomen plus unproductive retching is a gastric dilation pattern and is fatal within hours without surgery. Drinking a lot plus urinating a lot plus weight loss points at diabetes or kidney disease rather than a behaviour problem. A head tilt plus flicking at one ear plus loss of balance is more than an ear infection. Pale gums plus weakness plus a recent injury is internal bleeding until proven otherwise.</p>
+<p>If two or more of these appear together, do not wait for the third.</p>
+
+<h2>How to describe a symptom so the vet can help</h2>
+<p>Photograph it. A stool, a limp, a lump, a pile of vomit — a phone photo taken in the moment is worth more than any description you will manage on the phone an hour later. Then note four things: when it started, whether it is getting better or worse, what the dog ate in the previous 24 hours, and whether energy and appetite have changed.</p>
+<p>That last pair is what separates "bring it in" from "watch it". Appetite and energy are the two most sensitive indicators a dog has, and they are the two owners are best placed to judge.</p>
+<p>For the symptoms that send most people to this section: <a href="/dog-health/dog-vomiting-causes/">vomiting</a>, <a href="/dog-health/why-is-my-dog-shaking/">shaking</a>, <a href="/dog-health/dog-not-eating-but-drinking-water/">not eating but drinking</a>, and <a href="/dog-health/dog-ear-infection-symptoms/">ear infection signs</a>.</p>
+"""
+
+PILLAR_BODY["cat"] = """
+<h2>Cats are not small dogs</h2>
+<p>Almost every cat problem in this section comes from applying dog logic to a cat. A dog that is shut out of a room is mildly annoyed; a cat that is shut out of a room may start urinating on the bed, because a cat's sense of security is built on territory and routine rather than on social approval. Cats are not stubborn and they are not vengeful — they are specific about conditions, and when the conditions are wrong they show it through behaviour and through hiding.</p>
+
+<h2>The three complaints behind most cat questions</h2>
+<table>
+  <tr><th style="text-align:left">Problem</th><th style="text-align:left">Most common real cause</th><th style="text-align:left">First step</th></tr>
+  <tr><td>Peeing outside the box</td><td>Medical, in a large share of cases — cystitis, crystals, arthritis making the box painful to climb into</td><td>Vet visit before behaviour work; a urine sample is the cheapest test you will run</td></tr>
+  <tr><td>Scratching furniture</td><td>No acceptable scratching surface in the right place, or one that moves</td><td>A sturdy vertical post next to the scratched object, not in another room</td></tr>
+  <tr><td>Meowing at night</td><td>Unspent energy, hunger timing, or a medical cause in older cats</td><td>Play-and-feed sequence before bed; bloodwork if the cat is over ten</td></tr>
+</table>
+<p>The order matters. Cats hide illness well, and a behavioural explanation is the more comfortable one to reach for, which is why it is often the wrong one. Litter box avoidance in particular should be treated as a medical question until a vet has ruled it out — the behaviour work comes after, not instead.</p>
+
+<h2>The stress signals you are probably missing</h2>
+<p>Cats advertise stress quietly. Hiding more than usual, eating only at night, a coat that has stopped being groomed, over-grooming a patch bald, sitting with the head pressed against a wall, and a tail that flicks while the cat is supposedly resting are all reports worth acting on. A cat that has stopped jumping onto the bed is often a cat with joint pain, not a cat that has gone off you.</p>
+<p>Change is the other trigger. A new baby, a new flatmate, a new cat, moved furniture or a building site next door will all show up as behaviour before it shows up as anything else. Cats do not need the change removed; they need somewhere to retreat to, resources in more than one place, and time.</p>
+
+<h2>What a cat actually needs set up</h2>
+<p>The rule of thumb that resolves most multi-cat friction: one litter box per cat plus one, spread across different rooms rather than lined up together. Food and water in separate places, because cats prefer not to drink where they eat. Somewhere high to sit, because vertical space is how a cat controls its own exposure. And a scratching post that is tall enough for the cat to stretch fully — most bought posts are too short, which is why the sofa wins.</p>
+<p>None of this is enrichment for its own sake. Each item removes a reason for the behaviour that brought you to this page.</p>
+
+<h2>When it is not behavioural at all</h2>
+<p>See a vet rather than adjusting the house if: a cat stops eating for more than 24 hours (in cats this is a genuine emergency, not a hunger strike), drinks and urinates noticeably more, loses weight while eating normally, has a sudden change in litter box habits after years of consistency, or starts vocalising at night when it never used to. Those five are the classic presentations of the conditions that are treatable early and difficult late.</p>
+"""
+
+PILLAR_BODY["best"] = """
+<h2>How these guides are put together</h2>
+<p>This section exists to answer one question: what should I buy, and what should I avoid? The honest answer starts with a limitation — there is no laboratory here, and no sponsored placement. Nothing in these guides is paid for, and no brand has been given a ranking in exchange for anything.</p>
+<p>What there is instead is a specification approach. Rather than declaring one crate or harness "the best", each guide sets out the measurements and construction details that decide whether a product works, and then explains how to check those against the dog in front of you. A crate that is perfect for a 12 kg dog that settles quickly is the wrong crate for a 12 kg dog with separation anxiety.</p>
+
+<h2>What we check before recommending anything</h2>
+<table>
+  <tr><th style="text-align:left">Category</th><th style="text-align:left">What decides it</th></tr>
+  <tr><td>Fit</td><td>Measured dimensions against the dog, with growth allowance; harnesses checked at chest rather than neck</td></tr>
+  <tr><td>Construction</td><td>Bar spacing and gauge, weld quality, latch type, whether the frame can be bent by a determined dog</td></tr>
+  <tr><td>Safety failure modes</td><td>What happens when it breaks — a crate latch that pops open, a harness strap that loosens under load, a collar that can be backed out of</td></tr>
+  <tr><td>Cleaning</td><td>Whether it can actually be washed, because a product that is hard to clean stops being used</td></tr>
+  <tr><td>Honest limits</td><td>What the product is not for — travel vs home, crate-rest vs everyday, pulling vs lunging</td></tr>
+</table>
+<p>The failure-mode row is the one that gets skipped in most buying guides and the one that matters most. Almost every product functions correctly on the first day. The question that separates a good purchase is what it does on the day the dog panics.</p>
+
+<h2>Why there is no single "best" product</h2>
+<p>Ranking products requires either testing them all under the same conditions, which needs a facility, or repeating the rankings of people who have one. Most "best of" lists are the second thing wearing the clothes of the first. A specification approach is less satisfying to read and considerably more useful: it survives the product being discontinued, and it works for a dog whose size or temperament was not in anyone's test group.</p>
+<p>Where a guide does make a recommendation, it is written as a fit-for-purpose statement rather than a ranking — the criterion, the range that satisfies it, and the reasons to go up or down within that range.</p>
+
+<h2>How to use these guides</h2>
+<p>Measure first, then read. Write down the dog's standing height, chest girth behind the front legs, and the length from chest to rump, and weigh it. Two of the three questions in every buying decision are answered by those numbers. Then read the section on failure modes and decide whether the risk profile matches your dog — a dog that has bent a crate before needs a different gauge, not a different colour.</p>
+<p>If a guide here does not answer your question, that is worth knowing too: it means the question is specific enough that a vet, a trainer, or the manufacturer's own measurements should be the next stop rather than another list.</p>
+
+<h2>Before you buy anything</h2>
+<p>Three questions answer most of the purchase before a product is even shortlisted. How large will the dog be in six months, because a crate bought for a puppy is usually replaced inside a year. Where will this live, because a crate that has to be folded away every evening stops being used by the second week. And who else handles the dog, because a harness one person can fasten and another cannot is a harness that gets skipped on the days it matters most.</p>
+<p>If those three cannot be answered yet, the specification in the guide will not help. Buy the tape measure first and come back with numbers.</p>
+"""
+
+for _k, _v in PILLAR_BODY.items():
+    if _k in PILLARS:
+        PILLARS[_k]["body"] = _v.strip()

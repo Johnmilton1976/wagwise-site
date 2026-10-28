@@ -530,6 +530,11 @@ def render_pillar(p):
             hs, img_attrs(p["slug"], eager=True), p["title"]
         )
 
+    # Section pages are the entry point Google uses to judge whether a topic
+    # hub is substantive. A one-line intro left them at 138–296 words, so each
+    # pillar now carries a real body above the card grid.
+    doc_top = p.get("body") or ('<p>%s</p>' % p.get("intro", ""))
+    after = p.get("after", "")
     body = (
         '<div class="wrap">\n'
         "  %s\n"
@@ -537,10 +542,12 @@ def render_pillar(p):
         "  <h1>%s</h1>\n"
         '  <p class="lede">%s</p>\n'
         "  %s\n"
+        '  <div class="doc">%s</div>\n'
+        '  <h2 id="guides">Every guide in this section</h2>\n'
         '  <div class="hub">%s</div>\n'
-        '  <div class="doc"><p>%s</p></div>\n'
+        "  %s\n"
         "</div>"
-    ) % (crumb, p.get("eyebrow", ""), p["title"], p["description"], hero_html, card_html, p.get("intro", ""))
+    ) % (crumb, p.get("eyebrow", ""), p["title"], p["description"], hero_html, doc_top, card_html, after)
     return shell(h, p["url"], body)
 
 
