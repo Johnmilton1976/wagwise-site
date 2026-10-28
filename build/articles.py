@@ -1128,34 +1128,99 @@ ARTICLES = [
         "eyebrow": "DOG NUTRITION",
         "body": """
         <h2>Is peanut butter safe for dogs?</h2>
-        <p>Plain peanut butter (peanuts, maybe salt) is safe and dogs love it. It is high in fat and calories, so it should stay a small, occasional treat.</p>
+        <p>Plain peanut butter — peanuts, maybe a little salt — is safe for dogs and almost universally loved. It is high in fat and calories, so it belongs in the treat column, not the food bowl: a couple of teaspoons a day is plenty for most dogs.</p>
+        <p>The complication is not the peanut. It is what else ends up in the jar. A growing number of peanut butter products, especially the ones marketed as healthier for people, are sweetened with xylitol — a sugar alcohol that is safe for humans and devastating for dogs. <b>That single ingredient is the reason this page exists.</b></p>
 
-        <h2>The one rule that matters: no xylitol</h2>
-        <div class="callout warn">Xylitol, a sweetener in some peanut butters and other "sugar-free" foods, causes a rapid, dangerous drop in blood sugar and liver failure in dogs. A small amount can be fatal. Check the ingredients every time — brands change formulas.</div>
-        <ul>
-          <li>Choose a jar with just peanuts (and salt, if any).</li>
-          <li>A teaspoon for a small dog, up to a tablespoon for a large dog, occasionally.</li>
-        </ul>
+        <h2>The one ingredient that makes peanut butter deadly: xylitol</h2>
+        <p>Xylitol is a sugar substitute found in sugar-free gum, some mints, certain baked goods, and an increasing number of nut butters. In people it barely moves blood sugar. In dogs it triggers a rapid insulin release that can crash their blood glucose within 30 minutes, and at higher doses it causes liver failure.</p>
+        <p>The dose thresholds vets work with: <b>about 0.1 g of xylitol per kg of body weight</b> is enough to cause dangerous hypoglycaemia, and roughly <b>0.5 g per kg</b> is where liver injury becomes a real risk. For a 10 kg dog, 0.1 g per kg is one gram of xylitol — less than the amount in a single stick of sugar-free gum. Some peanut butter products contain several grams per serving.</p>
+        <div class="callout warn"><b>There is no safe amount to "test".</b> If a jar lists xylitol, it does not become safe by giving a smaller spoon. A dog that has eaten any of it needs a vet call, not a smaller portion.</div>
 
-        <h2>When to skip</h2>
-        <p>Overweight or pancreatitis-prone dogs should avoid it. And never leave a xylitol product within reach.</p>
+        <h2>How to read a peanut butter label in 30 seconds</h2>
+        <p>You do not need to understand the whole ingredient list. You need to scan for one family of words and stop if you see any of them. Xylitol is allowed to appear under several names, and manufacturers are not required to put it in bold.</p>
+        <table>
+          <tr><th style="text-align:left">Stop — do not feed</th><th style="text-align:left">Fine for most dogs</th><th style="text-align:left">Fine, but count the calories</th></tr>
+          <tr><td>xylitol</td><td>peanuts</td><td>sugar</td></tr>
+          <tr><td>birch sugar</td><td>salt</td><td>molasses</td></tr>
+          <tr><td>birch bark sugar</td><td>peanut oil</td><td>palm oil</td></tr>
+          <tr><td>wood sugar</td><td>—</td><td>hydrogenated vegetable oil</td></tr>
+          <tr><td>xylite</td><td>—</td><td>honey</td></tr>
+        </table>
+        <p>If the label says "sugar alcohol" without naming which one, treat it as a no. If the packaging advertises "no sugar added" but the ingredient list includes anything ending in <i>-ol</i>, that is the xylitol hiding in plain sight.</p>
+
+        <h2>Why "no sugar added" and "low fat" jars are the riskiest</h2>
+        <p>This is the part that catches people out. The plain, cheap, own-brand jar is usually the safest one on the shelf, because it is just peanuts and salt. The premium products — reduced-fat, no-added-sugar, "natural sweetness" — are exactly the ones where a manufacturer needs to replace sweetness and bulk, and xylitol is a cheap way to do both.</p>
+        <p>Powdered peanut butter is a separate case. It is lower in fat and calories because the oil has been pressed out, but the ingredient list still has to be read the same way, and some brands add sweeteners to compensate for the missing fat. Crunchy versus smooth makes no difference to safety — it is the same product with pieces left in.</p>
+
+        <h2>How much peanut butter can a dog have?</h2>
+        <p>The standard veterinary rule is that treats should stay under <b>10% of a dog's daily calorie intake</b>. Peanut butter runs about 588 kcal per 100 g, or roughly 32 kcal per level teaspoon, so the ceiling arrives faster than most owners expect — a large dog's whole treat budget can disappear into three or four spoons.</p>
+        <table>
+          <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Approx. daily calories</th><th style="text-align:left">Treat budget (10%)</th><th style="text-align:left">Peanut butter ceiling per day</th></tr>
+          <tr><td>5 kg</td><td>370 kcal</td><td>37 kcal</td><td>1 teaspoon (about 6 g)</td></tr>
+          <tr><td>10 kg</td><td>630 kcal</td><td>63 kcal</td><td>2 teaspoons (about 11 g)</td></tr>
+          <tr><td>20 kg</td><td>1,060 kcal</td><td>106 kcal</td><td>3.5 teaspoons (about 18 g)</td></tr>
+          <tr><td>30 kg</td><td>1,440 kcal</td><td>144 kcal</td><td>5 teaspoons (about 25 g)</td></tr>
+          <tr><td>40 kg</td><td>1,780 kcal</td><td>178 kcal</td><td>6 teaspoons (about 30 g)</td></tr>
+        </table>
+        <p>These are maintenance estimates for a healthy, neutered adult dog at ideal weight. Puppies, working dogs and intact dogs need more; a dog on a weight-loss plan needs less, and for those dogs peanut butter should be measured rather than spooned.</p>
+
+        <h2>Salt, sugar and palm oil: what actually matters</h2>
+        <p><b>Salt.</b> A salted peanut butter is fine for a healthy dog at treat-sized amounts. It matters for dogs with heart disease, kidney disease or hypertension, where total sodium is being managed — for those dogs, buy unsalted.</p>
+        <p><b>Sugar and palm oil.</b> Neither is toxic. Both add calories a dog does not need, and a high-fat meal is one of the recognised triggers for pancreatitis. A dog with a history of pancreatitis, or one that has had a high-fat treat followed by vomiting and a hunched posture, should not be given peanut butter at all without asking the vet first.</p>
+        <p><b>Hydrogenated vegetable oil.</b> Common in cheaper brands to stop separation. Not poisonous, but it is the ingredient that pushes the fat content up, so check the number rather than the name.</p>
+
+        <h2>Five ways to use peanut butter that actually help</h2>
+        <p>Peanut butter earns its place less as a treat and more as a delivery mechanism. These are the uses that hold up:</p>
+        <p><b>1. Frozen in a rubber toy.</b> Fill, freeze overnight, hand it over. A frozen stuffed toy lasts 20 to 40 minutes instead of three, which is the difference between a distraction and a snack.</p>
+        <p><b>2. Pill delivery.</b> A teaspoon hides most tablets and the smell covers the taste. Ask the vet first if the medication is time-critical — a dog that licks the peanut butter off and leaves the pill has not been medicated.</p>
+        <p><b>3. Nail trims and vet visits.</b> A silicone lick mat smeared with peanut butter and stuck to the wall keeps a dog's head occupied while the nails are done. This works better than a bowl because the dog cannot walk away with it.</p>
+        <p><b>4. Counter-conditioning.</b> A small amount given at the exact moment a dog hears the doorbell or the hoover changes the association. Keep the portion tiny — this is repetition work, not feeding.</p>
+        <p><b>5. Senior dogs with low appetite.</b> A little warm peanut butter stirred into food can restart interest in a dog that has gone off its bowl. If a dog stops eating for more than 24 hours, that is a vet question rather than a palatability question.</p>
+
+        <h2>When peanut butter is the wrong choice</h2>
+        <p>Skip it, or ask the vet first, if the dog has a history of pancreatitis or high blood fat, is overweight and on a measured diet, has kidney or heart disease where sodium is restricted, or is scheduled for surgery (fat delays gastric emptying, which matters for anaesthesia).</p>
+        <p>Peanut allergy in dogs is rare but real. Signs are itching, hives, facial swelling and, in severe cases, breathing difficulty, usually within minutes to a couple of hours of eating. A dog that reacts to peanuts should also avoid other peanut products, and the reaction should be noted in its records.</p>
+
+        <h2>If your dog ate peanut butter with xylitol</h2>
+        <p>Do not wait for symptoms. Xylitol acts fast, and a dog that looks fine at 15 minutes can be seizing at 45. Call your vet or a pet poison service immediately and have the jar in your hand — the amount eaten, the dog's weight and the xylitol content per serving are the three numbers they will ask for.</p>
+        <table>
+          <tr><th style="text-align:left">Time after eating</th><th style="text-align:left">What can happen</th><th style="text-align:left">What to do</th></tr>
+          <tr><td>0–30 minutes</td><td>Often nothing visible yet</td><td>Call the vet or poison service now; do not wait for signs</td></tr>
+          <tr><td>30–60 minutes</td><td>Vomiting, weakness, wobbling, collapse</td><td>Emergency visit; blood glucose checked</td></tr>
+          <tr><td>1–12 hours</td><td>Severe hypoglycaemia, seizures</td><td>IV glucose and monitoring</td></tr>
+          <tr><td>12–72 hours</td><td>Liver enzyme rise at higher doses</td><td>Liver values rechecked; supportive care</td></tr>
+        </table>
+        <p>Never induce vomiting unless a vet tells you to. With xylitol the risk of aspiration is real, and the treatment that matters is blood glucose, not an empty stomach.</p>
         """,
         "faq": [
-            ("Is xylitol peanut butter toxic to dogs?", "Yes — xylitol is extremely toxic and can be fatal even in small amounts. Check every label."),
-            ("How much peanut butter can a dog have?", "About a teaspoon for small dogs, up to a tablespoon for large dogs, only as an occasional treat."),
-            ("Can puppies eat peanut butter?", "A tiny amount of plain, xylitol-free peanut butter is fine, but keep portions very small for puppies."),
+            ("How much peanut butter is too much for a dog?", "For a healthy 10 kg dog, about two level teaspoons a day is the ceiling — treats should stay under 10% of daily calories, and peanut butter is roughly 32 kcal per teaspoon. Anything beyond that is weight gain with no nutritional benefit."),
+            ("Can dogs eat peanut butter every day?", "Yes, in small measured amounts, as long as the jar contains no xylitol. Daily use is fine for most healthy dogs but adds up fast, so weigh it into the treat budget rather than adding it on top."),
+            ("Is crunchy peanut butter safe for dogs?", "Yes. Crunchy and smooth are the same product with peanut pieces left in. Read the ingredient list the same way — the risk is xylitol and other sweeteners, not the texture."),
+            ("What if my dog ate peanut butter with xylitol?", "Call your vet or a pet poison service immediately, even if the dog seems normal. Hypoglycaemia can start within 30 minutes, and roughly 0.1 g of xylitol per kg of body weight is enough to cause it."),
+            ("Can puppies have peanut butter?", "In tiny amounts, yes, provided it is plain and xylitol-free. Puppies need proportionally more calories but very little fat, so keep it to a smear rather than a spoon and count it in their daily food."),
+            ("Is peanut butter good for hiding pills?", "It is one of the better options — thick enough to coat a tablet and strong enough in smell to mask it. Confirm with your vet that the drug can be given with food, and watch that the pill actually goes down."),
+            ("Can dogs be allergic to peanut butter?", "Rarely, yes. Signs include itching, hives, facial swelling and breathing difficulty, usually within minutes to two hours. Stop feeding it and have the reaction recorded by your vet."),
+            ("Does peanut butter help a dog's dry skin?", "Not really. The fat in peanut butter is mostly omega-6, which can push inflammation the wrong way when fed in excess. Skin and coat support comes from omega-3s and a balanced diet, not from peanut butter."),
         ],
-        "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("Pet Poison Helpline — Xylitol",
              "https://www.petpoisonhelpline.com/poison/xylitol/"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
-            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
-             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+        ],
+        "experts": [
+            "The Veterinary Toxicology team at Pet Poison Helpline",
+            "The veterinarians of the ASPCA Animal Poison Control Center",
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-carrots",
         "pillar": "dog-nutrition",
