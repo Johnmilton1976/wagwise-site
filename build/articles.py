@@ -1093,35 +1093,102 @@ ARTICLES = [
         "lede": "Start from your dog's target weight and the food's calorie label, then adjust by body condition — you should feel ribs but not see them.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Begin with the label, then adjust</h2>
-        <p>Every bag has a feeding chart by weight. Use it as a starting point, not gospel — activity, age, and metabolism change the real need.</p>
+        <h2>The bag chart is a starting point, not an answer</h2>
+        <p>Every bag has a feeding table by body weight. It is a reasonable place to begin and a poor place to finish, for three reasons: the ranges are wide, the figures are usually calculated for an intact moderately active dog, and most dogs in most households are neither.</p>
+        <p>The reliable method is to calculate a calorie target from body weight, convert it using the food's actual calorie content, and then adjust based on what the dog's body looks like after two weeks. That is only slightly more work than reading the bag, and it is far more accurate.</p>
+
+        <h2>Step 1: resting energy requirement</h2>
+        <p>Veterinary nutrition uses a formula for resting energy requirement (RER), which is the energy a dog needs at complete rest:</p>
+        <p><strong>RER (kcal/day) = 70 × (body weight in kg)<sup>0.75</sup></strong></p>
+        <p>You do not need to compute the exponent by hand — the table below gives the values for common weights, and the pattern is what matters: energy scales with weight raised to 0.75, not linearly. A dog twice the weight does not need twice the food.</p>
+        <table>
+          <thead><tr><th>Weight</th><th>RER (rest)</th><th>Maintenance, neutered adult (×1.6)</th><th>Weight loss (×1.0 of target weight)</th></tr></thead>
+          <tbody>
+            <tr><td>5 kg</td><td>234 kcal</td><td>375 kcal</td><td>234 kcal</td></tr>
+            <tr><td>10 kg</td><td>394 kcal</td><td>630 kcal</td><td>394 kcal</td></tr>
+            <tr><td>20 kg</td><td>662 kcal</td><td>1,060 kcal</td><td>662 kcal</td></tr>
+            <tr><td>30 kg</td><td>897 kcal</td><td>1,435 kcal</td><td>897 kcal</td></tr>
+            <tr><td>40 kg</td><td>1,113 kcal</td><td>1,780 kcal</td><td>1,113 kcal</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Step 2: multiply by a life-stage factor</h2>
+        <p>RER is multiplied by a factor to get maintenance energy requirement (MER) — the actual daily need.</p>
+        <table>
+          <thead><tr><th>Dog</th><th>Factor</th></tr></thead>
+          <tbody>
+            <tr><td>Neutered adult, low activity</td><td>1.4–1.6</td></tr>
+            <tr><td>Intact adult, normal activity</td><td>1.6–1.8</td></tr>
+            <tr><td>Active working dog</td><td>2.0–3.0</td></tr>
+            <tr><td>Weight loss programme</td><td>1.0 × RER of the <em>target</em> weight</td></tr>
+            <tr><td>Weight gain</td><td>1.2–1.4</td></tr>
+            <tr><td>Puppy, under 4 months</td><td>2.5–3.0</td></tr>
+            <tr><td>Puppy, 4 months to adult</td><td>1.6–2.0</td></tr>
+          </tbody>
+        </table>
+        <p>Two things worth knowing. First, neutering reduces energy requirement by roughly 20–30% in many dogs — the appetite does not drop with it, which is why so many dogs gain weight in the year after the operation. Second, for weight loss you calculate from the <em>target</em> weight, not the current one. Using the current weight to calculate a diet is the most common reason a weight-loss plan stalls.</p>
+
+        <h2>Step 3: convert calories into grams</h2>
+        <p>Food labels state calorie content in different ways. Look for "metabolisable energy" in kcal/kg or kcal/100 g. Dry food is typically 3,500–4,500 kcal/kg; wet food is far lower because of the water.</p>
+        <p><strong>Worked example.</strong> A 10 kg neutered adult dog: MER ≈ 630 kcal/day. On a food that states 4,000 kcal/kg, that is 630 ÷ 4,000 = 0.158 kg, or about <strong>158 g per day</strong>.</p>
+        <p>If the same dog were on a wet food at 1,000 kcal/kg, the same 630 kcal would be 630 g. This is why "how many cups" is a question without an answer — cups measure volume, and calorie density varies by more than 2× between foods.</p>
+        <div class="callout">Weigh the food. Studies of owners using measuring cups find errors of 20–80% depending on the food's shape and how the cup is filled. A kitchen scale costing very little removes an entire category of overfeeding error.</div>
+
+        <h2>Step 4: check body condition, not the scale alone</h2>
+        <p>Body condition score (BCS) is a 1–9 scale, and 4–5 is ideal. It is more informative than weight because it accounts for frame size.</p>
+        <table>
+          <thead><tr><th>Score</th><th>Ribs</th><th>From above</th><th>From the side</th></tr></thead>
+          <tbody>
+            <tr><td>1–2 (too thin)</td><td>Visible from a distance, no fat cover</td><td>Severe tuck, no muscle</td><td>Deep abdominal tuck, bones visible</td></tr>
+            <tr><td>3 (thin)</td><td>Easily felt, slightly visible</td><td>Clear waist</td><td>Obvious tuck</td></tr>
+            <tr><td><strong>4–5 (ideal)</strong></td><td><strong>Felt easily under light pressure, not visible</strong></td><td><strong>Visible waist behind the ribs</strong></td><td><strong>Abdominal tuck present</strong></td></tr>
+            <tr><td>6–7 (overweight)</td><td>Felt only with firm pressure, fat cover</td><td>Waist barely visible or absent</td><td>No tuck, level belly line</td></tr>
+            <tr><td>8–9 (obese)</td><td>Cannot be felt, thick fat pad</td><td>No waist, back looks broad</td><td>Abdomen hangs below the chest line</td></tr>
+          </tbody>
+        </table>
+        <p>Check every two weeks. If the dog is drifting up the scale, cut the portion by about 10% and recheck in two weeks. That is a safe rate of change; cutting by a third overnight produces a hungry dog and a plan nobody sticks to.</p>
 
         <h2>How often to feed</h2>
-        <ul>
-          <li>Puppies under 4 months: 3-4 small meals a day.</li>
-          <li>Puppies 4-12 months: 2-3 meals.</li>
-          <li>Adults: 2 meals a day is ideal for most.</li>
-        </ul>
+        <table>
+          <thead><tr><th>Age</th><th>Meals per day</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Under 4 months</td><td>3–4</td><td>Small stomachs, high energy need, hypoglycaemia risk in toy breeds</td></tr>
+            <tr><td>4–12 months</td><td>2–3</td><td>Watch growth rate — overfeeding a large breed puppy causes joint problems</td></tr>
+            <tr><td>Adult</td><td>2</td><td>Reduces bilious vomiting and bloat risk compared with one large meal</td></tr>
+            <tr><td>Senior</td><td>2</td><td>Same, plus easier on digestion</td></tr>
+          </tbody>
+        </table>
+        <p>Free-feeding — leaving food down all day — works for a small minority of dogs that self-regulate. Most do not, and it makes it impossible to notice a loss of appetite, which is one of the earliest signs of illness.</p>
 
-        <h2>The body-condition check</h2>
-        <div class="callout good">You should be able to feel your dog's ribs with light pressure but not see them. From above, there should be a visible waist. No waist = too much food; visible ribs = too little.</div>
+        <h2>The treat budget</h2>
+        <p>Treats and chews should stay under 10% of daily calories. The arithmetic catches people out: for that 10 kg dog on 630 kcal, the treat budget is about 63 kcal — which is roughly one dental chew, or two small biscuits. A dog getting a chew, a few biscuits and a piece of cheese most days is not getting treats, it is getting a second meal, and the main meal needs to come down to compensate.</p>
 
-        <h2>Signs to adjust</h2>
-        <ul>
-          <li>Gaining or losing: shift portions by about 10% and re-check in two weeks.</li>
-          <li>Always measure with a cup — \"a handful\" drifts fast.</li>
-          <li>Count treats in the daily budget; they add up quietly.</li>
-        </ul>
+        <h2>Common feeding mistakes</h2>
+        <p><strong>Measuring by volume instead of weight.</strong> The single largest source of inadvertent overfeeding. Use a scale.</p>
+        <p><strong>Ignoring the label's basis.</strong> Some charts give a range per day of <em>body weight</em> in a way that assumes the dog's current weight is ideal. A 12 kg dog that should be 9 kg is being fed for 12 kg.</p>
+        <p><strong>Not adjusting after neutering.</strong> Energy needs drop; appetite does not. Reduce the portion at the same time as the operation.</p>
+        <p><strong>Feeding to the bag's maximum.</strong> The top of the range is for a working dog. Most pets need the bottom of it.</p>
+        <p><strong>Improvised home cooking.</strong> A diet of chicken and rice is not complete — it is deficient in calcium and unbalanced in calcium-to-phosphorus ratio. Home-prepared diets need formulation by a veterinary nutritionist; that is not a formality.</p>
+
+        <h2>When the numbers need a vet</h2>
+        <p>Weight loss despite a calculated adequate intake, weight gain on a measured intake, or a dog that is always hungry on a reasonable portion — those are medical questions, not feeding questions. Thyroid disease, pancreatic insufficiency, parasites and diabetes all present this way. Bring the actual numbers: what you feed, how much, and the dog's weight trend over months.</p>
         """,
         "faq": [
-            ("How many cups of food per day for a dog?", "It varies by food calorie density and dog size — follow the bag's chart by weight, then adjust by body condition."),
-            ("How often should I feed my puppy?", "Three to four meals a day under four months, dropping to two by adulthood."),
-            ("How do I know if I feed too much?", "Loss of a visible waist and difficulty feeling ribs means too much. Reduce portions about 10% and recheck in two weeks."),
+            ("How many cups of food per day for a dog?", "There is no universal number — cups measure volume, and calorie density varies by more than 2× between foods. Calculate calories from weight, then divide by the food's kcal/kg. Weighing the food is more accurate than any cup."),
+            ("How often should I feed my puppy?", "Three to four meals a day under four months, dropping to two or three between 4–12 months, and two as an adult."),
+            ("How do I know if I feed too much?", "Loss of a visible waist and ribs that can only be felt with firm pressure mean too much. Reduce portions about 10% and recheck in two weeks."),
+            ("How many calories should my dog eat a day?", "RER = 70 × (weight in kg)^0.75, then multiply by a life-stage factor: about 1.6 for a neutered adult, 1.0 for weight loss (using target weight), 2.5–3.0 for a young puppy."),
+            ("Does neutering change how much I should feed?", "Yes. Energy requirement typically drops 20–30% after neutering while appetite stays the same, which is why weight gain is common. Reduce the portion at the time of the operation."),
+            ("Should I feed my dog once or twice a day?", "Twice is better for most dogs — it reduces the risk of bilious vomiting and bloat compared with one large meal."),
+            ("Why is my dog always hungry?", "Portions may be too small for its activity level, the food may be low in fiber or protein, or there may be a medical cause such as thyroid disease, pancreatic insufficiency or parasites. Bring the actual numbers to the vet."),
+            ("Can I feed my dog home-cooked food?", "Only with a formulated recipe from a veterinary nutritionist. Chicken and rice alone is deficient in calcium and unbalanced in calcium-to-phosphorus ratio, which causes bone and growth problems over months."),
         ],
         "related": ["foods-toxic-to-dogs", "can-dogs-eat-bananas", "dog-not-eating-but-drinking-water"],
         "sources": [
             ("Merck Veterinary Manual — Routine Health Care of Dogs",
              "https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/routine-health-care-of-dogs"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
             ("ASPCA — Dog Care",
              "https://www.aspca.org/pet-care/dog-care"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
@@ -1129,6 +1196,7 @@ ARTICLES = [
         ],
         "disclaimer": "General feeding guidance. Dogs with medical conditions need a vet-tailored plan.",
     },
+
 
     # ---------------- Dog care & grooming ----------------
     {
