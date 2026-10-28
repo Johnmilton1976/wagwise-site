@@ -629,45 +629,98 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-bananas",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Bananas? Yes — in Moderation",
+        "title": "Can Dogs Eat Bananas? Yes — Small Pieces, Not the Peel",
         "url": "/dog-nutrition/can-dogs-eat-bananas/",
-        "description": "Bananas are safe for dogs as an occasional treat. How much to give, why the peel should always go in the bin, and why sugar and calories add up quickly.",
-        "lede": "Yes, bananas are safe for dogs in small amounts. They are a healthy treat, but their sugar and fiber mean they should stay an occasional snack, not a daily staple.",
+        "description": "Bananas are safe for dogs in small amounts, but they are high in sugar and low in water. How much a dog can have, why the peel is a bad idea, and who should skip.",
+        "lede": "Bananas are safe for dogs in small pieces — but they are one of the sweeter fruits, so the portion matters more than for most treats.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Are bananas good for dogs?</h2>
-        <p>Bananas offer potassium, vitamin B6, and fiber. They make a fine low-fat treat, especially for dogs that love fruit.</p>
+        <h2>Can dogs eat bananas? Yes, in small pieces</h2>
+        <p>Banana flesh is safe for dogs and genuinely useful as a treat: soft enough for old dogs and puppies, easy to break into small pieces, and palatable enough to hide a tablet. It supplies potassium, vitamin B6, vitamin C and some fiber.</p>
+        <p>What makes banana different from apple or carrot is the sugar. A ripe banana is about 20–23% carbohydrate, most of it sugar, and very little of it water. That changes the portion size a dog should get, and it is the reason banana is a "sometimes" treat rather than a daily one.</p>
 
-        <h2>How much is safe</h2>
+        <h2>How much banana can a dog have?</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Serving</th><th>Calories</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>One 1 cm slice</td><td>~5</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>Two 1 cm slices</td><td>~10</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>A third of a small banana</td><td>~30</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>Half a small banana</td><td>~45</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>Half to two-thirds of a small banana</td><td>~60</td></tr>
+          </tbody>
+        </table>
+        <p>A medium banana is about 105 calories — for a 5 kg dog that is more than a tenth of its entire daily energy. This is why the size scaling above matters more than it does for vegetables.</p>
+        <p>Frequency: two or three times a week is reasonable for a healthy dog. Daily banana plus other fruit plus biscuits is how a dog gains weight without anyone noticing.</p>
+
+        <h2>Why the peel should not be given</h2>
+        <p>The peel is not toxic, despite what some lists say. The problems are mechanical and practical:</p>
         <ul>
-          <li>Small dogs: a few thin slices.</li>
-          <li>Large dogs: up to half a banana, occasionally.</li>
-          <li>Treats of any kind should be under 10% of daily calories.</li>
+          <li><strong>It is hard to digest.</strong> Dogs lack the enzymes to break down the fibrous peel, and a large piece can sit in the stomach or cause a blockage in a small dog.</li>
+          <li><strong>Pesticide residue.</strong> Banana skins carry more residue than the flesh, and they are not something you scrub.</li>
+          <li><strong>Choking and obstruction risk.</strong> A whole peel is a long, tough sheet — exactly the sort of thing that can cause a linear obstruction in the intestine, which is a surgical problem.</li>
         </ul>
-        <div class="callout">Skip the peel — it is hard to digest and can cause a blockage. And go easy on banana-based products with added sugar.</div>
+        <div class="callout">If your dog eats a small piece of peel, nothing will happen. A whole peel, especially in a small dog, is worth a call to the vet — not because of poison, but because of obstruction.</div>
 
-        <h2>Ways to serve</h2>
-        <p>Fresh slices, mashed into food, or frozen for a cooling chew on hot days. Mash and stuff into a toy for a slow treat.</p>
+        <h2>Bananas and potassium</h2>
+        <p>Bananas are famous for potassium, and that is usually fine — a dog's kidneys regulate potassium efficiently. It stops being fine in <strong>kidney disease</strong>, where potassium can accumulate to dangerous levels. If your dog has been diagnosed with chronic kidney disease (CKD), bananas should be cleared with the vet first, and the portion kept small.</p>
+        <p>The same caution applies to any dog on a potassium-sparing diuretic or an ACE inhibitor, both of which raise blood potassium.</p>
 
-        <h2>When to skip</h2>
-        <p>Diabetic dogs or those on a strict weight plan should avoid the extra sugar. Too much banana can also loosen stools because of the fiber.</p>
+        <h2>Bananas and blood sugar</h2>
+        <p>For a diabetic dog, banana is one of the less suitable fruits. It has a moderate-to-high glycemic index, and the sugar is largely free rather than locked in fiber. If a diabetic dog gets banana at all, it should be a small piece after a meal, counted in the carbohydrate allowance, and the blood glucose response checked.</p>
+        <p>Overripe bananas — the spotted, soft ones — are sweeter still. A firm, just-yellow banana has less sugar than a blackened one.</p>
+
+        <h2>Ways to use banana that work well</h2>
+        <p><strong>Frozen slices.</strong> The single best use. Freeze 1 cm rounds on a tray and keep them bagged — they take minutes to eat, work as a teething soother, and cost almost nothing.</p>
+        <p><strong>Mashed into a food toy.</strong> A spoon of mashed banana in a rubber toy, frozen, buys ten quiet minutes. Check any yoghurt you mix in contains no xylitol.</p>
+        <p><strong>Pill delivery.</strong> A piece of banana moulds around a tablet better than most foods and is soft enough for a dog with few teeth.</p>
+        <p><strong>Training treats.</strong> Cut into 5 mm cubes. Banana is high-value for most dogs, which makes it useful for teaching a recall indoors — though it is messy in a pocket.</p>
+
+        <h2>When to skip bananas</h2>
+        <ul>
+          <li><strong>Kidney disease</strong> or any dog on potassium-raising medication.</li>
+          <li><strong>Diabetes</strong> — or strictly limited and vet-approved.</li>
+          <li><strong>Overweight dogs</strong> — banana is one of the first fruits to cut, because the calorie density is high for a fruit.</li>
+          <li><strong>Dogs with a sensitive gut</strong> — the sugar and fiber combination can produce gas and loose stool.</li>
+          <li><strong>Puppies under 12 weeks</strong> — keep the diet simple and let the gut mature before adding fruit.</li>
+        </ul>
+
+        <h2>Banana products that are not bananas</h2>
+        <table>
+          <thead><tr><th>Product</th><th>Why not</th></tr></thead>
+          <tbody>
+            <tr><td>Banana bread / cake</td><td>Sugar, butter, sometimes raisins or xylitol — raisins are a kidney risk</td></tr>
+            <tr><td>Banana chips</td><td>Fried in oil and often sugared; very high calorie</td></tr>
+            <tr><td>Banana ice cream</td><td>Sugar plus dairy fat, and some brands use xylitol</td></tr>
+            <tr><td>"Banana flavour" dog treats</td><td>Usually sugar and flavouring, no banana</td></tr>
+          </tbody>
+        </table>
+        <p>The raisin and xylitol angles are the ones that matter. Both are far more dangerous than banana could ever be, and both turn up in banana baked goods routinely. Check <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a> before sharing anything from the kitchen counter.</p>
         """,
         "faq": [
-            ("Can dogs eat banana peels?", "No — peels are tough to digest and can cause blockages. Stick to the fruit and discard the peel."),
-            ("How much banana can a dog have?", "A few slices for small dogs, up to half a banana for large dogs, and only as an occasional treat."),
-            ("Are bananas bad for dogs with diarrhea?", "Bananas' fiber can either help or loosen stools. For an upset belly, plain boiled chicken and rice is the safer first choice."),
+            ("Can dogs eat bananas?", "Yes, in small pieces. Banana is safe but high in sugar for a fruit, so a medium dog should get no more than about a third of a small banana, a few times a week."),
+            ("Can dogs eat banana peel?", "It is not toxic, but it is hard to digest, carries pesticide residue, and a whole peel can cause an obstruction. Keep it away."),
+            ("How much banana can a dog have?", "One 1 cm slice for a toy breed, two for a small dog, a third of a banana for a medium dog, half for a large dog — two or three times a week."),
+            ("Are bananas good for dogs?", "They supply potassium, vitamin B6 and fiber, and work well as a frozen treat or pill vehicle. They are not a health food for dogs, and the sugar limits the portion."),
+            ("Can diabetic dogs eat bananas?", "Only a small piece, counted in the carbohydrate allowance, and preferably after a meal. Banana has a moderate-to-high glycemic index. Ask the vet first."),
+            ("Can dogs with kidney disease eat bananas?", "Generally no. Bananas are high in potassium, and in kidney disease potassium can accumulate to dangerous levels. Clear it with the vet."),
+            ("Can puppies eat bananas?", "Yes, in tiny pieces, from around 8–12 weeks. Mash them for very young puppies and introduce one new food at a time."),
+            ("Are frozen bananas safe for dogs?", "Yes — frozen 1 cm slices are one of the best dog treats there is: cheap, slow to eat, and soothing for teething gums."),
         ],
-        "related": ["foods-toxic-to-dogs", "how-much-to-feed-my-dog", "dog-vomiting-causes"],
+        "related": ["can-dogs-eat-apples", "can-dogs-eat-carrots", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
-            ("AKC — Can Dogs Eat Bananas?",
-             "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/"),
-            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
-             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "how-much-to-feed-my-dog",
         "pillar": "dog-nutrition",
@@ -810,28 +863,90 @@ ARTICLES = [
         "lede": "Cats are naturally clean and most use a litter box with almost no teaching. The work is in the setup: the right box, the right litter, and a good location.",
         "eyebrow": "CAT CARE",
         "body": """
-        <h2>Set up for success</h2>
+        <h2>The good news: cats arrive pre-trained</h2>
+        <p>Kittens learn to dig and bury from their mother by around four weeks, and the instinct to use loose substrate is strong enough that most cats will use any reasonable tray put in front of them. Litter training is not really training — it is setting up an environment that does not give the cat a reason to refuse.</p>
+        <p>Almost every "litter problem" is one of four things: the box is wrong, the litter is wrong, the location is wrong, or the cat is in pain. The rest of this page works through those in order.</p>
+
+        <h2>The box: size, number and type</h2>
+        <table>
+          <thead><tr><th>Rule</th><th>What it means in practice</th></tr></thead>
+          <tbody>
+            <tr><td>One per cat, plus one</td><td>Two cats need three boxes. Three cats need four.</td></tr>
+            <tr><td>Length = 1.5 × body length</td><td>Nose to base of tail, then add half. Most commercial boxes are too small.</td></tr>
+            <tr><td>Open, not covered</td><td>Covered boxes trap smell and give a cat only one exit — a real problem in a multi-cat home.</td></tr>
+            <tr><td>Low entry for seniors</td><td>A high-sided box is a barrier for a cat with arthritis. Cut a doorway into the side.</td></tr>
+          </tbody>
+        </table>
+        <p>Box size is the most commonly ignored rule. A cat needs to be able to turn around fully and dig without touching the sides. A box the length of the cat is a box the cat will eventually stop using.</p>
+
+        <h2>Choosing the litter</h2>
+        <p>Cats have preferences, and they are usually conservative. The safest choice is an <strong>unscented, clumping, fine-grain</strong> litter — closest in texture to sand, which is what the instinct is calibrated for.</p>
         <ul>
-          <li>One box per cat, plus one extra, in quiet, accessible spots.</li>
-          <li>Unscented clumping litter suits most cats; avoid strong perfumes.</li>
-          <li>Keep it away from food and water.</li>
+          <li><strong>Unscented.</strong> Perfumed litter is for humans. Many cats actively avoid it.</li>
+          <li><strong>Fine grain clumping.</strong> Easy to dig, easy to keep clean.</li>
+          <li><strong>Depth of 5–7 cm.</strong> Enough to dig and bury; too little and the cat cannot cover, which is stressful.</li>
+          <li><strong>Change brand gradually.</strong> Mix the new litter into the old over a week.</li>
+        </ul>
+        <p>Pelleted wood, tofu and crystal litters all work for many cats. If you are switching because of a problem, change one thing at a time so you can tell what fixed it.</p>
+
+        <h2>Where to put it</h2>
+        <p>A cat will not use a box it considers unsafe or disgusting. The placement rules:</p>
+        <ul>
+          <li><strong>Quiet</strong> — not next to a washing machine, boiler, or a door that slams.</li>
+          <li><strong>Two exits from the room</strong> where possible. A box in a dead-end corner is a trap for a low-ranking cat in a multi-cat home.</li>
+          <li><strong>Away from food and water.</strong> Cats will not eat next to where they toilet, and putting the bowl beside the box can reduce water intake — which matters for urinary health.</li>
+          <li><strong>Not hidden in a distant basement.</strong> Convenience matters: a cat in a hurry will use the nearest acceptable surface, and if the box is two floors away, the bath mat becomes acceptable.</li>
         </ul>
 
-        <h2>Teaching a kitten or new cat</h2>
-        <p>Place the cat in the box after meals and naps. If it goes elsewhere once, move that waste into the box so the scent guides it. Praise, never punish.</p>
-        <div class="callout warn">Suddenly avoiding the litter box usually means a medical issue (a UTI is common) or stress. Rule out pain before assuming bad behavior.</div>
+        <h2>Training a kitten or a new cat</h2>
+        <p><strong>Start small.</strong> Confine a new kitten to one room with the box, food and bed for the first few days, then open up the house. A kitten that cannot find the box in a large house will not use it.</p>
+        <p><strong>Use timing.</strong> Put the kitten in the box after every meal, after every nap, and after every play session. Those are the three moments a kitten needs to go. Scratch the litter gently with a finger to demonstrate.</p>
+        <p><strong>Praise, never punish.</strong> If the kitten goes in the box, calm praise. If it goes elsewhere, clean it with an enzyme cleaner and move the waste into the box so the scent guides it — then place the kitten in the box immediately afterwards.</p>
+        <div class="callout warn">Never rub a cat's nose in waste or use a spray bottle. It teaches fear of the owner, not the location, and cats that are punished around the box often start avoiding the box entirely.</div>
 
-        <h2>Stopping accidents</h2>
-        <ul>
-          <li>Scoop daily; cats reject a dirty box.</li>
-          <li>Keep the box where the cat already goes, then move it gradually.</li>
-          <li>Clean accidents with an enzyme cleaner so the smell does not draw them back.</li>
-        </ul>
+        <h2>Maintenance: the part that prevents most problems</h2>
+        <table>
+          <thead><tr><th>Task</th><th>Frequency</th><th>Why it matters</th></tr></thead>
+          <tbody>
+            <tr><td>Scoop solids</td><td>Twice daily</td><td>Cats will refuse a box with waste in it — this is the number one cause of accidents</td></tr>
+            <tr><td>Stir the litter</td><td>Daily</td><td>Stops clumps sticking to the base</td></tr>
+            <tr><td>Top up litter</td><td>As needed</td><td>Depth drops as litter is removed with clumps</td></tr>
+            <tr><td>Full change and wash</td><td>Every 2–4 weeks</td><td>Wash with unscented soap; avoid strong disinfectants</td></tr>
+          </tbody>
+        </table>
+        <p>Two boxes scooped twice a day beats one box scooped twice a day, by a wider margin than most people expect. If you can only do one thing, add a box.</p>
+
+        <h2>When a trained cat stops using the box</h2>
+        <p>A sudden change in a cat that was reliable is a signal, not defiance. Work down this list in order.</p>
+        <table>
+          <thead><tr><th>Possible cause</th><th>How to check</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Medical — cystitis, stones, blockage</strong></td><td>Vet first, always. Straining with little output in a male cat is an emergency.</td></tr>
+            <tr><td>Dirty box</td><td>Is it scooped twice a day? Be honest.</td></tr>
+            <tr><td>Litter change</td><td>Did the brand, texture or scent change recently?</td></tr>
+            <tr><td>Box moved or replaced</td><td>A new box, or a clean box that lost its familiar smell, can trigger avoidance</td></tr>
+            <tr><td>New stressor</td><td>New pet, new baby, builders, a move, a new cat outside the window</td></tr>
+            <tr><td>Multi-cat conflict</td><td>Is one cat guarding the path to the box?</td></tr>
+            <tr><td>Arthritis</td><td>Senior cat, high-sided box — can it step in comfortably?</td></tr>
+          </tbody>
+        </table>
+        <p>Clean every accident with a biological enzyme cleaner, not a normal household spray. Residual scent tells the cat the spot is a legitimate toilet. A UV torch in a dark room will reveal marks you have not found.</p>
+
+        <h2>Moving house with a cat</h2>
+        <p>Set up one room first — box, food, water, bed, and something that smells of the old home. Keep the cat in that room for two or three days, then let it explore the rest of the house with the door open. Put a box on each floor during the first weeks. A cat that cannot find a box in an unfamiliar house will not wait.</p>
+
+        <h2>Senior cats</h2>
+        <p>Arthritis is the most under-recognised cause of litter box failure in older cats. The changes that help: a box with a low entry (or a cut-down side), one box per floor so the cat does not have to manage stairs, a softer litter if the cat's paws are sore, and a ramp to favourite resting spots. If a previously reliable older cat starts missing the box, ask the vet about pain relief before assuming a behaviour problem.</p>
         """,
         "faq": [
-            ("How long does it take to litter train a cat?", "Most cats and kittens learn within days with a well-placed, clean box — they are naturally inclined to bury waste."),
-            ("Why is my cat pooping outside the litter box?", "Usually a dirty box, a location it dislikes, or a medical issue like a UTI. Clean the box and rule out pain first."),
-            ("How many litter boxes do I need?", "One per cat plus one extra. So two cats do best with three boxes in different spots."),
+            ("How long does it take to litter train a cat?", "Most cats and kittens learn within days with a well-placed, clean box — they are naturally inclined to bury waste. A kitten raised with a mother is usually already trained by four weeks."),
+            ("Why is my cat pooping outside the litter box?", "Usually a dirty box, a box that is too small or covered, a location it dislikes, or a medical issue. Rule out pain first, then fix the setup."),
+            ("How many litter boxes do I need?", "One per cat plus one extra. Two cats do best with three boxes in separate locations — not three boxes side by side."),
+            ("What is the best litter for a cat?", "An unscented, fine-grain clumping litter, about 5–7 cm deep. Most cats avoid perfumed litters and prefer a sand-like texture."),
+            ("Should I use a covered litter box?", "Usually not. Covered boxes trap odour and leave only one exit, which is a real problem in homes with more than one cat."),
+            ("Why did my cat suddenly stop using the litter box?", "A sudden change in a reliable cat is usually medical — cystitis, stones or pain — or a new stressor. See a vet first, then check litter, box and location."),
+            ("How often should I change the litter completely?", "Every two to four weeks, with daily scooping of solids twice a day. Wash the box with unscented soap rather than strong disinfectants."),
+            ("How do I stop my cat peeing outside the box after cleaning?", "Clean with a biological enzyme cleaner, not household spray. Residual scent marks the spot as a toilet and invites repeat use."),
         ],
         "related": ["cat-spraying-how-to-stop", "cat-scratching-furniture", "dog-not-eating-but-drinking-water"],
         "sources": [
@@ -841,9 +956,12 @@ ARTICLES = [
              "https://www.aspca.org/pet-care/cat-care"),
             ("International Cat Care — Advice",
              "https://icatcare.org/advice/"),
+            ("Merck Veterinary Manual — Behavior of Cats",
+             "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
         ],
         "disclaimer": "Cat care guidance only. Sudden litter box avoidance warrants a vet check for urinary issues.",
     },
+
     {
         "slug": "cat-scratching-furniture",
         "pillar": "cat",
@@ -853,24 +971,63 @@ ARTICLES = [
         "lede": "Scratching is normal cat behavior you cannot train away — but you can redirect it. Give appealing posts and make the furniture boring.",
         "eyebrow": "CAT CARE",
         "body": """
-        <h2>Why cats scratch</h2>
-        <p>It marks territory (visually and with scent), stretches muscles, and removes old claw sheaths. Declawing is not a fix — it is amputation and is banned in many places for good reason.</p>
+        <h2>Why cats scratch, and why punishment never works</h2>
+        <p>Scratching is not destruction and it is not spite. It does four things at once: it sheds the outer sheath of the claw, it stretches the muscles of the shoulders and back, it leaves visible marks that read as territory to other cats, and it deposits scent from glands between the paw pads.</p>
+        <p>That last point is why punishment backfires so reliably. A cat that is squirted or shouted at while scratching does not learn "don't scratch" — it learns "don't scratch <em>while the human is watching</em>", and it moves to a quieter corner of the same sofa. You lose the ability to see where the marking is happening, which makes the problem harder, not easier.</p>
 
-        <h2>Redirect, don't punish</h2>
+        <h2>The three features that make a post get used</h2>
+        <p>Most rejected scratching posts were rejected for measurable reasons. Get these three right and the odds improve immediately.</p>
+        <table>
+          <thead><tr><th>Feature</th><th>What works</th><th>What fails</th></tr></thead>
+          <tbody>
+            <tr><td>Height</td><td>Tall enough that the cat can stretch fully upright — at least 80 cm, more for a large cat</td><td>Knee-height posts the cat cannot extend on</td></tr>
+            <tr><td>Stability</td><td>Base heavy enough that it does not wobble or tip when pulled</td><td>A post that rocks — cats will not commit weight to it</td></tr>
+            <tr><td>Material</td><td>Sisal rope wound around a post, or corrugated cardboard</td><td>Smooth carpet that gives no resistance and shreds</td></tr>
+          </tbody>
+        </table>
+        <p>The single most common mistake is buying a post that is too short. A cat wants to hang its full body weight off the front paws and stretch — a short post forces it into a crouch, which is not the movement it is trying to perform.</p>
+
+        <h2>Vertical or horizontal?</h2>
+        <p>Cats have a preference and they will tell you which. A cat that scratches the arm of the sofa, the door frame, or the corner of the wall wants <strong>vertical</strong>. A cat that scratches the carpet, a rug, or the top of a wooden floor wants <strong>horizontal</strong> — provide a cardboard scratcher laid flat.</p>
+        <p>Many cats want both, at different times. If you only offer vertical and the cat keeps going for the rug, you have offered the wrong thing, not a bad cat.</p>
+
+        <h2>Where to put it</h2>
+        <p>Position matters more than most people expect. Put a post:</p>
         <ul>
-          <li>Place a tall, sturdy scratching post right next to the furniture they target.</li>
-          <li>Use catnip or silvervine on the post to draw them in.</li>
-          <li>Praise and treat when they use it.</li>
+          <li><strong>Right next to the furniture being scratched</strong> — this is the single highest-value placement, because it competes directly with the existing habit.</li>
+          <li><strong>Next to where the cat sleeps.</strong> Most scratching happens on waking, as a stretch. A post by the sleeping spot gets used several times a day for free.</li>
+          <li><strong>Near the entrance to the room</strong>, and near the main path through the house.</li>
         </ul>
-        <div class="callout">Make targeted furniture uninviting: double-sided tape, a couch cover, or a citrus scent cats dislike. The post must be more attractive than the sofa.</div>
+        <p>One post in a spare room will not compete with a sofa in the living room. In a multi-cat household, one per room the cat spends time in is closer to right than one per house.</p>
 
-        <h2>Protect the claws another way</h2>
-        <p>Soft plastic claw caps and regular nail trims reduce damage while you train. They do not stop the need to scratch, so posts stay essential.</p>
+        <h2>How to redirect, step by step</h2>
+        <p><strong>1. Make the post more interesting than the sofa.</strong> Rub catnip or silvervine on the sisal, or hang a toy from the top. Some cats ignore both; a piece of string dragged up the post works on nearly all of them.</p>
+        <p><strong>2. Move the cat, don't move the post.</strong> When you catch the cat scratching furniture, pick it up calmly and place it on the post — front paws on the sisal. Do not scold. Praise and treat when it scratches the post on its own.</p>
+        <p><strong>3. Make the furniture unrewarding.</strong> Double-sided tape on the scratched corner, a throw over the arm, or a sheet of aluminium foil. Cats dislike the feel and the noise. This is temporary — it buys time for the new habit to form, usually two to four weeks.</p>
+        <p><strong>4. Do not remove the tape too early.</strong> The most common failure is taking the deterrent off after three days, at which point the cat returns to the sofa and the post goes back to being ignored.</p>
+
+        <h2>Nail trims and soft caps</h2>
+        <p><strong>Trimming</strong> every two to three weeks reduces the damage each scratch does, even though it does nothing about the motivation. Cut only the clear tip, well in front of the pink quick — cutting into the quick is painful and makes the cat uncooperative for months. If you are unsure, ask a vet nurse to show you once.</p>
+        <p><strong>Soft plastic caps</strong> glued over the claws are safe and effective for furniture protection, and they last four to six weeks. They must be replaced as the claw grows, and they do not remove the need to scratch — the post stays essential.</p>
+
+        <h2>Why declawing is not an option</h2>
+        <p>Declawing is not nail removal. It is amputation of the last bone of each toe — ten separate amputations, equivalent to removing the tips of a person's fingers at the last joint. Documented consequences include chronic pain, reluctance to use the litter box (because scratching in litter hurts), increased biting, and lifelong gait changes.</p>
+        <p>It is banned or restricted in much of Europe, in parts of Canada and Australia, and in several US states and cities. Every major veterinary behaviour body advises against it. If a landlord or a partner is pushing for it, the answer is a behaviour consultation, not surgery.</p>
+
+        <h2>Special cases</h2>
+        <p><strong>Senior cats.</strong> Arthritis makes stretching on a tall post painful. Add a low, horizontal scratcher and a ramp to the favourite high spot. A cat that suddenly stops scratching and starts missing the litter box may be in pain, not badly behaved.</p>
+        <p><strong>Kittens.</strong> Scratch drive is strongest during play and after sleep. Provide a post next to the play area and redirect every time — this is the easiest age at which to build the habit.</p>
+        <p><strong>Multi-cat homes.</strong> Scratching is also communication between cats. A household with four cats needs several posts in separate locations, or the lowest-ranked cat will scratch where it feels safe and that is usually the back of a sofa.</p>
         """,
         "faq": [
-            ("How do I stop my cat scratching the couch?", "Put an appealing post beside the couch, use catnip, and make the couch boring with tape or a cover. Reward post use."),
-            ("Should I declaw my cat?", "No. Declawing removes the last bone of each toe and causes lasting pain. Redirect scratching instead."),
-            ("Do claw caps work?", "Soft caps reduce furniture damage and are safe, but they do not replace the cat's need to scratch — keep the posts."),
+            ("How do I stop my cat scratching the couch?", "Put an appealing post right beside the couch, use catnip or a toy to draw attention to it, and make the couch unrewarding with double-sided tape or a cover for two to four weeks. Reward post use."),
+            ("Should I declaw my cat?", "No. Declawing amputates the last bone of each toe — ten amputations — and causes chronic pain and behaviour problems. It is banned in many countries. Redirect scratching instead."),
+            ("Do claw caps work?", "Yes. Soft caps protect furniture for four to six weeks and are safe. They do not remove the need to scratch, so keep the posts."),
+            ("Why won't my cat use the scratching post?", "Usually because it is too short, unstable, or made of smooth carpet. It needs to be tall enough for a full stretch, heavy enough not to wobble, and covered in sisal or cardboard."),
+            ("How tall should a scratching post be?", "At least 80 cm for an average cat, and taller for a large breed — the cat must be able to stretch fully upright with front paws extended."),
+            ("Does punishing a cat for scratching work?", "No. Punishment teaches the cat to scratch out of sight, which makes the problem invisible rather than solved, and damages trust."),
+            ("How often should I trim my cat's claws?", "Every two to three weeks. Cut only the clear tip in front of the pink quick — cutting into the quick is painful."),
+            ("Do cats prefer vertical or horizontal scratchers?", "It varies. A cat scratching the sofa arm or door frame wants vertical; a cat scratching the carpet wants horizontal. Many want both."),
         ],
         "related": ["cat-litter-training", "cat-spraying-how-to-stop", "why-do-dogs-eat-poop"],
         "sources": [
@@ -880,9 +1037,12 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics"),
             ("International Cat Care — Advice",
              "https://icatcare.org/advice/"),
+            ("Merck Veterinary Manual — Behavior of Cats",
+             "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
         ],
-        "disclaimer": "Cat behavior guidance only. Sudden changes in scratching with over-grooming can signal stress or skin issues — ask a vet.",
+        "disclaimer": "Cat care guidance only. Sudden changes in scratching or litter habits warrant a vet check for pain or illness.",
     },
+
     {
         "slug": "cat-spraying-how-to-stop",
         "pillar": "cat",
@@ -892,29 +1052,72 @@ ARTICLES = [
         "lede": "Spraying is your cat marking territory with urine on vertical surfaces — different from litter accidents. The fix is reducing stress and conflict, not punishment.",
         "eyebrow": "CAT CARE",
         "body": """
-        <h2>Spraying vs accidents</h2>
-        <p>Spraying is a small amount on a wall or chair back, often with a quiver tail. Litter accidents are on the floor. They have different causes and fixes.</p>
+        <h2>Spraying or urinating outside the box? They are different problems</h2>
+        <p>Getting this distinction right decides whether you fix it in a week or fight it for a year. They look similar in a house and have almost nothing in common in cause.</p>
+        <table>
+          <thead><tr><th></th><th>Spraying (marking)</th><th>Inappropriate urination</th></tr></thead>
+          <tbody>
+            <tr><td>Posture</td><td>Standing, tail up and often quivering, urine directed backwards at a vertical surface</td><td>Crouching, normal squat, urine on a horizontal surface</td></tr>
+            <tr><td>Volume</td><td>Small — a few millilitres</td><td>Normal or large amount</td></tr>
+            <tr><td>Height</td><td>Usually 20–60 cm up a wall, door, curtain or chair back</td><td>On the floor, a bed, in the bath</td></tr>
+            <tr><td>Typical cause</td><td>Territorial stress — other cats, changes, conflict</td><td>Medical (cystitis, stones, arthritis) or litter aversion</td></tr>
+          </tbody>
+        </table>
+        <p>If it is crouching and producing a full bladder's worth, stop reading about marking and read <a href="/cat/cat-litter-training/">litter box avoidance</a> instead — and book a vet visit, because urinary disease in cats is common and painful.</p>
 
-        <h2>Common triggers</h2>
+        <h2>Rule out medical causes first</h2>
+        <p>Spraying is behavioural, but cats in pain also mark. Before treating this as a stress problem, have a vet check for:</p>
         <ul>
-          <li>Other cats — outside the window or in the home.</li>
-          <li>Stress from moves, new pets, or routine changes.</li>
-          <li>Unneutered males and unspayed females spray most.</li>
+          <li><strong>Feline lower urinary tract disease (FLUTD)</strong> — cystitis is extremely common in cats and causes frequent, painful urination that can look like marking.</li>
+          <li><strong>Bladder stones or crystals</strong> — a male cat with an obstruction is a genuine emergency and can die within 24–48 hours. Straining with no urine produced is an emergency, not a behaviour issue.</li>
+          <li><strong>Hyperthyroidism and diabetes</strong> — both increase urination.</li>
+          <li><strong>Arthritis</strong> — a cat that cannot comfortably get into the box may urinate somewhere easier to reach.</li>
         </ul>
-        <div class="callout warn">First, a vet check — urinary pain can look like spraying. Once medical causes are out, address stress and marking.</div>
+        <div class="callout warn">A male cat straining in the litter box with little or nothing coming out, crying, or licking at the genitals needs a vet now. That is a urethral obstruction, not marking, and it is fatal without treatment.</div>
 
-        <h2>What helps</h2>
+        <h2>Why cats mark: the territorial math</h2>
+        <p>Cats mark when they perceive that their territory is contested, unstable, or too small for the number of cats in it. The usual triggers, in rough order of frequency:</p>
         <ul>
-          <li>Neuter or spay — cuts spraying dramatically.</li>
-          <li>Use synthetic pheromone diffusers to lower anxiety.</li>
-          <li>Block the view of outdoor cats and add vertical safe spaces.</li>
-          <li>Clean marks with an enzyme cleaner so the scent does not invite re-marking.</li>
+          <li><strong>Other cats outdoors</strong> — visible through a window or glass door, or entering through a cat flap. This is the most under-diagnosed trigger: the cat is not in the house and the owner never sees it.</li>
+          <li><strong>Too many cats in too little space</strong>, or a change in the group's dynamics.</li>
+          <li><strong>New furniture, a new baby, a new partner, a renovation</strong> — anything that changes the smell of the core territory.</li>
+          <li><strong>A move</strong>, especially in the first weeks when the cat has no established scent map.</li>
+          <li><strong>Unneutered males</strong>, and females in season.</li>
         </ul>
+
+        <h2>Neutering: the biggest single lever</h2>
+        <p>Around 90% of entire male cats spray, and neutering reduces or eliminates it in the large majority — roughly 80–90% stop, with the best results when the operation happens before the habit is established. A male neutered after years of marking often reduces but does not fully stop, because the behaviour has become a learned routine on top of the hormonal drive.</p>
+        <p>Females spray far less often, but spaying removes the oestrus-driven marking entirely. If a cat in the house is entire, that is the first thing to change.</p>
+
+        <h2>Cleaning: the part most people get wrong</h2>
+        <p>Cat urine contains uric acid crystals that bind to porous surfaces and keep releasing scent for years. Ordinary household cleaner removes the smell for humans and leaves the marker intact for the cat — which is why the same corner gets marked again and again.</p>
+        <p>Use a <strong>biological enzyme cleaner</strong>, flood the area rather than wiping it, and let it air dry rather than towelling it off — the enzymes need contact time. For carpets, work it down to the underlay. If the spot keeps coming back, a UV torch in a dark room will find dried marks you never knew about, including on skirting boards and the backs of furniture.</p>
+        <p>Do not use ammonia-based cleaners. Urine contains ammonia, so an ammonia cleaner reads to the cat as "another cat's mark here", which invites overmarking. Do not use bleach either — the chlorine smell is unpleasant to cats and the mixture with urine is not something to create indoors.</p>
+
+        <h2>Reducing the territorial pressure</h2>
+        <p><strong>Block the view of outdoor cats.</strong> Frosted film on the lower half of the window, or a curtain drawn to cat height. It sounds trivial; it is often the whole fix.</p>
+        <p><strong>Stop cats entering.</strong> Lock or microchip the cat flap. If a neighbour's cat comes in to eat, that is a direct territorial invasion and the marking will continue until it stops.</p>
+        <p><strong>Increase resources so nobody competes.</strong> The rule is one litter box per cat plus one, in separate locations; separate feeding stations; multiple water sources; and vertical space — shelving, cat trees, high resting spots — so a lower-ranked cat can get out of sight. Resource competition is a major driver of marking in multi-cat homes.</p>
+        <p><strong>Use synthetic pheromones.</strong> A plug-in diffuser (Feliway Classic) in the main marked room reduces anxiety-driven marking in a meaningful share of households. It is not a cure alone, and it takes a few weeks. It is worth trying because it is cheap and harmless.</p>
+
+        <h2>What not to do</h2>
+        <p><strong>Do not punish.</strong> Shouting, spraying water, or pushing the cat's nose in it does three things: it raises the anxiety that causes marking, it teaches the cat to mark where you cannot see, and it damages the relationship that makes the cat feel secure in the territory. All three make the problem worse.</p>
+        <p><strong>Do not confine the cat indefinitely</strong> as a solution. Short-term confinement to a small, scent-familiar room can be part of a reset in a multi-cat conflict, but it is a technique with a plan and an end point, not a permanent answer.</p>
+        <p><strong>Do not add another cat</strong> to "keep it company". It increases competition for territory and usually increases marking.</p>
+
+        <h2>When to ask for medication</h2>
+        <p>If marking continues after neutering, medical clearance, environmental change, pheromones and six to eight weeks of consistent work, a behaviourally trained vet can prescribe. Clomipramine and fluoxetine are the two most used, and both have reasonable evidence for reducing anxiety-driven marking in cats.</p>
+        <p>Medication is not a failure and it is not a sedative — it lowers the anxiety baseline enough for the environmental work to take effect. It is usually combined with behaviour modification, not used instead of it.</p>
         """,
         "faq": [
-            ("Is cat spraying the same as peeing outside the box?", "No. Spraying is a small amount on vertical surfaces for marking; accidents are on the floor, usually medical or litter-related."),
-            ("Will neutering stop my cat spraying?", "Often yes, especially in males — neutering removes most hormone-driven marking. Established habits may need extra steps."),
-            ("How do I clean cat spray?", "Use an enzyme cleaner, not regular cleaner, so the scent that triggers re-marking is fully removed."),
+            ("Is cat spraying the same as peeing outside the box?", "No. Spraying is a small amount on a vertical surface with the tail up, for marking. Accidents are a full-volume crouching urination on the floor, usually medical or litter-related."),
+            ("Will neutering stop my cat spraying?", "Usually — roughly 80–90% of males stop or greatly reduce, with the best results when neutered before the habit forms. An older male may reduce rather than stop completely."),
+            ("How do I clean cat spray?", "Use a biological enzyme cleaner, flood the area and let it air dry so the enzymes have contact time. Never use ammonia or bleach — ammonia smells like urine and invites remarking."),
+            ("Why has my cat suddenly started spraying?", "The most common triggers are another cat outside the window, a new cat or pet in the home, a move or renovation, and resource competition. Rule out urinary disease first."),
+            ("Does spraying mean my cat is angry at me?", "No. It is territorial communication driven by insecurity, not spite. Punishment increases anxiety and makes marking more likely, and it teaches the cat to hide it."),
+            ("Do pheromone diffusers work for spraying?", "They help in a meaningful share of cases by lowering anxiety, and they are cheap and harmless. They work best combined with environmental changes, not alone."),
+            ("Can female cats spray?", "Yes, though less often than males. Entire females spray around oestrus; spaying removes that driver."),
+            ("When should I see a vet about spraying?", "Immediately if the cat is straining to urinate with little output, especially a male — that is a possible obstruction and an emergency. Otherwise, see a vet early to rule out FLUTD before treating it as behaviour."),
         ],
         "related": ["cat-litter-training", "cat-scratching-furniture", "cat-hairballs"],
         "sources": [
@@ -924,9 +1127,12 @@ ARTICLES = [
              "https://www.merckvetmanual.com/cat-owners/behavior-of-cats"),
             ("Cornell Feline Health Center",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
+            ("International Cat Care — Advice",
+             "https://icatcare.org/advice/"),
         ],
-        "disclaimer": HEALTH_DISCLAIMER,
+        "disclaimer": "Cat care guidance only. Straining to urinate with little or no output, especially in a male cat, is an emergency — see a vet immediately.",
     },
+
 
     # ---------------- Reviews / best ----------------
     {
@@ -1017,42 +1223,102 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-apples",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Apples? Yes — Seeds and Core Out",
+        "title": "Can Dogs Eat Apples? Yes — Skip the Core and Seeds",
         "url": "/dog-nutrition/can-dogs-eat-apples/",
-        "description": "Yes — apples are a safe, low-calorie dog treat rich in fiber and vitamin C. Why you should always remove the seeds and core, and exactly how much to offer.",
-        "lede": "Yes, apples are safe and healthy for dogs in moderation. The flesh is fine; the seeds and core are the parts to skip.",
+        "description": "Apples are a safe, crunchy, low-calorie dog treat. Why the core and seeds should be removed, how many slices a dog can have, and what apple products to avoid.",
+        "lede": "Apples are a safe, crunchy, low-calorie treat for dogs — as long as you remove the core and seeds and keep the portion small.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Are apples good for dogs?</h2>
-        <p>Apple slices are a crunchy, low-calorie treat full of vitamin C, vitamin A, and fiber. Many dogs love the texture, and they make a good training reward for dogs watching their weight.</p>
+        <h2>Can dogs eat apples? Yes, with two cuts</h2>
+        <p>Apple flesh is safe, cheap, and genuinely useful as a treat: about 50 calories per 100 g, high water content, a decent amount of fiber and vitamin C, and a crunch that takes a dog longer to eat than a biscuit. For a dog on a weight-loss plan, apple is one of the best swaps available.</p>
+        <p>Two things come off before the apple goes in the bowl: the <strong>core</strong> and the <strong>seeds</strong>. The reasons are real, even though the risk is smaller than the internet suggests.</p>
 
-        <h2>How to serve them</h2>
+        <h2>Why the seeds matter — and how much</h2>
+        <p>Apple seeds contain amygdalin, a cyanogenic glycoside. When the seed is crushed or chewed, an enzyme releases cyanide. That is the mechanism, and it is genuine. What is usually missing from the warning is the arithmetic.</p>
+        <p>A single apple seed contains only a few milligrams of amygdalin, and the seed coat is tough enough that intact seeds pass through a dog largely unchanged. A dog would have to thoroughly chew a substantial number of seeds — estimates in the veterinary literature put the dangerous range far above what one apple contains — before cyanide exposure approached a clinical dose. In practice, apple seed poisoning in dogs is rare, and the cases that exist involve large quantities of seeds, not one apple core.</p>
+        <div class="callout">Rare is not the same as safe to ignore. Remove the core out of habit, not out of fear. A dog that eats an accidental core once is almost certainly fine; a dog that eats cores daily for months is a different calculation.</div>
+        <p>Signs of cyanide exposure, if you ever suspect a real dose: dilated pupils, difficulty breathing, bright red gums, collapse. That is an emergency call, not a wait-and-see.</p>
+
+        <h2>How much apple can a dog have?</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Serving</th><th>Calories</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>2–3 thin slices</td><td>~10</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>3–4 slices (about a quarter apple)</td><td>~18</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>Half a small apple</td><td>~30</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>1 small apple</td><td>~50</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>1–2 small apples</td><td>~70</td></tr>
+          </tbody>
+        </table>
+        <p>Apple counts toward the 10% treat rule. It is low-calorie but it is not calorie-free, and a large dog that eats two apples a day is eating a fifth of its daily energy in fruit.</p>
+
+        <h2>How to prepare it</h2>
         <ul>
-          <li>Wash and slice. Remove the seeds and the core.</li>
-          <li>A few small slices for a small dog; a few more for a large dog.</li>
-          <li>Treats should stay under 10% of daily calories.</li>
+          <li><strong>Wash it.</strong> Apples are on the Environmental Working Group's dirty dozen list for pesticide residue. A proper rinse matters more than people assume.</li>
+          <li><strong>Core it, seed it, stem it.</strong> The stem is a choking item more than a toxic one.</li>
+          <li><strong>Cut into wedges or slices.</strong> Not chunks. A wedge is too big to swallow whole and too small to lodge — that is the shape you want.</li>
+          <li><strong>Leave the skin on.</strong> Most of the fiber and a good share of the polyphenols are in the skin. Unless your dog has a sensitive stomach, there is no reason to peel it.</li>
         </ul>
-        <div class="callout">Apple seeds contain amygdalin, which releases cyanide as they are chewed. A seed or two is not a real danger, but do not let your dog crunch the core.</div>
 
-        <h2>When to skip</h2>
-        <p>If your dog has diabetes or a sensitive stomach, keep fruit minimal. Stop if you see an upset belly after a new treat.</p>
+        <h2>Do the seeds in one apple actually threaten a dog?</h2>
+        <p>No, for almost every dog, and it is worth saying plainly because the opposite claim is repeated everywhere. A dog would have to chew a very large number of seeds to reach a clinical cyanide dose, and the seeds have to be crushed to release anything.</p>
+        <p>The rule to keep is about habit rather than one-off events. Core the apple because it takes two seconds, not because a single core is a crisis. If your dog has eaten a whole apple including the core, watch it and call the vet if anything looks wrong — but do not induce vomiting over it.</p>
+
+        <h2>Apples and blood sugar</h2>
+        <p>An apple has a moderate glycemic index but a low glycemic load in the serving sizes above, because most of its bulk is water and fiber. For a diabetic dog, apple slices are generally acceptable as a treat if they are counted within the carbohydrate allowance the vet has set.</p>
+        <p>What changes the calculation is processing. Apple juice removes the fiber and concentrates the sugar — it is closer to a soft drink than to fruit. Apple sauce is somewhere in between, and commercial apple sauce usually has added sugar. A diabetic dog should get neither.</p>
+
+        <h2>Apple products to avoid completely</h2>
+        <table>
+          <thead><tr><th>Product</th><th>Why not</th></tr></thead>
+          <tbody>
+            <tr><td>Apple pie / crumble</td><td>Pastry fat, sugar, sometimes raisins — and raisins are a genuine emergency</td></tr>
+            <tr><td>Apple juice</td><td>Concentrated sugar, no fiber, no satiety</td></tr>
+            <tr><td>Sweetened apple sauce</td><td>Added sugar; some brands add xylitol-adjacent sweeteners</td></tr>
+            <tr><td>Baked apples with honey</td><td>Honey is high-sugar and often carries botulism spores — never for puppies</td></tr>
+            <tr><td>"Apple flavour" dog chews</td><td>Usually sugar, glycerin and flavourings with no apple at all</td></tr>
+          </tbody>
+        </table>
+        <p>Raisins deserve their own line because they look like an innocent dried fruit and are not. Even small numbers of raisins have caused acute kidney injury in dogs, and there is no established safe dose. A fruit cake or mince pie left on a counter is a far greater danger than any apple core. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a>.</p>
+
+        <h2>When to skip apples</h2>
+        <ul>
+          <li><strong>Dogs with a sensitive gut.</strong> Apple fiber is fine for most, but a dog with chronic loose stool may do better on a lower-fiber treat.</li>
+          <li><strong>Dogs with few teeth or dental pain.</strong> Grate the apple or steam it soft.</li>
+          <li><strong>Dogs that gulp.</strong> Slices are safer than chunks, and watch the first few times.</li>
+          <li><strong>Any dog mid-elimination diet.</strong> Apple is not a protein, but a trial should not have new items added mid-way.</li>
+        </ul>
+
+        <h2>Other uses for apple in a dog's day</h2>
+        <p><strong>Frozen apple slices</strong> work like a chew for teething puppies and dogs that need occupying in hot weather — the cold numbs sore gums, and the slice takes minutes to work through.</p>
+        <p><strong>Apple in a food toy</strong> — a few slices jammed into a rubber toy with a spoon of plain yoghurt turn a two-minute snack into fifteen minutes of work.</p>
+        <p><strong>Apple as a training reward.</strong> Cut into 5 mm cubes; most dogs find apple high-value enough for indoor training, though not usually for recall outdoors.</p>
+        <p><strong>Apple in a bland diet.</strong> A spoon of steamed, unsweetened apple sauce can firm up loose stool thanks to its pectin content — the same principle as the canned pumpkin trick, in a smaller dose.</p>
         """,
         "faq": [
-            ("Can dogs eat apple skin?", "Yes — washed apple skin is fine and adds fiber. Just remove the seeds and core."),
-            ("How many apple slices can a dog have?", "A few small slices for small dogs, more for large dogs, and only as an occasional treat below 10% of daily calories."),
-            ("Why remove apple seeds for dogs?", "Seeds contain amygdalin, which can release cyanide; the core is also a choking risk."),
+            ("Can dogs eat apples?", "Yes. Apple flesh is safe, low in calories and high in fiber. Remove the core, seeds and stem, and cut it into wedges rather than chunks."),
+            ("Are apple seeds dangerous for dogs?", "They contain amygdalin, which releases cyanide when crushed — but an individual seed contains very little, and intact seeds pass through. A single core is not a crisis; daily cores are a bad habit worth breaking."),
+            ("How much apple can a dog eat?", "About half a small apple for a medium dog, 2–3 slices for a toy breed, one small apple for a large dog, keeping all treats under 10% of daily calories."),
+            ("Should I peel apples for my dog?", "No need. The skin holds most of the fiber and polyphenols. Peel only if your dog has a sensitive stomach or dental problems."),
+            ("Can dogs eat apple skin?", "Yes, after washing. Apples are on the dirty dozen list for pesticide residue, so rinse properly before serving."),
+            ("Can diabetic dogs eat apples?", "In small amounts, counted within the daily carbohydrate allowance. Avoid apple juice and sweetened apple sauce entirely — the fiber is gone and the sugar is concentrated."),
+            ("Can dogs eat apple cores?", "They should not, as a habit. The core carries the seeds and the stem, and its shape is a choking risk. An accidental core once is very unlikely to cause harm."),
+            ("Can puppies eat apples?", "Yes, in small pieces with the core and seeds removed. Grate or steam them for very young puppies, and introduce one new food at a time."),
         ],
-        "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-carrots", "can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
-            ("AKC — Can Dogs Eat Apples?",
-             "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-apples/"),
-            ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
-             "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-watermelon",
         "pillar": "dog-nutrition",
@@ -1132,42 +1398,98 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-cheese",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Cheese? In Small Amounts, Sometimes",
+        "title": "Can Dogs Eat Cheese? Small Amounts, Right Kinds",
         "url": "/dog-nutrition/can-dogs-eat-cheese/",
-        "description": "Most dogs can eat a little cheese, but lactose intolerance and fat make moderation the rule. Which cheeses are safer, and what a safe portion looks like.",
-        "lede": "Most dogs can eat a small amount of cheese, but many are lactose intolerant and all should keep it occasional because of the fat and salt.",
+        "description": "Most dogs can eat a small piece of plain cheese, but lactose, fat and mould-ripened varieties are real risks. Which cheeses are safe and how much is too much.",
+        "lede": "Most dogs can eat a small piece of plain hard cheese, but it is a high-fat, high-salt, lactose-containing food — a treat, not a staple.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Is cheese safe for dogs?</h2>
-        <p>Cheese is not toxic, and a thin slice is a handy way to hide a pill or reward a dog. The catch is that many dogs lose the ability to digest lactose as they age, and cheese is high in fat and sodium.</p>
+        <h2>Can dogs eat cheese? Yes, but it is not a health food</h2>
+        <p>Cheese is safe for most dogs in small amounts, and it is the most reliable pill-delivery vehicle there is. It is also roughly 30–40% fat, high in sodium, and contains lactose that a good share of adult dogs cannot fully digest.</p>
+        <p>So the honest answer is: fine as an occasional treat, wrong as a regular food, and there are a few varieties that should never go near a dog at all.</p>
 
-        <h2>How much and which kind</h2>
+        <h2>The three real risks</h2>
+        <p><strong>Fat.</strong> This is the one that causes actual illness. A dog's pancreas does not handle a sudden fat load well, and repeated high-fat extras are one of the more common triggers for pancreatitis — a painful condition that costs far more to treat than the cheese cost to buy. A dog that has had pancreatitis once should not be given cheese at all.</p>
+        <p><strong>Lactose.</strong> Adult dogs produce less lactase than puppies. Some handle cheese easily because hard cheeses are low in lactose; others get gas, loose stool or vomiting from a piece the size of a thumbnail. You find out which kind you have by trying a small piece once.</p>
+        <p><strong>Salt.</strong> Cheese is a significant sodium source. A 30 g piece of cheddar carries roughly 180 mg of sodium. Dogs need very little sodium, and while that will not poison a medium dog, it matters for any dog with heart or kidney disease.</p>
+
+        <h2>Which cheeses are safest</h2>
+        <table>
+          <thead><tr><th>Cheese</th><th>Verdict</th><th>Reason</th></tr></thead>
+          <tbody>
+            <tr><td>Cottage cheese</td><td>Good, in moderation</td><td>Low fat (if you choose low-fat), high protein, low lactose</td></tr>
+            <tr><td>Plain mozzarella</td><td>Good, small amounts</td><td>Lower sodium than hard aged cheeses</td></tr>
+            <tr><td>Cheddar, Swiss, Parmesan</td><td>Occasional, small</td><td>Low lactose but high fat and salt</td></tr>
+            <tr><td>Cream cheese</td><td>Avoid, or a scrape</td><td>Very high fat, almost no nutritional value</td></tr>
+            <tr><td>Brie, Camembert</td><td>Avoid</td><td>High fat, mould rind, soft cheese carries listeria risk</td></tr>
+            <tr><td><strong>Blue cheese (Roquefort, Stilton, Gorgonzola)</strong></td><td><strong>Never</strong></td><td>Mould produces mycotoxins that cause tremors and seizures in dogs</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Why blue cheese is genuinely dangerous</h2>
+        <p>Blue cheeses are ripened with <em>Penicillium roqueforti</em>, which produces roquefortine C and related mycotoxins. Dogs are unusually sensitive to these. Ingesting a modest amount of blue cheese can produce within minutes to a couple of hours: restlessness, head pressing, muscle tremors, unsteadiness, and in serious cases seizures and high body temperature.</p>
+        <div class="callout">This is not a "small piece is fine" situation. The toxin is in the cheese itself, not in the rind alone, and the reaction is dose-related with a narrow margin. Blue cheese is on the never list alongside chocolate and grapes.</div>
+        <p>The same applies to any cheese with visible mould that has gone off, and to cheeses sold as "mould-ripened" more generally — treat the whole family as off-limits.</p>
+
+        <h2>How much cheese is too much</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Occasional serving</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>A piece the size of a pea</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>A piece the size of a fingernail</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>A 1 cm cube</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>Two 1 cm cubes</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>Three 1 cm cubes</td></tr>
+          </tbody>
+        </table>
+        <p>"Occasional" means a few times a week at most, not daily. Cheese sits inside the 10% treat budget like everything else, and it fills that budget fast because of the calorie density.</p>
+
+        <h2>Cheese as a pill delivery tool</h2>
+        <p>This is where cheese earns its place. A small cube of something soft and smelly will carry almost any tablet, and the smell covers the drug taste better than peanut butter does for many dogs. Two practical notes:</p>
+        <p>Use the smallest piece that will hold the tablet, not the largest — the point is delivery, not reward. And if your dog is on a long course of medication, rotate the vehicle (cheese, boiled egg, plain chicken) so the fat and sodium do not accumulate over weeks.</p>
+        <p>Check the tablet is not one that must be given on an empty stomach, and never crush a modified-release tablet into cheese without asking the vet.</p>
+
+        <h2>Cottage cheese and the bland diet</h2>
+        <p>Low-fat cottage cheese is a legitimate protein source in a short-term bland diet, often paired with rice for a dog with a mild upset stomach. It is lower in fat than hard cheese and usually better tolerated.</p>
+        <p>Two cautions: it is not a complete diet, so a bland diet should run for a few days at most and under veterinary direction; and check the label for added salt or cream, which some brands include.</p>
+
+        <h2>Cheese for dogs with health conditions</h2>
         <ul>
-          <li>Stick to low-sodium, low-fat types: cottage cheese or a small bit of mozzarella are better choices.</li>
-          <li>Keep it to a bite or two — not a snack bowl.</li>
-          <li>Avoid blue cheeses and anything with added herbs, garlic, or onion.</li>
+          <li><strong>Pancreatitis history</strong> — no cheese. The fat load is exactly what you are trying to avoid.</li>
+          <li><strong>Kidney disease</strong> — avoid. Sodium and phosphorus both need restricting.</li>
+          <li><strong>Heart disease</strong> — avoid or strictly limit, because of sodium.</li>
+          <li><strong>Lactose intolerance</strong> — hard aged cheeses are usually tolerated; soft cheeses are not. Or skip it.</li>
+          <li><strong>Overweight dogs</strong> — cheese is one of the first treats to cut. A 1 cm cube of cheddar is about 20 calories, which is small; the problem is that nobody gives just one.</li>
         </ul>
-        <div class="callout">Watch for gas, bloating, or loose stools after cheese. Those are signs of lactose intolerance, and the treat should stop.</div>
 
-        <h2>When to skip</h2>
-        <p>Overweight dogs and dogs with pancreatitis should avoid cheese. High-fat cheese can trigger a painful pancreatitis flare.</p>
+        <h2>Cheese products that are not cheese</h2>
+        <p>Processed cheese slices, cheese spread, and "cheese flavour" dog treats are usually the worst option: higher sodium, added sugar or maltodextrin, emulsifiers, and often very little actual cheese. If the ingredient list has more than five items, it is not a treat — it is a snack product formulated for palatability.</p>
+        <p>Also avoid anything with herbs, garlic or onion in it. Garlic and onion are both toxic to dogs at sufficient dose, and they turn up in cheese spreads and seasoned cheeses routinely. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the full toxic foods list</a>.</p>
         """,
         "faq": [
-            ("What cheese is safest for dogs?", "Low-fat, low-sodium options like cottage cheese or mozzarella, in small amounts."),
-            ("Can cheese give dogs diarrhea?", "Yes — lactose intolerance is common in dogs, and too much fat can upset the gut."),
-            ("Can I use cheese to hide my dog's pill?", "A tiny amount is a common, safe trick, as long as your dog tolerates dairy."),
+            ("Can dogs eat cheese?", "Most dogs can eat a small piece of plain hard cheese occasionally. It is high in fat and salt and contains lactose, so it is a treat, not a food."),
+            ("Is blue cheese safe for dogs?", "No. Blue cheeses contain mycotoxins from the mould used to ripen them, which can cause tremors, unsteadiness and seizures in dogs. Never feed it."),
+            ("What is the safest cheese for dogs?", "Low-fat cottage cheese and plain mozzarella are the best choices — lower in fat and sodium than aged hard cheeses. Keep portions tiny."),
+            ("Can dogs eat cheddar?", "Yes, in small amounts. Cheddar is low in lactose but high in fat and salt, so a 1 cm cube occasionally is the limit for a medium dog."),
+            ("Does cheese make dogs constipated?", "It is more likely to cause the opposite. Lactose and fat in cheese commonly produce gas and loose stool in dogs that do not tolerate it well."),
+            ("Can I hide a pill in cheese?", "Yes, and it works well — use the smallest piece that holds the tablet and rotate the food vehicle if the course lasts more than a few days."),
+            ("Can dogs with pancreatitis eat cheese?", "No. The fat content is exactly what triggers pancreatitis. Keep cheese away from any dog with a pancreatitis history."),
+            ("Is cottage cheese good for dogs?", "Low-fat cottage cheese is a reasonable short-term protein source in a bland diet, and is usually better tolerated than hard cheese. It is not a complete diet."),
         ],
-        "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-eggs", "can-dogs-eat-chicken", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
-            ("Cornell Riney Canine Health Center — Canine Health Information",
-             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-peanut-butter",
         "pillar": "dog-nutrition",
@@ -1280,26 +1602,84 @@ ARTICLES = [
         "lede": "Yes, carrots are one of the best treats you can give a dog: low in calories, high in fiber and vitamin A, and a crunchy chew many dogs enjoy.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Are carrots good for dogs?</h2>
-        <p>Carrots are a near-ideal dog snack. They are low in calories and fat, provide fiber and beta-carotene, and the raw crunch can help scrub plaque off teeth.</p>
+        <h2>Can dogs eat carrots? The short answer</h2>
+        <p>Yes. Carrots are safe for dogs of every age, raw or cooked, and they sit near the top of the list of treats a vet will not sigh about. A medium carrot is roughly 25 calories — about half a commercial biscuit — and it takes a dog several minutes to eat, which is the part most treats get wrong.</p>
+        <p>The two things that actually matter are size and quantity. Size because a whole carrot can lodge in the throat of a dog that bolts food, and quantity because "healthy" is not the same as "free". Everything below is about getting those two right.</p>
 
-        <h2>How to serve them</h2>
+        <h2>Why carrots suit dogs so well</h2>
+        <p>Carrots are around 88% water, low in fat, and provide fiber, potassium and beta-carotene. That last one is the headline nutrient, and it is worth understanding properly — see <a href="#vitamin-a">the vitamin A section</a> below, because the common warning about carrots and vitamin A is largely backwards.</p>
+        <p>The chewing action is a genuine side benefit. A raw carrot gives a dog something to work at, which is useful for the dog that finishes a biscuit in four seconds and then looks for furniture.</p>
+
+        <h2>How much carrot can a dog have?</h2>
+        <p>The rule that keeps this simple: treats of any kind should stay under 10% of a dog's daily calories. For carrot specifically, that works out roughly like this.</p>
+        <table>
+          <thead><tr><th>Dog size</th><th>Approx. weight</th><th>Daily carrot ceiling</th><th>Calories</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>2–3 thin slices or 1 baby carrot</td><td>~8</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>Half a medium carrot</td><td>~12</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>1 medium carrot</td><td>~25</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>1–2 medium carrots</td><td>~40</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>2 medium carrots</td><td>~50</td></tr>
+          </tbody>
+        </table>
+        <p>These are ceilings, not targets. A dog that gets carrot every day and also gets cheese, chicken and a dental stick is not eating a balanced diet — it is eating a diet with a vegetable garnish. Rotate the treats.</p>
+
+        <h2>Raw, cooked, frozen or puréed?</h2>
+        <table>
+          <thead><tr><th>Form</th><th>Best for</th><th>Watch out for</th></tr></thead>
+          <tbody>
+            <tr><td>Raw sticks</td><td>Teeth, boredom, dogs who eat slowly</td><td>Cut lengthwise into batons, not coins</td></tr>
+            <tr><td>Steamed or boiled</td><td>Puppies, senior dogs, dogs with bad teeth</td><td>No salt, no butter, no stock</td></tr>
+            <tr><td>Frozen whole</td><td>Heavy chewers, hot weather</td><td>Only for dogs that chew rather than swallow</td></tr>
+            <tr><td>Purée</td><td>Mixing into kibble, pill hiding</td><td>Check nothing sweetened was added</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Sizing: the choking risk most guides skip</h2>
+        <p>The safest cut is a baton longer than the dog's muzzle is wide. A piece that is too long to swallow in one motion gets chewed; a piece that is exactly mouth-sized gets inhaled. This is why round coins cut from a fat carrot are the worst option — the diameter matches the airway almost perfectly, and a determined dog does not chew them.</p>
+        <div class="callout">If your dog has ever swallowed a treat whole without chewing, grate the carrot or steam it soft. A baby carrot is not automatically a safe size — it is a safe size for some dogs.</div>
+        <p>Supervise the first few times regardless of size, and know what a choking dog looks like: paws at the mouth, wide eyes, no sound. A dog that is coughing is moving air; a dog that is silent is not.</p>
+
+        <h2>Can dogs eat carrot tops?</h2>
+        <p>Yes, the leafy green tops are edible in small amounts — a small handful chopped into food. They carry vitamin K and some fiber. Two cautions: wash them properly if they came from a garden, and do not make them a daily habit in quantity, because a sudden large serving of any new green tends to produce loose stool rather than any benefit. Carrot tops are also mildly diuretic in folk use; there is no strong evidence either way, so keep it occasional.</p>
+
+        <h2>Do carrots actually clean teeth?</h2>
+        <p>Partly, and it is worth being precise about which part. The crunch produces mechanical friction against the outer surfaces of the premolars, which can reduce soft plaque on those surfaces. What it does not do is reach the gum line or the gaps between teeth, which is where periodontal disease actually starts.</p>
+        <p>So carrots are an adjunct, not a substitute. The things with real evidence behind them are daily brushing with a dog-specific paste, and veterinary dental checks. If you are relying on carrots instead of brushing, you are treating a marketing claim as a dental plan.</p>
+
+        <h2 id="vitamin-a">Vitamin A: why carrots are safer than the warning suggests</h2>
+        <p>Carrots contain beta-carotene, which is a <em>provitamin</em> — the body converts it to vitamin A only as needed, and the conversion in dogs is inefficient to begin with. That regulatory step is the reason carrot intake does not cause vitamin A toxicity in dogs.</p>
+        <p>Preformed vitamin A is a different matter. It is already the active form, absorption is not rate-limited, and it accumulates in the liver. The food that causes real vitamin A poisoning in dogs is not carrot — it is <strong>liver</strong>, fed in large amounts regularly, and some complete diets that oversupply it. If you are worried about vitamin A, look at the organ meat in the bowl, not the vegetable.</p>
+
+        <h2>Sugar, diabetes and weight</h2>
+        <p>Carrots are sweeter than most vegetables and their glycemic index is moderate — higher cooked than raw. In the portion sizes above, the glycemic load is small enough that most diabetic dogs can have carrots as a treat, provided they are counted within the day's carbohydrate allowance set by the vet.</p>
+        <p>What is not fine: carrot juice (concentrated sugar, no fiber), carrot cake (sugar, raisins, possibly xylitol — <a href="/dog-nutrition/foods-toxic-to-dogs/">check the toxic foods list</a>), and "carrot" treats that list sugar or honey in the first three ingredients. Read the label on anything shaped like a carrot before handing it over.</p>
+
+        <h2>When to skip carrots</h2>
         <ul>
-          <li>Raw: washed and cut into sticks or rounds. For small dogs, grate or soften to avoid choking.</li>
-          <li>Cooked: steamed or boiled plain — softer and easier to digest.</li>
-          <li>A few pieces as a treat; they still count toward the daily 10% treat budget.</li>
+          <li><strong>Pancreatitis history</strong> — the carrot is not the problem, but carrots are often cooked in fat or served with drippings. Plain and steamed only.</li>
+          <li><strong>Dogs that bolt food</strong> — grate or purée until the habit is addressed.</li>
+          <li><strong>Puppies in the teething window</strong> — frozen carrot is genuinely useful for sore gums, but supervise, because a puppy working through a frozen chunk can break a piece off.</li>
+          <li><strong>Any dog with a new GI upset</strong> — fiber is helpful in a stable gut and unhelpful in an inflamed one. Wait until things settle.</li>
         </ul>
-        <div class="callout">Cut carrots to a safe size. A whole baby carrot can be a choking hazard for a dog that bolts food.</div>
 
-        <h2>When to skip</h2>
-        <p>Carrots are safe for almost every dog. If your dog has never had them, introduce a small piece and watch for any tummy upset.</p>
+        <h2>Four everyday ways to use them</h2>
+        <p><strong>Replace the biscuit.</strong> A medium carrot is about half the calories of a typical dog biscuit and takes twenty times longer to eat. For a dog on a weight-loss plan, this swap alone is worth several hundred calories a week.</p>
+        <p><strong>Freeze it.</strong> Whole or in batons, in summer, for dogs that chew. It also buys you ten quiet minutes.</p>
+        <p><strong>Purée and freeze in a mould</strong> with plain unsweetened yoghurt — after checking the yoghurt contains no xylitol, which is the one additive that turns a healthy treat into an emergency.</p>
+        <p><strong>Use it as a training reward.</strong> Cut into 5 mm cubes. Small and frequent beats large and rare when you are reinforcing a recall.</p>
         """,
         "faq": [
-            ("Are raw carrots okay for dogs?", "Yes — raw carrots are safe and the crunch can help clean teeth. Cut them small to prevent choking."),
-            ("Do carrots help dog teeth?", "Chewing raw carrots can help reduce plaque, though they are not a replacement for brushing."),
-            ("Can diabetic dogs eat carrots?", "Yes, in moderation — carrots are low in sugar and a good low-calorie treat for diabetic dogs."),
+            ("Are raw carrots okay for dogs?", "Yes — raw carrots are safe and the crunch can help clean teeth. Cut them into batons longer than your dog's muzzle is wide rather than round coins, which can lodge in the throat."),
+            ("Do carrots help dog teeth?", "Partly. The crunch reduces soft plaque on the outer surfaces of the premolars, but it does not reach the gum line, which is where dental disease starts. Brushing is still the only proven daily measure."),
+            ("Can diabetic dogs eat carrots?", "Usually yes, in small amounts. Carrots have a moderate glycemic index but a low glycemic load in treat-sized portions. Count them within the daily carbohydrate allowance your vet has set."),
+            ("How many carrots can a dog eat a day?", "Roughly one medium carrot for a 10–25 kg dog, half for a small dog, two for a giant breed — with all treats kept under 10% of daily calories. These are ceilings, not daily targets."),
+            ("Can dogs eat cooked carrots?", "Yes. Steam or boil them plain, with no salt, butter or stock. Cooked carrots are softer and a better choice for puppies, senior dogs, and dogs with dental problems."),
+            ("Can dogs eat carrot tops?", "Yes, in small amounts. The leafy tops are edible but should be washed well and given occasionally — a large sudden serving of any new green tends to cause loose stool."),
+            ("Is it true carrots cause vitamin A poisoning in dogs?", "No. Carrots supply beta-carotene, a provitamin the dog converts only as needed, so toxicity is not a realistic risk. Real vitamin A poisoning comes from large regular servings of liver, which supplies preformed vitamin A."),
+            ("Can dogs eat frozen carrots?", "Yes, and they are useful for teething puppies and heavy chewers in hot weather. Supervise: a frozen chunk can break and be swallowed whole by a dog that does not chew properly."),
         ],
-        "related": ["can-dogs-eat-bananas", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-bananas", "can-dogs-eat-apples", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("AKC — Fruits and Vegetables Dogs Can and Can't Eat",
              "https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/"),
@@ -1307,9 +1687,14 @@ ARTICLES = [
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-eggs",
         "pillar": "dog-nutrition",
@@ -1319,26 +1704,78 @@ ARTICLES = [
         "lede": "Yes, cooked eggs are a healthy, protein-rich addition to a dog's diet. Raw eggs are best avoided because of salmonella risk and a biotin concern.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Are eggs good for dogs?</h2>
-        <p>Cooked eggs are packed with protein, fatty acids, and vitamins. Scrambled or boiled plain, they are an easy way to add nutrition for a picky or recovering dog.</p>
+        <h2>Can dogs eat eggs? Yes — cooked, plain, in moderation</h2>
+        <p>Eggs are one of the most complete protein sources available, and a dog can digest a cooked egg almost entirely. They are also cheap, which makes them the most practical food topper for a dog that has gone off its kibble.</p>
+        <p>The three conditions that keep it safe: <strong>cooked</strong>, <strong>plain</strong>, and <strong>counted</strong>. Each one has a real reason behind it, covered below.</p>
 
-        <h2>How to serve them</h2>
+        <h2>What an egg actually gives a dog</h2>
+        <p>A large egg is about 70 calories, 6 g of protein and 5 g of fat, plus choline, selenium, riboflavin, vitamin B12 and folate. The amino acid profile is close to ideal, which is why egg is used as the reference protein in nutrition science.</p>
+        <p>For a dog recovering from illness, a fussy senior, or a dog that needs to gain weight slowly, a cooked egg stirred into the bowl does more than most supplements costing ten times as much.</p>
+
+        <h2>How many eggs can a dog eat?</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Sensible weekly ceiling</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>1–2 eggs, spread over the week</td><td>Half an egg per serving</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>2–3 eggs</td><td>Half to one per serving</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>3–4 eggs</td><td>One per serving</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>4–6 eggs</td><td>One to two per serving</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>6–7 eggs</td><td>Two per serving</td></tr>
+          </tbody>
+        </table>
+        <p>Eggs count as treats, so the 10% rule applies: everything outside the complete diet should total under a tenth of daily calories. A medium dog eating four eggs a week is already at roughly 280 calories of extras — that is most of the treat budget gone.</p>
+
+        <h2>Why raw eggs are a poor choice</h2>
+        <p>Two separate problems, often bundled together as one.</p>
+        <p><strong>Salmonella and Campylobacter.</strong> Raw eggs can carry both. Dogs are more resistant to salmonella than people are, but not immune — and a dog that licks a raw egg off the floor then licks a child's face is a transmission route that has nothing to do with the dog getting sick.</p>
+        <p><strong>Avidin.</strong> Raw egg white contains avidin, a protein that binds biotin (vitamin B7) tightly enough that it cannot be absorbed. One raw white occasionally is trivial. Feeding raw whites daily over weeks is the pattern that causes a deficiency, and the classic sign is dull, brittle coat and skin problems. Cooking denatures avidin, which is why a cooked egg carries none of this risk.</p>
+        <div class="callout">The raw-feeding argument that "wolves eat eggs" skips a detail: wild canids eat eggs rarely and inconsistently. Daily raw whites are a modern feeding pattern, not an ancestral one.</div>
+
+        <h2>How to cook them for a dog</h2>
         <ul>
-          <li>Boil or scramble with no oil, butter, salt, or seasoning.</li>
-          <li>One egg a few times a week is plenty for most dogs; adjust by size.</li>
-          <li>Let cooked eggs cool before serving.</li>
+          <li><strong>Boiled.</strong> The simplest option. Eight to ten minutes, cool, peel. No fat added, nothing to burn.</li>
+          <li><strong>Scrambled.</strong> Plain, in a non-stick pan with no oil or butter, no salt, no milk. Stir constantly and cook through — runny scrambled egg is undercooked egg.</li>
+          <li><strong>Poached.</strong> Fine, but the white must be fully set, not translucent.</li>
+          <li><strong>Never fried in oil.</strong> A fried egg is a fat bomb, and repeated high-fat extras are how a dog ends up with pancreatitis.</li>
         </ul>
-        <div class="callout">Avoid raw eggs. Raw egg white contains avidin, which can interfere with biotin (a B vitamin) over time, and raw eggs carry a salmonella risk for both dog and handler.</div>
+        <p>No seasoning of any kind. Salt is a genuine toxicity risk at sufficient dose, and onion and garlic powder — both common in egg dishes — are worse. A plain egg tastes fine to a dog; the seasoning is entirely for you.</p>
 
-        <h2>When to skip</h2>
-        <p>Dogs with pancreatitis or a known egg sensitivity should avoid them. Introduce slowly if eggs are new.</p>
+        <h2>Eggshells: the calcium question</h2>
+        <p>Ground eggshell is roughly 95% calcium carbonate and is a legitimate calcium source in home-prepared diets. But it is only appropriate when a vet or a board-certified nutritionist has formulated the diet and calculated how much calcium the bowl actually needs. Sprinkling shell on top of a complete commercial food adds calcium that is already balanced, which pushes the calcium-to-phosphorus ratio out of range.</p>
+        <p>If you feed a complete diet — and most people do — skip the shells. If you home-cook, the shell goes in only as part of a formulated recipe.</p>
+
+        <h2>Eggs and pancreatitis</h2>
+        <p>An egg is not a high-fat food on its own at 5 g of fat. The problem is what eggs are usually cooked in and served with: butter, oil, cheese, bacon. A dog with a history of pancreatitis can usually have a plain boiled egg; it should never have the Sunday breakfast plate.</p>
+        <p>If your dog has had pancreatitis, ask the vet before adding eggs at all, and never introduce them during a flare.</p>
+
+        <h2>Egg allergy in dogs</h2>
+        <p>Genuine egg allergy exists but is uncommon, and it is usually a reaction to a specific protein in the white. Signs are itching, ear inflammation, or digestive upset appearing within hours to a couple of days of eating egg. If you suspect it, stop the egg for three weeks and reintroduce deliberately — that is more informative than any test sold online.</p>
+
+        <h2>When to skip eggs</h2>
+        <ul>
+          <li>Known egg sensitivity or a confirmed food allergy trial that excluded egg.</li>
+          <li>Active pancreatitis, or a pancreatitis history without vet clearance.</li>
+          <li>Any dog mid-elimination-diet — adding a new protein mid-trial ruins the trial.</li>
+          <li>Raw eggs, for any dog, when there are young children or immunocompromised people in the house.</li>
+        </ul>
+
+        <h2>Practical ways to use eggs</h2>
+        <p><strong>The bland diet.</strong> Plain boiled chicken and rice is the traditional post-upset stomach meal; a boiled egg chopped through it adds protein without adding fat.</p>
+        <p><strong>Pill delivery.</strong> A quarter of a hard-boiled egg holds most tablets better than cheese does, with far less salt and fat.</p>
+        <p><strong>Fussy eaters.</strong> A warm boiled egg mashed into kibble releases aroma, which is what actually drives a dog's appetite. Warm, not hot.</p>
+        <p><strong>Freezer treats.</strong> Whisked egg, cooked in a mug in the microwave until set, cubed and frozen — a two-ingredient treat with no additives.</p>
         """,
         "faq": [
-            ("Can dogs eat scrambled eggs?", "Yes — plain scrambled (no butter, salt, or oil) is a healthy treat or topper."),
-            ("Why not raw eggs for dogs?", "Raw egg white can interfere with biotin, and raw eggs may carry salmonella."),
-            ("How many eggs can a dog eat?", "About one egg a few times per week for most dogs, adjusted for their size and diet."),
+            ("Can dogs eat scrambled eggs?", "Yes, if they are plain — no butter, oil, salt, milk or cheese — and cooked fully through. Runny scrambled egg is undercooked."),
+            ("Why not raw eggs for dogs?", "Raw egg white contains avidin, which blocks biotin absorption, and raw eggs can carry salmonella and campylobacter. Cooking removes both problems."),
+            ("How many eggs can a dog eat?", "Roughly 3–4 eggs a week for a medium dog, 1–2 for a toy breed, up to 6–7 for a giant breed. Eggs count toward the 10% treat budget."),
+            ("Can dogs eat eggshells?", "Ground eggshell is a usable calcium source, but only in a home-prepared diet formulated by a vet or nutritionist. On top of a complete commercial food it unbalances the calcium-to-phosphorus ratio."),
+            ("Can dogs eat boiled eggs?", "Yes — boiled is the safest form. Cool it and peel it, and give it plain with no salt."),
+            ("Are eggs good for a dog's coat?", "Cooked eggs supply protein, biotin and fatty acids that support coat condition — but only as part of an adequate diet. Raw whites do the opposite over time by blocking biotin."),
+            ("Can dogs with pancreatitis eat eggs?", "A plain boiled egg is usually acceptable, because the fat is in what eggs are cooked in, not the egg. Ask the vet first if there is a pancreatitis history."),
+            ("Can puppies eat eggs?", "Yes, cooked and in small amounts — a quarter to half an egg for a young puppy. Introduce one new food at a time so you can tell what caused any upset."),
         ],
-        "related": ["can-dogs-eat-chicken", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-chicken", "can-dogs-eat-cheese", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
@@ -1346,48 +1783,100 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-chicken",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Chicken? Cooked, Plain, Boneless",
+        "title": "Can Dogs Eat Chicken? Yes — Plain, Boneless, Cooked",
         "url": "/dog-nutrition/can-dogs-eat-chicken/",
-        "description": "Plain cooked chicken is a staple protein in dog food and a go-to for upset stomachs. Why bones and seasoning are the danger, and how to serve it safely.",
-        "lede": "Yes, plain cooked chicken is one of the safest, most common proteins for dogs. The risks are cooked bones and rich seasoning, not the meat itself.",
+        "description": "Plain cooked chicken is one of the best foods for a dog, and the base of the classic bland diet. Why bones and seasoning are the real risks, and how much to give.",
+        "lede": "Yes — plain, boneless, cooked chicken is one of the safest and most useful foods a dog can eat. The risks come from the bones and the seasoning, not the meat.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Is chicken good for dogs?</h2>
-        <p>Boiled or baked chicken with rice is the classic bland meal for a dog with an upset stomach, and it is a solid everyday protein for most dogs.</p>
+        <h2>Can dogs eat chicken? Yes, and it is the default answer food</h2>
+        <p>Ask a vet what to feed a dog with an upset stomach and the reply is usually boiled chicken and rice. That is not folk wisdom — plain chicken is lean, highly digestible, and one of the least allergenic meats, which is why it is also the standard starting protein in elimination diets.</p>
+        <p>The meat is not the problem. The two things that send dogs to the clinic after a chicken dinner are <strong>bones</strong> and <strong>seasoning</strong>, and both are entirely avoidable.</p>
 
-        <h2>How to serve it</h2>
+        <h2>Why cooked bones are dangerous and raw bones are debated</h2>
+        <p><strong>Cooked bones splinter.</strong> Heat changes the collagen structure and makes bone brittle. A cooked chicken bone can break into sharp fragments that perforate the mouth, oesophagus or intestine — a surgical emergency with a real mortality rate. This is the single most common serious chicken-related injury in dogs, and it is entirely predictable.</p>
+        <p><strong>Raw bones are a different argument.</strong> Raw poultry bones bend rather than shatter, and raw feeders give them routinely. But raw chicken is also the leading source of <em>Salmonella</em> and <em>Campylobacter</em> contamination in domestic kitchens, and the risk is not only to the dog — it is to every surface, hand and child the dog contacts afterwards. Many veterinary bodies advise against raw poultry for that reason.</p>
+        <div class="callout">Whatever position you take on raw feeding, the rule for cooked chicken is absolute: no bones, ever, of any size. A "small soft one" is still a splinter risk.</div>
+
+        <h2>How much chicken to give</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Chicken as a topper</th><th>Chicken as a treat</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>1–2 tablespoons, shredded</td><td>Pea-sized pieces</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>30–40 g</td><td>Small cubes</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>60–80 g</td><td>1 cm cubes</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>100–130 g</td><td>2 cm cubes</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>150–180 g</td><td>2–3 cm cubes</td></tr>
+          </tbody>
+        </table>
+        <p>As a topper, chicken should replace part of the complete diet's calories, not add to them — otherwise a dog gains weight on "healthy" chicken. As a treat, it counts inside the 10% budget.</p>
+
+        <h2>How to cook it for a dog</h2>
         <ul>
-          <li>Cook it through with no onion, garlic, salt, or oil.</li>
-          <li>Always remove bones — especially cooked bones.</li>
-          <li>Shred it and mix with plain rice or your dog's regular food.</li>
+          <li><strong>Boil or poach.</strong> Skinless breast in plain water, simmered until cooked through. The cooking water makes a fat-free broth that is useful for tempting a sick dog to drink.</li>
+          <li><strong>Bake plain.</strong> No oil, no salt, no marinade. Bake until the juices run clear.</li>
+          <li><strong>Skin off.</strong> Chicken skin is where most of the fat sits. A dog with a sensitive gut or a pancreatitis history should never get skin.</li>
+          <li><strong>Cool before serving.</strong> And shred or cube it — whole pieces encourage gulping.</li>
         </ul>
-        <div class="callout warn">Never give cooked bones. They splinter easily and can pierce the gut or cause a blockage — a genuine emergency. Raw bones carry their own risks and should only be given under guidance.</div>
+        <p>Absolutely no seasoning. Onion and garlic — including powder — are toxic to dogs and are the default seasoning for chicken in every cuisine. Salt is a genuine risk at dose. A plain boiled chicken breast smells strong enough to a dog that no seasoning is needed.</p>
 
-        <h2>When to skip</h2>
-        <p>Some dogs are allergic to chicken. If you see itching, ear infections, or digestive upset after chicken, talk to your vet about an alternative protein.</p>
+        <h2>The bland diet, properly made</h2>
+        <p>The classic recipe is one part plain boiled chicken to two or three parts cooked white rice, fed in small meals four times a day for a dog with diarrhoea or vomiting. It is deliberately low in fiber and fat so the gut has almost nothing to process.</p>
+        <p>Three things people get wrong. It is <strong>not complete nutrition</strong> — it lacks calcium, and feeding it for more than a few days causes problems, so treat it as a 2–4 day bridge. It is <strong>not a treatment</strong> — a dog that is still vomiting after 24 hours, or that is lethargic, needs a vet, not more rice. And it is <strong>not for puppies</strong> without veterinary guidance, because a growing dog has no nutrient reserve to spare.</p>
+
+        <h2>Chicken and food allergies</h2>
+        <p>Chicken is one of the more common allergens in dogs — not because it is inherently bad, but because it is in almost every diet, so it is the protein dogs are most often exposed to. A chicken allergy shows as itching (especially ears, paws, face), recurrent ear infections, or chronic digestive upset.</p>
+        <p>Diagnosing it requires a proper elimination trial: a novel protein diet for 6–8 weeks with nothing else — no chicken-flavoured treats, no table scraps, no chews. Blood and saliva "allergy tests" sold online are not reliable for food allergy; the trial is the test.</p>
+
+        <h2>Chicken and pancreatitis</h2>
+        <p>Skinless breast is one of the lowest-fat meats available, at around 3 g of fat per 100 g. That makes it a reasonable choice even for dogs with a pancreatitis history — but only boiled, skinless, and only after the vet clears it. Chicken skin, thigh meat, and anything fried are not in that category.</p>
+
+        <h2>Chicken products to avoid</h2>
+        <table>
+          <thead><tr><th>Product</th><th>Why not</th></tr></thead>
+          <tbody>
+            <tr><td>Rotisserie chicken</td><td>Salt-rubbed, often seasoned with garlic or onion, and the skin is high fat</td></tr>
+            <tr><td>Fried or breaded chicken</td><td>Fat, batter, salt — a pancreatitis trigger in one meal</td></tr>
+            <tr><td>Deli chicken / sliced sandwich meat</td><td>Very high sodium, nitrates, often onion powder</td></tr>
+            <tr><td>Chicken with gravy or stock cubes</td><td>Stock cubes are salt and onion concentrate</td></tr>
+            <tr><td>Chicken jerky treats</td><td>Implicated in a documented cluster of kidney and Fanconi-like illness in dogs</td></tr>
+          </tbody>
+        </table>
+        <p>That last row is worth taking seriously. Jerky-type treats, particularly those imported, were linked to a well-documented outbreak of acquired Fanconi syndrome in dogs — a kidney disorder — leading to multiple product withdrawals. Plain cooked chicken is not the same product and carries none of that risk.</p>
         """,
         "faq": [
-            ("Can dogs eat cooked chicken bones?", "No — cooked bones splinter and can damage the digestive tract. Always remove them."),
-            ("Can dogs eat chicken skin?", "Small amounts are fine, but the skin is high in fat and can trigger pancreatitis if fed often."),
-            ("Is chicken good for a sick dog?", "Plain boiled chicken with rice is the standard bland meal for mild tummy upset; see a vet if it persists."),
+            ("Can dogs eat chicken?", "Yes. Plain, boneless, skinless cooked chicken is one of the safest and most digestible foods for a dog, and the base of the standard bland diet."),
+            ("Can dogs eat chicken bones?", "Never cooked bones — they splinter and can perforate the digestive tract. Raw bones are contested even among raw feeders; keep cooked chicken boneless."),
+            ("Is boiled chicken good for dogs?", "Yes. Boiled skinless breast in plain water is the standard recovery food for a dog with an upset stomach, usually paired with white rice for a few days."),
+            ("How much chicken should a dog eat?", "As a topper, roughly 60–80 g for a medium dog, scaled by size. It should replace part of the main diet's calories, not be added on top."),
+            ("Can dogs eat chicken skin?", "It is not toxic, but it is where most of the fat sits. Avoid it for dogs with sensitive stomachs, weight problems or a pancreatitis history."),
+            ("Can dogs eat raw chicken?", "It is a contested practice. Raw chicken is a leading source of salmonella and campylobacter, which poses a risk to people in the household as well as the dog."),
+            ("Is chicken a common dog allergen?", "Yes — largely because it is in so many diets. A true diagnosis needs a 6–8 week elimination trial with a novel protein, not a blood test."),
+            ("Can dogs eat rotisserie chicken?", "Only the plain inner meat, and only if it is not seasoned. Supermarket rotisserie chicken is salt-rubbed and often contains garlic or onion."),
         ],
-        "related": ["can-dogs-eat-eggs", "dog-vomiting-causes", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-eggs", "can-dogs-eat-cheese", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
-            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
-             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
-            ("Cornell Riney Canine Health Center — Canine Health Information",
-             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("WSAVA Global Nutrition Guidelines",
+             "https://wsava.org/global-guidelines/global-nutrition-guidelines/"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     {
         "slug": "can-dogs-eat-milk",
         "pillar": "dog-nutrition",
@@ -1712,42 +2201,84 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-avocado",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Avocado? Risky — Best Avoided",
+        "title": "Can Dogs Eat Avocado? The Persin Question, Answered",
         "url": "/dog-nutrition/can-dogs-eat-avocado/",
-        "description": "Avocado flesh is less risky than the skin, pit, and leaves, but the choking hazard and high fat content make it a treat that most dogs are better off skipping.",
-        "lede": "Avocado is best avoided. The flesh is the safest part but still high in fat; the pit is a choking hazard and the skin and leaves carry persin, which upsets the gut.",
+        "description": "Avocado contains persin, which is dangerous to birds and rabbits but far less so to dogs. The real risks are the stone, the fat content and the calories.",
+        "lede": "Avocado is not the emergency for dogs that it is for birds. A small piece of flesh is unlikely to harm a dog — but the stone and the fat content are genuine problems.",
         "eyebrow": "DOG NUTRITION",
         "body": """
-        <h2>Why avocado is risky</h2>
-        <p>Avocado contains persin, a compound concentrated in the skin, pit, and leaves that can cause vomiting and diarrhea. The flesh has far less, but it is still rich in fat, which brings its own problem: too much can trigger pancreatitis.</p>
+        <h2>Can dogs eat avocado? The honest answer is nuanced</h2>
+        <p>You will find two opposite answers online, and both are half right. Avocado does contain persin, a fungicidal toxin that is genuinely dangerous to birds, rabbits and horses. Dogs are considerably more resistant to it — there is no documented fatal persin poisoning in dogs from eating avocado flesh, and veterinary poison resources generally rate the flesh as mild risk.</p>
+        <p>That does not make avocado a good dog food. The reasons to keep it away are the stone, the fat and the calorie density, not the persin.</p>
 
-        <h2>The real hazards</h2>
-        <ul>
-          <li>The pit is a serious choking and blockage risk if swallowed.</li>
-          <li>The skin is hard to digest and can obstruct the gut.</li>
-          <li>The high fat content can upset sensitive stomachs or trigger pancreatitis.</li>
-        </ul>
-        <div class="callout">If your dog grabs a dropped avocado, the main worries are the pit and the fat. Remove any pit and skin, and watch for vomiting, belly pain, or lethargy.</div>
+        <h2>What persin actually does</h2>
+        <p>Persin is concentrated in the leaves, bark, skin and stone, with much lower levels in the flesh. In susceptible species it causes myocardial damage — fluid around the heart, arrhythmia, death. In dogs the reported effects are gastrointestinal: vomiting, diarrhoea, and occasionally abdominal discomfort.</p>
+        <p>Dose matters and the species matters more. A dog that eats a slice of avocado is very unlikely to show anything. A dog that eats the skin and stone of a whole avocado may vomit. Neither scenario resembles what happens to a budgerigar, which can die from a small amount.</p>
+        <div class="callout">The species difference is the part most articles skip. If you keep birds as well as dogs, avocado in the house is a genuine hazard — just not primarily to the dog.</div>
 
-        <h2>When to skip</h2>
-        <p>Because safer treats exist, most owners simply avoid avocado. Dogs with pancreatitis or sensitive stomachs should definitely skip it.</p>
+        <h2>The real risks, in order</h2>
+        <p><strong>1. The stone.</strong> This is the actual danger and it has nothing to do with toxins. An avocado stone is exactly the size and firmness to lodge in a dog's oesophagus or intestine. Foreign-body surgery for an avocado stone is a well-recognised presentation, and it is expensive, invasive and sometimes fatal. A dog that swallows a stone needs a vet, not monitoring at home.</p>
+        <p><strong>2. The fat.</strong> Avocado is roughly 15% fat — higher than most fruits by a wide margin. A sudden fat load is a pancreatitis trigger. A dog with a pancreatitis history should not have avocado at all.</p>
+        <p><strong>3. The calories.</strong> Half a medium avocado is around 160 calories. For a 10 kg dog on 600 calories a day, that is a quarter of the daily energy in a food with no complete nutrition in it.</p>
+        <p><strong>4. The skin and leaves.</strong> Higher persin, harder to digest, and the skin is a choking shape. Keep both away.</p>
+
+        <h2>How much avocado, if any</h2>
+        <table>
+          <thead><tr><th>Dog size</th><th>Weight</th><th>Flesh only, if you must</th><th>Calories</th></tr></thead>
+          <tbody>
+            <tr><td>Toy</td><td>under 5 kg</td><td>A piece the size of a pea</td><td>~5</td></tr>
+            <tr><td>Small</td><td>5–10 kg</td><td>A teaspoon</td><td>~10</td></tr>
+            <tr><td>Medium</td><td>10–25 kg</td><td>A tablespoon</td><td>~25</td></tr>
+            <tr><td>Large</td><td>25–40 kg</td><td>Two tablespoons</td><td>~50</td></tr>
+            <tr><td>Giant</td><td>over 40 kg</td><td>Three tablespoons</td><td>~75</td></tr>
+          </tbody>
+        </table>
+        <p>None of these are recommended amounts — they are the outer limit of what is unlikely to cause a problem. Avocado has no nutritional role in a dog's diet that cannot be filled by something safer and cheaper.</p>
+
+        <h2>Why "avocado is toxic to dogs" became a rule</h2>
+        <p>The claim spread from the bird and livestock literature, where persin toxicity is real and well documented, and from the fact that avocado is genuinely dangerous to rabbits, horses and cattle. It got transferred to dogs by association rather than by evidence.</p>
+        <p>The practical result is a rule that is roughly correct for the wrong reason. Keeping avocado away from dogs is still sensible — because of the stone, the fat and the calories. It is just worth knowing which risk you are actually managing, because a dog that has eaten a slice of avocado does not need an emergency dash to the clinic.</p>
+
+        <h2>Avocado products to avoid</h2>
+        <table>
+          <thead><tr><th>Product</th><th>Why not</th></tr></thead>
+          <tbody>
+            <tr><td>Guacamole</td><td>Usually contains onion, garlic, chilli, salt and lime — onion and garlic are the real toxins here</td></tr>
+            <tr><td>Avocado oil</td><td>Pure fat, no benefit, pancreatitis risk</td></tr>
+            <tr><td>Avocado with dressing</td><td>Salt, sugar, sometimes xylitol in low-fat dressings</td></tr>
+            <tr><td>Avocado stone</td><td>Foreign-body obstruction risk — the most common serious avocado injury</td></tr>
+          </tbody>
+        </table>
+        <p>Guacamole deserves emphasis. It is far more dangerous than plain avocado because of what goes into it, and it is exactly the thing left on a coffee table after a party. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a> for the onion and garlic thresholds.</p>
+
+        <h2>If your dog ate avocado</h2>
+        <p><strong>Ate a slice of flesh:</strong> nothing. Watch for loose stool over the next day; most dogs show no reaction at all.</p>
+        <p><strong>Ate the skin:</strong> likely mild vomiting or diarrhoea. Withhold food for a few hours, offer water, and call the vet if vomiting persists past 24 hours.</p>
+        <p><strong>Ate the stone:</strong> call the vet. Do not wait for symptoms, and do not try to make the dog vomit — a stone coming back up can lodge in the oesophagus on the way. This is an imaging-and-possibly-surgery situation.</p>
+        <p><strong>Ate guacamole:</strong> call the vet or a poison line, and read the recipe if you have it. The onion and garlic content is what matters, and it is impossible to judge from the bowl.</p>
         """,
         "faq": [
-            ("Is avocado flesh toxic to dogs?", "The flesh is the least risky part but still high in fat; the skin, pit, and leaves are the concern."),
-            ("Can the avocado pit hurt my dog?", "Yes — it is a choking and blockage hazard and should never be left where a dog can swallow it."),
-            ("Why avoid avocado for dogs?", "Safer, lower-fat treats exist, and the fat content can trigger pancreatitis in sensitive dogs."),
+            ("Can dogs eat avocado?", "A small piece of flesh is unlikely to harm a dog — dogs are far more resistant to persin than birds or rabbits. It is still not recommended, because of the stone, the fat and the calories."),
+            ("Is avocado toxic to dogs?", "Persin is the toxin, and it is concentrated in the leaves, skin and stone. In dogs it typically causes only mild stomach upset. The serious danger is the stone, which can obstruct the gut."),
+            ("What happens if a dog eats an avocado stone?", "It can lodge in the oesophagus or intestine and requires veterinary imaging and possibly surgery. Call the vet immediately rather than waiting for symptoms."),
+            ("Can dogs eat guacamole?", "No. Guacamole usually contains onion and garlic, both of which are toxic to dogs, plus salt and chilli."),
+            ("Is avocado good for a dog's coat?", "The omega fatty acids are real, but a dog absorbs them far better from a formulated diet or a fish-oil supplement. Avocado brings too much fat and too many calories for that benefit."),
+            ("Can dogs with pancreatitis eat avocado?", "No. Avocado is about 15% fat, and a sudden fat load is exactly what triggers pancreatitis."),
+            ("How much avocado can a dog have?", "None is the recommended amount. If a small piece is eaten by accident, a medium dog is very unlikely to be affected."),
+            ("Are avocado leaves dangerous to dogs?", "They contain the highest persin concentration of the plant and should never be within reach. Compost and fallen prunings count."),
         ],
-        "related": ["foods-toxic-to-dogs", "can-dogs-eat-bananas", "how-much-to-feed-my-dog"],
+        "related": ["can-dogs-eat-bananas", "can-dogs-eat-apples", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
         "sources": [
-            ("Pet Poison Helpline — Avocado",
-             "https://www.petpoisonhelpline.com/poison/avocado/"),
-            ("Merck Veterinary Manual — Avocado Toxicosis in Animals",
-             "https://www.merckvetmanual.com/toxicology/food-hazards/avocado-toxicosis-in-animals"),
             ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
              "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Food Hazards",
+             "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
+
     # ---------------- Dog nutrition: can dogs eat X (batch 1, 2026-10-24) ----------------
     {
         "slug": "can-dogs-eat-blueberries",
