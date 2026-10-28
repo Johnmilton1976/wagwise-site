@@ -1606,29 +1606,68 @@ ARTICLES = [
         "lede": "The best crate is the one your dog accepts and you can clean easily. We prefer sturdy wire crates with a divider for puppies and a secure plastic crate for travel.",
         "eyebrow": "REVIEWS",
         "body": """
-        <h2>What actually matters</h2>
-        <ul>
-          <li><strong>Correct size</strong> — stand/turn/lie down room, with a divider to grow into for puppies.</li>
-          <li><strong>Secure door latch</strong> — escape-proof for anxious dogs.</li>
-          <li><strong>Easy cleanup</strong> — a removable tray saves you.</li>
-        </ul>
+        <h2>How these picks were made — and what they are not</h2>
+        <p>No crate was bought, destroyed, or crash-tested for this page. There is no laboratory here and nobody on the team is a veterinary behaviourist.</p>
+        <p>What these picks are based on: published internal dimensions against the sizing rule below, the failure modes that show up repeatedly in owner reports and veterinary behaviour literature (latch failure, bar spacing, floor tray collapse, plastic becoming brittle in cold), and the ergonomics of actually cleaning a crate twice a week for a year.</p>
+        <p>That is a real basis for a recommendation, but it is not the same as a physical test, and we would rather say so than imply otherwise.</p>
+
+        <h2>The sizing rule that decides everything</h2>
+        <p>Most crate problems start with the wrong size, and most wrong sizes are too big rather than too small.</p>
+        <table>
+          <thead><tr><th>Measurement</th><th>How to take it</th><th>What the crate needs</th></tr></thead>
+          <tbody>
+            <tr><td>Length</td><td>Nose to base of tail, standing</td><td>Add 5–10 cm so the dog can turn around</td></tr>
+            <tr><td>Height</td><td>Floor to top of head, standing normally, ears up</td><td>Add 5–10 cm so the head clears when standing</td></tr>
+            <tr><td>Width</td><td>Widest point across the shoulders</td><td>Enough to lie down fully stretched on one side</td></tr>
+          </tbody>
+        </table>
+        <p>Now the part that matters for puppies: buy the adult size and use a divider panel. A puppy in a crate sized for its current body will need a second crate within months. A puppy in an adult crate without a divider will toilet in one corner and sleep in the other, which defeats the entire point of crate training.</p>
+        <div class="callout good">A divider is not an accessory — it is the feature that makes an adult crate usable for a puppy. If a crate does not offer one, it is the wrong crate for a puppy.</div>
 
         <h2>Our picks by need</h2>
-        <p><strong>For puppies:</strong> a wire crate with a divider panel — shrink it now, expand as they grow, no second purchase. <strong>For anxious dogs:</strong> a solid plastic crate feels more den-like and blocks visual triggers. <strong>For car travel:</strong> a crash-tested plastic crate anchored with a seatbelt.</p>
-        <div class="callout good">Avoid crates with sharp edges or flimsy latches. The cheapest crate that fails its latch costs more than a good one when your dog gets loose.</div>
+        <p><strong>For puppies:</strong> a wire crate with a divider panel and a removable floor tray. Shrink it now, expand as the dog grows, no second purchase. Look for bar spacing under 4 cm for a small breed — a puppy can squeeze its head between wider bars.</p>
+        <p><strong>For anxious dogs:</strong> a solid plastic crate, because it feels more den-like and blocks visual triggers. The trade-off is ventilation and heat: a plastic crate in direct sun or a warm car is a genuine risk, so never use one as a sun shelter.</p>
+        <p><strong>For car travel:</strong> a crash-tested plastic crate, anchored with a seatbelt or a strap through the crate's designated anchor points. "Crash tested" should mean tested to a published standard — not a marketing phrase on the box.</p>
+        <p><strong>For home and travel combined:</strong> a wire crate for the house plus a soft travel crate only if the dog is not a chewer. A determined chewer will go through fabric in minutes, and the zips are the first thing to fail.</p>
 
-        <h2>What we skip</h2>
-        <p>Fancy furniture crates are pretty but often poor ventilation and hard to clean. Pretty is the last thing to optimize.</p>
+        <h2>The failure modes worth checking before you buy</h2>
+        <table>
+          <thead><tr><th>Part</th><th>What goes wrong</th><th>What to look for</th></tr></thead>
+          <tbody>
+            <tr><td>Door latch</td><td>The single most common escape point; a sliding bolt that a paw can nudge</td><td>Two-point latching, or a bolt with a secondary lock</td></tr>
+            <tr><td>Bar spacing</td><td>A puppy's head or jaw can lodge between bars</td><td>Under 4 cm for small breeds and puppies</td></tr>
+            <tr><td>Floor tray</td><td>Thin plastic cracks, then the dog stands on wire</td><td>A rigid tray that slides out without lifting the crate</td></tr>
+            <tr><td>Wire gauge</td><td>Thin bars bend outward under a determined dog</td><td>Thicker gauge on the door panel specifically — that is where the load is</td></tr>
+            <tr><td>Coating</td><td>Cheap powder coat chips, then rusts</td><td>Even coating at the weld points, which is where it usually fails first</td></tr>
+            <tr><td>Collapsibility</td><td>Folding mechanisms that do not lock positively</td><td>A crate that clicks into place rather than one that relies on friction</td></tr>
+          </tbody>
+        </table>
+
+        <h2>What we skip, and why</h2>
+        <p><strong>Furniture crates.</strong> Attractive, expensive, usually poor ventilation, and the enclosed design makes cleaning harder. A dog that is warm and bored will chew the wooden frame. Pretty is the last thing to optimise.</p>
+        <p><strong>Very cheap crates with single-point latches.</strong> The cheapest crate that fails its latch costs more than a good one once the dog is loose in the house at night.</p>
+        <p><strong>"Indestructible" crates marketed for escape artists.</strong> Some are genuinely stronger, but no crate substitutes for addressing the separation anxiety that drives the escaping. A dog that has broken out of a standard crate needs a behaviour plan, not a thicker crate.</p>
+
+        <h2>Crate training is a separate skill from buying the crate</h2>
+        <p>A good crate used wrongly produces a dog that fears it. Three rules that matter more than the product:</p>
+        <p><strong>The crate is never punishment.</strong> A dog sent to the crate after misbehaving learns that the crate predicts bad things, and the one place you need it to be safe becomes the place it avoids.</p>
+        <p><strong>Feed in it, with the door open.</strong> For the first week, meals go in the crate and the door stays open. Duration comes later.</p>
+        <p><strong>Do not use it for long confinement.</strong> A crate is a management tool for short periods and overnight, not a substitute for exercise and company. A dog crated for a full working day is a welfare problem regardless of how good the crate is.</p>
 
         <h2>Bottom line</h2>
-        <p>Buy once: a size-adjustable wire crate for home, and a travel crate only if you drive with your dog often.</p>
+        <p>Buy once: a size-adjustable wire crate with a divider and a rigid tray for the house, and a crash-tested travel crate only if you drive with your dog regularly. Spend the effort on sizing and on the first week of training — those two things decide whether the crate works, far more than the brand does.</p>
         """,
         "faq": [
-            ("What size crate does my dog need?", "Big enough to stand, turn, and lie down. For a puppy, choose the adult size and use a divider to keep the space snug now."),
-            ("Wire or plastic crate?", "Wire for home (airflow, visibility, divider options); plastic for anxious dogs and car travel (cozier, more secure)."),
-            ("Do I need a crate for my dog?", "Not required, but it speeds house training and gives a safe space. Many dogs come to love theirs."),
+            ("What size crate does my dog need?", "Big enough to stand, turn, and lie down. Measure nose to tail base and floor to head, then add 5–10 cm to each. For a puppy, buy the adult size and use a divider to keep the space snug now."),
+            ("Wire or plastic crate?", "Wire for home — airflow, visibility, divider options, easier cleaning. Plastic for anxious dogs and car travel, where the enclosed feel is an advantage and crash testing matters."),
+            ("Do I need a crate for my dog?", "Not required, but it speeds house training and gives a dog a safe space. Many dogs come to choose it voluntarily when it is introduced properly."),
+            ("Is it cruel to crate a dog?", "Not for short periods and overnight, when the dog is trained to it and the crate is the right size. Long daily confinement without exercise or company is a welfare problem."),
+            ("Should I put a bed in the crate?", "Yes, once the dog is not chewing it. A flat bed or vet-bed lining is safer than a thick cushion for a puppy that shreds things."),
+            ("How do I stop my dog escaping the crate?", "Check the latch first — most escapes are latch failures, not strength. Then look at whether separation anxiety is the real cause, because no crate fixes that."),
+            ("Can a crate be too big?", "For a puppy, yes. Too much space lets the puppy toilet in one corner and sleep in another, which undoes house training. Use a divider."),
+            ("Do you earn a commission from these picks?", "No. There are no affiliate links on this page and we earn nothing from it. The picks are based on published dimensions and known failure modes, not on laboratory testing."),
         ],
-        "related": ["how-to-crate-train-a-puppy", "best-dog-harness-for-pulling", "dog-care"],
+        "related": ["how-to-crate-train-a-puppy", "best-dog-harness-for-pulling", "how-to-leash-train-a-dog"],
         "sources": [
             ("ASPCA — Common Dog Behavior Issues",
              "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
@@ -1637,8 +1676,9 @@ ARTICLES = [
             ("Merck Veterinary Manual — Behavior of Dogs",
              "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
         ],
-        "disclaimer": "Product guidance is opinion based on general use; we may earn a commission from linked retailers at no cost to you. Always check current safety ratings.",
+        "disclaimer": "We have no affiliate links on this page and earn nothing from these picks. Recommendations are based on published specifications and common failure modes, not laboratory testing.",
     },
+
     {
         "slug": "best-dog-harness-for-pulling",
         "pillar": "best",
@@ -1648,39 +1688,79 @@ ARTICLES = [
         "lede": "A front-clip harness turns a pulling dog back toward you, which gently discourages leaning in. We favor padded, adjustable, easy-on designs over trendy ones.",
         "eyebrow": "REVIEWS",
         "body": """
-        <h2>Why front-clip wins</h2>
-        <p>A clip on the chest redirects the dog's forward drive sideways, so pulling no longer moves them ahead. A back-clip harness, by contrast, lets them pull like a sled dog.</p>
+        <h2>How these picks were made</h2>
+        <p>No harness here was pull-tested to failure, and nobody measured gait changes with a force plate. What these picks rest on: strap geometry and how a front clip actually redirects load, the fit problems that consistently show up on dogs wearing harnesses badly (armpit rub, shoulder restriction, slipping out backwards), and the hardware details that fail first — buckles, D-rings and the stitching at the chest plate.</p>
+        <p>We have no affiliate links on this page and earn nothing from it. That is worth stating plainly, because most "best harness" pages are ranked by commission rate.</p>
+
+        <h2>Why front-clip wins — mechanically, not as a slogan</h2>
+        <p>A back-clip harness puts the attachment point above the shoulders. When the dog leans forward, the lead pulls up and back against the shoulders, and the dog's strongest muscles — the hindquarters driving forward — win. That is why a back-clip harness on a determined puller does nothing except make the pulling more comfortable for the dog.</p>
+        <p>A front clip puts the attachment point on the chest. Tension there turns the dog's front end sideways rather than stopping it. The dog's own forward momentum becomes the thing that redirects it, which is why the correction requires no force from the handler.</p>
+        <p>The often-quoted downside — that front-clip harnesses alter gait — comes from studies on dogs wearing weighted or restrictive harnesses, and the results vary by design. A well-fitted, Y-shaped front-clip harness that leaves the shoulder free is a different product from a strap that crosses the shoulder joint. Fit matters more than the category.</p>
 
         <h2>What to look for</h2>
-        <ul>
-          <li><strong>Front (chest) clip</strong> for pulling; some models offer both front and back.</li>
-          <li><strong>Padded straps</strong> so it does not rub the armpits on long walks.</li>
-          <li><strong>Adjustable</strong> at chest and girth for a snug, escape-proof fit.</li>
-        </ul>
-        <div class="callout good">Fit matters more than brand. Two fingers should slide under every strap; a loose harness lets a strong dog slip out.</div>
+        <table>
+          <thead><tr><th>Feature</th><th>Why it matters</th><th>What to avoid</th></tr></thead>
+          <tbody>
+            <tr><td>Front (chest) attachment</td><td>The whole mechanism of pull reduction</td><td>Chest strap that sits low on the sternum and cuts across the windpipe when tight</td></tr>
+            <tr><td>Y-shaped front panel</td><td>Leaves the shoulder joint free to extend</td><td>A horizontal strap straight across the point of the shoulder</td></tr>
+            <tr><td>Padded straps</td><td>Prevents armpit rub on long walks</td><td>Bare webbing on a short-coated dog</td></tr>
+            <tr><td>Four-point adjustability</td><td>Neck and girth adjusted independently for a secure fit</td><td>Two-point adjust — rarely fits a dog that is not the sample shape</td></tr>
+            <tr><td>Metal D-rings, stitched through webbing</td><td>The load path; this is where cheap harnesses fail</td><td>Plastic D-rings, or a ring attached only to a single line of stitching</td></tr>
+            <tr><td>Back clip as an option</td><td>Useful for a long line or for a dog that already walks well</td><td>Front clip only, if you also want to use a long line</td></tr>
+          </tbody>
+        </table>
+        <div class="callout good">Fit matters more than brand. Two fingers should slide under every strap, and no strap should cross the shoulder joint or press into the armpit. A loose harness lets a strong dog back straight out of it.</div>
+
+        <h2>The fitting check — five points</h2>
+        <p>Put the harness on, then check each of these before the first walk:</p>
+        <p><strong>1. Two-finger rule at every strap.</strong> Snug, not loose. A harness you can pull over the head without unbuckling is too big.</p>
+        <p><strong>2. Shoulder clearance.</strong> Slide a finger under the front panel where it crosses the shoulder. It should move freely. If the strap sits on the point of the shoulder, the dog cannot extend the leg properly.</p>
+        <p><strong>3. Armpit check.</strong> Walk the dog for two minutes, then look at the skin behind the front legs. Redness now means a rub that becomes a sore within a week.</p>
+        <p><strong>4. Escape test.</strong> With the dog on a lead in a safe enclosed space, apply gentle backward pressure. A dog that can reverse out of the harness will do it at the worst possible moment, usually near traffic.</p>
+        <p><strong>5. Lead attachment.</strong> Clip to the front ring for training, and check the ring is not pulling the chest strap sideways into the armpit when tension is applied.</p>
+
+        <h2>Our picks by need</h2>
+        <p><strong>For a strong puller:</strong> a Y-front harness with a front clip and a back clip, padded at the chest plate. Use the front clip while training and switch to the back clip once the dog walks on a loose lead.</p>
+        <p><strong>For a small dog or a puppy:</strong> the lightest front-clip harness available with four-point adjustment. Weight matters proportionally — a 300 g harness on a 4 kg dog is like a 5 kg backpack on an adult.</p>
+        <p><strong>For a dog that slips harnesses:</strong> look for a harness with a third belly strap or a design that narrows behind the ribcage. These are harder to back out of, and they are the ones to choose for an escape artist.</p>
+        <p><strong>For a short-coated or sensitive-skin dog:</strong> padded, smooth-edged webbing. Hairless and thin-coated breeds rub raw quickly on bare nylon.</p>
 
         <h2>What we avoid</h2>
-        <p>Choke, prong, and tight martingale collars — they correct through discomfort and can injure the neck. A front-clip harness teaches without pain.</p>
+        <p><strong>Choke chains, prong collars and shock collars.</strong> This is not a style preference. Studies find higher rates of stress signals and increased aggression in dogs trained with aversive methods, and the suppression they produce often resurfaces later as reactivity toward the thing that predicted the correction. On a pulling dog, a prong collar teaches that other dogs predict neck pain.</p>
+        <p><strong>No-pull harnesses that tighten across the chest.</strong> Some "no-pull" designs work by constricting the chest when the dog pulls. That is an aversive tool with the same problems as a choke collar, just distributed differently.</p>
+        <p><strong>Retractable leads for training.</strong> Constant tension teaches pulling, and the thin cord has caused severe injuries — including amputations — when it wraps around a limb or a person.</p>
+
+        <h2>The gear is half the job</h2>
+        <p>A front-clip harness makes pulling physically harder. It does not teach the dog what to do instead. The training that goes with it:</p>
+        <p><strong>Stop the moment the lead goes taut.</strong> Not after ten metres — the instant tension appears. Wait for the dog to look back, then reward at your leg.</p>
+        <p><strong>Reward the position, not the return.</strong> Treat low, at leg height, while you are moving. Treating in front of your body teaches the dog to walk ahead and look back.</p>
+        <p><strong>Practise in three-minute sessions indoors.</strong> Real walks are the exam; the lesson happens in the kitchen. Full method: <a href="/dog-training/how-to-leash-train-a-dog/">how to leash train a dog</a>.</p>
 
         <h2>Bottom line</h2>
-        <p>Pair the harness with the stop-and-go leash method. The gear helps; the consistency is what trains.</p>
+        <p>Pair a well-fitted, Y-front, padded front-clip harness with the stop-and-turn method. The gear buys you physical control while the training takes effect — usually four to six weeks of short daily sessions. Expect the harness to be a training aid you phase out of, not a permanent solution to a dog that has never been taught to walk on a loose lead.</p>
         """,
         "faq": [
-            ("What type of harness stops pulling?", "A front-clip (chest-clip) harness. It turns the dog toward you when they pull, discouraging the behavior without pain."),
-            ("Are no-pull harnesses bad for dogs?", "Good padded front-clip harnesses are safe. Avoid ones that tighten harshly or choke; fit and padding are key."),
-            ("Should I use a collar or harness?", "For pullers, a front-clip harness protects the neck. Keep ID tags on a flat collar underneath."),
+            ("What type of harness stops pulling?", "A front-clip (chest-clip) harness. It turns the dog sideways when they pull, so forward momentum redirects instead of being rewarded. A back-clip harness lets a strong dog pull like a sled dog."),
+            ("Are no-pull harnesses bad for dogs?", "Good padded Y-front front-clip harnesses are safe. Avoid designs that tighten and constrict the chest, which are aversive tools with the same problems as a choke collar."),
+            ("Should I use a collar or harness?", "For a puller, a front-clip harness protects the neck. Keep ID tags on a flat collar underneath — a harness is easy to slip if the dog gets loose."),
+            ("Do front-clip harnesses change a dog's gait?", "Studies on restrictive and weighted harnesses show gait changes; well-fitted Y-front designs that leave the shoulder free are a different product. Fit matters more than the category."),
+            ("How tight should a dog harness be?", "Two fingers should slide under every strap, and the front panel should not sit on the point of the shoulder. If you can pull it over the head without unbuckling, it is too big."),
+            ("Why does my dog keep slipping out of the harness?", "Usually too loose, or a design without a third belly strap. Check the escape test in a safe enclosed space — dogs that can reverse out will do it near traffic."),
+            ("Can I leave a harness on all day?", "It is better not to. Long-term wear causes rubbing at the armpits and pressure points. Put it on for walks and take it off indoors."),
+            ("Do you earn a commission from these picks?", "No. There are no affiliate links on this page and we earn nothing from it. The picks are based on strap geometry, fit problems and hardware failure points."),
         ],
-        "related": ["how-to-leash-train-a-dog", "best-dog-crate", "why-is-my-dog-shaking"],
+        "related": ["how-to-leash-train-a-dog", "best-dog-crate", "how-to-trim-dog-nails"],
         "sources": [
-            ("ASPCA — Common Dog Behavior Issues",
-             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
             ("American Veterinary Society of Animal Behavior — Position Statements",
              "https://avsab.org/resources/position-statements/"),
+            ("ASPCA — Common Dog Behavior Issues",
+             "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues"),
             ("Merck Veterinary Manual — Behavior of Dogs",
              "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
         ],
-        "disclaimer": "Product guidance is opinion based on general use; we may earn a commission from linked retailers at no cost to you. Check fit and safety for your dog.",
+        "disclaimer": "We have no affiliate links on this page and earn nothing from these picks. Recommendations are based on strap design, fit and known hardware failure points, not laboratory testing.",
     },
+
     # ---------------- Dog nutrition: "can dogs eat X" cluster ----------------
     {
         "slug": "can-dogs-eat-apples",
