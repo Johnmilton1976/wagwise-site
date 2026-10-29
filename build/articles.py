@@ -913,6 +913,67 @@ ARTICLES = [
           <tr><td><b>4. Safe in moderation</b></td><td>Apples, bananas, blueberries, strawberries, watermelon, pumpkin, sweet potato, rice, cucumber, broccoli, green beans, pineapple, mango, peas, carrots, plain yoghurt, plain peanut butter, cooked chicken</td><td>Fine as treats, inside the 10% calorie budget, prepared correctly.</td></tr>
         </table>
 
+        <h2>All 47 foods we cover, verdict at a glance</h2>
+        <p>The tier table above sorts the dangerous half by how fast you have to act. This is the other half of the question owners actually type: the full list of every food we have a guide for, sorted by verdict. Each line links to the full write-up with doses, symptoms, and serving sizes.</p>
+        <h3>Never — toxic or dangerous in any amount</h3>
+        <table>
+          <tr><th>Food</th><th>The rule</th></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-xylitol/">Xylitol</a></td><td>A tiny amount triggers a rapid insulin crash — check every peanut butter and "sugar-free" label.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-grapes/">Grapes and raisins</a></td><td>No safe amount is known; even a few can cause sudden kidney failure.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Chocolate</a></td><td>Theobromine, which dogs metabolize slowly; dark and baking chocolate are the worst.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">Macadamia nuts</a></td><td>Weakness, tremors and vomiting within 12 hours of even a small number.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-onion/">Onions</a></td><td>Toxic in every form and in every amount; powder is the most concentrated.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-garlic/">Garlic</a></td><td>Same red-blood-cell damage as onion, and the "garlic for fleas" remedy is a myth.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-alcohol/">Alcohol</a></td><td>Even a sip of a strong drink can crash a small dog's blood sugar and temperature.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-caffeine/">Caffeine</a></td><td>Coffee, tea, energy drinks, grounds and pills all speed the heart past what a dog can handle.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-raw-dough/">Raw yeast dough</a></td><td>Keeps rising in the warm stomach — bloat plus alcohol poisoning at the same time.</td></tr>
+        </table>
+        <h3>Only with conditions</h3>
+        <table>
+          <tr><th>Food</th><th>The rule</th></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-avocado/">Avocado</a></td><td>A little flesh is fine — persin is a bird toxin, not a dog one; never the pit or skin.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-cherries/">Cherries</a></td><td>Flesh is fine; the pit carries cyanide compounds and can block the gut.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-peaches/">Peaches</a></td><td>Fresh flesh in slices; the pit is a double hazard — cyanide and obstruction.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-plums/">Plums</a></td><td>Same deal as peaches: flesh yes, pit never.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-potato/">Potato</a></td><td>Fully cooked only; raw potato and green skins are toxic.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-tomato/">Tomato</a></td><td>Ripe red flesh in small amounts; stems, leaves and green fruit carry solanine.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-corn/">Corn</a></td><td>Kernels are fine; the cob is a serious choking and blockage hazard.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-almonds/">Almonds</a></td><td>Not poisonous, but a choke and pancreatitis risk — most vets still say no.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-walnuts/">Walnuts</a></td><td>Not recommended at all; black walnuts in particular can carry a fungus toxin.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-ham/">Ham</a></td><td>Not poisonous, just one of the worst everyday meats: salt, fat, and glazes.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-ice-cream/">Ice cream</a></td><td>Lactose, sugar, and flavorings like chocolate or xylitol make it a bad trade.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-milk/">Milk</a></td><td>Most adult dogs are lactose intolerant; a bowl usually ends in an upset stomach.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-cheese/">Cheese</a></td><td>A small piece of plain hard cheese is fine; it is high-fat and high-salt.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-peanut-butter/">Peanut butter</a></td><td>A great treat, but only if the label confirms no xylitol.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-broccoli/">Broccoli</a></td><td>Small amounts are healthy; large amounts irritate the stomach.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-spinach/">Spinach</a></td><td>Safe in small amounts; the oxalates add up, so keep it occasional.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-bread/">Bread</a></td><td>A piece of baked bread is harmless; it is raw dough that is dangerous.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-popcorn/">Popcorn</a></td><td>Plain air-popped only; butter, salt and unpopped kernels are the problem.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-honey/">Honey</a></td><td>Not toxic, essentially sugar — tiny amounts only.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-yogurt/">Yogurt</a></td><td>Plain and unsweetened only; skip anything flavored or sweetened.</td></tr>
+        </table>
+        <h3>Safe in reasonable amounts</h3>
+        <table>
+          <tr><th>Food</th><th>The rule</th></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-apples/">Apples</a></td><td>Crunchy and low-calorie; remove the core and seeds first.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-bananas/">Bananas</a></td><td>Safe in small pieces; one of the sweeter fruits, so the portion matters.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-blueberries/">Blueberries</a></td><td>Among the safest treats you can give: low calorie, high antioxidant.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-strawberries/">Strawberries</a></td><td>Safe in moderation; the natural sugar adds up.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-watermelon/">Watermelon</a></td><td>Red flesh only; no rind and no seeds.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-carrots/">Carrots</a></td><td>One of the best treats: low-calorie, high-fiber, and good for teeth.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-cucumber/">Cucumber</a></td><td>Near-zero-calorie crunch that is mostly water.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-green-beans/">Green beans</a></td><td>Plain, raw or cooked; a staple of canine weight-loss diets.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-peas/">Peas</a></td><td>Plain peas are fine; skip the canned kind with added salt.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-pumpkin/">Pumpkin</a></td><td>Plain cooked pumpkin (never pie filling) is genuinely good for digestion.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-sweet-potato/">Sweet potato</a></td><td>Plain and cooked; packed with fiber and beta-carotene.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-rice/">Rice</a></td><td>Plain cooked white rice — the backbone of every bland diet.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-eggs/">Eggs</a></td><td>Cooked only; raw carries a salmonella risk.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-chicken/">Chicken</a></td><td>Plain, boneless, cooked; never cooked bones.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-salmon/">Salmon</a></td><td>Cooked; never raw or lightly cured.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-shrimp/">Shrimp</a></td><td>Cooked and peeled, no seasoning.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-mango/">Mango</a></td><td>Flesh in small pieces; peel it and remove the pit.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-pineapple/">Pineapple</a></td><td>Fresh flesh in small pieces; skip the core and the canned syrup.</td></tr>
+        </table>
         <h2>Tier 1 in detail — the ones that actually kill</h2>
         <p><b>Chocolate.</b> The toxin is theobromine and the dose is everything. Roughly: white chocolate 0.25 mg per gram, milk chocolate 2.4, dark chocolate 5 to 6, unsweetened baking chocolate 16 to 26, cocoa powder around 26 mg per gram. Signs start at about 20 mg per kg of body weight, heart rhythm problems appear around 40 to 50, and seizures above 60. A 10 kg dog eating 100 g of dark chocolate takes in roughly 550 mg — 55 mg per kg, squarely in the cardiac range. The same weight of milk chocolate lands at 24 mg per kg: upset stomach territory, not emergency territory. That gap is why "how much chocolate" has no single answer, and why the calculator matters more than the rule.</p>
         <p><b>Grapes and raisins.</b> No known safe dose. The mechanism is still unidentified, and individual dogs vary enormously — some eat a handful with no effect, others go into kidney failure from a few. Because the sensitivity cannot be predicted, any ingestion is treated as serious. Raisins are worse by weight, since drying concentrates whatever the toxin is.</p>
