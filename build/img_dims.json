@@ -35,6 +35,18 @@
   1600,
   1067
  ],
+ "can-dogs-eat-almonds-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-almonds-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-almonds": [
+  1280,
+  853
+ ],
  "can-dogs-eat-apples-og": [
   1200,
   630
@@ -71,6 +83,18 @@
   1600,
   1067
  ],
+ "can-dogs-eat-caffeine-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-caffeine-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-caffeine": [
+  1280,
+  853
+ ],
  "can-dogs-eat-carrots-og": [
   1200,
   630
@@ -104,8 +128,8 @@
   300
  ],
  "can-dogs-eat-chicken": [
-  1600,
-  1200
+  1200,
+  900
  ],
  "can-dogs-eat-chocolate-og": [
   1200,
@@ -143,6 +167,42 @@
   1600,
   1067
  ],
+ "can-dogs-eat-ham-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-ham-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-ham": [
+  1280,
+  853
+ ],
+ "can-dogs-eat-ice-cream-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-ice-cream-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-ice-cream": [
+  1445,
+  963
+ ],
+ "can-dogs-eat-macadamia-nuts-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-macadamia-nuts-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-macadamia-nuts": [
+  1280,
+  853
+ ],
  "can-dogs-eat-milk-og": [
   1200,
   630
@@ -152,8 +212,20 @@
   300
  ],
  "can-dogs-eat-milk": [
-  1600,
-  2844
+  900,
+  1600
+ ],
+ "can-dogs-eat-onion-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-onion-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-onion": [
+  1216,
+  811
  ],
  "can-dogs-eat-peanut-butter-og": [
   1200,
@@ -167,6 +239,18 @@
   1600,
   1067
  ],
+ "can-dogs-eat-raw-dough-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-raw-dough-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-raw-dough": [
+  1280,
+  853
+ ],
  "can-dogs-eat-strawberries-og": [
   1200,
   630
@@ -178,6 +262,18 @@
  "can-dogs-eat-strawberries": [
   1600,
   1067
+ ],
+ "can-dogs-eat-walnuts-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-walnuts-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-walnuts": [
+  1281,
+  854
  ],
  "can-dogs-eat-watermelon-og": [
   1200,
@@ -191,6 +287,18 @@
   1600,
   1067
  ],
+ "can-dogs-eat-xylitol-og": [
+  1200,
+  630
+ ],
+ "can-dogs-eat-xylitol-thumb": [
+  480,
+  300
+ ],
+ "can-dogs-eat-xylitol": [
+  1440,
+  960
+ ],
  "cat-hairballs-og": [
   1200,
   630
@@ -200,8 +308,8 @@
   300
  ],
  "cat-hairballs": [
-  6016,
-  4000
+  1400,
+  931
  ],
  "cat-litter-training-og": [
   1200,
@@ -296,8 +404,8 @@
   300
  ],
  "dog-not-eating-but-drinking-water": [
-  1600,
-  1067
+  1400,
+  934
  ],
  "dog-nutrition-og": [
   1200,
@@ -456,8 +564,8 @@
   300
  ],
  "why-does-my-cat-meow-at-night": [
-  5632,
-  3755
+  1400,
+  933
  ],
  "why-is-my-dog-shaking-og": [
   1200,
