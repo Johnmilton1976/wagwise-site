@@ -78,10 +78,12 @@ h1{font-size:32px;font-weight:700;line-height:1.3;letter-spacing:-.01em;margin-b
 
 /* ---------- hub cards ---------- */
 .hub{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:26px 0}
-.hub a{display:block;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:16px;padding:0;overflow:hidden;color:inherit;transition:border-color .15s,box-shadow .15s,transform .15s}
+.hub a{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:16px;padding:0;overflow:hidden;color:inherit;transition:border-color .15s,box-shadow .15s,transform .15s}
 .hub a:hover{border-color:#3FA97E;box-shadow:0 6px 20px rgba(63,169,126,.12);text-decoration:none;transform:translateY(-2px)}
 .hub .timg{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:#EDEAE3;border-radius:16px 16px 0 0}
 .hub .tpad{padding:18px 20px 20px}
+.hub a.noimg{background:linear-gradient(180deg,#F4FAF7 0%,#fff 58%)}
+.hub a.noimg .tpad{flex:1;display:flex;flex-direction:column;justify-content:center;padding-top:24px;padding-bottom:26px}
 .hub .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#3FA97E;margin-bottom:10px;font-weight:600}
 .hub h3{font-size:17px;font-weight:700;margin-bottom:8px;color:#1E2125}
 .hub p{font-size:14px;color:#5A5E64;line-height:1.6}

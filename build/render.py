@@ -42,11 +42,12 @@ ORG_JSONLD = json.dumps(
         "url": DOMAIN + "/",
         "logo": DOMAIN + "/assets/og-image-wagwise.png",
         "description": "An independent pet care editorial resource.",
+        # Only profiles where we actually publish long-form work. Quora answers and
+        # a Blogger mirror were dropped: they are the two that read as "profile
+        # built for link building" rather than evidence of a real publisher.
         "sameAs": [
             "https://medium.com/@steven.jones.19760904",
             "https://stevenjones205255.substack.com",
-            "https://www.quora.com/profile/Steven-Jones-2549",
-            "https://stevenjones19760904.blogspot.com",
         ],
     },
     ensure_ascii=False,
@@ -133,6 +134,7 @@ def hub_card(url, kicker, title, desc, slug):
     """
     t = thumb_src(slug)
     img = ""
+    cls = "noimg" if not t else ""
     if t:
         d = IMG_DIMS.get(slug + "-thumb", (480, 300))
         img = (
@@ -140,8 +142,8 @@ def hub_card(url, kicker, title, desc, slug):
             'decoding="async" alt="%s">' % (t, d[0], d[1], _html.escape(title, quote=True))
         )
     return (
-        '<a href="%s">%s<div class="tpad"><div class="k">%s</div>'
-        "<h3>%s</h3><p>%s</p></div></a>" % (url, img, kicker, title, desc)
+        '<a href="%s" class="%s">%s<div class="tpad"><div class="k">%s</div>'
+        "<h3>%s</h3><p>%s</p></div></a>" % (url, cls, img, kicker, title, desc)
     )
 
 
@@ -282,7 +284,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=5">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=6">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -585,47 +587,49 @@ def render_home():
     # Latest guides — 哥飞: homepage should list newest content to pull crawler
     # revisits and give new pages an entry point. New articles appended to
     # ARTICLES appear first here automatically.
-    latest = ARTICLES[::-1][:9]
+    latest = ARTICLES[::-1][:6]
     latest_cards = ""
     for a in latest:
         latest_cards += hub_card(a["url"], "ARTICLE", a["title"], a["lede"], a["slug"])
-    # All guides by topic — 哥飞 E3/E4: the homepage must link to EVERY inner
-    # page (title links, not body copy) so crawlers reach the whole site in one
-    # hop and homepage link equity flows to each article.
-    covered = set()
-    gi_groups = ""
-    for s, p in PILLARS.items():
-        slugs = [sl for sl in p.get("links", []) if sl in LOOKUP]
-        if not slugs:
-            continue
-        lis = ""
-        for slug in slugs:
-            url, title = LOOKUP[slug]
-            covered.add(slug)
-            lis += '<li><a href="%s">%s</a></li>' % (url, _html.escape(title))
-        gi_groups += ('<div class="gi-group"><h3><a href="%s">%s</a></h3><ul>%s</ul></div>'
-                      % (p["url"], _html.escape(p["nav"]), lis))
-    # Safety net: anything not listed under a pillar still gets a link.
-    orphan = [a for a in ARTICLES if a["slug"] not in covered]
-    if orphan:
-        lis = "".join('<li><a href="%s">%s</a></li>' % (a["url"], _html.escape(a["title"]))
-                      for a in orphan)
-        gi_groups += ('<div class="gi-group"><h3>More guides</h3><ul>%s</ul></div>' % lis)
+    # Fixed homepage slots for the pages that carry commercial intent. These four
+    # were the least-linked pages on the site while 70 articles competed for one
+    # row of the homepage — so they get named slots instead.
+    money_cards = ""
+    _money = [(TOOL["url"], TOOL["title"], TOOL["description"],
+               "dog-age-calculator", "TOOL")]
+    for _slug, _kick in (("best-dog-crate", "BUYING GUIDE"),
+                         ("best-dog-harness-for-pulling", "BUYING GUIDE"),
+                         ("how-much-to-feed-my-dog", "FEEDING REFERENCE")):
+        _a = next((x for x in ARTICLES if x["slug"] == _slug), None)
+        if _a:
+            _money.append((_a["url"], _a["title"], _a["lede"], _slug, _kick))
+    for _url, _title, _desc, _slug, _kick in _money:
+        money_cards += hub_card(_url, _kick, _title, _desc, _slug)
+
+    # The full A-Z list used to live here (73 links). It moved to /sitemap/, which
+    # every page already links to in the footer — one hop for a crawler, but the
+    # homepage no longer spreads its equity across 70 equally-weighted links.
+    total_pages = len(ARTICLES) + 1
+    see_all = (
+        '  <p class="lede" style="margin-top:34px">'
+        '<a href="/sitemap/"><strong>Browse all %d guides and tools \u2192</strong></a><br>'
+        "Every page on WagWise, grouped by section.</p>\n"
+    ) % total_pages
+
     body = (
         '<div class="wrap">\n'
         "  %s\n"
         '  <h2 id="sections">Browse by section</h2>\n'
         '  <div class="hub">%s</div>\n'
-        '  <h2 style="margin-top:40px">Popular answers</h2>\n'
+        '  <h2 style="margin-top:40px">Start here — the questions we get most</h2>\n'
+        '  <div class="hub">%s</div>\n'
+        '  <h2 style="margin-top:40px">Tools &amp; buying guides</h2>\n'
         '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Latest guides</h2>\n'
         '  <div class="hub">%s</div>\n'
-        '  <h2 style="margin-top:40px">All guides by topic</h2>\n'
-        '  <p class="lede" style="margin-bottom:6px">Every guide on WagWise Pet, '
-        "grouped by section.</p>\n"
-        '  <div class="guides-index">%s</div>\n'
+        "  %s\n"
         "</div>"
-    ) % (hero, pillar_cards, feat_cards, latest_cards, gi_groups)
+    ) % (hero, pillar_cards, feat_cards, money_cards, latest_cards, see_all)
     return shell(h, "/", body)
 
 

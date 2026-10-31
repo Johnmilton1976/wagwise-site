@@ -1731,7 +1731,7 @@ ARTICLES = [
         "pillar": "best",
         "title": "Best Dog Crate 2026 — Practical Picks, Not Hype",
         "url": "/best/dog-crate/",
-        "description": "Straightforward dog crate picks for puppies, anxious dogs, and travel — chosen for safety, durability, and easy cleaning, plus clear, practical sizing guidance.",
+        "description": "Best dog crate picks for 2026: wire crates with dividers for puppies, solid plastic for anxious dogs and travel, plus the sizing rule that decides which one.",
         "lede": "The best crate is the one your dog accepts and you can clean easily. We prefer sturdy wire crates with a divider for puppies and a secure plastic crate for travel.",
         "eyebrow": "REVIEWS",
         "body": """
@@ -1754,10 +1754,14 @@ ARTICLES = [
         <div class="callout good">A divider is not an accessory — it is the feature that makes an adult crate usable for a puppy. If a crate does not offer one, it is the wrong crate for a puppy.</div>
 
         <h2>Our picks by need</h2>
-        <p><strong>For puppies:</strong> a wire crate with a divider panel and a removable floor tray. Shrink it now, expand as the dog grows, no second purchase. Look for bar spacing under 4 cm for a small breed — a puppy can squeeze its head between wider bars.</p>
-        <p><strong>For anxious dogs:</strong> a solid plastic crate, because it feels more den-like and blocks visual triggers. The trade-off is ventilation and heat: a plastic crate in direct sun or a warm car is a genuine risk, so never use one as a sun shelter.</p>
-        <p><strong>For car travel:</strong> a crash-tested plastic crate, anchored with a seatbelt or a strap through the crate's designated anchor points. "Crash tested" should mean tested to a published standard — not a marketing phrase on the box.</p>
-        <p><strong>For home and travel combined:</strong> a wire crate for the house plus a soft travel crate only if the dog is not a chewer. A determined chewer will go through fabric in minutes, and the zips are the first thing to fail.</p>
+        <h3>Best dog crate for a puppy: wire, with a divider</h3>
+        <p>A wire crate with a divider panel and a removable floor tray. Shrink it now, expand as the dog grows, no second purchase. Look for bar spacing under 4 cm for a small breed — a puppy can squeeze its head between wider bars.</p>
+        <h3>Best dog crate for an anxious dog: solid plastic</h3>
+        <p>A solid plastic crate, because it feels more den-like and blocks visual triggers. The trade-off is ventilation and heat: a plastic crate in direct sun or a warm car is a genuine risk, so never use one as a sun shelter.</p>
+        <h3>Best dog crate for car travel: crash-tested and anchored</h3>
+        <p>A crash-tested plastic crate, anchored with a seatbelt or a strap through the crate's designated anchor points. "Crash tested" should mean tested to a published standard — not a marketing phrase on the box.</p>
+        <h3>Best dog crate for home and travel together: two crates, not one</h3>
+        <p>A wire crate for the house plus a soft travel crate only if the dog is not a chewer. A determined chewer will go through fabric in minutes, and the zips are the first thing to fail.</p>
 
         <h2>The failure modes worth checking before you buy</h2>
         <table>
@@ -6134,6 +6138,8 @@ HOME = {
         "can-dogs-eat-grapes",
         "can-dogs-eat-chocolate",
         "can-dogs-eat-milk",
+        "why-does-my-cat-meow-at-night",
+        "foods-toxic-to-dogs",
     ],
 }
 
