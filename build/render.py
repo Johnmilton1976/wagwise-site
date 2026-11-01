@@ -788,12 +788,27 @@ def render_tool(t):
 # rendered HTML actually changed get today's date; every other page keeps the
 # date it had. First run seeds itself from the currently published sitemap +
 # the files on disk, so nothing gets falsely stamped.
+#
+# 2026-11-01 correction: fingerprint the BODY only (<main>…</main>), not the
+# whole document. Template-level edits — bumping style.css?v=5→6, trimming the
+# Organization sameAs list in the JSON-LD — touch all 79 pages at once and used
+# to stamp every <lastmod> with the same day, which is exactly the failure this
+# mechanism exists to prevent. Body-only hashing means a template change costs
+# zero lastmod credibility.
 # ---------------------------------------------------------------------------
 MANIFEST_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".lastmod.json")
 
+_BODY_RE = re.compile(r"<main>(.*?)</main>", re.S)
+
+
+def _body(html):
+    """The <main> contents — everything that is real page content, not chrome."""
+    m = _BODY_RE.search(html)
+    return m.group(1) if m else html
+
 
 def _sha(html):
-    return hashlib.sha1(html.encode("utf-8")).hexdigest()
+    return hashlib.sha1(_body(html).encode("utf-8")).hexdigest()
 
 
 def _sha_file(path):
@@ -801,7 +816,7 @@ def _sha_file(path):
         # Normalise CRLF -> LF: write_page() runs in text mode, so on Windows the
         # file on disk uses \r\n while the freshly-rendered string uses \n.
         b = open(path, "rb").read().replace(b"\r\n", b"\n")
-        return hashlib.sha1(b).hexdigest()
+        return _sha(b.decode("utf-8", "replace"))
     except Exception:
         return ""
 

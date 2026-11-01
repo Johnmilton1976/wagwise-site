@@ -1,322 +1,326 @@
 {
  "public/404.html": {
-  "d": "2026-10-31",
-  "h": "4cc0d7861383d1a951d2bf03dbf734d9f5651d58"
+  "d": "2026-10-26",
+  "h": "fd017edfe89b33ab3a2098480978ca0666398206"
  },
  "public/about/editorial-standards/index.html": {
-  "d": "2026-10-31",
-  "h": "b55e3246dde04fab535828c8e395946abfd4341e"
+  "d": "2026-10-24",
+  "h": "591efe2718ad2a9b51d87fc65b14b2eaf5fb7165"
  },
  "public/about/index.html": {
-  "d": "2026-10-31",
-  "h": "9837a62f3c2da673057122394eb7f771668f6d63"
+  "d": "2026-10-23",
+  "h": "208ec94d11569bb88ee14ca791f896a8eb30fa8d"
  },
  "public/best/dog-crate/index.html": {
   "d": "2026-10-31",
-  "h": "9f8ab318529804a9fe4437f2ae0f73bc1130a93a"
+  "h": "35350898bcbef6307d52d376d48819234b659f00"
  },
  "public/best/dog-harness-for-pulling/index.html": {
-  "d": "2026-10-31",
-  "h": "b7f0686b1bcc0f9b60ae22bb54265d107ccf6a73"
+  "d": "2026-10-28",
+  "h": "34370debf7d4291f68195b5a82ed806a271aab28"
  },
  "public/best/index.html": {
   "d": "2026-10-31",
-  "h": "c6dd4a3a9b68ccd2fe39c1ca7642560d419f4fac"
+  "h": "699694a3063ddb14614aad33982fb2f057e8d555"
  },
  "public/cat/cat-hairballs/index.html": {
   "d": "2026-10-31",
-  "h": "c111384b95a02cc0dc764e2dc4222763b566c899"
+  "h": "214dbf4ada148ff069ab1ac67b7f2aaa63fad158"
  },
  "public/cat/cat-litter-training/index.html": {
-  "d": "2026-10-31",
-  "h": "c30d8b59017e59c69fca6b36ec84cc718daeec3a"
+  "d": "2026-10-28",
+  "h": "9917bb7f82de9a9ebe2f16f2502434f939866765"
  },
  "public/cat/cat-scratching-furniture/index.html": {
-  "d": "2026-10-31",
-  "h": "98dc255b89e6f2eedf980b9ed492233bde597ceb"
+  "d": "2026-10-28",
+  "h": "845a22a0f7a5d214703d58d4c57626d8163c16b5"
  },
  "public/cat/cat-spraying-how-to-stop/index.html": {
-  "d": "2026-10-31",
-  "h": "b9504abf4d610f8e72461cc836cb726498705ad5"
+  "d": "2026-10-28",
+  "h": "d38c0749596f76caeffae244654d0dace44f05d3"
  },
  "public/cat/index.html": {
   "d": "2026-10-31",
-  "h": "b9d78a1fa932017e4e5b0d1f9d65815ab651af0e"
+  "h": "1c12455fe9bb0483828019bfac9eb9367eb624aa"
  },
  "public/cat/why-does-my-cat-meow-at-night/index.html": {
   "d": "2026-10-31",
-  "h": "487a19e4496540d076694137d67ef2dc1b777e84"
+  "h": "17f6138ba10966b769b1f703cbeaf00f2f6b342d"
  },
  "public/contact/index.html": {
-  "d": "2026-10-31",
-  "h": "9a079bc205ab1b7e96794622fdee25ee7ad84bea"
+  "d": "2026-10-23",
+  "h": "5a5452cce6d32d7e5eb3485ec506d5079f286189"
  },
  "public/dog-care/how-to-brush-dog-teeth/index.html": {
-  "d": "2026-10-31",
-  "h": "e0ce4541cf262a5be491dd65dbf2d2102be05f86"
+  "d": "2026-10-28",
+  "h": "dfde33a3b37959c6c6455e25620c25fc1c66f8d9"
  },
  "public/dog-care/how-to-trim-dog-nails/index.html": {
-  "d": "2026-10-31",
-  "h": "2972862818de2dfa2fd2e271790ddfb8a5d79ccd"
+  "d": "2026-10-28",
+  "h": "a0da795ac9a9c8f2d4c934679ea0f3b9bb6c3c30"
  },
  "public/dog-care/index.html": {
   "d": "2026-10-31",
-  "h": "2dd0755a6cb7f61ff30555818f946cb04048b2f0"
+  "h": "85598537959eaf37ffc3397934eb768aa7a40eda"
  },
  "public/dog-health/dog-ear-infection-symptoms/index.html": {
-  "d": "2026-10-31",
-  "h": "0f011f60bf07432af1d2aa2b527d70f0a05dbb4b"
+  "d": "2026-10-28",
+  "h": "eaca68947120c7a8bc68f100ca6c05c467485540"
  },
  "public/dog-health/dog-not-eating-but-drinking-water/index.html": {
   "d": "2026-10-31",
-  "h": "3efa9c655ee83714fddee04e54a49b003f6d6e25"
+  "h": "3508ef4533ee7dfea8008f790d79701a830452af"
  },
  "public/dog-health/dog-vomiting-causes/index.html": {
-  "d": "2026-10-31",
-  "h": "8f205c9055db5d466344343bdf6c7147a1effc9e"
+  "d": "2026-10-28",
+  "h": "9e8b8f33c2a9296fc53c0d7e09c298ab5fc654b5"
  },
  "public/dog-health/index.html": {
   "d": "2026-10-31",
-  "h": "a3d2142773242b97da5ede8969dec32b056167d3"
+  "h": "d5d625d2e3fe0703d91502ab0c44da27c9e65307"
  },
  "public/dog-health/why-do-dogs-eat-grass/index.html": {
-  "d": "2026-10-31",
-  "h": "71b44a90a48ff59c8fe9478a9997a7a1679df197"
+  "d": "2026-10-28",
+  "h": "d7ae77c63064f20847e1309e1e6147b7411abcd1"
  },
  "public/dog-health/why-do-dogs-eat-poop/index.html": {
-  "d": "2026-10-31",
-  "h": "9ecfde67e569e0ded820d7f1236e848aefdd19c1"
+  "d": "2026-10-28",
+  "h": "388bea7faf26d8135a39ea1e7929cfbc0d9c4624"
  },
  "public/dog-health/why-is-my-dog-shaking/index.html": {
-  "d": "2026-10-31",
-  "h": "e3a3163c15545f764a1e3df655e689ff8834566c"
+  "d": "2026-10-28",
+  "h": "f9dc2fb5cea79e239d8a73b32af9807689f64670"
  },
  "public/dog-nutrition/can-dogs-eat-alcohol/index.html": {
-  "d": "2026-10-31",
-  "h": "9c3ab7fbbceec966936b4ac987010e30ec21fb91"
+  "d": "2026-10-24",
+  "h": "cd1c25ce31717d053611731ee7c8ff7228b8f4ab"
  },
  "public/dog-nutrition/can-dogs-eat-almonds/index.html": {
   "d": "2026-10-31",
-  "h": "08c08b040422f9c968cc639614107484cb070cba"
+  "h": "2412a94016beaac82930e43f49b084f5f0d3ccd3"
  },
  "public/dog-nutrition/can-dogs-eat-apples/index.html": {
-  "d": "2026-10-31",
-  "h": "d9649e3032112ad0170c700967f1cc3b7665ecd5"
+  "d": "2026-10-28",
+  "h": "56daba997d2e246ddfb9d443890c85252bab3db9"
  },
  "public/dog-nutrition/can-dogs-eat-avocado/index.html": {
-  "d": "2026-10-31",
-  "h": "9479d7db3f4916a55b285276fefefff47328cc89"
+  "d": "2026-10-28",
+  "h": "e09cd3cbbbcaebd944886cf6e7137ab2ddafebde"
  },
  "public/dog-nutrition/can-dogs-eat-bananas/index.html": {
-  "d": "2026-10-31",
-  "h": "9d7622c0fd22d862928a4e2af92f2ea391b0f339"
+  "d": "2026-10-28",
+  "h": "781080bc33870b068bd1ea230217babeb15d5759"
  },
  "public/dog-nutrition/can-dogs-eat-blueberries/index.html": {
-  "d": "2026-10-31",
-  "h": "c0a15dd90f8e1555f09af50bbdf68e1d19a6f68f"
+  "d": "2026-10-28",
+  "h": "0d08addfa674c903b2c38a8fc739dd2c1cf4d563"
  },
  "public/dog-nutrition/can-dogs-eat-bread/index.html": {
-  "d": "2026-10-31",
-  "h": "ece6422b4ed781422619afad1d1e4dedab3faff1"
+  "d": "2026-10-24",
+  "h": "a4402d327a4555d47da7ecded834c710151e8f6d"
  },
  "public/dog-nutrition/can-dogs-eat-broccoli/index.html": {
-  "d": "2026-10-31",
-  "h": "fc09746ae27217f3de3efccf8c47dd2106378b35"
+  "d": "2026-10-24",
+  "h": "034ae429323ede1b92951b4e015373963567f21b"
  },
  "public/dog-nutrition/can-dogs-eat-caffeine/index.html": {
   "d": "2026-10-31",
-  "h": "db715888f10392ef2541fa56c0c36f186285933d"
+  "h": "a3b99da02ed4e8384080ca49f8e85dbd60dd85d2"
  },
  "public/dog-nutrition/can-dogs-eat-carrots/index.html": {
-  "d": "2026-10-31",
-  "h": "962efb8135a89ca2fd02fdd664750f58db8d44d5"
+  "d": "2026-10-28",
+  "h": "e27adbbdff4877cf0bf1687d8bbb69c205cc6146"
  },
  "public/dog-nutrition/can-dogs-eat-cheese/index.html": {
-  "d": "2026-10-31",
-  "h": "7043b3999406d9914b2e756d17cf9e5927695696"
+  "d": "2026-10-28",
+  "h": "bbbecb14d103bcacfe2020741fdc93d62789edb2"
  },
  "public/dog-nutrition/can-dogs-eat-cherries/index.html": {
-  "d": "2026-10-31",
-  "h": "098de932af933e0b24cf0359c459e64cf5b3322f"
+  "d": "2026-10-24",
+  "h": "a09e0cedd99657c2a3d4979ac278d9e1428af4dd"
  },
  "public/dog-nutrition/can-dogs-eat-chicken/index.html": {
   "d": "2026-10-31",
-  "h": "4cd1cc5c27c650b7822919c707ff40935081dedf"
+  "h": "35b92dc6dc6582533ff089b54215ec83e5524fb5"
  },
  "public/dog-nutrition/can-dogs-eat-chocolate/index.html": {
-  "d": "2026-10-31",
-  "h": "32dc3fcd5d69ae9c541fb700ee62f48c6f4d12b4"
+  "d": "2026-10-26",
+  "h": "1d1377932510fade5c3bd79ace4625e11c7a8b25"
  },
  "public/dog-nutrition/can-dogs-eat-corn/index.html": {
-  "d": "2026-10-31",
-  "h": "a371a27f8fc85534e102b7ae2ad0ea70937d9f71"
+  "d": "2026-10-24",
+  "h": "de5eb7356d749bc0745d2512eab2beaf8e67449f"
  },
  "public/dog-nutrition/can-dogs-eat-cucumber/index.html": {
-  "d": "2026-10-31",
-  "h": "6b3131c378979818ddf6ab7ae7bc970d4be99f9c"
+  "d": "2026-10-24",
+  "h": "8e327b33729cb863bf836d1c4e7126e166001df1"
  },
  "public/dog-nutrition/can-dogs-eat-eggs/index.html": {
-  "d": "2026-10-31",
-  "h": "4c9fb80d82f92738c66dd738093dc4d20761e614"
+  "d": "2026-10-28",
+  "h": "8fe9e849551b89939c940d1bdbeae537986dcd4c"
  },
  "public/dog-nutrition/can-dogs-eat-garlic/index.html": {
-  "d": "2026-10-31",
-  "h": "38f69edc83ea4d328555e7e302a4930e42a66002"
+  "d": "2026-10-24",
+  "h": "32f8accf879819410e2060c3048a7a90b28a0ce7"
  },
  "public/dog-nutrition/can-dogs-eat-grapes/index.html": {
-  "d": "2026-10-31",
-  "h": "2300c130e0eb804cc1ef14597074736e58fe4843"
+  "d": "2026-10-28",
+  "h": "e56ba705b1642ee38b3c00f770c5711de31516ce"
  },
  "public/dog-nutrition/can-dogs-eat-green-beans/index.html": {
-  "d": "2026-10-31",
-  "h": "48ba993f8f0e20066ee1fe95c11d526bd7c3bb1e"
+  "d": "2026-10-24",
+  "h": "271d12cb5227fade000d9089651608af2a1b9a03"
  },
  "public/dog-nutrition/can-dogs-eat-ham/index.html": {
   "d": "2026-10-31",
-  "h": "e151a6a400096b5c58693bd36cc605268cb89db1"
+  "h": "5a115322bf75e79d25fa42091cc9d9d6bbae0e43"
  },
  "public/dog-nutrition/can-dogs-eat-honey/index.html": {
-  "d": "2026-10-31",
-  "h": "e6740c496b8e0ec8871b41fc5d3b9d34be044792"
+  "d": "2026-10-24",
+  "h": "74eeb7e0f8978dac2c48e9942820db9d9b56a53b"
  },
  "public/dog-nutrition/can-dogs-eat-ice-cream/index.html": {
   "d": "2026-10-31",
-  "h": "ef216646edc281b0cba1d0c6fd91fcde7e19f8a9"
+  "h": "566c5b86469ebc9827810f483711f7329fe97dc9"
  },
  "public/dog-nutrition/can-dogs-eat-macadamia-nuts/index.html": {
   "d": "2026-10-31",
-  "h": "64e1c7514507301dacc26eec2d9dd97bd87a2ff0"
+  "h": "e58e39f4e5582fb703daf265a94295de3b9e3aec"
  },
  "public/dog-nutrition/can-dogs-eat-mango/index.html": {
-  "d": "2026-10-31",
-  "h": "910c6c26aa6b20ca0f7a509d769958763ce9cae3"
+  "d": "2026-10-24",
+  "h": "78a4137656052c7121bfefbfa62a58b7a7a093c9"
  },
  "public/dog-nutrition/can-dogs-eat-milk/index.html": {
   "d": "2026-10-31",
-  "h": "ff2997685f6ced97e89490b0185dba89ff687743"
+  "h": "c30927f948b32a5eee4386268c73b869a449b2d9"
  },
  "public/dog-nutrition/can-dogs-eat-onion/index.html": {
   "d": "2026-10-31",
-  "h": "9126547d3a62335aae77bdc4f62cbc21d818ac85"
+  "h": "277e5e65a7296dd8d098f7bd80e47b3a3fa18aed"
  },
  "public/dog-nutrition/can-dogs-eat-peaches/index.html": {
-  "d": "2026-10-31",
-  "h": "b09afc55e794cd964f9a75dd21a99e8dd9251526"
+  "d": "2026-10-28",
+  "h": "ea03589593ff494074cb2ed0c344567622b40405"
  },
  "public/dog-nutrition/can-dogs-eat-peanut-butter/index.html": {
-  "d": "2026-10-31",
-  "h": "bf8289481c21d68116f182d7160ef15e84c8f951"
+  "d": "2026-10-28",
+  "h": "d2631bd3dfff1d62492fca8c0fd80b962aa4f5a1"
  },
  "public/dog-nutrition/can-dogs-eat-peas/index.html": {
-  "d": "2026-10-31",
-  "h": "1b8cd246223a82daf2e39775d3abf31d9a68ca81"
+  "d": "2026-10-24",
+  "h": "34a2c60a989dc06bf49d97b6a1e5514ad35087be"
  },
  "public/dog-nutrition/can-dogs-eat-pineapple/index.html": {
-  "d": "2026-10-31",
-  "h": "a5eddf0dec0b20fc634078a2088da452ad8f0999"
+  "d": "2026-10-24",
+  "h": "8a0b9b0905a29a26a50558fae3eb547ce16a3d1a"
  },
  "public/dog-nutrition/can-dogs-eat-plums/index.html": {
-  "d": "2026-10-31",
-  "h": "2adaceb59af62650c0ab4461674fce25fc58b3ca"
+  "d": "2026-10-24",
+  "h": "b266b4599112bfa892ba163638570617b986478b"
  },
  "public/dog-nutrition/can-dogs-eat-popcorn/index.html": {
-  "d": "2026-10-31",
-  "h": "693fef8caaf068c26fa0d4d0eea7c3017886cac8"
+  "d": "2026-10-24",
+  "h": "5fd0d3c36016ba0bb4ef1e0fbce3a590e7e98652"
  },
  "public/dog-nutrition/can-dogs-eat-potato/index.html": {
-  "d": "2026-10-31",
-  "h": "0d8f9cce938786260464144e3f00ff1b5ae49e9f"
+  "d": "2026-10-24",
+  "h": "8ba94c1761c2c7da6d11c9db77e26de1db551fb2"
  },
  "public/dog-nutrition/can-dogs-eat-pumpkin/index.html": {
-  "d": "2026-10-31",
-  "h": "eb55f4a4aa6509b7dd96401e5ef930f268be0e83"
+  "d": "2026-10-28",
+  "h": "e2bcd2932f741c0c71f177e3b917f514dd1c284d"
  },
  "public/dog-nutrition/can-dogs-eat-raw-dough/index.html": {
   "d": "2026-10-31",
-  "h": "663c6b4849e92771880226a8dc5492c77352eea8"
+  "h": "2e94b864d70a22e1ba542f77928539aadaf5e0f8"
  },
  "public/dog-nutrition/can-dogs-eat-rice/index.html": {
-  "d": "2026-10-31",
-  "h": "552a75fe383425adbab95404571c752207f6f248"
+  "d": "2026-10-28",
+  "h": "ed4774b60717fe176806ae1822663dd3bc46659b"
  },
  "public/dog-nutrition/can-dogs-eat-salmon/index.html": {
-  "d": "2026-10-31",
-  "h": "2073bbcf09bc5b240eec4a40748dda60c9cf7ca1"
+  "d": "2026-10-28",
+  "h": "1a0e6494ec53de80500f1bc55899b5351c68875d"
  },
  "public/dog-nutrition/can-dogs-eat-shrimp/index.html": {
-  "d": "2026-10-31",
-  "h": "51814cb59c54ea57a43cd83e6c806d6d14a65065"
+  "d": "2026-10-24",
+  "h": "b7dae95d91af59b884452ed6b982321aa5db2aad"
  },
  "public/dog-nutrition/can-dogs-eat-spinach/index.html": {
-  "d": "2026-10-31",
-  "h": "27e20dde686b7257f53070312e3066cdaf1f262d"
+  "d": "2026-10-24",
+  "h": "f8632507d80904f86f5106c0dc23b3ce8f4ac5e6"
  },
  "public/dog-nutrition/can-dogs-eat-strawberries/index.html": {
-  "d": "2026-10-31",
-  "h": "9d60841e470ae6968f559b3f9b381f031b43074c"
+  "d": "2026-10-28",
+  "h": "f8fc517ba66e3b9c7f8359e5f6179fdf8d13aa8b"
  },
  "public/dog-nutrition/can-dogs-eat-sweet-potato/index.html": {
-  "d": "2026-10-31",
-  "h": "e69306ec2bf737ba0a95858d2f5db0782eae4227"
+  "d": "2026-10-28",
+  "h": "05778fffff5235545bd46188a8e3435fe77e6ad2"
  },
  "public/dog-nutrition/can-dogs-eat-tomato/index.html": {
-  "d": "2026-10-31",
-  "h": "57d55c3983e8a7ebf37dd7aec2427832bc24a23c"
+  "d": "2026-10-24",
+  "h": "1fc2c2cc15137f6c529e9af942f9352d1eece07f"
  },
  "public/dog-nutrition/can-dogs-eat-walnuts/index.html": {
   "d": "2026-10-31",
-  "h": "0de9eedae3b485b7409d08c549f0d68763c98a75"
+  "h": "218bfdfc2283d18d25557e54fcfc5c60c2ba79df"
  },
  "public/dog-nutrition/can-dogs-eat-watermelon/index.html": {
-  "d": "2026-10-31",
-  "h": "f5aa718c13631f6e8085af0315e66100f191ef59"
+  "d": "2026-10-28",
+  "h": "8fe6bfe5f5cc8228ce4c8d1513f0a9954cba1a38"
  },
  "public/dog-nutrition/can-dogs-eat-xylitol/index.html": {
   "d": "2026-10-31",
-  "h": "481fe16869b6b41b27ed217c2be9296105198729"
+  "h": "153e95e409dce8c4cbb6da4c4096fb0562979c6c"
  },
  "public/dog-nutrition/can-dogs-eat-yogurt/index.html": {
-  "d": "2026-10-31",
-  "h": "6f8b84370b3e3e291c361ef0f6f9fa60b311b596"
+  "d": "2026-10-24",
+  "h": "348503cfe364e6cfc4d3dfe9fb9b3f293ae42c47"
  },
  "public/dog-nutrition/foods-toxic-to-dogs/index.html": {
-  "d": "2026-10-31",
-  "h": "379c78e1baf1da89fa770ba855e0234119b6a332"
+  "d": "2026-10-29",
+  "h": "a8613cc4fa74f30a69c1980d1b18a3522c1d2e3b"
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
-  "d": "2026-10-31",
-  "h": "1d58f2e2c2fcbbef852f863e3bf4deb227d354f5"
+  "d": "2026-10-28",
+  "h": "c356d600a4a18dbbe5fe758e7669c3437a153c26"
  },
  "public/dog-nutrition/index.html": {
   "d": "2026-10-31",
-  "h": "86dfbab3f362278084881ec1e06ced46c48b1efe"
+  "h": "9830e78e0ae0296c919d111553f55b78c6efc0ff"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
-  "d": "2026-10-31",
-  "h": "1648df1270858fe96ab7fad24675f0a54fee64f6"
+  "d": "2026-10-28",
+  "h": "8f6daa8211cf45bae0cf2dca60f222306961a0aa"
  },
  "public/dog-training/how-to-leash-train-a-dog/index.html": {
-  "d": "2026-10-31",
-  "h": "7ee32a0974c2ec75bbf58302799692daf4ea9af6"
+  "d": "2026-10-28",
+  "h": "b67c45e8eb33111a9937a0d8c4e834ebe40f712f"
  },
  "public/dog-training/how-to-stop-puppy-biting/index.html": {
-  "d": "2026-10-31",
-  "h": "d5ccc8649d8954a256b09c59fa4aa5e114eb85e6"
+  "d": "2026-10-28",
+  "h": "390718fceb4bfb197792d1f82504c63f2a1b883f"
  },
  "public/dog-training/index.html": {
   "d": "2026-10-31",
-  "h": "f857c41abb4b7febee8faee1cdde00d7366a22d5"
+  "h": "02b0091b2a444c72811f8ca574f2bb539e1e63ad"
  },
  "public/index.html": {
   "d": "2026-10-31",
-  "h": "981fbd4cba1c77f27e1f8d5cc240a99cefaf63a2"
+  "h": "45e87ac3d559711e6e71dcb10ab4911bcdf17a65"
  },
  "public/privacy/index.html": {
+  "d": "2026-10-23",
+  "h": "25a3f5bfabf77c59e5075ffe61106d573fe2a87c"
+ },
+ "public/sitemap/index.html": {
   "d": "2026-10-31",
-  "h": "9065a8b92342c75085793a97931b43826d74c9c1"
+  "h": "92e873234cb655c78ba787643f49fe726bd25fa1"
  },
  "public/tools/dog-age-calculator/index.html": {
-  "d": "2026-10-31",
-  "h": "06324246b24e569f773a8f90faf48006f4a97b0f"
+  "d": "2026-10-26",
+  "h": "c670309791a4741f19f2512a169d890720e9996b"
  }
 }
