@@ -2979,6 +2979,13 @@ ARTICLES = [
         </table>
         <p>These are human nutrition figures, but they show why a few berries are a light, low-fat reward rather than a calorie bomb.</p>
 
+        <h2>The antioxidant claim, and what it actually means for dogs</h2>
+        <p>Blueberries are sold to dog owners on the strength of their antioxidants. It is worth knowing what that claim can and cannot support, because the gap between the marketing and the evidence is wide.</p>
+        <p>The pigments are real. Anthocyanins give the berry its colour and do act as antioxidants in a test tube. In a living dog, though, most of them never reach the bloodstream intact — they travel to the colon, where gut bacteria break them down into smaller metabolites. Those metabolites do have measurable activity, but the effect is modest and hard to separate from the effect of simply eating more fibre and fewer calories.</p>
+        <p>Where the research is most interesting is ageing. Studies in older dogs have looked at antioxidant-rich diets and found small improvements in learning and memory tasks, which is why blueberries appear in senior-dog formulations. "Small" is the operative word. No bowl of berries reverses cognitive decline, and a dog fed a complete diet is not made meaningfully healthier by adding them.</p>
+        <p>What blueberries <em>are</em> is a genuinely good treat: about 84 calories per cup, almost no fat, real fibre, and a sweetness that most dogs like. That is enough justification on its own.</p>
+        <p>Two practical notes. Fresh and frozen berries are nutritionally equivalent — freezing preserves anthocyanins well, so the cheaper bag in the freezer aisle is a fine choice, and frozen berries make a good summer treat. <strong>Dried</strong> berries are a different product: the sugar concentrates roughly fourfold and the texture turns chewy and sticky. And on oxalate, blueberries sit in the middle range at roughly 18–27 mg per 100 g — trivial next to spinach at 750 mg, but worth counting if your dog has a history of calcium oxalate stones and eats them daily.</p>
+
         <h2>How many blueberries can a dog eat?</h2>
         <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible portion by body weight:</p>
         <table>
@@ -3071,6 +3078,23 @@ ARTICLES = [
         </table>
         <div class="callout">Too much fiber backfires — pile on the pumpkin and you can trade loose stool for gas, bloating, or the other extreme. A little goes a long way.</div>
 
+        <h2>Does a spoonful of pumpkin actually do anything?</h2>
+        <p>"A spoonful of pumpkin for an upset stomach" is one of the most repeated pieces of dog advice there is. It is worth doing the fibre arithmetic, because the standard dose is much smaller than the mechanism requires.</p>
+        <p>Canned plain pumpkin carries roughly <strong>1.1 g of fibre per 100 g</strong>. A teaspoon holds about 5 g and a tablespoon about 15 g, which means:</p>
+        <table>
+          <thead><tr><th>Dose</th><th>Pumpkin weight</th><th>Fibre delivered</th></tr></thead>
+          <tbody>
+            <tr><td>1 teaspoon</td><td>~5 g</td><td>~0.05 g</td></tr>
+            <tr><td>1 tablespoon</td><td>~15 g</td><td>~0.17 g</td></tr>
+            <tr><td>1/4 cup</td><td>~60 g</td><td>~0.65 g</td></tr>
+            <tr><td>1 cup</td><td>~245 g</td><td>~2.7 g</td></tr>
+          </tbody>
+        </table>
+        <p>Now compare with what a dog actually needs for fibre to change stool consistency. A 10 kg dog eating around 250 g of dry matter a day sits at a typical fibre intake of 5 to 12 g. A tablespoon of pumpkin adds <strong>0.17 g</strong> — between one and three percent of the daily total.</p>
+        <p>That is the honest problem with the folk remedy: the recommended dose is roughly an order of magnitude too small to work through fibre alone. Which does not mean it does nothing. Pumpkin is 90% water, and adding water to the gut does help soften stool. It is bland and highly palatable, so it gets eaten when a sick dog will not eat much else. And a small amount of soluble fibre can still bind a little excess fluid in a mildly loose stool.</p>
+        <p>The practical conclusion is to stop treating a teaspoon as a treatment and start treating it as food. If you want pumpkin to do a fibre job, the dose has to be in the quarter-cup range for a medium dog — introduced gradually, and cleared with a vet first if the dog is genuinely unwell. If you want it as a palatable topper and a bit of extra water, a spoonful is exactly right.</p>
+        <p>One thing it is not: a fix for diarrhoea that has lasted more than a day, contains blood, or comes with vomiting and lethargy. Those need a diagnosis, not a vegetable.</p>
+
         <h2>Plain pumpkin vs pumpkin pie filling</h2>
         <div class="callout warn">Never use pumpkin pie filling. It is sweetened and spiced, and the spice mix often includes nutmeg, which contains myristicin and is toxic to dogs. Only ever use 100% plain pumpkin with nothing added.</div>
         <ul>
@@ -3161,6 +3185,21 @@ ARTICLES = [
           <tr><td>30 kg and up</td><td>Up to 1/4 cup, occasionally</td></tr>
         </table>
         <div class="callout">Sweet potato is not a low-calorie treat despite the "vegetable" label — a cup is around 180 calories. Count it toward the daily treat budget so it does not crowd out balanced food.</div>
+
+        <h2>Baked, boiled, or cooled: the glycaemic difference</h2>
+        <p>Sweet potato is usually discussed in terms of vitamins. For most dogs that is the wrong axis — the more consequential number is how fast it raises blood sugar, and that number is not fixed. It depends almost entirely on how you cook it.</p>
+        <table>
+          <thead><tr><th>Preparation</th><th>Glycaemic index (human data)</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Baked / roasted</td><td>~94 — high</td><td>Heat breaks starch down into faster-digesting fragments and drives off water</td></tr>
+            <tr><td>Steamed</td><td>~76 — high</td><td>Less water loss than baking, but starch still gelatinises</td></tr>
+            <tr><td>Boiled</td><td>~63 — medium</td><td>Water dilutes and some starch leaches out</td></tr>
+            <tr><td>Boiled, then chilled</td><td>Lower still</td><td>Retrograded starch resists digestion — some of it behaves like fibre</td></tr>
+          </tbody>
+        </table>
+        <p>Two honest caveats. There is no published glycaemic index table for sweet potato measured in dogs — these are human values, and they indicate direction rather than an exact canine number. What transfers is the mechanism: gelatinised starch digests faster, and cooling reverses part of that.</p>
+        <p>Why it matters: for a lean, active dog eating a balanced diet, none of this changes anything. For a dog that is overweight, insulin-resistant, or diabetic, the difference between a roasted chunk at GI 94 and a boiled, chilled one at 63 is the difference between a spike and a slope. If your dog falls into that group, <strong>boil it, cool it in the fridge, and serve it cold or lightly warmed</strong> — and ask your vet how it fits into the daily carb allowance, because sweet potato counts as carbohydrate, not as a vegetable treat.</p>
+        <p>One related habit worth dropping: sweet potato jerky and "natural" chews. These are dehydrated, which concentrates the sugar and starch per gram, and some are coated in molasses or honey. A dried sweet potato slice is closer to candy than to the vegetable.</p>
 
         <h2>How to serve it</h2>
         <ul>
@@ -3314,6 +3353,13 @@ ARTICLES = [
           <li><b>Flesh:</b> the safe, hydrating part — slice thin or into small cubes.</li>
         </ul>
         <div class="callout">Wash the whole cucumber before cutting, even though you peel it — dogs lick the cut surface, so surface dirt and wax matter.</div>
+
+        <h2>If the cucumber tastes bitter, do not share it</h2>
+        <p>There is one cucumber hazard that never appears on a supermarket label, because supermarket cucumbers almost never have it: <strong>bitterness</strong>.</p>
+        <p>The compound behind it is cucurbitacin, a natural defence chemical the plant produces against insects. In wild cucurbits it is concentrated enough to be genuinely unpleasant; commercial cucumber varieties have been bred for decades to carry almost none. The trouble comes from the exceptions — home-grown seed saved from an unusual plant, a volunteer vine that crossed with an ornamental gourd, or a cucumber grown through a hot dry spell, which raises cucurbitacin as a stress response.</p>
+        <p>Where it sits matters. Cucurbitacin concentrates at the <strong>stem end</strong> — the first centimetre or two — and in the skin, which is exactly the part people trim and hand over. It is also a natural laxative: in people, a bitter cucumber produces cramping and diarrhoea; in dogs, the same effect arrives faster because of body weight.</p>
+        <p>The test takes one second and costs nothing. <strong>Bite the stem end yourself.</strong> If it is clean and mild, the cucumber is fine to share. If it is sharply bitter — the kind that makes you pull a face — cut off the whole stem end, peel it fully, and if the flesh itself is still bitter, throw it out rather than feeding it to the dog.</p>
+        <p>Two smaller points on the outside of the fruit. Commercial cucumbers are often <strong>waxed</strong> to slow water loss, and the wax is not meant to be eaten by anyone. Peeling removes it along with the pesticide residue. And wash the fruit before you cut it, even if you plan to peel: the knife drags surface contamination through the flesh as it goes.</p>
 
         <h2>Cucumber nutrition at a glance</h2>
         <p>For scale, here is roughly what is in half a cup of sliced cucumber (about 52 g):</p>
