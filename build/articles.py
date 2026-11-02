@@ -43,6 +43,33 @@ PILLARS = {
         "description": "What to feed your dog, how much, and which human foods are safe or dangerous. Covers toxic foods, safe treats, and daily feeding amounts by body weight.",
         "eyebrow": "DOG NUTRITION",
         "intro": "Good nutrition is the cheapest health insurance you can buy for a dog. Start with how much to feed, then learn which table scraps are safe and which can land you in the ER.",
+        "body": """
+<h2>Start with the tier, not the food</h2>
+<p>"Can my dog eat this" is really four different questions wearing one coat, and they need four different answers. Sorting a food into the right tier takes about two seconds and gets you most of the way to a decision:</p>
+<ul>
+  <li><strong>Everyday.</strong> Plain, cooked where relevant, and small enough to sit inside the treat budget. Nothing to calculate beyond a portion.</li>
+  <li><strong>A ceiling.</strong> Safe, but carrying sugar, fat, lactose or a compound that stops being harmless at volume. The amount is the entire answer.</li>
+  <li><strong>One part is the problem.</strong> The flesh is fine and something attached to it is not — a pit, a cob, a skin, a green stage, a mould. Misread more often than any other tier.</li>
+  <li><strong>No safe dose.</strong> Nothing established as safe, or a harmful amount small enough to arrive by accident. These end in a phone call.</li>
+</ul>
+<div class="callout">
+<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">the dog food safety chart</a> lists all 47 foods by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
+</div>
+
+<h2>The three variables that decide almost every case</h2>
+<p><strong>Which part.</strong> This is the one people skip, and it changes the answer outright. Corn kernels are a well-tolerated carbohydrate; the cob is 15–20 cm of indigestible fibre that is wider than most dogs' small intestine and a leading cause of obstructive surgery. A ripe red tomato is a low-calorie snack; the green fruit and the leaves carry solanine at 90–320 mg/kg. Peach flesh is fine; the kernel is not. Whenever a food has a core, a stone, a cob, a skin or a leaf attached to it, that attachment is the real question.</p>
+<p><strong>Which form.</strong> Cooking, drying and concentrating all move a food between tiers. Raw potato carries solanine and cooked potato does not — but a green or sprouted potato keeps it after cooking. Fresh garlic is toxic at about 5 g per kilogram of body weight; garlic powder is three to five times more concentrated per gram, so the same "pinch" is a different dose. Grapes are dangerous and raisins are the same fruit with the water removed, which concentrates what matters.</p>
+<p><strong>How much, against what weight.</strong> A dose means nothing without a denominator. The same handful of macadamia nuts is a mild upset for a 40 kg retriever and a neurological case for a 4 kg terrier. This is why every page in this section converts its threshold to grams per kilogram, and then to a real-world portion for a toy, small, medium and large dog.</p>
+
+<h2>The 10% rule, done once</h2>
+<p>Whatever the tier, treats belong inside about 10% of daily calories. A 10 kg dog eating roughly 600 kcal a day has a <strong>60 kcal</strong> treat budget — about two and a half carrots, or three-quarters of a cup of blueberries, or one egg. That budget is why a food can be genuinely safe and still be a bad habit: nothing on the everyday list is a substitute for the bowl.</p>
+<p>Two places this bites hardest. Dogs on weight-loss plans usually have their treats cut first and their kibble left alone, which is backwards — the treat budget should shrink proportionally with the calorie target. And small dogs hit the ceiling fast: a 3 kg dog has roughly a 20 kcal budget, which is one medium carrot and nothing else that day.</p>
+
+<h2>When it stops being a portion question</h2>
+<p>Move from reading to calling if any of these is true: the food came from the tier with no safe dose (alcohol, caffeine, chocolate, grapes or raisins, macadamia nuts, xylitol, raw yeast dough); the dog is a puppy, pregnant, elderly, or already unwell; the amount was unknown or clearly larger than a taste; or symptoms have started — vomiting, tremors, wobbliness, a racing heart, or a dog that is suddenly quiet.</p>
+<p>Have three things ready before you dial, because the vet will ask for all three: <strong>what it was</strong> (packet in hand beats a guess), <strong>how much</strong>, and <strong>your dog's weight</strong>. Those three numbers decide the treatment. "He ate some gum" cannot be turned into a dose by anyone.</p>
+<p>If you want the vet-facing version of this section — the toxic foods that account for most emergency calls, with the mechanism for each — start with <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>. If the question is about quantities rather than safety, <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a> works through daily calories by body weight.</p>
+""",
         "links": [
             "foods-toxic-to-dogs", "can-dogs-eat-bananas", "how-much-to-feed-my-dog",
             "can-dogs-eat-apples", "can-dogs-eat-watermelon", "can-dogs-eat-cheese",
@@ -6772,6 +6799,161 @@ TOOL = {
     "title": "Dog Age Calculator — Dog Years to Human Years",
     "description": "Convert your dog's age to human years by size. A quick, plain-language estimate using the standard veterinary approximation, not the outdated 7x rule.",
     "eyebrow": "TOOLS",
+}
+
+# ---------------------------------------------------------------------------
+# Reference asset: the 47-food safety chart (2026-11-02).
+#
+# Why this page exists: 47 separate "can dogs eat X" pages answer one question
+# each, but nobody lands on them with a specific food in mind — they land with
+# a dog and a plate. A single tiered table is the shape people actually search
+# for ("dog food safety chart"), it is the shape other sites link to, and it
+# gives all 47 pages one strong internal hub. The differentiator against the
+# charts that already rank (AKC, ASPCA, PetMD) is that every other chart gives
+# a verdict and this one gives a dose: "safe or toxic" is not the question
+# anyone actually has.
+# ---------------------------------------------------------------------------
+FOOD_CHART = {
+    "url": "/dog-nutrition/food-safety-chart/",
+    "title": "Dog Food Safety Chart: 47 Foods in Four Risk Tiers",
+    "description": "Every other dog food chart says safe or toxic. This one gives the number: 47 foods in four risk tiers, with the dose that matters and a link to the full guide.",
+    "tier_defs": [
+        ("Tier 1", "Everyday", "Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size."),
+        ("Tier 2", "A ceiling", "Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer."),
+        ("Tier 3", "One part is the problem", "The flesh is fine and something attached to it is not — a pit, a cob, a skin, a green stage, a mould. This is the tier people misread most often."),
+        ("Tier 4", "No safe dose", "Either no amount has been established as safe, or the amount that causes harm is small enough to arrive by accident. These end in a phone call, not a portion."),
+    ],
+    "tiers": [
+        {
+            "label": "Tier 1 — Safe as an everyday treat",
+            "count": 14,
+            "intro": "These are the foods a vet will not sigh about. All of them still live inside the 10% rule below — a treat budget is a budget, not an exemption.",
+            "rows": [
+                ("chicken", "Plain, cooked, boneless, skinless", "The default bland-diet protein; keep toppers under 10% of daily calories"),
+                ("eggs", "Fully cooked, no shell", "About 70 kcal and 6 g protein per large egg"),
+                ("rice", "Plain white, cooked, no salt or butter", "About 205 kcal per cooked cup"),
+                ("carrots", "Raw, cooked or frozen", "About 25 kcal per medium carrot — roughly half a biscuit"),
+                ("cucumber", "Sliced, peeled or not", "About 8 kcal per half cup; 96% water"),
+                ("green-beans", "Plain, cooked or raw, no salt", "About 31 kcal per cooked cup"),
+                ("peas", "Plain, fresh or frozen, no salt", "About 81 kcal and 5 g protein per 100 g"),
+                ("blueberries", "Fresh or frozen, unsweetened", "About 84 kcal per cup, almost no fat"),
+                ("strawberries", "Fresh, hulled, no sugar", "About 32 kcal per 100 g"),
+                ("watermelon", "Flesh only — no rind, no seeds", "About 45 kcal per diced cup; 92% water"),
+                ("pumpkin", "Plain canned or cooked — never pie filling", "About 0.17 g of fibre per tablespoon, so the famous 'spoon of pumpkin' is a small dose"),
+                ("sweet-potato", "Cooked and plain; raw is hard to digest", "Baked spikes blood sugar far more than boiled — relevant for diabetic dogs"),
+                ("salmon", "Cooked, boneless, plain", "A genuine omega-3 source; never raw, and never the smoked kind"),
+                ("shrimp", "Cooked, peeled, unseasoned", "About 110 mg sodium per 100 g — and two to four times that if STPP-treated"),
+            ],
+        },
+        {
+            "label": "Tier 2 — Safe, with a ceiling",
+            "count": 14,
+            "intro": "Every food in this tier is fine in a small amount and unhelpful in a large one. The ceilings below are the actual reason these foods show up in vet visits: not toxicity, arithmetic.",
+            "rows": [
+                ("apples", "Flesh only — no core, no seeds", "About 50 kcal per 100 g; 2–3 thin slices for a dog under 5 kg"),
+                ("bananas", "Peeled flesh", "One 1 cm slice per 5 kg of body weight"),
+                ("mango", "Flesh only, no skin, no pit", "About 50 kcal and 11 g sugar per 83 g"),
+                ("pineapple", "Fresh, or canned in juice and drained", "About 42 kcal per 80 g fresh; canned carries 12–14 g sugar per 100 g"),
+                ("peaches", "Flesh only, fresh, no skin if it upsets the gut", "About 12 g sugar per 100 g, most of it in the juice"),
+                ("yogurt", "Plain, unsweetened, live cultures", "4.5–5 g lactose per 100 g; Greek is lower at 3–4 g"),
+                ("milk", "Generally not — most adults cannot digest it", "Lactase falls after weaning, so a bowl usually means gas and loose stool"),
+                ("cheese", "Plain hard cheese, small cube", "About 180 mg sodium per 30 g of cheddar"),
+                ("bread", "Plain baked bread, thumbnail-sized piece", "About 70 kcal per 25 g slice, with almost no usable nutrition"),
+                ("honey", "Plain honey, a dab", "About 17 g of sugar per tablespoon"),
+                ("popcorn", "Air-popped, no butter, no salt", "About 8 g and 31 kcal per cup; unpopped kernels are the dental risk"),
+                ("peanut-butter", "Plain — and check the label for xylitol every time", "Two teaspoons a day is plenty for a medium dog"),
+                ("broccoli", "Plain, steamed or raw, chopped", "Keep to about 10% of daily calories; isothiocyanates irritate the gut above that"),
+                ("spinach", "Cooked, small amount, water poured off", "750 mg oxalate per 100 g raw; blanching removes 30–50%"),
+            ],
+        },
+        {
+            "label": "Tier 3 — The flesh is fine, one part is not",
+            "count": 12,
+            "intro": "This is the tier that causes the most unnecessary panic and the most unnecessary vet bills, in roughly equal measure. In every case the answer depends on which part the dog got, not on the food itself.",
+            "rows": [
+                ("almonds", "Sweet almonds, a few, never whole for a small dog", "Sweet and bitter almonds differ about fifty-fold in cyanide; 5–20 bitter almonds can kill a 10 kg dog"),
+                ("avocado", "Flesh only — no pit, no skin", "About 15% fat; half a medium avocado is roughly 160 kcal"),
+                ("cherries", "Flesh only, pitted", "The pit is a physical obstruction first and a cyanide source second; wilted leaves are worse than the fruit"),
+                ("corn", "Kernels cut off the cob", "A cob is 15–20 cm long and 4–5 cm across — wider than the small intestine of most dogs"),
+                ("garlic", "None — this is the toxic end of the tier", "About 5 g per kg of body weight; three to five times more potent than onion per gram"),
+                ("onion", "None — raw, cooked or powdered", "About 15–30 g per kg of body weight; onion powder is concentrated"),
+                ("potato", "Cooked, peeled, plain", "Raw, green or sprouted potatoes carry solanine; cooking does not remove it from a green potato"),
+                ("tomato", "Ripe red flesh only — no stem, no leaves, no green fruit", "Green tomato runs 90–320 mg/kg solanine; ripe red is under 5 mg/kg"),
+                ("walnuts", "Fresh English walnuts, one or two", "Black or mouldy walnuts carry tremorgenic mycotoxins — a same-day vet visit, not a wait-and-see"),
+                ("ham", "A few plain shreds, rarely", "1,000–1,200 mg sodium per 100 g against a 10 kg dog's ~200 mg daily need"),
+                ("ice-cream", "A lick of plain vanilla, if dairy sits well", "About 4 g lactose per 65 g scoop; every 'sugar-free' tub needs a xylitol check"),
+                ("plums", "Flesh only, pitted", "About 1.3 g sorbitol per dried plum — enough to loosen the gut in a small dog"),
+            ],
+        },
+        {
+            "label": "Tier 4 — No established safe dose",
+            "count": 7,
+            "intro": "Do not wait for symptoms in this tier. The relevant instruction is a phone call, and the numbers below are what you read out to the vet.",
+            "rows": [
+                ("alcohol", "None", "Ethanol depresses the central nervous system faster in dogs than in people, and it hides in rising dough and fallen fruit"),
+                ("caffeine", "None", "Mild signs from about 20 mg/kg, serious toxicity near 40–60 mg/kg, roughly 140 mg/kg fatal"),
+                ("chocolate", "None", "A 10 kg dog shows mild signs from 3–4 oz of milk chocolate but under half an ounce of baking chocolate"),
+                ("grapes", "None — grapes and raisins alike", "No safe amount has ever been established; a 5 kg dog and three grapes is the same danger zone as a 30 kg dog and a bunch"),
+                ("macadamia-nuts", "None", "Signs from about 1 g of nut per kg — a couple of nuts for a 10 kg dog"),
+                ("xylitol", "None", "About 50 mg/kg triggers the insulin crash; around 500 mg/kg risks liver injury"),
+                ("raw-dough", "None", "Live yeast produces ethanol in a warm stomach, and the dough expands while it does"),
+            ],
+        },
+    ],
+    "head": """
+<div class="eyebrow">REFERENCE</div>
+<h1>Dog Food Safety Chart: 47 Foods in Four Risk Tiers</h1>
+<p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>.</p>
+
+<h2>Why this chart is built differently</h2>
+<p>Three things separate this page from the wall charts and laminated posters. First, <strong>every row carries a number</strong>, not an adjective. "High in salt" tells you nothing; "1,000 mg of sodium per 100 g against a daily need of 200 mg" tells you whether tonight matters. Second, <strong>there are four tiers instead of two</strong>, because the largest group of foods — the ones that are perfectly fine except for one attached part — gets flattened into "toxic" by a two-tier chart, and people then panic over a piece of watermelon and shrug at a macadamia nut. Third, <strong>every row links to the page that shows its working</strong>: the dose arithmetic, the source, and the date it was last checked.</p>
+<p>If you only read one paragraph, read the tier definitions and then jump to the food you are holding.</p>
+
+<h2>The four tiers</h2>
+<table class="chart-tbl">
+  <tr><th style="text-align:left">Tier</th><th style="text-align:left">Name</th><th style="text-align:left">What it means</th></tr>
+  <tr><td><strong>Tier 1</strong></td><td>Everyday</td><td>Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size.</td></tr>
+  <tr><td><strong>Tier 2</strong></td><td>A ceiling</td><td>Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer.</td></tr>
+  <tr><td><strong>Tier 3</strong></td><td>One part is the problem</td><td>The flesh is fine and something attached to it is not — a pit, a cob, a skin, a green stage, a mould. This is the tier people misread most often.</td></tr>
+  <tr><td><strong>Tier 4</strong></td><td>No safe dose</td><td>Either no amount has been established as safe, or the amount that causes harm is small enough to arrive by accident. These end in a phone call, not a portion.</td></tr>
+</table>
+
+<h2>The 10% rule, in numbers</h2>
+<p>Every "safe" verdict on this page sits on top of one rule: <strong>treats of any kind should stay under about 10% of your dog's daily calories.</strong> It is worth doing the arithmetic once, because the answer surprises most owners.</p>
+<p>A 10 kg dog on a typical maintenance diet eats roughly 600 kcal a day. Ten per cent of that is <strong>60 kcal</strong> — and 60 kcal is:</p>
+<ul>
+  <li>about two and a half medium carrots, or</li>
+  <li>about three-quarters of a cup of blueberries, or</li>
+  <li>one large egg and a small piece of chicken, or</li>
+  <li>half a medium avocado, which would use the entire budget on 15% fat and no complete nutrition.</li>
+</ul>
+<p>That is the whole reason a food can be "safe" and still be a bad idea. A dog does not need treats to be nutritious — it needs them to be small. When someone tells you their dog "only gets healthy treats" and the dog is overweight, this arithmetic is usually why.</p>
+""",
+    "tail": """
+<h2>The three mistakes that cause most of the trouble</h2>
+<p><strong>"A little bit can't hurt."</strong> In Tier 4, a little bit is the dose. Macadamia nuts produce tremors from about 1 g of nut per kilogram of body weight — for a 10 kg dog that is a couple of nuts, not a handful. Xylitol reaches the blood-sugar threshold at 50 mg/kg, which is less than a single piece of some sugar-free gums for a small dog. The phrase "a little bit" is calibrated for humans eating human food, and it does not transfer.</p>
+<p><strong>"It's natural, so it's gentle."</strong> Xylitol is a plant-derived sweetener sold in health-food aisles. Amygdalin is marketed online as "vitamin B17". Black walnuts are simply walnuts that fell off a tree. Natural describes where a compound came from, not what it does to a dog's liver. The most dangerous items on this chart are all natural.</p>
+<p><strong>"He's eaten it before and was fine."</strong> This one is true for grapes and false as a safety argument. Individual dogs vary enormously in how they handle grape ingestion — some have survived a handful with no effect, others have gone into kidney failure after a few. No safe amount has ever been established, which means a previous uneventful grape is evidence about one dog on one day, not a green light.</p>
+
+<h2>What this chart deliberately leaves out</h2>
+<p>Being clear about the edges is part of being trustworthy about the middle. This chart does not cover:</p>
+<ul>
+  <li><strong>Raw and undercooked meat.</strong> The risk is bacterial (Salmonella, Listeria, E. coli) rather than toxic, it depends on the supply chain, and it is a separate argument from "is this food poisonous".</li>
+  <li><strong>Medication, supplements and human vitamins.</strong> These follow completely different dose logic and deserve their own page, not a row here.</li>
+  <li><strong>Your dog's own history.</strong> A dog with pancreatitis should not be eating anything in the high-fat column regardless of tier. A dog with a calcium oxalate stone history should skip spinach outright. The chart gives the general answer; your vet gives yours.</li>
+  <li><strong>Breed-specific sensitivity.</strong> Some breeds — Akitas and Shibas among them — are markedly more sensitive to Allium damage than the average dog, which moves garlic and onion from "avoid" to "strictly avoid" for them.</li>
+</ul>
+
+<h2>If something on this chart already happened</h2>
+<p>Skip the rest of the page and call. Have three things ready, because the vet will ask for all of them: <strong>what the food was</strong> (including the brand and whether it was sugar-free), <strong>how much</strong> (the packet is better than an estimate), and <strong>your dog's weight</strong>. Those three answers decide the treatment, and "he ate some gum" cannot be converted into a dose by anyone.</p>
+<p>Do not induce vomiting unless a vet tells you to. For caustic or sharp items it makes the damage worse, and for some toxins the timing has already passed.</p>
+
+<h2>Sources and how this chart is maintained</h2>
+<p>The dose figures here are drawn from veterinary toxicology references and the underlying case literature, and each linked page names its own sources. Where a number is contested — the threshold for garlic, the exact toxic principle in avocado — the linked page says so rather than picking the tidiest figure.</p>
+<p>Every row is re-checked on a rolling six-month cycle, and immediately when a source changes. If a number here disagrees with a source you trust, write to <a href="mailto:contact@wagwise.org">contact@wagwise.org</a> with the row and the source, and it gets fixed and re-dated. The <a href="/about/editorial-standards/">editorial standards</a> page explains how the guides are written and reviewed.</p>
+<p><strong>Using this chart.</strong> You are welcome to cite it, quote a row, or reproduce the tier structure with attribution and a link back to this page. It is kept current precisely so that other people can rely on it rather than re-deriving the numbers.</p>
+<p class="muted" style="font-size:14px">Last full review: 2 November 2026. This page is general information, not veterinary advice. For anything urgent, call your vet or the nearest emergency clinic.</p>
+""",
 }
 
 

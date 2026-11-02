@@ -279,6 +279,10 @@
   "d": "2026-11-02",
   "h": "f1f5042cba60b9714f7c3d926d72033dd1ed78ba"
  },
+ "public/dog-nutrition/food-safety-chart/index.html": {
+  "d": "2026-11-02",
+  "h": "2591321065732c3c36ea83e3fbc6d1f2492938c4"
+ },
  "public/dog-nutrition/foods-toxic-to-dogs/index.html": {
   "d": "2026-11-02",
   "h": "7b72fa8ed5fb76c583c7ca342aa765d2c9c83813"
@@ -289,7 +293,7 @@
  },
  "public/dog-nutrition/index.html": {
   "d": "2026-11-02",
-  "h": "5fb5123369e6732358fb5e55cd37bcbf2acfac1a"
+  "h": "fffc09e0e712f802cc6e452d3cca888b779a2ae4"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
   "d": "2026-10-28",
@@ -309,7 +313,7 @@
  },
  "public/index.html": {
   "d": "2026-11-02",
-  "h": "e10c3208b2a33fc0741fc42b6ab0eb866518d42d"
+  "h": "5f90146ba520e0ab8599572d24cda46790280403"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",

@@ -22,7 +22,7 @@ import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, TOOL  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, TOOL, FOOD_CHART  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -308,7 +308,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=7">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=8">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -638,7 +638,9 @@ def render_home():
     # row of the homepage — so they get named slots instead.
     money_cards = ""
     _money = [(TOOL["url"], TOOL["title"], TOOL["description"],
-               "dog-age-calculator", "TOOL")]
+               "dog-age-calculator", "TOOL"),
+              (FOOD_CHART["url"], FOOD_CHART["title"], FOOD_CHART["description"],
+               "food-safety-chart", "REFERENCE")]
     for _slug, _kick in (("best-dog-crate", "BUYING GUIDE"),
                          ("best-dog-harness-for-pulling", "BUYING GUIDE"),
                          ("how-much-to-feed-my-dog", "FEEDING REFERENCE")):
@@ -651,7 +653,7 @@ def render_home():
     # The full A-Z list used to live here (73 links). It moved to /sitemap/, which
     # every page already links to in the footer — one hop for a crawler, but the
     # homepage no longer spreads its equity across 70 equally-weighted links.
-    total_pages = len(ARTICLES) + 1
+    total_pages = len(ARTICLES) + 2
     see_all = (
         '  <p class="lede" style="margin-top:34px">'
         '<a href="/sitemap/"><strong>Browse all %d guides and tools \u2192</strong></a><br>'
@@ -688,10 +690,16 @@ def render_home():
 
 
 def render_static(url_path, nav_current, title, desc, body_html, og_type="website",
-                  crumb_label=None, robots="index,follow"):
+                  crumb_label=None, robots="index,follow", crumb_path=None):
     crumb_html = ""
     bc = None
-    if crumb_label:
+    if crumb_path:
+        bc = breadcrumb_jsonld([("Home", "/")] + list(crumb_path) +
+                               [(crumb_label or title, url_path)])
+        _chain = "".join('<a href="%s">%s</a> \u203a ' % (u, l) for l, u in crumb_path)
+        crumb_html = ('  <div class="crumbs"><a href="/">Home</a> \u203a %s%s</div>\n'
+                      % (_chain, crumb_label or title))
+    elif crumb_label:
         bc = breadcrumb_jsonld([("Home", "/"), (crumb_label, url_path)])
         crumb_html = '  <div class="crumbs"><a href="/">Home</a> \u203a %s</div>\n' % crumb_label
     h = head(title, desc, url_path, site_jsonld(), og_type, None, bc, robots=robots)
@@ -832,6 +840,45 @@ def render_tool(t):
     return shell(h, t["url"], body)
 
 
+def render_food_chart(fc):
+    """The 47-food tiered reference table.
+
+    Rows are rendered from FOOD_CHART["tiers"], and each row links to its own
+    article via LOOKUP so the URL can never drift from the source of truth.
+    """
+    bc = breadcrumb_jsonld([("Home", "/"), ("Dog nutrition", "/dog-nutrition/"),
+                            (fc["title"], fc["url"])])
+    h = head(fc["title"], fc["description"], fc["url"], site_jsonld(), "website", None, bc)
+
+    tiers = ""
+    for tier in fc["tiers"]:
+        rows = "".join(
+            '<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td></tr>\n'
+            % (LOOKUP["can-dogs-eat-" + s][0], s.replace("-", " ").title(), form, num)
+            for s, form, num in tier["rows"]
+        )
+        tiers += (
+            '<h2>%s</h2>\n<p>%s</p>\n<table class="chart-tbl">\n'
+            '<tr><th style="text-align:left">Food</th>'
+            '<th style="text-align:left">What is safe</th>'
+            '<th style="text-align:left">The number that matters</th></tr>\n'
+            '%s</table>\n\n' % (tier["label"], tier["intro"], rows)
+        )
+
+    body = (
+        '<div class="wrap narrow">\n'
+        '  <div class="crumbs"><a href="/">Home</a> \u203a '
+        '<a href="/dog-nutrition/">Dog nutrition</a> \u203a Food safety chart</div>\n'
+        # The whole reference block sits inside .doc: the table styles
+        # (.doc table / th / td) are scoped to that wrapper, so without it the
+        # 47-row chart renders as unstyled text with no cell padding.
+        '<div class="doc">\n'
+        + fc["head"] + tiers + fc["tail"] +
+        '\n</div>\n</div>'
+    )
+    return shell(h, "/dog-nutrition/", body)
+
+
 # ---------------------------------------------------------------------------
 # lastmod strategy (哥飞 2026-10-26): a sitemap where every URL shares the same
 # <lastmod> date is a trust signal failure — Google quietly stops believing the
@@ -923,6 +970,8 @@ def build_sitemap(manifest):
     urls.append((EDITORIAL["url"], 0.3, "yearly", "public/about/editorial-standards/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
+    urls.append((FOOD_CHART["url"], 0.8, "monthly",
+                 "public/%s/index.html" % FOOD_CHART["url"].strip("/")))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
     for u, pri, freq, rel in urls:
@@ -963,6 +1012,8 @@ def render_sitemap():
                   a["title"] + '</h3><p>' + a["lede"] + '</p></a>')
     cards += ('<a href="' + TOOL["url"] + '"><div class="k">TOOL</div><h3>' +
               TOOL["title"] + '</h3><p>' + TOOL["description"] + '</p></a>')
+    cards += ('<a href="' + FOOD_CHART["url"] + '"><div class="k">REFERENCE</div><h3>' +
+              FOOD_CHART["title"] + '</h3><p>' + FOOD_CHART["description"] + '</p></a>')
     cards += ('<a href="/about/"><div class="k">ABOUT</div><h3>About WagWise Pet</h3><p>' +
               ABOUT["description"] + '</p></a>')
     cards += ('<a href="/contact/"><div class="k">CONTACT</div><h3>Contact WagWise Pet</h3><p>' +
@@ -1014,6 +1065,8 @@ def main():
         "<h1>404</h1><p>The page you were looking for doesn't exist. "
         "<a href=\"/\">Return home</a>.</p>", robots="noindex,follow")))
     pages.append(("%s/index.html" % TOOL["url"].strip("/"), render_tool(TOOL)))
+    pages.append(("%s/index.html" % FOOD_CHART["url"].strip("/"),
+                  render_food_chart(FOOD_CHART)))
 
     changed = 0
     for rel_public, html in pages:

@@ -136,3 +136,15 @@ h1{font-size:32px;font-weight:700;line-height:1.3;letter-spacing:-.01em;margin-b
 .gi-group li a{color:#3A3E44}
 .gi-group li a:hover{color:#2E8B6A;text-decoration:underline}
 @media(max-width:760px){.guides-index{grid-template-columns:1fr;gap:22px}}
+
+/* Food safety chart (2026-11-02): a 3-column reference table cannot survive a
+   390px viewport — the third column carries a full dose sentence, so on phones
+   each row becomes a stacked block: food name, safe form, then the number. */
+@media(max-width:620px){
+  .chart-tbl{border:0;background:transparent}
+  .chart-tbl tr{display:block;padding:13px 0;border-top:1px solid rgba(0,0,0,.07)}
+  .chart-tbl tr:first-child{display:none}
+  .chart-tbl td{display:block;border:0;padding:0 0 4px}
+  .chart-tbl td:first-child{font-weight:600;font-size:15px;color:#1E2125}
+  .chart-tbl td:last-child{color:#2E8B6A;font-size:13px;line-height:1.5}
+}
