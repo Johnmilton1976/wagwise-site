@@ -3502,6 +3502,22 @@ ARTICLES = [
         </table>
         <p>Low calorie and high fiber are what make them a filling, diet-friendly bite.</p>
 
+        <h2>The weight-loss maths: what a green bean actually replaces</h2>
+        <p>"Use green beans as a diet treat" is standard advice. Whether it works depends on what they replace, and the arithmetic is easy enough to do at home.</p>
+        <p>A cup of cooked green beans weighs about 125 g and carries around 31 kcal. A typical medium dog biscuit is 30–40 kcal. So the swap is not marginal — it is roughly a tenfold cut per treat:</p>
+        <table>
+          <thead><tr><th>Treat</th><th>Calories</th><th>Compared with 1/4 cup green beans (8 kcal)</th></tr></thead>
+          <tbody>
+            <tr><td>Medium biscuit</td><td>30–40 kcal</td><td>4–5 times more</td></tr>
+            <tr><td>Dental chew (medium)</td><td>60–100 kcal</td><td>8–12 times more</td></tr>
+            <tr><td>Small piece of cheese</td><td>50 kcal</td><td>6 times more</td></tr>
+            <tr><td>1/4 cup cooked green beans</td><td>~8 kcal</td><td>—</td></tr>
+          </tbody>
+        </table>
+        <p>For a 10 kg dog eating roughly 650 kcal a day, the entire treat allowance is about 65 kcal. Three biscuits would blow through it before lunch. Three portions of green beans would use a third of it and add fibre that makes the dog feel fed.</p>
+        <p>Now the honest part about the timeline. If you replace three 35 kcal biscuits a day with three 8 kcal portions, you save around <strong>80 kcal a day</strong>. A kilogram of body fat represents roughly 7,700 kcal, so that swap alone is worth about a kilogram every three months. Real, measurable, and slow — which is how healthy weight loss works, and why nobody should expect a bean to do it in a fortnight.</p>
+        <p>One practical caution: introduce them gradually. Jumping straight to a cup of extra fibre a day produces gas and loose stool, and owners often blame the beans rather than the speed. Start with a few pieces and build over a week or two.</p>
+
         <h2>How much green beans is safe?</h2>
         <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
         <table>
@@ -3578,6 +3594,23 @@ ARTICLES = [
           <tr><td>Manganese</td><td>good source</td></tr>
         </table>
         <p>Nutrient-dense, but the natural sugar is why portion size matters.</p>
+
+        <h2>Bromelain: why fresh pineapple tingles and canned does not</h2>
+        <p>If your dog drools, paws at its mouth or rubs its muzzle on the carpet after a piece of pineapple, that is probably not an allergy. It is an enzyme doing its job.</p>
+        <p>Pineapple contains <strong>bromelain</strong>, a protease — a protein-digesting enzyme. On a human tongue it produces the familiar "pineapple burn" after eating a lot; on a dog's lips and gums it produces the same mild irritation, which reads as drooling and mouth-rubbing. Uncomfortable rather than dangerous, and it passes.</p>
+        <p>The interesting part is that <strong>bromelain is destroyed by heat</strong>. It denatures above roughly 60 °C, which means any pasteurised or canned pineapple has essentially none left. So fresh pineapple tingles and canned pineapple does not — the enzyme is the difference, not the fruit.</p>
+        <p>If your dog is sensitive, two easy fixes: cut the pieces smaller so less surface contact happens, or blanch the chunks for a minute and cool them. Rinsing in lightly salted water is the folk method and does reduce the effect somewhat, though heating is more reliable.</p>
+        <p>One place where people over-read the science: bromelain is sold as a digestive supplement and features heavily in "natural anti-inflammatory" marketing. A few chunks of fruit are not a dose of anything — the amount in fresh pineapple varies enormously, and the enzyme is largely inactivated by stomach acid anyway. Treat pineapple as fruit, not as medicine.</p>
+        <p>And the sugar gap between forms matters more than the enzyme:</p>
+        <table>
+          <thead><tr><th>Per 100 g</th><th>Sugar</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Fresh pineapple</td><td>~8–10 g</td><td>Plus fibre and water</td></tr>
+            <tr><td>Canned in own juice, drained</td><td>~12–14 g</td><td>Acceptable in small pieces</td></tr>
+            <tr><td>Canned in syrup</td><td>~15–20 g</td><td>Too much for a dog</td></tr>
+            <tr><td>Dried pineapple</td><td>~45–60 g</td><td>Concentrated — avoid</td></tr>
+          </tbody>
+        </table>
 
         <h2>How much pineapple is safe?</h2>
         <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
@@ -4317,6 +4350,21 @@ ARTICLES = [
         </ul>
         <div class="callout warn">The single most important rule: the yogurt must contain no xylitol. Check the label every time, because a 'sugar-free' yogurt can be deadly for a dog.</div>
 
+        <h2>Greek vs regular: the lactose difference in numbers</h2>
+        <p>The advice to "choose Greek" usually comes without a reason. The reason is straining: Greek yogurt is regular yogurt with the whey drained off, and whey is where most of the lactose sits.</p>
+        <table>
+          <thead><tr><th>Per 100 g</th><th>Regular plain yogurt</th><th>Greek (strained)</th></tr></thead>
+          <tbody>
+            <tr><td>Lactose</td><td>~4.5–5 g</td><td>~3–4 g</td></tr>
+            <tr><td>Protein</td><td>~3.5–4 g</td><td>~9–10 g</td></tr>
+            <tr><td>Calcium</td><td>~120 mg</td><td>~110 mg</td></tr>
+            <tr><td>Texture</td><td>Loose</td><td>Thick</td></tr>
+          </tbody>
+        </table>
+        <p>So Greek yogurt cuts lactose by roughly a quarter to a third while nearly tripling the protein. For a dog that gets loose stool from ordinary yogurt, that difference is often enough to make Greek tolerable. It is not lactose-free, though — for a genuinely sensitive dog, lactose-free yogurt or a canine probiotic is the better answer.</p>
+        <p>Two adjacent products come up constantly. <strong>Kefir</strong> is fermented with a broader mix of cultures and is often pitched as "better than yogurt" — but it carries slightly more lactose and, depending on fermentation time, up to 1–2% alcohol. Harmless in a spoonful, worth knowing before you pour it over a bowl. <strong>Frozen yogurt</strong> belongs in a different category entirely: the commercial kind is usually full-fat, heavily sweetened, and sometimes sugar-free with xylitol — which turns it from a dairy treat into a potential emergency.</p>
+        <p>One claim worth downgrading: <strong>"live cultures" do not reliably colonise a dog's gut.</strong> The strains in supermarket yogurt are chosen for humans, and while some — <em>Bifidobacterium animalis</em>, certain <em>Lactobacillus</em> — appear in canine products too, the evidence that a spoonful of human yogurt shifts a dog's microbiome is thin. If you are using yogurt for gut support, you are mostly getting a palatable, mildly probiotic-ish topper. If a vet has recommended probiotics for a real digestive issue, use a product formulated and dosed for dogs.</p>
+
         <h2>Yogurt nutrition at a glance</h2>
         <p>For scale, here is roughly what is in 100 g of plain low-fat yogurt:</p>
         <table>
@@ -4497,6 +4545,21 @@ ARTICLES = [
         </ul>
         <div class="callout warn">Never feed a dog raw shrimp, shells, tails, or anything cooked with garlic, onion, butter, or heavy oil. Plain boiled or steamed shrimp, peeled, is the only safe way.</div>
 
+        <h2>Two things the label will not tell you</h2>
+        <p>Shrimp looks like the simplest protein in the freezer aisle. Two details make it less simple than it appears.</p>
+        <p><strong>1. Frozen shrimp is often soaked in phosphate.</strong> Much of the frozen shrimp sold worldwide is treated with sodium tripolyphosphate (STPP), a water-retention agent that keeps the flesh plump and stops it drying out in the bag. It also adds sodium — plain raw shrimp carries about 110 mg per 100 g, while STPP-treated frozen shrimp can run two to four times that.</p>
+        <table>
+          <thead><tr><th>Shrimp (per 100 g)</th><th>Sodium</th><th>For a 10 kg dog (daily need ~200 mg)</th></tr></thead>
+          <tbody>
+            <tr><td>Fresh raw shrimp, untreated</td><td>~110 mg</td><td>Half a day</td></tr>
+            <tr><td>Frozen, STPP-treated</td><td>~200–400 mg</td><td>1–2 days</td></tr>
+            <tr><td>Pre-cooked, salted</td><td>~300–500 mg</td><td>1.5–2.5 days</td></tr>
+            <tr><td>Breaded or tempura</td><td>~500 mg plus fat</td><td>Off the menu entirely</td></tr>
+          </tbody>
+        </table>
+        <p>You cannot see phosphate on most labels because it is treated as a processing aid rather than an ingredient in some jurisdictions. The clue is the texture: STPP shrimp feel unnaturally firm and release a lot of water in the pan. If you feed shrimp regularly, untreated or fresh is the better buy.</p>
+        <p><strong>2. The cholesterol number is not a reason to avoid shrimp.</strong> You will see 189 mg per 100 g and assume it matters, because it would for a person watching their cholesterol. Dogs are not small people in this respect: dietary cholesterol has a much smaller effect on canine blood lipids, and the concern in most dogs is total calories and fat, not cholesterol. Shrimp has 0.3 g of fat per 100 g — one of the leanest treats on this site. For a dog with pancreatitis, that low fat number is the relevant one, and it counts in shrimp's favour.</p>
+
         <h2>Shrimp nutrition at a glance</h2>
         <p>For scale, here is roughly what is in 100 g of cooked shrimp (about 4–5 medium shrimp):</p>
         <table>
@@ -4579,6 +4642,13 @@ ARTICLES = [
           <li><b>Raw garden peas:</b> fine in small amounts, though cooking or thawing makes them easier to digest.</li>
         </ul>
         <div class="callout">Frozen peas straight from the bag, thawed, are one of the easiest safe veggies — no salt, no prep beyond a rinse.</div>
+
+        <h2>Do peas cause gout in dogs? Almost never — here is why</h2>
+        <p>Search "peas and purines" and you will find warnings about gout, borrowed wholesale from human nutrition writing. For dogs, the warning rests on a fact that does not apply to them.</p>
+        <p>Purines from food are broken down into uric acid. In humans, uric acid accumulates because we lost a working copy of the <em>urate oxidase</em> gene somewhere in our evolutionary past — the enzyme that turns uric acid into allantoin, which dissolves far more readily and leaves the body easily. Most other mammals, dogs included, still have it. A dog's liver converts uric acid onward instead of letting it crystallise in joints.</p>
+        <p>Gout — the painful joint crystallisation that makes purine-rich food a real concern for people — is therefore <strong>rare in dogs to the point of being a curiosity</strong>, and when it does occur it is tied to an inherited urate-handling defect, not to dinner.</p>
+        <p>The exception worth knowing: a handful of breeds carry exactly that defect. <strong>Dalmatians</strong> are the classic case — a liver transport quirk means their uric acid handling differs from other dogs — and English Bulldogs and Black Russian Terriers have their own inherited risk of urate stones. For those dogs, purine load is a genuine conversation to have with a vet.</p>
+        <p>For every other dog, peas are not a purine problem. They are a fibre and protein problem in the good sense: useful volume, cheap calories, and a texture most dogs enjoy. If your dog is a Dalmatian or has a history of urate stones, keep peas occasional. Otherwise the gout warning on the internet is not about your dog.</p>
 
         <h2>Peas nutrition at a glance</h2>
         <p>For scale, here is roughly what is in 100 g of cooked green peas (about half a cup):</p>
@@ -4883,8 +4953,9 @@ ARTICLES = [
         <p>Like onion, garlic contains organosulfides that rupture red blood cells after they
         are absorbed. The result is hemolytic anemia: the body can no longer carry enough
         oxygen, and in serious cases the damage is life-threatening.</p>
-        <p>Garlic's toxic threshold is <strong>higher than onion's</strong> — roughly 5 times less
-        potent gram-for-gram — but that does <em>not</em> make it safe. Powdered garlic is
+        <p>Gram for gram, garlic is the <strong>more potent of the two Alliums</strong> — roughly
+        three to five times stronger than onion — which is why the amount that matters is
+        smaller than most people assume. Powdered garlic is
         concentrated, and a small dog can cross the danger line with a fraction of a clove or a
         pinch of garlic powder.</p>
 
@@ -4900,18 +4971,47 @@ ARTICLES = [
         </ul>
 
         <h2>How much garlic is too much?</h2>
-        <p>Because garlic is about one-fifth as concentrated as onion, the commonly cited
-        dangerous range is around <strong>5 times higher by weight</strong> — but for practical
-        safety, the answer is the same as onion: <strong>don't feed it</strong>.</p>
+        <p>Veterinary references put clinical onion poisoning at roughly <strong>15–30 g per kg</strong>
+        of body weight, and garlic at roughly <strong>5 g per kg</strong> — about a fifth of the
+        onion dose. But two different thresholds get mixed up in most tables, and the gap between
+        them is a factor of five:</p>
+        <ul>
+          <li><strong>Heinz body formation</strong> — red cells start showing oxidative damage at
+            around 1 g/kg. The dog usually looks completely normal.</li>
+          <li><strong>Clinical poisoning</strong> — anaemia you can actually see, from around 5 g/kg.</li>
+        </ul>
+        <p>Both matter, because a dog with silent red-cell damage is still a dog you want a vet to
+        see. One clove is roughly 3–5 g, which makes the arithmetic for a small dog shorter than
+        people expect:</p>
         <table class="dose">
-          <thead><tr><th>Dog weight</th><th>Rough toxic amount (fresh clove)</th><th>Safe amount</th></tr></thead>
+          <thead><tr><th>Dog weight</th><th>Red-cell damage measurable (~1 g/kg)</th><th>Clinical poisoning (~5 g/kg)</th><th>Safe amount</th></tr></thead>
           <tbody>
-            <tr><td>5 kg (11 lb)</td><td>a few grams (part of one clove)</td><td><strong>0 — none</strong></td></tr>
-            <tr><td>10 kg (22 lb)</td><td>~5–10 g</td><td><strong>0 — none</strong></td></tr>
-            <tr><td>20 kg (44 lb)</td><td>~10–20 g</td><td><strong>0 — none</strong></td></tr>
-            <tr><td>30 kg (66 lb)</td><td>~15–30 g</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>5 kg (11 lb)</td><td>~5 g — about one clove</td><td>~25 g — 5–8 cloves</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>10 kg (22 lb)</td><td>~10 g — 2–3 cloves</td><td>~50 g — 10–16 cloves</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>20 kg (44 lb)</td><td>~20 g — 4–6 cloves</td><td>~100 g — a whole bulb</td><td><strong>0 — none</strong></td></tr>
+            <tr><td>30 kg (66 lb)</td><td>~30 g — 6–10 cloves</td><td>~150 g — 1.5 bulbs</td><td><strong>0 — none</strong></td></tr>
           </tbody>
         </table>
+        <p>Read that last column seriously. The space between "no visible signs" and "anaemia" is
+        where the danger lives, and it is invisible from the outside.</p>
+
+        <h2>Why the dose range is so wide</h2>
+        <p>Compare two sources on garlic and you will find thresholds that differ by a factor of
+        ten. That is not sloppy writing — it reflects four real variables:</p>
+        <ul>
+          <li><strong>Form.</strong> Garlic powder is roughly three to five times more concentrated
+            than fresh by weight, and garlic oil more so again. A "pinch" of powder is not a pinch of clove.</li>
+          <li><strong>Breed.</strong> Some dogs are predisposed to oxidative red-cell damage — Akitas,
+            Shiba Inus, and several Japanese and Alaskan breeds carry a documented higher risk. The same
+            dose is not the same dose across breeds.</li>
+          <li><strong>Timing.</strong> The damage unfolds over 2–4 days as damaged red cells are cleared.
+            A meal that seems fine can still produce anaemia later in the week.</li>
+          <li><strong>What it was eaten with.</strong> Food in the stomach slows absorption, which spreads
+            the exposure out but does not reduce the total.</li>
+        </ul>
+        <p>This is also why the garlic-as-flea-remedy advice keeps circulating despite being both
+        ineffective and unsafe. The doses those recipes recommend — a clove a day for a medium dog —
+        sit squarely in the range where red-cell damage is measurable.</p>
         <p class="note">Small breeds reach toxicity fastest. With powdered garlic, the margin
         for error is tiny — treat the safe amount as <strong>zero</strong>.</p>
 
@@ -4938,9 +5038,10 @@ ARTICLES = [
         </ol>
 
         <h2>Garlic vs. onion</h2>
-        <p>Both are Allium-family toxins with the same mechanism. Onion is the more potent of
-        the two, but garlic is more frequently fed by well-meaning owners who believe the
-        flea-remedy myth. For the broader picture, see our
+        <p>Both are Allium-family toxins with the same mechanism. Garlic is the more potent of
+        the two gram for gram, but onion is far more common in ordinary food — it hides in stock,
+        gravy, ready meals and takeaway — while garlic gets fed deliberately by owners who believe
+        the flea-remedy myth. Two different routes to the same anaemia. For the broader picture, see our
         <a href="/dog-nutrition/can-dogs-eat-onion/">onion</a> page, plus other kitchen dangers
         like <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a> and
         <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a>.</p>
@@ -5114,6 +5215,22 @@ ARTICLES = [
         <p>Signs of cyanide poisoning are rapid and severe: bright-red gums, dilated pupils,
         difficulty breathing, and collapse. This is an <strong>emergency</strong> — go to a
         vet immediately.</p>
+
+        <h2>Wilted leaves are more dangerous than the pits</h2>
+        <p>Every cherry page warns about pits. Almost none mentions the part of the tree a dog is far more likely to eat in quantity: the <strong>fallen leaves</strong>.</p>
+        <p>Cherry leaves, stems and bark contain cyanogenic glycosides too — and here is the counter-intuitive part, familiar to anyone who keeps livestock: <strong>wilting concentrates them</strong>. Fresh leaves are less of a problem because the cyanide-releasing enzyme and its substrate are held apart in intact cells. Once a leaf wilts, bruises, or freezes, cell structure breaks down and the two mix. A pile of wilted cherry leaves on a lawn is a more efficient cyanide delivery system than a single pit.</p>
+        <table>
+          <thead><tr><th>Material</th><th>Cyanide potential</th><th>For a 10 kg dog (10–20 mg is dangerous)</th></tr></thead>
+          <tbody>
+            <tr><td>Cherry flesh</td><td>None</td><td>No risk</td></tr>
+            <tr><td>Whole pit, swallowed intact</td><td>Low — passes through</td><td>Obstruction risk, not poisoning</td></tr>
+            <tr><td>Pit, chewed or crushed</td><td>High per pit</td><td>1–3 crushed pits</td></tr>
+            <tr><td>Fresh leaves</td><td>Low–moderate</td><td>Unlikely from casual nibbling</td></tr>
+            <tr><td>Wilted or frost-damaged leaves</td><td>High</td><td>Tens of grams of leaf</td></tr>
+          </tbody>
+        </table>
+        <p>The practical upshot is a seasonal one. In summer, the risk is a dropped cherry. In autumn, it is the raked pile and the windfall under the tree — and a dog that grazes on lawn clippings can reach a meaningful dose from leaves alone. If you have a fruiting cherry tree and a dog, clear the fallen leaves rather than letting them lie.</p>
+        <p>Signs of cyanide poisoning are worth memorising because they are fast and unmistakable: bright red gums, dilated pupils, rapid shallow breathing, distress, then collapse — usually within 15 to 60 minutes of eating. There is no home remedy. Go.</p>
 
         <h2>The pit is also a physical hazard</h2>
         <div class="callout warn">Even without toxicity, a swallowed cherry pit can obstruct
