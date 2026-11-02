@@ -82,16 +82,34 @@ def _checked_label(iso):
         return iso
 
 
+def _checked_short(iso):
+    """'2026-10-16' -> '16 Oct 2026'. Card-sized version of the check date."""
+    iso = iso or DEFAULT_CHECKED
+    try:
+        y, m, d = [int(x) for x in iso.split("-")]
+        months = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+        return "%d %s %d" % (d, months[m - 1], y)
+    except Exception:
+        return iso
+
+
 def img_src(slug):
     """Use a real raster photo if 朱朱 dropped one in, else the SVG placeholder.
 
     Drop a file named <slug>.webp / .jpg / .png into public/assets/img/ and
     re-run render.py — the article will pick it up automatically.
+
+    Returns None when neither exists. The old unconditional SVG fallback emitted
+    a URL for 25 pages whose placeholder file had already been deleted, so those
+    pages served a 404 image in the <article> — worse than no image at all.
     """
     for ext in ("webp", "jpg", "jpeg", "png"):
         if os.path.exists(os.path.join(IMG_DIR, slug + "." + ext)):
             return "/assets/img/%s.%s" % (slug, ext)
-    return "/assets/img/%s.svg" % slug
+    if os.path.exists(os.path.join(IMG_DIR, slug + ".svg")):
+        return "/assets/img/%s.svg" % slug
+    return None
 
 
 def hero_src(slug):
@@ -125,12 +143,16 @@ def og_src(slug):
     return None
 
 
-def hub_card(url, kicker, title, desc, slug):
+def hub_card(url, kicker, title, desc, slug, meta=""):
     """Uniform image card used on the homepage and pillar hubs (top image, text below).
 
     The thumbnail carries a descriptive alt rather than alt="": these cards are
     the site's main image-search surface (哥飞 D6/G1) and an empty alt throws
     that away.
+
+    `meta` is an optional muted line under the description — used on the homepage
+    to show the check date on each card, which is one of the trust signals a YMYL
+    topic needs and the cards previously carried no date at all.
     """
     t = thumb_src(slug)
     img = ""
@@ -141,9 +163,11 @@ def hub_card(url, kicker, title, desc, slug):
             '<img class="timg" src="%s" width="%d" height="%d" loading="lazy" '
             'decoding="async" alt="%s">' % (t, d[0], d[1], _html.escape(title, quote=True))
         )
+    meta_html = '<div class="d">%s</div>' % meta if meta else ""
     return (
         '<a href="%s" class="%s">%s<div class="tpad"><div class="k">%s</div>'
-        "<h3>%s</h3><p>%s</p></div></a>" % (url, cls, img, kicker, title, desc)
+        "<h3>%s</h3><p>%s</p>%s</div></a>"
+        % (url, cls, img, kicker, title, desc, meta_html)
     )
 
 
@@ -284,7 +308,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=6">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=7">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -412,7 +436,17 @@ def render_article(a):
 
     # FAQ inner block
     faq_html = ""
+    body_html = a["body"]
     if a.get("faq"):
+        # Six articles repeat the heading inside their own body, which produced
+        # two consecutive "Frequently asked questions" H2s on one page. Strip the
+        # body copy of it; the wrapper below owns that heading.
+        # Cut at the match start so the body keeps its original trailing layout —
+        # an rstrip here would rewrite the tail of all 66 FAQ articles and stamp
+        # every one of them as edited today.
+        _m = re.search(r"(?is)\s*<h2>\s*frequently asked questions\s*</h2>\s*$", body_html)
+        if _m:
+            body_html = body_html[:_m.start()]
         items = "".join(
             '<div class="faq-item"><div class="faq-q">%s</div>'
             '<div class="faq-a">%s</div></div>' % (q, ans)
@@ -473,9 +507,9 @@ def render_article(a):
         '<a href="%s">%s</a> › %s</div>'
         % (pillar["url"], pillar["nav"], a["title"])
     )
-    img = '<img class="article-img" src="%s"%s alt="%s">' % (
-        img_src(slug), img_attrs(slug), a["title"]
-    )
+    _src = img_src(slug)
+    img = ('<img class="article-img" src="%s"%s alt="%s">'
+           % (_src, img_attrs(slug), a["title"])) if _src else ""
 
     body = (
         '<div class="wrap narrow">\n'
@@ -501,7 +535,7 @@ def render_article(a):
         a["title"],
         a["lede"],
         img,
-        a["body"] + tool_cta,
+        body_html + tool_cta,
         faq_html,
         rel_html,
         src_html,
@@ -565,7 +599,8 @@ def render_home():
         "    <h1>Dog and cat care guides — written to be useful, not scary</h1>\n"
         '    <p class="lede">%s</p>\n'
         '    <div class="hh-btns">\n'
-        '      <a class="btn" href="/dog-training/">Explore the guides</a>\n'
+        '      <a class="btn" href="/dog-nutrition/can-dogs-eat-chocolate/">'
+        "Is chocolate toxic? \u2192</a>\n"
         '      <a class="btn ghost" href="/tools/dog-age-calculator/">Dog age calculator</a>\n'
         "    </div>\n"
         "  </div>\n"
@@ -587,10 +622,17 @@ def render_home():
     # Latest guides — 哥飞: homepage should list newest content to pull crawler
     # revisits and give new pages an entry point. New articles appended to
     # ARTICLES appear first here automatically.
-    latest = ARTICLES[::-1][:6]
+    #
+    # Slugs already used higher up the page are skipped: cat-meow was appearing
+    # twice (Start here + Latest) out of only 17 unique internal links, so one of
+    # the homepage's most valuable slots was pointing at a page it already linked.
+    _MONEY_SLUGS = ("best-dog-crate", "best-dog-harness-for-pulling", "how-much-to-feed-my-dog")
+    _used = set(HOME["featured"]) | set(_MONEY_SLUGS)
+    latest = [a for a in ARTICLES[::-1] if a["slug"] not in _used][:6]
     latest_cards = ""
     for a in latest:
-        latest_cards += hub_card(a["url"], "ARTICLE", a["title"], a["lede"], a["slug"])
+        latest_cards += hub_card(a["url"], "ARTICLE", a["title"], a["lede"], a["slug"],
+                                 "Checked %s" % _checked_short(a.get("checked")))
     # Fixed homepage slots for the pages that carry commercial intent. These four
     # were the least-linked pages on the site while 70 articles competed for one
     # row of the homepage — so they get named slots instead.
@@ -616,9 +658,21 @@ def render_home():
         "Every page on WagWise, grouped by section.</p>\n"
     ) % total_pages
 
+    # Trust strip — YMYL topic: a reader who has just met this site needs one
+    # visible line telling them who writes this and how it is checked, before
+    # they read a symptom or a dose. It used to live only in the footer.
+    trust = (
+        '  <p class="trust"><strong>How we write &amp; review:</strong> every health and '
+        "nutrition claim is checked against named public references \u2014 ASPCA, the Merck "
+        "Veterinary Manual, Cornell, International Cat Care \u2014 and each guide shows the "
+        'date it was last checked. We do not invent credentials. '
+        '<a href="/about/editorial-standards/">Our editorial standards \u2192</a></p>\n'
+    )
+
     body = (
         '<div class="wrap">\n'
         "  %s\n"
+        "  %s"
         '  <h2 id="sections">Browse by section</h2>\n'
         '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Start here — the questions we get most</h2>\n'
@@ -629,7 +683,7 @@ def render_home():
         '  <div class="hub">%s</div>\n'
         "  %s\n"
         "</div>"
-    ) % (hero, pillar_cards, feat_cards, money_cards, latest_cards, see_all)
+    ) % (hero, trust, pillar_cards, feat_cards, money_cards, latest_cards, see_all)
     return shell(h, "/", body)
 
 
