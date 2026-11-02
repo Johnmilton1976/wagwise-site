@@ -4090,6 +4090,12 @@ ARTICLES = [
         </ul>
         <div class="callout warn">Never give a dog popcorn with butter, salt, caramel, chocolate, or any sugar-free topping — and always remove the unpopped kernels first.</div>
 
+        <h2>What an unpopped kernel does to a tooth</h2>
+        <p>Unpopped kernels get mentioned as a choking risk, then usually dropped. The more common injury is dental, and it is worth knowing what it looks like because owners rarely connect the two.</p>
+        <p>The tooth at risk is the upper fourth premolar — the <em>carnassial</em> — the big shearing tooth at the back of the jaw that dogs use to crunch. Its cusps are built for meat and bone, not for a hard, round, ceramic-like kernel caught at a bad angle. The result is a slab fracture: a piece of the cusp shears off and the pulp chamber is exposed.</p>
+        <p>Signs are easy to miss for weeks: dropping food to one side, chewing carefully, salivating more than usual, refusing hard kibble but eating soft food, or a sudden preference for one side of the bowl. By the time an abscess shows, the tooth usually needs a root canal or an extraction — both of which cost more than the popcorn did.</p>
+        <p>This is not an argument against popcorn. It is an argument for pouring it into a bowl and letting the unpopped kernels settle at the bottom, rather than handing a dog the last inch of the bag.</p>
+
         <h2>Popcorn nutrition at a glance</h2>
         <p>For scale, here is roughly what is in one cup of air-popped popcorn (about 8 g):</p>
         <table>
@@ -4101,6 +4107,19 @@ ARTICLES = [
           <tr><td>Fat</td><td>~0.4 g</td></tr>
         </table>
         <p>Low calorie, light fiber — that is why plain popcorn is a reasonable occasional treat, not a daily snack.</p>
+
+        <h2>Salt, counted in cups</h2>
+        <p>Air-popped popcorn is genuinely low in calories and almost free of sodium. Microwave popcorn is the opposite, and the gap is large enough that the two should not share a name.</p>
+        <table>
+          <thead><tr><th>Popcorn type</th><th>Sodium</th><th>For a 10 kg dog (daily need ~200 mg)</th></tr></thead>
+          <tbody>
+            <tr><td>Air-popped, nothing added</td><td>~1 mg per cup</td><td>Effectively zero</td></tr>
+            <tr><td>Microwave, butter flavour</td><td>~500–600 mg per 100 g</td><td>A 90 g bag is ~2.5 days of sodium</td></tr>
+            <tr><td>Pre-popped, salted</td><td>~700–900 mg per 100 g</td><td>Half a small bag already exceeds it</td></tr>
+            <tr><td>Caramel / toffee coated</td><td>~300 mg plus heavy sugar</td><td>Sugar is the bigger problem</td></tr>
+          </tbody>
+        </table>
+        <p>One cup of air-popped popcorn weighs about 8 g, so "a few pieces" is a handful of individual kernels — not a bowl. If you are sharing from a bag of microwave popcorn, you are sharing salt and fat, not just corn.</p>
 
         <h2>How much popcorn is safe?</h2>
         <p>Treats of any kind should stay under about 10% of a dog's daily calories. A sensible occasional amount by body weight:</p>
@@ -5240,6 +5259,20 @@ ARTICLES = [
         goods alongside raisins, which are outright toxic. Skip prunes; use fresh pitted
         flesh if you share plums at all.</div>
 
+        <h2>Prunes are a laxative, not a treat</h2>
+        <p>Dried plums deserve their own section because they are a different product, not just a smaller plum. Prunes are about <strong>14–15% sorbitol by weight</strong>, a sugar alcohol that the dog's gut cannot fully absorb. Unabsorbed sorbitol pulls water into the bowel — which is exactly why prunes work as a human laxative, and exactly why they cause diarrhoea in dogs.</p>
+        <p>A single dried plum weighs around 9 g and carries roughly 1.3 g of sorbitol. Dogs show loose stool from roughly <strong>1 g of sorbitol per kg</strong> of body weight:</p>
+        <table>
+          <thead><tr><th>Dog weight</th><th>Sorbitol that upsets the gut</th><th>That is roughly</th></tr></thead>
+          <tbody>
+            <tr><td>3 kg</td><td>3 g</td><td>2 prunes</td></tr>
+            <tr><td>5 kg</td><td>5 g</td><td>4 prunes</td></tr>
+            <tr><td>10 kg</td><td>10 g</td><td>8 prunes</td></tr>
+            <tr><td>25 kg</td><td>25 g</td><td>19 prunes</td></tr>
+          </tbody>
+        </table>
+        <p>Four prunes for a spaniel-sized dog. That is a handful on the kitchen counter, and it is one of the most common reasons a dog ends up with an unexplained bout of diarrhoea. Prunes also concentrate the sugar and the potassium of the fresh fruit, which matters for dogs on a kidney diet.</p>
+
         <h2>How much plum is okay?</h2>
         <p>If you share, remove the pit, cut the flesh up, and keep it small:</p>
         <table class="dose">
@@ -5255,6 +5288,11 @@ ARTICLES = [
         <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a> or
         <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> are easier and
         safer fruit treats.</p>
+
+        <h2>The drunk-dog problem: fermented fallen fruit</h2>
+        <p>There is a second plum hazard that almost no owner thinks about, and it only happens in autumn: fallen fruit ferments. Wild yeast on the skin turns the sugar into ethanol, and a plum that has been lying on the grass for a day or two can reach <strong>1–2% alcohol by volume</strong>.</p>
+        <p>The maths is uncomfortable. A 5 kg dog eating 200 g of fermented plums takes in 2–4 g of ethanol — roughly <strong>0.4 to 0.8 g/kg</strong>, which is squarely in the range where dogs show signs: unsteady walking, vomiting, drowsiness, low body temperature, and sometimes a drop in blood sugar.</p>
+        <p>The same applies to apples, pears and cherries under a tree. If a dog has access to a fruiting plum tree in late summer, the practical answer is to rake and bin the windfalls daily — not to train the dog out of a habit that tastes like sugar.</p>
 
         <h2>What to do if your dog ate a plum pit</h2>
         <ol>
@@ -5956,6 +5994,21 @@ ARTICLES = [
           fragments that can obstruct or puncture the gut.</li>
         </ul>
 
+        <h2>Sodium, counted against a dog's daily need</h2>
+        <p>"High in salt" means nothing without a number to compare it to. A 10 kg dog needs roughly <strong>200 mg of sodium a day</strong> in total, from all food combined. Cured ham runs 1,000–1,200 mg per 100 g.</p>
+        <table>
+          <thead><tr><th>Ham type (per 100 g)</th><th>Sodium</th><th>Days of a 10 kg dog's sodium need</th></tr></thead>
+          <tbody>
+            <tr><td>Cooked / boiled ham</td><td>~1,200 mg</td><td>6 days</td></tr>
+            <tr><td>Honey-roast ham</td><td>~1,100 mg</td><td>5.5 days</td></tr>
+            <tr><td>Prosciutto / dry-cured</td><td>~1,800–2,200 mg</td><td>9–11 days</td></tr>
+            <tr><td>"Nitrate-free" deli ham</td><td>~1,000–1,300 mg</td><td>5–6.5 days</td></tr>
+            <tr><td>Fresh pork loin (not cured)</td><td>~50–60 mg</td><td>a quarter of a day</td></tr>
+          </tbody>
+        </table>
+        <p>The last row is the point. <strong>Ham is not risky because it is pork — it is risky because it is cured.</strong> A plain roasted pork loin is a perfectly reasonable lean meat for a dog; the same cut turned into ham is a salt bomb. If you want to share meat with your dog, share the unseasoned version.</p>
+        <p>At the extreme end, sodium ion poisoning is real: vomiting, tremors, seizures and brain swelling, usually after a dog drinks salt water or eats several hundred milligrams per kilogram at once. A single slice will not do that. A dog that gets into a whole ham will.</p>
+
         <h2>Ham by form: what's on the plate</h2>
         <table class="dose">
           <thead><tr><th>Form</th><th>Verdict</th></tr></thead>
@@ -5972,6 +6025,11 @@ ARTICLES = [
         </table>
         <p class="note">Portion guide: keep any cured meat under roughly 10% of daily
         calories — and for most dogs, a holiday-sized taste is already at that limit.</p>
+
+        <h2>"Nitrate-free" is a label, not a safety claim</h2>
+        <p>Uncured hams are marketed with words like "no nitrates added" or "naturally cured", and shoppers reasonably read that as the safer option. Read the ingredient list and you often find celery powder or beetroot powder — both of which are rich in naturally occurring nitrate, which bacteria convert to nitrite in exactly the same way.</p>
+        <p>So the cured-meat chemistry is largely unchanged: what differs is the regulatory threshold for how the product may be labelled, not whether nitrite ends up in the meat. And none of it changes the sodium number, which stays at 1,000 mg per 100 g or more.</p>
+        <p>For a dog, that means "nitrate-free" ham is not a green light. It is the same treat with the same salt load and the same fat load. The decision should be about quantity and frequency, not about the curing story on the front of the pack.</p>
 
         <h2>Dogs who should never have ham</h2>
         <ul>
@@ -6046,6 +6104,11 @@ ARTICLES = [
           href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a>).</li>
         </ul>
 
+        <h2>Why lactose hits adult dogs so hard</h2>
+        <p>"Lactose intolerant" gets used loosely, but for dogs it is close to the norm rather than the exception. Mammals are built to digest milk as puppies; after weaning, lactase activity falls, and in most dogs it drops sharply. They keep the ability to drink milk in the sense that nothing toxic happens — they lose the ability to break the sugar down cleanly.</p>
+        <p>The arithmetic explains the mess. A single scoop of ice cream is roughly 65 g and carries about 4 g of lactose. Undigested lactose reaches the colon, draws water in by osmosis, and gets fermented by bacteria — which is why the result is gas, cramping and loose stool rather than vomiting.</p>
+        <p>Timing matters when you are trying to work out what caused a bad night: lactose signs land <strong>8 to 12 hours</strong> after the scoop, not within the hour. If your dog is sick 30 minutes after eating, look for a toxic flavouring instead, not the dairy.</p>
+
         <h2>Flavors ranked: from okay-ish to emergency</h2>
         <table class="dose">
           <thead><tr><th>Flavor</th><th>Risk</th></tr></thead>
@@ -6060,6 +6123,21 @@ ARTICLES = [
             <tr><td>Vanilla with macadamia mix-in</td><td>Emergency — macadamia toxicity</td></tr>
           </tbody>
         </table>
+
+        <h2>The "sugar-free" scoop that is a genuine emergency</h2>
+        <p>This is the part that gets missed. Sugar-free ice cream, frozen yoghurt and "diet" popsicles are usually sweetened with <strong>xylitol</strong> or another sugar alcohol, and xylitol is one of the most dangerous things a dog can eat per gram.</p>
+        <p>The thresholds are small enough to be frightening. Hypoglycaemia (a crash in blood sugar) can start at about <strong>0.1 g of xylitol per kg</strong> of dog; liver failure is reported from around <strong>0.5 g/kg</strong>. A typical sugar-free ice cream carries 5–10 g of xylitol per 100 g.</p>
+        <table>
+          <thead><tr><th>Dog weight</th><th>Xylitol dose for a sugar crash</th><th>That is roughly</th></tr></thead>
+          <tbody>
+            <tr><td>3 kg</td><td>0.3 g</td><td>6 g of sugar-free ice cream — a teaspoon</td></tr>
+            <tr><td>5 kg</td><td>0.5 g</td><td>10 g — a teaspoon and a half</td></tr>
+            <tr><td>10 kg</td><td>1.0 g</td><td>20 g — one tablespoon</td></tr>
+            <tr><td>25 kg</td><td>2.5 g</td><td>50 g — half a scoop</td></tr>
+          </tbody>
+        </table>
+        <p>Read that table again: for a 5 kg dog, <strong>a teaspoon and a half</strong> is the threshold, not a bowl. Signs appear within 30 to 60 minutes — wobbliness, weakness, collapse, sometimes vomiting — and this is a treat-at-the-vet case, not a monitor-at-home case.</p>
+        <p>If you already know the dog ate a xylitol-sweetened product, call the vet before you finish reading this page, and take the packaging with you. Our <a href="/dog-nutrition/can-dogs-eat-xylitol/">xylitol page</a> has the full dose detail.</p>
 
         <h2>What about dog ice cream and frozen dog treats?</h2>
         <p>Pet-store "dog ice cream" and frozen yogurts made for dogs are lactose-reduced
