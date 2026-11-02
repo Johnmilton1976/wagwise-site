@@ -3657,6 +3657,12 @@ ARTICLES = [
         </table>
         <p>Nutrient-dense, but the sugar is why portion size matters.</p>
 
+        <h2>Why mango belongs to the poison ivy family</h2>
+        <p>Mango sits in the Anacardiaceae family, alongside cashew, pistachio and poison ivy. That is not trivia. The family shares a group of oily compounds called alkylresorcinols — chemical relatives of the urushiol that makes poison ivy itch.</p>
+        <p>In mango, those compounds concentrate in the <strong>skin and the sap</strong>, not in the flesh. For people this is the well-documented cause of "mango dermatitis": an itchy, sometimes blistering rash around the mouth after eating the fruit skin-on, or after peeling one and then touching your face.</p>
+        <p>Dogs get the canine version far less often, but the pattern is the same one that shows up with other contact allergens — red, itchy skin at the lips, chin and muzzle, sometimes hives, appearing within hours in a dog that chewed through a whole mango. If your dog already has a history of skin allergies, feed peeled flesh only and watch the first exposure.</p>
+        <p>So peeling is not only about choking risk and pesticide residue. <strong>It removes the one part of the fruit that can genuinely irritate skin.</strong></p>
+
         <h2>How much mango is safe?</h2>
         <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
         <table>
@@ -3670,6 +3676,20 @@ ARTICLES = [
         <h2>The pit and the skin</h2>
         <div class="callout warn">The pit is a serious choking and blockage hazard — never let a dog gnaw a mango half. The skin is tough, waxy, and hard to digest, and may carry pesticide residue, so peel it completely. Feed only peeled flesh, pit removed.</div>
 
+        <h2>The kernel: a question of size, not poison</h2>
+        <p>Mango pits are not toxic. They are, however, among the largest fruit stones a dog can realistically swallow, and that size is the whole problem.</p>
+        <table>
+          <thead><tr><th>Dog weight</th><th>Kernel vs. intestine</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg</td><td>Wider than the intestinal lumen</td><td>Emergency vet, same day</td></tr>
+            <tr><td>5–10 kg</td><td>Very likely to lodge</td><td>Vet visit, X-ray advised</td></tr>
+            <tr><td>10–25 kg</td><td>May pass, may not</td><td>Call vet; watch for vomiting 24–48 h</td></tr>
+            <tr><td>Over 25 kg</td><td>Usually passes</td><td>Watch for vomiting or straining; call if either starts</td></tr>
+          </tbody>
+        </table>
+        <p>A typical mango kernel runs 8–12 cm long and 5–7 cm wide, wrapped in a fibrous husk that stomach acid does not dissolve. The classic timeline is a dog that seems completely fine, then starts vomiting 12 to 48 hours later, stops eating, and develops a tense, painful belly. That is a surgical obstruction, not a stomach upset to sleep off.</p>
+        <p>Do not try to make the dog vomit at home. A stone that comes back up can lodge in the throat instead, and that is harder to fix than the original problem. An X-ray costs a fraction of a delayed diagnosis.</p>
+
         <h2>How to serve it</h2>
         <ul>
           <li>Peel, cut the flesh off the pit, and cube small.</li>
@@ -3681,6 +3701,16 @@ ARTICLES = [
         <p>Yes, in tiny amounts once weaned and on solid food. The sugar and fiber mean keep it to a cube or two and watch for loose stools.</p>
 
         <h2>The danger: sugar and canned mango</h2>
+        <p>Dried mango is where most accidental overfeeding happens, because the sugar is concentrated roughly fivefold:</p>
+        <table>
+          <thead><tr><th>Per 100 g</th><th>Fresh mango</th><th>Dried mango (sweetened)</th></tr></thead>
+          <tbody>
+            <tr><td>Calories</td><td>~60 kcal</td><td>~320 kcal</td></tr>
+            <tr><td>Sugar</td><td>~14 g</td><td>~66 g</td></tr>
+            <tr><td>Water</td><td>~84%</td><td>~16%</td></tr>
+          </tbody>
+        </table>
+        <p>In treat terms: a single 30 g strip of dried mango carries about 20 g of sugar — the same as 140 g of fresh flesh, which is more than a 5 kg dog should get in a week. That is why dried fruit, not fresh, is behind most "my dog ate too much mango" calls.</p>
         <div class="callout warn">Avoid canned mango in syrup and dried mango with added sugar — both pile on sugar a dog does not need. Diabetic dogs should skip mango or get a vet's OK first. For the full list of risky foods, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</div>
 
         <h2>What if my dog ate the pit or too much?</h2>
@@ -4546,6 +4576,19 @@ ARTICLES = [
         <h2>The cob is the real danger</h2>
         <div class="callout warn">Never let a dog chew or eat a corn cob. A cob does not break down in a dog's digestive tract and can cause a life-threatening intestinal blockage that often requires surgery. Dogs love to gulp them whole, so keep cobs in the trash, not the bowl.</div>
 
+        <h2>Why a cob blocks a dog</h2>
+        <p>Numbers make the risk concrete. A whole sweetcorn cob is 15–20 cm long and 4–5 cm across — wider than the small intestine of most dogs. Unlike a bone, it does not soften, splinter or dissolve. It arrives at the narrowest point of the bowel intact, and stops there.</p>
+        <table>
+          <thead><tr><th>Dog weight</th><th>Cob vs. intestine</th><th>Typical outcome</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg</td><td>Far too large to pass</td><td>Obstruction almost certain; surgery</td></tr>
+            <tr><td>5–10 kg</td><td>Too large at the pylorus</td><td>Likely obstruction; surgery</td></tr>
+            <tr><td>10–25 kg</td><td>May reach the small intestine intact</td><td>Obstruction possible; X-ray decides</td></tr>
+            <tr><td>Over 25 kg</td><td>May pass in pieces</td><td>Still a risk; monitor 48 h</td></tr>
+          </tbody>
+        </table>
+        <p>The veterinary pattern is consistent enough to be a cliché: a dog gulps a cob at a summer barbecue, seems normal for a day, then starts vomiting and refuses food. By the time surgery happens the bill is usually four figures — and the outcome is good only if the dog arrives before the bowel wall is damaged.</p>
+
         <h2>Corn nutrition at a glance</h2>
         <p>For scale, here is roughly what is in 100 g of cooked corn kernels (about half a cup):</p>
         <table>
@@ -4576,6 +4619,19 @@ ARTICLES = [
 
         <h2>Can puppies eat corn?</h2>
         <p>Plain cooked kernels (off the cob) are not toxic to puppies, but keep portions tiny and always remove every bit of cob.</p>
+
+        <h2>Corn in dog food: filler or actual food?</h2>
+        <p>Corn gets called "filler" online, and nutritionally that label is unfair. Whole ground corn is roughly 70% carbohydrate with about 8% protein and 3–4% fat, and it supplies linoleic acid and some B vitamins. Large pet-food makers use it because it is digestible, consistent and cheap — not because it is inert.</p>
+        <p>Where corn does cause confusion is between two different problems:</p>
+        <ul>
+          <li><strong>Grain allergy</strong> — genuinely uncommon in dogs. When true food allergy occurs, the usual culprits are animal proteins such as beef, chicken and dairy, not corn.</li>
+          <li><strong>Individual intolerance</strong> — real, but specific to one dog. It shows up as loose stool or itching and is diagnosed by an elimination diet, not by guessing from a label.</li>
+        </ul>
+        <p>If your dog is already on a corn-containing kibble and doing well, there is no reason to switch. If you are running an elimination trial, follow your vet's plan rather than a blog post.</p>
+
+        <h2>Canned, frozen, or on the cob?</h2>
+        <p>Canned sweetcorn is the most common way corn reaches a dog's bowl, and it is also the saltiest route: a 100 g serving can carry 200–300 mg of sodium, against a daily requirement of roughly 200 mg for a 10 kg dog. Rinse it well, or use plain frozen kernels cooked without salt.</p>
+        <p>Corn on the cob handed to a dog is a different category entirely — see the section above. Cut the kernels off first, always, even for a large dog.</p>
 
         <h2>Are there risks?</h2>
         <p>The cob is the headline risk; beyond that, buttered or salted corn adds fat and sodium a dog does not need, and raw corn is harder to digest. Corn is also a common allergen, though true corn allergy in dogs is uncommon. For another plain-carb treat, see our <a href="/dog-nutrition/can-dogs-eat-rice/">rice guide</a>; for the full list of dangerous items, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods guide</a>.</p>
@@ -5072,6 +5128,9 @@ ARTICLES = [
         upsets the stomach and adds empty calories, plus preservatives. Frozen-thawed fresh
         peach (pitted) is the only acceptable alternative when fresh is out of season.</div>
 
+        <p>One more trap: "light syrup" and "in juice" sound safer than heavy syrup, but they are not. A 100 g serving of peaches in juice still carries around 12 g of sugar, and most of it sits in the liquid. If you must use canned, drain and rinse — or better, buy frozen peach slices with nothing added and thaw them.</p>
+        <p>A medium peach weighs about 150 g and carries roughly 13 g of sugar. For a 5 kg dog, whose daily calorie need is around 200 kcal, the 10% treat allowance works out to about 20 kcal — roughly 75 g of peach flesh, half a peach. That is the whole budget for the day.</p>
+
         <h2>How much peach is safe?</h2>
         <p>Keep treats under 10% of daily calories. A practical portion guide:</p>
         <table class="dose">
@@ -5085,6 +5144,21 @@ ARTICLES = [
         </table>
         <p class="note">Always remove the pit first, and cut the flesh into bite-size
         pieces so nothing gets gulped down whole.</p>
+
+        <h2>The pit's two risks do not happen at the same time</h2>
+        <p>Most pages list "cyanide and blockage" as though they were one problem. They are not, and understanding why changes what you do in the first hour.</p>
+        <p><strong>Cyanide needs the kernel to be damaged.</strong> Amygdalin sits inside the pit's cells; the enzyme that liberates cyanide sits in a separate compartment. Only when the kernel is crushed, chewed or blended do the two meet. A dog that swallows a peach pit whole therefore gets very little cyanide exposure — chemically, the stone passes through mostly intact.</p>
+        <p><strong>Obstruction does not care about chemistry.</strong> A whole peach pit is 3–4 cm of hard, ridged stone. It does not soften, and it is exactly the size that lodges at the pylorus or in the small intestine, especially in dogs under about 10 kg.</p>
+        <table>
+          <thead><tr><th>What happened</th><th>Main risk</th><th>Time window</th><th>Action</th></tr></thead>
+          <tbody>
+            <tr><td>Swallowed whole, small dog</td><td>Obstruction</td><td>12–48 h</td><td>Vet visit; X-ray or ultrasound</td></tr>
+            <tr><td>Chewed or crushed pit</td><td>Cyanide exposure</td><td>15–60 min</td><td>Emergency vet, immediately</td></tr>
+            <tr><td>Flesh only, no pit</td><td>Nothing beyond sugar</td><td>—</td><td>Monitor stool</td></tr>
+          </tbody>
+        </table>
+        <p>Cyanide poisoning in dogs is fast and visible: dilated pupils, bright red gums, rapid breathing, wobbliness, collapse. It is not a "watch overnight" situation. If the pit was chewed, go now.</p>
+        <p>For the whole-stone case, the common mistake is waiting for symptoms. Vomiting that starts a day later usually means the bowel is already inflamed around a blockage, and surgery gets harder from there.</p>
 
         <h2>What to do if your dog ate a peach pit</h2>
         <ol>
@@ -5510,6 +5584,25 @@ ARTICLES = [
         <strong>a single cup of coffee or half an energy drink</strong>. That is why spilled
         mugs and trash-bin grounds are the most common real-world exposures.</p>
 
+        <h2>Why dogs are not small humans</h2>
+        <p>The usual line is that dogs "metabolize caffeine more slowly". True, but too vague to be useful. The numbers matter, and so does the arithmetic behind them.</p>
+        <p>Caffeine is cleared by liver enzymes in the cytochrome P450 family, mainly CYP1A2. In dogs the reported elimination half-life is roughly <strong>4.5 to 6 hours</strong>, versus 3 to 7 hours in people — so the half-life alone does not explain the danger.</p>
+        <p>What explains it is <strong>dose per kilogram combined with body size</strong>. A 250 ml cup of coffee carries about 100 mg of caffeine. For a 70 kg human that is 1.4 mg/kg, a routine dose. For a 5 kg dog the same cup is 20 mg/kg — precisely the threshold where clinical signs begin. Same cup, same molecule, fourteen times the relative dose.</p>
+        <p>A 3 kg cat is worse again: 33 mg/kg from one cup, already in tremor territory. This is why "just a sip" is not a small thing for a small animal.</p>
+
+        <h3>Where the lethal line sits</h3>
+        <p>The published LD50 for caffeine in dogs is around <strong>140–150 mg/kg</strong>. Converted into everyday objects:</p>
+        <table class="dose">
+          <thead><tr><th>Dog weight</th><th>Mild signs (20 mg/kg)</th><th>Severe (40–60 mg/kg)</th><th>LD50 range (140 mg/kg)</th></tr></thead>
+          <tbody>
+            <tr><td>3 kg</td><td>~60 mg — half a cup of coffee</td><td>~150 mg — 1.5 cups</td><td>~420 mg — 4 cups</td></tr>
+            <tr><td>5 kg</td><td>~100 mg — 1 cup</td><td>~250 mg — 2.5 cups</td><td>~700 mg — 7 cups</td></tr>
+            <tr><td>10 kg</td><td>~200 mg — 2 cups</td><td>~500 mg — 5 cups</td><td>~1,400 mg — 14 cups</td></tr>
+            <tr><td>25 kg</td><td>~500 mg — 5 cups</td><td>~1,250 mg — 12 cups</td><td>~3,500 mg — 35 cups</td></tr>
+          </tbody>
+        </table>
+        <p>Two things this table makes obvious. First, mild signs are reachable with one cup for a small dog — not a theoretical risk. Second, the lethal dose is far away for a large dog but easily closed by <strong>pills</strong>, where one tablet is 100–200 mg. A dropped 200 mg caffeine pill is 40 mg/kg for a 5 kg dog: squarely severe, from a single tablet on the floor.</p>
+
         <h2>Hidden caffeine sources to watch for</h2>
         <ul>
           <li>Coffee, espresso, tea, and energy drinks — including half-finished mugs</li>
@@ -5520,6 +5613,10 @@ ARTICLES = [
             stack both toxicities (see our
             <a href="/dog-nutrition/can-dogs-eat-chocolate/">chocolate</a> page)</li>
         </ul>
+
+        <h3>"Decaf" is not zero</h3>
+        <p>Decaffeinated coffee still contains 2–15 mg of caffeine per cup, depending on the process used. For a 3 kg dog that is up to 5 mg/kg — below the threshold for clinical signs, but not nothing, and repeated laps from a mug add up. Decaf is not a safe dog drink; it is a lower-risk one that still should not be offered.</p>
+        <p>The same applies to tea. Herbal infusions that contain no Camellia sinensis are a different question, but "herbal" on a label does not guarantee safety either — see our guide to <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a> for the plant list that matters.</p>
 
         <h2>What to do if your dog had caffeine</h2>
         <ol>
