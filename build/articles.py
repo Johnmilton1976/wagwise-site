@@ -407,7 +407,7 @@ ARTICLES = [
             ("What does yellow vomit mean in dogs?", "Usually bile from an empty stomach, common in dogs fed once a day. Splitting meals often fixes it. Recurrent bile vomiting should still be checked."),
             ("What does brown grainy vomit mean?", "It looks like coffee grounds and indicates partially digested blood from stomach bleeding. That is an emergency."),
             ("What is the difference between vomiting and regurgitation?", "Vomiting is active, with retching and drooling. Regurgitation is passive — undigested food appears soon after eating with no effort, often from eating too fast."),
-            ("Is vomiting a sign of parovirus?", "It can be, especially with bloody diarrhoea and lethargy in a puppy or an unvaccinated dog. That combination is an emergency."),
+            ("Is vomiting a sign of parovirus?", "It can be, especially with bloody diarrhea and lethargy in a puppy or an unvaccinated dog. That combination is an emergency."),
             ("Why does my dog vomit every morning?", "Bilious vomiting syndrome — an empty stomach producing bile — is the most common cause. Splitting meals and a late-night snack usually help. Persistent cases need a work-up."),
             ("Can I give my dog human anti-nausea medicine?", "No, not without veterinary instruction. Several human medications are toxic to dogs, and anti-nausea drugs are contraindicated in obstruction, which you cannot rule out at home."),
         ],
@@ -597,7 +597,7 @@ ARTICLES = [
           <li>Vomiting plus a distended or painful abdomen.</li>
           <li>Collapse, weakness, or inability to stand.</li>
           <li>Pale or white gums.</li>
-          <li>A puppy that has skipped two meals, or any dog with bloody diarrhoea.</li>
+          <li>A puppy that has skipped two meals, or any dog with bloody diarrhea.</li>
           <li>Known access to a toxin — chocolate, grapes, raisins, xylitol, rodenticide, human medication.</li>
         </ul>
         """,
@@ -994,7 +994,7 @@ ARTICLES = [
         </table>
 
         <h2>The eight symptoms that mean poisoning</h2>
-        <p>Poisoning does not announce itself with one clean sign. The pattern to watch for is a dog that was normal an hour ago and is now some combination of: vomiting, drooling more than usual, tremors or twitching, wobbling or unable to stand, panting at rest, a racing or irregular heartbeat, gums that are pale or brick-red, and collapse. Seizures and bloody diarrhoea are late signs, not early ones.</p>
+        <p>Poisoning does not announce itself with one clean sign. The pattern to watch for is a dog that was normal an hour ago and is now some combination of: vomiting, drooling more than usual, tremors or twitching, wobbling or unable to stand, panting at rest, a racing or irregular heartbeat, gums that are pale or brick-red, and collapse. Seizures and bloody diarrhea are late signs, not early ones.</p>
         <p>Two behavioural signals are easy to dismiss and worth taking seriously: a dog that has suddenly gone very quiet and hidden, and a dog that is pressing its head against a wall or the back of the sofa. Both suggest something neurological rather than a stomach upset.</p>
 
         <h2>The first ten minutes</h2>
@@ -2887,7 +2887,7 @@ ARTICLES = [
         <p>That does not make avocado a good dog food. The reasons to keep it away are the stone, the fat and the calorie density, not the persin.</p>
 
         <h2>What persin actually does</h2>
-        <p>Persin is concentrated in the leaves, bark, skin and stone, with much lower levels in the flesh. In susceptible species it causes myocardial damage — fluid around the heart, arrhythmia, death. In dogs the reported effects are gastrointestinal: vomiting, diarrhoea, and occasionally abdominal discomfort.</p>
+        <p>Persin is concentrated in the leaves, bark, skin and stone, with much lower levels in the flesh. In susceptible species it causes myocardial damage — fluid around the heart, arrhythmia, death. In dogs the reported effects are gastrointestinal: vomiting, diarrhea, and occasionally abdominal discomfort.</p>
         <p>Dose matters and the species matters more. A dog that eats a slice of avocado is very unlikely to show anything. A dog that eats the skin and stone of a whole avocado may vomit. Neither scenario resembles what happens to a budgerigar, which can die from a small amount.</p>
         <div class="callout">The species difference is the part most articles skip. If you keep birds as well as dogs, avocado in the house is a genuine hazard — just not primarily to the dog.</div>
 
@@ -3409,6 +3409,13 @@ ARTICLES = [
         </table>
         <p>Low calorie and high in vitamins — a genuinely healthy bite when the portion is small.</p>
 
+        <h2>Gas and smell are two different problems</h2>
+        <p>Most pages blame broccoli gas on isothiocyanates. That is the wrong culprit, and getting it right tells you what actually helps.</p>
+        <p><strong>The volume of gas comes from fibre, not from isothiocyanates.</strong> Broccoli carries fermentable fibre that dogs cannot break down in the small intestine. It travels to the colon, where bacteria ferment it and release gas — the same process that happens with any high-fibre food. Broccoli is not even a heavy hitter here: its raffinose content is roughly ten times lower than that of cooked beans.</p>
+        <p><strong>The smell comes from sulphur.</strong> Cruciferous vegetables contain glucosinolates, which break down into volatile sulphur compounds when the plant's cells are damaged — by chopping, chewing, or cooking. That is why broccoli produces a small amount of unusually pungent gas rather than a large amount of ordinary gas. Owners notice the smell and assume the volume, and the two get blamed on the same molecule.</p>
+        <p>What actually reduces both: cook it, and pour the water away. Glucosinolate breakdown products are volatile and partly water-soluble, so blanching and discarding the liquid removes some of the sulphur load. Serving it raw and chopped releases more of the same compounds in the bowl.</p>
+        <p>On the thyroid question, the honest answer is that the risk is real in principle but remote in practice. Isothiocyanates can interfere with iodine uptake, but the effect requires a large, sustained intake against a background of iodine deficiency. A few florets a week in an otherwise balanced diet does not approach that. If your dog is on a homemade diet without added iodine, or has diagnosed thyroid disease, treat broccoli as a once-in-a-while food and mention it to your vet.</p>
+
         <h2>How much broccoli is safe?</h2>
         <p>Keep broccoli to about 10% of daily calories or less. A practical portion by body weight:</p>
         <table>
@@ -3851,6 +3858,24 @@ ARTICLES = [
         <h2>The oxalate caveat</h2>
         <div class="callout">Spinach is high in oxalates. For a healthy dog, small occasional servings are fine, but dogs with kidney disease or a history of calcium oxalate stones should avoid it or get a vet's OK first. Keep portions small.</div>
 
+        <h2>The oxalate numbers, and why cooking is not automatically safer</h2>
+        <p>"High in oxalates" needs a figure to mean anything. Raw spinach carries roughly <strong>750 mg of oxalate per 100 g</strong>, about half of it in the soluble form that is absorbed fastest.</p>
+        <p>Here is the counter-intuitive part: <strong>heat does not destroy oxalate</strong>. Boiling spinach does not make it safer in the way boiling destroys, say, lectins in beans. What cooking actually does is shrink the leaves about fourfold — so a cup of cooked spinach started as roughly 600 g of raw leaves and carries the oxalate of all 600 g, around 4,500 mg.</p>
+        <p>The one real reduction step is discarding the water. Soluble oxalate leaches into the cooking liquid, so blanching and <em>pouring the water away</em> removes roughly 30–50% of it. Steaming in the same pot, or stirring the cooking water into the bowl, puts it straight back.</p>
+        <p>The simplest fix is substitution. Oxalate varies enormously between greens that look interchangeable:</p>
+        <table>
+          <thead><tr><th>Green (per 100 g raw)</th><th>Oxalate</th></tr></thead>
+          <tbody>
+            <tr><td>Spinach</td><td>~750 mg</td></tr>
+            <tr><td>Swiss chard</td><td>~800 mg</td></tr>
+            <tr><td>Beet greens</td><td>~600 mg</td></tr>
+            <tr><td>Kale</td><td>~20 mg</td></tr>
+            <tr><td>Broccoli</td><td>~10 mg</td></tr>
+          </tbody>
+        </table>
+        <p>Swapping spinach for kale cuts the oxalate load by more than 95% while keeping the vitamin K and fibre. For a dog with any history of calcium oxalate stones, that swap is the single most useful thing on this page. For a healthy dog, a tablespoon of cooked spinach is a rounding error — the number only starts to matter when spinach becomes a daily bowl.</p>
+        <p>One correction on the iron claim. Spinach does contain iron, but it is non-haem iron, absorbed far less efficiently than the iron in meat — and the oxalate in the same leaf binds a good part of it before it ever reaches the gut wall. Spinach is a fine source of vitamin K, vitamin A and folate. It is not the iron supplement it is sold as, for people or for dogs.</p>
+
         <h2>How much spinach is safe?</h2>
         <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
         <table>
@@ -3933,6 +3958,22 @@ ARTICLES = [
 
         <h2>The danger: green tomatoes and the plant</h2>
         <div class="callout warn">Green (unripe) tomatoes and every green part of the plant — stems, leaves, and vines — contain solanine and are toxic to dogs. Keep dogs out of the garden and the compost of tomato plants, and never let them chew a leafy tomato stem.</div>
+
+        <h2>How much solanine is actually in a green tomato?</h2>
+        <p>Every article says green tomatoes are toxic. Almost none says how toxic, which leaves owners unable to tell a nibble from an emergency. The numbers are more reassuring than the warnings suggest — with one important exception.</p>
+        <table>
+          <thead><tr><th>Part of the plant</th><th>Solanine (approx.)</th><th>For a 10 kg dog, signs need roughly</th></tr></thead>
+          <tbody>
+            <tr><td>Ripe red tomato</td><td>under 5 mg/kg</td><td>Kilos — not a realistic risk</td></tr>
+            <tr><td>Unripe green tomato</td><td>90–320 mg/kg</td><td>0.3–3 kg of fruit</td></tr>
+            <tr><td>Leaves and vines (fresh)</td><td>300–1,000 mg/kg</td><td>100–300 g of leaf</td></tr>
+            <tr><td>Green potato (for scale)</td><td>200–500 mg/kg</td><td>200–500 g</td></tr>
+          </tbody>
+        </table>
+        <p>Solanine poisoning in dogs starts around <strong>10–30 mg per kg of body weight</strong>, so a 10 kg dog needs a few hundred milligrams. Read the table again: that is <em>kilos</em> of green tomatoes, not one. A dog that stole a single unripe tomato from the vine will almost certainly be fine.</p>
+        <p>The exception is the plant itself. Tomato leaves and vines are far more concentrated, and a dog that prunes a stem — or raids the compost heap of pulled-up plants — can reach a meaningful dose in a hundred grams. That is why the garden rule matters more than the fruit-bowl rule.</p>
+        <p>Signs to expect if a real dose went in: drooling, vomiting, diarrhea, weakness, confusion, and in severe cases a slow heart rate. Onset is usually within a few hours. Call a vet rather than waiting to see.</p>
+        <p>One shape detail that matters more than the solanine: <strong>cherry tomatoes</strong>. A ripe cherry tomato is round, smooth and exactly the size that seals a small dog's airway, and dogs tend to gulp them whole rather than chew. For a toy breed, halve them lengthways every single time. The toxicity question is the one people ask; the choking question is the one that actually happens.</p>
 
         <h2>How much tomato is safe?</h2>
         <p>Treats should stay under about 10% of daily calories. A sensible portion by body weight:</p>
@@ -4185,6 +4226,13 @@ ARTICLES = [
         <h2>The two dogs who should skip honey</h2>
         <div class="callout warn">Two groups should not eat honey. Puppies under about 12 months: their gut is not mature enough to handle the <i>Clostridium botulinum</i> spores honey can contain, which can cause infant botulism. And diabetic dogs: honey spikes blood sugar fast. For both, honey is off the menu.</div>
 
+        <h2>The botulism question, explained properly</h2>
+        <p>The puppy warning on this page is borrowed from human paediatrics, and it is worth being straight about that, because the borrowed rule is more conservative than the evidence for dogs strictly requires.</p>
+        <p>Honey can contain <em>Clostridium botulinum</em> spores — surveys typically find them in a small percentage of samples. The spores themselves are harmless. The danger is germination: in the right environment, anaerobic and low-acid, they wake up and produce toxin in the gut.</p>
+        <p>Human infants under 12 months are the classic risk group because their gut flora is still assembling and their stomach acid is relatively weak, so swallowed spores can colonise and produce toxin <em>in situ</em>. Adults, and adult dogs, have both barriers working: a stomach at pH 1–2 and a mature, competitive gut microbiome. In dogs, clinical botulism is rare and almost always traced to eating pre-formed toxin from carrion, not to spores in honey.</p>
+        <p>So why keep the warning? Because <strong>there is no equivalent study establishing a safe age for dogs</strong>, and the cost of being wrong is high. The 12-month line is the human number applied to a canine question with no canine data. That is a defensible precaution, not a proven threshold — and it is worth saying so rather than implying a study exists.</p>
+        <p>For adult dogs the realistic ceiling is sugar, not spores. Honey is about 82% sugar by weight, which is also why it never spoils: the sugar concentration is too high for bacteria to grow in the jar. Your dog's gut does not share that protection, which is why a tablespoon is a treat and the jar is not a bowl.</p>
+
         <h2>Honey nutrition at a glance</h2>
         <p>For scale, here is roughly what is in one tablespoon of honey (about 21 g):</p>
         <table>
@@ -4347,6 +4395,22 @@ ARTICLES = [
 
         <h2>The danger: raw salmon</h2>
         <div class="callout warn">Never feed a dog raw salmon (or raw trout). In parts of the Pacific Northwest, wild salmon can carry a parasite, <i>Nanophyetus salmincola</i>, that harbors a bacterium causing salmon poisoning disease — fatal to dogs if untreated, though it does not affect people. Cooking kills both the parasite and the bacterium. Raw fish elsewhere also risks ordinary parasites and bacteria, so cook it every time.</div>
+
+        <h2>Salmon poisoning: the seven-day window and the freeze that prevents it</h2>
+        <p>Salmon poisoning disease deserves more than the one sentence most pages give it, because it is one of the few food risks that is <strong>geographically specific</strong> — you either live in the risk zone or you do not.</p>
+        <p>The disease is caused by <em>Neorickettsia helminthoeca</em>, a bacterium carried inside a fluke that lives in a particular river snail. The snail releases the fluke, the fluke infects salmon and trout, and a dog that eats the raw fish gets both. The snail only exists along the Pacific coast of North America, roughly from northern California to Alaska. Feed raw salmon in Shanghai or Lisbon and this specific disease is not on the table.</p>
+        <p>Where it does exist, the numbers are grim: <strong>untreated mortality runs as high as 90%</strong>, with death typically 7 to 10 days after the meal. The tell is the delay — nothing happens for 5 to 7 days, then fever of 40–41 °C, vomiting, bloody diarrhea, swollen lymph nodes and rapid weight loss. A dog that ate raw salmon a week ago and is now febrile is a textbook case, and it is treatable with antibiotics if caught early.</p>
+        <p>Prevention has an exact answer, and it is colder and longer than most people assume:</p>
+        <table>
+          <thead><tr><th>Method</th><th>Temperature</th><th>Time</th></tr></thead>
+          <tbody>
+            <tr><td>Freezer, standard home setting</td><td>−20 °C (−4 °F)</td><td>7 days</td></tr>
+            <tr><td>Freezer, fast-freeze / blast</td><td>−35 °C (−31 °F)</td><td>15 hours</td></tr>
+            <tr><td>Domestic fridge freezer at −18 °C</td><td>−18 °C (0 °F)</td><td>Not reliably sufficient</td></tr>
+          </tbody>
+        </table>
+        <p>That last row is where people go wrong. A normal −18 °C freezer drawer is not the same as a −20 °C deep freeze, and "I froze it for two days" does not meet the standard. If you feed raw fish anywhere in the Pacific Northwest, the freezer has to be cold enough and the fish has to stay in it for a full week.</p>
+        <p>Outside that region, raw fish still carries ordinary parasites — <em>Anisakis</em> among them — plus bacteria. Which is why the simple rule holds everywhere: <strong>cook it.</strong> Ten minutes in a pan removes every one of these problems at once.</p>
 
         <h2>Salmon nutrition at a glance</h2>
         <p>For scale, here is roughly what is in 100 g of cooked salmon (about one small fillet piece):</p>
@@ -4956,6 +5020,19 @@ ARTICLES = [
         <p class="note">Because one dropped cookie or a stolen handful can cross the line,
         treat the safe amount as <strong>zero</strong> for dogs of every size.</p>
 
+        <h2>Why this one gets misdiagnosed</h2>
+        <p>Macadamia poisoning has an unusual profile: a low dose causes dramatic signs, and then the dog gets better on its own. That combination is exactly what makes it easy to mistake for something else.</p>
+        <p>Picture the presentation. A dog comes in unable to use its back legs properly, trembling, with a temperature of 39.5–40.5 °C. The differential list a vet runs through looks like this:</p>
+        <ul>
+          <li><strong>Disc disease (IVDD)</strong> — the most common guess. But a slipped disc is painful, usually develops over hours to days, and does not cause fever.</li>
+          <li><strong>Hypoglycaemia</strong> — possible in toy breeds and puppies, but the blood glucose is normal here.</li>
+          <li><strong>Tick paralysis</strong> — ascending weakness, and only in regions with the right tick.</li>
+          <li><strong>Macadamia toxicosis</strong> — sudden onset 3–12 hours after eating, hind limbs worst affected, <em>no spinal pain on palpation</em>, and fever.</li>
+        </ul>
+        <p>The distinguishing features are the ones an owner can supply: <strong>sudden onset, no pain, and a timeline that traces back to a specific snack</strong>. A dog with disc disease hurts when you press along the spine. A dog with macadamia poisoning does not — it just cannot coordinate its back end, and it is running a temperature.</p>
+        <p>That is why the single most useful sentence you can say at the clinic is what the dog ate and when. With that information the diagnosis is straightforward and the treatment is supportive: fluids, rest, and time. Without it, a dog can end up having spinal X-rays for a nut.</p>
+        <p>Prognosis is genuinely good — most dogs are normal again within 24 to 48 hours, and permanent damage is rare. The exception is the dog that ate chocolate-covered macadamias, where theobromine is added on top and the picture changes completely.</p>
+
         <h2>Hidden sources to watch for</h2>
         <ul>
           <li><strong>Cookies, biscotti, and white-chocolate macadamia treats</strong> — a
@@ -5372,6 +5449,23 @@ ARTICLES = [
             <tr><td>30 kg (66 lb)</td><td>~1,500 mg (2–3 gum pieces)</td><td><strong>0 — none</strong></td></tr>
           </tbody>
         </table>
+
+        <h2>Product by product: how much is actually in what</h2>
+        <p>"A few pieces of gum" is not a dose. The amount of xylitol per unit varies by more than a hundredfold between products, and that spread is why two dogs of the same weight can have completely different outcomes from what sounds like the same story.</p>
+        <table>
+          <thead><tr><th>Product</th><th>Xylitol per unit</th><th>A 5 kg dog's threshold (250 mg)</th></tr></thead>
+          <tbody>
+            <tr><td>Sugar-free chewing gum</td><td>0.2–1.0 g per piece</td><td>A quarter of one piece</td></tr>
+            <tr><td>Sugar-free mints</td><td>0.02–0.1 g per mint</td><td>3–10 mints</td></tr>
+            <tr><td>Xylitol-sweetened peanut butter</td><td>0.5–2 g per 2 tbsp</td><td>Half a teaspoon</td></tr>
+            <tr><td>Chewable vitamins and gummies</td><td>0.5–2 g per tablet</td><td>One tablet</td></tr>
+            <tr><td>Toothpaste with xylitol</td><td>0.1–0.3 g per brush</td><td>One brush's worth</td></tr>
+            <tr><td>Sugar-free baked goods</td><td>1–5 g per serving</td><td>A single bite</td></tr>
+          </tbody>
+        </table>
+        <p>Two entries deserve a second look. <strong>Chewable vitamins</strong> are the quiet one — they sit on a low shelf, they look like dog treats, and a "one a day for humans" product is a multi-gram dose for a small animal. And <strong>peanut butter</strong> is the trap that surprises people, because it is the one food owners routinely use to hide pills. Half a teaspoon of the wrong brand is the threshold for a 5 kg dog.</p>
+        <p>This is also why the vet asks for the package rather than the story. "He ate some gum" could mean 200 mg or 3,000 mg, and the treatment differs accordingly.</p>
+        <p>Not every "-ol" behaves like xylitol, and the distinction matters when you are reading a label in a hurry. <strong>Sorbitol and maltitol</strong> mostly cause loose stool; they do not trigger the insulin surge. <strong>Erythritol</strong> has no reported hypoglycaemia in dogs, though the data is thin. <strong>Xylitol</strong> is the outlier — the only common sweetener that causes both a blood-sugar crash and liver injury. If a label says xylitol, birch sugar, or E967, stop and call. If it says sorbitol or maltitol, you are watching for diarrhoea rather than an emergency.</p>
 
         <h2>Where xylitol hides — check these labels</h2>
         <div class="callout warn">Xylitol appears in more products every year. Scan
@@ -5811,6 +5905,23 @@ ARTICLES = [
           almonds add sodium and sometimes <a
           href="/dog-nutrition/can-dogs-eat-xylitol/">xylitol-sweetened</a> coatings.</li>
         </ul>
+
+        <h2>Sweet almonds vs bitter almonds: a fifty-fold difference</h2>
+        <p>Search "are almonds toxic to dogs" and you get two confident, opposite answers. Both are quoting real chemistry — they are just talking about different nuts.</p>
+        <p>Almonds contain amygdalin, the same cyanogenic compound found in cherry and apricot kernels. But the amount varies enormously by variety:</p>
+        <table>
+          <thead><tr><th>Type</th><th>Amygdalin</th><th>Realistic risk to a dog</th></tr></thead>
+          <tbody>
+            <tr><td>Sweet almond (what shops sell)</td><td>under 0.1%</td><td>Effectively none from cyanide</td></tr>
+            <tr><td>Bitter almond</td><td>3–5%</td><td>Genuine — a few nuts can matter</td></tr>
+            <tr><td>Apricot / peach kernel</td><td>3–5%</td><td>Genuine — sold as "healthy" snacks</td></tr>
+            <tr><td>Almond extract (concentrated)</td><td>high per ml</td><td>Small volume, real dose</td></tr>
+          </tbody>
+        </table>
+        <p>Cyanide kills by blocking oxygen use in cells, so the signs are dramatic and fast: bright red gums, dilated pupils, rapid shallow breathing, wobbliness, collapse, within 15 to 60 minutes. The oral lethal dose for a dog is roughly <strong>1–2 mg of cyanide per kg</strong>, which works out to something like 5 to 20 bitter almonds for a 10 kg dog — a realistic handful if someone keeps them for baking.</p>
+        <p>The practical split: <strong>the bag of supermarket almonds is not a cyanide risk</strong>, it is a choking, fat and salt risk. The things that genuinely are a cyanide risk are bitter almonds, apricot kernels, and concentrated extracts — and those are the ones people leave in low cupboards because they assume they are health food.</p>
+        <p>If a dog ate from a bag of ordinary sweet almonds, the clock you are watching is the gut, not the poison line. If it chewed bitter almonds or apricot kernels, treat it as an emergency and call immediately.</p>
+        <p>One more category worth naming, because it is sold as health food: <strong>apricot kernels</strong>. They are marketed online as "vitamin B17" or "amygdalin", with claims ranging from unfounded to dangerous, and they run 3–5% amygdalin — the same as bitter almonds. A small bag on a kitchen counter looks like a snack and behaves like a poison. If you keep them, keep them out of reach, and do not let the word "natural" imply "gentler".</p>
 
         <h2>Almonds by type: what your dog grabbed</h2>
         <table class="dose">
