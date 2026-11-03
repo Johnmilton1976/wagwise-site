@@ -220,7 +220,13 @@ NAV_ITEMS = [
     ("/tools/dog-age-calculator/", "Tools"),
     ("/about/", "About"),
 ]
-FOOTER_ITEMS = NAV_ITEMS + [("/about/editorial-standards/", "Editorial standards"), ("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
+# 哥飞 2026-11-03: internal links were misallocated — dog-training had 55 while
+# dog-nutrition (15 of the top-20 exposure pages) had 19. The two nutrition
+# reference pages now sit in the footer on every page, same tier as the nav.
+FOOTER_ITEMS = NAV_ITEMS + [
+    ("/dog-nutrition/foods-toxic-to-dogs/", "Toxic foods list"),
+    ("/dog-nutrition/food-safety-chart/", "Food safety chart"),
+    ("/about/editorial-standards/", "Editorial standards"), ("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
 
 CONSENT_DEFAULT = (
     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
@@ -417,6 +423,20 @@ TOOL_CALLOUT = (
     "line, and copy the result to share.</div>"
 )
 
+# 哥飞 2026-11-03: the food safety chart is the site's most citable asset but
+# had zero exposure and no body-level entry points. Every nutrition article
+# now carries a contextual box into the chart and the toxic-foods list, so
+# both reference pages earn real (non-boilerplate) internal links from the
+# pages where a reader actually asks "what else is safe?".
+CHART_CALLOUT = (
+    '<div class="tool-cta" style="margin:26px 0;padding:16px 18px;border:1px solid #cfe8db;'
+    'background:#F4FAF7;border-radius:10px;font-size:15px;line-height:1.65;color:#2c3a32">'
+    "<b>Quick reference:</b> this guide is one of 47 entries in the "
+    '<a href="/dog-nutrition/food-safety-chart/">dog food safety chart</a> \u2014 four '
+    "risk tiers with the dose that matters, not just safe or toxic. For the emergency "
+    'list, see <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>.</div>'
+)
+
 
 def render_article(a):
     slug = a["slug"]
@@ -501,6 +521,8 @@ def render_article(a):
 
     byline_html = BYLINE_HTML
     tool_cta = TOOL_CALLOUT if slug in TOOL_LINK_SLUGS else ""
+    chart_cta = (CHART_CALLOUT if a["pillar"] == "dog-nutrition"
+                 and slug != "foods-toxic-to-dogs" else "")
 
     crumb = (
         '<div class="crumbs"><a href="/">Home</a> › '
@@ -535,7 +557,7 @@ def render_article(a):
         a["title"],
         a["lede"],
         img,
-        body_html + tool_cta,
+        body_html + chart_cta + tool_cta,
         faq_html,
         rel_html,
         src_html,
