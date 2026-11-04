@@ -1556,6 +1556,7 @@ ARTICLES = [
 
         <h2>Senior cats</h2>
         <p>Arthritis is the most under-recognised cause of litter box failure in older cats. The changes that help: a box with a low entry (or a cut-down side), one box per floor so the cat does not have to manage stairs, a softer litter if the cat's paws are sore, and a ramp to favourite resting spots. If a previously reliable older cat starts missing the box, ask the vet about pain relief before assuming a behaviour problem.</p>
+        <p>If the box is clean, large enough and well placed and the cat still avoids it, the cause is usually medical or stress rather than training \u2014 work through <a href="/cat/cat-not-using-litter-box/">why cats stop using the litter box</a> in that order, vet first.</p>
         """,
         "faq": [
             ("How long does it take to litter train a cat?", "Most cats and kittens learn within days with a well-placed, clean box — they are naturally inclined to bury waste. A kitten raised with a mother is usually already trained by four weeks."),
@@ -1567,7 +1568,7 @@ ARTICLES = [
             ("How often should I change the litter completely?", "Every two to four weeks, with daily scooping of solids twice a day. Wash the box with unscented soap rather than strong disinfectants."),
             ("How do I stop my cat peeing outside the box after cleaning?", "Clean with a biological enzyme cleaner, not household spray. Residual scent marks the spot as a toilet and invites repeat use."),
         ],
-        "related": ["cat-spraying-how-to-stop", "cat-scratching-furniture", "dog-not-eating-but-drinking-water"],
+        "related": ["cat-not-using-litter-box", "cat-spraying-how-to-stop", "signs-of-stress-in-cats"],
         "sources": [
             ("Cornell Feline Health Center",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
@@ -1648,7 +1649,7 @@ ARTICLES = [
             ("How often should I trim my cat's claws?", "Every two to three weeks. Cut only the clear tip in front of the pink quick — cutting into the quick is painful."),
             ("Do cats prefer vertical or horizontal scratchers?", "It varies. A cat scratching the sofa arm or door frame wants vertical; a cat scratching the carpet wants horizontal. Many want both."),
         ],
-        "related": ["cat-litter-training", "cat-spraying-how-to-stop", "why-do-dogs-eat-poop"],
+        "related": ["cat-litter-training", "cat-spraying-how-to-stop", "signs-of-stress-in-cats"],
         "sources": [
             ("ASPCA — Common Cat Behavior Issues",
              "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
@@ -1727,6 +1728,7 @@ ARTICLES = [
         <h2>When to ask for medication</h2>
         <p>If marking continues after neutering, medical clearance, environmental change, pheromones and six to eight weeks of consistent work, a behaviourally trained vet can prescribe. Clomipramine and fluoxetine are the two most used, and both have reasonable evidence for reducing anxiety-driven marking in cats.</p>
         <p>Medication is not a failure and it is not a sedative — it lowers the anxiety baseline enough for the environmental work to take effect. It is usually combined with behaviour modification, not used instead of it.</p>
+        <p>If marking started after a household change \u2014 a move, a new baby, building work, or a new cat next door \u2014 treat it as a <a href="/cat/signs-of-stress-in-cats/">stress signal</a> rather than a habit. The spraying is usually just the most visible part of a wider picture, and cleaning without addressing the stress gets you a repeat performance in a few weeks.</p>
         """,
         "faq": [
             ("Is cat spraying the same as peeing outside the box?", "No. Spraying is a small amount on a vertical surface with the tail up, for marking. Accidents are a full-volume crouching urination on the floor, usually medical or litter-related."),
@@ -1738,7 +1740,7 @@ ARTICLES = [
             ("Can female cats spray?", "Yes, though less often than males. Entire females spray around oestrus; spaying removes that driver."),
             ("When should I see a vet about spraying?", "Immediately if the cat is straining to urinate with little output, especially a male — that is a possible obstruction and an emergency. Otherwise, see a vet early to rule out FLUTD before treating it as behaviour."),
         ],
-        "related": ["cat-litter-training", "cat-scratching-furniture", "cat-hairballs"],
+        "related": ["signs-of-stress-in-cats", "cat-not-using-litter-box", "cats-fighting-in-same-house"],
         "sources": [
             ("ASPCA — Common Cat Behavior Issues",
              "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
@@ -6547,7 +6549,7 @@ ARTICLES = [
             ("Can a hairball actually cause a blockage?", "Yes — a compacted fur mass can lodge in the intestine. Repeated retching with nothing produced, appetite loss, constipation, or a tender belly are same-day vet signs."),
             ("Do hairball-control diets and pastes work?", "They can help — added fiber and lubricant pastes move swallowed fur through the gut. Grooming is still the biggest lever, because it stops fur at the source."),
         ],
-        "related": ["why-does-my-cat-meow-at-night", "cat-scratching-furniture", "dog-vomiting-causes"],
+        "related": ["why-does-my-cat-meow-at-night", "cat-scratching-furniture", "signs-of-stress-in-cats"],
         "sources": [
             ("International Cat Care — Hairballs in Cats",
              "https://icatcare.org/advice/hairballs-in-cats/"),
@@ -6649,6 +6651,7 @@ ARTICLES = [
           <li><strong>Do not lock the cat in a room or a carrier at night.</strong> It increases distress and often produces louder calling plus scratching at the door.</li>
           <li><strong>Do not assume all meowing is misbehaviour.</strong> A new, distressed-sounding call in an older cat is information about its health, not a nuisance to be trained away.</li>
         </ul>
+        <p>Night calling is also one of the first things owners notice when a cat is under strain \u2014 new schedules, a new pet, a move, or a neighbour's cat at the window. If the vocalising arrived alongside hiding, appetite changes or accidents, read <a href="/cat/signs-of-stress-in-cats/">signs of stress in cats</a> before assuming it is purely a routine problem.</p>
         """,
         "faq": [
             ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check that needs are met, then stop responding, and keep a hard play session and a late meal before your bedtime."),
@@ -6660,7 +6663,7 @@ ARTICLES = [
             ("Will an automatic feeder really help?", "For food-driven early-morning calling, it is the single most effective change, because it removes you from the equation. Set it a few minutes earlier than the current waking time, then shift it later by ten minutes every few days."),
             ("Is it cruel to ignore a cat crying at night?", "Not if its needs are met and it is healthy. Ignoring a learned request is different from ignoring distress — which is why a sudden change in an older cat should go to the vet rather than be ignored."),
         ],
-        "related": ["cat-hairballs", "cat-litter-training", "cat-spraying-how-to-stop", "cat-scratching-furniture"],
+        "related": ["signs-of-stress-in-cats", "cat-hairballs", "how-to-introduce-cats"],
         "sources": [
             ("Cats Protection — Cats at Night",
              "https://www.cats.org.uk/help-and-advice/home-and-environment/cats-at-night"),
