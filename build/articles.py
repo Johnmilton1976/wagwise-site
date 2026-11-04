@@ -6517,48 +6517,83 @@ ARTICLES = [
         "pillar": "cat",
         "title": "Cat Hairballs — What's Normal and When to Worry",
         "url": "/cat/cat-hairballs/",
-        "description": "Fur coming back up is part of how cats work. How often a hairball is normal, what makes them worse, and the signs that turn a hairball into a vet visit.",
+        "description": "How often cat hairballs are normal, how to tell a hairball from an asthma cough, what actually shifts them, and the warning signs that mean a vet today.",
         "lede": "A hairball now and then is normal grooming housekeeping. The pattern is what matters — how often, how easily, and whether your cat is otherwise fine.",
         "eyebrow": "CAT CARE",
         "body": """
-        <h2>Why hairballs happen</h2>
-        <p>Cats groom themselves with barbed tongues that pull loose fur out of the coat — and the fur gets swallowed. Most passes through the gut without trouble; some collects into a compact wet tube that comes back up. Long-haired cats and heavy shedders produce more, simply because they swallow more fur.</p>
+        <h2>What a hairball actually is</h2>
+        <p>A hairball is not a ball. It forms in the stomach and comes up as a compact, cigar-shaped tube of fur matted together with digestive fluid and sometimes a little food — long rather than round because it has just been squeezed through the oesophagus on the way out. The technical name, trichobezoar, simply means a mass of hair in the stomach.</p>
+        <p>Two things follow from that anatomy. First, the fur gets in by grooming: a cat's tongue is covered in backward-facing hooks called papillae that comb loose undercoat out of the coat and into the mouth. Most of what is swallowed travels the whole gut and leaves in the stool — you are seeing only the fraction that does not. Second, bringing a hairball up is a <em>gut</em> event: the stomach contracts and pushes it up. That is why a cat who heaves every day and produces nothing is not dealing with a stubborn hairball. It is probably not dealing with a hairball at all.</p>
+
+        <h2>Hairball or cough? The distinction that decides everything</h2>
+        <p>This is the most useful thing on this page, because from across the room the two look nearly identical — and confusing them is one of the main reasons feline asthma goes undiagnosed for months. International Cat Care says it plainly in its asthma guidance: coughing in cats "can sometimes look like your cat is trying to be sick, and may be mistaken for 'hairballs' as your cat may retch or gag after coughing with their neck stretched out and body crouched low to the ground."</p>
+        <table>
+          <tr><th style="text-align:left">What you are looking at</th><th style="text-align:left">Hairball</th><th style="text-align:left">Cough (possible asthma)</th></tr>
+          <tr><td>Sound</td><td>Wet retching and gagging that builds to a heave</td><td>Dry, harsh, repetitive — a run of short hacks</td></tr>
+          <tr><td>Body</td><td>Crouched, head lowered toward the floor</td><td>Crouched low, neck stretched forward, shoulders braced</td></tr>
+          <tr><td>What comes out</td><td>A tube of fur, sometimes with fluid or food</td><td>Nothing, or a little foam</td></tr>
+          <tr><td>Afterwards</td><td>Cat shakes off, eats, carries on</td><td>Cat swallows, may wheeze or breathe faster for a while</td></tr>
+          <tr><td>Pattern</td><td>Occasional, clustered in shedding season</td><td>Bouts several times a day or week, often at rest</td></tr>
+        </table>
+        <p>If you cannot tell, film it. Vets ask for a phone video for exactly this reason — the sound and the posture on playback settle in ten seconds what a description cannot. Count resting breaths while you are at it: a calm cat takes roughly 15 to 30 a minute, and a resting rate that stays well above that across a few checks is worth mentioning.</p>
+        <p>Why push on this? Because asthma is not rare. International Cat Care puts typical onset in adult cats at around six to nine years old, notes that Siamese and related breeds are over-represented, and lists household irritants — perfumes, sprays, smoke, dusty cat litter — among the things that set off inflamed airways. If the episodes are dry and produce nothing, the next step is a vet and a video, not a hairball paste. Swapping out a very dusty litter is worth doing on its own account; the setup guidance is in our <a href="/cat/cat-not-using-litter-box/">litter box guide</a>.</p>
 
         <h2>How often is normal</h2>
-        <ul>
-          <li>Up to about one hairball every week or two is common, especially in long-haired breeds during a shed.</li>
-          <li>Several a week, or a sudden increase, is not normal — it usually means the gut is moving fur through too slowly.</li>
-          <li>Effortless vomiting of a formed tube right after eating grass or grooming is typical; straining without producing anything is not.</li>
-        </ul>
-        <div class="callout warn">Retching with no hairball coming up, refusing food, constipation or no stool, a swollen belly, or low energy are blockage warning signs. A trichobezoar (fur mass) can lodge in the intestine and needs a vet the same day.</div>
+        <table>
+          <tr><th style="text-align:left">Pattern</th><th style="text-align:left">What it usually means</th><th style="text-align:left">What to do</th></tr>
+          <tr><td>One every week or two, long-haired cat, shedding season</td><td>Normal grooming load</td><td>Brush more often; nothing else needed</td></tr>
+          <tr><td>None at all, short-haired cat</td><td>Also normal — short coats usually clear fur through the gut</td><td>Nothing</td></tr>
+          <tr><td>Two or more a week, or a sudden jump</td><td>More fur going in, or slower transit out</td><td>Fix the grooming routine first; vet check if it holds for a month</td></tr>
+          <tr><td>Heaving with nothing produced, repeatedly</td><td>Probably a cough, or a blockage</td><td>Vet — see the table above and the section below</td></tr>
+          <tr><td>Vomiting that is not hair, plus weight loss or appetite change</td><td>Not a hairball problem</td><td>Vet workup for gut disease</td></tr>
+        </table>
+        <p>A word on the low end. "He has always had hairballs" is the sentence that hides a lot: a count that has quietly doubled over a year, or a first-ever hairball in a twelve-year-old, deserves a check even though the raw number looks small. You are looking for a change in that cat's own baseline, not a national average.</p>
 
-        <h2>What actually reduces hairballs</h2>
-        <ul>
-          <li>Brush regularly — daily for long-haired cats, a few times a week otherwise. Fur you remove is fur they cannot swallow.</li>
-          <li>Wipe the coat with a damp cloth or grooming wipe after brushing to catch loose undercoat.</li>
-          <li>Add fiber and water: some cats do better on a higher-fiber hairball-control diet, and fountains or wet food keep gut contents moving.</li>
-          <li>Malt-based hairball pastes or gels a few times a week can help fur slide through the gut.</li>
-          <li>More play, less bored over-grooming — some cats lick themselves for something to do.</li>
-        </ul>
+        <h2>Why the count goes up</h2>
+        <p><strong>Coat type.</strong> Double coats and long coats — Maine Coon, Persian, Ragdoll, British Longhair, and most indoor crossbreeds with a thick undercoat — hold far more loose fur than a short single coat, and the undercoat, not the visible topcoat, is what ends up swallowed.</p>
+        <p><strong>Season.</strong> There are two spikes a year, spring and autumn, when daylight length shifts the coat. Spring is usually the bigger one. A cat that drops two hairballs a week for three weeks in April and none in July is following the shed, not developing a disease.</p>
+        <p><strong>Indoor air and water.</strong> Heated rooms in winter are dry, and dry conditions mean more static, more loose fur and a cat drinking less. Fur that moves through a well-hydrated gut moves faster.</p>
+        <p><strong>Grooming behaviour.</strong> A cat who grooms more swallows more. Itch from fleas, a skin allergy, or plain stress all raise grooming time — so frequent hairballs can be the visible tip of an over-grooming problem, which is a different investigation.</p>
 
-        <h2>Watch the other end of the pattern</h2>
-        <p>A senior cat that grooms less may develop matted fur — that is worth a check too, since stiff joints make stretching to groom painful. And sudden over-grooming that leads to bald patches is usually stress or skin trouble, not a hairball problem. Hairballs are a plumbing symptom; the coat and the gut tell the story together.</p>
+        <h2>What actually reduces them</h2>
+        <ol>
+          <li><strong>Brush the undercoat, not the topcoat.</strong> An undercoat rake or a fine-toothed grooming comb reaches the loose layer a soft bristle brush glides straight over. Two or three short sessions a week beat one long one that the cat starts avoiding; daily during the spring shed for a double-coated cat. Fur you remove is fur that never gets swallowed, which makes this the only intervention that works at the source.</li>
+          <li><strong>Get water in.</strong> A fountain, a wider bowl, or shifting part of the diet to wet food. This matters more than fibre, and it is the step most hairball articles skip.</li>
+          <li><strong>Fibre — modest, not magic.</strong> Hairball-control diets raise insoluble fibre, and some cats do better on them. Adding random fibre supplements on top of a complete diet mainly changes stool quality and calorie intake, so treat a diet change as a trial with a review date rather than a permanent switch made in one go.</li>
+          <li><strong>Malt paste as a course, not a habit.</strong> Lubricant pastes help a cat shift a backlog during a shed. The petroleum and mineral-oil based ones can interfere with absorption of the fat-soluble vitamins A, D, E and K when used daily for months, so use them for a flare and stop at the end of it — and check with your vet first if the cat is on any other medication.</li>
+          <li><strong>Play.</strong> Five to ten minutes of stalking-and-pouncing play in the evening costs nothing and cuts bored over-grooming, which is a real source of swallowed fur in indoor cats.</li>
+          <li><strong>Do not shave.</strong> A coat insulates against heat as well as cold, shaving does not switch off the follicle cycle, and clipped skin is exposed skin. A lion clip is a decision about matting or a medical problem, not a hairball fix.</li>
+        </ol>
+
+        <h2>What doesn't help</h2>
+        <p>Butter, cooking oil, and "a bit of Vaseline on the paw" are the three folk remedies that come up most often, and all three add a fat load the gut did not ask for. The usual result is greasy diarrhoea; in a cat with a sensitive pancreas it is a genuine risk rather than a messy inconvenience. Cat grass is harmless for most cats and does make some of them sick, which is not the same as reducing hairballs. Hairball treats are fine as treats — just read the label, because plenty of them are malt or petroleum jelly at a markup.</p>
+
+        <h2>The other end of the pattern: coat and gut together</h2>
+        <p>A senior cat who grooms less will develop mats, and that is worth a check in its own right, because stiff joints make the twist-and-stretch of grooming painful — an arthritic cat is not being lazy. The opposite pattern is just as informative: sudden over-grooming that leaves bald patches or broken hairs is usually fleas, a skin allergy, or stress, not a hairball problem, and no paste will touch it. If the coat change came with hiding, appetite shifts or accidents, read <a href="/cat/signs-of-stress-in-cats/">signs of stress in cats</a> before assuming it is fur. Hairballs are a plumbing symptom; the coat and the gut tell the story together.</p>
+
+        <h2>When it becomes a same-day vet visit</h2>
+        <div class="callout warn">A fur mass lodged in the intestine (a true trichobezoar) is uncommon, but it is the reason not to shrug off a cat who keeps trying and produces nothing. Treat these as same-day: repeated unproductive retching, refusing food for a day, no stool for two days or straining to pass one, a belly that feels hard or hurts when touched, and a cat who is flat and hiding.</div>
+        <p>The breathing emergency is a different line, and it is the one people wait too long on: open-mouth breathing while resting, a chest working hard and fast, or gums going grey-blue. Cats are obligate nose-breathers, so a cat sitting still with its mouth open is in trouble now, not later.</p>
         """,
         "faq": [
-            ("How often is it normal for a cat to bring up hairballs?", "Roughly once every one to two weeks is common, more in long-haired cats during shedding season. Several a week or a sudden increase warrants a vet check."),
-            ("Can a hairball actually cause a blockage?", "Yes — a compacted fur mass can lodge in the intestine. Repeated retching with nothing produced, appetite loss, constipation, or a tender belly are same-day vet signs."),
-            ("Do hairball-control diets and pastes work?", "They can help — added fiber and lubricant pastes move swallowed fur through the gut. Grooming is still the biggest lever, because it stops fur at the source."),
+            ("How often is it normal for a cat to bring up hairballs?", "Roughly once every one to two weeks is common, more in long-haired cats during shedding season, and many short-haired cats produce none at all in a year. Several a week, or a sudden increase in an older cat, warrants a vet check."),
+            ("How can I tell a hairball from a cough?", "Watch what comes out and what the body does. A hairball ends with a tube of fur after wet retching, and the cat then carries on normally. A cough is dry and repetitive with the neck stretched forward, and produces nothing or a little foam — that pattern points at the airways, not the stomach, and needs a vet."),
+            ("Can a hairball actually cause a blockage?", "Yes, though it is uncommon — a compacted fur mass can lodge in the intestine. Repeated retching with nothing produced, appetite loss, constipation, or a hard, painful belly are same-day vet signs."),
+            ("Do hairball-control diets and pastes work?", "They can help move a backlog — added fibre and lubricant pastes are the usual tools. Grooming is still the bigger lever, because it stops fur at the source, and daily long-term use of oil-based laxatives is not something to settle into without veterinary advice."),
+            ("Is it safe to give my cat butter or oil for hairballs?", "No, that is the wrong lever. Butter and cooking oil add fat that can trigger diarrhoea and, in a sensitive cat, pancreatitis, without moving fur along any better than a proper lubricant paste. Ask your vet before using any home remedy."),
         ],
         "related": ["why-does-my-cat-meow-at-night", "cat-scratching-furniture", "signs-of-stress-in-cats"],
         "sources": [
             ("International Cat Care — Hairballs in Cats",
              "https://icatcare.org/advice/hairballs-in-cats/"),
+            ("International Cat Care — Asthma and Chronic Bronchitis in Cats",
+             "https://icatcare.org/advice/asthma-in-cats/"),
             ("International Cat Care — Grooming Your Cat",
              "https://icatcare.org/articles/grooming-your-cat"),
             ("Cornell Feline Health Center",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center"),
         ],
-        "checked": "2026-10-17",
+        "checked": "2026-11-04",
         "disclaimer": "Cat health guidance only. Frequent vomiting, retching without a hairball, or a bloated, painful belly need a veterinarian the same day.",
     },
     {
@@ -6693,7 +6728,7 @@ ARTICLES = [
         "eyebrow": "CAT CARE",
         "body": """
         <h2>Rule out the vet before you change anything</h2>
-        <p>The most common reason a previously reliable cat starts missing the box is physical, not behavioural. Urinary tract disease makes urination painful, and cats connect that pain to the place where it happened — the box. A cat with a burning bladder does not think "the litter hurt me"; they think <em>that spot</em> hurts, so they go somewhere else and often still squat in a box-like context: laundry, a bath mat, a bed.</p>
+        <p>The most common reason a previously reliable cat starts missing the box is physical, not behavioural. Feline lower urinary tract disease (FLUTD — the umbrella term for bladder and urethra problems in cats) makes urination painful, and cats connect that pain to the place where it happened — the box. A cat with a burning bladder does not think "the litter hurt me"; they think <em>that spot</em> hurts, so they go somewhere else and often still squat in a box-like context: laundry, a bath mat, a bed.</p>
         <ul>
           <li><strong>Go same-day if:</strong> there is blood in the urine, frequent trips that produce only drops, crying in the tray, or — critical in male cats — straining with <em>nothing</em> coming out. A blocked urethra kills within a day or two; this is an emergency, not a behaviour issue.</li>
           <li><strong>Book a normal visit if:</strong> the change came with extra thirst, weight loss, accidents that are soft stool rather than urine, or the cat is over about ten years old — constipation, kidney disease, an overactive thyroid and arthritis all change toileting habits.</li>
