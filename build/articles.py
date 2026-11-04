@@ -113,7 +113,7 @@ PILLARS = {
         "description": "Practical cat care guides: litter box training, furniture scratching, spraying, hairballs, and night-time meowing — with the medical causes to rule out first.",
         "eyebrow": "CAT CARE",
         "intro": "Cats are not small dogs. Their behavior usually has a reason — stress, territory, or a medical issue — and the fix starts with understanding it.",
-        "links": ["cat-litter-training", "cat-not-using-litter-box", "cat-scratching-furniture", "cat-spraying-how-to-stop", "cat-hairballs", "why-does-my-cat-meow-at-night", "how-to-introduce-cats"],
+        "links": ["cat-litter-training", "cat-not-using-litter-box", "cat-scratching-furniture", "cat-spraying-how-to-stop", "cat-hairballs", "why-does-my-cat-meow-at-night", "how-to-introduce-cats", "cats-fighting-in-same-house", "signs-of-stress-in-cats"],
     },
     "best": {
         "slug": "best",
@@ -6803,6 +6803,154 @@ ARTICLES = [
         ],
         "checked": "2026-11-04",
         "disclaimer": "Cat behaviour guidance only. A cat that stops eating for more than a day or two, or fights with injuries, needs a veterinarian — and persistent multi-cat conflict deserves a qualified behaviourist referral.",
+    },
+
+    {
+        "slug": "cats-fighting-in-same-house",
+        "pillar": "cat",
+        "title": "Why Are My Cats Fighting in the Same House?",
+        "url": "/cat/cats-fighting-in-same-house/",
+        "description": "Housemate fights usually trace to redirected aggression, non-recognition after a vet visit, or resource tension. Tell fights from play, then reintroduce.",
+        "lede": "Two cats who lived together peacefully rarely \"hate\" each other overnight. Most household fights trace back to three specific causes — and one of them, non-recognition aggression, almost never gets mentioned in the usual advice.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Fighting or playing? The table that settles it</h2>
+        <p>Before anything else, be honest about what you are seeing. Play between cats is loud in movement and quiet in sound; fighting is the opposite. Watch for these five markers:</p>
+        <table>
+          <thead><tr><th></th><th>Play</th><th>Fight</th></tr></thead>
+          <tbody>
+            <tr><td>Sound</td><td>Mostly silent, some chirping</td><td>Yowling, hissing, growling, screaming</td></tr>
+            <tr><td>Claws</td><td>Sheathed — no fur flies</td><td>Out — you find tufts of fur, scratches</td></tr>
+            <tr><td>Turn-taking</td><td>Both cats chase and get chased</td><td>One always chases, one always flees</td></tr>
+            <tr><td>Ears and tail</td><td>Forward or neutral, loose tail</td><td>Flattened ears, puffed tail, crouched bodies</td></tr>
+            <tr><td>Afterwards</td><td>Eat, sleep, groom together</td><td>Avoid each other for hours or days; one hides</td></tr>
+          </tbody>
+        </table>
+        <p>Fur tufts, scratch wounds, or a cat who now guards a room and refuses to eat near the other are not play injuries. If the fleeing cat is not eating, hiding all day, or eliminating outside the box since the fight started, treat it as conflict with real consequences — see <a href="/cat/cat-not-using-litter-box/">why cats stop using the litter box</a>.</p>
+
+        <h2>The three causes almost every household fight traces to</h2>
+        <p><strong>1. Redirected aggression — the most common cause vets see.</strong> A cat sees or smells an intruder (a strange cat through the window, a neighbour's dog) and, unable to reach it, attacks the nearest target: the housemate. It looks like the cats turned on each other for no reason, because the actual trigger was invisible to you. This is why a fight that started near a window or right after you saw a stray outside is never a coincidence.</p>
+        <p><strong>2. Non-recognition aggression — the one articles miss.</strong> A cat comes home from the vet, boarding, or grooming smelling different — clinic scents, disinfectant, stress hormones. The housemate does not recognise the smell and treats the returning cat as a stranger, and the fight can be serious. Every cat owner should know this exists, because the response is not training: separate the returning cat for a few hours, exchange bedding between the two cats, and re-introduce scent before full contact. One vet visit can start a feud that lasts months if this is handled with a shrug.</p>
+        <p><strong>3. Resource tension.</strong> Cats in multi-cat homes compete over food stations, water, litter boxes, resting spots, and above all <em>height</em>. If there is one litter box in the basement and one food bowl in a corridor with two exits, one cat is being ambushed at its most vulnerable moments. The n+1 rule — one resource per cat, plus one extra, spread across rooms — is not a luxury, it is conflict prevention. The same tension shows up as <a href="/cat/cat-spraying-how-to-stop/">spraying on vertical surfaces</a>.</p>
+
+        <h2>What to do in the first five minutes (and what never to do)</h2>
+        <ul>
+          <li><strong>Never reach in with your hands.</strong> An aroused cat redirects onto whatever it touches — most fight injuries in humans happen during separation. Use a barrier: slide cardboard between them, drop a blanket over one, or clap and block rather than grab.</li>
+          <li><strong>Separate fully for at least a few hours.</strong> One cat in a quiet room with food, water and a litter box. Adrenaline takes hours to clear, and re-contact too early restarts the fight.</li>
+          <li><strong>Do not punish.</strong> Spraying water or yelling stops the fight in front of you and teaches both cats that the other cat predicts bad things — the conflict gets buried, not resolved.</li>
+        </ul>
+
+        <h2>The scent-first reintroduction</h2>
+        <p>Once both cats are calm, do not just open the door and hope. Run the same staged plan used for a new arrival: keep them in separate zones, swap bedding so each smells the other before seeing it, feed on opposite sides of a closed door and move the bowls closer over days, then allow sight contact through a gap or gate before any free-roaming contact. Appetite is your progress gate — a cat who eats well in view of the other is coping; a cat who skips the meal needs the previous stage repeated. The full sequence is in <a href="/cat/how-to-introduce-cats/">how to introduce cats</a>.</p>
+
+        <h2>When to get help, and when it is not a behaviour problem</h2>
+        <p>Escalate to a vet rather than a trainer first: <strong>sudden aggression in an older cat is often pain</strong> — arthritis, dental disease — or hyperthyroidism, and an irritable cat is sometimes an hurting cat. Fights that break skin need wound care; abscesses are the classic aftermath of cat fights and show up days later as a hot, painful swelling.</p>
+        <p>If medical causes are excluded and reintroduction stalls, a qualified feline behaviourist is the right next step. Persistent conflict with injuries is a welfare problem for both cats, not something to outlast.</p>
+        """,
+        "faq": [
+            {
+                "q": "How long does it take two cats to get along again after a fight?",
+                "a": "With a proper scent-first separation and reintroduction, most mild fallout settles within one to three weeks. Feuds that started before anyone intervened — especially after a non-recognition incident — can take months, and some pairs end up best kept in permanent separate territories.",
+            },
+            {
+                "q": "Should I let my cats fight it out?",
+                "a": "No. Real fights damage trust between the cats and create abscesses and litter box fallout. Separate with a barrier, give them a few hours apart, and work out the trigger — never the cats.",
+            },
+            {
+                "q": "My cats started fighting right after one came back from the vet. Why?",
+                "a": "That is non-recognition aggression: the returning cat smells of the clinic and the housemate no longer recognises it. Separate them, swap bedding to re-mix scents, and reintroduce gradually instead of letting them settle it.",
+            },
+        ],
+        "related": ["how-to-introduce-cats", "cat-spraying-how-to-stop", "cat-not-using-litter-box"],
+        "sources": [
+            ("International Cat Care — Multi-cat households",
+             "https://icatcare.org/articles/multi-cat-households"),
+            ("Cornell Feline Health Center — Feline behavior problems: Aggression",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-aggression"),
+            ("International Cat Care — Introducing cats",
+             "https://icatcare.org/articles/introducing-cats"),
+        ],
+        "experts": [
+            "The veterinary advisors at International Cat Care",
+            "The Cornell Feline Health Center",
+        ],
+        "checked": "2026-11-04",
+        "disclaimer": "Cat behaviour guidance only. Fights that break skin need veterinary attention — abscesses appear days later. Sudden aggression in a senior cat warrants a pain and thyroid check before any behaviour plan.",
+    },
+
+    {
+        "slug": "signs-of-stress-in-cats",
+        "pillar": "cat",
+        "title": "Signs of Stress in Cats Most Owners Miss",
+        "url": "/cat/signs-of-stress-in-cats/",
+        "description": "Cats mask stress, so the first sign is physical: stress cystitis, overgrooming bald patches, hiding past their own baseline. Spot the quiet signals early.",
+        "lede": "A stressed cat almost never looks stressed. Cats mask discomfort first and show it in the body second — which is why the earliest reliable signals are physical: a bladder that flares, bald patches, and hiding hours that quietly exceed your cat's own normal.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Cats mask illness — that is the whole problem</h2>
+        <p>Cats are both predator and prey species, and the prey half runs the instinct to look fine. In multi-cat homes this is even stronger: a visibly unwell cat is a vulnerable cat. So owners expecting a stressed cat to look anxious usually see nothing — the cat sits there, looks normal, and then a symptom appears out of nowhere.</p>
+        <p>That symptom is not random. Chronic stress in cats expresses through a few predictable channels, and knowing them turns vague worry into something you can actually watch.</p>
+
+        <h2>The three physical signs stress leaves on the body</h2>
+        <p><strong>1. Stress-induced cystitis (FIC) — the classic hidden one.</strong> Feline idiopathic cystitis is inflammation of the bladder with no bacteria or stones behind it, and stress is its main driver — especially in young, overweight, indoor cats after a household change. The signs: frequent small pees, straining, blood-tinged urine, and peeing on cool smooth surfaces like the bath. Urinalysis comes back unremarkable, which is exactly the point — the bladder is flaring, not infected. A cat suddenly having accidents should always be checked first: see <a href="/cat/cat-not-using-litter-box/">why a cat stops using the litter box</a>. And one red line: <strong>a male cat straining with nothing coming out is a blocked urethra — an emergency, not a stress symptom.</strong></p>
+        <p><strong>2. Overgrooming — bald patches on reachable skin.</strong> Stress grooming concentrates on the belly, inner thighs and forelegs, leaving symmetrical thinning or bald skin that often looks normal — not raw. Before blaming stress, the vet must rule out fleas and allergies, which look identical. Skin that stays bald after a parasite trial points back to behaviour.</p>
+        <p><strong>3. Appetite shift — the signal with a deadline.</strong> A cat who eats less, or stops eating entirely, is communicating in the most measurable way it has. This is not a sign to wait out: cats who go without food risk hepatic lipidosis, a liver disease that can follow just a few days of not eating. Any cat skipping more than a day or two of meals needs a vet, full stop.</p>
+
+        <h2>Behavioural signs: compare against your cat's baseline, not the internet's</h2>
+        <p>Every list of \"stressed cat signs\" is useless without a baseline, because normal varies enormously between cats. Some cats hide ten hours a day their whole lives; others never hide. The signal is not the behaviour — it is the <em>change</em>:</p>
+        <table>
+          <thead><tr><th>Signal</th><th>What \"normal\" can look like</th><th>What actually counts as stress</th></tr></thead>
+          <tbody>
+            <tr><td>Hiding</td><td>A reserved cat hides daily</td><td>Your social cat starts hiding, or your reserved cat hides somewhere new and deeper</td></tr>
+            <tr><td>Contact</td><td>Some cats are lap cats, some are not</td><td>Clinginess that is out of character, or avoidance of a person they previously sought out</td></tr>
+            <tr><td>Litter box</td><td>Steady routine</td><td>New accidents, fewer visits, or perching on the box edge</td></tr>
+            <tr><td>Vocalising</td><td>Chatty cats chat</td><td>A quiet cat starts calling — or night calling starts, as covered in <a href="/cat/why-does-my-cat-meow-at-night/">why cats meow at night</a></td></tr>
+            <tr><td>Grooming</td><td>Long sessions are normal</td><td>Fur getting thinner in reachable zones, or grooming visibly neglected (greasy, matted coat)</td></tr>
+          </tbody>
+        </table>
+        <p>If you cannot answer \"what does my cat's normal look like?\", spend a week noting it. That one week of notes is worth more than any checklist.</p>
+
+        <h2>What actually reduces cat stress</h2>
+        <ul>
+          <li><strong>Predictability.</strong> Feeding and play at consistent times matters more than any product. Cats tolerate less chaos than their reputation suggests.</li>
+          <li><strong>Vertical escape routes.</strong> Shelves, cat trees, window perches — height is how cats defuse tension. In multi-cat homes, a stressed cat without height is a cornered cat, and cornered cats either hide or start <a href="/cat/cats-fighting-in-same-house/">fighting with the housemate</a>.</li>
+          <li><strong>n+1 resources, spread across rooms.</strong> One litter box per cat plus one, multiple water and food stations, several resting spots. Clustering them all in one room recreates the exact competition you are trying to prevent.</li>
+          <li><strong>Pheromone diffusers.</strong> Evidence is modest but the risk is low; treat them as a supporting tool, never the whole plan.</li>
+          <li><strong>Never punishment.</strong> Punishing stress behaviour raises stress — the definition of adding fuel. For spraying specifically, the alternatives are in <a href="/cat/cat-spraying-how-to-stop/">how to stop a cat spraying indoors</a>.</li>
+        </ul>
+
+        <h2>When stress needs a vet first, not a routine tweak</h2>
+        <p>Any urinary change, appetite loss, overgrooming, or a cat who has gone quiet and hidden beyond their normal — veterinary exam first, environment second. In senior cats especially, what looks like stress is frequently pain (arthritis is wildly underdiagnosed in cats) or hyperthyroidism. Both are treatable; neither is fixed by a pheromone diffuser.</p>
+        """,
+        "faq": [
+            {
+                "q": "What are the first signs of stress in a cat?",
+                "a": "Usually physical, not obvious: changes in urination (frequency, accidents, straining), overgrooming thinning the fur on the belly and thighs, and appetite shifts. Behaviourally, the reliable signal is a change from your cat's own baseline — new hiding, new clinginess, or vocalising that is out of character.",
+            },
+            {
+                "q": "How do I know if my cat is stressed or sick?",
+                "a": "You often cannot tell them apart, and you should not try. Stress cystitis looks like a urinary infection, pain looks like grumpiness. Veterinary exam first; the environment plan matters more once medical causes are ruled out.",
+            },
+            {
+                "q": "How long does it take a cat to destress after a move?",
+                "a": "Most cats settle into a new home within one to two weeks, with slower or senior cats taking a month or more. Keep the routine identical (same food, feeding times, litter brand), give one secure base room first, and judge progress by appetite and normal litter box use — not by how often the cat is visible.",
+            },
+        ],
+        "related": ["cats-fighting-in-same-house", "cat-not-using-litter-box", "why-does-my-cat-meow-at-night"],
+        "sources": [
+            ("International Cat Care — Stress in cats",
+             "https://icatcare.org/articles/stress-in-cats"),
+            ("The Ohio State University Indoor Pet Initiative — Cats",
+             "https://indoorpet.osu.edu/cats"),
+            ("International Cat Care — Multi-cat households",
+             "https://icatcare.org/articles/multi-cat-households"),
+        ],
+        "experts": [
+            "The veterinary advisors at International Cat Care",
+            "The Ohio State University Indoor Pet Initiative",
+        ],
+        "checked": "2026-11-04",
+        "disclaimer": "Cat health and behaviour guidance only. Urinary changes, appetite loss beyond a day or two, or a blocked male cat are veterinary matters first — a straining cat producing no urine is an emergency.",
     },
 
 ]
