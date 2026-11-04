@@ -217,9 +217,13 @@ NAV_ITEMS = [
     ("/dog-care/", "Care & Grooming"),
     ("/cat/", "Cats"),
     ("/best/", "Reviews"),
-    ("/tools/dog-age-calculator/", "Tools"),
     ("/about/", "About"),
 ]
+# 哥飞 11-04 第二轮: the tool page sat at 55 internal links (tied #1) while
+# pulling 9 impressions / 0 clicks in 28 days — the boilerplate nav+footer
+# "Tools" entry on all ~83 pages was the entire source. Removed from both;
+# the calculator keeps contextual entries: homepage hero button + money card,
+# the two callout boxes below, and /sitemap/.
 # 哥飞 2026-11-03: internal links were misallocated — dog-training had 55 while
 # dog-nutrition (15 of the top-20 exposure pages) had 19. The two nutrition
 # reference pages now sit in the footer on every page, same tier as the nav.
@@ -410,8 +414,6 @@ def article_jsonld(a):
 # stickier visits + a page third parties have a reason to cite.
 TOOL_LINK_SLUGS = {
     "can-dogs-eat-milk",
-    "can-dogs-eat-chocolate",
-    "can-dogs-eat-grapes",
     "how-much-to-feed-my-dog",
 }
 TOOL_CALLOUT = (
@@ -436,6 +438,148 @@ CHART_CALLOUT = (
     "risk tiers with the dose that matters, not just safe or toxic. For the emergency "
     'list, see <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>.</div>'
 )
+
+# 哥飞 11-04 第二轮 (CSV W1): internal links were invested in a page that earns
+# no queries while the pages that DO rank got nothing. Every nutrition article
+# now carries two body-level links: one to the relevant /best/ buying guide
+# (emergency-transport angle for toxic foods, treat-training angle for safe
+# foods), one to a sibling food article. The tool-page callout stays only on
+# the two highest-demand nutrition pages; toxic/safe clusters pair siblings by
+# shared question logic, not alphabet.
+#
+# best_slug None = the article already has its /best/ body link (added 11-04:
+# milk / chocolate / peanut-butter) — sibling only, never a duplicate.
+FOOD_LINK_PLAN = {
+    # --- danger cluster: toxic-dose → emergency-transport angle → dog crate
+    "can-dogs-eat-alcohol":        ("best-dog-crate", "can-dogs-eat-xylitol"),
+    "can-dogs-eat-caffeine":       ("best-dog-crate", "can-dogs-eat-chocolate"),
+    "can-dogs-eat-chocolate":      (None, "can-dogs-eat-peanut-butter"),
+    "can-dogs-eat-garlic":         ("best-dog-crate", "can-dogs-eat-onion"),
+    "can-dogs-eat-grapes":         ("best-dog-crate", "can-dogs-eat-macadamia-nuts"),
+    "can-dogs-eat-macadamia-nuts": ("best-dog-crate", "can-dogs-eat-walnuts"),
+    "can-dogs-eat-walnuts":        ("best-dog-crate", "can-dogs-eat-almonds"),
+    "can-dogs-eat-almonds":        ("best-dog-crate", "can-dogs-eat-macadamia-nuts"),
+    "can-dogs-eat-onion":          ("best-dog-crate", "can-dogs-eat-garlic"),
+    "can-dogs-eat-raw-dough":      ("best-dog-crate", "can-dogs-eat-alcohol"),
+    "can-dogs-eat-xylitol":        ("best-dog-crate", "can-dogs-eat-grapes"),
+    "can-dogs-eat-avocado":        ("best-dog-crate", "can-dogs-eat-mango"),
+    "can-dogs-eat-cherries":       ("best-dog-crate", "can-dogs-eat-plums"),
+    "can-dogs-eat-plums":          ("best-dog-crate", "can-dogs-eat-peaches"),
+    "can-dogs-eat-peaches":        ("best-dog-crate", "can-dogs-eat-cherries"),
+    "can-dogs-eat-tomato":         ("best-dog-crate", "can-dogs-eat-potato"),
+    "can-dogs-eat-potato":         ("best-dog-crate", "can-dogs-eat-sweet-potato"),
+    # --- safe foods: treat/walk angle → harness for pulling
+    "can-dogs-eat-apples":         ("best-dog-harness-for-pulling", "can-dogs-eat-bananas"),
+    "can-dogs-eat-bananas":        ("best-dog-harness-for-pulling", "can-dogs-eat-blueberries"),
+    "can-dogs-eat-blueberries":    ("best-dog-harness-for-pulling", "can-dogs-eat-strawberries"),
+    "can-dogs-eat-strawberries":   ("best-dog-harness-for-pulling", "can-dogs-eat-watermelon"),
+    "can-dogs-eat-watermelon":     ("best-dog-harness-for-pulling", "can-dogs-eat-pineapple"),
+    "can-dogs-eat-pineapple":      ("best-dog-harness-for-pulling", "can-dogs-eat-mango"),
+    "can-dogs-eat-mango":          ("best-dog-crate", "can-dogs-eat-pineapple"),
+    "can-dogs-eat-carrots":        ("best-dog-harness-for-pulling", "can-dogs-eat-green-beans"),
+    "can-dogs-eat-green-beans":    ("best-dog-harness-for-pulling", "can-dogs-eat-peas"),
+    "can-dogs-eat-peas":           ("best-dog-harness-for-pulling", "can-dogs-eat-broccoli"),
+    "can-dogs-eat-broccoli":       ("best-dog-harness-for-pulling", "can-dogs-eat-cucumber"),
+    "can-dogs-eat-cucumber":       ("best-dog-harness-for-pulling", "can-dogs-eat-carrots"),
+    "can-dogs-eat-corn":           ("best-dog-harness-for-pulling", "can-dogs-eat-popcorn"),
+    "can-dogs-eat-popcorn":        ("best-dog-harness-for-pulling", "can-dogs-eat-bread"),
+    "can-dogs-eat-sweet-potato":   ("best-dog-harness-for-pulling", "can-dogs-eat-pumpkin"),
+    "can-dogs-eat-pumpkin":        ("best-dog-harness-for-pulling", "can-dogs-eat-peas"),
+    "can-dogs-eat-spinach":        ("best-dog-harness-for-pulling", "can-dogs-eat-broccoli"),
+    "can-dogs-eat-chicken":        ("best-dog-harness-for-pulling", "can-dogs-eat-eggs"),
+    "can-dogs-eat-eggs":           ("best-dog-harness-for-pulling", "can-dogs-eat-salmon"),
+    "can-dogs-eat-salmon":         ("best-dog-harness-for-pulling", "can-dogs-eat-shrimp"),
+    "can-dogs-eat-shrimp":         ("best-dog-harness-for-pulling", "can-dogs-eat-eggs"),
+    "can-dogs-eat-ham":            ("best-dog-harness-for-pulling", "can-dogs-eat-chicken"),
+    "can-dogs-eat-honey":          ("best-dog-harness-for-pulling", "can-dogs-eat-yogurt"),
+    "can-dogs-eat-bread":          ("best-dog-harness-for-pulling", "can-dogs-eat-rice"),
+    "can-dogs-eat-rice":           ("best-dog-harness-for-pulling", "can-dogs-eat-chicken"),
+    "can-dogs-eat-cheese":         ("best-dog-harness-for-pulling", "can-dogs-eat-yogurt"),
+    "can-dogs-eat-yogurt":         ("best-dog-harness-for-pulling", "can-dogs-eat-ice-cream"),
+    "can-dogs-eat-ice-cream":      ("best-dog-harness-for-pulling", "can-dogs-eat-milk"),
+    "can-dogs-eat-milk":           (None, "can-dogs-eat-cheese"),
+    "can-dogs-eat-peanut-butter":  (None, "can-dogs-eat-milk"),
+    # --- reference pages
+    "how-much-to-feed-my-dog":     (None, "food-safety-chart"),
+}
+
+# Emergency-transport variants (toxic foods → crate guide). No claim of
+# hands-on testing; "practical picks" matches the guide's own framing.
+_BEST_CRATE_TXT = (
+    "One more thing worth sorting out before you ever need it: a genuine toxicity "
+    "scare usually ends in a car ride to the emergency vet, and a dog who feels "
+    "awful is not a calm passenger. Our guide to the "
+    '<a href="/best/dog-crate/">best dog crates</a> covers the secure, '
+    "easy-to-clean options that make that trip less chaotic.",
+    "If a dose ever does go wrong, you will be driving to an emergency clinic with "
+    "a dog who feels wretched — worth having containment figured out in advance. "
+    'The <a href="/best/dog-crate/">best dog crate</a> guide compares the models '
+    "built for exactly that kind of trip.",
+    "Prevention beats treatment here, and part of prevention is knowing you can "
+    "move a sick dog safely. A crate that loads easily and cleans up fast earns "
+    'its keep on vet runs — the <a href="/best/dog-crate/">best dog crate</a> '
+    "guide shortlists practical picks, not hype.",
+    "If this food lives somewhere your dog can reach, the scenario to plan for is "
+    "the unplanned vet trip. The "
+    '<a href="/best/dog-crate/">best dog crate for anxious dogs</a> in our guide '
+    "holds up when a dog is panting, pacing or worse.",
+)
+# Treat/walk variants (safe foods → harness guide)
+_BEST_HARNESS_TXT = (
+    "As a training treat, this food works well — and treat sessions happen on "
+    "walks, which is also where pulling gets learned. Our "
+    '<a href="/best/dog-harness-for-pulling/">best dog harness for pulling</a> '
+    "guide keeps the leash side as organised as the treat side.",
+    "If you use this food as a high-value reward on walks, it is worth solving "
+    "the pulling problem at the same time — the "
+    '<a href="/best/dog-harness-for-pulling/">best dog harness for pulling</a> '
+    "guide covers the options worth shortlisting.",
+    "Small pieces of this food make an honest, low-calorie training reward, and "
+    "most training happens mid-walk. The "
+    '<a href="/best/dog-harness-for-pulling/">best no-pull harness</a> picks in '
+    "our guide pair well with treat-based training.",
+    "One practical note for reward-based walks: gear that fights you undoes the "
+    "training. Our "
+    '<a href="/best/dog-harness-for-pulling/">best dog harness for pulling</a> '
+    "guide covers the designs we would shortlist.",
+)
+
+_SIB_TXT = (
+    "The question owners ask next is usually about {sib}: here is the full "
+    '<a href="{u}">{t}</a> answer.',
+    'Reading next: <a href="{u}">{t}</a> — the risks, the amounts that matter and '
+    "what to do if your dog already got some.",
+    'Related: <a href="{u}">{t}</a> covers the other half of this question.',
+    "If your dog likes this food, they have probably eyed {sib} too — the "
+    '<a href="{u}">{t}</a> guide covers it.',
+    "For the neighbouring question — <a href=\"{u}\">{t}</a> — the same "
+    "dose-first logic applies.",
+)
+
+
+def food_link_html(slug):
+    """Two body-level links per nutrition article: /best/ guide + sibling food."""
+    plan = FOOD_LINK_PLAN.get(slug)
+    if not plan:
+        return ""
+    best_slug, sib_slug = plan
+    parts = []
+    if best_slug:
+        pool = _BEST_CRATE_TXT if best_slug == "best-dog-crate" else _BEST_HARNESS_TXT
+        parts.append(pool[sum(ord(c) for c in slug) % len(pool)])
+    if sib_slug:
+        if sib_slug == "food-safety-chart":
+            u, t = FOOD_CHART["url"], FOOD_CHART["title"]
+        else:
+            u, t = LOOKUP[sib_slug]
+        name = t.split("?")[0].replace("Can Dogs Eat ", "").strip().lower()
+        if sib_slug == "food-safety-chart":
+            name = "what the rest of the pantry looks like"
+        parts.append(_SIB_TXT[sum(ord(c) for c in sib_slug) % len(_SIB_TXT)]
+                     .format(u=u, t=t, sib=name))
+    if not parts:
+        return ""
+    return "<p>%s</p>" % " ".join(parts)
 
 
 def render_article(a):
@@ -523,6 +667,7 @@ def render_article(a):
     tool_cta = TOOL_CALLOUT if slug in TOOL_LINK_SLUGS else ""
     chart_cta = (CHART_CALLOUT if a["pillar"] == "dog-nutrition"
                  and slug != "foods-toxic-to-dogs" else "")
+    food_links = food_link_html(slug)
 
     crumb = (
         '<div class="crumbs"><a href="/">Home</a> › '
@@ -557,7 +702,7 @@ def render_article(a):
         a["title"],
         a["lede"],
         img,
-        body_html + chart_cta + tool_cta,
+        body_html + food_links + chart_cta + tool_cta,
         faq_html,
         rel_html,
         src_html,
