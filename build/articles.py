@@ -113,7 +113,7 @@ PILLARS = {
         "description": "Practical cat care guides: litter box training, furniture scratching, spraying, hairballs, and night-time meowing — with the medical causes to rule out first.",
         "eyebrow": "CAT CARE",
         "intro": "Cats are not small dogs. Their behavior usually has a reason — stress, territory, or a medical issue — and the fix starts with understanding it.",
-        "links": ["cat-litter-training", "cat-scratching-furniture", "cat-spraying-how-to-stop", "cat-hairballs", "why-does-my-cat-meow-at-night"],
+        "links": ["cat-litter-training", "cat-not-using-litter-box", "cat-scratching-furniture", "cat-spraying-how-to-stop", "cat-hairballs", "why-does-my-cat-meow-at-night", "how-to-introduce-cats"],
     },
     "best": {
         "slug": "best",
@@ -6677,6 +6677,130 @@ ARTICLES = [
         ],
         "checked": "2026-10-28",
         "disclaimer": HEALTH_DISCLAIMER,
+    },
+    {
+        "slug": "cat-not-using-litter-box",
+        "pillar": "cat",
+        "title": "Cat Not Using the Litter Box? Reasons First, Fixes Second",
+        "url": "/cat/cat-not-using-litter-box/",
+        "description": "A cat peeing outside the box is a symptom before it is a behaviour problem. The medical causes to rule out first, the box setup most homes get wrong, and the fix.",
+        "lede": "A cat that stops using the litter box is not being spiteful. Something about the box, the spot, or their body has stopped working for them — and the order you check those things decides how fast this gets fixed.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Rule out the vet before you change anything</h2>
+        <p>The most common reason a previously reliable cat starts missing the box is physical, not behavioural. Urinary tract disease makes urination painful, and cats connect that pain to the place where it happened — the box. A cat with a burning bladder does not think "the litter hurt me"; they think <em>that spot</em> hurts, so they go somewhere else and often still squat in a box-like context: laundry, a bath mat, a bed.</p>
+        <ul>
+          <li><strong>Go same-day if:</strong> there is blood in the urine, frequent trips that produce only drops, crying in the tray, or — critical in male cats — straining with <em>nothing</em> coming out. A blocked urethra kills within a day or two; this is an emergency, not a behaviour issue.</li>
+          <li><strong>Book a normal visit if:</strong> the change came with extra thirst, weight loss, accidents that are soft stool rather than urine, or the cat is over about ten years old — constipation, kidney disease, an overactive thyroid and arthritis all change toileting habits.</li>
+          <li><strong>Arthritis is the quiet one.</strong> A senior cat with stiff hips will not leap into a high-sided tray they used easily at five. A tray with a cut-down entry often fixes an "attitude problem" that was actually a jump problem.</li>
+        </ul>
+
+        <h2>Soiling or marking? They are different problems</h2>
+        <p>Before any setup work, work out which of the two you are dealing with, because the fixes barely overlap. Soiling is a full squat on a horizontal surface — a puddle on the floor, rug or bed. Marking (spraying) is a cat standing up, tail quivering, delivering a small streak at nose height on a wall or furniture. If you are seeing vertical streaks, that is territorial communication, not box rejection — the approach is different, and we cover it in the <a href="/cat/cat-spraying-how-to-stop/">spraying guide</a>. This page is about soiling.</p>
+
+        <h2>The one-per-cat-plus-one rule — and why placement beats brand</h2>
+        <p>The single most documented rule in the litter literature: one tray per cat, plus one extra, spaced around the house. In a two-cat home that means three, and putting all three side by side in one room does not count — to a cat that is one resource location another cat can guard. Corridors, corners and quiet landings beat next-to-the-washing-machine: cats avoid trays that can startle them with a spin cycle or trap them in a dead end.</p>
+        <p>Placement also has a hard rule most homes break: trays away from food and water, away from cat flaps and full-length glass (a cat feels watched from outside), and somewhere reachable without walking past the other cat's favourite ambush point.</p>
+
+        <h2>The box maths most homes get wrong</h2>
+        <ul>
+          <li><strong>Size:</strong> the tray should be about one and a half times the cat's body length. Many retail trays are simply too small for an adult cat to turn around and dig in.</li>
+          <li><strong>Entry:</strong> low sides for kittens, seniors and arthritic cats; high-sided or top-entry trays suit the athletic and the enthusiastic digger only.</li>
+          <li><strong>Hoods:</strong> many cats tolerate them, but a hood traps smell at nose height and blocks escape routes — in a multi-cat home an uncovered tray is the safer default.</li>
+          <li><strong>Cleaning:</strong> scoop at least once, ideally twice a day; full wash every two to four weeks with clumping litter. Use hot water and plain detergent — some disinfectants (anything with chloroxylenol, e.g. Dettol-type products) are toxic to cats, and heavy perfume puts cats off.</li>
+        </ul>
+
+        <h2>Litter preference is real, not fussiness</h2>
+        <p>Preference studies keep finding the same thing: most cats prefer fine-grained, clumping litter over coarse or pelleted material, and scented products lose to unscented. That is a tendency, not a law — the individual cat is the judge. The practical part: when you change litter, do it gradually (new litter sprinkled over the old, increasing over a week) or keep one tray on the old litter while the rest switch. An abrupt switch is a classic trigger for a cat that has used one product all its life.</p>
+
+        <h2>The reset, step by step</h2>
+        <ol>
+          <li>Clean every soiled spot with an enzymatic cleaner. Ammonia-based products smell like urine to a cat and can invite a repeat.</li>
+          <li>Add a tray where the accidents happen, even if that spot is inconvenient. Once the cat is using it reliably, move it a few inches a day toward where you want it.</li>
+          <li>Offer options for a while: two litter types in side-by-side trays and let the cat's usage answer the preference question.</li>
+          <li>Never punish. Rubbing a cat's nose in it or confining them to a dirty tray does not teach box use — it teaches fear of you and adds stress, and stress is a known trigger for feline idiopathic cystitis, which brings you back to step one.</li>
+        </ol>
+        <p>Most soiling cases that are behavioural resolve within one to two weeks of a correctly set up reset. If nothing changes after two honest weeks of this — with the vet visit done — ask your vet for a behaviour referral, because persistent cases usually have a specific trigger (another cat outside the window, a new baby, a house move) that needs targeted work.</p>
+        """,
+        "faq": [
+            ("Why is my cat suddenly peeing on my bed or laundry?", "Soft, absorbent items that smell like you are a common target when urination hurts or the box feels unsafe. Treat it as a symptom: vet check first, then review the box setup — and wash with enzymatic cleaner, not ammonia."),
+            ("How many litter boxes should I have for two cats?", "Three, in different locations. One per cat plus one spare is the rule, and the spare exists because in multi-cat homes one cat can block another's access to a single location."),
+            ("Will a covered litter box fix the problem?", "Usually not, and it can make things worse. Hoods trap odour at the cat's nose height and limit escape routes. Uncovered is the safer default, especially in multi-cat households."),
+            ("How long until the litter box problem is fixed?", "Medical cases improve when the illness is treated. Behavioural soiling usually responds within one to two weeks of a full reset; if it does not, get a behaviour referral rather than trying harder versions of the same thing."),
+        ],
+        "related": ["cat-litter-training", "cat-spraying-how-to-stop", "why-does-my-cat-meow-at-night"],
+        "sources": [
+            ("International Cat Care — Soiling indoors",
+             "https://icatcare.org/articles/soiling-indoors"),
+            ("Cornell Feline Health Center — Feline Behavior Problems: House Soiling",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling"),
+            ("ASPCA — Litter Box Problems",
+             "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/litter-box-problems"),
+        ],
+        "experts": [
+            "The veterinary advisors at International Cat Care",
+            "The feline behavior team at Cornell University's College of Veterinary Medicine",
+        ],
+        "checked": "2026-11-04",
+        "disclaimer": "Cat health guidance only. Straining with no urine, blood in the urine, crying in the tray or a sudden change with weight loss needs a veterinarian the same day — a blocked urethra is an emergency.",
+    },
+    {
+        "slug": "how-to-introduce-cats",
+        "pillar": "cat",
+        "title": "How to Introduce Cats — the Scent-First Plan That Works",
+        "url": "/cat/how-to-introduce-cats/",
+        "description": "Introducing a second cat? The scent-first plan: a base camp room, food as the progress gate, sight before touch, and the body language that says go back a stage.",
+        "lede": "Almost every cat fight between housemates traces back to the same mistake: face-to-face introductions on day one. Cats build relationships through smell first, and a staged plan that respects that takes weeks — and prevents years of friction.",
+        "eyebrow": "CAT CARE",
+        "body": """
+        <h2>Why scent comes before sight</h2>
+        <p>A cat's social world runs through its nose. Cats read identity, mood and history in scent profiles — their own group scent, and the smell of strangers. Two cats meeting through a glass barrier with no scent exchange are, to each other, an alarm: unfamiliar smell, direct eye contact, no escape. That is why the universal failure mode is the same: carry the new cat into the living room and "let them sort it out". What they sort out is a hierarchy of fear, and it can last for years.</p>
+        <p>The plan below runs in stages. The timing rule that matters: <strong>move up a stage only when both cats are relaxed at the current one</strong> — eating normally, playing, not posted at the barrier. Days per stage is typical; some pairs take weeks. Going back a stage is not failure, it is the method.</p>
+
+        <h2>Stage 1 — Base camp, and a normal resident cat</h2>
+        <p>Set the newcomer up in one room with everything: litter tray (one per cat plus one, remember), food and water away from the tray, hiding places, a scratching surface, warmth. The new cat needs days to decompress; the resident cat keeps their normal routine and gets their usual access to the rest of the home. Do not visit the base camp with the resident cat in your arms — you are carrying one cat's smell into the other's territory, in the worst possible format.</p>
+        <p>Expect the newcomer to hide, eat little and be vocal for the first day or two. A cat that will not eat at all for more than about 24–48 hours needs a vet, not more time.</p>
+
+        <h2>Stage 2 — Scent swap</h2>
+        <p>Before any visual contact, trade smells daily: swap bedding between rooms, and use the sock trick — stroke a clean sock along the new cat's cheek (where the scent glands are) and leave it in the resident cat's area, then repeat in reverse. Feed each cat near their side of the door so the other's smell starts arriving in a good context: dinner. If either cat hisses flatly at the sock or refuses to eat near the door, stay here and keep swapping.</p>
+
+        <h2>Stage 3 — Food is the progress gate</h2>
+        <p>The honest readiness signal is appetite. Both cats eating calmly on opposite sides of the closed door — not gobbling in panic, not guarding the gap — means the smell of the other cat has started to mean "food happens" rather than "threat happens". That usually takes several days of stage 2. This is the gate to the next stage, and it cannot be rushed by wanting it to be over.</p>
+
+        <h2>Stage 4 — Sight through a barrier</h2>
+        <p>Open visual contact briefly, through a gap, a screen door, a stair gate or a door held ajar with a wedge — a barrier both cats can see through but not push past. Short sessions, a few minutes, ending while both are still calm, several times a day. Keep feeding on opposite sides of the barrier during this stage; the goal is that seeing the other cat predicts something good. Calm sniffing and looking away are wins. Fixated staring is not — end the session and close the door.</p>
+
+        <h2>Stage 5 — Supervised shared time</h2>
+        <p>Remove the barrier for short, supervised periods with a clear exit route for each cat. Parallel activities work best: playing with each cat separately on either side of the room, feeding bowls well apart, two litter trays in different locations. Keep the base camp room available to the newcomer for weeks — a retreat they control is what lets a nervous cat choose to come out.</p>
+        <div class="callout warn">Never pick up either cat during a face-off, and never force them closer "to say hello". A restrained cat is a cornered cat. If a meeting goes badly, separate calmly, give everyone an hour, and drop back one stage. Escalating a bad meeting is how one bad day becomes a permanent feud.</div>
+
+        <h2>Reading the body language</h2>
+        <ul>
+          <li><strong>Normal early days:</strong> hissing, growling, avoidance, one cat posted at a distance watching. Uncomfortable but functional — this is negotiation.</li>
+          <li><strong>Handle it now:</strong> silent frozen staring, blocking doorways, chasing that ends in screaming or fur flying, one cat refusing to eat or stopping using a tray because the other controls it.</li>
+          <li><strong>Go back a stage</strong> for anything in the second list, and add resources first: more trays, more feeding stations, more vertical space. Resource guarding, not personality, causes most multi-cat conflict — the setup is in our <a href="/cat/cat-not-using-litter-box/">litter box guide</a>, and the marking that sometimes follows a feud is covered in the <a href="/cat/cat-spraying-how-to-stop/">spraying guide</a>.</li>
+        </ul>
+
+        <h2>When to get help</h2>
+        <p>If after a month of staged introductions there are still serious fights, or one cat has stopped eating, hiding permanently or soiling, stop self-managing and ask your vet for a referral to a qualified behaviourist. Persistent redirected aggression — a cat attacking a housemate after seeing a strange cat through a window — is a real clinical problem, not a training failure, and it responds much better to early professional help than to months of trial and error.</p>
+        """,
+        "faq": [
+            ("How long should introducing two cats take?", "Most pairs need two to four weeks to reach relaxed shared time; some need a couple of months. The clock that matters is the behaviour at each stage — eating calmly and no blocking or staring — not the calendar."),
+            ("Is hissing normal when cats first meet?", "Yes, through the barrier stages it is normal negotiation. Fixated silent staring, blocking doorways, or fights with screaming and fur are not — separate, then drop back one stage."),
+            ("Should I just let them fight it out?", "No. Cats do not settle hierarchy by fighting it out the way some animals do; unrehearsed conflict tends to create lasting avoidance and marking. Staged scent-first introductions prevent the fight instead of surviving it."),
+        ],
+        "related": ["cat-not-using-litter-box", "cat-spraying-how-to-stop", "cat-scratching-furniture"],
+        "sources": [
+            ("International Cat Care — Introducing cats",
+             "https://icatcare.org/articles/introducing-cats"),
+            ("International Cat Care — Multi-cat households",
+             "https://icatcare.org/articles/multi-cat-households"),
+        ],
+        "experts": [
+            "The veterinary advisors at International Cat Care",
+        ],
+        "checked": "2026-11-04",
+        "disclaimer": "Cat behaviour guidance only. A cat that stops eating for more than a day or two, or fights with injuries, needs a veterinarian — and persistent multi-cat conflict deserves a qualified behaviourist referral.",
     },
 
 ]

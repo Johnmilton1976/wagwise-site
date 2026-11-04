@@ -794,7 +794,8 @@ def render_home():
     # twice (Start here + Latest) out of only 17 unique internal links, so one of
     # the homepage's most valuable slots was pointing at a page it already linked.
     _MONEY_SLUGS = ("best-dog-crate", "best-dog-harness-for-pulling", "how-much-to-feed-my-dog")
-    _used = set(HOME["featured"]) | set(_MONEY_SLUGS)
+    _CAT_SLUGS = set(PILLARS["cat"]["links"])
+    _used = set(HOME["featured"]) | set(_MONEY_SLUGS) | _CAT_SLUGS
     latest = [a for a in ARTICLES[::-1] if a["slug"] not in _used][:6]
     latest_cards = ""
     for a in latest:
@@ -816,6 +817,16 @@ def render_home():
             _money.append((_a["url"], _a["title"], _a["lede"], _slug, _kick))
     for _url, _title, _desc, _slug, _kick in _money:
         money_cards += hub_card(_url, _kick, _title, _desc, _slug)
+
+    # 哥飞 11-04 第二轮: the cat line is the site's most stable ranking content
+    # (4 queries at 38–68) but got zero article-level links. Dedicated homepage
+    # block under the dog sections: hub card + every cat guide.
+    _cat = PILLARS["cat"]
+    cat_cards = hub_card(_cat["url"], "SECTION", _cat["title"], _cat["description"], _cat["slug"])
+    for _s in _cat["links"]:
+        _u, _t = LOOKUP[_s]
+        _a = next((x for x in ARTICLES if x["slug"] == _s), None)
+        cat_cards += hub_card(_u, "GUIDE", _t, _a["lede"] if _a else "", _s)
 
     # The full A-Z list used to live here (73 links). It moved to /sitemap/, which
     # every page already links to in the footer — one hop for a crawler, but the
@@ -846,13 +857,15 @@ def render_home():
         '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Start here — the questions we get most</h2>\n'
         '  <div class="hub">%s</div>\n'
+        '  <h2 style="margin-top:40px">Cat care guides</h2>\n'
+        '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Tools &amp; buying guides</h2>\n'
         '  <div class="hub">%s</div>\n'
         '  <h2 style="margin-top:40px">Latest guides</h2>\n'
         '  <div class="hub">%s</div>\n'
         "  %s\n"
         "</div>"
-    ) % (hero, trust, pillar_cards, feat_cards, money_cards, latest_cards, see_all)
+    ) % (hero, trust, pillar_cards, feat_cards, cat_cards, money_cards, latest_cards, see_all)
     return shell(h, "/", body)
 
 

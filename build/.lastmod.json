@@ -31,6 +31,10 @@
   "d": "2026-10-28",
   "h": "9917bb7f82de9a9ebe2f16f2502434f939866765"
  },
+ "public/cat/cat-not-using-litter-box/index.html": {
+  "d": "2026-11-04",
+  "h": "e9d2b99576791df13a0f0ef5506069354a70baf7"
+ },
  "public/cat/cat-scratching-furniture/index.html": {
   "d": "2026-10-28",
   "h": "845a22a0f7a5d214703d58d4c57626d8163c16b5"
@@ -39,9 +43,13 @@
   "d": "2026-10-28",
   "h": "d38c0749596f76caeffae244654d0dace44f05d3"
  },
+ "public/cat/how-to-introduce-cats/index.html": {
+  "d": "2026-11-04",
+  "h": "c5887860efbcedc399efdab018bfc07ca2e527c4"
+ },
  "public/cat/index.html": {
-  "d": "2026-10-31",
-  "h": "1c12455fe9bb0483828019bfac9eb9367eb624aa"
+  "d": "2026-11-04",
+  "h": "91e21c5074a5297b2b69f8a3da730d9432c6e964"
  },
  "public/cat/why-does-my-cat-meow-at-night/index.html": {
   "d": "2026-10-31",
@@ -312,8 +320,8 @@
   "h": "02b0091b2a444c72811f8ca574f2bb539e1e63ad"
  },
  "public/index.html": {
-  "d": "2026-11-02",
-  "h": "5f90146ba520e0ab8599572d24cda46790280403"
+  "d": "2026-11-04",
+  "h": "9b062f8c86a815ed1b43eff3c5637c8a262a6044"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",
