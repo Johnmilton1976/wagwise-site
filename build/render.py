@@ -22,7 +22,7 @@ import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, TOOL, FOOD_CHART  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -990,6 +990,7 @@ def build_sitemap(manifest):
     urls.append((CONTACT["url"], 0.3, "yearly", "public/contact/index.html"))
     urls.append((PRIVACY["url"], 0.2, "yearly", "public/privacy/index.html"))
     urls.append((EDITORIAL["url"], 0.3, "yearly", "public/about/editorial-standards/index.html"))
+    urls.append((RESOURCES["url"], 0.3, "yearly", "public/resources/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
     urls.append((FOOD_CHART["url"], 0.8, "monthly",
@@ -1042,6 +1043,8 @@ def render_sitemap():
               CONTACT["description"] + '</p></a>')
     cards += ('<a href="/privacy/"><div class="k">LEGAL</div><h3>Privacy Policy</h3><p>' +
               PRIVACY["description"] + '</p></a>')
+    cards += ('<a href="/resources/"><div class="k">RESOURCES</div><h3>Dog Care Resources We Trust</h3><p>' +
+              RESOURCES["description"] + '</p></a>')
     body = (
         '<div class="wrap">\n'
         '  <div class="eyebrow">SITE INDEX</div>\n'
@@ -1082,6 +1085,9 @@ def main():
         EDITORIAL["url"], "/about/editorial-standards/",
         EDITORIAL["title"], EDITORIAL["description"],
         EDITORIAL["body"], crumb_label="About")))
+    pages.append(("resources/index.html", render_static(
+        RESOURCES["url"], "/resources/", RESOURCES["title"],
+        RESOURCES["description"], RESOURCES["body"], crumb_label="Resources")))
     pages.append(("404.html", render_static(
         "/404.html", None, "Page not found", "The page you looked for is not here.",
         "<h1>404</h1><p>The page you were looking for doesn't exist. "

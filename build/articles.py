@@ -6792,6 +6792,42 @@ EDITORIAL = {
 }
 
 # ---------------------------------------------------------------------------
+# Resources page (2026-11-04): curated outbound links — directories that list
+# WagWise plus the poison-control references we cite most. Reciprocal links
+# live here ONLY (never in nav/footer), per the 10-26 directory rule.
+# ---------------------------------------------------------------------------
+RESOURCES = {
+    "url": "/resources/",
+    "title": "Dog Care Resources We Trust — WagWise Pet",
+    "description": "The dog care resources we actually use: poison-control hotlines, the veterinary references behind every WagWise guide, plus directories that list WagWise.",
+    "body": """
+    <h1>Dog care resources we trust</h1>
+    <p>This page collects the places we send readers when a question goes beyond our guides, plus the directories that list WagWise. Every link here is one we have used ourselves while researching this site.</p>
+
+    <h2>Poison control &amp; urgent reference</h2>
+    <ul>
+      <li><strong><a href="https://www.aspca.org/pet-care/animal-poison-control" rel="nofollow">ASPCA Animal Poison Control Center</a></strong> — 24/7 poison emergency hotline (a consultation fee applies) plus a free searchable list of toxic and non-toxic plants, foods, and household products.</li>
+      <li><strong><a href="https://www.petpoisonhelpline.com/" rel="nofollow">Pet Poison Helpline</a></strong> — 24/7 animal poison control for North America, with free, clearly written articles on specific toxins like xylitol, chocolate, and grapes.</li>
+    </ul>
+
+    <h2>Veterinary references behind our guides</h2>
+    <ul>
+      <li><strong><a href="https://www.merckvetmanual.com/" rel="nofollow">Merck Veterinary Manual</a></strong> — the veterinary profession's standard reference, free online. Where our dose and symptom guides come from.</li>
+      <li><strong><a href="https://www.avma.org/" rel="nofollow">American Veterinary Medical Association (AVMA)</a></strong> — position statements and owner guides, including the size-adjusted ageing approximation our <a href="/tools/dog-age-calculator/">dog age calculator</a> uses.</li>
+      <li><strong><a href="https://www.akc.org/expert-advice/" rel="nofollow">AKC Expert Advice</a></strong> — breed-specific care and training guidance from the American Kennel Club.</li>
+    </ul>
+
+    <h2>Directories that list WagWise</h2>
+    <ul>
+      <li><strong><a href="https://puppysites.com">PuppySites.com</a></strong> — one of the oldest hand-maintained directories of dog websites on the web, running since 1999.</li>
+    </ul>
+
+    <h2>Suggest a resource</h2>
+    <p>Know a reference we should be using? Email <a href="mailto:contact@wagwise.org">contact@wagwise.org</a>. We only list sources we have actually checked our own guides against.</p>
+    """,
+}
+
+# ---------------------------------------------------------------------------
 # Tool pages (interactive calculators / widgets).
 # ---------------------------------------------------------------------------
 TOOL = {
