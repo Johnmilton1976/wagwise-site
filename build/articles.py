@@ -170,6 +170,7 @@ ARTICLES = [
           <li>Reacting to whining by letting the puppy out every time, which trains it to cry for freedom.</li>
           <li>Rushing the timeline and expecting a full night on day one.</li>
         </ul>
+        <p>Most training problems trace back to the box itself — too small, too flimsy, or wrong for an escape artist. Before you blame the puppy, check the <a href="/best/dog-crate/">best dog crate</a> guide against what you own: sizing by weight, escape-proofing and the models worth shortlisting.</p>
         """,
         "faq": [
             ("How long does it take to crate train a puppy?", "Most puppies accept the crate within a week and sleep through the night within two to three weeks. An older rescue dog can take longer if it has negative associations to confine."),
@@ -1841,6 +1842,7 @@ ARTICLES = [
 
         <h2>Bottom line</h2>
         <p>Buy once: a size-adjustable wire crate with a divider and a rigid tray for the house, and a crash-tested travel crate only if you drive with your dog regularly. Spend the effort on sizing and on the first week of training — those two things decide whether the crate works, far more than the brand does.</p>
+        <p>Buying is only half of it — the first week is what decides whether the crate becomes a retreat or a battle. Our <a href="/dog-training/how-to-crate-train-a-puppy/">crate training guide</a> covers the first night step by step, including the mistakes that teach a puppy to hate the box.</p>
         """,
         "faq": [
             ("What size crate does my dog need?", "Big enough to stand, turn, and lie down. Measure nose to tail base and floor to head, then add 5–10 cm to each. For a puppy, buy the adult size and use a divider to keep the space snug now."),
