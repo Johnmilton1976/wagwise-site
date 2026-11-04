@@ -7423,6 +7423,21 @@ PILLAR_BODY["cat"] = """
 
 <h2>When it is not behavioural at all</h2>
 <p>See a vet rather than adjusting the house if: a cat stops eating for more than 24 hours (in cats this is a genuine emergency, not a hunger strike), drinks and urinates noticeably more, loses weight while eating normally, has a sudden change in litter box habits after years of consistency, or starts vocalising at night when it never used to. Those five are the classic presentations of the conditions that are treatable early and difficult late.</p>
+
+<h2>Which guide answers your question</h2>
+<p>Nine guides cover this section. Match the complaint to the guide rather than reading them in order — the cat in front of you has one problem, not nine.</p>
+<table>
+  <tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">Go here</th></tr>
+  <tr><td>A new cat, no idea where to start</td><td><a href="/cat/cat-litter-training/">Litter box training from day one</a></td></tr>
+  <tr><td>Peeing or pooing outside a box that used to work</td><td><a href="/cat/cat-not-using-litter-box/">Why cats stop using the litter box</a> — vet first, behaviour second</td></tr>
+  <tr><td>Vertical spray marks on walls, doors or furniture</td><td><a href="/cat/cat-spraying-how-to-stop/">How to stop a cat spraying indoors</a></td></tr>
+  <tr><td>Sofa and chair corners shredded</td><td><a href="/cat/cat-scratching-furniture/">Redirecting scratching to a post that works</a></td></tr>
+  <tr><td>Wretching, coughing up tubes of hair</td><td><a href="/cat/cat-hairballs/">Hairballs: when they are normal and when they are not</a></td></tr>
+  <tr><td>Yowling at 3am, every night</td><td><a href="/cat/why-does-my-cat-meow-at-night/">Why cats meow at night</a> — including the age and thyroid angle</td></tr>
+  <tr><td>Second cat arriving, or a slow introduction</td><td><a href="/cat/how-to-introduce-cats/">Introducing cats without a fight</a></td></tr>
+  <tr><td>Resident cats suddenly fighting</td><td><a href="/cat/cats-fighting-in-same-house/">Cats fighting in the same house</a> — includes the post-vet non-recognition trap</td></tr>
+  <tr><td>Hiding, over-grooming, off food, "not himself"</td><td><a href="/cat/signs-of-stress-in-cats/">Signs of stress in cats</a> — starts with the physical signals</td></tr>
+</table>
 """
 
 PILLAR_BODY["best"] = """

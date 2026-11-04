@@ -619,8 +619,23 @@ def render_article(a):
         faq_html = '<div class="faq"><h2>Frequently asked questions</h2>%s</div>' % items
 
     # Related reading
+    # 哥飞 round-2 (11-04): the cat pages rank best on the site yet received no
+    # internal links at all — nine cat guides with no sibling links is an orphan
+    # cluster. Cat articles therefore link to every other cat guide (hand-picked
+    # related first, then the rest of the pillar), not just the three chosen.
     rel_html = ""
-    if a.get("related"):
+    if a["pillar"] == "cat":
+        order = [s for s in a.get("related", []) if s != slug]
+        order += [x["slug"] for x in ARTICLES
+                  if x["pillar"] == "cat" and x["slug"] != slug and x["slug"] not in order]
+        lis = "".join(
+            '<li><a href="%s">%s</a></li>' % (LOOKUP[s][0], LOOKUP[s][1]) for s in order
+        )
+        rel_html = ('<div class="related"><h2>All cat guides</h2>'
+                    '<p class="srcnote">Nine guides make up this section. Start with the one '
+                    "that matches your problem, then follow the links inside it.</p>"
+                    "<ul>%s</ul></div>" % lis)
+    elif a.get("related"):
         lis = "".join(
             '<li><a href="%s">%s</a></li>' % (LOOKUP[s][0], LOOKUP[s][1]) for s in a["related"]
         )
