@@ -14,6 +14,16 @@ to use the baking-chocolate row when in doubt, which errs towards calling.
 
 CHOCO_BODY = """
 <style>
+/* Embeddable mode (?embed=1). Kept inline, and scoped, on purpose: the rules
+   belong to this page only, so shipping them here avoids re-versioning the
+   site-wide stylesheet and re-writing 87 unrelated files. */
+html.embed .site-head,html.embed .site-foot,html.embed .crumbs,
+html.embed .lede,html.embed .eyebrow,html.embed .doc,html.embed .cfc-bar{display:none!important}
+html.embed main{padding:0}
+html.embed .calc-scale{margin-bottom:0}
+html.embed .wrap.narrow{max-width:none;padding:14px 14px 6px}
+html.embed h1{font-size:19px;line-height:1.3;margin:0 0 10px}
+html.embed .calc-card{margin:0 0 10px;padding:18px}
 .calc-card{max-width:560px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
 .calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027;width:100%;box-sizing:border-box}
@@ -227,11 +237,7 @@ CHOCO_BODY = """
 
   all();
 
-  if (location.search.indexOf('embed=1') > -1) {
-    ['header.site-head','footer.site-foot','.crumbs','.lede','h1','.eyebrow'].forEach(function(sel){
-      var el=document.querySelector(sel); if(el){ el.style.display='none'; }
-    });
-  }
+  if (location.search.indexOf('embed=1') > -1) document.documentElement.className += ' embed';
 })();
 </script>
 """

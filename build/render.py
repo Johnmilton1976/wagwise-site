@@ -1027,12 +1027,32 @@ CALC_BODY = """
 """
 
 
+def tool_jsonld(name, url_path, desc):
+    """A calculator is a WebApplication. Until now both tool pages declared only
+    the site-wide WebSite entity, which tells search engines nothing about the
+    page being a tool rather than an article."""
+    return json.dumps({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": name,
+        "url": DOMAIN + url_path,
+        "description": desc,
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any (modern web browser)",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": True,
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "publisher": {"@type": "Organization", "name": SITE_NAME},
+    }, ensure_ascii=False)
+
+
 def render_tool(t):
     bc = breadcrumb_jsonld([("Home", "/"), (t["title"], t["url"])])
-    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website", None, bc)
+    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website",
+             tool_jsonld(t["title"], t["url"], t["description"]), bc)
     body = CALC_BODY.replace(
         '<div class="wrap narrow">',
-        '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a Tools</div>',
+        '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a Dog age</div>',
         1,
     )
     return shell(h, t["url"], body)
@@ -1045,11 +1065,12 @@ def render_choco_tool(t):
     it out of this file keeps the build logic readable.
     """
     bc = breadcrumb_jsonld([("Home", "/"), (t["title"], t["url"])])
-    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website", None, bc)
+    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website",
+             tool_jsonld(t["title"], t["url"], t["description"]), bc)
     body = CHOCO_BODY.replace(
         '<div class="wrap narrow">',
         '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a '
-        '<a href="/tools/dog-age-calculator/">Tools</a> \u203a Chocolate toxicity</div>',
+        'Chocolate toxicity</div>',
         1,
     )
     return shell(h, t["url"], body)

@@ -53,7 +53,7 @@ PILLARS = {
   <li><strong>No safe dose.</strong> Nothing established as safe, or a harmful amount small enough to arrive by accident. These end in a phone call.</li>
 </ul>
 <div class="callout">
-<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">toxic foods for dogs and the foods dogs can eat</a> — all 47 by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
+<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">toxic foods for dogs and the foods dogs can eat</a> — all 47 by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. For the chocolate row specifically, <a href="/tools/chocolate-toxicity-calculator/">the chocolate toxicity calculator</a> turns weight and cocoa type into the mg/kg figure a vet will ask for. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
 </div>
 
 <h2>The three variables that decide almost every case</h2>
@@ -694,7 +694,7 @@ ARTICLES = [
         <table>
           <thead><tr><th>Toxin</th><th>Signs beyond trembling</th></tr></thead>
           <tbody>
-            <tr><td>Chocolate (theobromine)</td><td>Vomiting, hyperactivity, racing heart, seizures</td></tr>
+            <tr><td><a href="/tools/chocolate-toxicity-calculator/">Chocolate (theobromine)</a></td><td>Vomiting, hyperactivity, racing heart, seizures</td></tr>
             <tr><td>Xylitol</td><td>Weakness, collapse, seizures — from hypoglycaemia and liver injury</td></tr>
             <tr><td>Grapes and raisins</td><td>Vomiting, then kidney failure over days</td></tr>
             <tr><td><strong>Pyrethrin / permethrin flea products</strong></td><td>Tremors, drooling, twitching, unsteadiness — <strong>especially when a cat product is applied to a dog</strong></td></tr>
@@ -1003,7 +1003,7 @@ ARTICLES = [
           <tr><td><a href="/dog-nutrition/can-dogs-eat-pineapple/">Pineapple</a></td><td>Fresh flesh in small pieces; skip the core and the canned syrup.</td></tr>
         </table>
         <h2>Tier 1 in detail — the ones that actually kill</h2>
-        <p><b>Chocolate.</b> The toxin is theobromine and the dose is everything. Roughly: white chocolate 0.25 mg per gram, milk chocolate 2.4, dark chocolate 5 to 6, unsweetened baking chocolate 16 to 26, cocoa powder around 26 mg per gram. Signs start at about 20 mg per kg of body weight, heart rhythm problems appear around 40 to 50, and seizures above 60. A 10 kg dog eating 100 g of dark chocolate takes in roughly 550 mg — 55 mg per kg, squarely in the cardiac range. The same weight of milk chocolate lands at 24 mg per kg: upset stomach territory, not emergency territory. That gap is why "how much chocolate" has no single answer, and why the calculator matters more than the rule.</p>
+        <p><b>Chocolate.</b> The toxin is theobromine and the dose is everything. Roughly: white chocolate 0.25 mg per gram, milk chocolate 2.4, dark chocolate 5 to 6, unsweetened baking chocolate 16 to 26, cocoa powder around 26 mg per gram. Signs start at about 20 mg per kg of body weight, heart rhythm problems appear around 40 to 50, and seizures above 60. A 10 kg dog eating 100 g of dark chocolate takes in roughly 550 mg — 55 mg per kg, squarely in the cardiac range. The same weight of milk chocolate lands at 24 mg per kg: upset stomach territory, not emergency territory. That gap is why "how much chocolate" has no single answer, and why <a href="/tools/chocolate-toxicity-calculator/">the chocolate dose calculator</a> matters more than the rule.</p>
         <p><b>Grapes and raisins.</b> No known safe dose. The mechanism is still unidentified, and individual dogs vary enormously — some eat a handful with no effect, others go into kidney failure from a few. Because the sensitivity cannot be predicted, any ingestion is treated as serious. Raisins are worse by weight, since drying concentrates whatever the toxin is.</p>
         <p><b>Xylitol.</b> A sugar alcohol in sugar-free gum, some mints, some peanut butters and an increasing number of "no added sugar" products. About 0.1 g per kg causes dangerous hypoglycaemia within 30 minutes; around 0.5 g per kg brings liver injury into play. For a 10 kg dog, that first threshold is one gram — less than a single stick of gum.</p>
         <p><b>Onions and garlic.</b> Both damage red blood cells; garlic is the more concentrated of the two. A single large ingestion causes haemolytic anaemia, but repeated small amounts in leftovers do the same thing slowly, which is how it is usually missed. Signs can take days to appear — pale gums, weakness, dark urine.</p>
@@ -5254,7 +5254,7 @@ ARTICLES = [
         </ul>
         <p>The distinguishing features are the ones an owner can supply: <strong>sudden onset, no pain, and a timeline that traces back to a specific snack</strong>. A dog with disc disease hurts when you press along the spine. A dog with macadamia poisoning does not — it just cannot coordinate its back end, and it is running a temperature.</p>
         <p>That is why the single most useful sentence you can say at the clinic is what the dog ate and when. With that information the diagnosis is straightforward and the treatment is supportive: fluids, rest, and time. Without it, a dog can end up having spinal X-rays for a nut.</p>
-        <p>Prognosis is genuinely good — most dogs are normal again within 24 to 48 hours, and permanent damage is rare. The exception is the dog that ate chocolate-covered macadamias, where theobromine is added on top and the picture changes completely.</p>
+        <p>Prognosis is genuinely good — most dogs are normal again within 24 to 48 hours, and permanent damage is rare. The exception is the dog that ate chocolate-covered macadamias, where <a href="/tools/chocolate-toxicity-calculator/">theobromine is added on top</a> and the picture changes completely.</p>
 
         <h2>Hidden sources to watch for</h2>
         <ul>
