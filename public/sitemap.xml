@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-peanut-butter/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,13 +212,13 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-grapes/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-chocolate/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -505,8 +505,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://wagwise.org/tools/chocolate-toxicity-calculator/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://wagwise.org/dog-nutrition/food-safety-chart/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

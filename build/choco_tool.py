@@ -1,0 +1,237 @@
+# -*- coding: utf-8 -*-
+"""Chocolate toxicity calculator — body markup + script (2026-11).
+
+Kept in its own module because the page is 90% markup: dropping 400 lines of
+HTML into render.py would bury the build logic. Imported by render.py.
+
+Data: theobromine per ounce of product, the figures used in veterinary
+toxicology references (Merck Veterinary Manual; ASPCA APCC chocolate table).
+The published values are per ounce, and they are what the calculator divides
+by — no interpolated "70% dark" row, because cocoa-solids content varies too
+much between bars for a single number to be honest. The page tells the reader
+to use the baking-chocolate row when in doubt, which errs towards calling.
+"""
+
+CHOCO_BODY = """
+<style>
+.calc-card{max-width:560px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
+.calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027;width:100%;box-sizing:border-box}
+.calc-row{display:flex;gap:10px;align-items:center}
+.calc-row input{flex:1}
+.calc-row select{width:auto;flex:0 0 96px}
+.calc-card button{margin-top:18px;width:100%;padding:13px;background:#3FA97E;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer}
+.calc-card button:hover{background:#348c69}
+.calc-result{margin-top:18px;padding:16px;border-radius:10px;background:#EAF5EF;color:#1f5c43;font-size:19px;font-weight:700;text-align:center;line-height:1.45}
+.calc-result small{display:block;font-size:13px;font-weight:500;margin-top:6px;color:#41685a}
+.calc-result.watch{background:#FBF3DF;color:#7A5A15}
+.calc-result.watch small{color:#7A5A15}
+.calc-result.bad{background:#FBE9E3;color:#8C3A1B}
+.calc-result.bad small{color:#8C3A1B}
+.calc-note{font-size:14px;color:#6b6f66;margin-top:10px}
+.calc-scale{margin-top:16px}
+.calc-scale .band{height:12px;border-radius:6px;background:linear-gradient(90deg,#8FCFA8 0%,#8FCFA8 20%,#F2CE7E 20%,#F2CE7E 40%,#EFA06F 40%,#EFA06F 60%,#E0704A 60%,#E0704A 100%)}
+.calc-scale .mark{position:relative;height:22px}
+.calc-scale .mark i{position:absolute;top:-16px;width:2px;height:16px;background:#243027}
+</style>
+<div class="wrap narrow">
+  <div class="eyebrow">TOOLS</div>
+  <h1>Chocolate toxicity calculator for dogs</h1>
+  <p class="lede">How much chocolate is dangerous depends on three things: your dog's weight, the type of chocolate, and how much of it went down. This calculator turns those into the number a vet actually asks for — milligrams of theobromine per kilogram of dog.</p>
+
+  <div class="calc-card">
+    <label for="ch-weight">Your dog's weight</label>
+    <div class="calc-row">
+      <input id="ch-weight" type="number" min="0.5" step="0.1" value="10">
+      <select id="ch-unit">
+        <option value="kg" selected>kg</option>
+        <option value="lb">lb</option>
+      </select>
+    </div>
+
+    <label for="ch-type">What did your dog eat?</label>
+    <select id="ch-type">
+      <option value="white">White chocolate (no cocoa solids)</option>
+      <option value="milk" selected>Milk chocolate — bars, buttons, Easter eggs</option>
+      <option value="semi">Semi-sweet chocolate — dark chips, 50–60% bars</option>
+      <option value="baking">Baking / unsweetened chocolate, 85%+ bars</option>
+      <option value="cocoa">Cocoa powder, drinking chocolate, hot-chocolate powder</option>
+    </select>
+
+    <label for="ch-amount">How much was eaten</label>
+    <div class="calc-row">
+      <input id="ch-amount" type="number" min="0" step="1" value="100">
+      <select id="ch-amtunit">
+        <option value="g" selected>grams</option>
+        <option value="oz">ounces</option>
+      </select>
+    </div>
+
+    <button id="ch-go" type="button">Check the dose</button>
+    <div id="ch-out" class="calc-result">Enter the weight and the amount.<small>The result appears here.</small></div>
+    <div class="calc-scale">
+      <div class="band"></div>
+      <div class="mark" id="ch-mark"></div>
+    </div>
+    <p class="calc-note">Estimate only. It cannot account for how empty your dog's stomach was, how sensitive that individual is, or the caffeine in the same bar. If your dog is small, already unwell, or has eaten baking chocolate, phone the vet with these numbers rather than reading further.</p>
+  </div>
+
+  <div class="doc">
+    <h2 id="how-much">How much chocolate is toxic to a dog?</h2>
+    <p>The toxic dose is not measured in squares of chocolate. It is measured in <strong>theobromine per kilogram of body weight</strong>, and the amount of theobromine in a gram of chocolate varies by a factor of about <strong>3,000</strong> between white chocolate and cocoa powder. That is why "my dog ate some chocolate" spans everything from a stomach ache to a seizure in the next six hours, and why the answer to this question is always two numbers: the dose and the ratio.</p>
+    <p>Dogs metabolise theobromine far more slowly than people do — the half-life in dogs is roughly 17.5 hours against two to three in humans — so the dose stacks up rather than clearing overnight. A dose that would be a strong coffee for you is a 12-hour hospitalisation for a Chihuahua.</p>
+
+    <h2>The four thresholds vets work from</h2>
+    <p>These are the bands used in small-animal toxicology. They are cumulative: a dose above 60 mg/kg has already passed through the two lower bands.</p>
+    <table>
+      <tr><th style="text-align:left">Dose of theobromine</th><th style="text-align:left">What it usually produces</th><th style="text-align:left">What to do</th></tr>
+      <tr><td>Under 10 mg/kg</td><td>Nothing in most dogs; a sensitive or small dog may have loose stool</td><td>Watch for 12 hours, water available, no need to phone unless something changes</td></tr>
+      <tr><td>10&ndash;20 mg/kg</td><td>First mild signs are reported here in some dogs — vomiting, thirst, restlessness</td><td>Phone your vet for advice; most cases are managed at home with observation</td></tr>
+      <tr><td>20&ndash;40 mg/kg</td><td>Vomiting, diarrhoea, excessive thirst, hyperactivity, and a raised heart rate</td><td>Vet visit the same day. Vets may induce vomiting if it is inside two hours</td></tr>
+      <tr><td>40&ndash;60 mg/kg</td><td>Cardiac effects: tachycardia, arrhythmia. This is the band where dogs are admitted</td><td>Emergency clinic. Do not wait for symptoms</td></tr>
+      <tr><td>Over 60 mg/kg</td><td>Seizures, muscle tremor, hyperthermia, coma. The published lethal range starts around 100&ndash;200 mg/kg</td><td>Emergency clinic immediately, in the car, now</td></tr>
+    </table>
+    <div class="callout">
+      <p><strong>Why the bands look lower than some charts.</strong> A few online tables only start at 20 mg/kg, because that is where clinical signs become common in a study population. Individual dogs vary, and the cost of treating the 10&ndash;20 band as "nothing to worry about" is a dog that is vomiting by midnight. The calculator flags that band as "watch", not "safe".</p>
+    </div>
+
+    <h2>How much chocolate reaches each threshold</h2>
+    <p>Same bands, expressed as grams of chocolate, for four common dog weights and the chocolate type selected above. This is the table to screenshot on your phone at 11pm:</p>
+    <table id="ch-table">
+      <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">10 mg/kg</th><th style="text-align:left">20 mg/kg</th><th style="text-align:left">40 mg/kg</th><th style="text-align:left">60 mg/kg</th></tr>
+    </table>
+    <p>Read a row across, not down. A 10 kg dog needs about <strong>129 g of milk chocolate</strong> to reach the 20 mg/kg band — roughly four and a half ounces, or one and a half standard 90 g bars. The same dog reaches the same band on <strong>14.5 g of baking chocolate</strong>, which is less than half a square. Same species, same night, two completely different afternoons.</p>
+
+    <h2>What to do in the next ten minutes</h2>
+    <p>In this order, because the order matters:</p>
+    <ol>
+      <li><strong>Do not induce vomiting unless a vet tells you to.</strong> Chocolate is not a caustic, but vomiting has its own risks, the window for it is roughly two hours, and it is not the right move for every dog — particularly a brachycephalic breed or a dog that is already drowsy or twitching.</li>
+      <li><strong>Find the packaging.</strong> The wrapper gives the cocoa percentage and the net weight, which converts the calculator's estimate into a real number. "A bar of chocolate" is not a dose; "90 g of 70% cocoa" is.</li>
+      <li><strong>Weigh the dog if you can, guess honestly if you cannot.</strong> Owners underestimate small dogs and overestimate large ones. A 10% error in weight rarely changes the decision; being wrong by a factor of two does.</li>
+      <li><strong>Phone with the four numbers:</strong> body weight, product and cocoa percentage, grams eaten, and how long ago. The vet needs all four to decide whether to see the dog.</li>
+      <li><strong>Watch for the first signs</strong> — restlessness, drinking more than usual, vomiting, a racing heart you can feel through the chest wall. Signs usually start within <strong>6 to 12 hours</strong> and can persist for up to 72 because of that long half-life.</li>
+    </ol>
+
+    <h2>Why "dark chocolate is fine, it's the sugar that's bad" is backwards</h2>
+    <p>The darker the chocolate, the more cocoa solids, and cocoa solids are where the theobromine is. The sugar and fat in milk chocolate are a calorie problem; the cocoa is the poison problem. Per gram, baking chocolate carries roughly <strong>nine times</strong> the theobromine of milk chocolate, and milk chocolate about <strong>176 times</strong> what white chocolate does. That is why a single square of the 90% bar in the cupboard is a bigger event than half an Easter egg.</p>
+    <p>Two other things catch owners out. <strong>Cocoa powder and drinking chocolate</strong> are the most concentrated form in a normal kitchen — a spoonful in a mug is a serious dose for a small dog, and cocoa powder is also the one product whose label almost never states a percentage. <strong>Cocoa bean mulch</strong> in the garden is the same compound in a form dogs find interesting; it is covered on the <a href="/dog-nutrition/can-dogs-eat-chocolate/">full chocolate guide</a>.</p>
+
+    <h2>What the vet will do with these numbers</h2>
+    <p>If the dog is inside two hours of eating and the dose is above roughly 20 mg/kg, many clinics induce vomiting with apomorphine or hydrogen peroxide under supervision, then give activated charcoal to limit absorption. Above 40 mg/kg expect fluids, a heart monitor, and possibly a beta-blocker for the tachycardia; the tremors and seizures are managed with benzodiazepines. Most dogs that are treated in the 20&ndash;40 band go home the same day. Most of the deaths in the literature are in dogs that reached the top band before anyone was called.</p>
+
+    <h2>Sources and review</h2>
+    <p>The theobromine figures behind this calculator are the per-ounce values published in veterinary toxicology references — 0.25 mg/oz for white chocolate, 44 for milk, 150 for semi-sweet, 390 for baking chocolate and 737 for dry cocoa powder — with the clinical bands from the same literature. Where ranges exist in the sources, the calculator uses the lower end, because under-estimating a chocolate dose is the direction that gets a dog seen.</p>
+    <p>This is general information, not veterinary advice, and it cannot examine your dog. For anything urgent, call your vet or the nearest emergency clinic — and if you are reading this at night with the dog in the room, call first and read afterwards. Last reviewed 6 November 2026.</p>
+
+    <h2>Put this calculator on your own site</h2>
+    <p>Vet clinics, breeders and pet blogs are welcome to embed it. The snippet is the whole tool, it sets no cookie and needs no script from us:</p>
+    <div class="callout">
+      <p style="font-size:13px;word-break:break-all">&lt;iframe src="https://wagwise.org/tools/chocolate-toxicity-calculator/?embed=1" width="100%" height="820" style="border:1px solid #e3e0d8;border-radius:14px" title="Chocolate toxicity calculator for dogs"&gt;&lt;/iframe&gt;</p>
+      <p style="font-size:13px;word-break:break-all">&lt;p&gt;Calculator by &lt;a href="https://wagwise.org/tools/chocolate-toxicity-calculator/"&gt;WagWise Pet&lt;/a&gt; — theobromine dose by body weight.&lt;/p&gt;</p>
+    </div>
+
+    <h2>Quick answers</h2>
+    <h3>How much chocolate is toxic to a dog?</h3>
+    <p>It depends on the theobromine load, not the weight of the chocolate. Clinical signs usually start around 20 mg of theobromine per kilogram of body weight, cardiac effects around 40 mg/kg and seizures above 60 mg/kg. In practice that is roughly 129 g of milk chocolate for a 10 kg dog, or 14.5 g of baking chocolate.</p>
+    <h3>How long after eating chocolate will a dog show symptoms?</h3>
+    <p>Usually within 6 to 12 hours, and signs can persist for up to 72 hours because the half-life of theobromine in dogs is about 17.5 hours. A dog that is still normal at four hours is not out of the window — the peak often comes later.</p>
+    <h3>Can one square of dark chocolate hurt a dog?</h3>
+    <p>It can, in a small dog. A square of 85% chocolate is about 10 g, which carries roughly 140 mg of theobromine — around 28 mg/kg for a 5 kg dog, already past the level where vomiting is expected. The same square in a 30 kg dog is under 5 mg/kg.</p>
+    <h3>Should I make my dog vomit after eating chocolate?</h3>
+    <p>Not unless a vet tells you to. Vomiting is only useful inside roughly two hours, it carries its own risks, and it is the wrong move for a flat-faced breed or a dog that is already drowsy or twitching. Phone first and let the vet decide.</p>
+    
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much chocolate is toxic to a dog?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the theobromine load, not the weight of the chocolate. Clinical signs usually start around 20 mg of theobromine per kilogram of body weight, cardiac effects around 40 mg/kg and seizures above 60 mg/kg. In practice that is roughly 129 g of milk chocolate for a 10 kg dog, or 14.5 g of baking chocolate."}}, {"@type": "Question", "name": "How long after eating chocolate will a dog show symptoms?", "acceptedAnswer": {"@type": "Answer", "text": "Usually within 6 to 12 hours, and signs can persist for up to 72 hours because the half-life of theobromine in dogs is about 17.5 hours. A dog that is still normal at four hours is not out of the window — the peak often comes later."}}, {"@type": "Question", "name": "Can one square of dark chocolate hurt a dog?", "acceptedAnswer": {"@type": "Answer", "text": "It can, in a small dog. A square of 85% chocolate is about 10 g, which carries roughly 140 mg of theobromine — around 28 mg/kg for a 5 kg dog, already past the level where vomiting is expected. The same square in a 30 kg dog is under 5 mg/kg."}}, {"@type": "Question", "name": "Should I make my dog vomit after eating chocolate?", "acceptedAnswer": {"@type": "Answer", "text": "Not unless a vet tells you to. Vomiting is only useful inside roughly two hours, it carries its own risks, and it is the wrong move for a flat-faced breed or a dog that is already drowsy or twitching. Phone first and let the vet decide."}}]}</script>
+
+    <h2>Chocolate questions owners ask next</h2>
+    <p>The three that come up most: <a href="/dog-nutrition/can-dogs-eat-chocolate/">how much chocolate is toxic</a> (the full guide, with the symptom timeline), <a href="/dog-nutrition/food-safety-chart/">the 47-food safety chart</a> (where chocolate sits in Tier 4), and <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes</a>, which behave differently — there is no dose threshold at all.</p>
+  </div>
+</div>
+<script>
+(function(){
+  /* Theobromine per ounce of product, from the veterinary toxicology tables.
+     No interpolated row for "70% dark": cocoa-solids content varies too much
+     between bars for one number to be honest, and the prose says to use the
+     baking row when unsure. */
+  var MG_OZ = {white:0.25, milk:44, semi:150, baking:390, cocoa:737};
+  var NAME = {white:'white chocolate', milk:'milk chocolate', semi:'semi-sweet chocolate',
+              baking:'baking or 85%+ chocolate', cocoa:'cocoa powder'};
+  var OZ = 28.3495;
+  var BANDS = [
+    {max:10,  cls:'good',  label:'below the reported threshold'},
+    {max:20,  cls:'watch', label:'in the watch band'},
+    {max:40,  cls:'bad',   label:'above the vomiting threshold'},
+    {max:60,  cls:'bad',   label:'in the cardiac band'},
+    {max:1e9, cls:'bad',   label:'in the seizure band'}
+  ];
+
+  var wEl=document.getElementById('ch-weight'), uEl=document.getElementById('ch-unit'),
+      tEl=document.getElementById('ch-type'), aEl=document.getElementById('ch-amount'),
+      auEl=document.getElementById('ch-amtunit'), out=document.getElementById('ch-out'),
+      mark=document.getElementById('ch-mark'), table=document.getElementById('ch-table');
+
+  function val(el){ var v=parseFloat(el.value); return isNaN(v)||v<0?0:v; }
+
+  function band(d){
+    for (var i=0;i<BANDS.length;i++){ if (d < BANDS[i].max) return BANDS[i]; }
+    return BANDS[BANDS.length-1];
+  }
+
+  function advice(d, type, kg){
+    if (d < 10) return 'Watch for 12 hours, keep water down, and phone if anything changes.';
+    if (d < 20) return 'Phone your vet for advice. Most dogs here are watched at home, not admitted.';
+    if (d < 40) return 'Same-day vet visit. Vets may induce vomiting if it is within two hours.';
+    if (d < 60) return 'Emergency clinic now. Expect fluids and a heart monitor.';
+    return 'Emergency clinic immediately — do not wait for symptoms to start.';
+  }
+
+  function calc(){
+    var kg = uEl.value === 'lb' ? val(wEl)/2.20462 : val(wEl);
+    var type = tEl.value;
+    var grams = auEl.value === 'oz' ? val(aEl)*OZ : val(aEl);
+    if (!kg || !grams) { out.className='calc-result'; out.innerHTML='Enter the weight and the amount.<small>The result appears here.</small>'; return; }
+
+    var mgPerG = MG_OZ[type]/OZ;
+    var dose = grams*mgPerG/kg;
+    var b = band(dose);
+    var thresh = 20*kg/mgPerG;   /* grams needed to reach the 20 mg/kg band */
+    var pct = Math.min(100, Math.max(2, dose/100*100));
+
+    out.className = 'calc-result' + (b.cls==='good'?'':' '+b.cls);
+    out.innerHTML = Math.round(dose*10)/10 + ' mg/kg — ' + b.label +
+      '<small>' + grams.toFixed(0) + ' g of ' + NAME[type] + ' for a ' +
+      (Math.round(kg*10)/10) + ' kg dog. ' + advice(dose, type, kg) + '</small>';
+
+    mark.innerHTML = '<i style="left:' + pct + '%"></i>';
+  }
+
+  function buildTable(){
+    var type = tEl.value, mgPerG = MG_OZ[type]/OZ;
+    var rows = '';
+    [5,10,20,30].forEach(function(kg){
+      rows += '<tr><td>' + kg + ' kg</td>';
+      [10,20,40,60].forEach(function(t){
+        var g = t*kg/mgPerG;
+        rows += '<td>' + (g < 10 ? g.toFixed(1) : Math.round(g)) + ' g</td>';
+      });
+      rows += '</tr>';
+    });
+    table.innerHTML = '<tr><th style="text-align:left">Dog weight</th><th style="text-align:left">10 mg/kg</th>' +
+      '<th style="text-align:left">20 mg/kg</th><th style="text-align:left">40 mg/kg</th>' +
+      '<th style="text-align:left">60 mg/kg</th></tr>' + rows;
+  }
+
+  function all(){ calc(); buildTable(); }
+  ['ch-weight','ch-amount'].forEach(function(id){ document.getElementById(id).addEventListener('input', calc); });
+  ['ch-unit','ch-amtunit','ch-type'].forEach(function(id){ document.getElementById(id).addEventListener('change', all); });
+  document.getElementById('ch-go').addEventListener('click', all);
+
+  all();
+
+  if (location.search.indexOf('embed=1') > -1) {
+    ['header.site-head','footer.site-foot','.crumbs','.lede','h1','.eyebrow'].forEach(function(sel){
+      var el=document.querySelector(sel); if(el){ el.style.display='none'; }
+    });
+  }
+})();
+</script>
+"""

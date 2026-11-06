@@ -160,8 +160,8 @@
   "h": "31fb58dca6dbee64496a2db60ac1203ddce18df6"
  },
  "public/dog-nutrition/can-dogs-eat-chocolate/index.html": {
-  "d": "2026-11-04",
-  "h": "35b6ccf7c1803e94c0c4f78370674ff6680e964f"
+  "d": "2026-11-06",
+  "h": "17c27abd11de5d00b93863a9b5fdae0fe9d35140"
  },
  "public/dog-nutrition/can-dogs-eat-corn/index.html": {
   "d": "2026-11-04",
@@ -180,8 +180,8 @@
   "h": "674c87203a77585448c5140678f127d698725a32"
  },
  "public/dog-nutrition/can-dogs-eat-grapes/index.html": {
-  "d": "2026-11-04",
-  "h": "d87b37c113bfbd8e4721c9f422f5eb11190c886b"
+  "d": "2026-11-06",
+  "h": "05ba7c92656bcb46eb8fb5416eccef73856870c4"
  },
  "public/dog-nutrition/can-dogs-eat-green-beans/index.html": {
   "d": "2026-11-04",
@@ -220,8 +220,8 @@
   "h": "c9f06dd043b7b60502103eeb461b3888e3512791"
  },
  "public/dog-nutrition/can-dogs-eat-peanut-butter/index.html": {
-  "d": "2026-11-04",
-  "h": "173578f021f2a509a4d3b9c578a0bfa182dec72b"
+  "d": "2026-11-06",
+  "h": "73cb06a1f35b7eed1d839075624c65935030dbc4"
  },
  "public/dog-nutrition/can-dogs-eat-peas/index.html": {
   "d": "2026-11-04",
@@ -296,8 +296,8 @@
   "h": "33a498094c838a0aaf147d59f107c4093f84a313"
  },
  "public/dog-nutrition/food-safety-chart/index.html": {
-  "d": "2026-11-02",
-  "h": "2591321065732c3c36ea83e3fbc6d1f2492938c4"
+  "d": "2026-11-06",
+  "h": "d33fb8e36a99d7db225230f39e630a79f3ed46c2"
  },
  "public/dog-nutrition/foods-toxic-to-dogs/index.html": {
   "d": "2026-11-02",
@@ -305,11 +305,11 @@
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
   "d": "2026-11-06",
-  "h": "8b9d64681a4bd56eab8f144f6ce33e7097fc8fc5"
+  "h": "5cc2db3ab7ac7a035a38936b56b42672a8920915"
  },
  "public/dog-nutrition/index.html": {
-  "d": "2026-11-02",
-  "h": "fffc09e0e712f802cc6e452d3cca888b779a2ae4"
+  "d": "2026-11-06",
+  "h": "c22405622a15639d39b05cbfac0de1a032f90adc"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
   "d": "2026-11-04",
@@ -329,7 +329,7 @@
  },
  "public/index.html": {
   "d": "2026-11-06",
-  "h": "268d1ebdf89b2950fd1ecc342acb9c1b2e6b3686"
+  "h": "2c93bd58946d2311f2d7e74c1cee6841757ad348"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",
@@ -342,6 +342,10 @@
  "public/sitemap/index.html": {
   "d": "2026-10-31",
   "h": "92e873234cb655c78ba787643f49fe726bd25fa1"
+ },
+ "public/tools/chocolate-toxicity-calculator/index.html": {
+  "d": "2026-11-06",
+  "h": "6a283fa1d2afd597cde44873df677155061a5fcf"
  },
  "public/tools/dog-age-calculator/index.html": {
   "d": "2026-10-26",

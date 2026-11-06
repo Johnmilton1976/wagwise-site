@@ -22,7 +22,8 @@ import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART, TOOL_CHOCO  # noqa
+from choco_tool import CHOCO_BODY  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -822,6 +823,8 @@ def render_home():
     money_cards = ""
     _money = [(TOOL["url"], TOOL["title"], TOOL["description"],
                "dog-age-calculator", "TOOL"),
+              (TOOL_CHOCO["url"], TOOL_CHOCO["title"], TOOL_CHOCO["description"],
+               "chocolate-toxicity-calculator", "TOOL"),
               (FOOD_CHART["url"], FOOD_CHART["title"], FOOD_CHART["description"],
                "food-safety-chart", "REFERENCE")]
     for _slug, _kick in (("best-dog-crate", "BUYING GUIDE"),
@@ -1035,6 +1038,23 @@ def render_tool(t):
     return shell(h, t["url"], body)
 
 
+def render_choco_tool(t):
+    """Second tool page: chocolate toxicity by body weight.
+
+    The body lives in choco_tool.py — it is markup plus one script, and keeping
+    it out of this file keeps the build logic readable.
+    """
+    bc = breadcrumb_jsonld([("Home", "/"), (t["title"], t["url"])])
+    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website", None, bc)
+    body = CHOCO_BODY.replace(
+        '<div class="wrap narrow">',
+        '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a '
+        '<a href="/tools/dog-age-calculator/">Tools</a> \u203a Chocolate toxicity</div>',
+        1,
+    )
+    return shell(h, t["url"], body)
+
+
 def render_food_chart(fc):
     """The 47-food tiered reference table.
 
@@ -1046,18 +1066,21 @@ def render_food_chart(fc):
     h = head(fc["title"], fc["description"], fc["url"], site_jsonld(), "website", None, bc)
 
     tiers = ""
-    for tier in fc["tiers"]:
+    for i, tier in enumerate(fc["tiers"], 1):
+        # Anchor text is the exact query ("Can dogs eat grapes?", not the bare
+        # food name): these are the 47 target keywords of the section and the
+        # chart is the page with enough authority to pass the signal down.
         rows = "".join(
-            '<tr><td><a href="%s">%s</a></td><td>%s</td><td>%s</td></tr>\n'
-            % (LOOKUP["can-dogs-eat-" + s][0], s.replace("-", " ").title(), form, num)
+            '<tr><td><a href="%s">Can dogs eat %s?</a></td><td>%s</td><td>%s</td></tr>\n'
+            % (LOOKUP["can-dogs-eat-" + s][0], s.replace("-", " "), form, num)
             for s, form, num in tier["rows"]
         )
         tiers += (
-            '<h2>%s</h2>\n<p>%s</p>\n<table class="chart-tbl">\n'
+            '<h2 id="tier-%d">%s</h2>\n<p>%s</p>\n<table class="chart-tbl">\n'
             '<tr><th style="text-align:left">Food</th>'
             '<th style="text-align:left">What is safe</th>'
             '<th style="text-align:left">The number that matters</th></tr>\n'
-            '%s</table>\n\n' % (tier["label"], tier["intro"], rows)
+            '%s</table>\n\n' % (i, tier["label"], tier["intro"], rows)
         )
 
     body = (
@@ -1166,6 +1189,8 @@ def build_sitemap(manifest):
     urls.append((RESOURCES["url"], 0.3, "yearly", "public/resources/index.html"))
     urls.append((TOOL["url"], 0.7, "yearly",
                  "public/%s/index.html" % TOOL["url"].strip("/")))
+    urls.append((TOOL_CHOCO["url"], 0.8, "monthly",
+                 "public/%s/index.html" % TOOL_CHOCO["url"].strip("/")))
     urls.append((FOOD_CHART["url"], 0.8, "monthly",
                  "public/%s/index.html" % FOOD_CHART["url"].strip("/")))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -1208,6 +1233,8 @@ def render_sitemap():
                   a["title"] + '</h3><p>' + a["lede"] + '</p></a>')
     cards += ('<a href="' + TOOL["url"] + '"><div class="k">TOOL</div><h3>' +
               TOOL["title"] + '</h3><p>' + TOOL["description"] + '</p></a>')
+    cards += ('<a href="' + TOOL_CHOCO["url"] + '"><div class="k">TOOL</div><h3>' +
+              TOOL_CHOCO["title"] + '</h3><p>' + TOOL_CHOCO["description"] + '</p></a>')
     cards += ('<a href="' + FOOD_CHART["url"] + '"><div class="k">REFERENCE</div><h3>' +
               FOOD_CHART["title"] + '</h3><p>' + FOOD_CHART["description"] + '</p></a>')
     cards += ('<a href="/about/"><div class="k">ABOUT</div><h3>About WagWise Pet</h3><p>' +
@@ -1266,6 +1293,8 @@ def main():
         "<h1>404</h1><p>The page you were looking for doesn't exist. "
         "<a href=\"/\">Return home</a>.</p>", robots="noindex,follow")))
     pages.append(("%s/index.html" % TOOL["url"].strip("/"), render_tool(TOOL)))
+    pages.append(("%s/index.html" % TOOL_CHOCO["url"].strip("/"),
+                  render_choco_tool(TOOL_CHOCO)))
     pages.append(("%s/index.html" % FOOD_CHART["url"].strip("/"),
                   render_food_chart(FOOD_CHART)))
 

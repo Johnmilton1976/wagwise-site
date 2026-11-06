@@ -53,7 +53,7 @@ PILLARS = {
   <li><strong>No safe dose.</strong> Nothing established as safe, or a harmful amount small enough to arrive by accident. These end in a phone call.</li>
 </ul>
 <div class="callout">
-<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">the dog food safety chart</a> lists all 47 foods by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
+<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">toxic foods for dogs and the foods dogs can eat</a> — all 47 by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
 </div>
 
 <h2>The three variables that decide almost every case</h2>
@@ -2231,6 +2231,8 @@ ARTICLES = [
         "lede": "Yes, plain peanut butter is a great dog treat — but only if it contains no xylitol, which is extremely toxic to dogs. Always read the label.",
         "eyebrow": "DOG NUTRITION",
         "body": """
+        <div class="callout warn"><b>If the jar lists xylitol and your dog has eaten any of it, phone the vet now.</b> Blood sugar can crash within 30 minutes — before any symptom is visible — and liver injury can follow over the next two to three days. Do not wait to see how it goes, do not induce vomiting unless a vet tells you to, and take the jar with you so the vet can read the xylitol figure off the label. The dose thresholds are below.</div>
+
         <h2>Is peanut butter safe for dogs?</h2>
         <p>Plain peanut butter — peanuts, maybe a little salt — is safe for dogs and almost universally loved. It is high in fat and calories, so it belongs in the treat column, not the food bowl: a couple of teaspoons a day is plenty for most dogs.</p>
         <p>The complication is not the peanut. It is what else ends up in the jar. A growing number of peanut butter products, especially the ones marketed as healthier for people, are sweetened with xylitol — a sugar alcohol that is safe for humans and devastating for dogs. <b>That single ingredient is the reason this page exists.</b></p>
@@ -2772,12 +2774,15 @@ ARTICLES = [
         "lede": "No — grapes and raisins are toxic to dogs and can cause sudden, severe kidney failure. There is no safe amount, so treat any ingestion as an emergency.",
         "eyebrow": "DOG NUTRITION",
         "body": """
+        <div class="callout warn"><b>If your dog has just eaten a grape or a raisin, act now — not tomorrow.</b> Phone your vet or a poison control line and say three things: the dog's weight, roughly how many grapes or raisins, and how long ago. Do not wait for symptoms: kidney injury in dogs is often silent for the first 24 hours, and the treatment window is measured in hours. Bring the stems, the box or the wrapper with you if you go in. <b>Do not induce vomiting unless a vet tells you to.</b></div>
+
         <h2>Can dogs eat grapes or raisins?</h2>
         <p>No. Grapes and raisins are toxic to dogs and can cause sudden, sometimes fatal kidney failure — and there is no known safe amount. Some dogs have collapsed after a single grape; others have eaten a handful with no immediate effect. Because no one can predict which dog will react, every ingestion is treated as a potential emergency. This is why the question "can dogs have grapes" gets such a flat no: the risk is real even when the dose looks tiny.</p>
 
         <h2>How many grapes are toxic to a dog?</h2>
         <p>There is no safe dose, and that is the honest answer rather than a scare tactic. The toxic compound in grapes has never been identified, so veterinarians cannot give you a safe threshold the way they can for chocolate. What is well documented is that toxicity varies enormously between individual dogs, and that raisins are simply dried, concentrated grapes.</p>
-        <p>As a practical guide, the smaller the dog, the fewer grapes it takes to cause trouble. A 5 kg (11 lb) dog that eats three or four grapes is in the same danger zone as a 30 kg (66 lb) dog that eats a whole bunch. Treat any amount as worth a phone call to your vet:</p>
+        <p>What the case series do give is a <em>lowest reported</em> figure rather than a safe one. Kidney injury has been reported from as little as <b>about 19.6 g of grapes per kg of body weight</b>, and from <b>about 2.8 g of raisins per kg</b> — which is why raisins are treated as roughly seven times more potent by weight, and why a 40 g box of raisins is a serious event for a 10 kg dog. Those are the lowest doses in the published cases, not thresholds; dogs have been reported to react well below them, and other dogs have eaten far more with no effect. Neither fact helps you tonight, which is why the guidance stays flat: any amount is a phone call.</p>
+        <p>As a practical guide, the smaller the dog, the fewer grapes it takes to get into that range. A 5 kg (11 lb) dog that eats three or four grapes is in the same danger zone as a 30 kg (66 lb) dog that eats a whole bunch:</p>
         <table>
           <tr><th style="text-align:left">Dog weight</th><th style="text-align:left">Grapes that raise concern</th><th style="text-align:left">What to do</th></tr>
           <tr><td>Up to 5 kg (small/toy breeds)</td><td>1–3 grapes</td><td>Call vet / poison control now</td></tr>
@@ -2870,13 +2875,13 @@ ARTICLES = [
         <p>The danger depends on two things: the type of chocolate and your dog's weight. Theobromine content varies roughly like this:</p>
         <table>
           <tr><th style="text-align:left">Type of chocolate</th><th style="text-align:left">Theobromine per ounce (approx.)</th><th style="text-align:left">Risk level</th></tr>
-          <tr><td>White chocolate</td><td>~1 mg</td><td>Negligible theobromine (but still fat and sugar)</td></tr>
-          <tr><td>Milk chocolate</td><td>~45–60 mg</td><td>Mild risk in small dogs</td></tr>
-          <tr><td>Dark chocolate</td><td>~130–160 mg</td><td>Dangerous in small amounts</td></tr>
-          <tr><td>Semisweet</td><td>~260 mg</td><td>Dangerous</td></tr>
-          <tr><td>Baking / unsweetened</td><td>~390–450 mg</td><td>Very dangerous in tiny amounts</td></tr>
-          <tr><td>Cocoa powder (dry)</td><td>~800 mg</td><td>Extremely dangerous</td></tr>
+          <tr><td>White chocolate</td><td>~0.25 mg</td><td>Negligible theobromine (but still fat and sugar)</td></tr>
+          <tr><td>Milk chocolate</td><td>~44–60 mg</td><td>Mild risk in small dogs</td></tr>
+          <tr><td>Dark / semi-sweet (50–60% bars, chips)</td><td>~150–160 mg</td><td>Dangerous in small amounts</td></tr>
+          <tr><td>Baking / unsweetened, 85%+ bars</td><td>~390–450 mg</td><td>Very dangerous in tiny amounts</td></tr>
+          <tr><td>Cocoa powder (dry)</td><td>~737–800 mg</td><td>Extremely dangerous</td></tr>
         </table>
+        <p>Bars labelled 70% or higher do not have their own row because cocoa-solids content varies too much between brands; they sit between the dark and the baking rows, so treat an unknown dark bar as baking chocolate. The full arithmetic, per kilogram of dog, is in the <a href="/tools/chocolate-toxicity-calculator/">chocolate toxicity calculator</a> — it takes the weight, the chocolate type and the amount, and returns the mg/kg figure a vet will ask for.</p>
         <p>As a rough guide, mild signs begin around <b>20 mg of theobromine per kg of body weight</b>, and severe or life-threatening signs around <b>40–50 mg/kg</b>. For a 10 kg (22 lb) dog, that is mild effects from roughly 3–4 oz of milk chocolate but under half an ounce of baking chocolate; for a 25 kg dog, about 9 oz of milk chocolate or just over 1 oz of baking chocolate.</p>
         <div class="callout warn">When in doubt, assume it is serious. Small dogs, dark chocolate, and any baking chocolate or cocoa powder all move quickly into dangerous territory.</div>
 
@@ -7196,6 +7201,22 @@ TOOL = {
 }
 
 # ---------------------------------------------------------------------------
+# Second tool (2026-11-06): chocolate toxicity calculator.
+#
+# Why this one: "chocolate toxicity calculator" is searched 6,600x/month in the
+# US with a low ad-competition score, it peaks in December, and — unlike a 600th
+# "can dogs eat X" article — a working calculator is the one asset on the site
+# that other people have a reason to link to. The chocolate article already
+# ranks and already carries the source material; this turns it into a tool.
+# ---------------------------------------------------------------------------
+TOOL_CHOCO = {
+    "url": "/tools/chocolate-toxicity-calculator/",
+    "title": "Chocolate Toxicity Calculator for Dogs — Dose by Weight",
+    "description": "Work out how dangerous a chocolate dose is for your dog: theobromine per kilo of body weight, the four clinical thresholds, and what to do at each one.",
+    "eyebrow": "TOOLS",
+}
+
+# ---------------------------------------------------------------------------
 # Reference asset: the 47-food safety chart (2026-11-02).
 #
 # Why this page exists: 47 separate "can dogs eat X" pages answer one question
@@ -7209,8 +7230,8 @@ TOOL = {
 # ---------------------------------------------------------------------------
 FOOD_CHART = {
     "url": "/dog-nutrition/food-safety-chart/",
-    "title": "Dog Food Safety Chart: 47 Foods in Four Risk Tiers",
-    "description": "Every other dog food chart says safe or toxic. This one gives the number: 47 foods in four risk tiers, with the dose that matters and a link to the full guide.",
+    "title": "Foods Dogs Can Eat: 47-Food Safety Chart, Safe vs Toxic",
+    "description": "The foods dogs can eat, and the ones that only look safe: 47 rows in four risk tiers, each with the dose that decides the case and the number behind it.",
     "tier_defs": [
         ("Tier 1", "Everyday", "Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size."),
         ("Tier 2", "A ceiling", "Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer."),
@@ -7296,8 +7317,26 @@ FOOD_CHART = {
     ],
     "head": """
 <div class="eyebrow">REFERENCE</div>
-<h1>Dog Food Safety Chart: 47 Foods in Four Risk Tiers</h1>
-<p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>.</p>
+<h1>Foods dogs can eat — and the 47 that need a second look</h1>
+<p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>. Here are all 47 foods in four risk tiers, each row carrying the number that decides it.</p>
+
+<h2>The seven with no safe dose — the toxic end of the list</h2>
+<p>Seven of the 47 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>
+<table>
+  <tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Chocolate</a></td><td>A 10 kg dog shows mild signs from 3&ndash;4 oz of milk chocolate, and from under half an ounce of baking chocolate — <a href="/tools/chocolate-toxicity-calculator/">run the dose</a> for your own dog's weight</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-grapes/">Grapes and raisins</a></td><td>No threshold has ever been established — three grapes in a 5 kg dog is treated as seriously as a bunch in a 30 kg dog</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-xylitol/">Xylitol</a></td><td>About 50 mg/kg triggers the insulin crash; around 500 mg/kg risks liver injury</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">Macadamia nuts</a></td><td>Signs from about 1 g of nut per kg — a couple of nuts for a 10 kg dog</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-caffeine/">Caffeine</a></td><td>Mild signs from about 20 mg/kg, serious toxicity near 40&ndash;60 mg/kg, roughly 140 mg/kg fatal</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-alcohol/">Alcohol</a></td><td>Ethanol depresses the central nervous system faster in dogs, and it hides in rising dough and fallen fruit</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-raw-dough/">Raw bread dough</a></td><td>Live yeast produces ethanol in a warm stomach while the dough expands inside the dog</td></tr>
+</table>
+<p>Every one of those ends in a phone call rather than a portion. If you are reading this because one of them just happened, the numbers above are what the vet will ask for — read them out, then follow the instructions on that food's own page. For the emergency sequence itself — the symptoms that mean poisoning, the first ten minutes, and what not to do — the <a href="/dog-nutrition/foods-toxic-to-dogs/">full toxic-foods list</a> walks through it step by step.</p>
+
+<h2>Foods dogs can eat: the everyday list</h2>
+<p>The larger group, and the one that gets far less attention than it deserves. Fourteen of the 47 foods are ordinary, useful treats when they are plain and inside the 10% treat budget: <a href="/dog-nutrition/can-dogs-eat-chicken/">plain cooked chicken</a>, <a href="/dog-nutrition/can-dogs-eat-eggs/">cooked eggs</a>, <a href="/dog-nutrition/can-dogs-eat-rice/">white rice</a>, <a href="/dog-nutrition/can-dogs-eat-carrots/">carrots</a>, <a href="/dog-nutrition/can-dogs-eat-cucumber/">cucumber</a>, <a href="/dog-nutrition/can-dogs-eat-green-beans/">green beans</a>, <a href="/dog-nutrition/can-dogs-eat-peas/">peas</a>, <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a>, <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a>, <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> (flesh only), <a href="/dog-nutrition/can-dogs-eat-pumpkin/">plain pumpkin</a>, <a href="/dog-nutrition/can-dogs-eat-sweet-potato/">cooked sweet potato</a>, <a href="/dog-nutrition/can-dogs-eat-salmon/">cooked salmon</a> and <a href="/dog-nutrition/can-dogs-eat-shrimp/">peeled shrimp</a>.</p>
+<p>Two caveats survive even here. "Plain" is doing real work in that list — no salt, no butter, no onion or garlic powder, no xylitol — and the 10% ceiling applies to all of it. A dog can get fat on chicken and rice. The calorie figure for each of those 14 is in the tier table below, because the arithmetic is the part owners underestimate.</p>
 
 <h2>Why this chart is built differently</h2>
 <p>Three things separate this page from the wall charts and laminated posters. First, <strong>every row carries a number</strong>, not an adjective. "High in salt" tells you nothing; "1,000 mg of sodium per 100 g against a daily need of 200 mg" tells you whether tonight matters. Second, <strong>there are four tiers instead of two</strong>, because the largest group of foods — the ones that are perfectly fine except for one attached part — gets flattened into "toxic" by a two-tier chart, and people then panic over a piece of watermelon and shrug at a macadamia nut. Third, <strong>every row links to the page that shows its working</strong>: the dose arithmetic, the source, and the date it was last checked.</p>
