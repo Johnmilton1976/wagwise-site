@@ -1248,6 +1248,7 @@ ARTICLES = [
           </tbody>
         </table>
         <p>Free-feeding — leaving food down all day — works for a small minority of dogs that self-regulate. Most do not, and it makes it impossible to notice a loss of appetite, which is one of the earliest signs of illness.</p>
+        <p>If you are crate training, the two schedules are the same schedule: a puppy that is fed on a fixed clock also toilets on a fixed clock, which is what makes a crate workable overnight. Serve at least one meal inside or right beside the crate so the crate becomes a place where good things happen — the sizes that fit which dog are in our <a href="/best/dog-crate/">best dog crate</a> guide.</p>
 
         <h2>The treat budget</h2>
         <p>Treats and chews should stay under 10% of daily calories. The arithmetic catches people out: for that 10 kg dog on 630 kcal, the treat budget is about 63 kcal — which is roughly one dental chew, or two small biscuits. A dog getting a chew, a few biscuits and a piece of cheese most days is not getting treats, it is getting a second meal, and the main meal needs to come down to compensate.</p>
@@ -6599,9 +6600,9 @@ ARTICLES = [
     {
         "slug": "why-does-my-cat-meow-at-night",
         "pillar": "cat",
-        "title": "Why Does My Cat Meow at Night — and How to Make It Stop",
+        "title": "Why Does My Cat Meow at Night — or Excessively? What Works",
         "url": "/cat/why-does-my-cat-meow-at-night/",
-        "description": "Why does my cat meow at night? The causes by age, the four night calls and what each means, the evening routine that works, and the illnesses to rule out first.",
+        "description": "Why does my cat meow at night — or excessively all day? Night calls by sound and age, the evening routine that works, and the illness signs to rule out.",
         "lede": "A cat yelling at your bedroom door at 3 a.m. is not being difficult. The cause is usually energy, hunger, or a habit you accidentally trained — and the fix is a routine, not a punishment.",
         "eyebrow": "CAT CARE",
         "body": """
@@ -6670,6 +6671,21 @@ ARTICLES = [
           <tr><td>X-ray or ultrasound if indicated</td><td>Arthritis, abdominal pain, masses</td></tr>
         </table>
 
+        <h2>If it is not only at night: meowing excessively</h2>
+        <p>Some cats do not have a night problem at all — they talk all day, and night is simply the part you cannot sleep through. The distinction matters, because "excessive" meowing has a different list of causes, and the first question is whether the volume is <em>new</em> or lifelong.</p>
+        <table>
+          <tr><th style="text-align:left">Pattern</th><th style="text-align:left">What it usually points to</th><th style="text-align:left">First step</th></tr>
+          <tr><td>Has always talked a lot, and the cat is a Siamese, Oriental, Burmese, Tonkinese or Maine Coon</td><td>A breed trait — these lines were bred to be vocal</td><td>Nothing medical. Contain it with routine, not training</td></tr>
+          <tr><td>Chatty all day, follows you room to room, quiet when alone</td><td>Attention-seeking, usually reinforced by any response at all</td><td>Answer once, then stop answering; add scheduled play</td></tr>
+          <tr><td>Loud and continuous, started weeks or months ago, cat over seven</td><td>Medical — thyroid, blood pressure, pain, failing sight or hearing, cognitive change</td><td>Vet visit and bloodwork before anything else</td></tr>
+          <tr><td>Calls at walls, corners or an empty room, especially after dark</td><td>Vision loss, cognitive dysfunction, or partial deafness</td><td>Vet check; keep the furniture where it is and leave a low night light</td></tr>
+          <tr><td>Builds before meals and settles once fed</td><td>Hunger rhythm, usually a long overnight gap</td><td>Timed feeder; split the daily ration into more, smaller meals</td></tr>
+          <tr><td>Only when you are on the phone or at the laptop</td><td>Attention, with a very consistent training history behind it</td><td>Give attention before you start, not during</td></tr>
+        </table>
+        <div class="callout warn"><b>The three nights that break most plans.</b> If the meowing is a learned request and you stop responding, it usually gets louder for a few nights before it fades — an extinction burst. That spike is the habit dying, not the plan failing. Most owners give in on night two, which teaches the cat that persistence works.</div>
+        <p>One distinction is worth making early, because it decides whether you need a trainer or a vet. A cat that has <em>always</em> been vocal is not a behaviour case: Siamese, Oriental Shorthair, Burmese, Tonkinese and Maine Coon were selected for exactly this. If the cat has been like it since kittenhood and is otherwise well, the goal is a schedule that contains the noise, not a cat that stops talking.</p>
+        <p>What changes the picture is a <strong>new</strong> pattern in an adult or senior cat. Deafness and failing eyesight both make a cat louder, because it can no longer hear or see its own reassurance — the calling is often aimed at nothing in particular. A cat that has started calling at the wall at 2 a.m. is not being dramatic; it is working with less information than it used to have. That is a vet conversation, not a training one.</p>
+
         <h2>What to expect in the first two weeks</h2>
         <p>Changing the routine usually makes things worse before they get better. This is normal and it is the point where most owners give up.</p>
         <ul>
@@ -6691,6 +6707,8 @@ ARTICLES = [
         "faq": [
             ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check that needs are met, then stop responding, and keep a hard play session and a late meal before your bedtime."),
             ("Should I just ignore a cat meowing at night?", "If the behaviour is a learned request and the cat is safe, yes — responding rewards it. But a sudden change in a cat that never called before, especially over age seven, needs a vet check first."),
+            ("Why does my cat meow excessively?", "Two different things wear that label. A cat that has always been vocal — Siamese, Oriental, Burmese, Tonkinese and Maine Coon lines especially — is showing a breed trait. A cat that became loud recently, especially over age seven, is more often reporting pain, an overactive thyroid, high blood pressure, failing sight or hearing, or cognitive change. Lifelong and stable is managed with routine; new and recent goes to the vet."),
+            ("Do some cat breeds meow more than others?", "Yes. Siamese and the related Oriental breeds, plus Burmese, Tonkinese and Maine Coon, are the ones owners most often describe as talkative — the trait was selected for. In a cat that has always been like that, it is not a sign of a problem."),
             ("Why is my old cat yowling loudly at night?", "In senior cats, night yowling often signals an overactive thyroid, high blood pressure, kidney disease, joint pain, or cognitive decline. Most causes are treatable — see the vet, and do not dismiss it as old age."),
             ("Why does my cat meow at night but sleep all day?", "Because cats are crepuscular, not nocturnal — their natural peaks are dawn and dusk. A cat left alone all day sleeps through it and then has a full tank of energy at night. The fix is daytime enrichment plus an evening play-and-feed routine."),
             ("Will neutering stop my cat yowling at night?", "If the calling is hormonal, yes — neutering usually stops mating-related yowling within a few weeks. It will not fix night calling caused by hunger, boredom, or illness, so rule those out separately."),
@@ -6715,7 +6733,7 @@ ARTICLES = [
             "The feline health team at Cornell University's College of Veterinary Medicine",
             "The veterinary advisors at International Cat Care",
         ],
-        "checked": "2026-10-28",
+        "checked": "2026-11-06",
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
