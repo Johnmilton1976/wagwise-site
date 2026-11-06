@@ -2894,6 +2894,17 @@ ARTICLES = [
           <li>High body temperature and, without treatment, collapse.</li>
         </ul>
 
+        <h2>How long after eating chocolate do symptoms start?</h2>
+        <p>Theobromine is absorbed within a few hours and then clears very slowly, so what matters is not only the peak but how long the dog stays above the threshold. A timeline, from the case literature:</p>
+        <table>
+          <tr><th style="text-align:left">Time after eating</th><th style="text-align:left">What to expect</th></tr>
+          <tr><td>0&ndash;2 hours</td><td>Nothing visible. This is the only window in which induced vomiting is useful — which is why the phone call should not wait for symptoms</td></tr>
+          <tr><td>4&ndash;6 hours</td><td>First signs in a significant dose: restlessness, panting, thirst, vomiting, a raised heart rate</td></tr>
+          <tr><td>6&ndash;12 hours</td><td>The usual peak. Tremors, arrhythmia and, at high doses, seizures tend to appear here</td></tr>
+          <tr><td>12&ndash;72 hours</td><td>Slow decline. The half-life is about 17.5 hours in dogs, so a dog can stay symptomatic for two or three days without treatment</td></tr>
+        </table>
+        <p>Two practical consequences. A dog that seems fine at three hours has not cleared the risk, so do not cancel the vet call on that basis. And a dog that is still trembling at 24 hours is expected to be — it is not a sign that treatment failed, it is the half-life doing what the half-life does. The dose bands behind this timeline are worked out per kilogram in the <a href="/tools/chocolate-toxicity-calculator/">chocolate toxicity calculator</a>.</p>
+
         <h2>What to do if your dog eats chocolate</h2>
         <div class="callout warn"><b>Call your veterinarian or an animal poison control line right away.</b> Note the type of chocolate, roughly how much, and your dog's weight — those three facts decide how serious it is.</div>
         <ul>
