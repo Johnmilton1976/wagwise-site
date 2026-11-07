@@ -979,12 +979,39 @@ CALC_BODY = """
 <style>
 .calc-card{max-width:540px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
-.calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027}
+.calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027;max-width:100%}
+/* A select is as wide as its longest option, and "Medium (20-50 lb / 9-23 kg)"
+   pushed this page 55px past a 320px viewport — the whole page scrolled
+   sideways on the narrowest phones. Cap it and let the option text ellipsis. */
 .calc-row{display:flex;gap:10px;align-items:center}
+.calc-row input,.calc-row select{min-width:0;flex:1 1 auto}
 .calc-card button{margin-top:18px;width:100%;padding:13px;background:#3FA97E;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer}
 .calc-card button:hover{background:#348c69}
 .calc-result{margin-top:18px;padding:16px;border-radius:10px;background:#EAF5EF;color:#1f5c43;font-size:20px;font-weight:700;text-align:center}
 .calc-note{font-size:14px;color:#6b6f66;margin-top:10px}
+/* Embeddable mode (?embed=1). Same contract as the chocolate and food tools:
+   the page drops its chrome, keeps the heading and the card, and hides the
+   prose so a 480px iframe shows a finished tool rather than a cut-off article.
+   This page shipped before that pattern existed and was the only tool without
+   it, which matters because it is the link our outreach sends. */
+html.embed .site-head,html.embed .site-foot,html.embed .crumbs,
+html.embed .lede,html.embed .eyebrow,html.embed .doc,
+html.embed .embed-block,html.embed .cfc-bar{display:none!important}
+html.embed main{padding:0}
+html.embed .wrap.narrow{max-width:none;padding:14px 14px 6px}
+/* The cookie bar adds 170px of body padding so it cannot cover content. It is
+   hidden inside an embed, but the padding stayed — which is why the frame
+   measured 666px for a card that is only 496px tall. */
+html.embed body{padding-bottom:0!important}
+html.embed h1{font-size:19px;line-height:1.3;margin:0 0 10px}
+html.embed .calc-card{margin:0 0 10px;padding:18px}
+html.embed .calc-result{font-size:17px}
+/* The share button and the note about the URL both assume the reader is on our
+   page. Inside someone else's article they are noise, and together they cost
+   110px of iframe height — the difference between a 540px box and an 805px one. */
+html.embed #dog-share,html.embed .calc-note{display:none}
+.embed-credit{display:none}
+html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px 0 0}
 </style>
 <div class="wrap narrow">
   <div class="eyebrow">TOOLS</div>
@@ -1065,9 +1092,52 @@ CALC_BODY = """
     <h2>Sources and review</h2>
     <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
   </div>
+
+  <div class="embed-block">
+    <h2 id="embed">Put this calculator on your own site</h2>
+    <p>Vet clinics, breeders, rescues and pet blogs are welcome to embed it. The snippet is the whole tool, it sets no cookie, and the size and age go into the URL so a shared link opens on the same reading. The script is optional and only tightens the height.</p>
+    <div class="callout">
+      <p style="font-size:13px;word-break:break-all">&lt;iframe id="ww-age" src="https://wagwise.org/tools/dog-age-calculator/?embed=1" width="100%" height="540" style="border:1px solid #e3e0d8;border-radius:14px" title="Dog age calculator: dog years to human years by body size"&gt;&lt;/iframe&gt;
+&lt;script&gt;addEventListener("message",function(e){if(e.data&amp;&amp;e.data.wagwiseHeight){var f=document.getElementById("ww-age");if(f)f.height=e.data.wagwiseHeight}});&lt;/script&gt;</p>
+      <p style="font-size:13px">540px fits the card at every width down to 280px, so the frame works without the script. With it, the box shrinks to about 450px in a wide column instead of leaving a white gap.</p>
+      <p style="font-size:13px">If you would rather print the numbers than the widget, the size-by-size lifespan table further up this page is free to quote with a link back.</p>
+      <p style="font-size:13px;word-break:break-all">&lt;p&gt;Calculator by &lt;a href="https://wagwise.org/tools/dog-age-calculator/"&gt;WagWise Pet&lt;/a&gt; &mdash; life stage by body size, not the 7&times; rule.&lt;/p&gt;</p>
+    </div>
+  </div>
+
+  <p class="embed-credit">Calculator by <a href="https://wagwise.org/tools/dog-age-calculator/">WagWise Pet</a> &mdash; life stage by body size, not the 7&times; rule.</p>
 </div>
 <script>
 (function(){
+  /* Runs before the first paint of the card, so an embedded frame never shows
+     the navigation for a frame and then collapses. */
+  if (location.search.indexOf('embed=1') > -1){
+    document.documentElement.className += ' embed';
+    /* scrollHeight would report the iframe's own height whenever the content is
+       shorter than the frame, so it can only ever grow a box. Measuring the last
+       element instead gives the height the frame actually needs, which lets the
+       host page shrink it to fit on a wide column. */
+    var rt=null;
+    var report = function(){
+      clearTimeout(rt);
+      rt=setTimeout(function(){
+        try{
+          var cr=document.querySelector('.embed-credit');
+          var need=Math.ceil(cr.getBoundingClientRect().bottom+8);
+          parent.postMessage({wagwiseHeight: need}, '*');
+        }catch(e){}
+      }, 120);
+    };
+    window.addEventListener('load', report);
+    window.addEventListener('resize', report);
+    document.addEventListener('input', report);
+    document.addEventListener('change', report);
+    /* The host page sets the frame width after the load event, and until it did,
+       the first report carried the height for our default 388px. Watching the
+       body catches that reflow — and any later one from a change of answer. */
+    if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
+    setTimeout(report, 200);
+  }
   var sizeEl=document.getElementById('dog-size'), ageEl=document.getElementById('dog-age'),
       unitEl=document.getElementById('dog-unit'), out=document.getElementById('dog-out'),
       shareBtn=document.getElementById('dog-share');
@@ -1092,6 +1162,10 @@ CALC_BODY = """
     try{
       var u=new URL(window.location.href);
       u.searchParams.set('size',size); u.searchParams.set('age',yrsParam);
+      /* age is always written in years, so a leftover unit=m would turn 0.50
+         into half a month on the next load. Drop it rather than let the two
+         halves of the contract disagree. */
+      u.searchParams.delete('unit');
       window.history.replaceState(null,'',u.toString());
     }catch(e){}
     if(shareBtn){
@@ -1101,7 +1175,14 @@ CALC_BODY = """
   try{
     var p=new URLSearchParams(window.location.search);
     if(['small','medium','large'].indexOf(p.get('size'))>-1){ sizeEl.value=p.get('size'); }
-    if(p.get('age')!==null && p.get('age')!==''){ ageEl.value=p.get('age'); unitEl.value='y'; }
+    if(p.get('age')!==null && p.get('age')!==''){
+      /* Our own share links always write the age in years, whatever unit was on
+         screen. But a writer embedding this by hand will reach for ?age=6&unit=m,
+         and reading that as six years changes the answer completely — so honour
+         the unit when it is given, and default to years when it is not. */
+      if(p.get('unit')==='m'){ ageEl.value=p.get('age'); unitEl.value='m'; }
+      else { ageEl.value=p.get('age'); unitEl.value='y'; }
+    }
   }catch(e){}
   document.getElementById('dog-go').addEventListener('click',calc);
   ageEl.addEventListener('input',calc);
