@@ -461,6 +461,10 @@ ARTICLES = [
         <p><strong>Teach a "find it" cue.</strong> Scatter a few treats on the ground when the dog is about to lunge. It breaks the fixed stare that precedes most pulling, and it gives you a second to reposition.</p>
         <p><strong>Avoid the trigger, do not confront it.</strong> A dog that pulls toward other dogs needs distance, not a shorter lead. Standing at the edge of its threshold and feeding while it watches is the standard desensitisation approach — but at a distance where the dog can still eat.</p>
 
+        <h2>When the puppy bites the leash instead of pulling</h2>
+        <p>Leash biting is not a different problem from puppy biting, it is the same mouth in a different costume: a moving rope at exactly mouth height is the most interesting thing on the walk. Tension is the reward &mdash; a taut line feels like a tug toy, which is why holding the leash short or pulling back makes it worse rather than better.</p>
+        <p>The fix is the same bite-inhibition sequence used for hands, and it moves faster here because you can change the object. Let the line go slack the instant teeth touch it, stop walking, and put something legal in the mouth: a short length of chain or a plastic coil where the clip meets the collar is unrewarding to bite and is the cheapest version of this. Two or three sessions of &ldquo;teeth on the line ends the walk&rdquo; beats weeks of corrections, because the consequence is the thing the puppy actually wanted.</p>
+        <p>If the mouthing is not limited to the leash, the five-level bite scale and the teething calendar are in <a href="/dog-training/how-to-stop-puppy-biting/">how to stop puppy biting</a> &mdash; both problems share one window, and it closes at about 18 weeks.</p>
         <h2>What does not work</h2>
         <p><strong>"He'll stop if I just keep walking."</strong> Dragging a dog on a taut lead reinforces pulling, because the dog is still moving forward.</p>
         <p><strong>Correcting with the lead.</strong> A pop on the lead suppresses the behaviour in that moment and teaches the dog that other dogs and people predict discomfort — one of the more reliable routes to reactivity.</p>
@@ -1557,6 +1561,7 @@ ARTICLES = [
         <p><strong>Do not force the mouth open.</strong> Lift the lip with one hand while supporting the head with the other. A dog that has its mouth held open will struggle; a dog whose lip is lifted usually will not.</p>
         <div class="callout">If the gums bleed during brushing, do not stop — mild bleeding in an early-gum-disease dog usually improves within a week or two of daily brushing, because the inflammation is what is bleeding. Bleeding that gets worse, or that comes with a bad smell, needs a vet.</div>
 
+        <p><strong>If the puppy treats the brush as a chew toy</strong>, that is not a toothbrushing problem and no amount of paste will fix it: a brush handle at mouth height is a chew, the same as a hand or a leash. End the session the moment teeth close on the handle, swap in something legal to bite, and come back tomorrow &mdash; the sequence is in <a href="/dog-training/how-to-stop-puppy-biting/">how to stop puppy biting</a>. Brushing a puppy whose mouth is already trained takes about a week; training the mouth through a toothbrush takes months.</p>
         <h2>How often is enough</h2>
         <p>Daily is the target: plaque mineralises into tartar within about 24–48 hours, and once it hardens, brushing cannot remove it. Every other day is the realistic minimum for meaningful protection. Once a week is mostly symbolic — better than nothing, but not disease-preventing.</p>
         <p>If your routine can only support three sessions a week, do three sessions, and add a dental chew on the other days. Partial protection is worth having.</p>
@@ -4195,7 +4200,7 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-spinach",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Spinach? Yes — in Small Amounts",
+        "title": "Can Dogs Eat Spinach? Yes — but Watch the Oxalates",
         "url": "/dog-nutrition/can-dogs-eat-spinach/",
         "description": "Plain spinach is safe for dogs in small amounts — nutrient-rich but high in oxalates, so keep it occasional. Why cooked is easier, and how much to feed by weight.",
         "lede": "Yes — plain spinach is safe for dogs in small amounts. It is nutrient-rich, but the natural oxalates mean it should stay an occasional treat, not a daily heap.",
