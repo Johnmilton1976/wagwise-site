@@ -91,6 +91,14 @@ html.embed .wrap.narrow{max-width:none;padding:14px 14px 6px}
 html.embed h1{font-size:19px;line-height:1.3;margin:0 0 10px}
 html.embed .calc-card{margin:0 0 10px;padding:18px}
 html.embed .calc-result{font-size:17px}
+/* The credit below lives outside .doc so it survives the embed trim.
+   Without it a framed copy carried no link back at all, which defeated
+   the point of offering the tool. */
+.embed-credit{display:none}
+html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px 0 0}
+/* Same fix as the chocolate tool: the cookie bar's 170px reservation has no
+   purpose in a frame and was padding every embed with dead space. */
+html.embed body{padding-bottom:0!important}
 .calc-card{max-width:560px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
 .calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027;width:100%;box-sizing:border-box}
@@ -202,11 +210,11 @@ html.embed .calc-result{font-size:17px}
     </ul>
 
     <h2>Put this calculator on your own site</h2>
-    <p>Vet clinics, breeders, rescues and pet blogs are welcome to embed it. The snippet is the whole tool: it sets no cookie, needs no script from us, and the numbers go into the URL so a shared link opens on the same result.</p>
+    <p>Vet clinics, breeders, rescues and pet blogs are welcome to embed it. The snippet is the whole tool: it sets no cookie, and the numbers go into the URL so a shared link opens on the same result. The script is optional and only tightens the height.</p>
     <div class="callout">
-      <p style="font-size:13px;word-break:break-all">&lt;iframe id="ww-feed" src="https://wagwise.org/tools/dog-food-calculator/?embed=1" width="100%" height="560" style="border:1px solid #e3e0d8;border-radius:14px" title="Dog food calculator: grams per day by weight"&gt;&lt;/iframe&gt;
+      <p style="font-size:13px;word-break:break-all">&lt;iframe id="ww-feed" src="https://wagwise.org/tools/dog-food-calculator/?embed=1" width="100%" height="1090" style="border:1px solid #e3e0d8;border-radius:14px" title="Dog food calculator: grams per day by weight"&gt;&lt;/iframe&gt;
 &lt;script&gt;addEventListener("message",function(e){if(e.data&amp;&amp;e.data.wagwiseHeight){var f=document.getElementById("ww-feed");if(f)f.height=e.data.wagwiseHeight+2}});&lt;/script&gt;</p>
-      <p style="font-size:13px">The script is optional &mdash; without it the frame keeps the 560px default. With it, the box grows to fit the result.</p>
+      <p style="font-size:13px">1090px is the full height of the card at any column down to 320px, so the frame is complete without the script. With it, the box shrinks to about 860px on a wide column instead of leaving a white gap.</p>
       <p style="font-size:13px;word-break:break-all">&lt;p&gt;Calculator by &lt;a href="https://wagwise.org/tools/dog-food-calculator/"&gt;WagWise Pet&lt;/a&gt; &mdash; daily grams from body weight and the label.&lt;/p&gt;</p>
     </div>
 
@@ -226,6 +234,7 @@ html.embed .calc-result{font-size:17px}
 
     <p>Next: the <a href="/dog-nutrition/how-much-to-feed-my-dog/">full feeding guide</a> (body condition scoring, meal frequency, the mistakes that matter), <a href="/tools/dog-age-calculator/">how old your dog is in human years</a>, and if the worry is whether something is safe at all, the <a href="/dog-nutrition/food-safety-chart/">47-food chart</a> or the <a href="/tools/chocolate-toxicity-calculator/">chocolate dose calculator</a>.</p>
   </div>
+  <p class="embed-credit">Calculator by <a href="https://wagwise.org/tools/dog-food-calculator/">WagWise Pet</a> &mdash; daily grams from body weight and the label.</p>
 </div>
 <script>
 (function(){
@@ -339,14 +348,25 @@ html.embed .calc-result{font-size:17px}
 
   if (location.search.indexOf('embed=1') > -1){
     document.documentElement.className += ' embed';
-    /* Embedders should not have to guess a height: the result panel changes
-       size with the answer, so the real height is posted on every change. */
+    var rt=null;
     var report = function(){
-      try{ parent.postMessage({wagwiseHeight: document.documentElement.scrollHeight}, '*'); }catch(e){}
+      /* scrollHeight answers with the frame's own height whenever the content is
+         shorter than the frame, so it can only ever grow a box — and on a wide
+         column the box needs to shrink. Measuring the last visible block gives
+         the height the frame actually needs. */
+      clearTimeout(rt);
+      rt=setTimeout(function(){
+        try{
+          var wrap=document.querySelector('.wrap.narrow')||document.body;
+          parent.postMessage({wagwiseHeight: Math.ceil(wrap.getBoundingClientRect().bottom+8)}, '*');
+        }catch(e){}
+      },120);
     };
     window.addEventListener('load', report);
+    window.addEventListener('resize', report);
     document.addEventListener('input', report);
     document.addEventListener('change', report);
+    if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
     setTimeout(report, 200);
   }
 })();
