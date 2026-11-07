@@ -291,7 +291,9 @@ RELATED_BOOST = {
     "dog-vomiting-causes": ["can-dogs-eat-milk", "why-do-dogs-eat-grass"],
     "why-do-dogs-eat-poop": ["why-do-dogs-eat-grass"],
     "how-to-crate-train-a-puppy": ["can-dogs-eat-peanut-butter", "how-to-stop-puppy-biting"],
-    "how-to-leash-train-a-dog": ["how-to-stop-puppy-biting"],
+    "how-to-leash-train-a-dog": ["how-to-stop-puppy-biting", "how-to-crate-train-a-puppy"],
+    # back to crate training from the biting page: both are week-one problems
+    "how-to-stop-puppy-biting": ["how-to-crate-train-a-puppy"],
 }
 
 CONSENT_DEFAULT = (
