@@ -257,21 +257,37 @@ RELATED_BOOST = {
     # butter, so the two pages answer each other's next question.
     "can-dogs-eat-xylitol": ["can-dogs-eat-peanut-butter"],
     # crate training: a stuffed frozen Kong is the standard crate tool.
-    "how-to-crate-train-a-puppy": ["can-dogs-eat-peanut-butter"],
     "best-dog-crate": ["can-dogs-eat-peanut-butter"],
     # dairy cluster — same lactose arithmetic, different fat and sugar.
-    "can-dogs-eat-yogurt": ["can-dogs-eat-milk"],
     "can-dogs-eat-cheese": ["can-dogs-eat-milk"],
     "can-dogs-eat-ice-cream": ["can-dogs-eat-milk"],
     # "he stopped eating" is where owners reach for milk and peanut butter.
     "dog-not-eating-but-drinking-water": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
-    "dog-vomiting-causes": ["can-dogs-eat-milk"],
     "how-much-to-feed-my-dog": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
-    "can-dogs-eat-bread": ["can-dogs-eat-peanut-butter"],
     "can-dogs-eat-bananas": ["can-dogs-eat-peanut-butter"],
     "can-dogs-eat-apples": ["can-dogs-eat-peanut-butter"],
     "can-dogs-eat-honey": ["can-dogs-eat-milk"],
     "can-dogs-eat-strawberries": ["can-dogs-eat-milk"],
+
+    # Second pass, same day: gsc_not_indexed_triage.py flagged eight pages of
+    # 1,400+ words with only 3-4 inbound links — the shape of a page Google
+    # crawls and declines to index. Each pair below is a food a reader would
+    # genuinely ask about next (spinach -> broccoli and corn are the same tier
+    # and the same "how much is too much" question).
+    "can-dogs-eat-broccoli": ["can-dogs-eat-spinach", "can-dogs-eat-corn"],
+    "can-dogs-eat-green-beans": ["can-dogs-eat-spinach"],
+    "can-dogs-eat-potato": ["can-dogs-eat-tomato"],
+    "can-dogs-eat-cucumber": ["can-dogs-eat-tomato"],
+    "can-dogs-eat-peas": ["can-dogs-eat-corn"],
+    "can-dogs-eat-bread": ["can-dogs-eat-peanut-butter", "can-dogs-eat-honey"],
+    "can-dogs-eat-yogurt": ["can-dogs-eat-milk", "can-dogs-eat-honey"],
+    "can-dogs-eat-plums": ["can-dogs-eat-avocado"],
+    "can-dogs-eat-grapes": ["can-dogs-eat-avocado"],
+    "how-to-trim-dog-nails": ["how-to-brush-dog-teeth"],
+    "dog-vomiting-causes": ["can-dogs-eat-milk", "why-do-dogs-eat-grass"],
+    "why-do-dogs-eat-poop": ["why-do-dogs-eat-grass"],
+    "how-to-crate-train-a-puppy": ["can-dogs-eat-peanut-butter", "how-to-stop-puppy-biting"],
+    "how-to-leash-train-a-dog": ["how-to-stop-puppy-biting"],
 }
 
 CONSENT_DEFAULT = (
@@ -677,8 +693,8 @@ def render_article(a):
                     '<p class="srcnote">Nine guides make up this section. Start with the one '
                     "that matches your problem, then follow the links inside it.</p>"
                     "<ul>%s</ul></div>" % lis)
-    elif a.get("related"):
-        order = [s for s in a["related"] if s != slug]
+    elif a.get("related") or RELATED_BOOST.get(slug):
+        order = [s for s in a.get("related", []) if s != slug]
         for extra in RELATED_BOOST.get(slug, []):
             if extra != slug and extra not in order:
                 order.append(extra)
