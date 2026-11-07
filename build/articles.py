@@ -1840,7 +1840,7 @@ ARTICLES = [
         <h2>Crate training is a separate skill from buying the crate</h2>
         <p>A good crate used wrongly produces a dog that fears it. Three rules that matter more than the product:</p>
         <p><strong>The crate is never punishment.</strong> A dog sent to the crate after misbehaving learns that the crate predicts bad things, and the one place you need it to be safe becomes the place it avoids.</p>
-        <p><strong>Feed in it, with the door open.</strong> For the first week, meals go in the crate and the door stays open. Duration comes later.</p>
+        <p><strong>Feed in it, with the door open.</strong> For the first week, meals go in the crate and the door stays open. Duration comes later. A frozen stuffed toy is the usual way to make the crate worth entering, and a smear of peanut butter is the usual filling &mdash; read the label first, because xylitol in a &ldquo;no added sugar&rdquo; jar is the one additive that turns a training aid into an emergency. Our <a href="/dog-nutrition/can-dogs-eat-peanut-butter/">guide to peanut butter</a> lists the brands and the dose thresholds.</p>
         <p><strong>Do not use it for long confinement.</strong> A crate is a management tool for short periods and overnight, not a substitute for exercise and company. A dog crated for a full working day is a welfare problem regardless of how good the crate is.</p>
 
         <h2>Bottom line</h2>
