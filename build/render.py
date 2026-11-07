@@ -228,10 +228,51 @@ NAV_ITEMS = [
 # 哥飞 2026-11-03: internal links were misallocated — dog-training had 55 while
 # dog-nutrition (15 of the top-20 exposure pages) had 19. The two nutrition
 # reference pages now sit in the footer on every page, same tier as the nav.
-FOOTER_ITEMS = NAV_ITEMS + [
+# 哥飞 11-07: internal links went 417 -> 774 but the entire increase was the
+# footer template — privacy policy and about page ended up with the same 56
+# inbound links as dog-nutrition. A link every page carries is a link that
+# allocates nothing. The footer now carries five entries, none of which
+# duplicate the header nav: the eight nav items were repeated verbatim one
+# screen lower on all 88 pages, so 704 of those links carried no information
+# (a page already reachable from the header). What stays is what the nav does
+# not cover: the toxic-foods hub, the editorial standards page, contact,
+# privacy and the HTML sitemap.
+FOOTER_ITEMS = [
     ("/dog-nutrition/foods-toxic-to-dogs/", "Toxic foods list"),
-    ("/dog-nutrition/food-safety-chart/", "Food safety chart"),
-    ("/about/editorial-standards/", "Editorial standards"), ("/contact/", "Contact"), ("/privacy/", "Privacy"), ("/sitemap/", "All pages")]
+    ("/about/editorial-standards/", "Editorial standards"),
+    ("/contact/", "Contact"),
+    ("/privacy/", "Privacy"),
+    ("/sitemap/", "All pages")]
+
+# ---------------------------------------------------------------------------
+# Targeted internal links (哥飞 11-07). milk (471 impressions, 64.3) and
+# peanut-butter (176 impressions, 83.7) are the two pages with demand and no
+# authority: 12 and 8 inbound links against 26 for grapes and chocolate. Both
+# sit in a 49-page section where the "related reading" list is hand-picked, so
+# the fix is editorial rather than templated — each row below is a page whose
+# subject genuinely raises the question, not a link added for its own sake.
+# ---------------------------------------------------------------------------
+RELATED_BOOST = {
+    # xylitol: the single most common place a dog meets xylitol is peanut
+    # butter, so the two pages answer each other's next question.
+    "can-dogs-eat-xylitol": ["can-dogs-eat-peanut-butter"],
+    # crate training: a stuffed frozen Kong is the standard crate tool.
+    "how-to-crate-train-a-puppy": ["can-dogs-eat-peanut-butter"],
+    "best-dog-crate": ["can-dogs-eat-peanut-butter"],
+    # dairy cluster — same lactose arithmetic, different fat and sugar.
+    "can-dogs-eat-yogurt": ["can-dogs-eat-milk"],
+    "can-dogs-eat-cheese": ["can-dogs-eat-milk"],
+    "can-dogs-eat-ice-cream": ["can-dogs-eat-milk"],
+    # "he stopped eating" is where owners reach for milk and peanut butter.
+    "dog-not-eating-but-drinking-water": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
+    "dog-vomiting-causes": ["can-dogs-eat-milk"],
+    "how-much-to-feed-my-dog": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
+    "can-dogs-eat-bread": ["can-dogs-eat-peanut-butter"],
+    "can-dogs-eat-bananas": ["can-dogs-eat-peanut-butter"],
+    "can-dogs-eat-apples": ["can-dogs-eat-peanut-butter"],
+    "can-dogs-eat-honey": ["can-dogs-eat-milk"],
+    "can-dogs-eat-strawberries": ["can-dogs-eat-milk"],
+}
 
 CONSENT_DEFAULT = (
     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
@@ -319,7 +360,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=8">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=9">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -637,8 +678,12 @@ def render_article(a):
                     "that matches your problem, then follow the links inside it.</p>"
                     "<ul>%s</ul></div>" % lis)
     elif a.get("related"):
+        order = [s for s in a["related"] if s != slug]
+        for extra in RELATED_BOOST.get(slug, []):
+            if extra != slug and extra not in order:
+                order.append(extra)
         lis = "".join(
-            '<li><a href="%s">%s</a></li>' % (LOOKUP[s][0], LOOKUP[s][1]) for s in a["related"]
+            '<li><a href="%s">%s</a></li>' % (LOOKUP[s][0], LOOKUP[s][1]) for s in order
         )
         rel_html = '<div class="related"><h2>Related reading</h2><ul>%s</ul></div>' % lis
 
@@ -1104,16 +1149,132 @@ def render_food_chart(fc):
             '%s</table>\n\n' % (i, tier["label"], tier["intro"], rows)
         )
 
+    # ------------------------------------------------------------------
+    # The chart as an asset rather than a page (2026-11-07).
+    #
+    # 哥飞's "free links" method: a thing other sites have a reason to reuse,
+    # with the credit link built into it. A 47-row reference table is exactly
+    # that, but only if a blogger can (a) take the data away, (b) print it as a
+    # handout, and (c) paste it into their own page without asking us. All
+    # three are here: CSV from the DOM (no second copy of the data to drift),
+    # a print stylesheet, and an iframe with a scroll box inside it so the
+    # frame does not have to be 3,000px tall.
+    #
+    # Embed rules stay inline and scoped to this page for the same reason as
+    # the chocolate calculator: shipping them in /assets/style.css would mean
+    # re-versioning that file and rewriting all 88 pages.
+    # ------------------------------------------------------------------
+    style = """
+<style>
+.chart-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 4px}
+.chart-tools button{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools button:hover{background:#EAF5EF}
+.chart-tools a{font-size:13.5px}
+.embed-credit{display:none}
+html.embed .site-head,html.embed .site-foot,html.embed .crumbs,html.embed .eyebrow,
+html.embed .lede,html.embed .chart-tools,html.embed .embed-block,html.embed .cfc-bar{display:none!important}
+/* Pin the frame to the height the host gave it: without this the page keeps a
+   phantom 170px of scrollable height (the 47-row table's layout box is still
+   counted even though .doc clips it), which shows up as a second scrollbar in
+   the host's iframe. */
+html.embed,html.embed body{height:100vh;overflow:hidden;margin:0;padding:0}
+html.embed .wrap.narrow{max-width:none;padding:14px 14px 10px}
+html.embed h1{font-size:17px;line-height:1.25;margin:0 0 8px}
+/* vh-relative, not a fixed 600px: the frame is 760 tall on a desktop but the
+   same markup wraps to more lines at 380 wide, so a fixed height produces a
+   second scrollbar inside the first. This makes the chart fill whatever
+   height the host gives the iframe. */
+html.embed .doc{max-height:calc(100vh - 118px);overflow:auto;padding-right:8px}
+html.embed .doc>h2:first-of-type{margin-top:4px}
+html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px 0 0}
+@media print{
+  .site-head,.site-foot,.crumbs,.chart-tools,.embed-block,.embed-credit,.cfc-bar{display:none!important}
+  .doc{max-height:none!important;overflow:visible!important}
+  tr,td,th{page-break-inside:avoid}
+  .doc table{font-size:11px}
+}
+</style>
+"""
+
+    tools = (
+        '<div class="chart-tools">'
+        '<button id="fc-csv" type="button">Download the chart (CSV)</button>'
+        '<button id="fc-print" type="button">Print or save as PDF</button>'
+        '<a href="#embed">Embed this chart</a>'
+        '</div>\n'
+    )
+
+    embed_block = (
+        '\n<h2 id="embed">Put this chart on your own site</h2>\n'
+        '<p>Vet clinics, breeders, shelter pages and pet blogs are welcome to reuse it. '
+        'The CSV is the source data for the table, and the iframe is the whole widget &mdash; '
+        'it sets no cookie and needs no script from us. The table scrolls inside the frame, '
+        'so it stays readable on a phone instead of running for three thousand pixels.</p>\n'
+        '<div class="callout embed-block">'
+        '<p style="font-size:12.5px;word-break:break-all">&lt;iframe src="https://wagwise.org'
+        + fc["url"] + '?embed=1" width="100%" height="760" style="border:1px solid #e3e0d8;'
+        'border-radius:14px" title="Foods dogs can eat: 47-food safety chart"&gt;&lt;/iframe&gt;</p>'
+        '<p style="font-size:12.5px;word-break:break-all">&lt;p&gt;Chart by &lt;a href="https://wagwise.org'
+        + fc["url"] + '"&gt;WagWise Pet&lt;/a&gt; &mdash; all 47 foods, four risk tiers, '
+        'each row with the dose that decides it.&lt;/p&gt;</p>'
+        '</div>\n'
+    )
+
+    credit = ('<p class="embed-credit">Chart by <a href="https://wagwise.org' + fc["url"] + '">'
+              'WagWise Pet</a> &mdash; 47 foods, four risk tiers, the dose that decides each one.</p>')
+
+    script = """
+<script>
+(function(){
+  if (location.search.indexOf('embed=1') > -1) document.documentElement.className += ' embed';
+
+  function cell(td){
+    var t = (td.textContent || '').replace(/\\s+/g, ' ').trim();
+    return '"' + t.replace(/"/g, '""') + '"';
+  }
+
+  /* The CSV is generated from the rendered table, not from a second copy of
+     the data — one source of truth, so a row edited in articles.py cannot end
+     up different in the download. */
+  document.getElementById('fc-csv').addEventListener('click', function(){
+    var heads = [].slice.call(document.querySelectorAll('.doc h2'));
+    var rows = [['Tier', 'Food', 'What is safe', 'The number that matters']];
+    [].slice.call(document.querySelectorAll('table.chart-tbl')).forEach(function(tb){
+      var label = '';
+      for (var i = 0; i < heads.length; i++){
+        if (heads[i].compareDocumentPosition(tb) & 4) label = heads[i].textContent.trim();
+      }
+      [].slice.call(tb.rows).forEach(function(tr, idx){
+        if (idx === 0) return;
+        var out = [label];
+        [].slice.call(tr.cells).forEach(function(td){ out.push(cell(td)); });
+        rows.push([label].concat([].slice.call(tr.cells).map(cell)));
+      });
+    });
+    var csv = '\\ufeff' + rows.map(function(r){ return r.join(','); }).join('\\r\\n');
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv;charset=utf-8'}));
+    a.download = 'wagwise-food-safety-chart.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  document.getElementById('fc-print').addEventListener('click', function(){ window.print(); });
+})();
+</script>
+"""
+
     body = (
         '<div class="wrap narrow">\n'
-        '  <div class="crumbs"><a href="/">Home</a> \u203a '
+        + style
+        + '  <div class="crumbs"><a href="/">Home</a> \u203a '
         '<a href="/dog-nutrition/">Dog nutrition</a> \u203a Food safety chart</div>\n'
+        + tools
         # The whole reference block sits inside .doc: the table styles
         # (.doc table / th / td) are scoped to that wrapper, so without it the
         # 47-row chart renders as unstyled text with no cell padding.
-        '<div class="doc">\n'
-        + fc["head"] + tiers + fc["tail"] +
-        '\n</div>\n</div>'
+        + '<div class="doc">\n'
+        + fc["head"] + tiers + fc["tail"] + embed_block +
+        '\n</div>\n' + credit + script + '</div>'
     )
     return shell(h, "/dog-nutrition/", body)
 

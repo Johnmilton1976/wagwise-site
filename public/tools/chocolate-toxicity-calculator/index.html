@@ -20,7 +20,7 @@
 <meta name="twitter:description" content="Work out how dangerous a chocolate dose is for your dog: theobromine per kilo of body weight, the four clinical thresholds, and what to do at each one.">
 <meta name="twitter:image" content="https://wagwise.org/assets/og-image-wagwise.png">
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-<link rel="stylesheet" href="/assets/style.css?v=8">
+<link rel="stylesheet" href="/assets/style.css?v=9">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -148,6 +148,7 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
 
     <button id="ch-go" type="button">Check the dose</button>
     <div id="ch-out" class="calc-result">Enter the weight and the amount.<small>The result appears here.</small></div>
+    <button id="ch-link" type="button" style="margin-top:12px;background:#fff;color:#2f7a5d;border:1px solid #3FA97E">Copy result link</button>
     <div class="calc-scale">
       <div class="band"></div>
       <div class="mark" id="ch-mark"></div>
@@ -205,7 +206,9 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
     <h2>Put this calculator on your own site</h2>
     <p>Vet clinics, breeders and pet blogs are welcome to embed it. The snippet is the whole tool, it sets no cookie and needs no script from us:</p>
     <div class="callout">
-      <p style="font-size:13px;word-break:break-all">&lt;iframe src="https://wagwise.org/tools/chocolate-toxicity-calculator/?embed=1" width="100%" height="820" style="border:1px solid #e3e0d8;border-radius:14px" title="Chocolate toxicity calculator for dogs"&gt;&lt;/iframe&gt;</p>
+      <p style="font-size:13px;word-break:break-all">&lt;iframe id="ww-chocolate" src="https://wagwise.org/tools/chocolate-toxicity-calculator/?embed=1" width="100%" height="820" style="border:1px solid #e3e0d8;border-radius:14px" title="Chocolate toxicity calculator for dogs"&gt;&lt;/iframe&gt;
+&lt;script&gt;addEventListener("message",function(e){if(e.data&amp;&amp;e.data.wagwiseHeight){var f=document.getElementById("ww-chocolate");if(f)f.height=e.data.wagwiseHeight+2}});&lt;/script&gt;</p>
+      <p style="font-size:13px">The script is optional &mdash; without it the frame keeps the 820px default. With it, the box grows to fit the answer.</p>
       <p style="font-size:13px;word-break:break-all">&lt;p&gt;Calculator by &lt;a href="https://wagwise.org/tools/chocolate-toxicity-calculator/"&gt;WagWise Pet&lt;/a&gt; — theobromine dose by body weight.&lt;/p&gt;</p>
     </div>
 
@@ -246,7 +249,8 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
   var wEl=document.getElementById('ch-weight'), uEl=document.getElementById('ch-unit'),
       tEl=document.getElementById('ch-type'), aEl=document.getElementById('ch-amount'),
       auEl=document.getElementById('ch-amtunit'), out=document.getElementById('ch-out'),
-      mark=document.getElementById('ch-mark'), table=document.getElementById('ch-table');
+      mark=document.getElementById('ch-mark'), table=document.getElementById('ch-table'),
+      linkBtn=document.getElementById('ch-link');
 
   function val(el){ var v=parseFloat(el.value); return isNaN(v)||v<0?0:v; }
 
@@ -281,6 +285,31 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
       (Math.round(kg*10)/10) + ' kg dog. ' + advice(dose, type, kg) + '</small>';
 
     mark.innerHTML = '<i style="left:' + pct + '%"></i>';
+
+    /* The result becomes the URL: a forum answer that reads "my 12 kg dog ate
+       100 g of milk chocolate, is that bad?" is better answered by a link
+       that already contains the numbers than by a link to the homepage. */
+    try{
+      var u = new URL(location.href);
+      u.searchParams.set('weight', Math.round(kg*10)/10);
+      u.searchParams.set('unit', 'kg');
+      u.searchParams.set('type', type);
+      u.searchParams.set('amount', auEl.value==='oz' ? (val(aEl)).toFixed(1) : String(val(aEl)));
+      u.searchParams.set('amtunit', auEl.value);
+      history.replaceState(null, '', u.toString());
+    }catch(e){}
+  }
+
+  if (linkBtn){
+    linkBtn.addEventListener('click', function(){
+      var t = location.href;
+      try{
+        var u = new URL(t); u.searchParams.delete('embed'); t = u.toString();
+      }catch(e){}
+      try{ if (navigator.clipboard) navigator.clipboard.writeText(t); }catch(e){}
+      linkBtn.textContent = 'Link copied ✓';
+      setTimeout(function(){ linkBtn.textContent = 'Copy result link'; }, 1600);
+    });
   }
 
   function buildTable(){
@@ -299,6 +328,20 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
       '<th style="text-align:left">60 mg/kg</th></tr>' + rows;
   }
 
+  /* Read a shared link before the first render, so ?weight=12&unit=kg&type=milk
+     &amount=100 opens on those numbers rather than on the defaults. */
+  try{
+    var q = new URLSearchParams(location.search);
+    var qw = parseFloat(q.get('weight'));
+    if (!isNaN(qw) && qw > 0){
+      if (q.get('unit') === 'lb'){ wEl.value = Math.round(qw*2.20462*10)/10; uEl.value='lb'; }
+      else { wEl.value = qw; uEl.value = 'kg'; }
+    }
+    if (['white','milk','semi','baking','cocoa'].indexOf(q.get('type')) > -1) tEl.value = q.get('type');
+    var qa = parseFloat(q.get('amount'));
+    if (!isNaN(qa) && qa >= 0){ aEl.value = qa; if (q.get('amtunit') === 'oz') auEl.value = 'oz'; }
+  }catch(e){}
+
   function all(){ calc(); buildTable(); }
   ['ch-weight','ch-amount'].forEach(function(id){ document.getElementById(id).addEventListener('input', calc); });
   ['ch-unit','ch-amtunit','ch-type'].forEach(function(id){ document.getElementById(id).addEventListener('change', all); });
@@ -306,21 +349,24 @@ html.embed .calc-card{margin:0 0 10px;padding:18px}
 
   all();
 
-  if (location.search.indexOf('embed=1') > -1) document.documentElement.className += ' embed';
+  if (location.search.indexOf('embed=1') > -1){
+    document.documentElement.className += ' embed';
+    /* Embedders should not have to guess a pixel height. The result panel grows
+       and shrinks with the answer, so the frame is told the real height every
+       time it changes; the snippet on the page listens for this message. */
+    var report = function(){
+      try{ parent.postMessage({wagwiseHeight: document.documentElement.scrollHeight}, '*'); }catch(e){}
+    };
+    window.addEventListener('load', report);
+    document.addEventListener('input', report);
+    document.addEventListener('change', report);
+    setTimeout(report, 200);
+  }
 })();
 </script>
 </main>
 <footer class="site-foot"><div class="wrap"><div class="fb">
-      <a href="/">Home</a>
-      <a href="/dog-training/">Dog Training</a>
-      <a href="/dog-health/">Dog Health</a>
-      <a href="/dog-nutrition/">Nutrition</a>
-      <a href="/dog-care/">Care & Grooming</a>
-      <a href="/cat/">Cats</a>
-      <a href="/best/">Reviews</a>
-      <a href="/about/">About</a>
       <a href="/dog-nutrition/foods-toxic-to-dogs/">Toxic foods list</a>
-      <a href="/dog-nutrition/food-safety-chart/">Food safety chart</a>
       <a href="/about/editorial-standards/">Editorial standards</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>

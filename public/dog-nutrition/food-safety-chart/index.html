@@ -20,7 +20,7 @@
 <meta name="twitter:description" content="The foods dogs can eat, and the ones that only look safe: 47 rows in four risk tiers, each with the dose that decides the case and the number behind it.">
 <meta name="twitter:image" content="https://wagwise.org/assets/og-image-wagwise.png">
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-<link rel="stylesheet" href="/assets/style.css?v=8">
+<link rel="stylesheet" href="/assets/style.css?v=9">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,7 +84,38 @@
       <a href="/about/">About</a>
     </nav></div></header>
 <main><div class="wrap narrow">
+
+<style>
+.chart-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 4px}
+.chart-tools button{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools button:hover{background:#EAF5EF}
+.chart-tools a{font-size:13.5px}
+.embed-credit{display:none}
+html.embed .site-head,html.embed .site-foot,html.embed .crumbs,html.embed .eyebrow,
+html.embed .lede,html.embed .chart-tools,html.embed .embed-block,html.embed .cfc-bar{display:none!important}
+/* Pin the frame to the height the host gave it: without this the page keeps a
+   phantom 170px of scrollable height (the 47-row table's layout box is still
+   counted even though .doc clips it), which shows up as a second scrollbar in
+   the host's iframe. */
+html.embed,html.embed body{height:100vh;overflow:hidden;margin:0;padding:0}
+html.embed .wrap.narrow{max-width:none;padding:14px 14px 10px}
+html.embed h1{font-size:17px;line-height:1.25;margin:0 0 8px}
+/* vh-relative, not a fixed 600px: the frame is 760 tall on a desktop but the
+   same markup wraps to more lines at 380 wide, so a fixed height produces a
+   second scrollbar inside the first. This makes the chart fill whatever
+   height the host gives the iframe. */
+html.embed .doc{max-height:calc(100vh - 118px);overflow:auto;padding-right:8px}
+html.embed .doc>h2:first-of-type{margin-top:4px}
+html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px 0 0}
+@media print{
+  .site-head,.site-foot,.crumbs,.chart-tools,.embed-block,.embed-credit,.cfc-bar{display:none!important}
+  .doc{max-height:none!important;overflow:visible!important}
+  tr,td,th{page-break-inside:avoid}
+  .doc table{font-size:11px}
+}
+</style>
   <div class="crumbs"><a href="/">Home</a> › <a href="/dog-nutrition/">Dog nutrition</a> › Food safety chart</div>
+<div class="chart-tools"><button id="fc-csv" type="button">Download the chart (CSV)</button><button id="fc-print" type="button">Print or save as PDF</button><a href="#embed">Embed this chart</a></div>
 <div class="doc">
 
 <div class="eyebrow">REFERENCE</div>
@@ -228,19 +259,52 @@
 <p><strong>Using this chart.</strong> You are welcome to cite it, quote a row, or reproduce the tier structure with attribution and a link back to this page. It is kept current precisely so that other people can rely on it rather than re-deriving the numbers.</p>
 <p class="muted" style="font-size:14px">Last full review: 2 November 2026. This page is general information, not veterinary advice. For anything urgent, call your vet or the nearest emergency clinic.</p>
 
+<h2 id="embed">Put this chart on your own site</h2>
+<p>Vet clinics, breeders, shelter pages and pet blogs are welcome to reuse it. The CSV is the source data for the table, and the iframe is the whole widget &mdash; it sets no cookie and needs no script from us. The table scrolls inside the frame, so it stays readable on a phone instead of running for three thousand pixels.</p>
+<div class="callout embed-block"><p style="font-size:12.5px;word-break:break-all">&lt;iframe src="https://wagwise.org/dog-nutrition/food-safety-chart/?embed=1" width="100%" height="760" style="border:1px solid #e3e0d8;border-radius:14px" title="Foods dogs can eat: 47-food safety chart"&gt;&lt;/iframe&gt;</p><p style="font-size:12.5px;word-break:break-all">&lt;p&gt;Chart by &lt;a href="https://wagwise.org/dog-nutrition/food-safety-chart/"&gt;WagWise Pet&lt;/a&gt; &mdash; all 47 foods, four risk tiers, each row with the dose that decides it.&lt;/p&gt;</p></div>
+
 </div>
+<p class="embed-credit">Chart by <a href="https://wagwise.org/dog-nutrition/food-safety-chart/">WagWise Pet</a> &mdash; 47 foods, four risk tiers, the dose that decides each one.</p>
+<script>
+(function(){
+  if (location.search.indexOf('embed=1') > -1) document.documentElement.className += ' embed';
+
+  function cell(td){
+    var t = (td.textContent || '').replace(/\s+/g, ' ').trim();
+    return '"' + t.replace(/"/g, '""') + '"';
+  }
+
+  /* The CSV is generated from the rendered table, not from a second copy of
+     the data — one source of truth, so a row edited in articles.py cannot end
+     up different in the download. */
+  document.getElementById('fc-csv').addEventListener('click', function(){
+    var heads = [].slice.call(document.querySelectorAll('.doc h2'));
+    var rows = [['Tier', 'Food', 'What is safe', 'The number that matters']];
+    [].slice.call(document.querySelectorAll('table.chart-tbl')).forEach(function(tb){
+      var label = '';
+      for (var i = 0; i < heads.length; i++){
+        if (heads[i].compareDocumentPosition(tb) & 4) label = heads[i].textContent.trim();
+      }
+      [].slice.call(tb.rows).forEach(function(tr, idx){
+        if (idx === 0) return;
+        var out = [label];
+        [].slice.call(tr.cells).forEach(function(td){ out.push(cell(td)); });
+        rows.push([label].concat([].slice.call(tr.cells).map(cell)));
+      });
+    });
+    var csv = '\ufeff' + rows.map(function(r){ return r.join(','); }).join('\r\n');
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv;charset=utf-8'}));
+    a.download = 'wagwise-food-safety-chart.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  document.getElementById('fc-print').addEventListener('click', function(){ window.print(); });
+})();
+</script>
 </div></main>
 <footer class="site-foot"><div class="wrap"><div class="fb">
-      <a href="/">Home</a>
-      <a href="/dog-training/">Dog Training</a>
-      <a href="/dog-health/">Dog Health</a>
-      <a href="/dog-nutrition/">Nutrition</a>
-      <a href="/dog-care/">Care & Grooming</a>
-      <a href="/cat/">Cats</a>
-      <a href="/best/">Reviews</a>
-      <a href="/about/">About</a>
       <a href="/dog-nutrition/foods-toxic-to-dogs/">Toxic foods list</a>
-      <a href="/dog-nutrition/food-safety-chart/">Food safety chart</a>
       <a href="/about/editorial-standards/">Editorial standards</a>
       <a href="/contact/">Contact</a>
       <a href="/privacy/">Privacy</a>

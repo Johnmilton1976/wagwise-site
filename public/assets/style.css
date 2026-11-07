@@ -140,7 +140,12 @@ h1{font-size:32px;font-weight:700;line-height:1.3;letter-spacing:-.01em;margin-b
 /* Food safety chart (2026-11-02): a 3-column reference table cannot survive a
    390px viewport — the third column carries a full dose sentence, so on phones
    each row becomes a stacked block: food name, safe form, then the number. */
+/* Regular .doc tables (2026-11-07): a 4-column comparison table has a
+   min-content width above 350px, so width:100% quietly overflowed the viewport
+   on /best/dog-crate/ by 2px and made the whole page scroll sideways. Scroll
+   the table instead of the page. .chart-tbl keeps its own stacked layout. */
 @media(max-width:620px){
+  .doc table:not(.chart-tbl){display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
   .chart-tbl{border:0;background:transparent}
   .chart-tbl tr{display:block;padding:13px 0;border-top:1px solid rgba(0,0,0,.07)}
   .chart-tbl tr:first-child{display:none}
