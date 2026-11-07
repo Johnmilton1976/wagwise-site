@@ -1,0 +1,347 @@
+# -*- coding: utf-8 -*-
+"""Dog food calculator — body markup + script (2026-11-07).
+
+Third tool page. Kept in its own module for the same reason as choco_tool.py:
+the page is mostly markup, and 400 lines of HTML inside render.py would bury
+the build logic.
+
+Why this tool: /dog-nutrition/how-much-to-feed-my-dog/ already walks the reader
+through RER, the life-stage factor and the conversion to grams, and then asks
+them to do the arithmetic on a calculator. It is also the page the site sends
+its most commercially-minded traffic to. Turning the four steps into a working
+tool is the difference between a page that explains and an asset someone can
+cite.
+
+Two deliberate departures from every other feeding calculator:
+
+1. It shows a range, not a single number. Merck states that any given animal
+   may need up to 30% more or less than the calculated figure, so a lone
+   "158 g" is a false precision. The page prints the number and the band.
+2. It has no cup output. Cups are the question everyone asks and the unit that
+   cannot be answered — calorie density varies by more than 2x between foods
+   and cup-filling error runs 20-80%. Saying so is more useful than a number
+   in a unit that is wrong for half the foods people feed.
+
+Factors are Merck's MER table, verbatim (intact 1.8, neutered 1.6, obesity
+prone 1.4, puppies 3.0 and 2.0). MER is rounded to the nearest 5 kcal so the
+five rows of the table in the article are reproduced exactly:
+70 * 5^0.75 * 1.6 = 374.5 -> 375, and 70 * 40^0.75 * 1.6 = 1,781.4 -> 1,780.
+"""
+
+# (value, label, factor) — factor None means "ask for the target weight"
+STAGES = [
+    ("neutered", "Neutered adult", 1.6),
+    ("intact", "Intact adult", 1.8),
+    ("prone", "Obesity-prone or low activity", 1.4),
+    ("puppy-small", "Puppy under 4 months", 3.0),
+    ("puppy-older", "Puppy 4 months to adult", 2.0),
+    ("gain", "Underweight, gaining", 1.2),
+    ("loss", "Weight loss — enter the target weight", 1.0),
+]
+
+FACTORS = {k: f for k, _, f in STAGES}
+
+# kcal per kg of food used in the static table. 3,500-4,500 is the dry range
+# stated on the article; 3,000 is a low-density senior/weight-control diet.
+DENSITIES = [3000, 3500, 4000, 4500]
+TABLE_WEIGHTS = [5, 10, 20, 30, 40]
+
+
+def _round5(x):
+    return int(round(x / 5.0) * 5)
+
+
+def _rer(kg):
+    return 70 * (kg ** 0.75)
+
+
+def grams_table():
+    """Static rows so the numbers are in the HTML, not only in the script."""
+    head = ('<tr><th style="text-align:left">Dog weight</th>'
+            + "".join('<th style="text-align:left">%s kcal/kg</th>' % format(d, ",")
+                      for d in DENSITIES)
+            + '<th style="text-align:left">RER at rest</th></tr>')
+    rows = ""
+    for kg in TABLE_WEIGHTS:
+        mer = _round5(_rer(kg) * FACTORS["neutered"])
+        cells = "".join('<td>%d g</td>' % round(mer * 1000.0 / d) for d in DENSITIES)
+        # RER is shown to the nearest kcal, not the nearest 5: the feeding
+        # article prints 234 for 5 kg, and a table that says 235 two clicks
+        # away from it looks like a different calculation.
+        rows += ('<tr><td>%d kg</td>%s<td>%s kcal</td></tr>\n'
+                 % (kg, cells, format(int(round(_rer(kg))), ",")))
+    return head, rows
+
+
+_TABLE_HEAD, _TABLE_ROWS = grams_table()
+
+FEED_BODY = """
+<style>
+/* Scoped to this page on purpose: shipping these in /assets/style.css would
+   mean re-versioning the stylesheet and rewriting 88 unrelated files. */
+html.embed .site-head,html.embed .site-foot,html.embed .crumbs,
+html.embed .lede,html.embed .eyebrow,html.embed .doc,html.embed .cfc-bar{display:none!important}
+html.embed main{padding:0}
+html.embed .wrap.narrow{max-width:none;padding:14px 14px 6px}
+html.embed h1{font-size:19px;line-height:1.3;margin:0 0 10px}
+html.embed .calc-card{margin:0 0 10px;padding:18px}
+html.embed .calc-result{font-size:17px}
+.calc-card{max-width:560px;margin:24px 0;padding:24px;background:#fff;border:1px solid #e3e0d8;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.calc-card label{display:block;font-weight:600;margin:14px 0 6px;color:#243027}
+.calc-card select,.calc-card input{font-size:16px;padding:10px 12px;border:1px solid #cfcabb;border-radius:9px;background:#fff;color:#243027;width:100%;box-sizing:border-box}
+.calc-row{display:flex;gap:10px;align-items:center}
+.calc-row input{flex:1}
+.calc-row select{width:auto;flex:0 0 112px}
+.calc-card button{margin-top:18px;width:100%;padding:13px;background:#3FA97E;color:#fff;border:0;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer}
+.calc-card button:hover{background:#348c69}
+.calc-result{margin-top:18px;padding:16px;border-radius:10px;background:#EAF5EF;color:#1f5c43;font-size:19px;font-weight:700;text-align:center;line-height:1.45}
+.calc-result small{display:block;font-size:13px;font-weight:500;margin-top:8px;color:#41685a;line-height:1.5}
+.calc-result .rng{display:block;font-size:14px;font-weight:600;margin-top:8px;color:#41685a}
+.calc-note{font-size:14px;color:#6b6f66;margin-top:10px}
+</style>
+<div class="wrap narrow">
+  <div class="eyebrow">TOOLS</div>
+  <h1>Dog food calculator: grams per day by weight</h1>
+  <p class="lede">Enter the weight and the number off the label. You get the daily calories, the grams that represents, and the range that keeps the number honest.</p>
+
+  <div class="calc-card">
+    <label for="fd-weight" id="fd-weight-label">Your dog's weight</label>
+    <div class="calc-row">
+      <input id="fd-weight" type="number" min="0.5" max="90" step="0.1" value="10">
+      <select id="fd-unit">
+        <option value="kg" selected>kg</option>
+        <option value="lb">lb</option>
+      </select>
+    </div>
+
+    <label for="fd-stage">Life stage and activity</label>
+    <select id="fd-stage">
+      <option value="neutered" selected>Neutered adult</option>
+      <option value="intact">Intact adult</option>
+      <option value="prone">Obesity-prone or low activity</option>
+      <option value="puppy-small">Puppy under 4 months</option>
+      <option value="puppy-older">Puppy 4 months to adult</option>
+      <option value="gain">Underweight, gaining</option>
+      <option value="loss">Weight loss &mdash; enter the target weight</option>
+    </select>
+
+    <label for="fd-kcal">Calories in the food</label>
+    <div class="calc-row">
+      <input id="fd-kcal" type="number" min="200" step="10" value="4000">
+      <select id="fd-kunit">
+        <option value="kg" selected>kcal per kg</option>
+        <option value="100g">kcal per 100 g</option>
+      </select>
+    </div>
+
+    <label for="fd-meals">Meals a day</label>
+    <select id="fd-meals">
+      <option value="1">1</option>
+      <option value="2" selected>2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+
+    <button id="fd-go" type="button">Work out the portion</button>
+    <div id="fd-out" class="calc-result">Enter the weight and the calorie content.<small>The result appears here.</small></div>
+    <button id="fd-link" type="button" style="margin-top:12px;background:#fff;color:#2f7a5d;border:1px solid #3FA97E">Copy result link</button>
+    <p class="calc-note">A starting point, not a prescription. Weigh every two weeks and adjust by about 10% against body condition &mdash; the number on this page does not know your dog's frame, and it cannot see the ribs.</p>
+  </div>
+
+  <div class="doc">
+    <h2>What this calculator tells you that a bag chart does not</h2>
+    <p>Two things, and they are the reason it exists.</p>
+    <p><strong>It gives a range.</strong> Merck's own guidance is that any given animal may require as much as 30% more or less than the calories calculated for its body weight than another animal of the same weight. A calculator that prints one number and stops is quoting a population average as if it were your dog. This one prints the number, the band it sits in, and expects the band to be the part you actually use: start at the middle, weigh in a fortnight, move towards whichever edge the ribs point to.</p>
+    <p><strong>It refuses to give you cups.</strong> Cups are the question every owner asks and the unit that cannot be answered across foods. Calorie density varies by more than 2&times; between diets, and studies of owners using measuring cups have found filling errors of 20&ndash;80% depending on the shape of the kibble and how the cup is packed. Grams and a cheap kitchen scale remove an entire category of overfeeding error. If a label states grams per cup, use it &mdash; but use it as a conversion for that one food, not as a universal answer.</p>
+
+    <h2>How the number is worked out</h2>
+    <p>Four steps, the same four the <a href="/dog-nutrition/how-much-to-feed-my-dog/">full feeding guide</a> walks through in prose.</p>
+    <p><strong>1. Resting energy requirement.</strong> RER = 70 &times; (body weight in kg)<sup>0.75</sup>. Energy scales with weight to the power of 0.75, not linearly, which is why a dog twice the weight does not need twice the food. Merck also gives a linear version for dogs over 2 kg &mdash; 30 &times; kg + 70 &mdash; which returns 370 kcal for a 10 kg dog against 394 from the exponential formula. The calculator uses the exponential one because it is the only one valid across the whole size range, including toy breeds and puppies.</p>
+    <p><strong>2. Multiply by a life-stage factor.</strong> That is the second dropdown, and the numbers are Merck's, unmodified: intact adult 1.8, neutered adult 1.6, obesity-prone 1.4, puppies 3.0 under four months and 2.0 after. The result is the maintenance energy requirement.</p>
+    <p><strong>3. Divide by the food.</strong> Grams per day = kcal needed &divide; (kcal per kg of food &divide; 1,000). Dry food is typically 3,500&ndash;4,500 kcal/kg; wet food is far lower because most of the tin is water, often around 1,000.</p>
+    <p><strong>4. Check the dog, not the scale.</strong> Body condition score on a 1&ndash;9 scale, 4&ndash;5 ideal: ribs felt easily under light pressure and not seen, a visible waist from above, a tuck from the side. Recheck every two weeks. Drifting up the scale means cut the portion about 10% &mdash; not a third overnight, which produces a hungry dog and a plan nobody keeps.</p>
+    <div class="callout">
+      <p><strong>Worked example, so you can check the arithmetic.</strong> A 10 kg neutered adult on a food stating 4,000 kcal/kg. RER = 70 &times; 10<sup>0.75</sup> = 394 kcal. Maintenance = 394 &times; 1.6 = 630 kcal. 630 &divide; 4,000 &times; 1,000 = <strong>158 g a day</strong>, or 79 g a meal on two meals. The same dog on a wet food at 1,000 kcal/kg needs 630 g &mdash; the same calories, four times the weight of food.</p>
+    </div>
+
+    <h2>Grams per day at common weights</h2>
+    <p>Neutered adult, calculated the same way the tool does, across the calorie densities most dry foods actually print. Read across to the density on your own bag, not down the column.</p>
+    <table>
+      @@TABLE@@
+    </table>
+    <p>Two things this table shows that a bag chart hides. A 5 kg dog on a 4,000 kcal/kg food eats <strong>94 g</strong> a day; the same dog on a 3,000 kcal/kg diet needs <strong>125 g</strong> &mdash; a third more food for identical calories. And the step from 30 kg to 40 kg adds only <strong>345 kcal</strong> of requirement, not the 33% the weight itself went up by.</p>
+
+    <h2>Why the answer has a range in it</h2>
+    <p>Individual variation in energy requirement is not noise around the formula; it is larger than most of the adjustments people make. Two Labradors of the same weight, same age, same neuter status, can differ by 30% in what they need to hold that weight. That is why every published factor is a starting point and why the only real measurement is the fortnightly weigh-in.</p>
+    <p>The practical version: feed the middle of the range for two weeks, weigh, and adjust by 10% at a time. If the dog is losing on a portion that should hold it, the portion is too small or something medical is happening &mdash; thyroid disease, pancreatic insufficiency, parasites and diabetes all present as "eats well, stays thin".</p>
+
+    <h2>The treat budget sits inside the total, not on top of it</h2>
+    <p>Treats are commonly held to about <strong>10% of daily calories</strong>, with the rest of the diet completing the nutrition. That figure is a clinical rule of thumb rather than a published standard, and we say so rather than dressing it up as one. What matters is that it is a subtraction: the calculator prints the treat allowance next to the total, because "a few biscuits" on top of a full portion is how a diet that looks correct produces a dog that gains weight.</p>
+    <p>If you are using treats for training, take them out of the meal rather than adding them. The <a href="/dog-nutrition/food-safety-chart/">47-food safety chart</a> lists what is safe to use and, for each food, the number that decides whether it counts as a treat or a meal.</p>
+
+    <h2>What this cannot do</h2>
+    <p>It cannot score body condition, it does not know your dog's frame or muscle mass, and it does not adjust for medical conditions &mdash; kidney disease, heart disease, diabetes, pancreatitis and hypoallergenic elimination trials all change the target in ways a weight-based formula cannot see. Pregnant and lactating bitches need far more than any factor here. If the dog is on a prescription diet, use the amount the prescribing vet gave you.</p>
+
+    <h2>Sources</h2>
+    <p>Each line says which number it settles, so you can check the figure rather than the whole page.</p>
+    <ul>
+      <li>The formula RER = 70 &times; kg<sup>0.75</sup>, the linear alternative for dogs over 2 kg, the six maintenance factors (1.8 intact, 1.6 neutered, 1.4 obesity-prone, 3.0 and 2.0 for puppies) and the statement that individuals may need 30% more or less: <a href="https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutritional-requirements-and-related-diseases-of-small-animals">Merck Veterinary Manual, Nutritional Requirements of Small Animals</a>. Checked 7 November 2026.</li>
+      <li>Body condition score as the check on the portion, rather than the scale alone: <a href="https://wsava.org/global-guidelines/global-nutrition-guidelines/">WSAVA Global Nutrition Guidelines</a>. Checked 7 November 2026.</li>
+      <li>The 10% treat budget is a clinical convention, not a published standard, and is labelled as such above. We found no primary source that sets it as a requirement.</li>
+    </ul>
+
+    <h2>Put this calculator on your own site</h2>
+    <p>Vet clinics, breeders, rescues and pet blogs are welcome to embed it. The snippet is the whole tool: it sets no cookie, needs no script from us, and the numbers go into the URL so a shared link opens on the same result.</p>
+    <div class="callout">
+      <p style="font-size:13px;word-break:break-all">&lt;iframe id="ww-feed" src="https://wagwise.org/tools/dog-food-calculator/?embed=1" width="100%" height="560" style="border:1px solid #e3e0d8;border-radius:14px" title="Dog food calculator: grams per day by weight"&gt;&lt;/iframe&gt;
+&lt;script&gt;addEventListener("message",function(e){if(e.data&amp;&amp;e.data.wagwiseHeight){var f=document.getElementById("ww-feed");if(f)f.height=e.data.wagwiseHeight+2}});&lt;/script&gt;</p>
+      <p style="font-size:13px">The script is optional &mdash; without it the frame keeps the 560px default. With it, the box grows to fit the result.</p>
+      <p style="font-size:13px;word-break:break-all">&lt;p&gt;Calculator by &lt;a href="https://wagwise.org/tools/dog-food-calculator/"&gt;WagWise Pet&lt;/a&gt; &mdash; daily grams from body weight and the label.&lt;/p&gt;</p>
+    </div>
+
+    <h2>Quick answers</h2>
+    <h3>How many grams a day should I feed my dog?</h3>
+    <p>10 kg neutered adult on a 4,000 kcal/kg food: about 158 g a day, which is 79 g a meal on two meals. 20 kg on the same food: about 265 g. The formula is 70 &times; kg<sup>0.75</sup> &times; 1.6, divided by the food's kcal/kg.</p>
+    <h3>How many cups is that?</h3>
+    <p>There is no conversion that holds across foods. Calorie density varies by more than 2&times;, and cup-filling error runs 20&ndash;80%. If your label states grams per cup, use that figure for that food only; otherwise weigh the food.</p>
+    <h3>Why does the calculator show a range?</h3>
+    <p>Because individual dogs of the same weight can need up to 30% more or less than the calculated figure. The single number is the middle of that band, not a target to hit exactly.</p>
+    <h3>Should I use my dog's current weight or its target weight?</h3>
+    <p>Target weight, for weight loss. Calculating a diet from the current weight over-feeds the dog you are trying to slim, and it is the most common reason a weight-loss plan stalls.</p>
+    <h3>Does neutering change how much to feed?</h3>
+    <p>Yes. The maintenance factor drops from 1.8 to 1.6 &mdash; roughly an 11% reduction in calories &mdash; while appetite typically does not fall at all, which is why weight gain in the year after the operation is so common.</p>
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many grams a day should I feed my dog?", "acceptedAnswer": {"@type": "Answer", "text": "10 kg neutered adult on a 4,000 kcal/kg food: about 158 g a day, which is 79 g a meal on two meals. 20 kg on the same food: about 265 g. The formula is 70 x kg^0.75 x 1.6, divided by the food's kcal/kg."}}, {"@type": "Question", "name": "How many cups is that?", "acceptedAnswer": {"@type": "Answer", "text": "There is no conversion that holds across foods. Calorie density varies by more than 2x, and cup-filling error runs 20-80%. If your label states grams per cup, use that figure for that food only; otherwise weigh the food."}}, {"@type": "Question", "name": "Why does the calculator show a range?", "acceptedAnswer": {"@type": "Answer", "text": "Because individual dogs of the same weight can need up to 30% more or less than the calculated figure, per Merck's guidance. The single number is the middle of that band, not a target to hit exactly."}}, {"@type": "Question", "name": "Should I use my dog's current weight or its target weight?", "acceptedAnswer": {"@type": "Answer", "text": "Target weight, for weight loss. Calculating a diet from the current weight over-feeds the dog you are trying to slim, and it is the most common reason a weight-loss plan stalls."}}, {"@type": "Question", "name": "Does neutering change how much to feed?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The maintenance factor drops from 1.8 to 1.6, roughly an 11% reduction in calories, while appetite typically does not fall at all, which is why weight gain in the year after the operation is so common."}}]}</script>
+
+    <p>Next: the <a href="/dog-nutrition/how-much-to-feed-my-dog/">full feeding guide</a> (body condition scoring, meal frequency, the mistakes that matter), <a href="/tools/dog-age-calculator/">how old your dog is in human years</a>, and if the worry is whether something is safe at all, the <a href="/dog-nutrition/food-safety-chart/">47-food chart</a> or the <a href="/tools/chocolate-toxicity-calculator/">chocolate dose calculator</a>.</p>
+  </div>
+</div>
+<script>
+(function(){
+  var FACTOR = {neutered:1.6, intact:1.8, prone:1.4, 'puppy-small':3.0,
+                'puppy-older':2.0, gain:1.2, loss:1.0};
+  var LABEL = {neutered:'neutered adult', intact:'intact adult',
+               prone:'obesity-prone adult', 'puppy-small':'puppy under 4 months',
+               'puppy-older':'puppy over 4 months', gain:'underweight, gaining',
+               loss:'weight loss target'};
+
+  var wEl=document.getElementById('fd-weight'), uEl=document.getElementById('fd-unit'),
+      sEl=document.getElementById('fd-stage'), kEl=document.getElementById('fd-kcal'),
+      kuEl=document.getElementById('fd-kunit'), mEl=document.getElementById('fd-meals'),
+      out=document.getElementById('fd-out'), wLabel=document.getElementById('fd-weight-label'),
+      linkBtn=document.getElementById('fd-link');
+
+  function val(el){ var v=parseFloat(el.value); return isNaN(v)||v<0?0:v; }
+
+  /* Rounding MER to the nearest 5 kcal is not cosmetic: it is what makes the
+     calculator agree with the five-row table in the feeding article, where
+     1,113 x 1.6 = 1,781.4 is printed as 1,780. */
+  function r5(x){ return Math.round(x/5)*5; }
+
+  function kcalPerKg(){
+    var k = val(kEl);
+    return kuEl.value === '100g' ? k*10 : k;
+  }
+
+  function calc(){
+    var kg = uEl.value === 'lb' ? val(wEl)/2.20462 : val(wEl);
+    var stage = sEl.value, f = FACTOR[stage], den = kcalPerKg();
+
+    wLabel.textContent = stage === 'loss' ? "Your dog's target weight" : "Your dog's weight";
+
+    if (!kg || kg < 0.5){ out.className='calc-result';
+      out.innerHTML = 'Enter a weight above 0.5 kg.<small>The result appears here.</small>'; return; }
+    if (!den){ out.className='calc-result';
+      out.innerHTML = 'Enter the calorie content from the label.<small>Look for metabolisable energy, in kcal/kg or kcal/100 g.</small>'; return; }
+
+    var rer = 70*Math.pow(kg,0.75);
+    var mer = r5(rer*f);
+    var grams = Math.round(mer*1000/den);
+    var meals = parseInt(mEl.value,10) || 2;
+    var perMeal = Math.round(grams/meals);
+    var treat = Math.round(mer*0.1);
+    var lo = Math.round(mer*0.7), hi = Math.round(mer*1.3);
+
+    out.className = 'calc-result';
+    out.innerHTML = grams + ' g a day <span class="rng">' + mer.toLocaleString() +
+      ' kcal &middot; ' + perMeal + ' g &times; ' + meals +
+      (meals === 1 ? ' meal' : ' meals') + '</span>' +
+      '<small>Based on a resting requirement of ' + Math.round(rer).toLocaleString() + ' kcal &times; ' +
+      f.toFixed(1) + ' (' + LABEL[stage] + ').' +
+      '<br>Merck notes individuals may need 30% more or less: <strong>' +
+      lo.toLocaleString() + '&ndash;' + hi.toLocaleString() + ' kcal</strong> a day.' +
+      '<br>Treats, if you use the 10% convention: up to ' + treat + ' kcal &mdash; taken out of this total, not added.</small>' +
+      (stage === 'loss' ? '<small>Calculated from the target weight, as it should be for a diet.</small>' : '');
+
+    /* The result becomes the URL so a link opens on the same answer. A forum
+       reply that says "my dog is 12 kg, how much do I feed" is answered better
+       by a link carrying 12 kg than by a link to the homepage. */
+    try{
+      var u = new URL(location.href);
+      u.searchParams.set('w', Math.round(kg*10)/10);
+      u.searchParams.set('u', 'kg');
+      u.searchParams.set('s', stage);
+      u.searchParams.set('k', val(kEl));
+      u.searchParams.set('ku', kuEl.value);
+      u.searchParams.set('m', meals);
+      history.replaceState(null, '', u.toString());
+    }catch(e){}
+  }
+
+  if (linkBtn){
+    linkBtn.addEventListener('click', function(){
+      var t = location.href;
+      try{ var u = new URL(t); u.searchParams.delete('embed'); t = u.toString(); }catch(e){}
+      try{ if (navigator.clipboard) navigator.clipboard.writeText(t); }catch(e){}
+      linkBtn.textContent = 'Link copied \u2713';
+      setTimeout(function(){ linkBtn.textContent = 'Copy result link'; }, 1600);
+    });
+  }
+
+  /* Read a shared link before the first render, so ?w=12&s=prone&k=3600 opens
+     on those numbers rather than on the defaults. The weight in the URL is
+     already in the unit the URL states — converting it again here put a 22 lb
+     dog in at 48.5 lb, twice its real weight. */
+  try{
+    var q = new URLSearchParams(location.search);
+    var qw = parseFloat(q.get('w'));
+    if (!isNaN(qw) && qw > 0){
+      wEl.value = qw;
+      uEl.value = q.get('u') === 'lb' ? 'lb' : 'kg';
+    }
+    if (FACTOR.hasOwnProperty(q.get('s'))) sEl.value = q.get('s');
+    var qk = parseFloat(q.get('k'));
+    if (!isNaN(qk) && qk > 0) kEl.value = qk;
+    if (q.get('ku') === '100g') kuEl.value = '100g';
+    var qm = q.get('m');
+    if (qm === '1' || qm === '2' || qm === '3' || qm === '4') mEl.value = qm;
+  }catch(e){}
+
+  wEl.addEventListener('input', calc);  kEl.addEventListener('input', calc);
+  sEl.addEventListener('change', calc);
+  uEl.addEventListener('change', calc);
+  kuEl.addEventListener('change', calc);
+  mEl.addEventListener('change', calc);
+  document.getElementById('fd-go').addEventListener('click', calc);
+
+  calc();
+
+  if (location.search.indexOf('embed=1') > -1){
+    document.documentElement.className += ' embed';
+    /* Embedders should not have to guess a height: the result panel changes
+       size with the answer, so the real height is posted on every change. */
+    var report = function(){
+      try{ parent.postMessage({wagwiseHeight: document.documentElement.scrollHeight}, '*'); }catch(e){}
+    };
+    window.addEventListener('load', report);
+    document.addEventListener('input', report);
+    document.addEventListener('change', report);
+    setTimeout(report, 200);
+  }
+})();
+</script>
+"""
+
+# The table body is generated rather than typed, so the grams can never drift
+# from the formula in the script above.
+FEED_BODY = FEED_BODY.replace("@@TABLE@@", _TABLE_HEAD + "\n" + _TABLE_ROWS.rstrip())

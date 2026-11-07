@@ -22,8 +22,9 @@ import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART, TOOL_CHOCO  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART, TOOL_CHOCO, TOOL_FEED  # noqa
 from choco_tool import CHOCO_BODY  # noqa
+from feed_tool import FEED_BODY  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -892,6 +893,8 @@ def render_home():
                "dog-age-calculator", "TOOL"),
               (TOOL_CHOCO["url"], TOOL_CHOCO["title"], TOOL_CHOCO["description"],
                "chocolate-toxicity-calculator", "TOOL"),
+              (TOOL_FEED["url"], TOOL_FEED["title"], TOOL_FEED["description"],
+               "dog-food-calculator", "TOOL"),
               (FOOD_CHART["url"], FOOD_CHART["title"], FOOD_CHART["description"],
                "food-safety-chart", "REFERENCE")]
     for _slug, _kick in (("best-dog-crate", "BUYING GUIDE"),
@@ -1058,7 +1061,7 @@ CALC_BODY = """
     <h2>When age matters most</h2>
     <p>As dogs move into the mature and senior ranges, a few things become worth watching: slower recovery after exercise, changes in appetite or water intake, and the onset of arthritis or dental disease. Our <a href="/dog-health/">dog health guides</a> explain what is urgent versus what can wait, and our <a href="/dog-care/">care and grooming guides</a> cover the at-home habits that keep older dogs comfortable.</p>
     <h2>Food questions owners ask next</h2>
-    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>.</p>
+    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>. If the puppy-or-senior answer changed how much the bowl should hold, the <a href="/tools/dog-food-calculator/">dog food calculator</a> takes the life stage as an input rather than as a paragraph.</p>
     <h2>Sources and review</h2>
     <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
   </div>
@@ -1162,6 +1165,24 @@ def render_choco_tool(t):
         '<div class="wrap narrow">',
         '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a '
         'Chocolate toxicity</div>',
+        1,
+    )
+    return shell(h, t["url"], body)
+
+
+def render_feed_tool(t):
+    """Third tool page: grams per day from weight and the label.
+
+    Same split as the chocolate tool — markup lives in feed_tool.py so this
+    file stays build logic.
+    """
+    bc = breadcrumb_jsonld([("Home", "/"), (t["title"], t["url"])])
+    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website",
+             tool_jsonld(t["title"], t["url"], t["description"]), bc)
+    body = FEED_BODY.replace(
+        '<div class="wrap narrow">',
+        '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a '
+        'Dog food calculator</div>',
         1,
     )
     return shell(h, t["url"], body)
@@ -1419,6 +1440,8 @@ def build_sitemap(manifest):
                  "public/%s/index.html" % TOOL["url"].strip("/")))
     urls.append((TOOL_CHOCO["url"], 0.8, "monthly",
                  "public/%s/index.html" % TOOL_CHOCO["url"].strip("/")))
+    urls.append((TOOL_FEED["url"], 0.8, "monthly",
+                 "public/%s/index.html" % TOOL_FEED["url"].strip("/")))
     urls.append((FOOD_CHART["url"], 0.8, "monthly",
                  "public/%s/index.html" % FOOD_CHART["url"].strip("/")))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -1463,6 +1486,8 @@ def render_sitemap():
               TOOL["title"] + '</h3><p>' + TOOL["description"] + '</p></a>')
     cards += ('<a href="' + TOOL_CHOCO["url"] + '"><div class="k">TOOL</div><h3>' +
               TOOL_CHOCO["title"] + '</h3><p>' + TOOL_CHOCO["description"] + '</p></a>')
+    cards += ('<a href="' + TOOL_FEED["url"] + '"><div class="k">TOOL</div><h3>' +
+              TOOL_FEED["title"] + '</h3><p>' + TOOL_FEED["description"] + '</p></a>')
     cards += ('<a href="' + FOOD_CHART["url"] + '"><div class="k">REFERENCE</div><h3>' +
               FOOD_CHART["title"] + '</h3><p>' + FOOD_CHART["description"] + '</p></a>')
     cards += ('<a href="/about/"><div class="k">ABOUT</div><h3>About WagWise Pet</h3><p>' +
@@ -1523,6 +1548,8 @@ def main():
     pages.append(("%s/index.html" % TOOL["url"].strip("/"), render_tool(TOOL)))
     pages.append(("%s/index.html" % TOOL_CHOCO["url"].strip("/"),
                   render_choco_tool(TOOL_CHOCO)))
+    pages.append(("%s/index.html" % TOOL_FEED["url"].strip("/"),
+                  render_feed_tool(TOOL_FEED)))
     pages.append(("%s/index.html" % FOOD_CHART["url"].strip("/"),
                   render_food_chart(FOOD_CHART)))
 

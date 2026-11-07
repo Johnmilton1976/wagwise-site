@@ -305,11 +305,11 @@
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
   "d": "2026-11-07",
-  "h": "1a865e6522c6757c66ad08f4974ad579e7957e16"
+  "h": "865b47d0f0efd42d26d0c3f6306a76238a05bb89"
  },
  "public/dog-nutrition/index.html": {
   "d": "2026-11-07",
-  "h": "fd45b5272405335190a08564b9943c78637e0dd3"
+  "h": "831032bf317beeb3513516c251de96560530941a"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
   "d": "2026-11-07",
@@ -329,7 +329,7 @@
  },
  "public/index.html": {
   "d": "2026-11-07",
-  "h": "06266ea82eb22f083162036e13d1af118e8c91f8"
+  "h": "1e6399ccdc5242860cb537a39afb1767ed9472f0"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",
@@ -349,6 +349,10 @@
  },
  "public/tools/dog-age-calculator/index.html": {
   "d": "2026-11-07",
-  "h": "8036792dca30e15601dde1f6ea5f14e73e029c8d"
+  "h": "249761c769402fc5e9563f1680bbd1f8b17fbab6"
+ },
+ "public/tools/dog-food-calculator/index.html": {
+  "d": "2026-11-07",
+  "h": "5efd8f024a0365e8b386193aad2378eefda0c285"
  }
 }

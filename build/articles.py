@@ -64,6 +64,7 @@ PILLARS = {
 <h2>The 10% rule, done once</h2>
 <p>Whatever the tier, treats belong inside about 10% of daily calories. A 10 kg dog eating roughly 600 kcal a day has a <strong>60 kcal</strong> treat budget — about two and a half carrots, or three-quarters of a cup of blueberries, or one egg. That budget is why a food can be genuinely safe and still be a bad habit: nothing on the everyday list is a substitute for the bowl.</p>
 <p>Two places this bites hardest. Dogs on weight-loss plans usually have their treats cut first and their kibble left alone, which is backwards — the treat budget should shrink proportionally with the calorie target. And small dogs hit the ceiling fast: a 3 kg dog has roughly a 20 kcal budget, which is one medium carrot and nothing else that day.</p>
+<p>If you want the budget for your own dog rather than for a 10 kg example, the <a href="/tools/dog-food-calculator/">dog food calculator</a> prints the daily calories, the grams that represents and the 10% treat allowance in one line — and it takes the target weight for a diet, which is the number most people get wrong.</p>
 
 <h2>When it stops being a portion question</h2>
 <p>Move from reading to calling if any of these is true: the food came from the tier with no safe dose (alcohol, caffeine, chocolate, grapes or raisins, macadamia nuts, xylitol, raw yeast dough); the dog is a puppy, pregnant, elderly, or already unwell; the amount was unknown or clearly larger than a taste; or symptoms have started — vomiting, tremors, wobbliness, a racing heart, or a dog that is suddenly quiet.</p>
@@ -1329,6 +1330,7 @@ ARTICLES = [
         <h2>The bag chart is a starting point, not an answer</h2>
         <p>Every bag has a feeding table by body weight. It is a reasonable place to begin and a poor place to finish, for three reasons: the ranges are wide, the figures are usually calculated for an intact moderately active dog, and most dogs in most households are neither.</p>
         <p>The reliable method is to calculate a calorie target from body weight, convert it using the food's actual calorie content, and then adjust based on what the dog's body looks like after two weeks. That is only slightly more work than reading the bag, and it is far more accurate.</p>
+        <p>If you would rather not do the four steps by hand, the <a href="/tools/dog-food-calculator/">dog food calculator</a> runs them for you and prints the range the answer sits in &mdash; the rest of this page explains why each step is there, and what to change when the dog disagrees with the arithmetic.</p>
 
         <h2>Step 1: resting energy requirement</h2>
         <p>Veterinary nutrition uses a formula for resting energy requirement (RER), which is the energy a dog needs at complete rest:</p>
@@ -7450,6 +7452,26 @@ TOOL_CHOCO = {
     "url": "/tools/chocolate-toxicity-calculator/",
     "title": "Chocolate Toxicity Calculator for Dogs — Dose by Weight",
     "description": "Work out how dangerous a chocolate dose is for your dog: theobromine per kilo of body weight, the four clinical thresholds, and what to do at each one.",
+    "eyebrow": "TOOLS",
+}
+
+# ---------------------------------------------------------------------------
+# Third tool (2026-11-07): daily food calculator.
+#
+# Why this one: /dog-nutrition/how-much-to-feed-my-dog/ is one of the three
+# pages the site sends commercial traffic to, and it walks the reader through
+# RER, the life-stage factor and the gram conversion — then hands them the
+# arithmetic. Turning those four steps into a tool is the difference between a
+# page that explains and an asset someone can link to or embed.
+#
+# What makes it different from the calculators already ranking: it prints the
+# ±30% individual band Merck states rather than a single number, and it has no
+# cup output, because the cup is the unit that cannot be answered across foods.
+# ---------------------------------------------------------------------------
+TOOL_FEED = {
+    "url": "/tools/dog-food-calculator/",
+    "title": "Dog Food Calculator: Grams per Day by Weight and Age",
+    "description": "Work out grams per day from your dog's weight and the food label's kcal — with the ±30% individual range, a treat budget, and no misleading cup conversion.",
     "eyebrow": "TOOLS",
 }
 
