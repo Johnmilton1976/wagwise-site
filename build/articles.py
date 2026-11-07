@@ -2228,7 +2228,7 @@ ARTICLES = [
         "title": "Can Dogs Eat Peanut Butter? Yes — Read the Label First",
         "url": "/dog-nutrition/can-dogs-eat-peanut-butter/",
         "description": "Peanut butter is a favorite dog treat, but xylitol in some brands is deadly. How to read the label, choose a safe jar, and how much of it is safe to give.",
-        "lede": "Yes, plain peanut butter is a great dog treat — but only if it contains no xylitol, which is extremely toxic to dogs. Always read the label.",
+        "lede": "Yes, plain peanut butter is safe for dogs \u2014 the risk is xylitol in the jar, not the peanut. The ceiling is lower than most owners think: 94 kcal and 8 g of fat per tablespoon.",
         "eyebrow": "DOG NUTRITION",
         "body": """
         <div class="callout warn"><b>If the jar lists xylitol and your dog has eaten any of it, phone the vet now.</b> Blood sugar can crash within 30 minutes — before any symptom is visible — and liver injury can follow over the next two to three days. Do not wait to see how it goes, do not induce vomiting unless a vet tells you to, and take the jar with you so the vet can read the xylitol figure off the label. The dose thresholds are below.</div>
@@ -2270,6 +2270,21 @@ ARTICLES = [
         </table>
         <p>These are maintenance estimates for a healthy, neutered adult dog at ideal weight. Puppies, working dogs and intact dogs need more; a dog on a weight-loss plan needs less, and for those dogs peanut butter should be measured rather than spooned.</p>
 
+        <h2>Jar, "natural", or powdered: which one for a dog</h2>
+        <p>Peanut butter is sold in three forms, and the marketing around them is aimed at people, not dogs. The numbers below are what decides which one suits a particular dog.</p>
+        <table>
+          <tr><th style="text-align:left">Per 100 g</th><th style="text-align:left">Regular jar</th><th style="text-align:left">Powdered (defatted)</th></tr>
+          <tr><td>Energy</td><td>588 kcal</td><td>400 kcal</td></tr>
+          <tr><td>Fat</td><td>50 g</td><td>13 g</td></tr>
+          <tr><td>Protein</td><td>25 g</td><td>52 g</td></tr>
+          <tr><td>Energy from fat</td><td><strong>77%</strong></td><td><strong>29%</strong></td></tr>
+          <tr><td>One level tablespoon</td><td>16 g = 94 kcal</td><td>6 g = 25 kcal</td></tr>
+        </table>
+        <p>Look at the row that matters and ignore the calories. The defatting process removes oil, so a level spoon of powder carries about a quarter of the energy of a spoon of jar at the same volume, or about two-thirds at the same weight &mdash; but that is not why it is useful. It is useful because the <strong>share of energy coming from fat drops from 77% to 29%</strong>, and fat load, not calorie count, is what a dog with pancreatitis or high blood triglycerides cannot handle.</p>
+        <p>For a healthy dog the jar is the better choice: it is a treat, it has a texture a dog will work at in a frozen toy, and 94 kcal is manageable within the table above. For a dog that has had pancreatitis, or one on a strict weight plan, powdered is the version that lets you keep the ritual without the fat &mdash; mixed with water to a paste, it behaves like peanut butter in a toy.</p>
+        <p>Two warnings on the powder. It is still a manufactured product, so the xylitol rule applies exactly as it does to the jar &mdash; and defatted products are <em>more</em> likely to carry added sweeteners, because removing the fat removes flavour along with it. And "lower calorie" is a claim about the powder, not about the spoon: a heaped spoon of powder mixed thick delivers about the same as a level spoon of jar, which is how the advantage quietly disappears.</p>
+        <div class="callout">Crunchy and smooth are identical for safety &mdash; the only difference is whether the peanut pieces were ground in. "Natural" means the oil separates and needs stirring; it says nothing about xylitol either way.</div>
+
         <h2>Salt, sugar and palm oil: what actually matters</h2>
         <p><b>Salt.</b> A salted peanut butter is fine for a healthy dog at treat-sized amounts. It matters for dogs with heart disease, kidney disease or hypertension, where total sodium is being managed — for those dogs, buy unsalted.</p>
         <p><b>Sugar and palm oil.</b> Neither is toxic. Both add calories a dog does not need, and a high-fat meal is one of the recognised triggers for pancreatitis. A dog with a history of pancreatitis, or one that has had a high-fat treat followed by vomiting and a hunched posture, should not be given peanut butter at all without asking the vet first.</p>
@@ -2297,7 +2312,7 @@ ARTICLES = [
           <tr><td>12–72 hours</td><td>Liver enzyme rise at higher doses</td><td>Liver values rechecked; supportive care</td></tr>
         </table>
         <p>Never induce vomiting unless a vet tells you to. With xylitol the risk of aspiration is real, and the treatment that matters is blood glucose, not an empty stomach.</p>
-        <p>A smear of xylitol-free peanut butter inside a chew toy is also the standard trick for making a crate a place a dog chooses — which only works if the crate itself is right. Our <a href="/best/dog-crate/">best dog crate</a> guide covers sizing by weight and the latch designs that actually stop escapes.</p>
+        <p>If the jar did contain xylitol, the dose thresholds and the timings that matter are set out in our <a href="/dog-nutrition/can-dogs-eat-xylitol/">guide to xylitol poisoning</a>. For the wider list of what a dog should never be given, start with the <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>.</p>
         """,
         "faq": [
             ("How much peanut butter is too much for a dog?", "For a healthy 10 kg dog, about two level teaspoons a day is the ceiling — treats should stay under 10% of daily calories, and peanut butter is roughly 32 kcal per teaspoon. Anything beyond that is weight gain with no nutritional benefit."),
@@ -2308,7 +2323,10 @@ ARTICLES = [
             ("Is peanut butter good for hiding pills?", "It is one of the better options — thick enough to coat a tablet and strong enough in smell to mask it. Confirm with your vet that the drug can be given with food, and watch that the pill actually goes down."),
             ("Can dogs be allergic to peanut butter?", "Rarely, yes. Signs include itching, hives, facial swelling and breathing difficulty, usually within minutes to two hours. Stop feeding it and have the reaction recorded by your vet."),
             ("Does peanut butter help a dog's dry skin?", "Not really. The fat in peanut butter is mostly omega-6, which can push inflammation the wrong way when fed in excess. Skin and coat support comes from omega-3s and a balanced diet, not from peanut butter."),
+            ("Is powdered peanut butter safe for dogs?", "Yes, if the only ingredient is peanuts. Defatting drops the fat from about 50 g to 13 g per 100 g, so the share of energy from fat falls from 77% to 29% \u2014 which is the real reason to use it for a dog with pancreatitis or high blood fats, not the calorie count. Read the label first: defatted products more often carry added sweeteners."),
+            ("Can dogs eat peanuts on their own?", "Yes \u2014 plain, unsalted, shelled peanuts are safe in small numbers and carry no xylitol risk, because nothing has been added. The catch is calories: they are the same 588 kcal per 100 g as peanut butter, and whole peanuts are a choking shape for a small dog. Shells and salted bar snacks are not."),
         ],
+        "related": ["can-dogs-eat-xylitol", "can-dogs-eat-bread", "can-dogs-eat-bananas"],
         "sources": [
             ("Pet Poison Helpline — Xylitol",
              "https://www.petpoisonhelpline.com/poison/xylitol/"),
@@ -2615,56 +2633,101 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-milk",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Drink Milk? Usually Not Worth It",
+        "title": "Can Dogs Drink Milk? The Numbers Behind the Usual No",
         "url": "/dog-nutrition/can-dogs-eat-milk/",
-        "description": "Is milk good for dogs? Usually not — most adult dogs are lactose intolerant, so milk often causes diarrhea and gas. Why plain yogurt and cheese are safer.",
-        "lede": "Most dogs should skip milk. Adult dogs are commonly lactose intolerant, and a bowl of milk more often leads to gas and diarrhea than any benefit.",
+        "description": "Dog milk is 146 kcal per 100 ml; cow's milk is 64 and carries 1.4x the lactose. What that means for puppies, and why lactose-free changes less than you think.",
+        "lede": "Milk is not toxic, but it is the wrong food for a species that stopped making lactase at weaning \u2014 and the gap is measurable: cow's milk carries 44% of the energy of dog milk and 1.4 times its lactose.",
         "eyebrow": "DOG NUTRITION",
         "body": """
         <h2>Is milk good for dogs?</h2>
-        <p>Usually not. Most adult dogs are lactose intolerant, so a bowl of milk more often leads to gas and diarrhea than any real benefit. A few laps will not harm most dogs, but it is not a healthy regular drink — which is why "is milk good for dogs" gets a qualified no rather than a yes.</p>
+        <p>No, not as a drink. Milk is not toxic, and a lap of it will not poison a dog, but it is the wrong food for a species that stopped producing lactase at weaning. That is the whole answer, and the rest of this page is the arithmetic behind it &mdash; because "milk upsets dogs" is repeated everywhere and almost never quantified, which leaves owners guessing whether a splash in the bowl matters.</p>
+        <p>The honest version: most adult dogs handle a small amount without symptoms, a minority react to any dairy at all, and nobody can tell you which dog yours is without trying it. What can be measured is how much lactose, protein and energy is actually in the bowl, and how far that is from what a dog is built to digest.</p>
+
+        <h2>What is actually in the bowl</h2>
+        <p>Mother dog's milk is the reference point, because it is the only milk a dog's gut evolved to process. Set cow's milk and goat's milk beside it and the "just give them a little" advice starts to look like a compromise rather than a plan.</p>
+        <table>
+          <tr><th style="text-align:left">Per 100 ml</th><th style="text-align:left">Dog milk</th><th style="text-align:left">Cow's milk</th><th style="text-align:left">Goat's milk</th></tr>
+          <tr><td>Energy</td><td><strong>146 kcal</strong></td><td>64 kcal</td><td>69 kcal</td></tr>
+          <tr><td>Protein</td><td><strong>7.5 g</strong></td><td>3.3 g</td><td>3.6 g</td></tr>
+          <tr><td>Fat</td><td><strong>9.5 g</strong></td><td>3.6 g</td><td>4.1 g</td></tr>
+          <tr><td>Lactose</td><td><strong>3.3 g</strong></td><td>4.7 g</td><td>4.0 g</td></tr>
+          <tr><td>Calcium</td><td><strong>240 mg</strong></td><td>119 mg</td><td>133 mg</td></tr>
+        </table>
+        <p style="font-size:13px;color:#6b6f66">Composition of canine, feline, bovine and caprine milk, adapted from <em>Small Animal Clinical Nutrition</em>, 5th ed. (Hand, Thatcher, Remillard, Roudebush, 2010). Canine lactose measured at 1.56&ndash;3.92% across breeds in Zhang et al., <em>Foods</em> 2022;11(3):472.</p>
+        <p>Two numbers in that table do all the work. Cow's milk carries <strong>44% of the energy</strong> of dog milk (64 vs 146 kcal) while carrying <strong>1.4 times the lactose</strong> (4.7 vs 3.3 g). So a puppy fed cow's milk gets less than half the calories per millilitre and more of the one component it cannot digest. That is not a subtle imbalance. It is the mechanism behind "never use cow's milk for orphaned puppies", and it is why the failure shows up as diarrhea plus poor growth rather than one or the other.</p>
 
         <h2>Why does milk upset dogs?</h2>
-        <p>As puppies wean, they lose much of the lactase enzyme that digests lactose, the sugar in milk. Without enough lactase, that sugar ferments in the gut and causes loose stools, gas, and sometimes cramping. Some dogs keep enough lactase to tolerate small amounts; many do not.</p>
+        <p>Lactose is a disaccharide: one glucose molecule bonded to one galactose molecule. It cannot cross the gut wall in that form. Lactase, the enzyme that splits it, is abundant in nursing puppies and declines sharply after weaning &mdash; that decline is normal, not a defect, and it is the same thing that happens in most adult humans.</p>
+        <p>Undigested lactose then does two things at once, and it is worth separating them because they explain different symptoms. Gut bacteria ferment it, producing gas and cramping. And the intact sugar stays in the intestine as an osmotically active particle, holding water with it &mdash; that is the loose stool. A dog that gets gas but normal stools is somewhere in the middle of the spectrum; a dog with sudden watery diarrhea after dairy is at the far end.</p>
+
+        <h2>How much lactose is in a normal portion</h2>
+        <p>Veterinary literature does not give a lactose threshold for dogs the way it does for people, because tolerance varies too much between individuals to name a number. What you can do is count grams, so you know whether you are offering a taste or a dose.</p>
+        <table>
+          <tr><th style="text-align:left">Portion</th><th style="text-align:left">Lactose</th><th style="text-align:left">Roughly equivalent to</th></tr>
+          <tr><td>1 tablespoon of milk (15 ml)</td><td>0.7 g</td><td>a taste</td></tr>
+          <tr><td>100 ml in the bowl</td><td>4.7 g</td><td>a small saucer</td></tr>
+          <tr><td>1 cup (240 ml)</td><td>11.3 g</td><td>a full bowl</td></tr>
+          <tr><td>30 g hard cheddar</td><td>under 0.5 g</td><td>a cube</td></tr>
+          <tr><td>100 g plain yogurt</td><td>4&ndash;5 g, partly pre-digested</td><td>two spoonfuls</td></tr>
+        </table>
+        <p>That table explains the otherwise odd fact that cheese is usually fine and milk usually is not. Both are dairy; the difference is where the lactose goes. In hard cheese nearly all of it leaves with the whey, so per 100 g cheddar carries roughly 0.1&ndash;0.5 g against 4.7 g in milk &mdash; an order of magnitude, not a nuance. A 30 g cube therefore delivers less lactose than a single tablespoon of milk, while delivering more fat and salt than most owners expect.</p>
 
         <h2>How much milk can a dog have?</h2>
+        <p>There is no amount that is good for a dog, so the practical rule is about symptoms rather than volume:</p>
         <ul>
-          <li>A small sip now and then is fine for dogs that clearly tolerate it.</li>
-          <li>Skip it entirely if your dog gets gas or diarrhea from dairy.</li>
-          <li>Plain, unsweetened yogurt or a small piece of cheese is often better tolerated than milk, because these have less lactose and yogurt's live cultures can help.</li>
+          <li><b>Under 1 g of lactose</b> &mdash; a tablespoon or two &mdash; is tolerated by most dogs. This is the range where milk works as a taste, not a drink.</li>
+          <li><b>Around 5 g</b> (100 ml) is where dogs with partial lactase production start producing gas. Many are fine; some are not.</li>
+          <li><b>Above 10 g</b> (a full cup) produces loose stool in a large share of adult dogs, and reliably in dogs that have reacted before.</li>
+          <li><b>Zero</b> is correct for any dog that has already had diarrhea or gas after dairy. There is nothing in milk a dog cannot get from a complete diet, so there is no reason to retry it.</li>
         </ul>
+        <p>One caution about using this as a tolerance test: a dog's reaction is not a reliable allergy test. Lactose intolerance is a digestive limit and shows up as gut signs. A true milk allergy is an immune reaction to milk protein and shows up as itching, hives or facial swelling &mdash; and it can appear with a dose far smaller than the amounts above. If you see skin signs rather than stomach signs, stop and treat it as an allergy, not a tolerance question.</p>
+
+        <h2>"Lactose-free" milk: what it fixes, and what it doesn't</h2>
+        <p>This is the part almost every "can dogs drink milk" page gets wrong. Lactose-free milk is ordinary milk treated with lactase, so the lactose is already split into glucose and galactose before it reaches the bowl. It is not lower in sugar. A cup of it carries the same 11.3 g of sugars as a cup of regular milk; only the form has changed.</p>
+        <p>That matters for dogs more than the label suggests, because of osmolarity. One lactose molecule is one particle. Split it, and you get two. Do the arithmetic on a cup: 11.3 g of lactose is about 33 millimoles of particles; the same 11.3 g broken into glucose and galactose is about 63 millimoles. <strong>The sugar load is identical and the particle count has nearly doubled</strong> &mdash; which is the side of the equation that pulls water into the gut.</p>
+        <p>So lactose-free milk solves the enzyme problem and leaves the osmotic one. For a dog with almost no lactase it is genuinely the better of the two, because nothing has to be digested. For a dog that produces some lactase, a large bowl of it can still produce soft stool, and the owner concludes the dog "reacted to lactose-free milk" when what happened was volume. Small amounts, same as before.</p>
+        <div class="callout">"Lactose-free" says nothing about what else is in the carton. Flavoured lactose-free milks &mdash; chocolate, strawberry, vanilla &mdash; are the ones to watch: chocolate is toxic to dogs, and sugar-free versions can contain xylitol, which is far more dangerous than any amount of lactose. Plain, unflavoured, and nothing else in the ingredients.</div>
+
+        <h2>Goat milk is not the low-lactose option it is sold as</h2>
+        <p>Goat milk has a reputation as the gentle dairy, and pet shops sell it as a near-substitute for mother's milk. The table above shows what it actually is: 4.0 g of lactose per 100 ml against 4.7 in cow's milk. That is <strong>15% less</strong>, not "low lactose", and it is still well above the 3.3 g in dog milk. Its energy density is 69 kcal per 100 ml &mdash; less than half of dog milk's 146.</p>
+        <p>Where goat milk does differ is in the fat globules, which are smaller and form a softer curd, so some dogs seem to tolerate it slightly better in practice. That is a real difference in digestion, but it is a difference in texture, not in lactose. A dog that reacts to cow's milk with gas will usually react to goat's milk the same way at the same volume.</p>
+        <p>Fermented goat milk products &mdash; kefir, and yogurt made from goat milk &mdash; are a different case again, because the cultures have already consumed part of the lactose. They still are not a milk replacement, and they still should not be given in bowl-sized portions.</p>
 
         <h2>Is milk safe for puppies?</h2>
-        <p>No — not cow's milk. Orphaned or supplementary-fed puppies should get a proper puppy milk replacer, not dairy milk from the carton. Cow's milk has the wrong balance of fat, protein, and lactose for a puppy and can cause diarrhea and poor growth. Once weaned, the same lactose intolerance that affects adult dogs applies.</p>
-        <div class="callout">Puppies need their mother's milk or a proper puppy formula — never use cow's milk as a substitute, which lacks the right balance and can upset their stomach.</div>
+        <p>No, and this is the one place where the answer is absolute rather than a matter of volume. An orphaned or supplementary-fed puppy needs a purpose-made bitch milk replacer, not dairy milk from the carton. The numbers from the table above explain why: cow's milk supplies 44% of the energy and 44% of the protein of dog milk, half the calcium, and 1.4 times the lactose, all at once.</p>
+        <p>A puppy raised on cow's milk is being under-fed and over-challenged simultaneously, and the visible result &mdash; loose stool and slow growth &mdash; is easy to misread as "a sensitive puppy" rather than "the wrong food". Replacer formulas exist precisely because matching canine milk takes 7.5 g of protein and 9.5 g of fat per 100 ml, which no supermarket dairy does.</p>
+        <div class="callout">Cow's milk is not a dilute version of mother's milk. It is a different food: less than half the energy, half the protein, and more lactose. Use a bitch milk replacer and follow its feeding chart by body weight.</div>
 
         <h2>Better dairy options: yogurt and cheese</h2>
-        <p>If you want to share a dairy treat, these are the safer choices:</p>
+        <p>If you want to share dairy, the two options that make sense are the two with the least lactose:</p>
         <ul>
-          <li><b>Plain, unsweetened yogurt</b> — lower in lactose and adds probiotics. A spoonful is plenty.</li>
-          <li><b>Small amounts of cheese</b> — most dogs love it and tolerate it, but it is calorie-dense, so keep it occasional.</li>
-          <li><b>Avoid</b> flavored, sweetened, or chocolate dairy products — chocolate is toxic and added sugars are unnecessary.</li>
+          <li><b>Plain, unsweetened yogurt</b> &mdash; around 4&ndash;5 g lactose per 100 g, and part of that has already been fermented by the live cultures, which is why it usually sits better than the same volume of milk. A spoonful or two is a treat, not a supplement.</li>
+          <li><b>Hard cheese in small cubes</b> &mdash; under 0.5 g lactose per 30 g. The limit here is calories and salt, not lactose, so keep it to a cube or two.</li>
+          <li><b>Avoid</b> flavoured, sweetened or chocolate dairy &mdash; the sugar and the chocolate are a bigger problem than the milk, and "dental" or "senior" yogurts can carry sweeteners including xylitol.</li>
         </ul>
 
         <h2>Signs your dog doesn't tolerate milk</h2>
         <p>Watch for loose stools, excess gas, stomach gurgling, or mild cramping within a few hours of drinking milk. If these appear, drop dairy and offer water instead. Persistent diarrhea deserves a vet check.</p>
+        <p>Timing is the useful clue. Lactose symptoms arrive within roughly 30 minutes to a few hours and resolve as the sugar clears the gut. Vomiting that starts immediately, or that repeats, is a different problem and should not be filed under "dairy sensitivity" &mdash; our <a href="/dog-health/dog-vomiting-causes/">dog vomiting guide</a> sets out what is urgent.</p>
 
         <h2>What about almond, oat, or soy milk?</h2>
         <p>These plant milks are not toxic, but they are not a good idea either. Almond milk is low in protein and often sweetened; oat and soy milks can contain added sugars or even xylitol, which is toxic to dogs, so always read the label. None of them offer nutrition a dog actually needs, and plain water remains the better choice. A tiny taste of an unsweetened, xylitol-free milk alternative is unlikely to harm, but there is no reason to make it a habit.</p>
+        <p>One thing worth checking on any plant milk: "unsweetened" and "xylitol-free" are different claims. A carton can be unsweetened and still contain a sugar alcohol for body, and xylitol is the one that sends dogs to hospital. If the ingredient list is not in front of you, do not pour it. Our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a> covers the sweeteners that matter.</p>
 
-        <h2>Milk vs other treats and drinks</h2>
-        <p>Water is the best drink for every dog — no exceptions. For a safe fruit treat in moderation, <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> is a better choice than milk. And for the full picture of what to avoid, see our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>. If your dog is already vomiting, our <a href="/dog-health/dog-vomiting-causes/">dog vomiting guide</a> explains what is urgent.</p>
-        <p>One practical footnote for puppies: the weaning window is also when crate training starts, and a puppy crated in the wrong size loses house training faster than one fed the wrong treat. Our <a href="/best/dog-crate/">best dog crate</a> guide includes a weight-to-size table and the divider trick that makes one crate last from puppyhood to adulthood.</p>
+        <h2>Bottom line</h2>
+        <p>Milk is not poison, but it is also not a treat a dog needs: it delivers the one sugar adult dogs are worst equipped to handle, at less than half the energy density of the milk they evolved on. A tablespoon in the bowl is harmless for most dogs and pointless for all of them. Milk-free water, a cube of cheese, or a spoonful of plain yogurt all do the same job better. For a fruit treat that is genuinely low-risk, <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> is the safer habit to build.</p>
         """,
         "faq": [
             ("Is milk good for dogs?", "Usually not. Most adult dogs are lactose intolerant, so milk tends to cause gas and diarrhea rather than provide benefit. Water is the best drink."),
             ("Why does milk give dogs diarrhea?", "Most adult dogs are lactose intolerant — they lose lactase after weaning, so milk sugar ferments in the gut and loosens stools."),
             ("Can dogs have yogurt instead of milk?", "Plain, unsweetened yogurt is often better tolerated than milk and adds probiotics. Keep it to a spoonful."),
             ("Can puppies drink cow's milk?", "No — use a proper puppy milk replacer. Cow's milk is unbalanced for puppies and can cause diarrhea and poor growth."),
-            ("How much milk can a dog drink?", "Only a small sip now and then, and only if your dog clearly tolerates dairy. Skip it entirely if it causes gas or diarrhea."),
+            ("How much milk can a dog drink?", "Under 1 g of lactose — a tablespoon or two — is tolerated by most dogs. 100 ml (4.7 g) gives gas in dogs with partial lactase; a full cup (11.3 g) loosens stools in many adults. Any dog that has reacted before should get none."),
             ("Is cheese okay for dogs?", "Small amounts of plain cheese are usually fine and many dogs tolerate it, but it is calorie-dense, so keep it occasional."),
             ("What should dogs drink instead of milk?", "Water. Every dog should drink water; milk is not a necessary or healthy regular drink."),
             ("My dog drank milk and seems fine — is it okay to keep giving it?", "Some dogs tolerate small amounts. If there are no digestive signs, an occasional sip is fine, but it should never replace water."),
+            ("Is lactose-free milk safe for dogs?", "Safer than regular milk for a dog with little lactase, because the sugar is already split and needs no digestion — but it is not lower in sugar. A cup still carries about 11.3 g of sugars, now as glucose and galactose, which nearly doubles the particle count and can still pull water into the gut. Small amounts only, and check that nothing else was added."),
+            ("Is goat milk better than cow's milk for dogs?", "Only slightly. Goat milk has 4.0 g of lactose per 100 ml against 4.7 in cow's milk — 15% less, not low-lactose, and still above the 3.3 g in dog milk. Its fat forms a softer curd, which some dogs tolerate better, but the lactose load is nearly the same."),
         ],
         "related": ["can-dogs-eat-cheese", "can-dogs-eat-bananas", "how-much-to-feed-my-dog"],
         "sources": [
@@ -2674,6 +2737,10 @@ ARTICLES = [
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("Merck Veterinary Manual — Food Hazards",
              "https://www.merckvetmanual.com/toxicology/food-hazards"),
+            ("Zhang M, Sun X, Cheng J, Guo M. Analysis and Comparison of Nutrition Profiles of Canine Milk with Bovine and Caprine Milk. Foods. 2022;11(3):472",
+             "https://pubmed.ncbi.nlm.nih.gov/35159622/"),
+            ("Hand MS, Thatcher CD, Remillard RL, Roudebush P (eds). Small Animal Clinical Nutrition, 5th ed. 2010",
+             "https://www.markmorris.org/small-animal-clinical-nutrition/"),
         ],
         "experts": [
             "The veterinary nutritionists and clinicians of the Cornell Riney Canine Health Center",

@@ -85,11 +85,11 @@
  },
  "public/dog-health/dog-not-eating-but-drinking-water/index.html": {
   "d": "2026-11-07",
-  "h": "51727b7d23047ff5cb5175c2885fae1590e63d0b"
+  "h": "d21d797dee29795adcbda86bd967b6c9e799ecd7"
  },
  "public/dog-health/dog-vomiting-causes/index.html": {
   "d": "2026-11-07",
-  "h": "a885e058d6702a3e62da2e9f21b5cefe1cb5cc14"
+  "h": "2294216ba8d3d9263e50c47e8c6d0dd27f0134cc"
  },
  "public/dog-health/index.html": {
   "d": "2026-10-31",
@@ -140,8 +140,8 @@
   "h": "12000f2651fcf6ba27a9905a3dfc9547db9ce913"
  },
  "public/dog-nutrition/can-dogs-eat-caffeine/index.html": {
-  "d": "2026-11-04",
-  "h": "e77152710803e410bad3fd7689e196297e4e6849"
+  "d": "2026-11-07",
+  "h": "4e51aa881eb0ade3ab511652222a0e4d680ad2a7"
  },
  "public/dog-nutrition/can-dogs-eat-carrots/index.html": {
   "d": "2026-11-04",
@@ -149,7 +149,7 @@
  },
  "public/dog-nutrition/can-dogs-eat-cheese/index.html": {
   "d": "2026-11-07",
-  "h": "dd6fff5c2adbf5291d3a771f94a0ae3990f62193"
+  "h": "de9d8d9d5a278722fe3373a965e39a3dc3636794"
  },
  "public/dog-nutrition/can-dogs-eat-cherries/index.html": {
   "d": "2026-11-04",
@@ -193,11 +193,11 @@
  },
  "public/dog-nutrition/can-dogs-eat-honey/index.html": {
   "d": "2026-11-07",
-  "h": "4adbf9084893c287978b6905d379d48a33a11856"
+  "h": "68119828c3d558caf64336d735247164463da5d7"
  },
  "public/dog-nutrition/can-dogs-eat-ice-cream/index.html": {
-  "d": "2026-11-04",
-  "h": "3878ce54bae892e8b93ada109f978b044e481605"
+  "d": "2026-11-07",
+  "h": "ae3623e1045346edb386fd88882a4cbf40cb2388"
  },
  "public/dog-nutrition/can-dogs-eat-macadamia-nuts/index.html": {
   "d": "2026-11-06",
@@ -208,8 +208,8 @@
   "h": "7113a9f4d8cae0f856ebf970fcb25509ff4b01ea"
  },
  "public/dog-nutrition/can-dogs-eat-milk/index.html": {
-  "d": "2026-11-04",
-  "h": "e0ca99a94b4fadf8302835a6cf05bdcefc81438f"
+  "d": "2026-11-07",
+  "h": "3af0c109775429f8f741ceffcc85354b026171cc"
  },
  "public/dog-nutrition/can-dogs-eat-onion/index.html": {
   "d": "2026-11-04",
@@ -220,8 +220,8 @@
   "h": "c9f06dd043b7b60502103eeb461b3888e3512791"
  },
  "public/dog-nutrition/can-dogs-eat-peanut-butter/index.html": {
-  "d": "2026-11-06",
-  "h": "73cb06a1f35b7eed1d839075624c65935030dbc4"
+  "d": "2026-11-07",
+  "h": "c36e458c4185f905d334bd179fab987558671eb1"
  },
  "public/dog-nutrition/can-dogs-eat-peas/index.html": {
   "d": "2026-11-07",
@@ -269,7 +269,7 @@
  },
  "public/dog-nutrition/can-dogs-eat-strawberries/index.html": {
   "d": "2026-11-07",
-  "h": "ddb76ec857c8611ac5f0d5b0235210e810369ec5"
+  "h": "da37d81bd2701bd97f3020db23cb42321f0485c5"
  },
  "public/dog-nutrition/can-dogs-eat-sweet-potato/index.html": {
   "d": "2026-11-04",
@@ -293,7 +293,7 @@
  },
  "public/dog-nutrition/can-dogs-eat-yogurt/index.html": {
   "d": "2026-11-07",
-  "h": "93200e7b5789feeaae860fd46f1b21ce27d05b52"
+  "h": "5e48a42057fdf761977142416da860c0cdcadaa2"
  },
  "public/dog-nutrition/food-safety-chart/index.html": {
   "d": "2026-11-07",
@@ -305,11 +305,11 @@
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
   "d": "2026-11-07",
-  "h": "e932c367a849e1a64a373625aafb8955f8016136"
+  "h": "1a865e6522c6757c66ad08f4974ad579e7957e16"
  },
  "public/dog-nutrition/index.html": {
-  "d": "2026-11-06",
-  "h": "beb60af2eb2bea5561ce415f00da8523e6e87360"
+  "d": "2026-11-07",
+  "h": "ed953523ce9dade4f26e6b1ca4e148912b74e3eb"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
   "d": "2026-11-07",
@@ -328,8 +328,8 @@
   "h": "02b0091b2a444c72811f8ca574f2bb539e1e63ad"
  },
  "public/index.html": {
-  "d": "2026-11-06",
-  "h": "2c93bd58946d2311f2d7e74c1cee6841757ad348"
+  "d": "2026-11-07",
+  "h": "06266ea82eb22f083162036e13d1af118e8c91f8"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",
