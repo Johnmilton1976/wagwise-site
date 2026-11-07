@@ -2885,7 +2885,7 @@ ARTICLES = [
             ("Zhang M, Sun X, Cheng J, Guo M. Analysis and Comparison of Nutrition Profiles of Canine Milk with Bovine and Caprine Milk. Foods. 2022;11(3):472",
              "https://pubmed.ncbi.nlm.nih.gov/35159622/"),
             ("Hand MS, Thatcher CD, Remillard RL, Roudebush P (eds). Small Animal Clinical Nutrition, 5th ed. 2010",
-             "https://www.markmorris.org/small-animal-clinical-nutrition/"),
+             "https://www.markmorrisinstitute.org/sacn5"),
         ],
         "experts": [
             "The veterinary nutritionists and clinicians of the Cornell Riney Canine Health Center",
@@ -6506,7 +6506,7 @@ ARTICLES = [
         """,
         "sources": [
             ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
-            ("Merck Veterinary Manual — Tremorgenic Mycotoxins", "https://www.merckvetmanual.com/toxicology/mycotoxicoses/tremorgenic-mycotoxins"),
+            ("Merck Veterinary Manual — Tremorgenic Neuromycotoxicosis in Dogs", "https://www.merckvetmanual.com/toxicology/mycotoxicoses/tremorgenic-neuromycotoxicosis-in-dogs"),
             ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "related": ["can-dogs-eat-almonds", "can-dogs-eat-macadamia-nuts", "can-dogs-eat-chocolate", "can-dogs-eat-xylitol"],
@@ -6724,7 +6724,7 @@ ARTICLES = [
         """,
         "sources": [
             ("ASPCA — People Foods to Avoid Feeding Your Pets", "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"),
-            ("Merck Veterinary Manual — Food Allergy and Intolerance", "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/food-allergy-and-intolerance-in-dogs"),
+            ("Merck Veterinary Manual — Adverse Reactions to Foods", "https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutrition-in-disease-management-in-small-animals"),
             ("Cornell Riney Canine Health Center — Dog Owners", "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
         ],
         "related": ["can-dogs-eat-yogurt", "can-dogs-eat-milk", "can-dogs-eat-chocolate", "can-dogs-eat-xylitol"],
