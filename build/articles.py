@@ -274,41 +274,95 @@ ARTICLES = [
     {
         "slug": "how-to-stop-puppy-biting",
         "pillar": "dog-training",
-        "title": "How to Stop Puppy Biting — Without Yelling",
+        "title": "How to Stop Puppy Biting: 5 Levels, Teething, Sleep",
         "url": "/dog-training/how-to-stop-puppy-biting/",
-        "description": "Puppy biting is normal teething, not aggression. How to stop puppy biting by redirecting it, teaching bite inhibition, and when the phase should finally end.",
-        "lede": "Puppy biting is not aggression — it is teething and play. The fix is to redirect to a toy, reward gentle mouths, and make a brief withdrawal when teeth touch skin.",
+        "description": "Puppy biting is not aggression: it is a brake that gets fitted between 8 and 18 weeks. The five-level mouth scale, the teething calendar and the sleep fix.",
+        "lede": "Most puppy biting is a brake that has not been fitted yet \u2014 and it is fitted between 8 and 18 weeks. Here is how to grade the bite, when to end the game, and why the puppy biting hardest at 8pm usually needs a nap.",
         "eyebrow": "DOG TRAINING",
         "body": """
-        <h2>Why is my puppy biting?</h2>
-        <p>Puppy biting is not aggression — it is teething and play. Puppies explore with their mouths and bite harder than they mean to because they have not yet learned bite inhibition. Littermates teach this by yelping; you can teach it too. Understanding this is the first step to learning how to stop puppy biting without ever raising your voice.</p>
+        <h2>Why puppies bite, in one paragraph</h2>
+        <p>Puppy biting is not aggression. A puppy has 28 needle teeth arriving in its first eight weeks and a mouth that is its main way of exploring, so it bites harder than it means to because the brake has not been fitted yet. That brake is called bite inhibition, and it is learned almost entirely in a fixed window. Understanding what is being learned, and when, is what turns a frustrating fortnight into a plan.</p>
+        <div class="callout warn">Do not hit, hold the muzzle, or shout. Those can make a bold puppy bite harder and a soft one hand-shy, and neither outcome is fixable with more of the same.</div>
 
-        <h2>How to stop puppy biting — the redirect method</h2>
+        <h2>The window that closes at about 18 weeks</h2>
+        <p>Bite inhibition is the ability to control the <em>force</em> of a bite, not the decision to bite. Puppies learn it from littermates: one bites too hard, the game stops, and the biter learns that a hard mouth ends the fun. A puppy that stays with its mother and siblings until eight weeks gets a head start; one separated at six weeks usually needs the lesson taught by hand.</p>
+        <p>The window runs from roughly <strong>8 to 18 weeks</strong>. Before it, the mouth is too uncoordinated for the lesson to stick. After it, a dog can still be taught not to bite, but the finer control &mdash; the difference between a mouth that closes on skin and one that stops a centimetre short &mdash; is much harder to install. This is why an adult dog that was never taught as a puppy is a different, more serious problem than a ten-week-old doing the same thing.</p>
+        <p>The practical consequence: <strong>teach the soft mouth first, and the no-mouth rule second</strong>. A puppy that has learned to bite gently and then learns not to bite at all is safe. A puppy that is simply forbidden from mouthing anything, before it has any control, is a dog with no brake and no practice.</p>
+
+        <h2>Teething is a calendar, not a phase</h2>
+        <p>Most of the biting that appears to get worse at four months is not behavioural regression &mdash; it is the teeth changing. Knowing where you are on this table tells you whether to train or to soothe:</p>
+        <table>
+          <thead><tr><th>Age</th><th>What is happening in the mouth</th><th>What it looks like</th></tr></thead>
+          <tbody>
+            <tr><td>3&ndash;4 weeks</td><td>First milk teeth break through</td><td>Nursing, not biting yet</td></tr>
+            <tr><td>6&ndash;8 weeks</td><td>All 28 milk teeth in place</td><td>Constant mouthing; sharp, and it hurts</td></tr>
+            <tr><td>4 months</td><td>Incisors start to be replaced</td><td>Chewing everything, blood spots on toys</td></tr>
+            <tr><td>5&ndash;6 months</td><td>Canines and premolars change; gums sore</td><td>The worst fortnight for mouthing, often with a sudden dislike of hard chews</td></tr>
+            <tr><td>6&ndash;7 months</td><td>All 42 adult teeth in place</td><td>Mouthing drops sharply without training</td></tr>
+          </tbody>
+        </table>
+        <p>Two things follow. First, expect a spike at five to six months and do not read it as a training failure. Second, during that fortnight offer <em>softer</em> chews, not harder ones &mdash; a sore gum will refuse a hard nylon bone and then go looking for a chair leg, which is softer.</p>
+
+        <h2>Grade the bite before you correct it</h2>
+        <p>&ldquo;Stop biting&rdquo; is the wrong first target, because a puppy cannot go from full-force to nothing in one step. Trainers grade mouthing on a five-point scale, and the goal is to move down one level at a time:</p>
+        <table>
+          <thead><tr><th>Level</th><th>What you feel</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Snapping at air, no contact</td><td>Nothing. This is a warning and it is polite.</td></tr>
+            <tr><td>2</td><td>Teeth touch skin, no pressure</td><td>Nothing. Reward it later with a calmer game.</td></tr>
+            <tr><td>3</td><td>Pressure, no mark</td><td>Yelp once, pause the game for five seconds, resume.</td></tr>
+            <tr><td>4</td><td>Pressure that leaves a mark, skin intact</td><td>End the session. Reverse timeout, 20&ndash;30 seconds, then a chew instead.</td></tr>
+            <tr><td>5</td><td>Skin broken, or a bite that holds and shakes</td><td>Session over, and this is the level that gets a trainer involved.</td></tr>
+          </tbody>
+        </table>
+        <p>Working this way is faster than treating every mouth as an offence, because it gives the puppy something to aim at. A puppy praised for a level-2 mouth has a reason to offer level 2 again; a puppy corrected for everything learns only that hands are unpredictable.</p>
+
+        <h2>What to do in the moment</h2>
         <ul>
-          <li>When teeth touch skin, say a calm \"ouch\" or just go silent, and offer a toy instead.</li>
-          <li>If the puppy takes the toy, praise. If it keeps biting, stand up and turn away for 20-30 seconds — attention is the reward it wants.</li>
-          <li>Keep a toy within reach so redirection is instant, not a search mission.</li>
+          <li><strong>Say one word, quietly, and stop moving.</strong> A high-pitched yelp mimics a littermate; a shout just adds excitement. If the puppy pauses, the lesson landed.</li>
+          <li><strong>Offer the toy before the second bite</strong>, not after. Redirection works as a swap, not as a consolation prize.</li>
+          <li><strong>If it comes back for more, leave.</strong> Stand up, step away, stay still for 20&ndash;30 seconds. Attention is the reward, and withdrawing it is the whole mechanism.</li>
+          <li><strong>Keep a toy in every room</strong> for the first month. A redirection that needs a walk to the toy box is a redirection that never happens.</li>
+          <li><strong>Everyone does the same thing.</strong> One person who allows mouthing resets the lesson for everybody, and puppies learn which person has the rule.</li>
         </ul>
-        <div class="callout warn">Do not hit, hold the muzzle, or shout. Those can make a fearless puppy bite harder or a soft one become hand-shy.</div>
 
-        <h2>The reverse timeout</h2>
-        <p>The most reliable tool is withdrawal of attention. The instant teeth touch skin, end the interaction: stand up, step away, and stay still for 20-30 seconds. Puppies quickly learn that biting ends the fun. Consistency matters more than any single technique — everyone in the household has to do it the same way.</p>
+        <h2>Sleep is the variable nobody checks</h2>
+        <p>A puppy needs <strong>16 to 20 hours of sleep a day</strong>, in naps of one to two hours. Overtired puppies behave like overtired toddlers: faster, rougher, unable to settle, and completely unresponsive to the training that worked that morning.</p>
+        <p>This is why so many biting incidents happen between 7pm and 9pm. The puppy has been awake since 4pm, has had two walks and a visit, and is running on empty. The fix is not a correction, it is a nap &mdash; a chew in the crate or pen, lights low, no conversation. Owners who add a forced afternoon nap usually report the biting halved within a week, without changing any training.</p>
+        <p>If a session is escalating and nothing you do is landing, that is the signal to end it rather than to try harder. Put the puppy somewhere quiet with something to chew, and start again after a sleep.</p>
 
-        <h2>Extra help for teething</h2>
-        <p>Cold chew toys from the freezer soothe sore gums. Rotate toys so they stay interesting. A tired puppy bites less — short training games burn energy. Offer appropriate things to chew so the puppy learns what is fair game and what is not.</p>
+        <h2>Chews by age</h2>
+        <p>The right chew changes with the teeth, and the wrong one causes a different problem than biting:</p>
+        <table>
+          <thead><tr><th>Age</th><th>Good options</th><th>Avoid</th></tr></thead>
+          <tbody>
+            <tr><td>8&ndash;16 weeks</td><td>Frozen carrot, frozen damp cloth (supervised), soft rubber puppy chew</td><td>Anything harder than a thumbnail &mdash; milk teeth crack</td></tr>
+            <tr><td>4&ndash;6 months</td><td>Rubber chew with some give, frozen stuffed toy, dental stick</td><td>Nylon bones and antlers, while the gums are open</td></tr>
+            <tr><td>6 months +</td><td>Harder rubber, rope, textured dental chews</td><td>Cooked bones, hooves, anything that splinters or chips a tooth</td></tr>
+          </tbody>
+        </table>
+        <p>The thumbnail test is a rough but reliable field check: if you cannot dent the chew with a fingernail, it is too hard for a puppy with milk teeth.</p>
 
-        <h2>What not to do</h2>
+        <h2>If there are children in the house</h2>
+        <p>Most serious puppy-bite incidents involve a child and a puppy doing normal puppy things, so the rules are about geometry rather than discipline:</p>
         <ul>
-          <li>Do not punish with your hands — it teaches fear, not control.</li>
-          <li>Do not let the puppy "win" by getting more play when it bites; that rewards the behavior.</li>
-          <li>Do not use physical corrections like muzzle holds or taps.</li>
+          <li><strong>No play on the floor at puppy height.</strong> Hands near a puppy's face are the single most common trigger. Play at a table, or with the puppy on a lead.</li>
+          <li><strong>Five seconds, then a break.</strong> Short turns keep the puppy under threshold. A ten-minute game is where the escalation happens.</li>
+          <li><strong>No running and screaming.</strong> It is the most exciting thing a puppy has ever seen, and it invites chasing and ankle-biting.</li>
+          <li><strong>Teach the child to stand still and look away</strong>, not to pull their hand back. Pulling turns a mouth into a chase.</li>
         </ul>
 
-        <h2>When should puppy biting stop?</h2>
-        <p>Biting should fade by 5-6 months as adult teeth come in and bite inhibition sets in. Soft play-mouthing may linger longer, which is normal. Persistent hard biting past that point, or any skin break with a growl, is worth a trainer's eyes.</p>
+        <h2>What makes it worse</h2>
+        <ul>
+          <li><strong>Playing tug with hands or sleeves.</strong> It teaches that fabric and skin are fair targets, then punishes the puppy for following the rule you taught.</li>
+          <li><strong>Punishing with the hand.</strong> A tap, a muzzle grab or a scruff shake all teach the same thing: hands can be scary. Some puppies get defensive; most get better at avoiding hands, which is not the lesson.</li>
+          <li><strong>Ending the game only sometimes.</strong> Inconsistent withdrawal teaches a puppy to persist &mdash; it is a slot machine, not a rule.</li>
+        </ul>
 
-        <h2>When to get help</h2>
-        <p>Most puppy biting resolves with consistency. But reach out to a qualified positive-reinforcement trainer if the biting gets harder or more frequent over time, your puppy growls or snaps from a calm state (not during play), or a bite breaks skin. Early help prevents habits from setting in. For related skills, see our guides to <a href="/dog-training/how-to-leash-train-a-dog/">leash training</a> and <a href="/dog-training/how-to-crate-train-a-puppy/">crate training</a>.</p>
+        <h2>When biting is not play</h2>
+        <p>Three patterns are worth a professional's eyes rather than another week of redirection: a puppy that bites from a <strong>calm, still state</strong> rather than mid-play; a puppy that <strong>guards food or a toy</strong> and bites when approached; and a bite that <strong>holds and shakes</strong> rather than releasing. None of these are common in a young puppy, and all of them are easier to change at four months than at fourteen.</p>
+        <p>For the rest &mdash; the mouthing, the ankle-biting, the holes in sleeves &mdash; the trajectory is reliable: it should be clearly fading by five months and largely gone by six to seven. Soft play-mouthing can linger in a dog that was never taught to stop, and it is worth finishing the job rather than waiting it out.</p>
+        <p>The two habits that make the first month easier are built elsewhere: a puppy that sleeps enough bites less, and a puppy that has a place to settle learns to switch off. Our <a href="/dog-training/how-to-crate-train-a-puppy/">crate training plan</a> covers the settling side, and <a href="/dog-training/how-to-leash-train-a-dog/">leash training</a> covers the other half of the same month.</p>
         """,
         "faq": [
             ("At what age do puppies stop biting?", "Most puppies stop hard mouthing by 5 to 6 months, once adult teeth are in and bite inhibition is learned. Soft play-mouthing may linger longer."),
@@ -319,6 +373,8 @@ ARTICLES = [
             ("How long does the puppy biting phase last?", "Hard mouthing should fade by 5-6 months as adult teeth come in. Gentle play-mouthing may continue but should not hurt."),
             ("What if my puppy breaks skin when biting?", "Clean the wound and watch it. A single playful nip that breaks skin is common, but if bites get harder, more frequent, or come with a growl from a calm state, see a qualified trainer."),
             ("Do puppies grow out of biting?", "Most do, with consistent guidance. Without redirection they can learn that biting is how to get attention, so teaching bite inhibition early matters."),
+            ("Why is my puppy suddenly biting more at five months?", "Teeth. The canines and premolars are changing and the gums are sore, which is also why a puppy that liked hard chews suddenly refuses them. Expect two rough weeks around five to six months and offer softer chews rather than harder ones."),
+            ("Should I let my puppy mouth my hand at all?", "Yes, in the early weeks, at level 1 or 2 on the five-point scale \u2014 snapping at air or teeth touching without pressure. That is how bite inhibition gets practised. What you stop is pressure: level 3 and above ends the game for 20-30 seconds."),
         ],
         "related": ["how-to-crate-train-a-puppy", "how-to-leash-train-a-dog", "dog-not-eating-but-drinking-water"],
         "sources": [
@@ -767,6 +823,7 @@ ARTICLES = [
           <li><strong>Abdominal pain</strong> — hunched back, reluctance to lie down, looking at the flank. Pancreatitis is the classic.</li>
           <li><strong>Back or neck pain</strong> — IVDD in dachshunds and other long-backed breeds; a dog that will not turn its head or yelps when picked up.</li>
           <li><strong>Dental pain</strong> — often missed entirely; a dog that trembles while eating and chews on one side.</li>
+          <li><strong>Ear infection</strong> &mdash; head shaking, one ear held lower than the other, a yelp when the flap is touched. An infected ear produces trembling more often than scratching, which is why it gets filed under &ldquo;shivering&rdquo;; the <a href="/dog-health/dog-ear-infection-symptoms/">symptom list</a> separates it from a burst blood vessel in the flap.</li>
           <li><strong>Arthritis</strong> — a senior dog trembling after a walk, or first thing in the morning.</li>
           <li><strong>Anal gland impaction or abscess</strong> — scooting plus trembling plus licking at the rear.</li>
         </ul>
