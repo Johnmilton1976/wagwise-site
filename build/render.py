@@ -1011,7 +1011,31 @@ CALC_BODY = """
     <h2>How the estimate works</h2>
     <p>Dogs do not age at a flat 7&times; rate. The size-adjusted approximation we use treats the first year as about 15 human years and the second as roughly 9 more, then adds 4 to 6 per year afterward depending on size: smaller dogs age slower, larger dogs faster. That is why a 2-year-old small dog and a 2-year-old giant breed land in very different human-age ranges.</p>
     <h2>Why not just multiply by 7?</h2>
-    <p>The 7&times; rule is a rough myth. A one-year-old dog is already sexually mature and past infancy, so 7&times; badly understates the early years and overstates the later ones. The size-adjusted curve — the one behind this calculator — bends by body size, because large and giant breeds age noticeably faster once they are adults. The shape of it is consistent with guidance from the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center.</p>
+    <p>The 7&times; rule is usually traced to a piece of arithmetic rather than a study: a 70-year human life divided by a 10-year dog life. Both numbers have moved. A small dog now routinely reaches 14&ndash;16, and a human in a developed country can expect past 80, so even as a lifespan ratio the multiplier is closer to 5 for a small breed and 9 for a giant one &mdash; the two ends that the single number was supposed to average out.</p>
+    <p>Worse, it fails at the start. A one-year-old dog is already sexually mature, so 7&times; badly understates the early years and overstates the later ones. The size-adjusted curve — the one behind this calculator — bends by body size, because large and giant breeds age noticeably faster once they are adults. The shape of it is consistent with guidance from the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center.</p>
+    <h2>A second formula, and why it disagrees</h2>
+    <p>In 2020 a study comparing DNA methylation in dogs and humans produced a logarithmic formula rather than a multiplier. It fits the data better than any linear rule, and it is worth knowing because it produces very different numbers in the first two years:</p>
+    <table>
+      <tr><th style="text-align:left">Dog age</th><th style="text-align:left">DNA-clock estimate</th><th style="text-align:left">This calculator</th></tr>
+      <tr><td>1 year</td><td>about 31 human years</td><td>15</td></tr>
+      <tr><td>2 years</td><td>about 42</td><td>24</td></tr>
+      <tr><td>5 years</td><td>about 57</td><td>36&ndash;42</td></tr>
+      <tr><td>10 years</td><td>about 68</td><td>56&ndash;72</td></tr>
+    </table>
+    <p>The two converge from middle age and diverge sharply in youth. The reason is what each is measuring. The DNA clock describes <em>biological</em> ageing &mdash; how much molecular wear has accumulated &mdash; and a one-year-old dog has already packed a complete puberty, a full adult skeleton and most of its adult height into twelve months. The size-adjusted table describes <em>life stage</em>, which is what should change how you feed, train and insure the dog. A 1-year-old Great Dane is physically finished growing; a 1-year-old Chihuahua is not, and no single human-age number can carry both facts.</p>
+    <p>Both are estimates built on a Labrador-sized reference population, so neither is a measurement of your dog. Use the DNA figure if the question is &ldquo;how worn is this dog&rdquo;; use the life-stage figure if the question is &ldquo;what care does this dog need this year&rdquo;.</p>
+
+    <h2>Average lifespan, by size</h2>
+    <p>The human-age conversion only makes sense against the lifespan it is compressing. These are the ranges vets and breed clubs generally quote:</p>
+    <table>
+      <tr><th style="text-align:left">Size</th><th style="text-align:left">Typical lifespan</th><th style="text-align:left">Senior from</th></tr>
+      <tr><td>Toy and small (under 9 kg / 20 lb)</td><td>12&ndash;16 years</td><td>9&ndash;10</td></tr>
+      <tr><td>Medium (9&ndash;23 kg / 20&ndash;50 lb)</td><td>10&ndash;14 years</td><td>8</td></tr>
+      <tr><td>Large (23&ndash;40 kg / 50&ndash;90 lb)</td><td>9&ndash;12 years</td><td>7</td></tr>
+      <tr><td>Giant (over 40 kg / 90 lb)</td><td>7&ndash;9 years</td><td>6</td></tr>
+    </table>
+    <p>The pattern is the opposite of the usual intuition: the bigger the dog, the shorter the life and the earlier old age starts. A Great Dane at seven is a senior; a Jack Russell at seven is still middle-aged. That is also why the same &ldquo;human age&rdquo; reading means different screening schedules &mdash; large breeds are typically watched for joint and heart disease years earlier than small ones.</p>
+
     <h2>Life stage by size</h2>
     <p>The human-age output is really a stand-in for <em>life stage</em>, which is what should change how you care for the dog:</p>
     <table>
