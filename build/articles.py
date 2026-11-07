@@ -7210,7 +7210,7 @@ EDITORIAL = {
       <li>International Cat Care</li>
       <li>The American Veterinary Society of Animal Behavior (AVSAB)</li>
     </ul>
-    <p>You can see the exact sources for any guide at the bottom of that article, with links out, so you can check us rather than trust us.</p>
+    <p>You can see the exact sources for any guide at the bottom of that article, with links out, so you can check us rather than trust us. The <a href="/resources/">full resource list</a> also records the three places those references disagree with each other, and which reading we take.</p>
 
     <h2>The check-date system</h2>
     <p>Every guide carries a "checked" date under its Sources block. That date is the last time the facts were compared against those references — not the day the page was first published or reformatted. When a source updates (a fee change, a revised guideline, new research), we revisit the guide and move the check date forward. Substantive corrections are reflected in that date too.</p>
@@ -7240,7 +7240,7 @@ EDITORIAL = {
 RESOURCES = {
     "url": "/resources/",
     "title": "Dog Care Resources We Trust — WagWise Pet",
-    "description": "The dog care resources we actually use: poison-control hotlines, the veterinary references behind every WagWise guide, plus directories that list WagWise.",
+    "description": "The poison hotlines, veterinary references and directories we actually use \u2014 plus the three places those sources disagree, and which reading we take and why.",
     "body": """
     <h1>Dog care resources we trust</h1>
     <p>This page collects the places we send readers when a question goes beyond our guides, plus the directories that list WagWise. Every link here is one we have used ourselves while researching this site.</p>
@@ -7257,6 +7257,20 @@ RESOURCES = {
       <li><strong><a href="https://www.avma.org/" rel="nofollow">American Veterinary Medical Association (AVMA)</a></strong> — position statements and owner guides, including the size-adjusted ageing approximation our <a href="/tools/dog-age-calculator/">dog age calculator</a> uses.</li>
       <li><strong><a href="https://www.akc.org/expert-advice/" rel="nofollow">AKC Expert Advice</a></strong> — breed-specific care and training guidance from the American Kennel Club.</li>
     </ul>
+
+    <h2>Where these sources disagree — and what we do about it</h2>
+    <p>A resource list is only useful if it admits that the sources on it do not always agree. Three disagreements come up often enough that they are worth stating plainly, because each one changes what a reader should do.</p>
+
+    <p><strong>Grapes and raisins: nobody knows the mechanism.</strong> The ASPCA, the Merck Veterinary Manual and the Pet Poison Helpline all describe the same clinical picture — acute kidney failure — and all three say the toxic principle has not been identified. Suspects have been proposed and ruled out over the years; none has held. The practical consequence is not academic: because no one can name the toxin, no one can name a safe dose, which is why every serious source treats <em>any</em> ingestion as an emergency regardless of the dog's size. Our <a href="/dog-nutrition/can-dogs-eat-grapes/">grapes guide</a> says the same thing for the same reason.</p>
+
+    <p><strong>Chocolate: the thresholds differ at the margins.</strong> Published tables broadly agree on the shape of the dose-response curve — mild gut signs at the low end, hyperactivity and a racing heart in the middle, seizures and worse at the top — but they do not draw the lines in exactly the same place. Some put moderate signs from 20 mg of theobromine per kilo, others from 30. We use the 20 / 40 / 60 mg/kg bands and say so, because when the published lines differ the useful choice is the lower one: it moves a worried owner to call a vet slightly earlier, and being early is the only intervention that reliably matters. The <a href="/tools/chocolate-toxicity-calculator/">chocolate calculator</a> applies those same bands to your dog's weight.</p>
+
+    <p><strong>Dog years: the 7&times; rule is gone, and its replacement is still moving.</strong> The old "one dog year equals seven human years" line has no research behind it. The AVMA-endorsed approach adjusts for body size, which is what our <a href="/tools/dog-age-calculator/">dog age calculator</a> uses. A 2020 study went further and proposed a logarithmic formula based on DNA methylation, which fits the data better across a dog's whole life but is not yet something a vet would quote in a consult. We use the size-adjusted method and label it an estimate, because it is the one a veterinarian would recognise.</p>
+
+    <p>The rule we apply everywhere on this site: where the sources conflict, take the more cautious reading, then say which reading you took and why. A guide that quietly picks the reassuring number is worse than no guide.</p>
+
+    <h2>How to use this list</h2>
+    <p>If your dog may have eaten something toxic, skip the reading and call a poison service first — the two hotlines above are staffed around the clock, and the fee is worth more than an hour of searching. If you are researching a question in advance, start with the Merck Veterinary Manual for the clinical detail and the ASPCA list for the quick yes/no, then come back to our guides for the arithmetic that neither of them does: how many grams of lactose, how many milligrams of theobromine per kilo, how many calories a treat actually costs.</p>
 
     <h2>Directories that list WagWise</h2>
     <ul>

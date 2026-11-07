@@ -262,12 +262,16 @@ RELATED_BOOST = {
     "can-dogs-eat-cheese": ["can-dogs-eat-milk"],
     "can-dogs-eat-ice-cream": ["can-dogs-eat-milk"],
     # "he stopped eating" is where owners reach for milk and peanut butter.
-    "dog-not-eating-but-drinking-water": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
     "how-much-to-feed-my-dog": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter"],
     "can-dogs-eat-bananas": ["can-dogs-eat-peanut-butter"],
     "can-dogs-eat-apples": ["can-dogs-eat-peanut-butter"],
     "can-dogs-eat-honey": ["can-dogs-eat-milk"],
     "can-dogs-eat-strawberries": ["can-dogs-eat-milk"],
+    # grass-eating (1,424 words, 4 inbound) and teeth-brushing (1,518 words,
+    # 4 inbound) were the two thick pages still under five inbound links.
+    "can-dogs-eat-milk": ["why-do-dogs-eat-grass"],
+    "dog-not-eating-but-drinking-water": ["can-dogs-eat-milk", "can-dogs-eat-peanut-butter",
+                                          "why-do-dogs-eat-grass", "how-to-brush-dog-teeth"],
 
     # Second pass, same day: gsc_not_indexed_triage.py flagged eight pages of
     # 1,400+ words with only 3-4 inbound links — the shape of a page Google
