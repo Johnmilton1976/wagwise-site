@@ -1,0 +1,101 @@
+# Cloudflare Pages redirects. Order matters: first match wins.
+#
+# Until now the no-trailing-slash form of every article URL fell through to the
+# platform default, which answers 307 Temporary Redirect. The destination was
+# right, so nothing was broken, but 307 tells a crawler the move might be
+# temporary, and every inbound link or share written without the slash keeps
+# resolving through a temporary redirect. These rules pin it to 301.
+#
+# One line per real directory rather than a catch-all: a /* rule would also
+# match the trailing-slash form and loop. Adding a page means adding its line.
+#
+# The canonical form stays the trailing-slash one. Every rule is an exact path
+# match, so the order below does not change the outcome; it is grouped shallow to
+# deep only so the file stays readable as pages are added.
+
+/about/editorial-standards /about/editorial-standards/ 301
+/best/dog-crate /best/dog-crate/ 301
+/best/dog-harness-for-pulling /best/dog-harness-for-pulling/ 301
+/cat/cat-hairballs /cat/cat-hairballs/ 301
+/cat/cat-litter-training /cat/cat-litter-training/ 301
+/cat/cat-not-using-litter-box /cat/cat-not-using-litter-box/ 301
+/cat/cat-scratching-furniture /cat/cat-scratching-furniture/ 301
+/cat/cat-spraying-how-to-stop /cat/cat-spraying-how-to-stop/ 301
+/cat/cats-fighting-in-same-house /cat/cats-fighting-in-same-house/ 301
+/cat/how-to-introduce-cats /cat/how-to-introduce-cats/ 301
+/cat/signs-of-stress-in-cats /cat/signs-of-stress-in-cats/ 301
+/cat/why-does-my-cat-meow-at-night /cat/why-does-my-cat-meow-at-night/ 301
+/dog-care/how-to-brush-dog-teeth /dog-care/how-to-brush-dog-teeth/ 301
+/dog-care/how-to-trim-dog-nails /dog-care/how-to-trim-dog-nails/ 301
+/dog-health/dog-ear-infection-symptoms /dog-health/dog-ear-infection-symptoms/ 301
+/dog-health/dog-not-eating-but-drinking-water /dog-health/dog-not-eating-but-drinking-water/ 301
+/dog-health/dog-vomiting-causes /dog-health/dog-vomiting-causes/ 301
+/dog-health/why-do-dogs-eat-grass /dog-health/why-do-dogs-eat-grass/ 301
+/dog-health/why-do-dogs-eat-poop /dog-health/why-do-dogs-eat-poop/ 301
+/dog-health/why-is-my-dog-shaking /dog-health/why-is-my-dog-shaking/ 301
+/dog-nutrition/can-dogs-eat-alcohol /dog-nutrition/can-dogs-eat-alcohol/ 301
+/dog-nutrition/can-dogs-eat-almonds /dog-nutrition/can-dogs-eat-almonds/ 301
+/dog-nutrition/can-dogs-eat-apples /dog-nutrition/can-dogs-eat-apples/ 301
+/dog-nutrition/can-dogs-eat-avocado /dog-nutrition/can-dogs-eat-avocado/ 301
+/dog-nutrition/can-dogs-eat-bananas /dog-nutrition/can-dogs-eat-bananas/ 301
+/dog-nutrition/can-dogs-eat-blueberries /dog-nutrition/can-dogs-eat-blueberries/ 301
+/dog-nutrition/can-dogs-eat-bread /dog-nutrition/can-dogs-eat-bread/ 301
+/dog-nutrition/can-dogs-eat-broccoli /dog-nutrition/can-dogs-eat-broccoli/ 301
+/dog-nutrition/can-dogs-eat-caffeine /dog-nutrition/can-dogs-eat-caffeine/ 301
+/dog-nutrition/can-dogs-eat-carrots /dog-nutrition/can-dogs-eat-carrots/ 301
+/dog-nutrition/can-dogs-eat-cheese /dog-nutrition/can-dogs-eat-cheese/ 301
+/dog-nutrition/can-dogs-eat-cherries /dog-nutrition/can-dogs-eat-cherries/ 301
+/dog-nutrition/can-dogs-eat-chicken /dog-nutrition/can-dogs-eat-chicken/ 301
+/dog-nutrition/can-dogs-eat-chocolate /dog-nutrition/can-dogs-eat-chocolate/ 301
+/dog-nutrition/can-dogs-eat-corn /dog-nutrition/can-dogs-eat-corn/ 301
+/dog-nutrition/can-dogs-eat-cucumber /dog-nutrition/can-dogs-eat-cucumber/ 301
+/dog-nutrition/can-dogs-eat-eggs /dog-nutrition/can-dogs-eat-eggs/ 301
+/dog-nutrition/can-dogs-eat-garlic /dog-nutrition/can-dogs-eat-garlic/ 301
+/dog-nutrition/can-dogs-eat-grapes /dog-nutrition/can-dogs-eat-grapes/ 301
+/dog-nutrition/can-dogs-eat-green-beans /dog-nutrition/can-dogs-eat-green-beans/ 301
+/dog-nutrition/can-dogs-eat-ham /dog-nutrition/can-dogs-eat-ham/ 301
+/dog-nutrition/can-dogs-eat-honey /dog-nutrition/can-dogs-eat-honey/ 301
+/dog-nutrition/can-dogs-eat-ice-cream /dog-nutrition/can-dogs-eat-ice-cream/ 301
+/dog-nutrition/can-dogs-eat-macadamia-nuts /dog-nutrition/can-dogs-eat-macadamia-nuts/ 301
+/dog-nutrition/can-dogs-eat-mango /dog-nutrition/can-dogs-eat-mango/ 301
+/dog-nutrition/can-dogs-eat-milk /dog-nutrition/can-dogs-eat-milk/ 301
+/dog-nutrition/can-dogs-eat-onion /dog-nutrition/can-dogs-eat-onion/ 301
+/dog-nutrition/can-dogs-eat-peaches /dog-nutrition/can-dogs-eat-peaches/ 301
+/dog-nutrition/can-dogs-eat-peanut-butter /dog-nutrition/can-dogs-eat-peanut-butter/ 301
+/dog-nutrition/can-dogs-eat-peas /dog-nutrition/can-dogs-eat-peas/ 301
+/dog-nutrition/can-dogs-eat-pineapple /dog-nutrition/can-dogs-eat-pineapple/ 301
+/dog-nutrition/can-dogs-eat-plums /dog-nutrition/can-dogs-eat-plums/ 301
+/dog-nutrition/can-dogs-eat-popcorn /dog-nutrition/can-dogs-eat-popcorn/ 301
+/dog-nutrition/can-dogs-eat-potato /dog-nutrition/can-dogs-eat-potato/ 301
+/dog-nutrition/can-dogs-eat-pumpkin /dog-nutrition/can-dogs-eat-pumpkin/ 301
+/dog-nutrition/can-dogs-eat-raw-dough /dog-nutrition/can-dogs-eat-raw-dough/ 301
+/dog-nutrition/can-dogs-eat-rice /dog-nutrition/can-dogs-eat-rice/ 301
+/dog-nutrition/can-dogs-eat-salmon /dog-nutrition/can-dogs-eat-salmon/ 301
+/dog-nutrition/can-dogs-eat-shrimp /dog-nutrition/can-dogs-eat-shrimp/ 301
+/dog-nutrition/can-dogs-eat-spinach /dog-nutrition/can-dogs-eat-spinach/ 301
+/dog-nutrition/can-dogs-eat-strawberries /dog-nutrition/can-dogs-eat-strawberries/ 301
+/dog-nutrition/can-dogs-eat-sweet-potato /dog-nutrition/can-dogs-eat-sweet-potato/ 301
+/dog-nutrition/can-dogs-eat-tomato /dog-nutrition/can-dogs-eat-tomato/ 301
+/dog-nutrition/can-dogs-eat-walnuts /dog-nutrition/can-dogs-eat-walnuts/ 301
+/dog-nutrition/can-dogs-eat-watermelon /dog-nutrition/can-dogs-eat-watermelon/ 301
+/dog-nutrition/can-dogs-eat-xylitol /dog-nutrition/can-dogs-eat-xylitol/ 301
+/dog-nutrition/can-dogs-eat-yogurt /dog-nutrition/can-dogs-eat-yogurt/ 301
+/dog-nutrition/food-safety-chart /dog-nutrition/food-safety-chart/ 301
+/dog-nutrition/foods-toxic-to-dogs /dog-nutrition/foods-toxic-to-dogs/ 301
+/dog-nutrition/how-much-to-feed-my-dog /dog-nutrition/how-much-to-feed-my-dog/ 301
+/dog-training/how-to-crate-train-a-puppy /dog-training/how-to-crate-train-a-puppy/ 301
+/dog-training/how-to-leash-train-a-dog /dog-training/how-to-leash-train-a-dog/ 301
+/dog-training/how-to-stop-puppy-biting /dog-training/how-to-stop-puppy-biting/ 301
+/tools/chocolate-toxicity-calculator /tools/chocolate-toxicity-calculator/ 301
+/tools/dog-age-calculator /tools/dog-age-calculator/ 301
+/about /about/ 301
+/best /best/ 301
+/cat /cat/ 301
+/contact /contact/ 301
+/dog-care /dog-care/ 301
+/dog-health /dog-health/ 301
+/dog-nutrition /dog-nutrition/ 301
+/dog-training /dog-training/ 301
+/privacy /privacy/ 301
+/resources /resources/ 301
+/sitemap /sitemap/ 301
