@@ -409,7 +409,7 @@ def shell(head_html, nav_current, body_html):
         "<p>%s is an independent pet care resource. It is not a substitute for "
         "professional veterinary advice — for anything urgent, contact a licensed "
         "veterinarian. Read our affiliate note in the privacy policy.</p></div></footer>\n"
-        '<script src="/assets/cookie-consent.js" defer></script>\n'
+        '<script src="/assets/cookie-consent.js?v=1" defer></script>\n'
         "%s"
         "</body>\n</html>\n"
     ) % (
