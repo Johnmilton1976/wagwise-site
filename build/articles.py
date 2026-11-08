@@ -1085,6 +1085,7 @@ ARTICLES = [
           <tr><td><b>3. Caution — small amounts only</b></td><td>Milk, cheese, ice cream, ham, honey, bread, popcorn, corn on the cob, almonds, spinach, salmon, shrimp, eggs</td><td>Not poisonous, but fat, salt, lactose or a physical hazard. Measure rather than guess.</td></tr>
           <tr><td><b>4. Safe in moderation</b></td><td>Apples, bananas, blueberries, strawberries, watermelon, pumpkin, sweet potato, rice, cucumber, broccoli, green beans, pineapple, mango, peas, carrots, plain yoghurt, plain peanut butter, cooked chicken</td><td>Fine as treats, inside the 10% calorie budget, prepared correctly.</td></tr>
         </table>
+<p>Every row on this page is a dose, not a verdict, and the ones where the arithmetic changes the answer are all in one place: the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> converts xylitol, grapes, onion, garlic, macadamia, caffeine and alcohol into grams or milligrams per kilogram for your dog's weight.</p>
 
         <h2>All 47 foods we cover, verdict at a glance</h2>
         <p>The tier table above sorts the dangerous half by how fast you have to act. This is the other half of the question owners actually type: the full list of every food we have a guide for, sorted by verdict. Each line links to the full write-up with doses, symptoms, and serving sizes.</p>
@@ -3034,6 +3035,7 @@ ARTICLES = [
           <tr><td>10–25 kg</td><td>5–10 grapes</td><td>Call vet; expect monitoring</td></tr>
           <tr><td>25 kg and up</td><td>A small handful or more</td><td>Call vet; large dogs are still at risk</td></tr>
         </table>
+<p>Because there is no threshold to compare against, the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> refuses to give grapes a safe band at all — it shows the grams per kilogram as context and returns red for any amount above zero.</p>
         <div class="callout warn"><b>Raisins count for more.</b> Because they are dried, the same weight holds roughly four times the grape material. A small box of raisins (about 40 g) can be as dangerous as a large bunch of fresh grapes.</div>
 
         <h2>What happens after a dog eats grapes — the timeline</h2>
@@ -5358,6 +5360,7 @@ ARTICLES = [
             <tr><td>30 kg (66 lb)</td><td>~30 g — 6–10 cloves</td><td>~150 g — 1.5 bulbs</td><td><strong>0 — none</strong></td></tr>
           </tbody>
         </table>
+<p>Garlic has no separately measured canine figure, so the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> derives it from the onion threshold using Merck's 3&ndash;5&times; ratio and labels it as derived, then gives you grams per kilogram for your dog.</p>
         <p>Read that last column seriously. The space between "no visible signs" and "anaemia" is
         where the danger lives, and it is invisible from the outside.</p>
 
@@ -5484,6 +5487,7 @@ ARTICLES = [
             <tr><td>30 kg (66 lb)</td><td>~4–6 kernels</td><td><strong>0 — none</strong></td></tr>
           </tbody>
         </table>
+<p>The 0.7&nbsp;g/kg figure is where signs start, and three nuts is enough for a 10&nbsp;kg dog — the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> works it out for your dog's weight, and takes the chocolate half of a chocolate-covered macadamia separately.</p>
         <p class="note">Because one dropped cookie or a stolen handful can cross the line,
         treat the safe amount as <strong>zero</strong> for dogs of every size.</p>
 
@@ -5932,6 +5936,7 @@ ARTICLES = [
             <tr><td>30 kg (66 lb)</td><td>~1,500 mg (2–3 gum pieces)</td><td><strong>0 — none</strong></td></tr>
           </tbody>
         </table>
+<p>If you are holding a packet rather than a number, the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> converts grams of xylitol into milligrams per kilogram for your dog's weight and says which of the three thresholds you are in.</p>
 
         <h2>Product by product: how much is actually in what</h2>
         <p>"A few pieces of gum" is not a dose. The amount of xylitol per unit varies by more than a hundredfold between products, and that spread is why two dogs of the same weight can have completely different outcomes from what sounds like the same story.</p>
@@ -6066,6 +6071,7 @@ ARTICLES = [
             <tr><td>Overripe or fallen fruit</td><td>varies</td><td>Ferments on the ground; windfall apples and plums are the classic case.</td></tr>
           </tbody>
         </table>
+<p>Volume is not the dose, which is why drinks get measured wrong: the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> takes the millilitres and the strength and returns grams of pure ethanol per kilogram against the 5.5&ndash;7.9&nbsp;g/kg lethal figure.</p>
 
         <h2>Why a small dog is not a small human</h2>
         <p>The percentage is only half of the story. The other half is the dog's weight.
@@ -6195,6 +6201,7 @@ ARTICLES = [
             <tr><td>Caffeine pill</td><td>100–200 mg</td></tr>
           </tbody>
         </table>
+<p>Cups, tablets and milligrams are three different inputs for the same question — the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> converts all of them to mg per kilogram and puts the result against the 140&nbsp;mg/kg canine MLD50.</p>
         <p class="note">A 5 kg (11 lb) dog can show mild signs from roughly 100 mg —
         <strong>a single cup of coffee or half an energy drink</strong>. That is why spilled
         mugs and trash-bin grounds are the most common real-world exposures.</p>
@@ -7502,6 +7509,29 @@ TOOL_FEED = {
     "url": "/tools/dog-food-calculator/",
     "title": "Dog Food Calculator: Grams per Day by Weight and Age",
     "description": "Work out grams per day from your dog's weight and the food label's kcal — with the ±30% individual range, a treat budget, and no misleading cup conversion.",
+    "eyebrow": "TOOLS",
+}
+
+# ---------------------------------------------------------------------------
+# Fourth tool (2026-11-08): toxic-food dose calculator.
+#
+# Why this one: the 28 pages GSC reports as "crawled, not indexed" are all in the
+# can-dogs-eat family, and the measured difference between the indexed and the
+# unindexed half is internal links (14.7 vs 8.1), not word count or originality
+# (47 pages, 1,081 pairwise comparisons, highest overlap 0.216). Chasing all 28
+# would be 28 x a ten-cent ad click. The five toxicity pages are the only ones in
+# that family with real advertiser value — pet insurance, emergency clinics, poison
+# lines — so they get a tool instead of a rewrite, and the tool is the asset that
+# can be embedded elsewhere, which is the only link acquisition that works here.
+#
+# It is deliberately not a second chocolate calculator: chocolate already has one.
+# These seven are quoted in five different units, which is the reason owners get
+# them wrong — mg/kg for xylitol, g/kg for allium, grams of ethanol for a drink.
+# ---------------------------------------------------------------------------
+TOOL_TOXIN = {
+    "url": "/tools/toxic-food-dose-calculator/",
+    "title": "Dog Poisoning Dose Calculator: 7 Toxic Foods by Weight",
+    "description": "Turn what your dog ate into a dose per kilogram, then check it against the published threshold: xylitol, grapes, onion, garlic, macadamia, caffeine, alcohol.",
     "eyebrow": "TOOLS",
 }
 

@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/foods-toxic-to-dogs/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-grapes/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -356,13 +356,13 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-garlic/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-macadamia-nuts/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -386,19 +386,19 @@
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-xylitol/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-alcohol/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wagwise.org/dog-nutrition/can-dogs-eat-caffeine/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -513,6 +513,12 @@
   <url>
     <loc>https://wagwise.org/tools/dog-food-calculator/</loc>
     <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wagwise.org/tools/toxic-food-dose-calculator/</loc>
+    <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

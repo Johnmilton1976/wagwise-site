@@ -20,6 +20,9 @@ Free to read, no signup, no affiliate links. Not affiliated with any veterinary 
 ## Tools
 
 - [Dog Age Calculator](https://wagwise.org/tools/dog-age-calculator/): age conversion by size class
+- [Toxic Food Dose Calculator](https://wagwise.org/tools/toxic-food-dose-calculator/): grams or milligrams per kilogram for xylitol, grapes, onion, garlic, macadamia, caffeine and alcohol, against the published thresholds
+- [Chocolate Toxicity Calculator](https://wagwise.org/tools/chocolate-toxicity-calculator/): theobromine dose per kilogram by chocolate type
+- [Dog Food Calculator](https://wagwise.org/tools/dog-food-calculator/): grams per day from weight and label kcal, with the individual range
 
 ## Editorial standards
 

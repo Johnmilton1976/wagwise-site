@@ -108,8 +108,8 @@
   "h": "dafd0dcdac5d9b2f471ae84863cc1566ab7a2059"
  },
  "public/dog-nutrition/can-dogs-eat-alcohol/index.html": {
-  "d": "2026-11-04",
-  "h": "86c0bb49ff4862e6e1c47481929ad767bd393fc3"
+  "d": "2026-11-08",
+  "h": "34d6a4772051d55e55bf2d820dffd0516e2a52f0"
  },
  "public/dog-nutrition/can-dogs-eat-almonds/index.html": {
   "d": "2026-11-04",
@@ -140,8 +140,8 @@
   "h": "e40cb8ed4521e811574b679f300babf8f0e63043"
  },
  "public/dog-nutrition/can-dogs-eat-caffeine/index.html": {
-  "d": "2026-11-07",
-  "h": "4e51aa881eb0ade3ab511652222a0e4d680ad2a7"
+  "d": "2026-11-08",
+  "h": "b6ce8e7c6a4f8789c22aeb61559d5f34b06050e4"
  },
  "public/dog-nutrition/can-dogs-eat-carrots/index.html": {
   "d": "2026-11-04",
@@ -176,12 +176,12 @@
   "h": "3b3dbebf2fff17fdc0556460a3be562249cf4fc6"
  },
  "public/dog-nutrition/can-dogs-eat-garlic/index.html": {
-  "d": "2026-11-04",
-  "h": "674c87203a77585448c5140678f127d698725a32"
+  "d": "2026-11-08",
+  "h": "397454e0be5ba2e2ed04d42aacfeddef08480204"
  },
  "public/dog-nutrition/can-dogs-eat-grapes/index.html": {
-  "d": "2026-11-07",
-  "h": "6b41793c1ec44f4328c7113c8bc120e736e162e2"
+  "d": "2026-11-08",
+  "h": "826808e949440d8bc48f6b8344431406ba3a1f03"
  },
  "public/dog-nutrition/can-dogs-eat-green-beans/index.html": {
   "d": "2026-11-07",
@@ -200,8 +200,8 @@
   "h": "d206a17ae6711bf0b2c421cddf06bbff83e71aad"
  },
  "public/dog-nutrition/can-dogs-eat-macadamia-nuts/index.html": {
-  "d": "2026-11-06",
-  "h": "dc29d4da2406313efab2b1e8d37f50def0a817dd"
+  "d": "2026-11-08",
+  "h": "d442bb8bd2c9d99661cfab027620e3f8fe8c13c6"
  },
  "public/dog-nutrition/can-dogs-eat-mango/index.html": {
   "d": "2026-11-04",
@@ -288,8 +288,8 @@
   "h": "ee9ff26ca6188db545d88614370a7565ee22fa4b"
  },
  "public/dog-nutrition/can-dogs-eat-xylitol/index.html": {
-  "d": "2026-11-04",
-  "h": "aa189b945353dea15bf78287b0316489c05a0e4b"
+  "d": "2026-11-08",
+  "h": "548c25b5a731157e7126725925ee56755a9efe1a"
  },
  "public/dog-nutrition/can-dogs-eat-yogurt/index.html": {
   "d": "2026-11-07",
@@ -300,8 +300,8 @@
   "h": "db7d90a1b22985fa5c777cd7db653ee7c4a353fc"
  },
  "public/dog-nutrition/foods-toxic-to-dogs/index.html": {
-  "d": "2026-11-06",
-  "h": "cad954ecc84cacb9ddd1d78396a1288b4dbebb3d"
+  "d": "2026-11-08",
+  "h": "68bfaeca98a38eb14adb6f0e938cb8262b843e15"
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
   "d": "2026-11-07",
@@ -329,7 +329,7 @@
  },
  "public/index.html": {
   "d": "2026-11-08",
-  "h": "c67f5c0fd96d312b5d143f3c69e920918dc4441c"
+  "h": "95200f4436744890e3b9694f497ecd670e5e8024"
  },
  "public/privacy/index.html": {
   "d": "2026-10-23",
@@ -354,5 +354,9 @@
  "public/tools/dog-food-calculator/index.html": {
   "d": "2026-11-07",
   "h": "84fb4cff9e77d9e097e9ec664597cc52bc9cf368"
+ },
+ "public/tools/toxic-food-dose-calculator/index.html": {
+  "d": "2026-11-08",
+  "h": "e715e2bac584d73c814c7480f969115611590b0d"
  }
 }

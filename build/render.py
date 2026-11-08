@@ -22,9 +22,10 @@ import hashlib
 import html as _html
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART, TOOL_CHOCO, TOOL_FEED  # noqa
+from articles import SITE_NAME, PILLARS, ARTICLES, HOME, ABOUT, CONTACT, PRIVACY, EDITORIAL, RESOURCES, TOOL, FOOD_CHART, TOOL_CHOCO, TOOL_FEED, TOOL_TOXIN  # noqa
 from choco_tool import CHOCO_BODY  # noqa
 from feed_tool import FEED_BODY  # noqa
+from toxin_tool import TOXIN_BODY  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
@@ -895,6 +896,8 @@ def render_home():
                "chocolate-toxicity-calculator", "TOOL"),
               (TOOL_FEED["url"], TOOL_FEED["title"], TOOL_FEED["description"],
                "dog-food-calculator", "TOOL"),
+              (TOOL_TOXIN["url"], TOOL_TOXIN["title"], TOOL_TOXIN["description"],
+               "toxic-food-dose-calculator", "TOOL"),
               (FOOD_CHART["url"], FOOD_CHART["title"], FOOD_CHART["description"],
                "food-safety-chart", "REFERENCE")]
     for _slug, _kick in (("best-dog-crate", "BUYING GUIDE"),
@@ -1269,6 +1272,24 @@ def render_feed_tool(t):
     return shell(h, t["url"], body)
 
 
+def render_toxin_tool(t):
+    """Fourth tool page: dose per kilogram across the toxic-food cluster.
+
+    Body lives in toxin_tool.py for the same reason as the chocolate and food
+    calculators — markup plus one script, kept out of the build logic.
+    """
+    bc = breadcrumb_jsonld([("Home", "/"), (t["title"], t["url"])])
+    h = head(t["title"], t["description"], t["url"], site_jsonld(), "website",
+             tool_jsonld(t["title"], t["url"], t["description"]), bc)
+    body = TOXIN_BODY.replace(
+        '<div class="wrap narrow">',
+        '<div class="wrap narrow">\n  <div class="crumbs"><a href="/">Home</a> \u203a '
+        'Poisoning dose</div>',
+        1,
+    )
+    return shell(h, t["url"], body)
+
+
 def render_food_chart(fc):
     """The 47-food tiered reference table.
 
@@ -1523,6 +1544,8 @@ def build_sitemap(manifest):
                  "public/%s/index.html" % TOOL_CHOCO["url"].strip("/")))
     urls.append((TOOL_FEED["url"], 0.8, "monthly",
                  "public/%s/index.html" % TOOL_FEED["url"].strip("/")))
+    urls.append((TOOL_TOXIN["url"], 0.8, "monthly",
+                 "public/%s/index.html" % TOOL_TOXIN["url"].strip("/")))
     urls.append((FOOD_CHART["url"], 0.8, "monthly",
                  "public/%s/index.html" % FOOD_CHART["url"].strip("/")))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -1569,6 +1592,8 @@ def render_sitemap():
               TOOL_CHOCO["title"] + '</h3><p>' + TOOL_CHOCO["description"] + '</p></a>')
     cards += ('<a href="' + TOOL_FEED["url"] + '"><div class="k">TOOL</div><h3>' +
               TOOL_FEED["title"] + '</h3><p>' + TOOL_FEED["description"] + '</p></a>')
+    cards += ('<a href="' + TOOL_TOXIN["url"] + '"><div class="k">TOOL</div><h3>' +
+              TOOL_TOXIN["title"] + '</h3><p>' + TOOL_TOXIN["description"] + '</p></a>')
     cards += ('<a href="' + FOOD_CHART["url"] + '"><div class="k">REFERENCE</div><h3>' +
               FOOD_CHART["title"] + '</h3><p>' + FOOD_CHART["description"] + '</p></a>')
     cards += ('<a href="/about/"><div class="k">ABOUT</div><h3>About WagWise Pet</h3><p>' +
@@ -1631,6 +1656,8 @@ def main():
                   render_choco_tool(TOOL_CHOCO)))
     pages.append(("%s/index.html" % TOOL_FEED["url"].strip("/"),
                   render_feed_tool(TOOL_FEED)))
+    pages.append(("%s/index.html" % TOOL_TOXIN["url"].strip("/"),
+                  render_toxin_tool(TOOL_TOXIN)))
     pages.append(("%s/index.html" % FOOD_CHART["url"].strip("/"),
                   render_food_chart(FOOD_CHART)))
 

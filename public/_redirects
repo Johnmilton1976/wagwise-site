@@ -89,6 +89,7 @@
 /tools/chocolate-toxicity-calculator /tools/chocolate-toxicity-calculator/ 301
 /tools/dog-age-calculator /tools/dog-age-calculator/ 301
 /tools/dog-food-calculator /tools/dog-food-calculator/ 301
+/tools/toxic-food-dose-calculator /tools/toxic-food-dose-calculator/ 301
 /about /about/ 301
 /best /best/ 301
 /cat /cat/ 301
@@ -192,4 +193,5 @@
 /tools/chocolate-toxicity-calculator/index.html /tools/chocolate-toxicity-calculator/ 301
 /tools/dog-age-calculator/index.html /tools/dog-age-calculator/ 301
 /tools/dog-food-calculator/index.html /tools/dog-food-calculator/ 301
+/tools/toxic-food-dose-calculator/index.html /tools/toxic-food-dose-calculator/ 301
 # ---- end generated block ----
