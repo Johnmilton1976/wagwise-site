@@ -13,6 +13,20 @@
 # match, so the order below does not change the outcome; it is grouped shallow to
 # deep only so the file stays readable as pages are added.
 
+# ---- /dir -> /dir/ (generated, do not hand-edit) ----
+# 平台默认 307（临时），会把这个变体长期留在抓取队列里，
+# 这就是 GSC「网页会自动重定向」的来源。不能用 /*（会匹配带斜杠请求 -> 死循环）。
+/about /about/ 301
+/best /best/ 301
+/cat /cat/ 301
+/contact /contact/ 301
+/dog-care /dog-care/ 301
+/dog-health /dog-health/ 301
+/dog-nutrition /dog-nutrition/ 301
+/dog-training /dog-training/ 301
+/privacy /privacy/ 301
+/resources /resources/ 301
+/sitemap /sitemap/ 301
 /about/editorial-standards /about/editorial-standards/ 301
 /best/dog-crate /best/dog-crate/ 301
 /best/dog-harness-for-pulling /best/dog-harness-for-pulling/ 301
@@ -90,17 +104,7 @@
 /tools/dog-age-calculator /tools/dog-age-calculator/ 301
 /tools/dog-food-calculator /tools/dog-food-calculator/ 301
 /tools/toxic-food-dose-calculator /tools/toxic-food-dose-calculator/ 301
-/about /about/ 301
-/best /best/ 301
-/cat /cat/ 301
-/contact /contact/ 301
-/dog-care /dog-care/ 301
-/dog-health /dog-health/ 301
-/dog-nutrition /dog-nutrition/ 301
-/dog-training /dog-training/ 301
-/privacy /privacy/ 301
-/resources /resources/ 301
-/sitemap /sitemap/ 301
+# ---- end generated block ----
 
 # ---- /dir/index.html -> /dir/ (generated, do not hand-edit) ----
 # 307 -> 301. Cloudflare's own normalisation is temporary, which keeps
