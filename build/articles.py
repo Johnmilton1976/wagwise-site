@@ -7662,7 +7662,7 @@ FOOD_CHART = {
             "count": 7,
             "intro": "Do not wait for symptoms in this tier. The relevant instruction is a phone call, and the numbers below are what you read out to the vet.",
             "rows": [
-                ("alcohol", "None", "Ethanol depresses the central nervous system faster in dogs than in people, and it hides in rising dough and fallen fruit"),
+                ("alcohol", "None", "Lethal at about 5.5–7.9 g of pure ethanol per kg, and it hides in rising dough and fallen fruit"),
                 ("caffeine", "None", "Mild signs from about 20 mg/kg, serious toxicity near 40–60 mg/kg, roughly 140 mg/kg fatal"),
                 ("chocolate", "None", "A 10 kg dog shows mild signs from 3–4 oz of milk chocolate but under half an ounce of baking chocolate"),
                 ("grapes", "None — grapes and raisins alike", "No safe amount has ever been established; a 5 kg dog and three grapes is the same danger zone as a 30 kg dog and a bunch"),
@@ -7686,7 +7686,7 @@ FOOD_CHART = {
   <tr><td><a href="/dog-nutrition/can-dogs-eat-xylitol/">Xylitol</a></td><td>About 50 mg/kg triggers the insulin crash; around 500 mg/kg risks liver injury</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-macadamia-nuts/">Macadamia nuts</a></td><td>Signs from about 1 g of nut per kg — a couple of nuts for a 10 kg dog</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-caffeine/">Caffeine</a></td><td>Mild signs from about 20 mg/kg, serious toxicity near 40&ndash;60 mg/kg, roughly 140 mg/kg fatal</td></tr>
-  <tr><td><a href="/dog-nutrition/can-dogs-eat-alcohol/">Alcohol</a></td><td>Ethanol depresses the central nervous system faster in dogs, and it hides in rising dough and fallen fruit</td></tr>
+  <tr><td><a href="/dog-nutrition/can-dogs-eat-alcohol/">Alcohol</a></td><td>Lethal at about 5.5&ndash;7.9 g of pure ethanol per kg &mdash; and it hides in rising dough and fallen fruit</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-raw-dough/">Raw bread dough</a></td><td>Live yeast produces ethanol in a warm stomach while the dough expands inside the dog</td></tr>
 </table>
 <p>Every one of those ends in a phone call rather than a portion. If you are reading this because one of them just happened, the numbers above are what the vet will ask for — read them out, then follow the instructions on that food's own page. For the emergency sequence itself — the symptoms that mean poisoning, the first ten minutes, and what not to do — the <a href="/dog-nutrition/foods-toxic-to-dogs/">full toxic-foods list</a> walks through it step by step.</p>

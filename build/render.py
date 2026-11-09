@@ -1392,7 +1392,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
         'a folder. Both print on A4 and carry the source address in the footer.</p>\n'
         '<div class="callout embed-block">'
         '<p style="font-size:12.5px;word-break:break-all">&lt;iframe src="https://wagwise.org'
-        + fc["url"] + '?embed=1" width="100%" height="760" style="border:1px solid #e3e0d8;'
+        + fc["url"] + '?embed=1" width="100%" height="780" style="border:1px solid #e3e0d8;'
         'border-radius:14px" title="Foods dogs can eat: 47-food safety chart"&gt;&lt;/iframe&gt;</p>'
         '<p style="font-size:12.5px;word-break:break-all">&lt;p&gt;Chart by &lt;a href="https://wagwise.org'
         + fc["url"] + '"&gt;WagWise Pet&lt;/a&gt; &mdash; all 47 foods, four risk tiers, '
