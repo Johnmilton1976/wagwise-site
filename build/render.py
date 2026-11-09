@@ -1412,23 +1412,31 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     var t = (td.textContent || '').replace(/\\s+/g, ' ').trim();
     return '"' + t.replace(/"/g, '""') + '"';
   }
+  function q(s){ return '"' + String(s).replace(/"/g, '""') + '"'; }
 
   /* The CSV is generated from the rendered table, not from a second copy of
      the data — one source of truth, so a row edited in articles.py cannot end
-     up different in the download. */
+     up different in the download. Two things it must not do: export the tier
+     legend as though it were a food, and strip the link that shows the working.
+     Every row therefore carries the URL of the page its number came from, so
+     the file still says where it came from after someone else republishes it. */
   document.getElementById('fc-csv').addEventListener('click', function(){
     var heads = [].slice.call(document.querySelectorAll('.doc h2'));
-    var rows = [['Tier', 'Food', 'What is safe', 'The number that matters']];
+    var rows = [['Tier', 'Food', 'What is safe', 'The number that matters', 'Source']];
     [].slice.call(document.querySelectorAll('table.chart-tbl')).forEach(function(tb){
+      var first = tb.rows[0] && tb.rows[0].cells[0];
+      if (first && /^Tier$/i.test(first.textContent.trim())) return;
       var label = '';
       for (var i = 0; i < heads.length; i++){
         if (heads[i].compareDocumentPosition(tb) & 4) label = heads[i].textContent.trim();
       }
+      var short = (label.match(/^Tier\\s*\\d+/i) || [label])[0];
       [].slice.call(tb.rows).forEach(function(tr, idx){
         if (idx === 0) return;
-        var out = [label];
-        [].slice.call(tr.cells).forEach(function(td){ out.push(cell(td)); });
-        rows.push([label].concat([].slice.call(tr.cells).map(cell)));
+        var link = tr.cells[0] && tr.cells[0].querySelector('a');
+        rows.push([short].map(q)
+          .concat([].slice.call(tr.cells).map(cell))
+          .concat([q(link ? link.href : '')]));
       });
     });
     var csv = '\\ufeff' + rows.map(function(r){ return r.join(','); }).join('\\r\\n');
