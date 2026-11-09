@@ -7676,6 +7676,7 @@ FOOD_CHART = {
 <div class="eyebrow">REFERENCE</div>
 <h1>Foods dogs can eat — and the 47 that need a second look</h1>
 <p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>. Here are all 47 foods in four risk tiers, each row carrying the number that decides it.</p>
+<p class="print-credit">wagwise.org/dog-nutrition/food-safety-chart &nbsp;·&nbsp; reviewed 2 November 2026 &nbsp;·&nbsp; general information, not veterinary advice</p>
 
 <h2>The seven with no safe dose — the toxic end of the list</h2>
 <p>Seven of the 47 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>

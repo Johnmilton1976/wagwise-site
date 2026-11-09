@@ -1360,11 +1360,22 @@ html.embed h1{font-size:17px;line-height:1.25;margin:0 0 8px}
 html.embed .doc{max-height:calc(100vh - 118px);overflow:auto;padding-right:8px}
 html.embed .doc>h2:first-of-type{margin-top:4px}
 html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px 0 0}
+/* Screen-only things that would look like an instruction on paper. */
+.print-credit{display:none}
 @media print{
   .site-head,.site-foot,.crumbs,.chart-tools,.embed-block,.embed-credit,.cfc-bar{display:none!important}
   .doc{max-height:none!important;overflow:visible!important}
   tr,td,th{page-break-inside:avoid}
   .doc table{font-size:11px}
+  /* The poster PDF prints its own address in the footer so a photocopy still
+     says where it came from. Printing the page hid the whole site header, so
+     the sheet arrived with no source at all. This puts it back as an ordinary
+     line of the document - a fixed-position footer repeats on every page but
+     also sits on top of whatever text reaches the bottom margin, which is
+     worse than having the credit on page one only. */
+  .print-credit{display:block;font-size:9px;color:#6b6f66;
+    margin:0 0 14px;padding-bottom:6px;border-bottom:1px solid #d8d5cc}
+  a[href]{color:#1E2125;text-decoration:none}
 }
 </style>
 """

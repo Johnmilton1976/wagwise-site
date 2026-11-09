@@ -32,7 +32,7 @@ const PRINT_CSS = `
 
   /* chrome that means nothing on paper */
   .site-head, .site-foot, .crumbs, .eyebrow, .chart-tools, .embed-block,
-  #embed, .embed-credit, .cfc-bar, #fc-csv, #fc-print { display: none !important; }
+  #embed, .embed-credit, .cfc-bar, #fc-csv, #fc-print, .print-credit { display: none !important; }
 
   body { background: #fff !important; color: #1E2125 !important; }
 
@@ -75,7 +75,7 @@ const POSTER_CSS = `
   @page { size: A4; margin: 13mm 13mm 12mm 13mm; }
   body { background: #fff !important; color: #1E2125 !important; }
   .site-head, .site-foot, .crumbs, .eyebrow, .chart-tools, .embed-block,
-  #embed, .embed-credit, .cfc-bar { display: none !important; }
+  #embed, .embed-credit, .cfc-bar, .print-credit { display: none !important; }
 
   #poster { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
   #poster .brand { font-size: 9pt; letter-spacing: .15em; text-transform: uppercase;
