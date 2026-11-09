@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer-core');
 */
 
 const OUT = process.argv[2] || 'public/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf';
-const URL = process.argv[3] || 'http://127.0.0.1:8821/dog-nutrition/food-safety-chart/';
+const URL = process.argv[3] || 'http://127.0.0.1:8831/dog-nutrition/food-safety-chart/';
 
 const PRINT_CSS = `
   @page { size: A4; margin: 14mm 12mm 16mm 12mm; }
@@ -123,11 +123,16 @@ const PRINT_CSS = `
     printBackground: true,
     displayHeaderFooter: true,
     headerTemplate: '<div></div>',
+    // The URL has to sit in the footer, not only in the page-1 header. A printed
+    // sheet gets photocopied, pinned on its own, or handed to one person - and
+    // then the only thing that can lead a reader back to the source is whatever
+    // is printed at the edge of that page.
     footerTemplate:
       '<div style="width:100%;font-size:7.5pt;color:#7a827d;padding:0 12mm;' +
       'font-family:Helvetica,Arial,sans-serif;display:flex;justify-content:space-between">' +
-      '<span>WagWise Pet — general information, not veterinary advice.</span>' +
-      '<span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
+      '<span>wagwise.org/dog-nutrition/food-safety-chart</span>' +
+      '<span>General information, not veterinary advice &nbsp;·&nbsp; ' +
+      '<span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
     margin: { top: '14mm', bottom: '16mm', left: '12mm', right: '12mm' }
   });
 
