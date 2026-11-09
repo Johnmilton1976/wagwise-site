@@ -1341,6 +1341,8 @@ def render_food_chart(fc):
 .chart-tools a.fc-btn:hover{background:#256a50;border-color:#256a50}
 .chart-tools button:hover{background:#EAF5EF}
 .chart-tools a{font-size:13.5px}
+.chart-tools a.fc-line{display:inline-block;padding:9px 14px;border:1px solid #3FA97E;border-radius:9px;color:#2f7a5d;text-decoration:none}
+.chart-tools a.fc-line:hover{background:#EAF5EF}
 .embed-credit{display:none}
 html.embed .site-head,html.embed .site-foot,html.embed .crumbs,html.embed .eyebrow,
 html.embed .lede,html.embed .chart-tools,html.embed .embed-block,html.embed .cfc-bar{display:none!important}
@@ -1369,8 +1371,10 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 
     tools = (
         '<div class="chart-tools">'
-        '<a class="fc-btn" href="' + fc["url"] + 'foods-dogs-can-eat-chart.pdf" download>'
-        'Download the PDF (A4, 6 pages)</a>'
+        '<a class="fc-btn" href="' + fc["url"] + 'toxic-foods-poster-a4.pdf" download>'
+        'One-page poster (A4)</a>'
+        '<a class="fc-line" href="' + fc["url"] + 'foods-dogs-can-eat-chart.pdf" download>'
+        'Full chart (6 pages)</a>'
         '<button id="fc-csv" type="button">Download the data (CSV)</button>'
         '<button id="fc-print" type="button">Print this page</button>'
         '<a href="#embed">Embed this chart</a>'
@@ -1383,6 +1387,9 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
         'The CSV is the source data for the table, and the iframe is the whole widget &mdash; '
         'it sets no cookie and needs no script from us. The table scrolls inside the frame, '
         'so it stays readable on a phone instead of running for three thousand pixels.</p>\n'
+        '<p>For a wall rather than a screen, the buttons at the top of this page download two PDFs: '
+        'a one-page poster with the seven foods that have no safe dose, and the six-page chart for '
+        'a folder. Both print on A4 and carry the source address in the footer.</p>\n'
         '<div class="callout embed-block">'
         '<p style="font-size:12.5px;word-break:break-all">&lt;iframe src="https://wagwise.org'
         + fc["url"] + '?embed=1" width="100%" height="760" style="border:1px solid #e3e0d8;'

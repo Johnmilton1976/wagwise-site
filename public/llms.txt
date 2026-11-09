@@ -28,6 +28,7 @@ Free to read, no signup, no affiliate links. Not affiliated with any veterinary 
 
 - [Food Safety Chart](https://wagwise.org/dog-nutrition/food-safety-chart/): all 47 foods in four risk tiers, each row carrying the dose that decides the case. Plain HTML tables, no script needed to read it.
 - [The same chart as a printable PDF](https://wagwise.org/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf): A4, six pages, column headers repeat across page breaks, footer carries the not-veterinary-advice line. Free to print.
+- [The toxic seven as a one-page poster](https://wagwise.org/dog-nutrition/food-safety-chart/toxic-foods-poster-a4.pdf): one A4 sheet, the seven foods that have no safe dose, each with the dose the vet will ask for. Sized to pin up in a kennel kitchen, a daycare desk or an exam room.
 - CSV export and an iframe embed snippet sit on the chart page. Reuse is allowed with attribution and a link back.
 
 ## Editorial standards

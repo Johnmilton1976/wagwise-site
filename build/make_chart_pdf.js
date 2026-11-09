@@ -12,8 +12,20 @@ const puppeteer = require('puppeteer-core');
    different presentation layer for paper.
 */
 
-const OUT = process.argv[2] || 'public/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf';
-const URL = process.argv[3] || 'http://127.0.0.1:8831/dog-nutrition/food-safety-chart/';
+/* Two products come out of this script.
+
+   Default: the six-page handout, the whole 47-food list. That is the document
+   you email to someone who asked for everything.
+
+   --poster: one A4 page, the seven foods that have no safe dose. A kennel does
+   not pin six pages to a wall - it pins one. The six-page file is also a bad
+   first attachment: it asks the reader to print and collate before it is any
+   use. The poster answers "what goes on the kitchen wall" in one sheet. */
+
+const args = process.argv.slice(2);
+const OUT = args[0] || 'public/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf';
+const URL = args.find(a => a.startsWith('http')) || 'http://127.0.0.1:8831/dog-nutrition/food-safety-chart/';
+const POSTER = args.includes('--poster');
 
 const PRINT_CSS = `
   @page { size: A4; margin: 14mm 12mm 16mm 12mm; }
@@ -57,6 +69,36 @@ const PRINT_CSS = `
 
   /* the FAQ reads fine on paper but should not leave orphan headings */
   .faq-item { page-break-inside: avoid; break-inside: avoid; }
+`;
+
+const POSTER_CSS = `
+  @page { size: A4; margin: 13mm 13mm 12mm 13mm; }
+  body { background: #fff !important; color: #1E2125 !important; }
+  .site-head, .site-foot, .crumbs, .eyebrow, .chart-tools, .embed-block,
+  #embed, .embed-credit, .cfc-bar { display: none !important; }
+
+  #poster { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  #poster .brand { font-size: 9pt; letter-spacing: .15em; text-transform: uppercase;
+                   color: #6a726d; margin: 0 0 16px; font-weight: 600; }
+  #poster h1 { font-size: 35pt !important; line-height: 1.02 !important;
+               margin: 0 0 10px !important; letter-spacing: -.015em !important; }
+  #poster .lead { font-size: 13pt !important; line-height: 1.45 !important;
+                  color: #333b36 !important; margin: 0 0 18px !important; max-width: 172mm; }
+  #poster table { width: 100% !important; border-collapse: collapse !important; margin: 0 0 16px !important; }
+  #poster thead th { background: #1E2125 !important; color: #fff !important;
+                     font-size: 10pt !important; letter-spacing: .05em; text-transform: uppercase;
+                     text-align: left !important; padding: 9px 10px !important; }
+  #poster tbody td { font-size: 12.5pt !important; line-height: 1.42 !important;
+                     padding: 12px 10px !important; border-bottom: 1px solid #d8d5cd !important;
+                     vertical-align: top !important; }
+  #poster tbody td:first-child { font-weight: 700; width: 26% !important; }
+  #poster tr { break-inside: avoid; }
+  #poster .rule { font-size: 13pt !important; line-height: 1.45 !important; font-weight: 600;
+                  border-left: 5px solid #8a2b1e; background: #faf6f4;
+                  padding: 12px 15px !important; margin: 0 0 16px !important; }
+  #poster .meta { font-size: 9pt !important; line-height: 1.5 !important;
+                  color: #6a726d !important; border-top: 1px solid #d8d5cd;
+                  padding-top: 10px; margin: 0 !important; }
 `;
 
 (async () => {
@@ -109,7 +151,53 @@ const PRINT_CSS = `
     return n;
   });
 
-  await page.addStyleTag({ content: PRINT_CSS });
+  if (POSTER) {
+    /* Rebuild the page as a single sheet rather than re-typesetting the
+       article. The table is cloned from the live DOM, so the numbers on the
+       poster are the same numbers as on the page - a poster with its own copy
+       of the data would drift within a month. */
+    await page.evaluate(() => {
+      const table = document.querySelector('table');
+      if (!table) throw new Error('no table found on the chart page');
+      const clone = table.cloneNode(true);
+
+      /* An instruction that only works with a mouse. The chocolate row ends
+         "run the dose for your own dog's weight", where "run the dose" is a
+         link to the weight-based calculator - on paper that sentence tells the
+         reader to do something the sheet cannot do. Drop the clause rather
+         than reword the table, so the numbers stay byte-identical to the page. */
+      clone.querySelectorAll('tbody tr').forEach(tr => {
+        const cell = tr.cells[tr.cells.length - 1];
+        // the anchor is only the words "run the dose"; "for your own dog's
+        // weight" trails outside it, so cut from the dash to the end of the cell
+        if (cell) cell.innerHTML = cell.innerHTML.replace(/\s*[—-]\s*(?:<a[^>]*>)?\s*run the dose[\s\S]*$/i, '');
+      });
+
+      const holder = document.createElement('div');
+      holder.id = 'poster';
+      holder.innerHTML =
+        '<p class="brand">WagWise Pet &nbsp;·&nbsp; print and pin up: kennel kitchen, daycare desk, clinic exam room</p>' +
+        '<h1>Seven foods with no safe dose</h1>' +
+        '<p class="lead">Most food charts split the world into safe and toxic. These seven are a third thing: ' +
+        'there is no amount that can be called safe, so the answer is never a portion — it is a phone call. ' +
+        'The right-hand column is what the vet will ask for.</p>';
+      holder.appendChild(clone);
+
+      const tail = document.createElement('div');
+      tail.innerHTML =
+        '<p class="rule">Remove the food. Keep the packaging. Call your vet or the nearest emergency clinic, ' +
+        'and have the dog\'s weight and roughly how much was eaten ready. Do not make the dog vomit unless a vet tells you to.</p>' +
+        '<p class="meta">The full chart — 47 foods in four risk tiers, one dose per row — is at ' +
+        '<b>wagwise.org/dog-nutrition/food-safety-chart</b>. Figures checked against the references listed on that page, ' +
+        '2 November 2026, and re-checked when a source changes. General information, not veterinary advice.</p>';
+      holder.appendChild(tail);
+
+      document.body.innerHTML = '';
+      document.body.appendChild(holder);
+    });
+  }
+
+  await page.addStyleTag({ content: POSTER ? POSTER_CSS : PRINT_CSS });
 
   const stats = await page.evaluate(() => ({
     tables: document.querySelectorAll('table').length,
@@ -123,17 +211,24 @@ const PRINT_CSS = `
     printBackground: true,
     displayHeaderFooter: true,
     headerTemplate: '<div></div>',
-    // The URL has to sit in the footer, not only in the page-1 header. A printed
-    // sheet gets photocopied, pinned on its own, or handed to one person - and
-    // then the only thing that can lead a reader back to the source is whatever
-    // is printed at the edge of that page.
-    footerTemplate:
-      '<div style="width:100%;font-size:7.5pt;color:#7a827d;padding:0 12mm;' +
-      'font-family:Helvetica,Arial,sans-serif;display:flex;justify-content:space-between">' +
-      '<span>wagwise.org/dog-nutrition/food-safety-chart</span>' +
-      '<span>General information, not veterinary advice &nbsp;·&nbsp; ' +
-      '<span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
-    margin: { top: '14mm', bottom: '16mm', left: '12mm', right: '12mm' }
+    /* The URL goes in the footer, not only in the page-1 header: a printed
+       sheet gets photocopied, pinned on its own, or handed to one person, and
+       then whatever is printed at the edge is the only route back to source. */
+    footerTemplate: POSTER
+      // a one-page poster has no page count to show, and the meta line already
+      // carries the URL - so the footer stays a single quiet rule
+      ? '<div style="width:100%;font-size:7.5pt;color:#8a8f8b;padding:0 13mm;' +
+        'font-family:Helvetica,Arial,sans-serif;display:flex;justify-content:space-between">' +
+        '<span>wagwise.org/dog-nutrition/food-safety-chart</span>' +
+        '<span>General information, not veterinary advice</span></div>'
+      : '<div style="width:100%;font-size:7.5pt;color:#7a827d;padding:0 12mm;' +
+        'font-family:Helvetica,Arial,sans-serif;display:flex;justify-content:space-between">' +
+        '<span>wagwise.org/dog-nutrition/food-safety-chart</span>' +
+        '<span>General information, not veterinary advice &nbsp;·&nbsp; ' +
+        '<span class="pageNumber"></span> / <span class="totalPages"></span></span></div>',
+    margin: POSTER
+      ? { top: '13mm', bottom: '12mm', left: '13mm', right: '13mm' }
+      : { top: '14mm', bottom: '16mm', left: '12mm', right: '12mm' }
   });
 
   console.log(JSON.stringify({ ...stats, theadWrapped: wrapped }));
