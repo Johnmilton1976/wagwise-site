@@ -7680,7 +7680,7 @@ FOOD_CHART = {
 <h2>The seven with no safe dose — the toxic end of the list</h2>
 <p>Seven of the 47 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>
 <table>
-  <tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr></thead>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Chocolate</a></td><td>A 10 kg dog shows mild signs from 3&ndash;4 oz of milk chocolate, and from under half an ounce of baking chocolate — <a href="/tools/chocolate-toxicity-calculator/">run the dose</a> for your own dog's weight</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-grapes/">Grapes and raisins</a></td><td>No threshold has ever been established — three grapes in a 5 kg dog is treated as seriously as a bunch in a 30 kg dog</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-xylitol/">Xylitol</a></td><td>About 50 mg/kg triggers the insulin crash; around 500 mg/kg risks liver injury</td></tr>
@@ -7701,7 +7701,7 @@ FOOD_CHART = {
 
 <h2>The four tiers</h2>
 <table class="chart-tbl">
-  <tr><th style="text-align:left">Tier</th><th style="text-align:left">Name</th><th style="text-align:left">What it means</th></tr>
+<thead><tr><th style="text-align:left">Tier</th><th style="text-align:left">Name</th><th style="text-align:left">What it means</th></tr></thead>
   <tr><td><strong>Tier 1</strong></td><td>Everyday</td><td>Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size.</td></tr>
   <tr><td><strong>Tier 2</strong></td><td>A ceiling</td><td>Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer.</td></tr>
   <tr><td><strong>Tier 3</strong></td><td>One part is the problem</td><td>The flesh is fine and something attached to it is not — a pit, a cob, a skin, a green stage, a mould. This is the tier people misread most often.</td></tr>
@@ -7758,7 +7758,7 @@ PILLAR_BODY["dog-care"] = """
 <h2>What routine care actually looks like</h2>
 <p>Dogs do not complain about the things that are done to them weekly, which is exactly why routine care slips. The list is short, and almost all of it takes less time than a walk.</p>
 <table>
-  <tr><th style="text-align:left">Task</th><th style="text-align:left">How often</th><th style="text-align:left">Why it matters</th></tr>
+<thead><tr><th style="text-align:left">Task</th><th style="text-align:left">How often</th><th style="text-align:left">Why it matters</th></tr></thead>
   <tr><td>Brushing teeth</td><td>Daily, or at least every other day</td><td>Plaque hardens into tartar within 48 hours; most dogs over three have some periodontal disease</td></tr>
   <tr><td>Body check by hand</td><td>Weekly</td><td>Lumps, sore spots and hot ears are found by touch long before they are found by eye</td></tr>
   <tr><td>Ear check</td><td>Weekly for floppy-eared breeds</td><td>A smell or dark discharge is the first sign of infection, and it is treatable at that stage</td></tr>
@@ -7775,7 +7775,7 @@ PILLAR_BODY["dog-care"] = """
 
 <h2>Care by life stage</h2>
 <table>
-  <tr><th style="text-align:left">Stage</th><th style="text-align:left">What moves to the front</th><th style="text-align:left">Vet rhythm</th></tr>
+<thead><tr><th style="text-align:left">Stage</th><th style="text-align:left">What moves to the front</th><th style="text-align:left">Vet rhythm</th></tr></thead>
   <tr><td>Puppy (under 12 months)</td><td>Handling practice, teeth habit, nails while they are still small enough to hold</td><td>Vaccination course, then monthly weigh-ins</td></tr>
   <tr><td>Adult (1–7 years)</td><td>Weight maintenance, dental care, coat and ear routine</td><td>Annual check, dental check every visit</td></tr>
   <tr><td>Senior (7 years and up)</td><td>Joint comfort, softer bedding, shorter and more frequent walks</td><td>Every six months, with bloodwork</td></tr>
@@ -7795,7 +7795,7 @@ PILLAR_BODY["dog-training"] = """
 <h2>One behaviour at a time</h2>
 <p>Most training goes wrong by trying to fix three things at once. Cut every skill into its smallest version, get that reliable in a quiet room, then add one variable at a time — distance, duration, or distraction, never two together.</p>
 <table>
-  <tr><th style="text-align:left">Skill</th><th style="text-align:left">First version</th><th style="text-align:left">Then add</th></tr>
+<thead><tr><th style="text-align:left">Skill</th><th style="text-align:left">First version</th><th style="text-align:left">Then add</th></tr></thead>
   <tr><td>Recall</td><td>Two steps away, indoors, no distraction</td><td>Distance, then a garden, then a park on a long line</td></tr>
   <tr><td>Settle</td><td>Ten seconds on a mat while you stand still</td><td>Duration, then you moving, then visitors</td></tr>
   <tr><td>Loose lead</td><td>Five steps in the hallway with no tension</td><td>Front door, then pavement, then other dogs at a distance</td></tr>
@@ -7822,7 +7822,7 @@ PILLAR_BODY["dog-health"] = """
 <h2>Three questions that sort any symptom</h2>
 <p>Owners usually want a diagnosis. What they actually need at 11pm is a triage decision, and that comes from three questions: is the dog breathing normally, is it responsive and steady on its feet, and is there blood or a distended belly. If any answer is wrong, it is a now problem regardless of what else is going on.</p>
 <table>
-  <tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">How fast to act</th></tr>
+<thead><tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">How fast to act</th></tr></thead>
   <tr><td>Difficulty breathing, blue or pale gums, collapse, seizure, bloated and unproductive retching</td><td><b>Emergency now</b> — call the vet while you are on the way</td></tr>
   <tr><td>Repeated vomiting, blood in stool or vomit, straining to urinate, eye injury, suspected poisoning</td><td><b>Today</b> — same-day appointment</td></tr>
   <tr><td>Soft stool for a day, mild limping, occasional reverse sneeze, one episode of vomiting with normal energy after</td><td><b>Watch 24–48 hours</b>, with a note of what changed</td></tr>
@@ -7831,7 +7831,7 @@ PILLAR_BODY["dog-health"] = """
 
 <h2>Normal values worth knowing by heart</h2>
 <table>
-  <tr><th style="text-align:left">Measure</th><th style="text-align:left">Normal range for an adult dog</th></tr>
+<thead><tr><th style="text-align:left">Measure</th><th style="text-align:left">Normal range for an adult dog</th></tr></thead>
   <tr><td>Body temperature</td><td>38.0–39.2 °C (101–102.5 °F)</td></tr>
   <tr><td>Resting breathing rate</td><td>10–30 breaths per minute</td></tr>
   <tr><td>Heart rate</td><td>Small breeds 120–160, medium 70–120, large 60–100 bpm</td></tr>
@@ -7855,7 +7855,7 @@ PILLAR_BODY["cat"] = """
 
 <h2>The three complaints behind most cat questions</h2>
 <table>
-  <tr><th style="text-align:left">Problem</th><th style="text-align:left">Most common real cause</th><th style="text-align:left">First step</th></tr>
+<thead><tr><th style="text-align:left">Problem</th><th style="text-align:left">Most common real cause</th><th style="text-align:left">First step</th></tr></thead>
   <tr><td>Peeing outside the box</td><td>Medical, in a large share of cases — cystitis, crystals, arthritis making the box painful to climb into</td><td>Vet visit before behaviour work; a urine sample is the cheapest test you will run</td></tr>
   <tr><td>Scratching furniture</td><td>No acceptable scratching surface in the right place, or one that moves</td><td>A sturdy vertical post next to the scratched object, not in another room</td></tr>
   <tr><td>Meowing at night</td><td>Unspent energy, hunger timing, or a medical cause in older cats</td><td>Play-and-feed sequence before bed; bloodwork if the cat is over ten</td></tr>
@@ -7876,7 +7876,7 @@ PILLAR_BODY["cat"] = """
 <h2>Which guide answers your question</h2>
 <p>Nine guides cover this section. Match the complaint to the guide rather than reading them in order — the cat in front of you has one problem, not nine.</p>
 <table>
-  <tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">Go here</th></tr>
+<thead><tr><th style="text-align:left">What you are seeing</th><th style="text-align:left">Go here</th></tr></thead>
   <tr><td>A new cat, no idea where to start</td><td><a href="/cat/cat-litter-training/">Litter box training from day one</a></td></tr>
   <tr><td>Peeing or pooing outside a box that used to work</td><td><a href="/cat/cat-not-using-litter-box/">Why cats stop using the litter box</a> — vet first, behaviour second</td></tr>
   <tr><td>Vertical spray marks on walls, doors or furniture</td><td><a href="/cat/cat-spraying-how-to-stop/">How to stop a cat spraying indoors</a></td></tr>
@@ -7896,7 +7896,7 @@ PILLAR_BODY["best"] = """
 
 <h2>What we check before recommending anything</h2>
 <table>
-  <tr><th style="text-align:left">Category</th><th style="text-align:left">What decides it</th></tr>
+<thead><tr><th style="text-align:left">Category</th><th style="text-align:left">What decides it</th></tr></thead>
   <tr><td>Fit</td><td>Measured dimensions against the dog, with growth allowance; harnesses checked at chest rather than neck</td></tr>
   <tr><td>Construction</td><td>Bar spacing and gauge, weld quality, latch type, whether the frame can be bent by a determined dog</td></tr>
   <tr><td>Safety failure modes</td><td>What happens when it breaks — a crate latch that pops open, a harness strap that loosens under load, a collar that can be backed out of</td></tr>

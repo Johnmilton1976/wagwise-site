@@ -384,7 +384,7 @@ def head(title, desc, url_path, jsonld, og_type="article", article_jsonld=None,
         '<meta name="twitter:description" content="%s">\n'
         '<meta name="twitter:image" content="%s">\n'
         '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">\n'
-        '<link rel="stylesheet" href="/assets/style.css?v=9">\n'
+        '<link rel="stylesheet" href="/assets/style.css?v=10">\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         '<script type="application/ld+json">\n%s\n</script>\n'
         "%s"
@@ -1312,9 +1312,9 @@ def render_food_chart(fc):
         )
         tiers += (
             '<h2 id="tier-%d">%s</h2>\n<p>%s</p>\n<table class="chart-tbl">\n'
-            '<tr><th style="text-align:left">Food</th>'
+            '<thead><tr><th style="text-align:left">Food</th>'
             '<th style="text-align:left">What is safe</th>'
-            '<th style="text-align:left">The number that matters</th></tr>\n'
+            '<th style="text-align:left">The number that matters</th></tr></thead>\n'
             '%s</table>\n\n' % (i, tier["label"], tier["intro"], rows)
         )
 
@@ -1336,7 +1336,9 @@ def render_food_chart(fc):
     style = """
 <style>
 .chart-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 4px}
-.chart-tools button{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools button,.chart-tools a.fc-btn{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools a.fc-btn{background:#2f7a5d;border-color:#2f7a5d;color:#fff;text-decoration:none}
+.chart-tools a.fc-btn:hover{background:#256a50;border-color:#256a50}
 .chart-tools button:hover{background:#EAF5EF}
 .chart-tools a{font-size:13.5px}
 .embed-credit{display:none}
@@ -1367,8 +1369,10 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 
     tools = (
         '<div class="chart-tools">'
-        '<button id="fc-csv" type="button">Download the chart (CSV)</button>'
-        '<button id="fc-print" type="button">Print or save as PDF</button>'
+        '<a class="fc-btn" href="' + fc["url"] + 'foods-dogs-can-eat-chart.pdf" download>'
+        'Download the PDF (A4, 6 pages)</a>'
+        '<button id="fc-csv" type="button">Download the data (CSV)</button>'
+        '<button id="fc-print" type="button">Print this page</button>'
         '<a href="#embed">Embed this chart</a>'
         '</div>\n'
     )

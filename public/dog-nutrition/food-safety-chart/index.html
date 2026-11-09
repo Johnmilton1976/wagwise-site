@@ -20,7 +20,7 @@
 <meta name="twitter:description" content="The foods dogs can eat, and the ones that only look safe: 47 rows in four risk tiers, each with the dose that decides the case and the number behind it.">
 <meta name="twitter:image" content="https://wagwise.org/assets/og-image-wagwise.png">
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-<link rel="stylesheet" href="/assets/style.css?v=9">
+<link rel="stylesheet" href="/assets/style.css?v=10">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,7 +87,9 @@
 
 <style>
 .chart-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 4px}
-.chart-tools button{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools button,.chart-tools a.fc-btn{font:inherit;font-size:13.5px;padding:9px 14px;border:1px solid #3FA97E;background:#fff;color:#2f7a5d;border-radius:9px;cursor:pointer}
+.chart-tools a.fc-btn{background:#2f7a5d;border-color:#2f7a5d;color:#fff;text-decoration:none}
+.chart-tools a.fc-btn:hover{background:#256a50;border-color:#256a50}
 .chart-tools button:hover{background:#EAF5EF}
 .chart-tools a{font-size:13.5px}
 .embed-credit{display:none}
@@ -115,7 +117,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 }
 </style>
   <div class="crumbs"><a href="/">Home</a> › <a href="/dog-nutrition/">Dog nutrition</a> › Food safety chart</div>
-<div class="chart-tools"><button id="fc-csv" type="button">Download the chart (CSV)</button><button id="fc-print" type="button">Print or save as PDF</button><a href="#embed">Embed this chart</a></div>
+<div class="chart-tools"><a class="fc-btn" href="/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf" download>Download the PDF (A4, 6 pages)</a><button id="fc-csv" type="button">Download the data (CSV)</button><button id="fc-print" type="button">Print this page</button><a href="#embed">Embed this chart</a></div>
 <div class="doc">
 
 <div class="eyebrow">REFERENCE</div>
@@ -125,7 +127,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 <h2>The seven with no safe dose — the toxic end of the list</h2>
 <p>Seven of the 47 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>
 <table>
-  <tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr></thead>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Chocolate</a></td><td>A 10 kg dog shows mild signs from 3&ndash;4 oz of milk chocolate, and from under half an ounce of baking chocolate — <a href="/tools/chocolate-toxicity-calculator/">run the dose</a> for your own dog's weight</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-grapes/">Grapes and raisins</a></td><td>No threshold has ever been established — three grapes in a 5 kg dog is treated as seriously as a bunch in a 30 kg dog</td></tr>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-xylitol/">Xylitol</a></td><td>About 50 mg/kg triggers the insulin crash; around 500 mg/kg risks liver injury</td></tr>
@@ -146,7 +148,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 
 <h2>The four tiers</h2>
 <table class="chart-tbl">
-  <tr><th style="text-align:left">Tier</th><th style="text-align:left">Name</th><th style="text-align:left">What it means</th></tr>
+<thead><tr><th style="text-align:left">Tier</th><th style="text-align:left">Name</th><th style="text-align:left">What it means</th></tr></thead>
   <tr><td><strong>Tier 1</strong></td><td>Everyday</td><td>Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size.</td></tr>
   <tr><td><strong>Tier 2</strong></td><td>A ceiling</td><td>Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer.</td></tr>
   <tr><td><strong>Tier 3</strong></td><td>One part is the problem</td><td>The flesh is fine and something attached to it is not — a pit, a cob, a skin, a green stage, a mould. This is the tier people misread most often.</td></tr>
@@ -166,7 +168,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 <h2 id="tier-1">Tier 1 — Safe as an everyday treat</h2>
 <p>These are the foods a vet will not sigh about. All of them still live inside the 10% rule below — a treat budget is a budget, not an exemption.</p>
 <table class="chart-tbl">
-<tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr></thead>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-chicken/">Can dogs eat chicken?</a></td><td>Plain, cooked, boneless, skinless</td><td>The default bland-diet protein; keep toppers under 10% of daily calories</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-eggs/">Can dogs eat eggs?</a></td><td>Fully cooked, no shell</td><td>About 70 kcal and 6 g protein per large egg</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-rice/">Can dogs eat rice?</a></td><td>Plain white, cooked, no salt or butter</td><td>About 205 kcal per cooked cup</td></tr>
@@ -186,7 +188,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 <h2 id="tier-2">Tier 2 — Safe, with a ceiling</h2>
 <p>Every food in this tier is fine in a small amount and unhelpful in a large one. The ceilings below are the actual reason these foods show up in vet visits: not toxicity, arithmetic.</p>
 <table class="chart-tbl">
-<tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr></thead>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-apples/">Can dogs eat apples?</a></td><td>Flesh only — no core, no seeds</td><td>About 50 kcal per 100 g; 2–3 thin slices for a dog under 5 kg</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-bananas/">Can dogs eat bananas?</a></td><td>Peeled flesh</td><td>One 1 cm slice per 5 kg of body weight</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-mango/">Can dogs eat mango?</a></td><td>Flesh only, no skin, no pit</td><td>About 50 kcal and 11 g sugar per 83 g</td></tr>
@@ -206,7 +208,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 <h2 id="tier-3">Tier 3 — The flesh is fine, one part is not</h2>
 <p>This is the tier that causes the most unnecessary panic and the most unnecessary vet bills, in roughly equal measure. In every case the answer depends on which part the dog got, not on the food itself.</p>
 <table class="chart-tbl">
-<tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr></thead>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-almonds/">Can dogs eat almonds?</a></td><td>Sweet almonds, a few, never whole for a small dog</td><td>Sweet and bitter almonds differ about fifty-fold in cyanide; 5–20 bitter almonds can kill a 10 kg dog</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-avocado/">Can dogs eat avocado?</a></td><td>Flesh only — no pit, no skin</td><td>About 15% fat; half a medium avocado is roughly 160 kcal</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-cherries/">Can dogs eat cherries?</a></td><td>Flesh only, pitted</td><td>The pit is a physical obstruction first and a cyanide source second; wilted leaves are worse than the fruit</td></tr>
@@ -224,7 +226,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
 <h2 id="tier-4">Tier 4 — No established safe dose</h2>
 <p>Do not wait for symptoms in this tier. The relevant instruction is a phone call, and the numbers below are what you read out to the vet.</p>
 <table class="chart-tbl">
-<tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr>
+<thead><tr><th style="text-align:left">Food</th><th style="text-align:left">What is safe</th><th style="text-align:left">The number that matters</th></tr></thead>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-alcohol/">Can dogs eat alcohol?</a></td><td>None</td><td>Ethanol depresses the central nervous system faster in dogs than in people, and it hides in rising dough and fallen fruit</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-caffeine/">Can dogs eat caffeine?</a></td><td>None</td><td>Mild signs from about 20 mg/kg, serious toxicity near 40–60 mg/kg, roughly 140 mg/kg fatal</td></tr>
 <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Can dogs eat chocolate?</a></td><td>None</td><td>A 10 kg dog shows mild signs from 3–4 oz of milk chocolate but under half an ounce of baking chocolate</td></tr>

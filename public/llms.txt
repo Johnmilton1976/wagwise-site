@@ -24,6 +24,12 @@ Free to read, no signup, no affiliate links. Not affiliated with any veterinary 
 - [Chocolate Toxicity Calculator](https://wagwise.org/tools/chocolate-toxicity-calculator/): theobromine dose per kilogram by chocolate type
 - [Dog Food Calculator](https://wagwise.org/tools/dog-food-calculator/): grams per day from weight and label kcal, with the individual range
 
+## Reusable reference assets
+
+- [Food Safety Chart](https://wagwise.org/dog-nutrition/food-safety-chart/): all 47 foods in four risk tiers, each row carrying the dose that decides the case. Plain HTML tables, no script needed to read it.
+- [The same chart as a printable PDF](https://wagwise.org/dog-nutrition/food-safety-chart/foods-dogs-can-eat-chart.pdf): A4, six pages, column headers repeat across page breaks, footer carries the not-veterinary-advice line. Free to print.
+- CSV export and an iframe embed snippet sit on the chart page. Reuse is allowed with attribution and a link back.
+
 ## Editorial standards
 
 - [Editorial Standards](https://wagwise.org/about/editorial-standards/): sourcing rules, update policy, checked dates
