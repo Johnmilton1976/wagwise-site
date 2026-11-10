@@ -81,7 +81,7 @@ PILLARS = {
             "can-dogs-eat-sweet-potato", "can-dogs-eat-rice",
             "can-dogs-eat-cucumber", "can-dogs-eat-broccoli",
             "can-dogs-eat-green-beans", "can-dogs-eat-pineapple",
-            "can-dogs-eat-mango", "can-dogs-eat-potato",
+            "can-dogs-eat-mango", "can-dogs-eat-oranges", "can-dogs-eat-potato",
             "can-dogs-eat-spinach", "can-dogs-eat-tomato",
             "can-dogs-eat-bread", "can-dogs-eat-popcorn",
             "can-dogs-eat-honey", "can-dogs-eat-yogurt",
@@ -5184,6 +5184,92 @@ ARTICLES = [
             "The canine nutrition specialists at the Cornell Riney Canine Health Center",
         ],
         "checked": "2026-10-24",
+        "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
+    },
+    {
+        "slug": "can-dogs-eat-oranges",
+        "pillar": "dog-nutrition",
+        "title": "Can Dogs Eat Oranges? Yes — Peeled, Seeded, by Weight",
+        "url": "/dog-nutrition/can-dogs-eat-oranges/",
+        "description": "Peeled, seeded orange flesh is a safe low-calorie dog treat. The vitamin C is pointless for dogs, and the peel and seeds carry oils you should keep away.",
+        "lede": "Yes — peeled, seeded orange flesh is a safe, hydrating treat in small amounts. The vitamin C is a bonus dogs do not need, and the peel, pith and seeds are the part to keep well away.",
+        "eyebrow": "DOG NUTRITION",
+        "body": """
+        <h2>Are oranges good for dogs?</h2>
+        <p>The peeled, seeded flesh is safe for dogs in small amounts — the <a href="/dog-nutrition/foods-toxic-to-dogs/">ASPCA</a> lists citrus <em>fruit</em> as edible while warning about the plant material, and the American Kennel Club says oranges are "not toxic for dogs." The part worth slowing down for is not the flesh at all. Oranges are sugary, and the real hazard sits in the peel and seeds that most people hand over without thinking.</p>
+
+        <h2>The vitamin C point — the bit almost every site gets wrong</h2>
+        <p>Every "oranges are healthy for dogs" post leads with vitamin C. For dogs, that is a non-fact. The <a href="https://www.merckvetmanual.com/">Merck Veterinary Manual</a> is explicit: dogs and cats synthesize their own vitamin C in the liver and have <strong>no dietary requirement for it</strong>. So the 53 mg in a 100 g orange is a minor bonus at best, not a reason to feed oranges — and a reason never to buy a "vitamin C" dog treat.</p>
+        <div class="callout">Orange flesh is a palatable, low-calorie snack. It is not a supplement, and it is not medicine. Treat it like a piece of apple, not like a multivitamin.</div>
+
+        <h2>What is actually in an orange</h2>
+        <p>For scale, here is roughly what is in 100 g of raw orange (USDA FoodData Central):</p>
+        <table>
+          <tr><th style="text-align:left">Per 100 g</th><th style="text-align:left">Amount</th></tr>
+          <tr><td>Calories</td><td>~47 kcal</td></tr>
+          <tr><td>Water</td><td>~87%</td></tr>
+          <tr><td>Sugar (natural)</td><td>~9 g</td></tr>
+          <tr><td>Fiber</td><td>~2.4 g</td></tr>
+          <tr><td>Vitamin C</td><td>~53 mg (dogs make their own — moot)</td></tr>
+          <tr><td>Potassium</td><td>~180 mg</td></tr>
+        </table>
+        <p>The water and fiber are the genuinely useful parts. The sugar is the reason to keep portions small, and the vitamin C is the reason not to make a fuss about it.</p>
+
+        <h2>The part to keep away: peel, pith, seeds</h2>
+        <p>This is where oranges differ from a benign treat. The peel, the white pith, and the seeds carry <strong>d-limonene, linalool and psoralens</strong> — the same essential oils and phototoxic compounds the ASPCA flags across the citrus family. In small amounts (a dog that licks a bit of peel) this means little more than a stomach upset. In larger amounts, concentrated citrus oil can cause vomiting, diarrhoea and, in the worst cases, central-nervous-system depression.</p>
+        <div class="callout warn">Orange peel is not a fast poison, but it is the one part worth keeping away. It is also tough, hard to digest, and a known cause of intestinal blockage — so always peel completely, scrape off the pith, and remove every seed.</div>
+
+        <h2>How much orange can a dog have?</h2>
+        <p>Treats of any kind should stay under about 10% of a dog's daily calories — a rule the Merck Veterinary Manual states plainly. By body weight, a safe starting amount of peeled, seeded flesh:</p>
+        <table>
+          <thead><tr><th>Dog weight</th><th>Segments</th><th>Calories</th></tr></thead>
+          <tbody>
+            <tr><td>Under 5 kg (toy)</td><td>1/2 segment</td><td>~3</td></tr>
+            <tr><td>5–10 kg (small)</td><td>1 segment</td><td>~6</td></tr>
+            <tr><td>10–23 kg (medium)</td><td>1–2 segments</td><td>~9</td></tr>
+            <tr><td>23–41 kg (large)</td><td>2 segments</td><td>~12</td></tr>
+            <tr><td>Over 41 kg (giant)</td><td>up to 3 segments</td><td>~15</td></tr>
+          </tbody>
+        </table>
+        <p>These are maximum amounts, not a daily target. Start with half the listed portion the first time, and watch for loose stool over the next 24 hours — the sugar and acid are what cause it.</p>
+
+        <h2>Orange juice, and diabetic or overweight dogs</h2>
+        <p>Juice removes the fiber and concentrates the sugar: a cup of orange juice carries about 21 g of sugar, versus ~9 g in the same weight of whole fruit. It is a poor choice for dogs — water is all they need to drink. Diabetic and overweight dogs should skip oranges entirely, or get a vet's OK first, because the natural sugar still counts.</p>
+
+        <h2>Mandarins, clementines and tangerines</h2>
+        <p>Same rules: peeled, seeded, small amounts. They are slightly sweeter, so keep portions a touch smaller and skip them for diabetic or overweight dogs. Avoid canned segments in syrup, which pile on added sugar.</p>
+
+        <h2>What if my dog ate the peel?</h2>
+        <p>A small nibble of peel is usually nothing more than a wait-and-see belly. Watch for vomiting, diarrhoea or lethargy over the next few hours, keep water available, and call a vet if signs appear or a large amount was eaten — especially for a small dog. Keep concentrated citrus essential oils, and any citrus-scented cleaner, well away from pets entirely. See <a href="/dog-nutrition/foods-toxic-to-dogs/">the toxic foods list</a> for the full picture, and our <a href="/dog-nutrition/how-much-to-feed-my-dog/">feeding guide</a> for portion basics.</p>
+        """,
+        "faq": [
+            ("Can dogs eat oranges?", "Yes — peeled, seeded flesh is safe in small amounts. The fruit is edible; the peel, pith and seeds are the part to avoid."),
+            ("Are oranges good for dogs because of vitamin C?", "No. The Merck Veterinary Manual states dogs synthesize their own vitamin C and have no dietary need for it. The vitamin C in an orange is a non-factor for dogs."),
+            ("Can dogs eat orange peel?", "No. The peel holds d-limonene and psoralens that irritate the gut, and it is hard to digest and can block the intestine. Always peel completely."),
+            ("Can dogs eat orange seeds?", "No — remove them. They are a choking item and carry the same oils as the peel."),
+            ("How much orange can a dog eat?", "Keep treats under 10% of daily calories: half a segment for a toy dog, 1–2 segments for a medium dog, up to 3 for a giant. Start small the first time."),
+            ("Can dogs drink orange juice?", "Not a good idea. Juice concentrates the sugar and loses the fiber; a cup has about 21 g of sugar. Water is enough."),
+            ("Can diabetic dogs eat oranges?", "Best avoided because of the natural sugar, or cleared with a vet first."),
+            ("Are mandarins and tangerines safe for dogs?", "Yes, peeled and seeded in small amounts — same rules as oranges, just a little sweeter."),
+        ],
+        "related": ["can-dogs-eat-apples", "can-dogs-eat-mango", "foods-toxic-to-dogs", "how-much-to-feed-my-dog"],
+        "sources": [
+            ("ASPCA Animal Poison Control — People Foods to Avoid Feeding Your Pets",
+             "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"),
+            ("Merck Veterinary Manual — Vitamin C and Food Hazards",
+             "https://www.merckvetmanual.com/"),
+            ("Cornell Riney Canine Health Center — Canine Health Information",
+             "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
+            ("USDA FoodData Central — Raw Orange",
+             "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169097/nutrients"),
+            ("American Kennel Club — Can Dogs Eat Oranges?",
+             "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-oranges/"),
+        ],
+        "experts": [
+            "The veterinarians of the ASPCA Animal Poison Control Center",
+            "The canine nutrition specialists at the Cornell Riney Canine Health Center",
+        ],
+        "checked": "2026-11-10",
         "disclaimer": "Nutrition information only; not a substitute for veterinary dietary advice, especially for dogs with health conditions.",
     },
     {

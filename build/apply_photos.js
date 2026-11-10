@@ -49,7 +49,8 @@ const MAP = {
   "can-dogs-eat-peanut-butter":        "pexels-vikram-aditya-213772137-31486083.jpg",  // 两只狗碰鼻
   "can-dogs-eat-strawberries":         "pexels-guvo59-29060983.jpg",                   // 毯子上两只狗（第 3 批 2026-10-16 补）
   "can-dogs-eat-watermelon":           "pexels-rick-josey-130171209-12474970.jpg",     // 沙地奔跑的两只狗
-  // 备用（未上站，留作未来新文章/支柱配图）：brixiv-8606146 / sudhirsangwan-34762859 / thejourneyofframes-31446330
+  "can-dogs-eat-oranges":              "pexels-thejourneyofframes-31446330.jpg",       // 草地双狗（明亮温暖，2026-11-10 补）
+  // 备用（未上站，留作未来新文章/支柱配图）：brixiv-8606146 / sudhirsangwan-34762859
   // 另有 2 张猫图备用（brunoabdiel / ezz7），不适用于狗文
 };
 
