@@ -1908,7 +1908,7 @@ ARTICLES = [
     {
         "slug": "best-dog-crate",
         "pillar": "best",
-        "title": "Best Dog Crate 2026 — Practical Picks, Not Hype",
+        "title": "Best Dog Crate 2026 — Size by Weight, 18 to 48 Inches",
         "url": "/best/dog-crate/",
         "description": "Best dog crate picks for 2026: wire crates with dividers for puppies, solid plastic for anxious dogs and travel, plus the sizing rule that decides which one.",
         "lede": "The best crate is the one your dog accepts and you can clean easily. We prefer sturdy wire crates with a divider for puppies and a secure plastic crate for travel.",
@@ -3755,7 +3755,7 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-broccoli",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Broccoli? Yes — in Small Amounts",
+        "title": "Can Dogs Eat Broccoli? Yes — Under 10% of Daily Calories",
         "url": "/dog-nutrition/can-dogs-eat-broccoli/",
         "description": "Broccoli is a safe, nutrient-rich vegetable for dogs, but only in small amounts. Why too much can upset the gut, and how to serve it plain and cooked.",
         "lede": "Yes — broccoli is safe and genuinely healthy for dogs in small amounts. The catch is that too much can irritate the stomach and, in large doses, affect the thyroid, so portion control is the whole game.",
@@ -4043,7 +4043,7 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-mango",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Mango? Yes — Peeled, Pitted, Small",
+        "title": "Can Dogs Eat Mango? Yes — Peeled, Pitted, Amounts by Weight",
         "url": "/dog-nutrition/can-dogs-eat-mango/",
         "description": "Fresh mango flesh is a safe, vitamin-rich dog treat in small pieces. Why to peel it, remove the pit, and skip canned syrup, plus how much to feed by weight.",
         "lede": "Yes — fresh mango flesh is a safe, vitamin-rich treat in small pieces. Peel it, remove the pit, and skip the skin; the pit is a choking hazard and the skin is hard to digest.",
@@ -4335,7 +4335,7 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-tomato",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Eat Tomatoes? Ripe Flesh, No Leaves",
+        "title": "Can Dogs Eat Tomatoes? Ripe Flesh, No Leaves or Green Fruit",
         "url": "/dog-nutrition/can-dogs-eat-tomato/",
         "description": "Ripe tomato flesh is safe for dogs in small amounts, but green tomatoes and the stems and leaves are toxic. Why to skip sauces, and how much to feed by weight.",
         "lede": "Yes — ripe red tomato flesh is safe in small amounts, but the green parts, stems, and leaves contain solanine and are toxic. Skip sauces and seasoned tomato.",
