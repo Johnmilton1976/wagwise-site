@@ -2414,6 +2414,10 @@ ARTICLES = [
         "body": """
         <div class="callout warn"><b>If the jar lists xylitol and your dog has eaten any of it, phone the vet now.</b> Blood sugar can crash within 30 minutes — before any symptom is visible — and liver injury can follow over the next two to three days. Do not wait to see how it goes, do not induce vomiting unless a vet tells you to, and take the jar with you so the vet can read the xylitol figure off the label. The dose thresholds are below.</div>
 
+        <h2>How this page was put together — and what it is not</h2>
+        <p>No jar of peanut butter was tested for this page, and nobody on the team is a veterinarian. What it rests on: published composition figures (USDA FoodData Central) and the veterinary toxicology references listed at the end, especially the xylitol guidance from Pet Poison Helpline and the ASPCA. That is a real basis for a safe-feeding guide, but it is not a substitute for a vet who knows your dog, and it is not individually reviewed by a veterinarian.</p>
+        <p>If your dog has a health condition &mdash; pancreatitis, obesity, a known allergy &mdash; treat this as background, not instructions.</p>
+
         <h2>Is peanut butter safe for dogs?</h2>
         <p>Plain peanut butter — peanuts, maybe a little salt — is safe for dogs and almost universally loved. It is high in fat and calories, so it belongs in the treat column, not the food bowl: a couple of teaspoons a day is plenty for most dogs.</p>
         <p>The complication is not the peanut. It is what else ends up in the jar. A growing number of peanut butter products, especially the ones marketed as healthier for people, are sweetened with xylitol — a sugar alcohol that is safe for humans and devastating for dogs. <b>That single ingredient is the reason this page exists.</b></p>
@@ -2494,6 +2498,20 @@ ARTICLES = [
         </table>
         <p>Never induce vomiting unless a vet tells you to. With xylitol the risk of aspiration is real, and the treatment that matters is blood glucose, not an empty stomach.</p>
         <p>If the jar did contain xylitol, the dose thresholds and the timings that matter are set out in our <a href="/dog-nutrition/can-dogs-eat-xylitol/">guide to xylitol poisoning</a>. For the wider list of what a dog should never be given, start with the <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a>.</p>
+
+        <h2>If your dog ate peanut butter from a jar — what to check</h2>
+        <p>Most peanut butter incidents are about the label, not the peanuts. Use this timeline:</p>
+        <table>
+          <thead><tr><th>Step</th><th>What to do</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>1. Read the label now</td><td>Look for xylitol, birch sugar, or any &ldquo;-itol&rdquo; sweetener in the ingredients</td><td>Xylitol is the one additive that turns a treat into an emergency; sugar and salt are not</td></tr>
+            <tr><td>2. Xylitol present</td><td>Call a vet or pet poison service immediately, even if the dog seems normal</td><td>Hypoglycaemia can start within 30 minutes; roughly 0.1 g per kg of body weight is enough to cause it</td></tr>
+            <tr><td>3. Plain only</td><td>Note how much was eaten; a smear or a teaspoon is a non-event for most dogs</td><td>The risk is calories and fat, not toxicity, at normal amounts</td></tr>
+            <tr><td>4. Watch 24 hours</td><td>Loose stool or a mild tummy upset can follow a large amount; persistent vomiting or lethargy means a vet call</td><td>Fat and oil are what cause the delayed gut signs</td></tr>
+          </tbody>
+        </table>
+        <p>The single action that changes the outcome is reading the label before you panic. A jar with no xylitol and a dog that ate a spoonful needs water and observation, not a rushed drive &mdash; but a jar with xylitol and the same spoonful needs a phone call within the hour.</p>
+
         """,
         "faq": [
             ("How much peanut butter is too much for a dog?", "For a healthy 10 kg dog, about two level teaspoons a day is the ceiling — treats should stay under 10% of daily calories, and peanut butter is roughly 32 kcal per teaspoon. Anything beyond that is weight gain with no nutritional benefit."),
@@ -2820,6 +2838,10 @@ ARTICLES = [
         "lede": "Milk is not toxic, but it is the wrong food for a species that stopped making lactase at weaning \u2014 and the gap is measurable: cow's milk carries 44% of the energy of dog milk and 1.4 times its lactose.",
         "eyebrow": "DOG NUTRITION",
         "body": """
+        <h2>How this page was put together — and what it is not</h2>
+        <p>No dog was dosed with milk for this page, and nobody on the team is a veterinarian. What it rests on: published milk-composition data (Hand et al., <em>Small Animal Clinical Nutrition</em>, 5th ed.; Zhang et al., <em>Foods</em> 2022) and the veterinary references listed at the end. That is a real basis for a feeding guide, but it is not a substitute for a vet who knows your dog, and it is not individually reviewed by a veterinarian.</p>
+        <p>If your dog has a health condition &mdash; diabetes, pancreatitis, a known dairy reaction &mdash; treat this as background, not instructions. The numbers below tell you what is in the bowl; they do not tell you what your dog should eat.</p>
+
         <h2>Is milk good for dogs?</h2>
         <p>No, not as a drink. Milk is not toxic, and a lap of it will not poison a dog, but it is the wrong food for a species that stopped producing lactase at weaning. That is the whole answer, and the rest of this page is the arithmetic behind it &mdash; because "milk upsets dogs" is repeated everywhere and almost never quantified, which leaves owners guessing whether a splash in the bowl matters.</p>
         <p>The honest version: most adult dogs handle a small amount without symptoms, a minority react to any dairy at all, and nobody can tell you which dog yours is without trying it. What can be measured is how much lactose, protein and energy is actually in the bowl, and how far that is from what a dog is built to digest.</p>
@@ -2895,6 +2917,19 @@ ARTICLES = [
         <p>These plant milks are not toxic, but they are not a good idea either. Almond milk is low in protein and often sweetened; oat and soy milks can contain added sugars or even xylitol, which is toxic to dogs, so always read the label. None of them offer nutrition a dog actually needs, and plain water remains the better choice. A tiny taste of an unsweetened, xylitol-free milk alternative is unlikely to harm, but there is no reason to make it a habit.</p>
         <p>One thing worth checking on any plant milk: "unsweetened" and "xylitol-free" are different claims. A carton can be unsweetened and still contain a sugar alcohol for body, and xylitol is the one that sends dogs to hospital. If the ingredient list is not in front of you, do not pour it. Our <a href="/dog-nutrition/foods-toxic-to-dogs/">toxic foods list</a> covers the sweeteners that matter.</p>
 
+        <h2>If your dog drank milk — what to do</h2>
+        <p>Most milk incidents are mild and need no vet. Use this timeline rather than guessing:</p>
+        <table>
+          <thead><tr><th>Time since drinking</th><th>What to watch for</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>0&ndash;2 hours</td><td>Usually nothing yet; lactose is still in the gut</td><td>Offer water. Do not induce vomiting. Note how much and what kind of milk.</td></tr>
+            <tr><td>2&ndash;8 hours</td><td>Gas, gurgling, loose stool &mdash; the usual lactose signs</td><td>Withhold further dairy. Most dogs pass it within a day; watch hydration.</td></tr>
+            <tr><td>8&ndash;24 hours</td><td>Persistent diarrhea, lethargy, not eating</td><td>Call a vet if it lasts beyond a day or the dog seems unwell.</td></tr>
+            <tr><td>Any time</td><td>Vomiting that repeats, hives, facial swelling, difficulty breathing</td><td>These are allergy or choking signs, not lactose &mdash; call a vet now.</td></tr>
+          </tbody>
+        </table>
+        <p>One rule settles most cases: a one-off lap is a non-event for the majority of adult dogs. The dogs that need help are the ones with repeated diarrhea, a known dairy reaction, or skin and breathing signs rather than gut signs.</p>
+
         <h2>Bottom line</h2>
         <p>Milk is not poison, but it is also not a treat a dog needs: it delivers the one sugar adult dogs are worst equipped to handle, at less than half the energy density of the milk they evolved on. A tablespoon in the bowl is harmless for most dogs and pointless for all of them. Milk-free water, a cube of cheese, or a spoonful of plain yogurt all do the same job better. For a fruit treat that is genuinely low-risk, <a href="/dog-nutrition/can-dogs-eat-bananas/">banana</a> is the safer habit to build.</p>
         """,
@@ -2938,6 +2973,10 @@ ARTICLES = [
         "lede": "Yes, strawberries are safe for dogs in moderation. They are low in calories and full of vitamin C, but their natural sugar means they should stay an occasional treat.",
         "eyebrow": "DOG NUTRITION",
         "body": """
+        <h2>How this page was put together — and what it is not</h2>
+        <p>No dog was fed strawberries for this page, and nobody on the team is a veterinarian. What it rests on: published nutrient figures (USDA FoodData Central) and the veterinary references listed at the end &mdash; the ASPCA, the AKC and Cornell. That is a real basis for a safe-feeding guide, but it is not a substitute for a vet who knows your dog, and it is not individually reviewed by a veterinarian.</p>
+        <p>If your dog has a health condition &mdash; diabetes, pancreatitis, a known allergy &mdash; treat this as background, not instructions.</p>
+
         <h2>Are strawberries good for dogs?</h2>
         <p>Fresh strawberries bring vitamin C, fiber, and antioxidants with very few calories — around 32 kcal per 100 g — which makes them one of the better sweet treats for a dog that is watching its weight. A dog that will not touch a carrot will often take a strawberry.</p>
         <p>They are not, however, a food. Strawberries supply almost no protein, no fat and no calcium, and a dog's diet has to be built on a complete food. Think of them as a treat that happens to be healthier than most, not as something to add to the bowl for nutrition's sake.</p>
@@ -2982,6 +3021,19 @@ ARTICLES = [
         <h2>What to watch for afterwards</h2>
         <p>The usual reaction to too many berries is loose stool within 12 to 24 hours, sometimes with visible seeds. It settles on its own once the berries stop. Vomiting, abdominal pain, or a dog that goes off its food are not normal responses to a strawberry and point to something else — call the vet.</p>
         <p>True strawberry allergy in dogs is uncommon. If you see itching, hives, facial swelling, or breathing difficulty within a couple of hours of eating, stop feeding them and have it recorded.</p>
+
+        <h2>If your dog ate strawberries — what to do</h2>
+        <p>Strawberries are rarely an emergency. Use this timeline for the ordinary case:</p>
+        <table>
+          <thead><tr><th>Time since eating</th><th>What to watch for</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>0&ndash;12 hours</td><td>Usually nothing; seeds and fiber are still moving through</td><td>Offer water. Do not induce vomiting. Note roughly how many were eaten.</td></tr>
+            <tr><td>12&ndash;24 hours</td><td>Loose stool, sometimes with visible seeds &mdash; the normal reaction to too many</td><td>Withhold further berries; it settles on its own once they stop.</td></tr>
+            <tr><td>Any time</td><td>Vomiting, abdominal pain, going off food, or itching, hives, facial swelling, breathing difficulty</td><td>These are not normal strawberry reactions &mdash; call the vet, as they point to something else or a rare allergy.</td></tr>
+          </tbody>
+        </table>
+        <p>The rule that settles most cases: a few berries are a non-event, and a handful means a day of soft stools. The dog that needs a vet is the one with vomiting, pain, or skin and breathing signs rather than a loose bowel.</p>
+
         """,
         "faq": [
             ("How many strawberries can a dog eat?", "One to two for a toy breed, two to three for a small dog, three to five for a medium dog, and five to eight for a large dog, per day. Cut them small for small mouths — a whole berry is a choking shape for a toy breed."),

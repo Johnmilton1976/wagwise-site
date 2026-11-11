@@ -506,6 +506,30 @@ CHART_CALLOUT = (
     'list, see <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>.</div>'
 )
 
+# 哥飞 2026-11-11 (task 4): the chart already links each of its 47 rows to its
+# own article, but a reference page should also hand the reader the tools that
+# act on the numbers. This block takes the chart past 50 internal links and,
+# just as importantly, sends real (non-boilerplate) equity down to the four
+# calculators and the toxic-foods list — the pages task 1 wants discovered.
+CHART_RELATED_TOOLS = (
+    '<h2>Tools that act on this chart</h2>\n'
+    "<p>The chart tells you the dose that decides the case; these turn it into "
+    "something you can use at the moment:</p>\n<ul>"
+    '<li><a href="/tools/chocolate-toxicity-calculator/">Chocolate toxicity '
+    "calculator</a> \u2014 weight and cocoa type to the mg/kg figure a vet will ask for.</li>"
+    '<li><a href="/tools/toxic-food-dose-calculator/">7-food poisoning dose '
+    "calculator</a> \u2014 the foods with no safe dose, sized by body weight.</li>"
+    '<li><a href="/tools/dog-food-calculator/">Daily food calculator</a> \u2014 '
+    "portions by weight, life stage and activity.</li>"
+    '<li><a href="/tools/dog-age-calculator/">Dog age calculator</a> \u2014 '
+    "life stage by body size, not the 7&times; rule.</li>"
+    '<li><a href="/dog-nutrition/foods-toxic-to-dogs/">Foods toxic to dogs</a> '
+    "\u2014 the emergency list, ranked by how little it takes.</li>"
+    '<li><a href="/dog-nutrition/">Dog nutrition guides</a> \u2014 every food '
+    "question, in one place.</li>"
+    "</ul>\n"
+)
+
 # 哥飞 11-04 第二轮 (CSV W1): internal links were invested in a page that earns
 # no queries while the pages that DO rank got nothing. Every nutrition article
 # now carries two body-level links: one to the relevant /best/ buying guide
@@ -1479,7 +1503,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
         # (.doc table / th / td) are scoped to that wrapper, so without it the
         # 47-row chart renders as unstyled text with no cell padding.
         + '<div class="doc">\n'
-        + fc["head"] + tiers + fc["tail"] + embed_block +
+        + fc["head"] + tiers + fc["tail"] + embed_block + CHART_RELATED_TOOLS +
         '\n</div>\n' + credit + script + '</div>'
     )
     return shell(h, "/dog-nutrition/", body)
@@ -1660,10 +1684,10 @@ def render_tools_hub():
     """
     jsonld = site_jsonld()
     h = head(
-        "WagWise Tools & Calculators — Dog Age, Food, Chocolate, Toxicity",
-        "Free dog tools you can use now: a dog-age converter, a daily-food "
-        "grams calculator, a chocolate-toxicity dose tool, a 7-food poisoning "
-        "dose calculator, and the 47-food safety chart.",
+        "WagWise Tools — Dog Age, Food, Chocolate & Toxicity",
+        "Free dog tools: a dog-age converter, a daily-food calculator, a "
+        "chocolate-toxicity dose tool, a 7-food poisoning dose calculator, and "
+        "the 47-food safety chart.",
         "/tools/", jsonld, "website")
     _tools = [
         (TOOL["url"], "TOOL", TOOL["title"], TOOL["description"]),
