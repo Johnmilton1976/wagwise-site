@@ -44,6 +44,9 @@ PILLARS = {
         "eyebrow": "DOG NUTRITION",
         "intro": "Good nutrition is the cheapest health insurance you can buy for a dog. Start with how much to feed, then learn which table scraps are safe and which can land you in the ER.",
         "body": """
+<div class="callout">
+<p><strong>Tools &amp; the food-safety chart:</strong> the <a href="/dog-nutrition/food-safety-chart/">47-food safety chart</a> puts every food on one page with the dose that decides the case; the <a href="/tools/chocolate-toxicity-calculator/">chocolate toxicity calculator</a>, <a href="/tools/toxic-food-dose-calculator/">7-food poisoning dose calculator</a>, <a href="/tools/dog-food-calculator/">daily food calculator</a> and <a href="/tools/dog-age-calculator/">dog-age calculator</a> turn the numbers above into something you can use in the moment.</p>
+</div>
 <h2>Start with the tier, not the food</h2>
 <p>"Can my dog eat this" is really four different questions wearing one coat, and they need four different answers. Sorting a food into the right tier takes about two seconds and gets you most of the way to a decision:</p>
 <ul>

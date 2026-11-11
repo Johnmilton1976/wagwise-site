@@ -312,8 +312,8 @@
   "h": "865b47d0f0efd42d26d0c3f6306a76238a05bb89"
  },
  "public/dog-nutrition/index.html": {
-  "d": "2026-11-10",
-  "h": "db0a7ca8a85fec1f4a393d52ec17c9d455c02ecf"
+  "d": "2026-11-11",
+  "h": "037c4eaaf858fb42bc339f4c6d175534c5716230"
  },
  "public/dog-training/how-to-crate-train-a-puppy/index.html": {
   "d": "2026-11-07",
@@ -332,8 +332,8 @@
   "h": "70d9e69ab7cf65506e7ed2dc3271baf02300e796"
  },
  "public/index.html": {
-  "d": "2026-11-10",
-  "h": "fff129e6dcfa2f319061387365d0ef3fd00a0252"
+  "d": "2026-11-11",
+  "h": "58523661c5169c23e4492278d1fd41fbfda86504"
  },
  "public/privacy/index.html": {
   "d": "2026-11-08",
@@ -358,6 +358,10 @@
  "public/tools/dog-food-calculator/index.html": {
   "d": "2026-11-07",
   "h": "84fb4cff9e77d9e097e9ec664597cc52bc9cf368"
+ },
+ "public/tools/index.html": {
+  "d": "2026-11-11",
+  "h": "2c60ca03e3e07c5a6690b6727c11e9a308848175"
  },
  "public/tools/toxic-food-dose-calculator/index.html": {
   "d": "2026-11-08",

@@ -220,6 +220,7 @@ NAV_ITEMS = [
     ("/dog-care/", "Care & Grooming"),
     ("/cat/", "Cats"),
     ("/best/", "Reviews"),
+    ("/tools/", "Tools"),
     ("/about/", "About"),
 ]
 # 哥飞 11-04 第二轮: the tool page sat at 55 internal links (tied #1) while
@@ -881,7 +882,10 @@ def render_home():
     _MONEY_SLUGS = ("best-dog-crate", "best-dog-harness-for-pulling", "how-much-to-feed-my-dog")
     _CAT_SLUGS = set(PILLARS["cat"]["links"])
     _used = set(HOME["featured"]) | set(_MONEY_SLUGS) | _CAT_SLUGS
-    latest = [a for a in ARTICLES[::-1] if a["slug"] not in _used][:6]
+    # Surface the most recently checked articles, not just the last-inserted
+    # ones, so the homepage stops looking frozen at the 10-24 batch.
+    latest = sorted([a for a in ARTICLES if a["slug"] not in _used],
+                    key=lambda a: a.get("checked", ""), reverse=True)[:6]
     latest_cards = ""
     for a in latest:
         latest_cards += hub_card(a["url"], "ARTICLE", a["title"], a["lede"], a["slug"],
@@ -922,7 +926,10 @@ def render_home():
     # The full A-Z list used to live here (73 links). It moved to /sitemap/, which
     # every page already links to in the footer — one hop for a crawler, but the
     # homepage no longer spreads its equity across 70 equally-weighted links.
-    total_pages = len(ARTICLES) + 2
+    # Total pages = articles + pillars + tool/reference pages (incl /tools/ hub)
+    # + static content pages + home. Keeps "Browse all N" honest; the old
+    # len(ARTICLES)+2 had drifted to 74 while the sitemap carried 89+ URLs.
+    total_pages = len(ARTICLES) + len(PILLARS) + 12
     see_all = (
         '  <p class="lede" style="margin-top:34px">'
         '<a href="/sitemap/"><strong>Browse all %d guides and tools \u2192</strong></a><br>'
@@ -1578,6 +1585,7 @@ def build_sitemap(manifest):
                  "public/%s/index.html" % TOOL_TOXIN["url"].strip("/")))
     urls.append((FOOD_CHART["url"], 0.8, "monthly",
                  "public/%s/index.html" % FOOD_CHART["url"].strip("/")))
+    urls.append(("/tools/", 0.6, "weekly", "public/tools/index.html"))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
     for u, pri, freq, rel in urls:
@@ -1645,6 +1653,40 @@ def render_sitemap():
     return shell(h, "/sitemap/", body)
 
 
+def render_tools_hub():
+    """Tools & calculators landing page (哥飞 11-11 #1: give the four tools
+    and the food-safety chart one clear, crawlable entry from the nav, instead
+    of the per-page boilerplate nav link that was removed on 11-04).
+    """
+    jsonld = site_jsonld()
+    h = head(
+        "WagWise Tools & Calculators — Dog Age, Food, Chocolate, Toxicity",
+        "Free dog tools you can use now: a dog-age converter, a daily-food "
+        "grams calculator, a chocolate-toxicity dose tool, a 7-food poisoning "
+        "dose calculator, and the 47-food safety chart.",
+        "/tools/", jsonld, "website")
+    _tools = [
+        (TOOL["url"], "TOOL", TOOL["title"], TOOL["description"]),
+        (TOOL_CHOCO["url"], "TOOL", TOOL_CHOCO["title"], TOOL_CHOCO["description"]),
+        (TOOL_FEED["url"], "TOOL", TOOL_FEED["title"], TOOL_FEED["description"]),
+        (TOOL_TOXIN["url"], "TOOL", TOOL_TOXIN["title"], TOOL_TOXIN["description"]),
+        (FOOD_CHART["url"], "REFERENCE", FOOD_CHART["title"], FOOD_CHART["description"]),
+    ]
+    cards = ""
+    for _url, _k, _t, _d in _tools:
+        cards += hub_card(_url, _k, _t, _d, _url.strip("/").replace("/", "-"))
+    body = (
+        '<div class="wrap">\n'
+        '  <div class="eyebrow">TOOLS</div>\n'
+        '  <h1>Tools &amp; calculators</h1>\n'
+        '  <p class="lede">Free, plain-language dog tools you can use right now '
+        '&mdash; and one chart that turns 47 foods into a single answer.</p>\n'
+        '  <div class="hub">' + cards + '</div>\n'
+        "</div>"
+    )
+    return shell(h, "/tools/", body)
+
+
 def main():
     today = datetime.date.today().isoformat()
     manifest = _load_manifest()
@@ -1690,6 +1732,7 @@ def main():
                   render_toxin_tool(TOOL_TOXIN)))
     pages.append(("%s/index.html" % FOOD_CHART["url"].strip("/"),
                   render_food_chart(FOOD_CHART)))
+    pages.append(("tools/index.html", render_tools_hub()))
 
     changed = 0
     for rel_public, html in pages:
