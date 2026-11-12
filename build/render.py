@@ -506,7 +506,7 @@ CHART_CALLOUT = (
     'list, see <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>.</div>'
 )
 
-# 哥飞 2026-11-11 (task 4): the chart already links each of its 47 rows to its
+# 哥飞 2026-11-11 (task 4): the chart already links each of its 48 rows to its
 # own article, but a reference page should also hand the reader the tools that
 # act on the numbers. This block takes the chart past 50 internal links and,
 # just as importantly, sends real (non-boilerplate) equity down to the four
@@ -1322,7 +1322,7 @@ def render_toxin_tool(t):
 
 
 def render_food_chart(fc):
-    """The 47-food tiered reference table.
+    """The 48-food tiered reference table.
 
     Rows are rendered from FOOD_CHART["tiers"], and each row links to its own
     article via LOOKUP so the URL can never drift from the source of truth.

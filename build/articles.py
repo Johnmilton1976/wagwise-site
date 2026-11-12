@@ -45,7 +45,7 @@ PILLARS = {
         "intro": "Good nutrition is the cheapest health insurance you can buy for a dog. Start with how much to feed, then learn which table scraps are safe and which can land you in the ER.",
         "body": """
 <div class="callout">
-<p><strong>Tools &amp; the food-safety chart:</strong> the <a href="/dog-nutrition/food-safety-chart/">47-food safety chart</a> puts every food on one page with the dose that decides the case; the <a href="/tools/chocolate-toxicity-calculator/">chocolate toxicity calculator</a>, <a href="/tools/toxic-food-dose-calculator/">7-food poisoning dose calculator</a>, <a href="/tools/dog-food-calculator/">daily food calculator</a> and <a href="/tools/dog-age-calculator/">dog-age calculator</a> turn the numbers above into something you can use in the moment.</p>
+<p><strong>Tools &amp; the food-safety chart:</strong> the <a href="/dog-nutrition/food-safety-chart/">48-food safety chart</a> puts every food on one page with the dose that decides the case; the <a href="/tools/chocolate-toxicity-calculator/">chocolate toxicity calculator</a>, <a href="/tools/toxic-food-dose-calculator/">7-food poisoning dose calculator</a>, <a href="/tools/dog-food-calculator/">daily food calculator</a> and <a href="/tools/dog-age-calculator/">dog-age calculator</a> turn the numbers above into something you can use in the moment.</p>
 </div>
 <h2>Start with the tier, not the food</h2>
 <p>"Can my dog eat this" is really four different questions wearing one coat, and they need four different answers. Sorting a food into the right tier takes about two seconds and gets you most of the way to a decision:</p>
@@ -56,7 +56,7 @@ PILLARS = {
   <li><strong>No safe dose.</strong> Nothing established as safe, or a harmful amount small enough to arrive by accident. These end in a phone call.</li>
 </ul>
 <div class="callout">
-<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">toxic foods for dogs and the foods dogs can eat</a> — all 47 by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. For the chocolate row specifically, <a href="/tools/chocolate-toxicity-calculator/">the chocolate toxicity calculator</a> turns weight and cocoa type into the mg/kg figure a vet will ask for. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
+<p><strong>The whole section, on one page:</strong> <a href="/dog-nutrition/food-safety-chart/">toxic foods for dogs and the foods dogs can eat</a> — all 48 by tier, and each row gives the number that decides the case — milligrams of sodium, grams of onion per kilo, oxalate per 100 g. For the chocolate row specifically, <a href="/tools/chocolate-toxicity-calculator/">the chocolate toxicity calculator</a> turns weight and cocoa type into the mg/kg figure a vet will ask for. Standard charts stop at "safe" or "toxic"; the number is what you actually need at nine in the evening with a dog watching you eat.</p>
 </div>
 
 <h2>The three variables that decide almost every case</h2>
@@ -1790,6 +1790,7 @@ ARTICLES = [
         <p><strong>Senior cats.</strong> Arthritis makes stretching on a tall post painful. Add a low, horizontal scratcher and a ramp to the favourite high spot. A cat that suddenly stops scratching and starts missing the litter box may be in pain, not badly behaved.</p>
         <p><strong>Kittens.</strong> Scratch drive is strongest during play and after sleep. Provide a post next to the play area and redirect every time — this is the easiest age at which to build the habit.</p>
         <p><strong>Multi-cat homes.</strong> Scratching is also communication between cats. A household with four cats needs several posts in separate locations, or the lowest-ranked cat will scratch where it feels safe and that is usually the back of a sofa.</p>
+        <p>Scratching is one of three behaviours that usually travel together, because all three are outlets for the same unmet need. If your cat is also <a href="/cat/cat-spraying-how-to-stop/">spraying indoors</a> or <a href="/cat/why-does-my-cat-meow-at-night/">calling at night</a>, treat the routine and the territory first — adding posts to an anxious house fixes the sofa and nothing else.</p>
         """,
         "faq": [
             ("How do I stop my cat scratching the couch?", "Put an appealing post right beside the couch, use catnip or a toy to draw attention to it, and make the couch unrewarding with double-sided tape or a cover for two to four weeks. Reward post use."),
@@ -1881,6 +1882,7 @@ ARTICLES = [
         <p>If marking continues after neutering, medical clearance, environmental change, pheromones and six to eight weeks of consistent work, a behaviourally trained vet can prescribe. Clomipramine and fluoxetine are the two most used, and both have reasonable evidence for reducing anxiety-driven marking in cats.</p>
         <p>Medication is not a failure and it is not a sedative — it lowers the anxiety baseline enough for the environmental work to take effect. It is usually combined with behaviour modification, not used instead of it.</p>
         <p>If marking started after a household change \u2014 a move, a new baby, building work, or a new cat next door \u2014 treat it as a <a href="/cat/signs-of-stress-in-cats/">stress signal</a> rather than a habit. The spraying is usually just the most visible part of a wider picture, and cleaning without addressing the stress gets you a repeat performance in a few weeks.</p>
+        <p>Marking also tends to arrive with company. Two other behaviours come from the same under-stimulated, insecure territory, and they are worth fixing in the same pass: <a href="/cat/why-does-my-cat-meow-at-night/">night-time calling</a> and <a href="/cat/cat-scratching-furniture/">scratching the furniture</a>. A cat that is marking the door frame, yelling at 3 a.m. and shredding the sofa arm is not three problems — it is one cat with nothing to do and no room that feels like its own.</p>
         """,
         "faq": [
             ("Is cat spraying the same as peeing outside the box?", "No. Spraying is a small amount on a vertical surface with the tail up, for marking. Accidents are a full-volume crouching urination on the floor, usually medical or litter-related."),
@@ -1892,7 +1894,7 @@ ARTICLES = [
             ("Can female cats spray?", "Yes, though less often than males. Entire females spray around oestrus; spaying removes that driver."),
             ("When should I see a vet about spraying?", "Immediately if the cat is straining to urinate with little output, especially a male — that is a possible obstruction and an emergency. Otherwise, see a vet early to rule out FLUTD before treating it as behaviour."),
         ],
-        "related": ["signs-of-stress-in-cats", "cat-not-using-litter-box", "cats-fighting-in-same-house"],
+        "related": ["signs-of-stress-in-cats", "why-does-my-cat-meow-at-night", "cat-scratching-furniture"],
         "sources": [
             ("ASPCA — Common Cat Behavior Issues",
              "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues"),
@@ -2067,6 +2069,49 @@ ARTICLES = [
         </table>
         <div class="callout good">Fit matters more than brand. Two fingers should slide under every strap, and no strap should cross the shoulder joint or press into the armpit. A loose harness lets a strong dog back straight out of it.</div>
 
+        <h2>The parts that fail first</h2>
+        <p>Harness failures are not random. They happen at four points, in roughly this order, and each one is visible before you buy if you know where to look. A harness that fails at speed with a pulling dog is not an inconvenience — it is a dog loose near a road.</p>
+        <table>
+          <thead><tr><th>Part</th><th>What goes wrong</th><th>What to look for</th></tr></thead>
+          <tbody>
+            <tr><td>Front D-ring</td><td>Pulls out of the webbing, or bends open under load; the single highest-load point on the harness</td><td>A welded metal ring attached through a box-X stitch, not a single line of stitching or a plastic ring</td></tr>
+            <tr><td>Side-release buckles</td><td>Pop open when the dog hits the end of the lead, or when the chest strap is under tension</td><td>Buckles sized to the webbing, with a metal or heavy-duty acetal body; check them at the girth, which takes the most load</td></tr>
+            <tr><td>Chest-plate stitching</td><td>The seam that joins the front panel to the girth strap lets go first, usually after months of washing</td><td>Bar-tacked or box-X at every junction, and webbing that continues past the seam rather than ending at it</td></tr>
+            <tr><td>Padding and edges</td><td>Padded panels that are only padded in the middle; bare webbing edges rub the armpit raw</td><td>Padding that wraps the edge as well as the face, and a rolled or bound edge on any strap that touches skin</td></tr>
+            <tr><td>Adjustment sliders</td><td>Slip under tension, so the harness loosens itself walk by walk until the dog can back out</td><td>Sliders with a locking bar or a double pass of webbing; test by pulling hard on each strap before the first walk</td></tr>
+          </tbody>
+        </table>
+        <p>None of this is visible in a product photo, which is why the fit checks below matter more than the review section on any retail page. The one hardware detail worth paying for is the front ring: it is the part that carries the entire load of a dog that lunges, and it is the part cheapest harnesses save money on.</p>
+
+        <h2>Price bands: what the money actually buys</h2>
+        <p>Harnesses sell from about $15 to over $120, and the curve is not linear. Below a certain price you are buying webbing and hope; above a certain price you are buying colourways and a brand. Typical retail bands, roughly, and what changes as you move up:</p>
+        <table>
+          <thead><tr><th>Band</th><th>What you typically get</th><th>What is usually missing</th><th>Who it suits</th></tr></thead>
+          <tbody>
+            <tr><td>Under $25</td><td>Front and back rings on paper, thin webbing, plastic hardware</td><td>Load-rated front ring, real padding at the armpit, stable sliders</td><td>A calm small dog that already walks on a loose lead — not a puller</td></tr>
+            <tr><td>$25–50</td><td>The working range: metal front ring, four-point adjustment, padded chest plate</td><td>Sometimes the fifth adjustment point, and often a narrow chest plate on broad dogs</td><td>Most dogs, including most pullers, if the fit is right</td></tr>
+            <tr><td>$50–90</td><td>Better webbing, five-point adjustment, a handle, reflective trim, replacement parts</td><td>Nothing functional for most owners — this is where you pay for durability and finish</td><td>Daily walkers, strong dogs, dogs that destroy cheap gear</td></tr>
+            <tr><td>Over $90</td><td>Modular or custom-fit systems, premium hardware, sometimes a gait-friendly design</td><td>Proportionally little; the returns flatten here</td><td>Hard-to-fit shapes, working dogs, and owners who want one harness for a decade</td></tr>
+          </tbody>
+        </table>
+        <div class="callout"><b>The honest spending rule.</b> Spend in the $25–50 band first. If the harness fits and the front ring holds, more money buys longevity, not better pull control. If it does not fit, no amount of money fixes it — a $120 harness on the wrong chest girth is a worse tool than a $30 one that fits.</div>
+
+        <h2>Models that keep coming up — what they are, and what to verify</h2>
+        <p>Named examples only, since this page takes no affiliate money and endorses nobody: these are widely stocked designs whose construction illustrates each category. Verify current specifications with the maker before buying — models get revised, and the same name is sometimes sold in two builds.</p>
+        <table>
+          <thead><tr><th>Model</th><th>Category</th><th>Why it comes up</th><th>Verify first</th></tr></thead>
+          <tbody>
+            <tr><td>Ruffwear Front Range</td><td>Front and back clip, padded</td><td>Y-shaped front panel with a metal front ring, four points of adjustment, padded chest and belly straps — the usual reference point for a padded everyday no-pull harness</td><td>Your size against the maker's girth chart, not the weight chart; the front ring's attachment style on the current build</td></tr>
+            <tr><td>Blue-9 Balance Harness</td><td>Front and back clip, five-point adjustment</td><td>Five adjustment points rather than four, which is what makes it fit deep-chested or narrow dogs that standard sizes miss</td><td>Whether the size you need is in stock in the colour you want; the front ring position on your dog's chest</td></tr>
+            <tr><td>Perfect Fit</td><td>Modular, three-piece</td><td>Sold as separate nose, girth and chest pieces, so a deep-chested dog gets a combination no single-size harness offers</td><td>That you are ordering all three pieces; the return policy, since modular sizing is easy to get wrong the first time</td></tr>
+            <tr><td>Julius-K9 IDC Power<wbr>harness</td><td>Back clip only</td><td>Very widely used, heavy-duty build, a handle over the shoulders — a good everyday harness for a dog that no longer pulls</td><td>That it has no front attachment: this is not a training harness for a puller</td></tr>
+            <tr><td>PetSafe Easy Walk</td><td>Front clip with a martingale loop</td><td>The classic front-clip design; the loop gives a little chest pressure as the dog pulls, which is why trainers have used it for decades</td><td>Whether you want that tightening action at all — see the note below</td></tr>
+            <tr><td>2 Hounds Freedom No-Pull</td><td>Front clip with a martingale loop, plus back clip</td><td>Same logic as the Easy Walk with a second attachment point; the double-ended lead it is often sold with is genuinely useful for training</td><td>The loop's action on your dog, and the velcro strap some versions use</td></tr>
+            <tr><td>Halti Harness</td><td>Front clip, Y-front</td><td>From the makers of the Halti head collar; a lighter front-clip option, often the first one that fits a small dog properly</td><td>Which Halti harness you are looking at — the range includes designs with and without a front ring</td></tr>
+          </tbody>
+        </table>
+        <p>One line runs through that table and it is worth stating plainly. The <strong>martingale-loop designs</strong> — Easy Walk, Freedom — tighten slightly across the chest as the dog pulls. They work, and they are not in the same category as a prong collar, but they do use a small amount of pressure as feedback. If you want pull reduction with no tightening at all, choose a fixed Y-front like the Front Range or the Balance; if you want the extra signal, the loop designs give it. Neither is cruelty; the choice is a preference about how much pressure you are willing to put on a dog's chest.</p>
+
         <h2>Sizing: measure the chest, not the dog</h2>
         <p>Harness sizes are not standardised. A medium from one maker overlaps a small from another, and the letter on the packet tells you nothing you can check. The only number that transfers between brands is the chest girth in centimetres, so measure it yourself and compare that to the maker's own chart.</p>
         <table>
@@ -2096,7 +2141,7 @@ ARTICLES = [
 
         <h2>What we avoid</h2>
         <p><strong>Choke chains, prong collars and shock collars.</strong> This is not a style preference. Studies find higher rates of stress signals and increased aggression in dogs trained with aversive methods, and the suppression they produce often resurfaces later as reactivity toward the thing that predicted the correction. On a pulling dog, a prong collar teaches that other dogs predict neck pain.</p>
-        <p><strong>No-pull harnesses that tighten across the chest.</strong> Some "no-pull" designs work by constricting the chest when the dog pulls. That is an aversive tool with the same problems as a choke collar, just distributed differently.</p>
+        <p><strong>No-pull harnesses that cinch the ribcage shut.</strong> A light martingale loop (the Easy Walk style) is a pressure cue; a design whose whole mechanism is closing a strap around the ribcage is a choke collar with wider distribution. The test is visual: if a strap visibly shortens on the dog's chest as it pulls, leave it on the shelf. A fixed Y-front does the same job without asking the dog to work against pressure.</p>
         <p><strong>Retractable leads for training.</strong> Constant tension teaches pulling, and the thin cord has caused severe injuries — including amputations — when it wraps around a limb or a person.</p>
 
         <h2>The gear is half the job</h2>
@@ -2107,6 +2152,7 @@ ARTICLES = [
 
         <h2>Bottom line</h2>
         <p>Pair a well-fitted, Y-front, padded front-clip harness with the stop-and-turn method. The gear buys you physical control while the training takes effect — usually four to six weeks of short daily sessions. Expect the harness to be a training aid you phase out of, not a permanent solution to a dog that has never been taught to walk on a loose lead.</p>
+        <p>Two companion pages make the rest of the job smaller. The <a href="/dog-training/how-to-leash-train-a-dog/">leash training method</a> is what actually stops the pulling, and if the harness is one of several purchases you are making at once, the <a href="/best/dog-crate/">crate guide</a> uses the same construction-first approach to buying gear — what fails, what it costs, what to verify — rather than a brand ranking.</p>
         """,
         "faq": [
             ("What type of harness stops pulling?", "A front-clip (chest-clip) harness. It turns the dog sideways when they pull, so forward momentum redirects instead of being rewarded. A back-clip harness lets a strong dog pull like a sled dog."),
@@ -2118,6 +2164,8 @@ ARTICLES = [
             ("How do I measure my dog for a harness?", "Measure the chest girth: a tape around the widest part of the ribcage, just behind the front legs, on a standing dog. Compare that number in centimetres to the maker's chart rather than buying by weight or by the letter on the packet, because S/M/L are not standardised between brands."),
             ("What is the difference between a front-clip and a back-clip harness?", "A back-clip attaches the lead above the shoulders, which suits a dog that already walks well and does nothing about pulling. A front-clip attaches on the chest, so tension turns the dog sideways instead of letting it lean into the lead."),
             ("Can I leave a harness on all day?", "It is better not to. Long-term wear causes rubbing at the armpits and pressure points. Put it on for walks and take it off indoors."),
+            ("How much should I spend on a no-pull harness?", "Plan for $25–50. That band buys the two things that matter: a metal front ring stitched through webbing, and four points of adjustment. Under $25 the front ring is usually plastic or single-stitched, which is the part that fails when a dog lunges. Above $50 you are mostly paying for durability and finish, not better pull control."),
+            ("Do front-clip harnesses hurt a dog's shoulders?", "Not a well-fitted Y-front one. The gait concerns in the literature come from restrictive or weighted harnesses, and from front panels that cross the point of the shoulder. A Y-shaped panel that leaves the shoulder free is a different product — check by sliding a finger under the front strap where it passes the shoulder; if it sits on the joint, the harness is the wrong shape for that dog."),
             ("Do you earn a commission from these picks?", "No. There are no affiliate links on this page and we earn nothing from it. The picks are based on strap geometry, fit problems and hardware failure points."),
         ],
         "related": ["how-to-leash-train-a-dog", "best-dog-crate", "how-to-trim-dog-nails"],
@@ -3186,6 +3234,21 @@ ARTICLES = [
         <p>As a rough guide, mild signs begin around <b>20 mg of theobromine per kg of body weight</b>, and severe or life-threatening signs around <b>40–50 mg/kg</b>. For a 10 kg (22 lb) dog, that is mild effects from roughly 3–4 oz of milk chocolate but under half an ounce of baking chocolate; for a 25 kg dog, about 9 oz of milk chocolate or just over 1 oz of baking chocolate.</p>
         <div class="callout warn">When in doubt, assume it is serious. Small dogs, dark chocolate, and any baking chocolate or cocoa powder all move quickly into dangerous territory.</div>
 
+        <h2>Chocolate toxicity by dog weight, in grams</h2>
+        <p>The same two thresholds, converted into the units printed on a wrapper. Each cell gives the amount that brings the first signs (about 20 mg of theobromine per kg of dog) and the amount that reaches the cardiac range (40–50 mg/kg). The figures are approximations because cocoa content varies by brand — read a cell that says "13 g" as "a couple of squares", not as a laboratory limit.</p>
+        <table>
+          <tr><th style="text-align:left">Dog's weight</th><th style="text-align:left">First signs<br>milk / dark 50–60% / baking 85%+</th><th style="text-align:left">Cardiac range<br>milk / dark / baking</th></tr>
+          <tr><td>2.5 kg (5 lb)</td><td>27 g / 9 g / 3 g</td><td>55 g / 18 g / 7 g</td></tr>
+          <tr><td>5 kg (11 lb)</td><td>55 g / 18 g / 7 g</td><td>109 g / 37 g / 13 g</td></tr>
+          <tr><td>10 kg (22 lb)</td><td>109 g / 37 g / 13 g</td><td>218 g / 73 g / 27 g</td></tr>
+          <tr><td>20 kg (44 lb)</td><td>218 g / 73 g / 27 g</td><td>436 g / 146 g / 54 g</td></tr>
+          <tr><td>30 kg (66 lb)</td><td>327 g / 110 g / 40 g</td><td>654 g / 219 g / 81 g</td></tr>
+          <tr><td>40 kg (88 lb)</td><td>436 g / 146 g / 54 g</td><td>872 g / 293 g / 108 g</td></tr>
+        </table>
+        <p>Three anchors make the table usable in a kitchen at midnight. A <b>standard milk chocolate bar is about 45 g</b>, so a 5 kg dog is a bar away from the first signs and two and a half bars from the cardiac range. A <b>single square of unsweetened baking chocolate is about 28 g</b>, which takes a 10 kg dog straight past the first-signs line (13 g) and to the edge of the cardiac range (27 g) — a dog that has eaten one square is a phone call, not a wait-and-see. And cocoa powder is the outlier: at roughly 27 mg of theobromine per gram it needs no arithmetic at all — a heaped tablespoon in a cake mix is a veterinary call for any dog under 15 kg.</p>
+        <p>White chocolate is the exception that proves the rule. It has almost no theobromine, so the table above does not apply: a 5 kg dog would have to eat close to two kilos of it before the stimulant mattered, and by then the fat and sugar have caused pancreatitis instead. The dose is not the reason to keep white chocolate away from a dog — the 30 g of fat per 100 g is.</p>
+        <p>Where the table stops being useful is cocoa percentages between 60% and 85%, which is most of the dark bar shelf. Take the worst case: treat a 70–85% bar as baking chocolate and you will over-estimate the risk, which is the correct direction to be wrong in when the alternative is waiting for symptoms.</p>
+
         <h2>What are the symptoms of chocolate poisoning?</h2>
         <p>Signs usually appear within a few hours and can escalate. Watch for:</p>
         <ul>
@@ -3228,6 +3291,7 @@ ARTICLES = [
         "faq": [
             ("Is chocolate bad for dogs?", "Yes. Chocolate contains theobromine, which dogs metabolise slowly, so it builds up and over-stimulates the heart and nervous system."),
             ("How much chocolate is toxic to a dog?", "It depends on the type and your dog's weight. Mild signs start around 20 mg of theobromine per kg of body weight; severe signs around 40–50 mg/kg. Dark, semisweet, baking, and cocoa powder are dangerous in small amounts."),
+            ("Is one bar of chocolate dangerous for a dog?", "It depends on the bar and the dog. A standard 45 g milk chocolate bar sits just under the first-signs line for a 5 kg dog, but two and a half of them reach the cardiac range. The same 45 g of baking chocolate would put a 10 kg dog past the cardiac threshold. Read the cocoa percentage before the weight."),
             ("Is dark chocolate worse for dogs than milk chocolate?", "Yes — dark and baking chocolate carry far more theobromine per ounce than milk chocolate and are the most toxic."),
             ("What are the symptoms of chocolate poisoning in dogs?", "Restlessness, panting, a racing heart, vomiting, diarrhea, tremors, and in severe cases seizures. Signs can appear within a few hours."),
             ("What should I do if my dog ate chocolate?", "Call your vet or animal poison control with the type, amount, and your dog's weight as soon as possible. Do not try to induce vomiting at home."),
@@ -7111,6 +7175,7 @@ ARTICLES = [
           <li><strong>Do not assume all meowing is misbehaviour.</strong> A new, distressed-sounding call in an older cat is information about its health, not a nuisance to be trained away.</li>
         </ul>
         <p>Night calling is also one of the first things owners notice when a cat is under strain \u2014 new schedules, a new pet, a move, or a neighbour's cat at the window. If the vocalising arrived alongside hiding, appetite changes or accidents, read <a href="/cat/signs-of-stress-in-cats/">signs of stress in cats</a> before assuming it is purely a routine problem.</p>
+        <p>The same unmet need rarely shows up as noise alone. A bored or anxious cat that calls at night is often also the cat <a href="/cat/cat-spraying-how-to-stop/">spraying indoors</a> or <a href="/cat/cat-scratching-furniture/">shredding the sofa</a> — three symptoms, one cause, and the routine in this article is the first thing to change for all three. Fix the outlet and the noise usually goes with it; fix only the noise and it comes back as a different behaviour.</p>
         """,
         "faq": [
             ("Why does my cat meow at the bedroom door every night?", "Usually a trained habit — the meowing has produced attention, food, or an open door. Check that needs are met, then stop responding, and keep a hard play session and a late meal before your bedtime."),
@@ -7123,8 +7188,10 @@ ARTICLES = [
             ("Should I let my cat sleep in my bedroom?", "That is a preference, not a rule. If the cat settles quietly, there is no harm. If it wakes you repeatedly, a closed door with a full evening routine is kinder than an inconsistent door that opens sometimes."),
             ("Will an automatic feeder really help?", "For food-driven early-morning calling, it is the single most effective change, because it removes you from the equation. Set it a few minutes earlier than the current waking time, then shift it later by ten minutes every few days."),
             ("Is it cruel to ignore a cat crying at night?", "Not if its needs are met and it is healthy. Ignoring a learned request is different from ignoring distress — which is why a sudden change in an older cat should go to the vet rather than be ignored."),
+            ("How do I stop my cat meowing at night?", "Move the two peaks rather than suppress the noise. A hard 10–15 minute play session in the early evening, a second short one before bed, the main meal straight after play, then no response at all once the lights are out. Expect three louder nights first — that spike is the habit dying. An automatic feeder set for just before your cat currently wakes you removes the last reason to call."),
+            ("My cat started meowing at night after we moved. Is that normal?", "Yes. A move, a new baby, a new pet or a change in working hours all push night calling up, because the cat's routine and territory changed at the same time. Keep meal and play times fixed for two weeks before adding anything else, and give the cat one room that smells of the old house. If it is still going after a month — or comes with spraying or appetite loss — treat it as stress rather than habit."),
         ],
-        "related": ["signs-of-stress-in-cats", "cat-hairballs", "how-to-introduce-cats"],
+        "related": ["cat-spraying-how-to-stop", "cat-scratching-furniture", "signs-of-stress-in-cats"],
         "sources": [
             ("Cats Protection — Cats at Night",
              "https://www.cats.org.uk/help-and-advice/home-and-environment/cats-at-night"),
@@ -7728,8 +7795,8 @@ TOOL_TOXIN = {
 # ---------------------------------------------------------------------------
 FOOD_CHART = {
     "url": "/dog-nutrition/food-safety-chart/",
-    "title": "Foods Dogs Can Eat: 47-Food Safety Chart, Safe vs Toxic",
-    "description": "The foods dogs can eat, and the ones that only look safe: 47 rows in four risk tiers, each with the dose that decides the case and the number behind it.",
+    "title": "Foods Dogs Can Eat: 48-Food Safety Chart, Safe vs Toxic",
+    "description": "The foods dogs can eat, and the ones that only look safe: 48 rows in four risk tiers, each with the dose that decides the case and the number behind it.",
     "tier_defs": [
         ("Tier 1", "Everyday", "Plain, cooked where relevant, and small enough to stay inside the treat budget. Nothing here needs a calculation beyond portion size."),
         ("Tier 2", "A ceiling", "Safe, but carries sugar, fat, lactose or a compound that stops being harmless at volume. These are the foods where the amount is the whole answer."),
@@ -7760,7 +7827,7 @@ FOOD_CHART = {
         },
         {
             "label": "Tier 2 — Safe, with a ceiling",
-            "count": 14,
+            "count": 15,
             "intro": "Every food in this tier is fine in a small amount and unhelpful in a large one. The ceilings below are the actual reason these foods show up in vet visits: not toxicity, arithmetic.",
             "rows": [
                 ("apples", "Flesh only — no core, no seeds", "About 50 kcal per 100 g; 2–3 thin slices for a dog under 5 kg"),
@@ -7777,6 +7844,7 @@ FOOD_CHART = {
                 ("peanut-butter", "Plain — and check the label for xylitol every time", "Two teaspoons a day is plenty for a medium dog"),
                 ("broccoli", "Plain, steamed or raw, chopped", "Keep to about 10% of daily calories; isothiocyanates irritate the gut above that"),
                 ("spinach", "Cooked, small amount, water poured off", "750 mg oxalate per 100 g raw; blanching removes 30–50%"),
+                ("oranges", "Peeled flesh, seeds out — no peel and no pith", "About 12 g of sugar per 100 g; a segment or two is a treat, the peel is a skin the gut will not take"),
             ],
         },
         {
@@ -7816,7 +7884,7 @@ FOOD_CHART = {
     "head": """
 <div class="eyebrow">REFERENCE</div>
 <h1>Foods dogs can eat — and the 47 that need a second look</h1>
-<p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>. Here are all 47 foods in four risk tiers, each row carrying the number that decides it.</p>
+<p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>. Here are all 48 foods in four risk tiers, each row carrying the number that decides it.</p>
 <p class="print-credit">wagwise.org/dog-nutrition/food-safety-chart &nbsp;·&nbsp; reviewed 2 November 2026 &nbsp;·&nbsp; general information, not veterinary advice</p>
 
 <h2>The seven with no safe dose — the toxic end of the list</h2>
@@ -7834,7 +7902,7 @@ FOOD_CHART = {
 <p>Every one of those ends in a phone call rather than a portion. If you are reading this because one of them just happened, the numbers above are what the vet will ask for — read them out, then follow the instructions on that food's own page. For the emergency sequence itself — the symptoms that mean poisoning, the first ten minutes, and what not to do — the <a href="/dog-nutrition/foods-toxic-to-dogs/">full toxic-foods list</a> walks through it step by step.</p>
 
 <h2>Foods dogs can eat: the everyday list</h2>
-<p>The larger group, and the one that gets far less attention than it deserves. Fourteen of the 47 foods are ordinary, useful treats when they are plain and inside the 10% treat budget: <a href="/dog-nutrition/can-dogs-eat-chicken/">plain cooked chicken</a>, <a href="/dog-nutrition/can-dogs-eat-eggs/">cooked eggs</a>, <a href="/dog-nutrition/can-dogs-eat-rice/">white rice</a>, <a href="/dog-nutrition/can-dogs-eat-carrots/">carrots</a>, <a href="/dog-nutrition/can-dogs-eat-cucumber/">cucumber</a>, <a href="/dog-nutrition/can-dogs-eat-green-beans/">green beans</a>, <a href="/dog-nutrition/can-dogs-eat-peas/">peas</a>, <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a>, <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a>, <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> (flesh only), <a href="/dog-nutrition/can-dogs-eat-pumpkin/">plain pumpkin</a>, <a href="/dog-nutrition/can-dogs-eat-sweet-potato/">cooked sweet potato</a>, <a href="/dog-nutrition/can-dogs-eat-salmon/">cooked salmon</a> and <a href="/dog-nutrition/can-dogs-eat-shrimp/">peeled shrimp</a>.</p>
+<p>The larger group, and the one that gets far less attention than it deserves. Fourteen of the 48 foods are ordinary, useful treats when they are plain and inside the 10% treat budget: <a href="/dog-nutrition/can-dogs-eat-chicken/">plain cooked chicken</a>, <a href="/dog-nutrition/can-dogs-eat-eggs/">cooked eggs</a>, <a href="/dog-nutrition/can-dogs-eat-rice/">white rice</a>, <a href="/dog-nutrition/can-dogs-eat-carrots/">carrots</a>, <a href="/dog-nutrition/can-dogs-eat-cucumber/">cucumber</a>, <a href="/dog-nutrition/can-dogs-eat-green-beans/">green beans</a>, <a href="/dog-nutrition/can-dogs-eat-peas/">peas</a>, <a href="/dog-nutrition/can-dogs-eat-blueberries/">blueberries</a>, <a href="/dog-nutrition/can-dogs-eat-strawberries/">strawberries</a>, <a href="/dog-nutrition/can-dogs-eat-watermelon/">watermelon</a> (flesh only), <a href="/dog-nutrition/can-dogs-eat-pumpkin/">plain pumpkin</a>, <a href="/dog-nutrition/can-dogs-eat-sweet-potato/">cooked sweet potato</a>, <a href="/dog-nutrition/can-dogs-eat-salmon/">cooked salmon</a> and <a href="/dog-nutrition/can-dogs-eat-shrimp/">peeled shrimp</a>.</p>
 <p>Two caveats survive even here. "Plain" is doing real work in that list — no salt, no butter, no onion or garlic powder, no xylitol — and the 10% ceiling applies to all of it. A dog can get fat on chicken and rice. The calorie figure for each of those 14 is in the tier table below, because the arithmetic is the part owners underestimate.</p>
 
 <h2>Why this chart is built differently</h2>
