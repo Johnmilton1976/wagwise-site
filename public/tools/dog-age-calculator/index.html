@@ -145,6 +145,14 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     <p class="calc-note">Estimate only. Larger breeds age a little faster than small ones. The link updates as you type, so you can bookmark or share this exact reading.</p>
   </div>
   <div class="doc">
+    <h2>Reverse it: human years back to dog years</h2>
+    <p>Nearly every dog-age calculator runs in one direction only. If a vet chart, an insurance form or a shared result has already handed you a human-age number, this reverses the same size-adjusted curve to show the dog age behind it. It uses the same three size factors as the calculator above, so the two readings always agree with each other.</p>
+    <div class="calc-card" style="margin:18px 0">
+      <label for="dog-hy">Human years</label>
+      <input id="dog-hy" type="number" min="0" max="200" step="1" value="50" style="width:100%;box-sizing:border-box">
+      <div id="dog-rev-out" class="calc-result" style="font-size:18px">About 7.2 years of dog age for a medium dog (estimate).</div>
+      <p class="calc-note">The size is shared with the calculator above &mdash; change it there and this reading follows. Below two years the curve is steep, so a small difference in human years maps to a wide range of puppy ages.</p>
+    </div>
     <h2>How the estimate works</h2>
     <p>Dogs do not age at a flat 7&times; rate. The size-adjusted approximation we use treats the first year as about 15 human years and the second as roughly 9 more, then adds 4 to 6 per year afterward depending on size: smaller dogs age slower, larger dogs faster. That is why a 2-year-old small dog and a 2-year-old giant breed land in very different human-age ranges.</p>
     <h2>Why not just multiply by 7?</h2>
@@ -160,7 +168,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
       <tr><td>10 years</td><td>about 68</td><td>56&ndash;72</td></tr>
     </table>
     <p>The two converge from middle age and diverge sharply in youth. The reason is what each is measuring. The DNA clock describes <em>biological</em> ageing &mdash; how much molecular wear has accumulated &mdash; and a one-year-old dog has already packed a complete puberty, a full adult skeleton and most of its adult height into twelve months. The size-adjusted table describes <em>life stage</em>, which is what should change how you feed, train and insure the dog. A 1-year-old Great Dane is physically finished growing; a 1-year-old Chihuahua is not, and no single human-age number can carry both facts.</p>
-    <p>Both are estimates built on a Labrador-sized reference population, so neither is a measurement of your dog. Use the DNA figure if the question is &ldquo;how worn is this dog&rdquo;; use the life-stage figure if the question is &ldquo;what care does this dog need this year&rdquo;.</p>
+    <p>Both are estimates built on a Labrador-sized reference population, so neither is a measurement of your dog. The 2020 DNA-clock study used <strong>104 Labrador Retrievers</strong> aged from puppyhood to 16 years, compared against 320 humans; the authors and the US National Institute on Aging both list testing the formula in other breeds as work still to be done. Applying it to a Chihuahua or a Great Dane is therefore an extrapolation, not a validated conversion &mdash; and those are the two breeds at opposite ends of the lifespan range. Use the DNA figure if the question is &ldquo;how worn is this dog&rdquo;; use the life-stage figure if the question is &ldquo;what care does this dog need this year&rdquo;.</p>
 
     <h2>Average lifespan, by size</h2>
     <p>The human-age conversion only makes sense against the lifespan it is compressing. These are the ranges vets and breed clubs generally quote:</p>
@@ -197,7 +205,11 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     <h2>Food questions owners ask next</h2>
     <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>. If the puppy-or-senior answer changed how much the bowl should hold, the <a href="/tools/dog-food-calculator/">dog food calculator</a> takes the life stage as an input rather than as a paragraph.</p>
     <h2>Sources and review</h2>
-    <p>This calculator follows the size-adjusted approximation described by the American Veterinary Medical Association (AVMA) and the Cornell Riney Canine Health Center. It is general information, not veterinary advice — for questions about your own dog's ageing, ask your veterinarian. Last reviewed 24 October 2026.</p>
+    <ul>
+      <li><strong><a href="https://www.avma.org/" rel="nofollow">American Veterinary Medical Association (AVMA)</a></strong> and the Cornell Riney Canine Health Center &mdash; the size-adjusted life-stage approximation this calculator and its reverse lookup use. Checked 14 November 2026.</li>
+      <li><strong><a href="https://www.nia.nih.gov/news/epigenetics-study-updates-dog-human-age-formula-implications-cross-species-comparison-help" rel="nofollow">US National Institute on Aging</a></strong> &mdash; the 2020 logarithmic formula came from <strong>104 Labrador Retrievers</strong> (puppies to 16 years) compared with 320 humans; NIA lists testing the formula in other dog breeds as a next step (Wang et al., <em>Cell Systems</em> 2020, doi:10.1016/j.cels.2020.06.006). Checked 14 November 2026.</li>
+    </ul>
+    <p>This is general information, not veterinary advice &mdash; for questions about your own dog's ageing, ask your veterinarian. Last reviewed 14 November 2026.</p>
   </div>
 
   <div class="embed-block">
@@ -247,7 +259,8 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
   }
   var sizeEl=document.getElementById('dog-size'), ageEl=document.getElementById('dog-age'),
       unitEl=document.getElementById('dog-unit'), out=document.getElementById('dog-out'),
-      shareBtn=document.getElementById('dog-share');
+      shareBtn=document.getElementById('dog-share'),
+      revEl=document.getElementById('dog-hy'), revOut=document.getElementById('dog-rev-out');
   function stageOf(size,yrs){
     var mature={'small':6,'medium':5,'large':4}[size];
     var senior={'small':9,'medium':8,'large':7}[size];
@@ -279,6 +292,22 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
       shareBtn.dataset.text='My '+size+' dog is about '+hy+' human years old ('+st+'). Estimate yours: '+window.location.origin+'/tools/dog-age-calculator/?size='+size+'&age='+encodeURIComponent(yrsParam);
     }
   }
+  /* Exact inverse of the piecewise curve in calc(), so the two tools can never
+     disagree. hy<=15 -> first-year segment; hy<=24 -> second-year segment;
+     beyond that divide by the same size factor used by the forward reading. */
+  function revCalc(){
+    if(!revEl || !revOut) return;
+    var hy=parseFloat(revEl.value);
+    if(!(hy>=0)){ revOut.textContent='Enter a human-age number to reverse it.'; return; }
+    var size = sizeEl ? sizeEl.value : 'medium';
+    var f = {'small':4,'medium':5,'large':6}[size] || 5;
+    var yrs;
+    if(hy<=15){ yrs=hy/15; }
+    else if(hy<=24){ yrs=1+(hy-15)/9; }
+    else { yrs=2+(hy-24)/f; }
+    var label = yrs<1 ? Math.max(1,Math.round(yrs*12))+' months' : yrs.toFixed(1)+' years';
+    revOut.innerHTML='About <b>'+label+'</b> of dog age for a '+size+' dog (estimate).';
+  }
   try{
     var p=new URLSearchParams(window.location.search);
     if(['small','medium','large'].indexOf(p.get('size'))>-1){ sizeEl.value=p.get('size'); }
@@ -293,8 +322,9 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
   }catch(e){}
   document.getElementById('dog-go').addEventListener('click',calc);
   ageEl.addEventListener('input',calc);
-  sizeEl.addEventListener('change',calc);
+  sizeEl.addEventListener('change',function(){ calc(); revCalc(); });
   unitEl.addEventListener('change',calc);
+  if(revEl) revEl.addEventListener('input',revCalc);
   if(shareBtn){
     shareBtn.addEventListener('click',function(){
       var t=shareBtn.dataset.text||out.textContent;
@@ -304,6 +334,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     });
   }
   calc();
+  revCalc();
 })();
 </script>
 </main>
