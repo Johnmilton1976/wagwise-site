@@ -1384,7 +1384,7 @@ def render_food_chart(fc):
     # The chart as an asset rather than a page (2026-11-07).
     #
     # 哥飞's "free links" method: a thing other sites have a reason to reuse,
-    # with the credit link built into it. A 47-row reference table is exactly
+    # with the credit link built into it. A 48-row reference table is exactly
     # that, but only if a blogger can (a) take the data away, (b) print it as a
     # handout, and (c) paste it into their own page without asking us. All
     # three are here: CSV from the DOM (no second copy of the data to drift),
@@ -1409,7 +1409,7 @@ def render_food_chart(fc):
 html.embed .site-head,html.embed .site-foot,html.embed .crumbs,html.embed .eyebrow,
 html.embed .lede,html.embed .chart-tools,html.embed .embed-block,html.embed .cfc-bar{display:none!important}
 /* Pin the frame to the height the host gave it: without this the page keeps a
-   phantom 170px of scrollable height (the 47-row table's layout box is still
+   phantom 170px of scrollable height (the 48-row table's layout box is still
    counted even though .doc clips it), which shows up as a second scrollbar in
    the host's iframe. */
 html.embed,html.embed body{height:100vh;overflow:hidden;margin:0;padding:0}
@@ -1466,15 +1466,15 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
         '<div class="callout embed-block">'
         '<p style="font-size:12.5px;word-break:break-all">&lt;iframe src="https://wagwise.org'
         + fc["url"] + '?embed=1" width="100%" height="780" style="border:1px solid #e3e0d8;'
-        'border-radius:14px" title="Foods dogs can eat: 47-food safety chart"&gt;&lt;/iframe&gt;</p>'
+        'border-radius:14px" title="Foods dogs can eat: 48-food safety chart"&gt;&lt;/iframe&gt;</p>'
         '<p style="font-size:12.5px;word-break:break-all">&lt;p&gt;Chart by &lt;a href="https://wagwise.org'
-        + fc["url"] + '"&gt;WagWise Pet&lt;/a&gt; &mdash; all 47 foods, four risk tiers, '
+        + fc["url"] + '"&gt;WagWise Pet&lt;/a&gt; &mdash; all 48 foods, four risk tiers, '
         'each row with the dose that decides it.&lt;/p&gt;</p>'
         '</div>\n'
     )
 
     credit = ('<p class="embed-credit">Chart by <a href="https://wagwise.org' + fc["url"] + '">'
-              'WagWise Pet</a> &mdash; 47 foods, four risk tiers, the dose that decides each one.</p>')
+              'WagWise Pet</a> &mdash; 48 foods, four risk tiers, the dose that decides each one.</p>')
 
     script = """
 <script>
@@ -1532,7 +1532,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
         + tools
         # The whole reference block sits inside .doc: the table styles
         # (.doc table / th / td) are scoped to that wrapper, so without it the
-        # 47-row chart renders as unstyled text with no cell padding.
+        # 48-row chart renders as unstyled text with no cell padding.
         + '<div class="doc">\n'
         + fc["head"] + tiers + fc["tail"] + embed_block + CHART_RELATED_TOOLS +
         '\n</div>\n' + credit + script + '</div>'
@@ -1714,12 +1714,13 @@ def render_tools_hub():
     of the per-page boilerplate nav link that was removed on 11-04).
     """
     jsonld = site_jsonld()
+    _bc = breadcrumb_jsonld([("Home", "/"), ("Tools", "/tools/")])
     h = head(
         "WagWise Tools — Dog Age, Food, Chocolate & Toxicity",
         "Free dog tools: a dog-age converter, a daily-food calculator, a "
         "chocolate-toxicity dose tool, a 7-food poisoning dose calculator, and "
-        "the 47-food safety chart.",
-        "/tools/", jsonld, "website")
+        "the 48-food safety chart.",
+        "/tools/", jsonld, "website", None, _bc)
     _tools = [
         (TOOL["url"], "TOOL", TOOL["title"], TOOL["description"]),
         (TOOL_CHOCO["url"], "TOOL", TOOL_CHOCO["title"], TOOL_CHOCO["description"]),
@@ -1732,10 +1733,11 @@ def render_tools_hub():
         cards += hub_card(_url, _k, _t, _d, _url.strip("/").replace("/", "-"))
     body = (
         '<div class="wrap">\n'
+        '  <div class="crumbs"><a href="/">Home</a> \u203a Tools</div>\n'
         '  <div class="eyebrow">TOOLS</div>\n'
         '  <h1>Tools &amp; calculators</h1>\n'
         '  <p class="lede">Free, plain-language dog tools you can use right now '
-        '&mdash; and one chart that turns 47 foods into a single answer.</p>\n'
+        '&mdash; and one chart that turns 48 foods into a single answer.</p>\n'
         '  <div class="hub">' + cards + '</div>\n'
         "</div>"
     )

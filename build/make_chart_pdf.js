@@ -14,7 +14,7 @@ const puppeteer = require('puppeteer-core');
 
 /* Two products come out of this script.
 
-   Default: the six-page handout, the whole 47-food list. That is the document
+   Default: the six-page handout, the whole 48-food list. That is the document
    you email to someone who asked for everything.
 
    --poster: one A4 page, the seven foods that have no safe dose. A kennel does
@@ -38,7 +38,7 @@ const PRINT_CSS = `
 
   /* the paper header, injected as a pseudo element so the DOM stays as-is */
   main .wrap.narrow::before {
-    content: "WagWise Pet  ·  Foods dogs can eat  ·  47 foods, four risk tiers  ·  reviewed 2 November 2026  ·  wagwise.org";
+    content: "WagWise Pet  ·  Foods dogs can eat  ·  48 foods, four risk tiers  ·  reviewed 2 November 2026  ·  wagwise.org";
     display: block;
     font-size: 8.5pt;
     letter-spacing: .01em;
@@ -187,7 +187,7 @@ const POSTER_CSS = `
       tail.innerHTML =
         '<p class="rule">Remove the food. Keep the packaging. Call your vet or the nearest emergency clinic, ' +
         'and have the dog\'s weight and roughly how much was eaten ready. Do not make the dog vomit unless a vet tells you to.</p>' +
-        '<p class="meta">The full chart — 47 foods in four risk tiers, one dose per row — is at ' +
+        '<p class="meta">The full chart — 48 foods in four risk tiers, one dose per row — is at ' +
         '<b>wagwise.org/dog-nutrition/food-safety-chart</b>. Figures checked against the references listed on that page, ' +
         '2 November 2026, and re-checked when a source changes. General information, not veterinary advice.</p>';
       holder.appendChild(tail);

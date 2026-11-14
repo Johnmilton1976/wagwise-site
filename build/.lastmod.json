@@ -300,12 +300,12 @@
   "h": "5e48a42057fdf761977142416da860c0cdcadaa2"
  },
  "public/dog-nutrition/food-safety-chart/index.html": {
-  "d": "2026-11-12",
-  "h": "26db14ae65ec51deb5fc524f17ca785991b74854"
+  "d": "2026-11-14",
+  "h": "97afafac1c24608b304db8cbd5637cea30db9743"
  },
  "public/dog-nutrition/foods-toxic-to-dogs/index.html": {
-  "d": "2026-11-08",
-  "h": "68bfaeca98a38eb14adb6f0e938cb8262b843e15"
+  "d": "2026-11-14",
+  "h": "81f6026824ccc4d9e0f9decca97eccec4931adf0"
  },
  "public/dog-nutrition/how-much-to-feed-my-dog/index.html": {
   "d": "2026-11-12",
@@ -348,23 +348,23 @@
   "h": "92e873234cb655c78ba787643f49fe726bd25fa1"
  },
  "public/tools/chocolate-toxicity-calculator/index.html": {
-  "d": "2026-11-07",
-  "h": "ad9725ce7a51ba54f08f30409e323a2e4dd6c0a4"
+  "d": "2026-11-14",
+  "h": "5bc4002a323e613c1e300ebd03b6cc48652d1611"
  },
  "public/tools/dog-age-calculator/index.html": {
   "d": "2026-11-14",
   "h": "315ab5a1dd02cd5231eb2ed50ebb574ae3329970"
  },
  "public/tools/dog-food-calculator/index.html": {
-  "d": "2026-11-07",
-  "h": "84fb4cff9e77d9e097e9ec664597cc52bc9cf368"
+  "d": "2026-11-14",
+  "h": "bbc8ecc1d2a59db4407e8a9bf8827a36c9b830ab"
  },
  "public/tools/index.html": {
-  "d": "2026-11-12",
-  "h": "65dfbba63ecf13b2fdd91466e9c460af0c76636f"
+  "d": "2026-11-14",
+  "h": "668fcf2dd2eaf5b9c6c2eec3044a58a678e00038"
  },
  "public/tools/toxic-food-dose-calculator/index.html": {
-  "d": "2026-11-08",
-  "h": "e715e2bac584d73c814c7480f969115611590b0d"
+  "d": "2026-11-14",
+  "h": "0fa1075811d6245389b43e37decd704a3867ee66"
  }
 }

@@ -1,5 +1,5 @@
 /* Click "Download the data (CSV)" and parse the blob back with real CSV rules,
-   so the export contract (47 rows, five columns, a Source URL on every row,
+   so the export contract (48 rows, five columns, a Source URL on every row,
    no tier legend posing as a food) is checked by something other than the eye.
 
    Usage: NODE_PATH=./node_modules node _check_csv_export.js [baseUrl]
@@ -65,12 +65,12 @@ function parse(txt) {
   console.log('--- 最后 2 行 ---'); body.slice(-2).forEach(r => console.log('  ', JSON.stringify(r)));
 
   const ok = rows[0].length === 5
-    && body.length === 47
+    && body.length === 48
     && body.every(r => r.length === 5)
     && body.every(r => /\/dog-nutrition\/can-dogs-eat-/.test(r[4] || ''))
     && body.every(r => /^Tier [1-4]$/.test(r[0]))
     && !body.some(r => /^Tier/.test(r[1]));
-  console.log(ok ? 'PASS 47 行 × 5 列，Tier 规整，每行带来源' : 'FAIL 导出不符合契约');
+  console.log(ok ? 'PASS 48 行 × 5 列，Tier 规整，每行带来源' : 'FAIL 导出不符合契约');
   await b.close();
   process.exit(ok ? 0 : 1);
 })();

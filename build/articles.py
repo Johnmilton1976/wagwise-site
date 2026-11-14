@@ -1090,7 +1090,7 @@ ARTICLES = [
         </table>
 <p>Every row on this page is a dose, not a verdict, and the ones where the arithmetic changes the answer are all in one place: the <a href="/tools/toxic-food-dose-calculator/">toxic food dose calculator</a> converts xylitol, grapes, onion, garlic, macadamia, caffeine and alcohol into grams or milligrams per kilogram for your dog's weight.</p>
 
-        <h2>All 47 foods we cover, verdict at a glance</h2>
+        <h2>All 48 foods we cover, verdict at a glance</h2>
         <p>The tier table above sorts the dangerous half by how fast you have to act. This is the other half of the question owners actually type: the full list of every food we have a guide for, sorted by verdict. Each line links to the full write-up with doses, symptoms, and serving sizes.</p>
         <h3>Never — toxic or dangerous in any amount</h3>
         <table>
@@ -1137,6 +1137,7 @@ ARTICLES = [
           <tr><td><a href="/dog-nutrition/can-dogs-eat-blueberries/">Blueberries</a></td><td>Among the safest treats you can give: low calorie, high antioxidant.</td></tr>
           <tr><td><a href="/dog-nutrition/can-dogs-eat-strawberries/">Strawberries</a></td><td>Safe in moderation; the natural sugar adds up.</td></tr>
           <tr><td><a href="/dog-nutrition/can-dogs-eat-watermelon/">Watermelon</a></td><td>Red flesh only; no rind and no seeds.</td></tr>
+          <tr><td><a href="/dog-nutrition/can-dogs-eat-oranges/">Oranges</a></td><td>Peeled flesh, seeds out — no peel and no pith; a segment or two is a treat.</td></tr>
           <tr><td><a href="/dog-nutrition/can-dogs-eat-carrots/">Carrots</a></td><td>One of the best treats: low-calorie, high-fiber, and good for teeth.</td></tr>
           <tr><td><a href="/dog-nutrition/can-dogs-eat-cucumber/">Cucumber</a></td><td>Near-zero-calorie crunch that is mostly water.</td></tr>
           <tr><td><a href="/dog-nutrition/can-dogs-eat-green-beans/">Green beans</a></td><td>Plain, raw or cooked; a staple of canine weight-loss diets.</td></tr>
@@ -7782,7 +7783,7 @@ TOOL_TOXIN = {
 }
 
 # ---------------------------------------------------------------------------
-# Reference asset: the 47-food safety chart (2026-11-02).
+# Reference asset: the 48-food safety chart (2026-11-02, extended 11-12).
 #
 # Why this page exists: 47 separate "can dogs eat X" pages answer one question
 # each, but nobody lands on them with a specific food in mind — they land with
@@ -7883,12 +7884,12 @@ FOOD_CHART = {
     ],
     "head": """
 <div class="eyebrow">REFERENCE</div>
-<h1>Foods dogs can eat — and the 47 that need a second look</h1>
+<h1>Foods dogs can eat — and the 48 that need a second look</h1>
 <p class="lede">Most "can my dog eat this" charts give two answers — safe or toxic. That is not the question anyone actually has at nine in the evening with a dog watching them eat. The question is <em>how much</em>, and <em>which part</em>. Here are all 48 foods in four risk tiers, each row carrying the number that decides it.</p>
 <p class="print-credit">wagwise.org/dog-nutrition/food-safety-chart &nbsp;·&nbsp; reviewed 2 November 2026 &nbsp;·&nbsp; general information, not veterinary advice</p>
 
 <h2>The seven with no safe dose — the toxic end of the list</h2>
-<p>Seven of the 47 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>
+<p>Seven of the 48 foods have no established safe amount at all. They are not "more dangerous" in the abstract — they are dangerous in quantities that arrive by accident, which is a different problem from a food you simply should not over-feed.</p>
 <table>
 <thead><tr><th style="text-align:left">Food</th><th style="text-align:left">The dose that matters</th></tr></thead>
   <tr><td><a href="/dog-nutrition/can-dogs-eat-chocolate/">Chocolate</a></td><td>A 10 kg dog shows mild signs from 3&ndash;4 oz of milk chocolate, and from under half an ounce of baking chocolate — <a href="/tools/chocolate-toxicity-calculator/">run the dose</a> for your own dog's weight</td></tr>
