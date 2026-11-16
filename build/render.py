@@ -29,6 +29,12 @@ from toxin_tool import TOXIN_BODY  # noqa
 
 PLACEHOLDER = "wagwise.org"
 DOMAIN = "https://" + PLACEHOLDER
+
+# Single source of truth for the chart's row count. Every "one of N entries"
+# callout derives from the data, so adding or removing a row can never leave a
+# stale number behind (the 2026-11-15 fix synced 47 -> 48 by hand and this
+# callout was missed; deriving it kills the class of bug, not just the case).
+FOOD_COUNT = sum(len(t.get("rows", [])) for t in FOOD_CHART["tiers"])
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBLIC = os.path.join(ROOT, "public")
 IMG_DIR = os.path.join(PUBLIC, "assets", "img")
@@ -500,7 +506,7 @@ TOOL_CALLOUT = (
 CHART_CALLOUT = (
     '<div class="tool-cta" style="margin:26px 0;padding:16px 18px;border:1px solid #cfe8db;'
     'background:#F4FAF7;border-radius:10px;font-size:15px;line-height:1.65;color:#2c3a32">'
-    "<b>Quick reference:</b> this guide is one of 47 entries in the "
+    f"<b>Quick reference:</b> this guide is one of {FOOD_COUNT} entries in the "
     '<a href="/dog-nutrition/food-safety-chart/">dog food safety chart</a> \u2014 four '
     "risk tiers with the dose that matters, not just safe or toxic. For the emergency "
     'list, see <a href="/dog-nutrition/foods-toxic-to-dogs/">foods toxic to dogs</a>.</div>'
