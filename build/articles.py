@@ -2026,7 +2026,7 @@ ARTICLES = [
     {
         "slug": "best-dog-harness-for-pulling",
         "pillar": "best",
-        "title": "Best Dog Harness for Pulling — Types, Sizing, Front vs Back",
+        "title": "Best Front Clip Dog Harness for Pulling — Types, Sizing & Fit",
         "url": "/best/dog-harness-for-pulling/",
         "description": "Only a front-clip harness reduces pulling. What the six harness types actually do, how to size one by chest girth, and the fit checks that keep a strong dog in it.",
         "lede": "A front-clip harness turns a pulling dog back toward you, which gently discourages leaning in. We favor padded, adjustable, easy-on designs over trendy ones.",
