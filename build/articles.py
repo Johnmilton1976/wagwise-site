@@ -5382,7 +5382,7 @@ ARTICLES = [
             ("Cornell Riney Canine Health Center — Canine Health Information",
              "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"),
             ("USDA FoodData Central — Raw Orange",
-             "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169097/nutrients"),
+             "https://fdc.nal.usda.gov/"),
             ("American Kennel Club — Can Dogs Eat Oranges?",
              "https://www.akc.org/expert-advice/nutrition/can-dogs-eat-oranges/"),
         ],
