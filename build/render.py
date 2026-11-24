@@ -1708,6 +1708,7 @@ def render_sitemap():
         '  <div class="eyebrow">SITE INDEX</div>\n'
         '  <h1>All guides &amp; tools</h1>\n'
         '  <p class="lede">One page that links to every guide, review and tool on WagWise Pet.</p>\n'
+        '  <h2>Every page, grouped by section</h2>\n'
         '  <div class="hub">' + cards + '</div>\n'
         "</div>"
     )
@@ -1744,6 +1745,7 @@ def render_tools_hub():
         '  <h1>Tools &amp; calculators</h1>\n'
         '  <p class="lede">Free, plain-language dog tools you can use right now '
         '&mdash; and one chart that turns 48 foods into a single answer.</p>\n'
+        '  <h2>All tools &amp; reference charts</h2>\n'
         '  <div class="hub">' + cards + '</div>\n'
         "</div>"
     )
