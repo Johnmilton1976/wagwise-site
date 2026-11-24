@@ -204,7 +204,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     <p>Above about 100&nbsp;mg per kg of body weight for hypoglycaemia and above 500&nbsp;mg per kg for liver failure, with gut decontamination recommended from 50&nbsp;mg per kg. For a 10&nbsp;kg dog that is 1&nbsp;g to 5&nbsp;g — two to ten pieces of typical sugar-free gum.</p>
     <h3>How many grapes will hurt a dog?</h3>
     <p>There is no established number, which is the point. Some dogs have eaten a kilogram of raisins without signs and others have died from a handful, and the lowest recorded raisin dose causing kidney failure is around 2.8&nbsp;g per kg. Any ingestion is treated as an exposure.</p>
-    <h3>Is a little bit of onion or garlic dangerous?</h3>
+    <h3>Is a little bit of onion or garlic dangerous to a dog?</h3>
     <p>For dogs the published onion threshold is 15 to 30&nbsp;g per kg in a single dose, and garlic is 3 to 5 times more toxic per gram. A small amount once is rarely an emergency, but the damage is cumulative — regular table scraps with onion or garlic do what one large dose does.</p>
     <h3>How much alcohol will kill a dog?</h3>
     <p>The lethal oral dose is 5.5 to 7.9&nbsp;g of pure ethanol per kg. Since a millilitre of ethanol weighs 0.789&nbsp;g, that is about 25&nbsp;mL of 40% spirits for a 1&nbsp;kg dog and roughly 750&nbsp;mL for a 30&nbsp;kg dog — the small end arrives by accident.</p>
