@@ -1914,12 +1914,60 @@ ARTICLES = [
     {
         "slug": "best-dog-crate",
         "pillar": "best",
-        "title": "Best Dog Crate 2026 — Size by Weight, 18 to 48 Inches",
+        "title": "Best Dog Crate 2026: 5 Picks by Size & Price",
         "url": "/best/dog-crate/",
-        "description": "Best dog crate picks for 2026: wire crates with dividers for puppies, solid plastic for anxious dogs and travel, plus the sizing rule that decides which one.",
-        "lede": "The best crate is the one your dog accepts and you can clean easily. We prefer sturdy wire crates with a divider for puppies and a secure plastic crate for travel.",
+        "description": "The 5 best dog crates for 2026 compared: prices, sizes, dividers and failure modes for the MidWest iCrate, Ultima Pro, Amazon Basics, Petmate Sky Kennel and Gunner G1.",
+        "lede": "Five crates cover almost every dog: a divider wire crate for a puppy, a heavier wire crate for a strong dog, a budget folding crate, an airline plastic crate, and a crash-tested box for serious road miles. Sizes and price bands below.",
         "eyebrow": "REVIEWS",
         "body": """
+        <h2>The 5 best dog crates for 2026</h2>
+        <p>Quick compare — then each pick in detail. Price bands are typical US retail ranges and move around; the link under each pick goes to where you can check today's price.</p>
+        <table>
+          <thead><tr><th>Model</th><th>Type</th><th>Sizes</th><th>Rough price</th><th>Best for</th></tr></thead>
+          <tbody>
+            <tr><td>MidWest iCrate</td><td>Folding wire + divider</td><td>18–48 in</td><td>$30–$85</td><td>Puppies and most homes</td></tr>
+            <tr><td>MidWest Ultima Pro</td><td>Heavy-gauge wire</td><td>22–54 in</td><td>$70–$140</td><td>Strong or large dogs</td></tr>
+            <tr><td>Amazon Basics Folding Metal</td><td>Budget wire</td><td>Small–XL</td><td>$35–$90</td><td>Tight budget</td></tr>
+            <tr><td>Petmate Sky Kennel</td><td>Solid plastic</td><td>21–48 in</td><td>$90–$260</td><td>Air travel, anxious dogs</td></tr>
+            <tr><td>Gunner G1</td><td>Crash-tested plastic</td><td>S–XL</td><td>$400–$800</td><td>Regular car travel</td></tr>
+          </tbody>
+        </table>
+        <h3>1. MidWest iCrate — best for a puppy (and most homes)</h3>
+        <p>A folding wire crate with a divider panel and a removable floor tray. Shrink the space now, expand it as the puppy grows — no second purchase. The single most-bought crate in the US for a reason.</p>
+        <ul>
+          <li><strong>Pros:</strong> divider included in most sizes, fold-flat storage, wide size range, the usual budget starting point.</li>
+          <li><strong>Watch for:</strong> confirm your size actually ships with the divider; bar spacing is wide for toy breeds — measure before trusting it with a small puppy.</li>
+        </ul>
+        <p><a href="https://www.amazon.com/s?k=midwest+icrate+folding+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current iCrate prices on Amazon &rarr;</a></p>
+        <h3>2. MidWest Ultima Pro — best for strong or large dogs</h3>
+        <p>The iCrate's heavier-gauge sibling: thicker bars, a stronger door panel, and a tougher tray. The step-up once a dog has bent a standard crate or is a known puller on the door panel.</p>
+        <ul>
+          <li><strong>Pros:</strong> noticeably thicker wire than the standard iCrate, tighter lockable latches, sizes up to extra-large breeds.</li>
+          <li><strong>Watch for:</strong> heavier to move and fold; still wire, so it is not a solution for separation anxiety.</li>
+        </ul>
+        <p><a href="https://www.amazon.com/s?k=midwest+ultima+pro+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current Ultima Pro prices on Amazon &rarr;</a></p>
+        <h3>3. Amazon Basics Folding Metal — best on a tight budget</h3>
+        <p>The generic folding wire crate that undercuts the name brands. Does the same job; the differences show up in the details, so inspect rather than assume.</p>
+        <ul>
+          <li><strong>Pros:</strong> lowest price per size, folds flat, widely stocked so replacements are easy.</li>
+          <li><strong>Watch for:</strong> check bar spacing and the latch on arrival — cheap single-point latches are the most common escape point (see the failure table below).</li>
+        </ul>
+        <p><a href="https://www.amazon.com/s?k=amazonbasics+folding+metal+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current Amazon Basics crate prices &rarr;</a></p>
+        <h3>4. Petmate Sky Kennel — best for air travel and anxious dogs</h3>
+        <p>A solid plastic crate that meets most airline container rules and feels den-like to a dog that startles at movement. The hardware accepts tie-downs for flights and car use.</p>
+        <ul>
+          <li><strong>Pros:</strong> long-standing airline-container standard, ventilation on all four sides, takes tie-down hardware.</li>
+          <li><strong>Watch for:</strong> verify your airline's current container rules and your dog's standing height in the size you pick; plastic in direct sun or a warm car is a real heat risk.</li>
+        </ul>
+        <p><a href="https://www.amazon.com/s?k=petmate+sky+kennel" rel="nofollow sponsored noopener" target="_blank">Check current Sky Kennel prices on Amazon &rarr;</a></p>
+        <h3>5. Gunner G1 — best when you actually drive a lot</h3>
+        <p>A double-wall rotationally molded plastic crate with published crash-test claims and anchor hardware. The premium option for people who regularly travel on roads at speed with the dog secured.</p>
+        <ul>
+          <li><strong>Pros:</strong> double-wall construction, dedicated anchor points, the brand most often named in crash-test discussions.</li>
+          <li><strong>Watch for:</strong> the price is several standard crates; always verify which published standard the crash test cites before paying a premium for the word "tested".</li>
+        </ul>
+        <p><a href="https://gunner.com/" rel="nofollow noopener" target="_blank">Check the Gunner G1 on gunner.com &rarr;</a></p>
+
         <h2>How these picks were made — and what they are not</h2>
         <p>No crate was bought, destroyed, or crash-tested for this page. There is no laboratory here and nobody on the team is a veterinary behaviourist.</p>
         <p>What these picks are based on: published internal dimensions against the sizing rule below, the failure modes that show up repeatedly in owner reports and veterinary behaviour literature (latch failure, bar spacing, floor tray collapse, plastic becoming brittle in cold), and the ergonomics of actually cleaning a crate twice a week for a year.</p>
@@ -1952,26 +2000,8 @@ ARTICLES = [
         </table>
         <p>Treat any weight chart as the start of the decision, not the end of it: two dogs of the same weight can differ by 10 cm at the shoulder, and the standing-height rule outranks the chart every time.</p>
 
-        <h2>Our picks by need</h2>
-        <h3>Best dog crate for a puppy: wire, with a divider</h3>
-        <p>A wire crate with a divider panel and a removable floor tray. Shrink it now, expand as the dog grows, no second purchase. Look for bar spacing under 4 cm for a small breed — a puppy can squeeze its head between wider bars.</p>
-        <h3>Best dog crate for an anxious dog: solid plastic</h3>
-        <p>A solid plastic crate, because it feels more den-like and blocks visual triggers. The trade-off is ventilation and heat: a plastic crate in direct sun or a warm car is a genuine risk, so never use one as a sun shelter.</p>
-        <h3>Best dog crate for car travel: crash-tested and anchored</h3>
-        <p>A crash-tested plastic crate, anchored with a seatbelt or a strap through the crate's designated anchor points. "Crash tested" should mean tested to a published standard — not a marketing phrase on the box.</p>
-        <h3>Best dog crate for home and travel together: two crates, not one</h3>
-        <p>A wire crate for the house plus a soft travel crate only if the dog is not a chewer. A determined chewer will go through fabric in minutes, and the zips are the first thing to fail.</p>
-        <h3>Models that keep coming up — what they are, and what to verify</h3>
-        <p>Named examples only, since this page takes no affiliate money and endorses nobody: these are widely stocked models whose specifications illustrate each category. Verify current specifications with the maker before buying — models get revised.</p>
-        <table>
-          <thead><tr><th>Example model</th><th>Category</th><th>Why it comes up</th><th>Verify before buying</th></tr></thead>
-          <tbody>
-            <tr><td>MidWest iCrate / Ultima Pro</td><td>Wire, with divider</td><td>Divider panel included in most sizes, fold-flat storage, the usual budget starting point</td><td>That your size actually ships with the divider; bar spacing if you have a small breed</td></tr>
-            <tr><td>Petmate Sky Kennel</td><td>Solid plastic, travel</td><td>Long-standing airline-container standard, hardware that takes tie-downs</td><td>Your airline's current container rules; ventilation if it ever sits in sun</td></tr>
-            <tr><td>Gunner G1 · MIM Variocage · Impact</td><td>Crash-tested travel</td><td>The brands most often named in crash-test discussions; double-wall construction and anchor hardware</td><td>Whether a published test standard is cited — and which one; "crash tested" alone is marketing</td></tr>
-          </tbody>
-        </table>
-        <p>Prices move around and we link to none of them. What we would check before spending: the divider in your size, the latch design on the door panel, and — for anything called crash tested — the actual standard behind the claim.</p>
+        <h2>Which crate fits which dog</h2>
+        <p><strong>Puppy or first crate:</strong> the iCrate, because the divider is the feature that makes adult sizing work — buy the adult size, shrink it now, expand later. <strong>Strong dog or known escape artist:</strong> the Ultima Pro's heavier gauge, plus the latch checklist below; if the dog has already broken out of a standard crate, no crate is the answer — the real fix is a behaviour plan. <strong>Anxious dog:</strong> a solid plastic crate such as the Sky Kennel, which feels more den-like and blocks visual triggers. <strong>Regular car travel:</strong> a crash-tested crate like the Gunner G1, anchored properly — and "crash tested" must mean a published standard, not a phrase on the box. <strong>Tight budget:</strong> the Amazon Basics crate does the same job as the iCrate; check bar spacing and latch quality before paying less.</p>
 
         <h2>The failure modes worth checking before you buy</h2>
         <table>
@@ -2009,7 +2039,7 @@ ARTICLES = [
             ("Should I put a bed in the crate?", "Yes, once the dog is not chewing it. A flat bed or vet-bed lining is safer than a thick cushion for a puppy that shreds things."),
             ("How do I stop my dog escaping the crate?", "Check the latch first — most escapes are latch failures, not strength. Then look at whether separation anxiety is the real cause, because no crate fixes that."),
             ("Can a crate be too big?", "For a puppy, yes. Too much space lets the puppy toilet in one corner and sleep in another, which undoes house training. Use a divider."),
-            ("Do you earn a commission from these picks?", "No. There are no affiliate links on this page and we earn nothing from it. The picks are based on published dimensions and known failure modes, not on laboratory testing."),
+            ("Do you earn a commission from these picks?", "If you buy through a link on this page we may earn a commission at no extra cost to you. The picks are ranked by published dimensions, price and known failure modes — never by commission rate."),
         ],
         "related": ["how-to-crate-train-a-puppy", "best-dog-harness-for-pulling", "how-to-leash-train-a-dog"],
         "sources": [
@@ -2020,7 +2050,7 @@ ARTICLES = [
             ("Merck Veterinary Manual — Behavior of Dogs",
              "https://www.merckvetmanual.com/dog-owners/behavior-of-dogs"),
         ],
-        "disclaimer": "We have no affiliate links on this page and earn nothing from these picks. Recommendations are based on published specifications and common failure modes, not laboratory testing.",
+        "disclaimer": "If you buy through a link on this page we may earn a commission at no extra cost to you. Picks are based on published specifications, price bands and common failure modes — not laboratory testing or commission rates.",
     },
 
     {
@@ -7125,6 +7155,16 @@ ARTICLES = [
         </table>
         <div class="callout">An automatic feeder that opens at 5 a.m. breaks the link between <em>you</em> and breakfast — the single most effective fix for food-driven dawn calling. It also removes you from the equation entirely, which is the point.</div>
 
+        <h2>The three fixes compared</h2>
+        <p>Most advice names one fix and implies it fixes everything. It does not. Here is what each of the three main interventions actually does, so you start with the one that matches your cat's cause.</p>
+        <table>
+          <tr><th style="text-align:left">Fix</th><th style="text-align:left">What it actually fixes</th><th style="text-align:left">Cost</th><th style="text-align:left">Works within</th><th style="text-align:left">Won't help</th></tr>
+          <tr><td>Evening play-and-feed routine (above)</td><td>Energy-driven and habit-driven calling — the most common cause in young cats</td><td>Free</td><td>1–2 weeks, after ~3 louder nights</td><td>Medical calling; hunger on its own</td></tr>
+          <tr><td>Automatic timed feeder</td><td>Food-driven dawn calling — breaks the <em>you bring breakfast</em> link</td><td>Roughly $25–$60</td><td>A few days once set</td><td>Boredom, habit or illness calling</td></tr>
+          <tr><td>Pheromone diffuser</td><td>Anxiety-linked calling after a move, a new pet or a territory change</td><td>Roughly $20–$40 plus refills</td><td>1–4 weeks</td><td>Hunger or pure excess energy — the evidence here is weaker, and it is not a substitute for the routine</td></tr>
+        </table>
+        <p>The order matters: the routine costs nothing and covers the most cases, so start there. Add the timed feeder if breakfast is the trigger. The diffuser is for the anxiety subset — after a move or a new pet — and works alongside the routine, not instead of it.</p>
+
         <h2>When night meowing means illness</h2>
         <p>A sudden change — a cat that never called at night now yowling loudly — deserves a vet visit before any behaviour plan. In cats over about seven, increased night-time vocalising is a recognised sign of several treatable conditions. These are the ones a vet will typically work through:</p>
         <ul>
@@ -7210,7 +7250,7 @@ ARTICLES = [
             "The feline health team at Cornell University's College of Veterinary Medicine",
             "The veterinary advisors at International Cat Care",
         ],
-        "checked": "2026-11-06",
+        "checked": "2026-11-25",
         "disclaimer": HEALTH_DISCLAIMER,
     },
     {
@@ -7294,7 +7334,7 @@ ARTICLES = [
 
         <h2>Stage 1 — Base camp, and a normal resident cat</h2>
         <p>Set the newcomer up in one room with everything: litter tray (one per cat plus one, remember), food and water away from the tray, hiding places, a scratching surface, warmth. The new cat needs days to decompress; the resident cat keeps their normal routine and gets their usual access to the rest of the home. Do not visit the base camp with the resident cat in your arms — you are carrying one cat's smell into the other's territory, in the worst possible format.</p>
-        <p>Expect the newcomer to hide, eat little and be vocal for the first day or two. A cat that will not eat at all for more than about 24–48 hours needs a vet, not more time.</p>
+        <p>Expect the newcomer to hide, eat little and be vocal for the first day or two — <a href="/cat/why-does-my-cat-meow-at-night/">excessive meowing</a> during introductions is stress working itself out, not a request to answer. A cat that will not eat at all for more than about 24–48 hours needs a vet, not more time.</p>
 
         <h2>Stage 2 — Scent swap</h2>
         <p>Before any visual contact, trade smells daily: swap bedding between rooms, and use the sock trick — stroke a clean sock along the new cat's cheek (where the scent glands are) and leave it in the resident cat's area, then repeat in reverse. Feed each cat near their side of the door so the other's smell starts arriving in a good context: dinner. If either cat hisses flatly at the sock or refuses to eat near the door, stay here and keep swapping.</p>
@@ -7378,7 +7418,7 @@ ARTICLES = [
 
         <h2>When to get help, and when it is not a behaviour problem</h2>
         <p>Escalate to a vet rather than a trainer first: <strong>sudden aggression in an older cat is often pain</strong> — arthritis, dental disease — or hyperthyroidism, and an irritable cat is sometimes an hurting cat. Fights that break skin need wound care; abscesses are the classic aftermath of cat fights and show up days later as a hot, painful swelling.</p>
-        <p>If medical causes are excluded and reintroduction stalls, a qualified feline behaviourist is the right next step. Persistent conflict with injuries is a welfare problem for both cats, not something to outlast.</p>
+        <p>If medical causes are excluded and reintroduction stalls, a qualified feline behaviourist is the right next step. Persistent conflict with injuries is a welfare problem for both cats, not something to outlast. Tension in a multi-cat home rarely stops at fighting — if one or both cats are also <a href="/cat/why-does-my-cat-meow-at-night/">meowing constantly at night</a>, the same resource-and-routine fixes usually quiet both problems.</p>
         """,
         "faq": [
             {
