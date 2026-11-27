@@ -1136,7 +1136,7 @@ html.embed .embed-credit{display:block;font-size:12.5px;color:#6b6f66;margin:8px
     <h2>When age matters most</h2>
     <p>As dogs move into the mature and senior ranges, a few things become worth watching: slower recovery after exercise, changes in appetite or water intake, and the onset of arthritis or dental disease. Our <a href="/dog-health/">dog health guides</a> explain what is urgent versus what can wait, and our <a href="/dog-care/">care and grooming guides</a> cover the at-home habits that keep older dogs comfortable.</p>
     <h2>Food questions owners ask next</h2>
-    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">can dogs drink milk</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>. If the puppy-or-senior answer changed how much the bowl should hold, the <a href="/tools/dog-food-calculator/">dog food calculator</a> takes the life stage as an input rather than as a paragraph.</p>
+    <p>Life stage changes what a dog can safely eat and how much. These are the guides owners open most after checking their dog's age: <a href="/dog-nutrition/can-dogs-eat-milk/">is milk good for dogs</a>, <a href="/dog-nutrition/can-dogs-eat-chocolate/">can dogs eat chocolate</a>, <a href="/dog-nutrition/can-dogs-eat-grapes/">can dogs eat grapes</a>, and <a href="/dog-nutrition/how-much-to-feed-my-dog/">how much to feed my dog</a>. If the puppy-or-senior answer changed how much the bowl should hold, the <a href="/tools/dog-food-calculator/">dog food calculator</a> takes the life stage as an input rather than as a paragraph.</p>
     <h2>Sources and review</h2>
     <ul>
       <li><strong><a href="https://www.avma.org/" rel="nofollow">American Veterinary Medical Association (AVMA)</a></strong> and the Cornell Riney Canine Health Center &mdash; the size-adjusted life-stage approximation this calculator and its reverse lookup use. Checked 14 November 2026.</li>
@@ -1661,6 +1661,17 @@ def build_sitemap(manifest):
 
 
 def write_page(file_path, html):
+    # Amazon Associates tag: set build/amazon_tag.txt to your tag (e.g. wagwise-20).
+    # Rendered into every Amazon link; absent file keeps links valid but untagged.
+    global _AMZ_TAG
+    if '_AMZ_TAG' not in globals():
+        tag_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "amazon_tag.txt")
+        raw = open(tag_file, encoding="utf-8").read().strip() if os.path.exists(tag_file) else ""
+        _AMZ_TAG = re.sub(r"[^A-Za-z0-9\-]", "", raw)  # Amazon tags: letters, digits, hyphen
+    if _AMZ_TAG:
+        html = html.replace("__AMZ_TAG__", _AMZ_TAG)
+    else:
+        html = html.replace("&tag=__AMZ_TAG__", "")
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(html)

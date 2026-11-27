@@ -1938,28 +1938,28 @@ ARTICLES = [
           <li><strong>Pros:</strong> divider included in most sizes, fold-flat storage, wide size range, the usual budget starting point.</li>
           <li><strong>Watch for:</strong> confirm your size actually ships with the divider; bar spacing is wide for toy breeds — measure before trusting it with a small puppy.</li>
         </ul>
-        <p><a href="https://www.amazon.com/s?k=midwest+icrate+folding+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current iCrate prices on Amazon &rarr;</a></p>
+        <p><a href="https://www.amazon.com/s?k=midwest+icrate+folding+dog+crate&tag=__AMZ_TAG__" rel="nofollow sponsored noopener" target="_blank">Check current iCrate prices on Amazon &rarr;</a></p>
         <h3>2. MidWest Ultima Pro — best for strong or large dogs</h3>
         <p>The iCrate's heavier-gauge sibling: thicker bars, a stronger door panel, and a tougher tray. The step-up once a dog has bent a standard crate or is a known puller on the door panel.</p>
         <ul>
           <li><strong>Pros:</strong> noticeably thicker wire than the standard iCrate, tighter lockable latches, sizes up to extra-large breeds.</li>
           <li><strong>Watch for:</strong> heavier to move and fold; still wire, so it is not a solution for separation anxiety.</li>
         </ul>
-        <p><a href="https://www.amazon.com/s?k=midwest+ultima+pro+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current Ultima Pro prices on Amazon &rarr;</a></p>
+        <p><a href="https://www.amazon.com/s?k=midwest+ultima+pro+dog+crate&tag=__AMZ_TAG__" rel="nofollow sponsored noopener" target="_blank">Check current Ultima Pro prices on Amazon &rarr;</a></p>
         <h3>3. Amazon Basics Folding Metal — best on a tight budget</h3>
         <p>The generic folding wire crate that undercuts the name brands. Does the same job; the differences show up in the details, so inspect rather than assume.</p>
         <ul>
           <li><strong>Pros:</strong> lowest price per size, folds flat, widely stocked so replacements are easy.</li>
           <li><strong>Watch for:</strong> check bar spacing and the latch on arrival — cheap single-point latches are the most common escape point (see the failure table below).</li>
         </ul>
-        <p><a href="https://www.amazon.com/s?k=amazonbasics+folding+metal+dog+crate" rel="nofollow sponsored noopener" target="_blank">Check current Amazon Basics crate prices &rarr;</a></p>
+        <p><a href="https://www.amazon.com/s?k=amazonbasics+folding+metal+dog+crate&tag=__AMZ_TAG__" rel="nofollow sponsored noopener" target="_blank">Check current Amazon Basics crate prices &rarr;</a></p>
         <h3>4. Petmate Sky Kennel — best for air travel and anxious dogs</h3>
         <p>A solid plastic crate that meets most airline container rules and feels den-like to a dog that startles at movement. The hardware accepts tie-downs for flights and car use.</p>
         <ul>
           <li><strong>Pros:</strong> long-standing airline-container standard, ventilation on all four sides, takes tie-down hardware.</li>
           <li><strong>Watch for:</strong> verify your airline's current container rules and your dog's standing height in the size you pick; plastic in direct sun or a warm car is a real heat risk.</li>
         </ul>
-        <p><a href="https://www.amazon.com/s?k=petmate+sky+kennel" rel="nofollow sponsored noopener" target="_blank">Check current Sky Kennel prices on Amazon &rarr;</a></p>
+        <p><a href="https://www.amazon.com/s?k=petmate+sky+kennel&tag=__AMZ_TAG__" rel="nofollow sponsored noopener" target="_blank">Check current Sky Kennel prices on Amazon &rarr;</a></p>
         <h3>5. Gunner G1 — best when you actually drive a lot</h3>
         <p>A double-wall rotationally molded plastic crate with published crash-test claims and anchor hardware. The premium option for people who regularly travel on roads at speed with the dog secured.</p>
         <ul>
@@ -2911,10 +2911,10 @@ ARTICLES = [
     {
         "slug": "can-dogs-eat-milk",
         "pillar": "dog-nutrition",
-        "title": "Can Dogs Drink Milk? The Numbers Behind the Usual No",
+        "title": "Is Milk Good for Dogs? The Numbers Behind the Usual No",
         "url": "/dog-nutrition/can-dogs-eat-milk/",
-        "description": "Dog milk is 146 kcal per 100 ml; cow's milk is 64 and carries 1.4x the lactose. What that means for puppies, and why lactose-free changes less than you think.",
-        "lede": "Milk is not toxic, but it is the wrong food for a species that stopped making lactase at weaning \u2014 and the gap is measurable: cow's milk carries 44% of the energy of dog milk and 1.4 times its lactose.",
+        "description": "Is milk good for dogs? Dog milk is 146 kcal per 100 ml; cow's milk is 64 and carries 1.4x the lactose. What that means for puppies, and why lactose-free changes less than you think.",
+        "lede": "Is milk good for dogs? No, not as a drink: most adult dogs are lactose intolerant, small amounts are usually harmless, and milk is not a necessity. Cow's milk carries just 44% of the energy of dog milk and 1.4 times its lactose.",
         "eyebrow": "DOG NUTRITION",
         "body": """
         <h2>How this page was put together — and what it is not</h2>
@@ -2924,6 +2924,7 @@ ARTICLES = [
         <h2>Is milk good for dogs?</h2>
         <p>No, not as a drink. Milk is not toxic, and a lap of it will not poison a dog, but it is the wrong food for a species that stopped producing lactase at weaning. That is the whole answer, and the rest of this page is the arithmetic behind it &mdash; because "milk upsets dogs" is repeated everywhere and almost never quantified, which leaves owners guessing whether a splash in the bowl matters.</p>
         <p>The honest version: most adult dogs handle a small amount without symptoms, a minority react to any dairy at all, and nobody can tell you which dog yours is without trying it. What can be measured is how much lactose, protein and energy is actually in the bowl, and how far that is from what a dog is built to digest.</p>
+        <p><b>Should you give dogs milk?</b> Not as a drink or a daily addition. A tablespoon as a taste is fine for most adult dogs, but water is what they actually need. <b>Is cow's milk bad for dogs?</b> It is not poisonous, but it is the wrong composition: less than half the energy of dog milk with 1.4 times the lactose. <b>Can I give my dog milk to drink?</b> If your dog has never shown a dairy reaction, a small splash is unlikely to hurt; if it has, skip it entirely &mdash; there is nothing in milk a complete diet does not already provide.</p>
 
         <h2>What is actually in the bowl</h2>
         <p>Mother dog's milk is the reference point, because it is the only milk a dog's gut evolved to process. Set cow's milk and goat's milk beside it and the "just give them a little" advice starts to look like a compromise rather than a plan.</p>
